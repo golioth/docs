@@ -3,6 +3,7 @@
 
 # Production
 /build
+.firebase/
 
 # Generated files
 .docusaurus
