@@ -1,6 +1,5 @@
 ---
 id: goliothctl_logout
-date: 2021-02-05T11:04:45-04:00
 title: "goliothctl logout"
 slug: goliothctl_logout
 sidebar_label: goliothctl logout

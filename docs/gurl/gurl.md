@@ -1,6 +1,5 @@
 ---
 id: gurl
-date: 2021-02-05T11:04:45-04:00
 title: "gurl"
 slug: gurl
 sidebar_label: gurl

@@ -1,6 +1,5 @@
 ---
 id: goliothctl_project_create
-date: 2021-02-05T11:04:45-04:00
 title: "goliothctl project create"
 slug: goliothctl_project_create
 sidebar_label: goliothctl project create

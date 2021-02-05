@@ -1,6 +1,5 @@
 ---
 id: goliothctl
-date: 2021-02-05T11:04:45-04:00
 title: "goliothctl"
 slug: goliothctl
 sidebar_label: goliothctl
@@ -14,28 +13,6 @@ goliothctl is a golioth API cli
 ### Synopsis
 
 You can access golioth API through this cli.
-```jsx live
-function Clock(props) {
-  const [date, setDate] = useState(new Date());
-  useEffect(() => {
-    var timerID = setInterval(() => tick(), 1000);
-
-    return function cleanup() {
-      clearInterval(timerID);
-    };
-  });
-
-  function tick() {
-    setDate(new Date());
-  }
-
-  return (
-    <div>
-      <h2>It is {date.toLocaleTimeString()}.</h2>
-    </div>
-  );
-}
-```
 
 ```
 goliothctl [flags]

@@ -1,6 +1,5 @@
 ---
 id: gurl_coap
-date: 2021-02-05T11:04:45-04:00
 title: "gurl coap"
 slug: gurl_coap
 sidebar_label: gurl coap

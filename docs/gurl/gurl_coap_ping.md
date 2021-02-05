@@ -1,6 +1,5 @@
 ---
 id: gurl_coap_ping
-date: 2021-02-05T11:04:45-04:00
 title: "gurl coap ping"
 slug: gurl_coap_ping
 sidebar_label: gurl coap ping

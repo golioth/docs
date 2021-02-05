@@ -1,6 +1,5 @@
 ---
 id: goliothctl_project
-date: 2021-02-05T11:04:45-04:00
 title: "goliothctl project"
 slug: goliothctl_project
 sidebar_label: goliothctl project

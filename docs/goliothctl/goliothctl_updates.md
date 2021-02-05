@@ -1,6 +1,5 @@
 ---
 id: goliothctl_updates
-date: 2021-02-05T11:04:45-04:00
 title: "goliothctl updates"
 slug: goliothctl_updates
 sidebar_label: goliothctl updates

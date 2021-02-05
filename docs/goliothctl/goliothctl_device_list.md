@@ -1,6 +1,5 @@
 ---
 id: goliothctl_device_list
-date: 2021-02-05T11:04:45-04:00
 title: "goliothctl device list"
 slug: goliothctl_device_list
 sidebar_label: goliothctl device list

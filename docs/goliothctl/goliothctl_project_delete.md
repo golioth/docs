@@ -1,6 +1,5 @@
 ---
 id: goliothctl_project_delete
-date: 2021-02-05T11:04:45-04:00
 title: "goliothctl project delete"
 slug: goliothctl_project_delete
 sidebar_label: goliothctl project delete

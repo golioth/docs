@@ -1,6 +1,5 @@
 ---
 id: goliothctl_config
-date: 2021-02-05T11:04:45-04:00
 title: "goliothctl config"
 slug: goliothctl_config
 sidebar_label: goliothctl config

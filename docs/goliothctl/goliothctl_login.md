@@ -1,6 +1,5 @@
 ---
 id: goliothctl_login
-date: 2021-02-05T11:04:45-04:00
 title: "goliothctl login"
 slug: goliothctl_login
 sidebar_label: goliothctl login

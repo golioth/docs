@@ -1,6 +1,5 @@
 ---
 id: goliothctl_device_create
-date: 2021-02-05T11:04:45-04:00
 title: "goliothctl device create"
 slug: goliothctl_device_create
 sidebar_label: goliothctl device create
