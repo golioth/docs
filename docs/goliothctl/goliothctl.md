@@ -8,14 +8,30 @@ hide_title: true
 ---
 ## goliothctl
 
-goliothctl is a golioth API cli
+Manage Golioth platform resources and developer workflow.
 
 ### Synopsis
 
-You can access golioth API through this cli.
+The goliothctl CLI manages authentication, developer workflow, interactions with the platform, local configuration and more.
 
 ```
 goliothctl [flags]
+```
+
+### Examples
+
+```
+# List Projects
+goliothctl project list
+
+# Set current project
+goliothctl config set projectId my-first-project
+
+# List devices
+goliothctl device list
+
+# Provision device and credentials
+goliothctl provision --hwId "DE:AD:BE:EF" --name "My first device" --credId "deadbeef-id"  --psk "supersecret"
 ```
 
 ### Options
@@ -33,7 +49,7 @@ goliothctl [flags]
 * [goliothctl device](/docs/goliothctl/goliothctl_device/)	 - Access device information
 * [goliothctl login](/docs/goliothctl/goliothctl_login/)	 - Authenticate with golioth system
 * [goliothctl logout](/docs/goliothctl/goliothctl_logout/)	 - Remove credentials from local config
-* [goliothctl project](/docs/goliothctl/goliothctl_project/)	 - Access project information
+* [goliothctl project](/docs/goliothctl/goliothctl_project/)	 - Access and manage project information
 * [goliothctl provision](/docs/goliothctl/goliothctl_provision/)	 - Provision devices and credentials
 * [goliothctl updates](/docs/goliothctl/goliothctl_updates/)	 - Send/Trigger device updates
 

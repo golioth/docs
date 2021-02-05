@@ -1,5 +1,5 @@
 ---
-id: 3-authentication
+id: authentication
 title: Authentication
 ---
 
@@ -12,7 +12,7 @@ title: Authentication
 Run the command:
 
 ```
-$ goliothctl login
+goliothctl login
 ```
 
 This will redirect you to your default browser where you can login or create an account on our system.
@@ -28,5 +28,5 @@ After that you sucessfully authenticate into our system, you should be redirecte
 ## Step 3 (Optional): Log out and clean local storage
 
 ```
-$ goliothctl logout
+goliothctl logout
 ```

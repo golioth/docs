@@ -1,5 +1,5 @@
 ---
-id: 2-installing
+id: installing
 title: Installing
 ---
 

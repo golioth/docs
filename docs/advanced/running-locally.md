@@ -7,11 +7,13 @@ title: Running goliothd locally
 
 You need to install [MongoDB](https://docs.mongodb.com/manual/installation/) to run the backend services locally.
 
+We are gonna add support for running it with other databases in the future (even with just local files).
+
 ## Step 1: Environment Configuration
 
 There is an `.env.example` file on the project repository that you can base of to create a `.env` on the same folder that you run the `goliothd` daemon. This should be enough as your .env :
 
-```
+```bash
 # Logs
 LOG_CONFIG=stdout
 LOG_LEVEL=debug
@@ -29,7 +31,7 @@ COAP_PORT=
 Run the command:
 
 ```
-$ goliothd
+goliothd
 ```
 
 You should see some logs on the terminal like this:
@@ -48,6 +50,6 @@ By default `goliothctl` points to the hosted version. To be able to interact wit
 goliothctl config set apiUrl http://localhost:9090
 ```
 
-:::info
+:::note
 By default, the local instance have Authentication and Authorization disabled, so you don't need to worry about authenticating the CLI.
 :::

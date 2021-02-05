@@ -30,5 +30,5 @@ goliothctl project update [flags]
 
 ### SEE ALSO
 
-* [goliothctl project](/docs/goliothctl/goliothctl_project/)	 - Access project information
+* [goliothctl project](/docs/goliothctl/goliothctl_project/)	 - Access and manage project information
 

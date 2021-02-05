@@ -18,6 +18,22 @@ You can test golioth gateway interface over CoAP and more protocols in the futur
 gurl [flags]
 ```
 
+### Examples
+
+```
+# Ping request
+gurl coap ping --psk-id my-identity --psk supersecret
+
+# Get /hello
+gurl coap --path /hello -m GET --psk-id my-identity --psk supersecret
+
+# POST /echo with body as string (-b)
+gurl coap --path /echo -m POST --psk-id my-identity --psk supersecret -b "Hello"
+
+# POST /echo with body from file (-f)
+gurl coap --path /echo -m POST --psk-id my-identity --psk supersecret -f ./path/to/a/file
+```
+
 ### Options
 
 ```

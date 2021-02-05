@@ -3,8 +3,8 @@ module.exports = {
   tagline: 'Making IoT Easy',
   url: 'https://docs.golioth.io',
   customFields: {
-    // swaggerUrl: "http://localhost:9090/swagger.json",
-    swaggerUrl: "https://api.golioth.dev/swagger.json"
+    swaggerUrl: "http://localhost:9090/swagger.json",
+    //swaggerUrl: "https://api.golioth.dev/swagger.json"
   },
   themes: ['@docusaurus/theme-live-codeblock'],
   baseUrl: '/',

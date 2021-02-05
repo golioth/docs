@@ -29,5 +29,5 @@ goliothctl logout [flags]
 
 ### SEE ALSO
 
-* [goliothctl](/docs/goliothctl/goliothctl/)	 - goliothctl is a golioth API cli
+* [goliothctl](/docs/goliothctl/goliothctl/)	 - Manage Golioth platform resources and developer workflow.
 

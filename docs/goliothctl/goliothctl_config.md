@@ -14,6 +14,15 @@ Set global goliothctl config
 goliothctl config [flags]
 ```
 
+### Examples
+
+```
+Point to a different instance of golioth server:
+$ goliothctl config set apiUrl http://localhost:9090
+To get the current access token:
+$ goliothctl config get accessToken
+```
+
 ### Options
 
 ```
@@ -29,7 +38,7 @@ goliothctl config [flags]
 
 ### SEE ALSO
 
-* [goliothctl](/docs/goliothctl/goliothctl/)	 - goliothctl is a golioth API cli
+* [goliothctl](/docs/goliothctl/goliothctl/)	 - Manage Golioth platform resources and developer workflow.
 * [goliothctl config get](/docs/goliothctl/goliothctl_config_get/)	 - Show a given config
 * [goliothctl config set](/docs/goliothctl/goliothctl_config_set/)	 - Sets a given config
 

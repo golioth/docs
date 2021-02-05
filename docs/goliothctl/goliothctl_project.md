@@ -8,17 +8,17 @@ hide_title: true
 ---
 ## goliothctl project
 
-Access project information
-
-### Synopsis
-
-
-	You can change the current project using the command:
-	$ goliothctl config set projectId <project-id>
-	 
+Access and manage project information
 
 ```
 goliothctl project [flags]
+```
+
+### Examples
+
+```
+You can change the current project using the command:
+$ goliothctl config set projectId <project-id>
 ```
 
 ### Options
@@ -36,7 +36,7 @@ goliothctl project [flags]
 
 ### SEE ALSO
 
-* [goliothctl](/docs/goliothctl/goliothctl/)	 - goliothctl is a golioth API cli
+* [goliothctl](/docs/goliothctl/goliothctl/)	 - Manage Golioth platform resources and developer workflow.
 * [goliothctl project create](/docs/goliothctl/goliothctl_project_create/)	 - Create project
 * [goliothctl project delete](/docs/goliothctl/goliothctl_project_delete/)	 - Delete current project
 * [goliothctl project list](/docs/goliothctl/goliothctl_project_list/)	 - Show project list

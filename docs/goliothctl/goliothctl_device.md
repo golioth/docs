@@ -29,7 +29,7 @@ goliothctl device [flags]
 
 ### SEE ALSO
 
-* [goliothctl](/docs/goliothctl/goliothctl/)	 - goliothctl is a golioth API cli
+* [goliothctl](/docs/goliothctl/goliothctl/)	 - Manage Golioth platform resources and developer workflow.
 * [goliothctl device create](/docs/goliothctl/goliothctl_device_create/)	 - Create device
 * [goliothctl device list](/docs/goliothctl/goliothctl_device_list/)	 - Show device list
 
