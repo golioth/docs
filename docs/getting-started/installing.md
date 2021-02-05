@@ -7,7 +7,7 @@ title: Installing
 
 You can download the latest tools on the [Github Releases Page](https://github.com/golioth/golioth/releases). Binaries are available for Linux, macOS and Windows.
 
-### Building some source (Maintainers Only)
+### Building from source (Maintainers Only)
 
 You need [Go](https://golang.org) installed on your system. We recommend using Go 1.15 to build from source.
 
