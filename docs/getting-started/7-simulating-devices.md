@@ -10,7 +10,7 @@ title: Simulating Devices with gurl
 - Have a project - see [Create a Project](./create-project)
 - Have a provisioned device and credential for it - see [Authorizing Devices](./authorize-devices)
 
-With the a properly provisioned device, you can test if the connection is working using our `gurl` tool. Currently it supports connetions via CoAP.
+With the a properly provisioned device, you can test if the connection with the platform is working by using our `gurl` tool. Currently it only supports connections via CoAP.
 
 Here are some examples:
 
