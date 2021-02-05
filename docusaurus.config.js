@@ -3,8 +3,8 @@ module.exports = {
   tagline: 'Making IoT Easy',
   url: 'https://docs.golioth.io',
   customFields: {
-    swaggerUrl: "http://localhost:9090/swagger.json",
-    //swaggerUrl: "https://api.golioth.dev/swagger.json"
+    // swaggerUrl: "http://localhost:9090/swagger.json",
+    swaggerUrl: "https://api.golioth.dev/swagger.json"
   },
   themes: ['@docusaurus/theme-live-codeblock'],
   baseUrl: '/',
@@ -51,12 +51,20 @@ module.exports = {
           title: 'Docs',
           items: [
             {
+              label: 'Getting Started',
+              to: 'docs/',
+            },
+            {
+              label: 'Advanced',
+              to: 'docs/advanced/running-locally',
+            },
+            {
               label: 'goliothctl',
-              to: 'docs/goliothctl',
+              to: 'docs/goliothctl/goliothctl',
             },
             {
               label: 'gurl',
-              to: 'docs/gurl',
+              to: 'docs/gurl/gurl',
             },
           ],
         },
@@ -105,7 +113,7 @@ module.exports = {
         docs: {
           //routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/golioth/golioth/edit/master/docs/',
+          // editUrl: 'https://github.com/golioth/golioth/edit/master/docs/',
         },
         blog: {
           showReadingTime: true,

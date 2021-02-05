@@ -32,3 +32,11 @@
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
 }
+
+.swagger-ui pre {
+  background-color: unset;
+}
+
+.swagger-ui code {
+  color: white;
+}
