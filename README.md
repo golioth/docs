@@ -24,10 +24,8 @@ npm build
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
-## Deployment
+## Deployment to Firebase Hosting
 
 ```console
-GIT_USER=<Your GitHub username> USE_SSH=true npm deploy
+npm run fb-deploy
 ```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
