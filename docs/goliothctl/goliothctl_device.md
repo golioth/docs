@@ -31,5 +31,7 @@ goliothctl device [flags]
 
 * [goliothctl](/docs/goliothctl/goliothctl/)	 - Manage Golioth platform resources and developer workflow.
 * [goliothctl device create](/docs/goliothctl/goliothctl_device_create/)	 - Create device
+* [goliothctl device delete](/docs/goliothctl/goliothctl_device_delete/)	 - Delete a device by id
 * [goliothctl device list](/docs/goliothctl/goliothctl_device_list/)	 - Show device list
+* [goliothctl device update](/docs/goliothctl/goliothctl_device_update/)	 - Update device by id
 
