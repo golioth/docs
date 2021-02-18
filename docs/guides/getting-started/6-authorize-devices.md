@@ -42,4 +42,4 @@ id:"<uuid>" name:"My first device" hardwareIds: "DE:AD:BE:EF"
 
 :::
 
-Now your device can connect to our platform. You can check for more commands to provision devices [here](/docs/goliothctl/goliothctl_provision).
+Now your device can connect to our platform. You can check for more commands to provision devices [here](/docs/reference/goliothctl/goliothctl_provision).

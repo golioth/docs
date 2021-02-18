@@ -59,10 +59,10 @@ module.exports = {
               label: 'Over the Air Updates',
               to: 'docs/guides/ota/sending-updates',
             },
-            {
+            /*{
               label: 'Logging and Diagnostics',
               to: 'docs/guides/logging/getting-started',
-            },
+            },*/
             {
               label: 'Advanced',
               to: 'docs/guides/advanced/running-locally',
@@ -114,10 +114,6 @@ module.exports = {
         {
           title: 'More',
           items: [
-            {
-              label: 'API Docs',
-              to: 'apidocs',
-            },
             {
               label: 'Blog',
               to: 'blog',
