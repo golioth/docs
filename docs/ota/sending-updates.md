@@ -31,7 +31,6 @@ waiting for more msgs. Type ctrl+c to close
 New msg on path   Code: Content, Token: 978f872da87c4ee0, ContentFormat: text/plain;charset=utf-8
 body size:  2
 OK
-
 ```
 
 Now send any file using goliothctl command as presented before and you will be able to see the file on the `gurl` terminal output.
