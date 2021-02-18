@@ -3,7 +3,7 @@ id: goliothctl_project_list
 title: "goliothctl project list"
 slug: goliothctl_project_list
 sidebar_label: goliothctl project list
-url: /docs/goliothctl/goliothctl_project_list/
+url: /docs/reference/goliothctl/goliothctl_project_list/
 hide_title: true
 ---
 ## goliothctl project list
@@ -29,5 +29,5 @@ goliothctl project list [flags]
 
 ### SEE ALSO
 
-* [goliothctl project](/docs/goliothctl/goliothctl_project/)	 - Access and manage project information
+* [goliothctl project](/docs/reference/goliothctl/goliothctl_project/)	 - Access and manage project information
 

@@ -3,7 +3,7 @@ id: goliothctl_login
 title: "goliothctl login"
 slug: goliothctl_login
 sidebar_label: goliothctl login
-url: /docs/goliothctl/goliothctl_login/
+url: /docs/reference/goliothctl/goliothctl_login/
 hide_title: true
 ---
 ## goliothctl login
@@ -29,5 +29,5 @@ goliothctl login [flags]
 
 ### SEE ALSO
 
-* [goliothctl](/docs/goliothctl/goliothctl/)	 - Manage Golioth platform resources and developer workflow.
+* [goliothctl](/docs/reference/goliothctl/goliothctl/)	 - Manage Golioth platform resources and developer workflow.
 

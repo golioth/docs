@@ -3,7 +3,7 @@ id: goliothctl_logs
 title: "goliothctl logs"
 slug: goliothctl_logs
 sidebar_label: goliothctl logs
-url: /docs/goliothctl/goliothctl_logs/
+url: /docs/reference/goliothctl/goliothctl_logs/
 hide_title: true
 ---
 ## goliothctl logs
@@ -50,5 +50,5 @@ goliothctl logs --device <uuid>
 
 ### SEE ALSO
 
-* [goliothctl](/docs/goliothctl/goliothctl/)	 - Manage Golioth platform resources and developer workflow.
+* [goliothctl](/docs/reference/goliothctl/goliothctl/)	 - Manage Golioth platform resources and developer workflow.
 

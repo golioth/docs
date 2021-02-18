@@ -3,7 +3,7 @@ id: gurl_coap_ping
 title: "gurl coap ping"
 slug: gurl_coap_ping
 sidebar_label: gurl coap ping
-url: /docs/gurl/gurl_coap_ping/
+url: /docs/reference/gurl/gurl_coap_ping/
 hide_title: true
 ---
 ## gurl coap ping
@@ -33,5 +33,5 @@ gurl coap ping [flags]
 
 ### SEE ALSO
 
-* [gurl coap](/docs/gurl/gurl_coap/)	 - CoAP client to test golioth coap gateway
+* [gurl coap](/docs/reference/gurl/gurl_coap/)	 - CoAP client to test golioth coap gateway
 

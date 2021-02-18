@@ -5,7 +5,7 @@ CUR_DIR=$(pwd)
 # Generate Golioth Backend/CLI Docs
 pushd ../golioth
 git pull
-make docsgen ARGS="-o $CUR_DIR/docs --baseUrl /docs/"
+make docsgen ARGS="-o $CUR_DIR/docs/reference --baseUrl /docs/reference/"
 popd
 
 # Generate Golioth Zephyr SDK Docs

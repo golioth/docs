@@ -3,7 +3,7 @@ id: goliothctl_device_delete
 title: "goliothctl device delete"
 slug: goliothctl_device_delete
 sidebar_label: goliothctl device delete
-url: /docs/goliothctl/goliothctl_device_delete/
+url: /docs/reference/goliothctl/goliothctl_device_delete/
 hide_title: true
 ---
 ## goliothctl device delete
@@ -29,5 +29,5 @@ goliothctl device delete <id> [flags]
 
 ### SEE ALSO
 
-* [goliothctl device](/docs/goliothctl/goliothctl_device/)	 - Access device information
+* [goliothctl device](/docs/reference/goliothctl/goliothctl_device/)	 - Access device information
 

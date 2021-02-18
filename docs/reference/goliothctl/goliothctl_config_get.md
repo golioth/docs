@@ -3,7 +3,7 @@ id: goliothctl_config_get
 title: "goliothctl config get"
 slug: goliothctl_config_get
 sidebar_label: goliothctl config get
-url: /docs/goliothctl/goliothctl_config_get/
+url: /docs/reference/goliothctl/goliothctl_config_get/
 hide_title: true
 ---
 ## goliothctl config get
@@ -29,5 +29,5 @@ goliothctl config get <key> <value> [flags]
 
 ### SEE ALSO
 
-* [goliothctl config](/docs/goliothctl/goliothctl_config/)	 - Set global goliothctl config
+* [goliothctl config](/docs/reference/goliothctl/goliothctl_config/)	 - Set global goliothctl config
 

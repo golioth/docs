@@ -3,7 +3,7 @@ id: goliothctl_project
 title: "goliothctl project"
 slug: goliothctl_project
 sidebar_label: goliothctl project
-url: /docs/goliothctl/goliothctl_project/
+url: /docs/reference/goliothctl/goliothctl_project/
 hide_title: true
 ---
 ## goliothctl project
@@ -36,9 +36,9 @@ $ goliothctl config set projectId <project-id>
 
 ### SEE ALSO
 
-* [goliothctl](/docs/goliothctl/goliothctl/)	 - Manage Golioth platform resources and developer workflow.
-* [goliothctl project create](/docs/goliothctl/goliothctl_project_create/)	 - Create project
-* [goliothctl project delete](/docs/goliothctl/goliothctl_project_delete/)	 - Delete current project
-* [goliothctl project list](/docs/goliothctl/goliothctl_project_list/)	 - Show project list
-* [goliothctl project update](/docs/goliothctl/goliothctl_project_update/)	 - Update current project
+* [goliothctl](/docs/reference/goliothctl/goliothctl/)	 - Manage Golioth platform resources and developer workflow.
+* [goliothctl project create](/docs/reference/goliothctl/goliothctl_project_create/)	 - Create project
+* [goliothctl project delete](/docs/reference/goliothctl/goliothctl_project_delete/)	 - Delete current project
+* [goliothctl project list](/docs/reference/goliothctl/goliothctl_project_list/)	 - Show project list
+* [goliothctl project update](/docs/reference/goliothctl/goliothctl_project_update/)	 - Update current project
 

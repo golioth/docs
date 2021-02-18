@@ -3,7 +3,7 @@ id: gurl_coap
 title: "gurl coap"
 slug: gurl_coap
 sidebar_label: gurl coap
-url: /docs/gurl/gurl_coap/
+url: /docs/reference/gurl/gurl_coap/
 hide_title: true
 ---
 ## gurl coap
@@ -50,6 +50,6 @@ gurl coap --path /logs -m POST --psk-id deadbeef-id --psk supersecret -q module=
 
 ### SEE ALSO
 
-* [gurl](/docs/gurl/gurl/)	 - gurl is a golioth test cli
-* [gurl coap ping](/docs/gurl/gurl_coap_ping/)	 - CoAP ping to test golioth coap gateway
+* [gurl](/docs/reference/gurl/gurl/)	 - gurl is a golioth test cli
+* [gurl coap ping](/docs/reference/gurl/gurl_coap_ping/)	 - CoAP ping to test golioth coap gateway
 

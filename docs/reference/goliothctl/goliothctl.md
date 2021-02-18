@@ -3,7 +3,7 @@ id: goliothctl
 title: "goliothctl"
 slug: goliothctl
 sidebar_label: goliothctl
-url: /docs/goliothctl/goliothctl/
+url: /docs/reference/goliothctl/goliothctl/
 hide_title: true
 ---
 ## goliothctl
@@ -45,12 +45,12 @@ goliothctl provision --hwId "DE:AD:BE:EF" --name "My first device" --credId "dea
 
 ### SEE ALSO
 
-* [goliothctl config](/docs/goliothctl/goliothctl_config/)	 - Set global goliothctl config
-* [goliothctl device](/docs/goliothctl/goliothctl_device/)	 - Access device information
-* [goliothctl login](/docs/goliothctl/goliothctl_login/)	 - Authenticate with golioth system
-* [goliothctl logout](/docs/goliothctl/goliothctl_logout/)	 - Remove credentials from local config
-* [goliothctl logs](/docs/goliothctl/goliothctl_logs/)	 - Show device logs (from the last 4h by default)
-* [goliothctl project](/docs/goliothctl/goliothctl_project/)	 - Access and manage project information
-* [goliothctl provision](/docs/goliothctl/goliothctl_provision/)	 - Provision devices and credentials
-* [goliothctl updates](/docs/goliothctl/goliothctl_updates/)	 - Send/Trigger device updates
+* [goliothctl config](/docs/reference/goliothctl/goliothctl_config/)	 - Set global goliothctl config
+* [goliothctl device](/docs/reference/goliothctl/goliothctl_device/)	 - Access device information
+* [goliothctl login](/docs/reference/goliothctl/goliothctl_login/)	 - Authenticate with golioth system
+* [goliothctl logout](/docs/reference/goliothctl/goliothctl_logout/)	 - Remove credentials from local config
+* [goliothctl logs](/docs/reference/goliothctl/goliothctl_logs/)	 - Show device logs (from the last 4h by default)
+* [goliothctl project](/docs/reference/goliothctl/goliothctl_project/)	 - Access and manage project information
+* [goliothctl provision](/docs/reference/goliothctl/goliothctl_provision/)	 - Provision devices and credentials
+* [goliothctl updates](/docs/reference/goliothctl/goliothctl_updates/)	 - Send/Trigger device updates
 

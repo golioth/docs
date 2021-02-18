@@ -3,7 +3,7 @@ id: goliothctl_config_set
 title: "goliothctl config set"
 slug: goliothctl_config_set
 sidebar_label: goliothctl config set
-url: /docs/goliothctl/goliothctl_config_set/
+url: /docs/reference/goliothctl/goliothctl_config_set/
 hide_title: true
 ---
 ## goliothctl config set
@@ -29,5 +29,5 @@ goliothctl config set <key> <value> [flags]
 
 ### SEE ALSO
 
-* [goliothctl config](/docs/goliothctl/goliothctl_config/)	 - Set global goliothctl config
+* [goliothctl config](/docs/reference/goliothctl/goliothctl_config/)	 - Set global goliothctl config
 

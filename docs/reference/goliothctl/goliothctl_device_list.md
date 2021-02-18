@@ -3,7 +3,7 @@ id: goliothctl_device_list
 title: "goliothctl device list"
 slug: goliothctl_device_list
 sidebar_label: goliothctl device list
-url: /docs/goliothctl/goliothctl_device_list/
+url: /docs/reference/goliothctl/goliothctl_device_list/
 hide_title: true
 ---
 ## goliothctl device list
@@ -29,5 +29,5 @@ goliothctl device list [flags]
 
 ### SEE ALSO
 
-* [goliothctl device](/docs/goliothctl/goliothctl_device/)	 - Access device information
+* [goliothctl device](/docs/reference/goliothctl/goliothctl_device/)	 - Access device information
 

@@ -3,7 +3,7 @@ id: gurl
 title: "gurl"
 slug: gurl
 sidebar_label: gurl
-url: /docs/gurl/gurl/
+url: /docs/reference/gurl/gurl/
 hide_title: true
 ---
 ## gurl
@@ -42,5 +42,5 @@ gurl coap --path /echo -m POST --psk-id my-identity --psk supersecret -f ./path/
 
 ### SEE ALSO
 
-* [gurl coap](/docs/gurl/gurl_coap/)	 - CoAP client to test golioth coap gateway
+* [gurl coap](/docs/reference/gurl/gurl_coap/)	 - CoAP client to test golioth coap gateway
 

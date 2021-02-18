@@ -3,7 +3,7 @@ id: goliothctl_logout
 title: "goliothctl logout"
 slug: goliothctl_logout
 sidebar_label: goliothctl logout
-url: /docs/goliothctl/goliothctl_logout/
+url: /docs/reference/goliothctl/goliothctl_logout/
 hide_title: true
 ---
 ## goliothctl logout
@@ -29,5 +29,5 @@ goliothctl logout [flags]
 
 ### SEE ALSO
 
-* [goliothctl](/docs/goliothctl/goliothctl/)	 - Manage Golioth platform resources and developer workflow.
+* [goliothctl](/docs/reference/goliothctl/goliothctl/)	 - Manage Golioth platform resources and developer workflow.
 

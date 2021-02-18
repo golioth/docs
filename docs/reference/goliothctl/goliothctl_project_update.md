@@ -3,7 +3,7 @@ id: goliothctl_project_update
 title: "goliothctl project update"
 slug: goliothctl_project_update
 sidebar_label: goliothctl project update
-url: /docs/goliothctl/goliothctl_project_update/
+url: /docs/reference/goliothctl/goliothctl_project_update/
 hide_title: true
 ---
 ## goliothctl project update
@@ -30,5 +30,5 @@ goliothctl project update [flags]
 
 ### SEE ALSO
 
-* [goliothctl project](/docs/goliothctl/goliothctl_project/)	 - Access and manage project information
+* [goliothctl project](/docs/reference/goliothctl/goliothctl_project/)	 - Access and manage project information
 

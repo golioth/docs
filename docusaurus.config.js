@@ -22,15 +22,16 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/',
-          activeBasePath: 'docs',
-          label: 'Docs',
+          to: 'docs/guides',
+          activeBasePath: 'guides',
+          label: 'Guides',
           position: 'left',
         },
         {
-          to: 'apidocs',
-          label: 'API Docs',
-          position: 'left'
+          to: 'docs/reference',
+          activeBasePath: 'reference',
+          label: 'Reference',
+          position: 'left',
         },
         {
           to: 'blog',
@@ -52,19 +53,44 @@ module.exports = {
           items: [
             {
               label: 'Getting Started',
-              to: 'docs/',
+              to: 'docs/guides',
+            },
+            {
+              label: 'Over the Air Updates',
+              to: 'docs/guides/ota/sending-updates',
+            },
+            {
+              label: 'Logging and Diagnostics',
+              to: 'docs/guides/logging/getting-started',
             },
             {
               label: 'Advanced',
-              to: 'docs/advanced/running-locally',
+              to: 'docs/guides/advanced/running-locally',
+            },
+          ],
+        },
+        {
+          title: 'Reference',
+          items: [
+            {
+              label: 'API and SDK Reference',
+              to: 'docs/reference',
             },
             {
+              label: 'API Docs',
+              to: 'docs/reference/api-docs',
+            },
+            /*{
+              label: 'Zephyr SDK',
+              to: 'docs/advanced/running-locally',
+            },*/
+            {
               label: 'goliothctl',
-              to: 'docs/goliothctl/goliothctl',
+              to: 'docs/reference/goliothctl/goliothctl',
             },
             {
               label: 'gurl',
-              to: 'docs/gurl/gurl',
+              to: 'docs/reference/gurl/gurl',
             },
           ],
         },

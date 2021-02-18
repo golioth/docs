@@ -1,7 +1,7 @@
 const fs = require('fs')
 
-const mapFiles = (type) => {
-  return fs.readdirSync(`./docs/${type}`)
+const mapFiles = (root,type) => {
+  return fs.readdirSync(`./docs/${root}/${type}`)
     .filter( f => f.endsWith('.md'))
     .map( f => f.replace('.md',''))
     .map( f => {
@@ -12,24 +12,36 @@ const mapFiles = (type) => {
       }
       return f
     })
-    .map( f => `${type}/${f}`)
+    .map( f => `${root}/${type}/${f}`)
 }
 
-const docs = {
-  'Getting Started': mapFiles('getting-started'),
-  "Over the Air Updates": mapFiles('ota'),
-  "Logging and Diagnostics": ['coming-soon'],
-  "Zephyr SDK" : ['coming-soon'],
-  // "ESP-IDF SDK" : ['coming-soon'],
-  'Advanced': mapFiles('advanced'),
-  'Command Line Tools': [
-    { 'goliothctl': mapFiles('goliothctl') },
-    { 'gurl' : mapFiles('gurl') },
-  ],
+const guides = {
+  'Getting Started': mapFiles('guides','getting-started'),
+  "Over the Air Updates": mapFiles('guides','ota'),
+  "Logging and Diagnostics": ['guides/coming-soon'],
+  'Advanced': mapFiles('guides','advanced'),
 }
+
+const reference = [
+  'reference/home',
+  'reference/api-docs',
+  {
+    type: 'category',
+    label: "Zephyr SDK",
+    items: ['reference/coming-soon'],
+  },
+    //"ESP-IDF SDK" : ['references/coming-soon'],
+  {
+    type: 'category',
+    label: 'Command Line Tools',
+    items:  [
+      { 'goliothctl': mapFiles('reference','goliothctl') },
+      { 'gurl' : mapFiles('reference','gurl') },
+    ],
+  },
+]
 
 module.exports = {
-  someSidebar: {
-    ...docs,
-  },
+  reference,
+  guides
 };

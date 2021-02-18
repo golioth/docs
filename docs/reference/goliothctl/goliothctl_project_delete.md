@@ -3,7 +3,7 @@ id: goliothctl_project_delete
 title: "goliothctl project delete"
 slug: goliothctl_project_delete
 sidebar_label: goliothctl project delete
-url: /docs/goliothctl/goliothctl_project_delete/
+url: /docs/reference/goliothctl/goliothctl_project_delete/
 hide_title: true
 ---
 ## goliothctl project delete
@@ -29,5 +29,5 @@ goliothctl project delete [flags]
 
 ### SEE ALSO
 
-* [goliothctl project](/docs/goliothctl/goliothctl_project/)	 - Access and manage project information
+* [goliothctl project](/docs/reference/goliothctl/goliothctl_project/)	 - Access and manage project information
 

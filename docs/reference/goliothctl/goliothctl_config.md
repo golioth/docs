@@ -3,7 +3,7 @@ id: goliothctl_config
 title: "goliothctl config"
 slug: goliothctl_config
 sidebar_label: goliothctl config
-url: /docs/goliothctl/goliothctl_config/
+url: /docs/reference/goliothctl/goliothctl_config/
 hide_title: true
 ---
 ## goliothctl config
@@ -38,7 +38,7 @@ $ goliothctl config get accessToken
 
 ### SEE ALSO
 
-* [goliothctl](/docs/goliothctl/goliothctl/)	 - Manage Golioth platform resources and developer workflow.
-* [goliothctl config get](/docs/goliothctl/goliothctl_config_get/)	 - Show a given config
-* [goliothctl config set](/docs/goliothctl/goliothctl_config_set/)	 - Sets a given config
+* [goliothctl](/docs/reference/goliothctl/goliothctl/)	 - Manage Golioth platform resources and developer workflow.
+* [goliothctl config get](/docs/reference/goliothctl/goliothctl_config_get/)	 - Show a given config
+* [goliothctl config set](/docs/reference/goliothctl/goliothctl_config_set/)	 - Sets a given config
 

@@ -3,7 +3,7 @@ id: goliothctl_project_create
 title: "goliothctl project create"
 slug: goliothctl_project_create
 sidebar_label: goliothctl project create
-url: /docs/goliothctl/goliothctl_project_create/
+url: /docs/reference/goliothctl/goliothctl_project_create/
 hide_title: true
 ---
 ## goliothctl project create
@@ -30,5 +30,5 @@ goliothctl project create [flags]
 
 ### SEE ALSO
 
-* [goliothctl project](/docs/goliothctl/goliothctl_project/)	 - Access and manage project information
+* [goliothctl project](/docs/reference/goliothctl/goliothctl_project/)	 - Access and manage project information
 

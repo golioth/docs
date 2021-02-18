@@ -1,0 +1,30 @@
+---
+id: api-docs
+title: API Docs
+hide_title: true
+---
+
+import Layout from "@theme/Layout";
+import SwaggerUI from "swagger-ui-react";
+import "swagger-ui-react/swagger-ui.css";
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+
+export const APIDocs = () => {
+  const { siteConfig } = useDocusaurusContext();
+  const {
+    customFields: { swaggerUrl },
+  } = siteConfig;
+  return (
+    <div
+      style={{
+        justifyContent: "center",
+        alignItems: "center",
+        width: "120%",
+      }}
+    >
+      <SwaggerUI url={swaggerUrl} />
+    </div>
+  );
+};
+
+<APIDocs />

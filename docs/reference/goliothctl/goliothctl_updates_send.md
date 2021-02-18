@@ -3,7 +3,7 @@ id: goliothctl_updates_send
 title: "goliothctl updates send"
 slug: goliothctl_updates_send
 sidebar_label: goliothctl updates send
-url: /docs/goliothctl/goliothctl_updates_send/
+url: /docs/reference/goliothctl/goliothctl_updates_send/
 hide_title: true
 ---
 ## goliothctl updates send
@@ -29,5 +29,5 @@ goliothctl updates send <device-id> <file> [flags]
 
 ### SEE ALSO
 
-* [goliothctl updates](/docs/goliothctl/goliothctl_updates/)	 - Send/Trigger device updates
+* [goliothctl updates](/docs/reference/goliothctl/goliothctl_updates/)	 - Send/Trigger device updates
 
