@@ -17,8 +17,8 @@ const mapFiles = (root,type) => {
 
 const guides = {
   'Getting Started': mapFiles('guides','getting-started'),
+  "Logging and Diagnostics": mapFiles('guides','logging'),
   "Over the Air Updates": mapFiles('guides','ota'),
-  "Logging and Diagnostics": ['guides/coming-soon'],
   'Advanced': mapFiles('guides','advanced'),
 }
 
@@ -30,7 +30,7 @@ const reference = [
     label: "Zephyr SDK",
     items: ['reference/coming-soon'],
   },
-    //"ESP-IDF SDK" : ['references/coming-soon'],
+  //"ESP-IDF SDK" : ['references/coming-soon'],
   {
     type: 'category',
     label: 'Command Line Tools',
