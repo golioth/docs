@@ -1,23 +1,23 @@
 ---
-id: gurl_coap_ping
-title: "gurl coap ping"
-slug: gurl_coap_ping
-sidebar_label: gurl coap ping
-url: /docs/reference/gurl/gurl_coap_ping/
+id: gurl_coap_observe
+title: "gurl coap observe"
+slug: gurl_coap_observe
+sidebar_label: gurl coap observe
+url: /docs/reference/gurl/gurl_coap_observe/
 hide_title: true
 ---
-## gurl coap ping
+## gurl coap observe
 
-CoAP ping to test golioth coap gateway
+CoAP observe a given path
 
 ```
-gurl coap ping [flags]
+gurl coap observe <path> [flags]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for ping
+  -h, --help   help for observe
 ```
 
 ### Options inherited from parent commands

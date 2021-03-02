@@ -47,6 +47,7 @@ goliothctl provision --hwId "DE:AD:BE:EF" --name "My first device" --credId "dea
 
 * [goliothctl config](/docs/reference/goliothctl/goliothctl_config/)	 - Set global goliothctl config
 * [goliothctl device](/docs/reference/goliothctl/goliothctl_device/)	 - Access device information
+* [goliothctl lightdb](/docs/reference/goliothctl/goliothctl_lightdb/)	 - Access data on Light DB
 * [goliothctl login](/docs/reference/goliothctl/goliothctl_login/)	 - Authenticate with golioth system
 * [goliothctl logout](/docs/reference/goliothctl/goliothctl_logout/)	 - Remove credentials from local config
 * [goliothctl logs](/docs/reference/goliothctl/goliothctl_logs/)	 - Show device logs (from the last 4h by default)

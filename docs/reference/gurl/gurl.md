@@ -32,6 +32,9 @@ gurl coap --path /echo -m POST --psk-id my-identity --psk supersecret -b "Hello"
 
 # POST /echo with body from file (-f)
 gurl coap --path /echo -m POST --psk-id my-identity --psk supersecret -f ./path/to/a/file
+
+# POST /echo from stdin
+cat ./path/to/a/file | gurl coap --path /echo -m POST --psk-id my-identity --psk supersecret --in
 ```
 
 ### Options

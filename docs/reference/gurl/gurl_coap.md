@@ -33,11 +33,13 @@ gurl coap --path /logs -m POST --psk-id deadbeef-id --psk supersecret -q module=
 ### Options
 
 ```
+      --accept string          coap accept format
   -b, --body string            coap body
   -f, --file string            file to be sent on the request body
       --format string          coap body format
   -h, --help                   help for coap
       --host string            golioth coap host (default "localhost")
+      --in                     read request body from stdin
   -m, --method string          coap method - GET,POST (default "POST")
   -o, --observe stringArray    coap observation paths
   -p, --path string            coap url path (default "/echo")
@@ -51,5 +53,6 @@ gurl coap --path /logs -m POST --psk-id deadbeef-id --psk supersecret -q module=
 ### SEE ALSO
 
 * [gurl](/docs/reference/gurl/gurl/)	 - gurl is a golioth test cli
+* [gurl coap observe](/docs/reference/gurl/gurl_coap_observe/)	 - CoAP observe a given path
 * [gurl coap ping](/docs/reference/gurl/gurl_coap_ping/)	 - CoAP ping to test golioth coap gateway
 

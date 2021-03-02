@@ -18,7 +18,7 @@ goliothctl provision [flags]
 
 ```
       --credId string      credential id
-      --credType string    credential type [ASYMMETRIC_KEY_PAIR PRE_SHARED_KEY] (default "PRE_SHARED_KEY")
+      --credType string    credential type [PRE_SHARED_KEY ASYMMETRIC_KEY_PAIR] (default "PRE_SHARED_KEY")
   -h, --help               help for provision
       --hwId stringArray   device hardware id
       --id string          device id
