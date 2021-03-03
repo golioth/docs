@@ -17,6 +17,7 @@ const mapFiles = (root,type) => {
 
 const guides = {
   'Getting Started': mapFiles('guides','getting-started'),
+  "Light DB": mapFiles('guides','lightdb'),
   "Logging and Diagnostics": mapFiles('guides','logging'),
   "Over the Air Updates": mapFiles('guides','ota'),
   'Advanced': mapFiles('guides','advanced'),

@@ -1,0 +1,104 @@
+---
+id: simulating-devices
+title: Testing Light DB using gurl and goliothctl
+---
+
+#### Prerequisites
+
+- `goliothctl` CLI installed
+- Authenticated with Golioth - see [Authentication](../getting-started/authentication)
+- Have a project - see [Create a Project](../getting-started/create-project)
+- Have a provisioned device and credential for it - see [Authorizing Devices](../getting-started/authorize-devices)
+
+With the a properly provisioned device, you can test Light DB to save, query and observe data changes on it. Make sure that the connection with the platform is working. You can check more on the [Getting Started Guide](../getting-started/simulating-devices). Currently it only supports connections via CoAP.
+
+Let's simulated a light bulb that can report it's brightness and state and also control these values from the Cloud.
+
+### Saving and Querying data on Light DB
+
+To access Light DB over CoAP, you have to use the prefix `/.d/` and anything past that represents a path that you want to save data. On the example bellow, we are saving a `state` attribute with value `true` and `brightness` with value `50` on path `/light`.
+
+```
+$ gurl coap --path /.d/light -m POST --psk-id deadbeef-id --psk supersecret --host coap.golioth.dev -b "{\"state\": true, \"brightness\" : 50 }" --format json
+```
+
+Now you can query that data over CoAP or using `goliothctl`. And you can query any path, so if you query `/light` you get the full `{ state : true, brightness : 50 }` or you can query a specific value like at `/light/state` and get only `true`.
+
+- Top level path:
+
+```
+$ gurl coap --path /.d/light -m GET --psk-id deadbeef-id --psk supersecret --host coap.golioth.dev --accept json
+Response
+payload: Type: Acknowledgement, MID: 64363, Code: Content, Token: 56f991b6703947d7, ContentFormat: application/json
+body: {"brightness":50,"state":true}
+```
+
+- Specific path:
+
+```
+$ gurl coap --path /.d/light/state -m GET --psk-id deadbeef-id --psk supersecret --host coap.golioth.dev --accept json
+Response
+payload: Type: Acknowledgement, MID: 64363, Code: Content, Token: 56f991b6703947d7, ContentFormat: application/json
+body: true
+```
+
+You can also do the same with `goliothctl`:
+
+- Top level path:
+
+```
+$ goliothctl lightdb get <device-id> /light
+{"brightness":10,"state":0}
+```
+
+- Specific path:
+
+```
+$ goliothctl lightdb get <device-id> /light/brightness
+50
+```
+
+### Listening to changes on Light DB
+
+We can simulated a device listening to Light DB by using `gurl coap observe` command. Here are some examples to listen to the top level `/light` path or we can also listen to the specific `/light/state` or `/light/brightness` path.
+
+Open this on another terminal tab to simulate the device listening to data changes:
+
+```
+$ gurl coap observe /.d/light/state --psk-id deadbeef-id --psk supersecret --host coap.golioth.dev --accept json
+waiting for more msgs. Type ctrl+c to close
+```
+
+or
+
+```
+$ gurl coap observe /.d/light --psk-id deadbeef-id --psk supersecret --host coap.golioth.dev --accept json
+waiting for more msgs. Type ctrl+c to close
+```
+
+Now you can set new values on Light DB using `goliothctl`. You can set a specific value or pass a nested value in `json` format.
+
+```
+$ goliothctl lightdb set <device-id> /light/state -b "true"
+true
+$ goliothctl lightdb set <device-id> /light/state -b "false"
+false
+$ goliothctl lightdb set <device-id> /light -b "{\"state\": true, \"brightness\": 30 }"
+{"state":true,"brightness":30}
+```
+
+On the other terminal, you should see the device receiving the new data when it changes:
+
+```
+New msg on path /.d/light/state Code: Content, Token: 19ba64b2baa06af9, ContentFormat: application/json
+body size:  4
+true
+
+New msg on path /.d/light Code: Content, Token: 19ba64b2baa06af9, ContentFormat: application/json
+body size:  27
+{"brightness":10,"state":0}
+```
+
+:::note
+You can check more ways to use [goliothctl lightdb](/docs/reference/goliothctl/goliothctl_lightdb) and [gurl coap observe](/docs/reference/gurl/gurl_coap_observe) on their reference docs.
+:::

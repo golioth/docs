@@ -3,7 +3,7 @@ id: create-project
 title: Create a Project
 ---
 
-### Prerequisites
+#### Prerequisites
 
 - `goliothctl` CLI installed
 - Authenticated with Golioth - see [Authentication](./authentication)

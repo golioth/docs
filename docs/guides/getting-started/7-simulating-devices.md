@@ -3,7 +3,7 @@ id: simulating-devices
 title: Simulating Devices with gurl
 ---
 
-### Prerequisites
+#### Prerequisites
 
 - `goliothctl` CLI installed
 - Authenticated with Golioth - see [Authentication](./authentication)
@@ -14,13 +14,13 @@ With the a properly provisioned device, you can test if the connection with the 
 
 Here are some examples:
 
-#### Send a PING request
+### Send a PING request
 
 ```
 gurl coap ping --psk-id deadbeef-id --psk supersecret --host coap.golioth.dev
 ```
 
-#### Send a GET request to `/hello`
+### Send a GET request to `/hello`
 
 ```
 gurl coap --path /hello -m GET --psk-id deadbeef-id --psk supersecret --host coap.golioth.dev
@@ -41,11 +41,11 @@ payload: Type: Acknowledgement, MID: 19602, Code: Valid, Token: 913572292474c677
 body: Hello My First Device%
 ```
 
-#### Send a POST request to `/echo`
+### Send a POST request to `/echo`
 
 The `/echo` endpoint identifies just returns the body sent by the device.
 
-##### With body as string (-b)
+#### With body as string (-b)
 
 ```
 gurl coap --path /echo -m POST --psk-id deadbeef-id --psk supersecret --host coap.golioth.dev -b "Hello"
@@ -67,7 +67,7 @@ payload: Type: Acknowledgement, MID: 47734, Code: Valid, Token: 31638c831239e704
 body: Hello
 ```
 
-##### With body from file (-f)
+#### With body from file (-f)
 
 ```
 gurl coap --path /echo -m POST --psk-id deadbeef-id --psk supersecret --host coap.golioth.dev -f ./test.txt

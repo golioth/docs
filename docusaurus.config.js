@@ -136,6 +136,7 @@ module.exports = {
           //routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           // editUrl: 'https://github.com/golioth/golioth/edit/master/docs/',
+          remarkPlugins: [require("remark-mermaid-dataurl")],
         },
         blog: {
           showReadingTime: true,

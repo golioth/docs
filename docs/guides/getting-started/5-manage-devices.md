@@ -3,7 +3,7 @@ id: manage-devices
 title: Manage Devices
 ---
 
-### Prerequisites
+#### Prerequisites
 
 - `goliothctl` CLI installed
 - Authenticated with Golioth - see [Authentication](./authentication)

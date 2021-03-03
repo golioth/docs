@@ -3,7 +3,7 @@ id: sending-logs
 title: Sending Logs
 ---
 
-### Prerequisites
+#### Prerequisites
 
 - `goliothctl` CLI installed
 - Authenticated with Golioth - see [Authentication](../getting-started/authentication)
@@ -16,7 +16,7 @@ An endpoint is provided on our gateways on the `/logs` path where the device can
 
 Data can be sent using query parameters and also on the message body. The message body can be send in CBOR or JSON format and is going to be parsed and we will try to identify the known attributes as presented bellow. If the body is sent as plain text, it will be saved as the log entry message.
 
-#### Parameters and attributes that are known and indexed:
+### Parameters and attributes that are known and indexed:
 
 | Attribute             | Description                                                                         | Default |
 | --------------------- | ----------------------------------------------------------------------------------- | ------- |
@@ -26,7 +26,7 @@ Data can be sent using query parameters and also on the message body. The messag
 | `msg` or `message`    | Free form string with the log message                                               |         |
 |                       | Any other attribute sent over this endpoint is bundled into a `metadata` attribute. |         |
 
-#### Simulating device logs using `gurl`
+### Simulating device logs using `gurl`
 
 You can simulate sending logs by using `gurl` and POSTing data to the `/logs` endpoint.
 
@@ -40,7 +40,7 @@ path: /logs
 query params: network=wifi module=hello level=info msg="Hello logs"
 
 url: api.golioth.dev:5684
-pre shared key: super-id:anothersecret
+pre shared key: deadbeef-id:supersecret
 
 Response
 payload: Type: Acknowledgement, MID: 49203, Code: Valid, Token: cbd46230e64c42e7, ContentFormat: text/plain;charset=utf-8

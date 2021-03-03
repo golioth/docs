@@ -3,7 +3,7 @@ id: authentication
 title: Authentication
 ---
 
-### Prerequisites
+#### Prerequisites
 
 - `goliothctl` CLI installed
 

@@ -3,7 +3,7 @@ id: authorize-devices
 title: Authorizing Devices
 ---
 
-### Prerequisites
+#### Prerequisites
 
 - `goliothctl` CLI installed
 - Authenticated with Golioth - see [Authentication](./authentication)
