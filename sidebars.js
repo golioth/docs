@@ -17,6 +17,7 @@ const mapFiles = (root,type) => {
 
 const guides = {
   'Getting Started': mapFiles('guides','getting-started'),
+  'Device SDK': mapFiles('guides','device-sdk'),
   "Light DB": mapFiles('guides','lightdb'),
   "Logging and Diagnostics": mapFiles('guides','logging'),
   "Over the Air Updates": mapFiles('guides','ota'),
@@ -29,7 +30,11 @@ const reference = [
   {
     type: 'category',
     label: "Zephyr SDK",
-    items: ['reference/coming-soon'],
+    items: [
+      //'reference/coming-soon',
+      'reference/zephyr/getting-started',
+      { 'Samples': mapFiles('reference', 'zephyr/samples') }
+    ],
   },
   //"ESP-IDF SDK" : ['references/coming-soon'],
   {
