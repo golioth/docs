@@ -17,7 +17,7 @@ You can download the latest tools here. Binaries are available for Linux, macOS 
 | Windows 64bit    | [Download for Windows 64bit](https://storage.googleapis.com/golioth-cli-releases/golioth/latest/golioth_latest_windows_64bit.tar.gz) |
 | Checksums        | [checksums.txt](https://storage.googleapis.com/golioth-cli-releases/golioth/latest/checksums.txt)                                    |
 
-Each zip file contains `goliothd`, [goliothctl](/docs/reference/goliothctl/goliothctl) and [gurl](/docs/reference/gurl/gurl) command line tools.
+Each zip file contains [goliothctl](/docs/reference/goliothctl/goliothctl) and [gurl](/docs/reference/gurl/gurl) command line tools.
 
 ### Building from source (Maintainers Only)
 

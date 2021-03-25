@@ -45,6 +45,7 @@ goliothctl provision --hwId "DE:AD:BE:EF" --name "My first device" --credId "dea
 
 ### SEE ALSO
 
+* [goliothctl apikeys](/docs/reference/goliothctl/goliothctl_apikeys/)	 - Access API Keys information
 * [goliothctl config](/docs/reference/goliothctl/goliothctl_config/)	 - Set global goliothctl config
 * [goliothctl device](/docs/reference/goliothctl/goliothctl_device/)	 - Access device information
 * [goliothctl lightdb](/docs/reference/goliothctl/goliothctl_lightdb/)	 - Access data on Light DB
