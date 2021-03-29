@@ -1,7 +1,6 @@
 ---
-id: getting-started
-title: Getting Started
-slug: /guides
+id: overview
+title: Overview
 ---
 
 - [Installing](/docs/guides/getting-started/installing)

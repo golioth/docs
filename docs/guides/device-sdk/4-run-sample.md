@@ -8,7 +8,7 @@ import TabItem from '@theme/TabItem';
 
 ## Run our Hello World sample
 
-This sample application demonstrates how to connect with Golioth and publish simple Hello messages. Additionally it allows to configure logging backend to send system logs to Golioth.
+This sample application demonstrates how to connect with Golioth and publish simple Hello messages. Additionally it allows to configure logging backend to send system logs to Golioth. We recommend running the commands here from the `modules/lib/golioth` folder.
 
 ### Requirements
 

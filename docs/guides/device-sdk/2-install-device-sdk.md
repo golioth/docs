@@ -3,22 +3,11 @@ id: install-device-sdk
 title: Install/Upgrade Device SDK
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
+Our main device SDK is based on the Zephyr RTOS. So a lot of the initial steps required are close to the same requirements to use Zephyr.
 
-Our main device SDK is based on the Zephyr RTOS. So a lot of the initial steps required at close to the same requirements to use Zephyr.
+import SetupZephyr from '../../partials/setup-zephyr.md'
 
-### Install `west` and Zephyr SDK
-
-You can follow the [Getting Started Guide](https://docs.zephyrproject.org/latest/getting_started/index.html) on Zephyr's website to install the `west` tool and also setup Zephyr SDK. If you using an OS other than Linux, you can skip the toolchain section as we are gonna show how to install them individually here.
-
-With `west`, you can install our Device SDK with this command:
-
-```
-west init -m git@github.com:golioth/zephyr.git --mr main
-west update
-west patch
-```
+<SetupZephyr/>
 
 ### Upgrading Golioth Device SDK
 
