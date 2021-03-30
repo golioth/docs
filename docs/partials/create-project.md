@@ -1,21 +1,21 @@
-To create a project, you can simply use `goliothctl project create` command with a `--name` parameter.
+To create a project, use `goliothctl project create` command with a `--name` parameter.
 
 ```
 goliothctl project create --name "My first project"
 ```
 
 :::note
-Project names must be unique.
+Project names must be globally unique.
 :::
 
-Them you list your projects with the command:
+You can list your projects with the `list` command:
 
 ```
 $ goliothctl project list
 [ ] id:"my-first-project" name:"My first project"
 ```
 
-Now that you created the project, you need to set it as the default on the CLI:
+With a newly-created the project you set the default project with the CLI:
 
 ```
 goliothctl config set projectId my-first-project
