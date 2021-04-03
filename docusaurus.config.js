@@ -63,10 +63,6 @@ module.exports = {
               label: 'Logging and Diagnostics',
               to: 'docs/guides/logging/getting-started',
             },*/
-            {
-              label: 'Advanced',
-              to: 'docs/guides/advanced/running-locally',
-            },
           ],
         },
         {
