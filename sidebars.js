@@ -16,7 +16,19 @@ const mapFiles = (root,type) => {
 }
 
 const guides = {
-  'Getting Started': mapFiles('guides','getting-started'),
+  /*'Quick Start Test' : [
+    'guides/getting-started/installing',
+    'guides/getting-started/authentication',
+    'guides/getting-started/create-project',
+    'guides/getting-started/manage-devices',
+    'guides/getting-started/authorize-devices',
+    'guides/device-sdk/install-device-sdk',
+    'guides/device-sdk/install-device-toolchain',
+    'guides/device-sdk/run-sample',
+    'guides/logging/searching-logs',
+  ],*/
+  'Quick Start' : mapFiles('guides','quickstart'),
+  'Platform Guide': mapFiles('guides','getting-started'),
   'Device SDK': mapFiles('guides','device-sdk'),
   "Light DB": mapFiles('guides','lightdb'),
   "Logging and Diagnostics": mapFiles('guides','logging'),

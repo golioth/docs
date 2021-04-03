@@ -13,7 +13,7 @@ As we saw on the [Manage Devices](./manage-devices) we can create the device, bu
 
 Currently we only support PreShared Key based authentication, but we are gonna be adding more in the future.
 
-Do do that, we can use the command `goliotctl provision`. To do a full provision, creating a device and the credential we can use the command:
+To provision a device, we can use the command `goliotctl provision`. To do a full provision, creating a device and the credential we can use the command:
 
 ```
 goliothctl provision --hwId "DE:AD:BE:EF" --name "My first device" --credId "deadbeef-id"  --psk "supersecret"
