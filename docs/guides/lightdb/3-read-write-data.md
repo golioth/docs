@@ -64,8 +64,12 @@ And the current device state will look like this:
 You can also write data using our APIs and `goliothctl`. Taking the enviroment sensing use case, let's say that we want to set a given alert threshold on the device. We can do this way:
 
 ```
-$ goliothctl lightdb set <device-id> /config/temp -b "{\"min\": 20.0, \"max\": 40.0 }"
+$ goliothctl lightdb set [device name] /config/temp -b "{\"min\": 20.0, \"max\": 40.0 }"
 ```
+
+:::note
+`[device name]` should be replace by your device name and wrapped in quotes if spaces are used.
+:::
 
 This way the device can also read the `/config` path and calculate alerts. If an alert condition is met, it can post data to `/alert`.
 
@@ -135,7 +139,7 @@ $ gurl coap --path /.d/alert/temp -m DELETE --psk-id deadbeef-id --psk supersecr
 Also, you can do that same acknowledgement via our APIs or `goliothctl`. Maybe for example, there is a web application that the final user can ack that alert. Using `goliothctl` you can delete the path with this command:
 
 ```
-$ goliothctl lightdb delete <device-id> /alert/temp
+$ goliothctl lightdb delete [device name] /alert/temp
 ```
 
 The final state of the device in this scenario would be like this:

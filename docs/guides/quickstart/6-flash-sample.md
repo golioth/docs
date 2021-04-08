@@ -35,7 +35,7 @@ Open a terminal window and locate the source code of
 the `hello` sample application at `sample/hello` and type:
 
 ```{.console}
-west build -b esp32 samples/hello -- -DOVERLAY_FILE="overlay-wifi.conf;overlay-logging.conf"
+west build -b esp32 samples/hello -- -DOVERLAY_CONFIG="overlay-wifi.conf;overlay-logging.conf"
 west flash
 ```
 
