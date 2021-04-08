@@ -24,6 +24,7 @@ goliothctl device [flags]
 
 ```
       --apiUrl string      golioth api server url (default "https://api.golioth.dev")
+  -c, --config string      config file (default is $HOME/.goliothctl.yaml)
       --projectId string   golioth project id
 ```
 
@@ -31,7 +32,7 @@ goliothctl device [flags]
 
 * [goliothctl](/docs/reference/goliothctl/goliothctl/)	 - Manage Golioth platform resources and developer workflow.
 * [goliothctl device create](/docs/reference/goliothctl/goliothctl_device_create/)	 - Create device
-* [goliothctl device delete](/docs/reference/goliothctl/goliothctl_device_delete/)	 - Delete a device by id
+* [goliothctl device delete](/docs/reference/goliothctl/goliothctl_device_delete/)	 - Delete a device
 * [goliothctl device list](/docs/reference/goliothctl/goliothctl_device_list/)	 - Show device list
-* [goliothctl device update](/docs/reference/goliothctl/goliothctl_device_update/)	 - Update device by id
+* [goliothctl device update](/docs/reference/goliothctl/goliothctl_device_update/)	 - Update device
 

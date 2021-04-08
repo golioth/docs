@@ -11,23 +11,26 @@ hide_title: true
 Set data at given path
 
 ```
-goliothctl lightdb set <device-id> <path> [flags]
+goliothctl lightdb set [device name] <path> [flags]
 ```
 
 ### Options
 
 ```
-  -b, --body string     request body
-  -f, --file string     file to be sent on the request body
-      --format string   input body format [json,cbor] (default "json")
-  -h, --help            help for set
-      --in              read request body from stdin
+  -b, --body string        request body
+  -f, --file string        file to be sent on the request body
+      --format string      input body format [json,cbor] (default "json")
+  -h, --help               help for set
+      --hwId stringArray   hardware id
+      --id string          device id
+      --in                 read request body from stdin
 ```
 
 ### Options inherited from parent commands
 
 ```
       --apiUrl string      golioth api server url (default "https://api.golioth.dev")
+  -c, --config string      config file (default is $HOME/.goliothctl.yaml)
       --projectId string   golioth project id
 ```
 

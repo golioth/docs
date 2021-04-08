@@ -8,22 +8,25 @@ hide_title: true
 ---
 ## goliothctl device delete
 
-Delete a device by id
+Delete a device
 
 ```
-goliothctl device delete <id> [flags]
+goliothctl device delete [device name] [flags]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for delete
+  -h, --help               help for delete
+      --hwId stringArray   device hardware id
+      --id string          device id
 ```
 
 ### Options inherited from parent commands
 
 ```
       --apiUrl string      golioth api server url (default "https://api.golioth.dev")
+  -c, --config string      config file (default is $HOME/.goliothctl.yaml)
       --projectId string   golioth project id
 ```
 

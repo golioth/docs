@@ -11,19 +11,22 @@ hide_title: true
 Delete data at given path
 
 ```
-goliothctl lightdb delete <device-id> <path> [flags]
+goliothctl lightdb delete [device name] <path> [flags]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for delete
+  -h, --help               help for delete
+      --hwId stringArray   hardware id
+      --id string          device id
 ```
 
 ### Options inherited from parent commands
 
 ```
       --apiUrl string      golioth api server url (default "https://api.golioth.dev")
+  -c, --config string      config file (default is $HOME/.goliothctl.yaml)
       --projectId string   golioth project id
 ```
 

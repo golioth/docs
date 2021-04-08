@@ -8,22 +8,25 @@ hide_title: true
 ---
 ## goliothctl updates send
 
-Show device list
+Send device firmware update
 
 ```
-goliothctl updates send <device-id> <file> [flags]
+goliothctl updates send [device name] <file> [flags]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for send
+  -h, --help               help for send
+      --hwId stringArray   hardware id
+      --id string          device id
 ```
 
 ### Options inherited from parent commands
 
 ```
       --apiUrl string      golioth api server url (default "https://api.golioth.dev")
+  -c, --config string      config file (default is $HOME/.goliothctl.yaml)
       --projectId string   golioth project id
 ```
 

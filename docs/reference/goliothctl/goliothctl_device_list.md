@@ -17,13 +17,16 @@ goliothctl device list [flags]
 ### Options
 
 ```
-  -h, --help   help for list
+  -h, --help               help for list
+      --hwId stringArray   device hardware id
+      --name string        device name
 ```
 
 ### Options inherited from parent commands
 
 ```
       --apiUrl string      golioth api server url (default "https://api.golioth.dev")
+  -c, --config string      config file (default is $HOME/.goliothctl.yaml)
       --projectId string   golioth project id
 ```
 

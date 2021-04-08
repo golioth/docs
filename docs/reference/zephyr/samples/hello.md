@@ -5,8 +5,7 @@ title: Golioth Hello sample
 # Overview
 
 This sample application demonstrates how to connect with Golioth and
-publish simple Hello messages. Additionally it allows to configure
-logging backend to send system logs to Golioth.
+publish simple Hello messages.
 
 # Requirements
 
@@ -38,13 +37,6 @@ $ west build -b qemu_x86 samples/hello
 $ west build -t run
 ```
 
-or
-
-``` {.console}
-$ west build -b qemu_x86 samples/hello -- -DOVERLAY_FILE="<overlay1.conf>;<overlay2.conf>"
-$ west build -t run
-```
-
 See [Networking with
 QEMU](https://docs.zephyrproject.org/latest/guides/networking/qemu_setup.html#networking-with-qemu)
 on how to setup networking on host and configure NAT/masquerading to
@@ -63,13 +55,6 @@ this sample application (i.e., `samples/hello`) and type:
 
 ``` {.console}
 $ west build -b esp32 samples/hello
-$ west flash
-```
-
-or
-
-``` {.console}
-$ west build -b esp32 samples/hello -- -DOVERLAY_FILE="<overlay1.conf>;<overlay2.conf>"
 $ west flash
 ```
 
@@ -100,15 +85,19 @@ CONFIG_GOLIOTH_SERVER_PORT=5684
 This is the output from the serial console:
 
 ``` {.console}
-[00:00:00.000,000] <dbg> golioth_hello.main: Start CoAP-client sample
 [00:00:00.000,000] <inf> golioth_hello: Initializing golioth client
 [00:00:00.000,000] <inf> golioth_hello: Golioth client initialized
 [00:00:00.000,000] <inf> golioth_hello: Sending hello! 0
-[00:00:00.000,000] <dbg> golioth_hello.main: Debug info! 1
-[00:00:00.000,000] <dbg> golioth_hello.func_1: Log 1: 1
-[00:00:00.000,000] <dbg> golioth_hello.func_2: Log 2: 1
-[00:00:00.000,000] <wrn> golioth_hello: Warn: 1
-[00:00:00.000,000] <err> golioth_hello: Err: 1
+[00:00:00.000,000] <wrn> golioth_hello: Failed to send hello!
 [00:00:00.000,000] <inf> golioth_hello: Starting connect
 [00:00:00.000,000] <inf> golioth_hello: Client connected!
+[00:00:05.010,000] <inf> golioth_hello: Sending hello! 1
+[00:00:05.020,000] <dbg> golioth_hello: Payload
+                                        48 65 6c 6c 6f 20 6d 61  72 6b                   |Hello ma rk
+[00:00:10.030,000] <inf> golioth_hello: Sending hello! 2
+[00:00:10.030,000] <dbg> golioth_hello: Payload
+                                        48 65 6c 6c 6f 20 6d 61  72 6b                   |Hello ma rk
 ```
+
+Responses to Hello messages are printed above as a hexdump of \"Hello
+mark\". This means that communication with Golioth is working.

@@ -23,27 +23,28 @@ $ cat data.json
 }%
 
 # Read current device state
-$ goliothctl lightdb get <device-id> /test
+# [device name] should be replace by your device name and wrapped in quotes if spaces are used.
+$ goliothctl lightdb get [device name] /test
 {"state":0}
 
 # Update state with data from a file
-$ cat data.json | goliothctl lightdb set <device-id> /test --in
+$ cat data.json | goliothctl lightdb set [device name] /test --in
 or
-$ goliothctl lightdb set <device-id> /test -f data.json
+$ goliothctl lightdb set [device name] /test -f data.json
 {"state":1}
 
-$ goliothctl lightdb get <device-id> /test
+$ goliothctl lightdb get --hwId <hardware id> /test
 {"state":1}
 
 # Update a specific path with a primitive value
-$ goliothctl lightdb set <device-id> /test/state -b "0"
+$ goliothctl lightdb set --hwId <hardware id> /test/state -b "0"
 1
 
-$ goliothctl lightdb get <device-id> /test
+$ goliothctl lightdb get --id <device id> /test
 {"state":0}
 
 # # Update a specific path with a nested value
-$ goliothctl lightdb set <device-id> /test -b "{\"state\":1}" --format json
+$ goliothctl lightdb set --id <device id> /test -b "{\"state\":1}" --format json
 {"state":1}
 ```
 
@@ -57,6 +58,7 @@ $ goliothctl lightdb set <device-id> /test -b "{\"state\":1}" --format json
 
 ```
       --apiUrl string      golioth api server url (default "https://api.golioth.dev")
+  -c, --config string      config file (default is $HOME/.goliothctl.yaml)
       --projectId string   golioth project id
 ```
 
