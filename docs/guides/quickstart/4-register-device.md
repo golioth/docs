@@ -3,7 +3,7 @@ id: register-device
 title: Register a device
 ---
 
-Golioth allows you to bring your own device and _securely_ use device services. When starting from scratch there are two things you need to do first knows about a device:
+Golioth allows you to bring your own device and _securely_ use device services. When starting from scratch there are two things you need to do first so that Golioth knows about a device:
 
 - Create a project
 - Provision the device
@@ -18,7 +18,7 @@ import CreateProject from '../../partials/create-project.md'
 
 ### Provision the Device
 
-You may add new devices through a process called _provisioning_. Provisioning uses the REST API securely associate a device and it's credentials with a Project in Golioth.
+You may add new devices through a process called _provisioning_. Provisioning securely associates a device and it's credentials with a Project in Golioth.
 
 To provision a device, use `goliotctl provision` with the following parameters:
 
@@ -30,7 +30,7 @@ goliothctl provision --hwId "DE:AD:BE:EF" \
 ```
 
 :::note
-Credential Identifier must be globally unique.
+Hardware ID (hwID) & Credential ID (credId) must be globally unique.
 :::
 
-Now your device can securely communicate with Golioth and is associated with the project you to our platform. You can view more commands to provision devices [here](/docs/reference/goliothctl/goliothctl_provision).
+Now your device can securely communicate with Golioth and is associated with the your project. You can view more commands to provision devices [here](/docs/reference/goliothctl/goliothctl_provision).
