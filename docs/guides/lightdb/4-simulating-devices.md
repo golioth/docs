@@ -47,14 +47,14 @@ You can also do the same with `goliothctl`:
 - Top level path:
 
 ```
-$ goliothctl lightdb get <device-id> /light
+$ goliothctl lightdb get [device name] /light
 {"brightness":10,"state":0}
 ```
 
 - Specific path:
 
 ```
-$ goliothctl lightdb get <device-id> /light/brightness
+$ goliothctl lightdb get [device name] /light/brightness
 50
 ```
 
@@ -79,11 +79,11 @@ waiting for more msgs. Type ctrl+c to close
 Now you can set new values on Light DB using `goliothctl`. You can set a specific value or pass a nested value in `json` format.
 
 ```
-$ goliothctl lightdb set <device-id> /light/state -b "true"
+$ goliothctl lightdb set [device name] /light/state -b "true"
 true
-$ goliothctl lightdb set <device-id> /light/state -b "false"
+$ goliothctl lightdb set [device name] /light/state -b "false"
 false
-$ goliothctl lightdb set <device-id> /light -b "{\"state\": true, \"brightness\": 30 }"
+$ goliothctl lightdb set [device name] /light -b "{\"state\": true, \"brightness\": 30 }"
 {"state":true,"brightness":30}
 ```
 

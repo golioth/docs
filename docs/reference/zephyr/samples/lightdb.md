@@ -37,13 +37,6 @@ $ west build -b qemu_x86 samples/lightdb
 $ west build -t run
 ```
 
-or
-
-``` {.console}
-$ west build -b qemu_x86 samples/lightdb -- -DOVERLAY_FILE="<overlay1.conf>;<overlay2.conf>"
-$ west build -t run
-```
-
 See [Networking with
 QEMU](https://docs.zephyrproject.org/latest/guides/networking/qemu_setup.html#networking-with-qemu)
 on how to setup networking on host and configure NAT/masquerading to
@@ -62,13 +55,6 @@ this sample application (i.e., `samples/lightdb`) and type:
 
 ``` {.console}
 $ west build -b esp32 samples/lightdb
-$ west flash
-```
-
-or
-
-``` {.console}
-$ west build -b esp32 samples/lightdb -- -DOVERLAY_FILE="<overlay1.conf>;<overlay2.conf>"
 $ west flash
 ```
 

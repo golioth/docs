@@ -36,7 +36,7 @@ goliothctl logs --device <uuid>
       --device string       device id
   -h, --help                help for logs
       --interval duration   return entries not older than this value (ex: 15m,8h,1d) (default 4h0m0s)
-      --level string        log level [ERROR NONE DEBUG INFO WARN]
+      --level string        log level [NONE DEBUG INFO WARN ERROR]
       --module string       log module
       --term string         free term search
 ```
@@ -45,6 +45,7 @@ goliothctl logs --device <uuid>
 
 ```
       --apiUrl string      golioth api server url (default "https://api.golioth.dev")
+  -c, --config string      config file (default is $HOME/.goliothctl.yaml)
       --projectId string   golioth project id
 ```
 

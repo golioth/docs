@@ -24,11 +24,12 @@ goliothctl updates [flags]
 
 ```
       --apiUrl string      golioth api server url (default "https://api.golioth.dev")
+  -c, --config string      config file (default is $HOME/.goliothctl.yaml)
       --projectId string   golioth project id
 ```
 
 ### SEE ALSO
 
 * [goliothctl](/docs/reference/goliothctl/goliothctl/)	 - Manage Golioth platform resources and developer workflow.
-* [goliothctl updates send](/docs/reference/goliothctl/goliothctl_updates_send/)	 - Show device list
+* [goliothctl updates send](/docs/reference/goliothctl/goliothctl_updates_send/)	 - Send device firmware update
 

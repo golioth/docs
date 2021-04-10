@@ -56,7 +56,7 @@ $ west flash
 or
 
 ```{.console}
-$ west build -b esp32 samples/hello -- -DOVERLAY_FILE="<overlay1.conf>;<overlay2.conf>"
+$ west build -b esp32 samples/hello -- -DOVERLAY_CONFIG="<overlay1.conf>;<overlay2.conf>"
 $ west flash
 ```
 
@@ -93,7 +93,7 @@ $ west build -t run
 or
 
 ```
-$ west build -b qemu_x86 samples/hello -- -DOVERLAY_FILE="<overlay1.conf>;<overlay2.conf>"
+$ west build -b qemu_x86 samples/hello -- -DOVERLAY_CONFIG="<overlay1.conf>;<overlay2.conf>"
 $ west build -t run
 ```
 
