@@ -5,43 +5,90 @@ title: Flashing a device with Samples
 
 Now we're getting to the good stuff - working with hardware! The sample project provided will demonstrate a device securely communicating with Golioth and will also introduce the first device service for _logging_.
 
+The first sample to look at is called `hello`, which logs a "hello" message using the _Logging Device Service_. Here's snippet of the `main()` function:
+
+```cpp
+void main(void)
+{
+	int r;
+	int counter = 0;
+
+	LOG_DBG("Start Hello sample");
+
+	k_sem_take(&golioth_client_ready, K_FOREVER);
+
+	while (true) {
+		LOG_INF("Sending hello! %d", counter++);
+
+		r = golioth_send_hello(client);
+		if (r < 0) {
+			LOG_WRN("Failed to send hello!");
+		}
+
+		k_sleep(K_SECONDS(5));
+	}
+
+	LOG_DBG("Quit");
+}
+```
+
+If you're familiar with Zephyr you may recognized the `LOG_*` functions. That's because Golioth tries to use Zephyr APIs whenever it can. In this instance, the Logging Device Service is a cloud-enabled backend for Zephyr's [logging](https://docs.zephyrproject.org/latest/reference/logging/index.html) library. In this way, Golioth's can reuse well-tested libraries, reduce the size through shared code and feel idiomatic to developers who are comfortable with Zephyr.
+
+### Building `hello`
+
 Samples can be found in the Zephyr SDK in the folder `modules/lib/golioth/samples`. We recommend running the commands below from the `modules/lib/golioth` folder.
 
-### Kconfig set up
+```
+cd ~/zephyrproject/modules/lib/golioth
+```
 
-Configure the following Kconfig options based on your Golioth credentials and server in your own overlay config file:
+Zephyr uses [Kconfig](https://docs.zephyrproject.org/latest/guides/kconfig/index.html) to manage build settings ar scale. Kconfig values can be set a number of ways but the ncurses-based TUI is the easiest.
 
-- `GOLIOTH_SERVER_IP_ADDR` - Server IPv4 address - `104.197.107.212` for our Developer Preview instance
-- `GOLIOTH_SERVER_PORT` - Server port number - default port is `5684`
-- `GOLIOTH_SERVER_DTLS_PSK_ID` - PSK ID of provisioned device from previous steps
-- `GOLIOTH_SERVER_DTLS_PSK` - PSK of provisioned device from previous steps
+First build the project with the default settings:
 
-Configure the following Kconfig options based on your WiFi AP
-credentials:
+```
+west build -b esp32 samples/hello
+```
 
-- `ESP32_WIFI_SSID` - Wi-Fi SSID
-- `ESP32_WIFI_PASSWORD` - Wi-Fi PSK
+Now open `menuconfig`:
 
-This is the overlay template for creating a `overlay-wifi.conf` file with your WiFi credentials:
+```
+west build -t menuconfig
+```
 
-```{.console}
-CONFIG_ESP32_WIFI_SSID="my-wifi"
-CONFIG_ESP32_WIFI_PASSWORD="my-psk"
+You should see something like this:
+
+![Menuconfig](../../partials/assets/menuconfig.png)
+
+Update the PSK & PSK ID to match what was used during the provisioning step and set the Wi-Fi network credentials.
+
+After saving, re-build the sample with the new settings.
+
+```
+west build -b esp32 samples/hello
 ```
 
 ### Flashing the device
 
-Open a terminal window and locate the source code of
-the `hello` sample application at `sample/hello` and type:
+Flashing is a simple `west` command away.
 
-```{.console}
-west build -b esp32 samples/hello -- -DOVERLAY_CONFIG="overlay-wifi.conf;overlay-logging.conf"
-west flash
+```
+west flash --esp-device=--esp-device=/dev/cu.usbserial-1337
 ```
 
-### Sample output
+:::note
+Your ESP32 will likely be at a different location, so adjust the `flash` command accordingly.
+:::
 
-This is the output from the serial console:
+### Verify with serial output
+
+You can verify that everything is working connecting to the device over a serial console using a tool like `screen`:
+
+```
+screen /dev/cu.usbserial-1337 115200
+```
+
+This is an snippet from the serial console:
 
 ```
 [00:00:00.000,000] <dbg> golioth_hello.main: Start CoAP-client sample
