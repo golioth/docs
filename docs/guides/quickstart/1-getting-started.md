@@ -4,7 +4,7 @@ title: Quick Start Guide
 slug: /guides
 ---
 
-This work-through will demonstrate how to quickly connect a device and send data to Golioth. We’ll be using an Espressif [ESP32 DevKitC](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/hw-reference/esp32/get-started-devkitc.html) with [Zephyr](zephyrproject.org) & [`west`](https://docs.zephyrproject.org/latest/guides/west/index.html), but first, we want to install the main tool you need to work with Golioth, `goliothctl`.
+This work-through will demonstrate how to quickly connect a device and send data to Golioth. We’ll be using an Espressif [ESP32 DevKitC](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/hw-reference/esp32/get-started-devkitc.html) with [Zephyr](https://www.zephyrproject.org) & [`west`](https://docs.zephyrproject.org/latest/guides/west/index.html), but first, we want to install the main tool you need to work with Golioth, `goliothctl`.
 
 :::note
 
