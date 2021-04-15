@@ -3,14 +3,14 @@ id: register-device
 title: Register a device
 ---
 
-Golioth allows you to bring your own device and _securely_ use device services. When starting from scratch there are two things you need to do first so that Golioth knows about a device:
+Golioth allows you to bring your own device and securely use device services. When starting from scratch there are two things you need to do first so that Golioth knows about a device:
 
 - Create a project
 - Provision the device
 
 ### Create a Project
 
-A _project_ is a core concept in Golioth and where related devices live and are managed. The definition of a project will be up to you but it might represent a product and all instances in the field, or a customer or something different entirely.
+A _project_ is a core concept in Golioth as it is where related devices live and are managed. How a "project" is defined is up to you - it might represent a product and all instances in the field, or a customer or something different entirely.
 
 import CreateProject from '../../partials/create-project.md'
 

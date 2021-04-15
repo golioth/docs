@@ -5,7 +5,7 @@ title: Sign Up
 
 :::note
 
-In this guide we'll create an account with `goliothctl` but you can also create an account via http://console.golioth.dev/. You can use the same account with the Console and `goliothctl` regardless of where it was created.
+In this guide we'll create an account with `goliothctl` but you can also create an account via [console.golioth.dev](https://console.golioth.dev). You can use the same account with the Console and `goliothctl` regardless of where it was created.
 
 :::
 

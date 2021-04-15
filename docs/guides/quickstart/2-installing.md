@@ -32,19 +32,19 @@ brew tap golioth/tap
 The available CLIs are:
 * `goliothctl`
 
-Install them with `brew install` like in
+Install them with `brew install`
 
 ```
 brew install goliothctl
 ```
 
-Alternatively you can also install the CLI directly (without adding a tap globally) with
+Alternatively you can also install the CLI directly (without adding a tap globally)
 
 ```
 brew install golioth/tap/goliothctl
 ```
 
-Verify that `goliothctl` is installed correctly by checking the version:
+Verify that `goliothctl` is installed correctly by checking the version
 ```
 $ goliothctl version
 0.10.3
