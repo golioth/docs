@@ -5,7 +5,7 @@ title: Flashing a device with Samples
 
 Now we're getting to the good stuff - working with hardware! The sample project provided will demonstrate a device securely communicating with Golioth and will also introduce the first device service for _logging_.
 
-The first sample to look at is called `hello`, which logs a "hello" message using the _Logging Device Service_. Here's snippet of the `main()` function:
+The sample we'll be using is called `hello`, which logs a "hello" message using the _Logging Device Service_. Here's snippet of the `main()` function:
 
 ```cpp
 void main(void)
@@ -32,7 +32,7 @@ void main(void)
 }
 ```
 
-If you're familiar with Zephyr you may recognized the `LOG_*` functions. That's because Golioth tries to use Zephyr APIs whenever it can. In this instance, the Logging Device Service is a cloud-enabled backend for Zephyr's [logging](https://docs.zephyrproject.org/latest/reference/logging/index.html) library. In this way, Golioth's can reuse well-tested libraries, reduce the size through shared code and feel idiomatic to developers who are comfortable with Zephyr.
+If you're familiar with Zephyr you may recognized the `LOG_*` functions. That's because Golioth tries to use Zephyr APIs whenever it can. In this instance, the Logging Device Service is a cloud-enabled backend for Zephyr's [logging](https://docs.zephyrproject.org/latest/reference/logging/index.html) library. In this way, Golioth can reuse well-tested libraries, reduce the size through shared code and feel idiomatic to developers who are comfortable with Zephyr.
 
 ### Building `hello`
 
@@ -42,27 +42,20 @@ Samples can be found in the Zephyr SDK in the folder `modules/lib/golioth/sample
 cd ~/zephyrproject/modules/lib/golioth
 ```
 
-Zephyr uses [Kconfig](https://docs.zephyrproject.org/latest/guides/kconfig/index.html) to manage build settings ar scale. Kconfig values can be set a number of ways but the ncurses-based TUI is the easiest.
+Zephyr uses [Kconfig](https://docs.zephyrproject.org/latest/guides/kconfig/index.html) to manage build settings at scale. Kconfig values can be set a number of ways but for this example we'll take a simple route by modifying `prj.conf`.
 
-First build the project with the default settings:
-
-```
-west build -b esp32 samples/hello
-```
-
-Now open `menuconfig`:
+Open `prj.conf` in your editor of choice and add these fields:
 
 ```
-west build -t menuconfig
+CONFIG_ESP32_WIFI_SSID="YOUR_NETWORK_NAME"
+CONFIG_ESP32_WIFI_PASSWORD="YOUR_NETWORK_PW"
+CONFIG_GOLIOTH_SERVER_DTLS_PSK_ID="DEVICE_CRED_ID"
+CONFIG_GOLIOTH_SERVER_DTLS_PSK="DEVICE_PSK"
 ```
 
-You should see something like this:
+Set the PSK & PSK ID to match what was used during the provisioning step and the Wi-Fi network credentials to match your network.
 
-![Menuconfig](../../partials/assets/menuconfig.png)
-
-Update the PSK & PSK ID to match what was used during the provisioning step and set the Wi-Fi network credentials.
-
-After saving, re-build the sample with the new settings.
+After saving, build the sample with the new settings applied.
 
 ```
 west build -b esp32 samples/hello
@@ -73,7 +66,7 @@ west build -b esp32 samples/hello
 Flashing is a simple `west` command away.
 
 ```
-west flash --esp-device=--esp-device=/dev/cu.usbserial-1337
+west flash --esp-device=/dev/cu.usbserial-1337
 ```
 
 :::note
@@ -82,7 +75,7 @@ Your ESP32 will likely be at a different location, so adjust the `flash` command
 
 ### Verify with serial output
 
-You can verify that everything is working connecting to the device over a serial console using a tool like `screen`:
+You can verify that everything is working by connecting to the device over a serial console using a tool like `screen`:
 
 ```
 screen /dev/cu.usbserial-1337 115200
