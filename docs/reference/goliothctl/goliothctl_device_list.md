@@ -20,6 +20,7 @@ goliothctl device list [flags]
   -h, --help               help for list
       --hwId stringArray   device hardware id
       --name string        device name
+      --tags stringArray   tag names
 ```
 
 ### Options inherited from parent commands

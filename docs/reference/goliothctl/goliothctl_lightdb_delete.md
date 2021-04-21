@@ -20,6 +20,7 @@ goliothctl lightdb delete [device name] <path> [flags]
   -h, --help               help for delete
       --hwId stringArray   hardware id
       --id string          device id
+      --tag string         tag name
 ```
 
 ### Options inherited from parent commands

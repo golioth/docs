@@ -46,4 +46,5 @@ cat ./path/to/a/file | gurl coap --path /echo -m POST --psk-id my-identity --psk
 ### SEE ALSO
 
 * [gurl coap](/docs/reference/gurl/gurl_coap/)	 - CoAP client to test golioth coap gateway
+* [gurl version](/docs/reference/gurl/gurl_version/)	 - Show CLI Version
 

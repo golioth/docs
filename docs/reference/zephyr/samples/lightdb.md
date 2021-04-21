@@ -9,18 +9,23 @@ access Light DB.
 
 # Requirements
 
--   Golioth credentials and server information
+-   Golioth credentials
 -   Network connectivity
 
 # Building and Running
 
 Configure the following Kconfig options based on your Golioth
-credentials and server in your own overlay config file:
+credentials:
 
--   GOLIOTH_SERVER_IP_ADDR - Server IPv4 address.
--   GOLIOTH_SERVER_PORT - Server port number.
 -   GOLIOTH_SERVER_DTLS_PSK_ID - PSK ID of registered device
 -   GOLIOTH_SERVER_DTLS_PSK - PSK of registered device
+
+by adding these lines to configuration file (e.g. `prj.conf`):
+
+``` {.cfg}
+CONFIG_GOLIOTH_SERVER_DTLS_PSK_ID="my-psk-id"
+CONFIG_GOLIOTH_SERVER_DTLS_PSK="my-psk"
+```
 
 ## Platform specific configuration
 
@@ -50,6 +55,14 @@ credentials:
 -   ESP32_WIFI_SSID - WiFi SSID
 -   ESP32_WIFI_PASSWORD - WiFi PSK
 
+by adding these lines to configuration file (e.g. `prj.conf` or
+`board/esp32.conf`):
+
+``` {.cfg}
+CONFIG_ESP32_WIFI_SSID="my-wifi"
+CONFIG_ESP32_WIFI_PASSWORD="my-psk"
+```
+
 On your host computer open a terminal window, locate the source code of
 this sample application (i.e., `samples/lightdb`) and type:
 
@@ -58,27 +71,9 @@ $ west build -b esp32 samples/lightdb
 $ west flash
 ```
 
-This is the overlay template for WiFi credentials:
-
-``` {.console}
-CONFIG_ESP32_WIFI_SSID="my-wifi"
-CONFIG_ESP32_WIFI_PASSWORD="my-psk"
-```
-
 See
 [ESP32](https://docs.zephyrproject.org/latest/boards/xtensa/esp32/doc/index.html)
 for details on how to use ESP32 board.
-
-## Sample overlay file
-
-This is the overlay template for Golioth credentials and server:
-
-``` {.console}
-CONFIG_GOLIOTH_SERVER_DTLS_PSK_ID="my-psk-id"
-CONFIG_GOLIOTH_SERVER_DTLS_PSK="my-psk"
-CONFIG_GOLIOTH_SERVER_IP_ADDR="192.168.1.10"
-CONFIG_GOLIOTH_SERVER_PORT=5684
-```
 
 ## Sample output
 

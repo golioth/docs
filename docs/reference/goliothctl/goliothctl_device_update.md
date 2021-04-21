@@ -18,11 +18,13 @@ goliothctl device update [device name] [flags]
 
 ```
       --addHwId stringArray   add hardware id
+      --addTag stringArray    add tag
   -h, --help                  help for update
       --hwId stringArray      hardware id
       --id string             device id
       --name string           new device name
       --rmHwId stringArray    remove hardware id
+      --rmTag stringArray     remove tag
 ```
 
 ### Options inherited from parent commands

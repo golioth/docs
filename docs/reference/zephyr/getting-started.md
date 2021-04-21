@@ -14,3 +14,4 @@ west patch
 
 -   [Golioth Hello sample](/docs/reference/zephyr/samples/hello)
 -   [Golioth Light DB sample](/docs/reference/zephyr/samples/lightdb)
+-   [Golioth Logging sample](/docs/reference/zephyr/samples/logging)

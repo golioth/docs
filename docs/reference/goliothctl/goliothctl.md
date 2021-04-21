@@ -54,5 +54,7 @@ goliothctl provision --hwId "DE:AD:BE:EF" --name "My first device" --credId "dea
 * [goliothctl logs](/docs/reference/goliothctl/goliothctl_logs/)	 - Show device logs (from the last 4h by default)
 * [goliothctl project](/docs/reference/goliothctl/goliothctl_project/)	 - Access and manage project information
 * [goliothctl provision](/docs/reference/goliothctl/goliothctl_provision/)	 - Provision devices and credentials
+* [goliothctl tag](/docs/reference/goliothctl/goliothctl_tag/)	 - Access tag information
 * [goliothctl updates](/docs/reference/goliothctl/goliothctl_updates/)	 - Send/Trigger device updates
+* [goliothctl version](/docs/reference/goliothctl/goliothctl_version/)	 - Show CLI Version
 

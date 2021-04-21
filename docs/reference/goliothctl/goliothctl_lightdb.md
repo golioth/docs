@@ -43,8 +43,12 @@ $ goliothctl lightdb set --hwId <hardware id> /test/state -b "0"
 $ goliothctl lightdb get --id <device id> /test
 {"state":0}
 
-# # Update a specific path with a nested value
+# Update a specific path with a nested value
 $ goliothctl lightdb set --id <device id> /test -b "{\"state\":1}" --format json
+{"state":1}
+
+# Update a data on multiple devices
+$ goliothctl lightdb set --tag [tag name] /test -b "{\"state\":1}" --format json
 {"state":1}
 ```
 

@@ -24,6 +24,7 @@ goliothctl lightdb set [device name] <path> [flags]
       --hwId stringArray   hardware id
       --id string          device id
       --in                 read request body from stdin
+      --tag string         tag name
 ```
 
 ### Options inherited from parent commands

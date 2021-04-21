@@ -21,10 +21,13 @@ goliothctl logs [flags]
 goliothctl logs --interval 24h
 
 # Filter messages by a term
-goliothctl logs --term "wifi"
+goliothctl logs --term wifi
 
 # Filter messages by a module
-goliothctl logs --module "settings"
+goliothctl logs --module settings
+
+# Filter messages by a device tag
+goliothctl logs --tags my-tag-name
 
 # Filter messages by a single device
 goliothctl logs --device <uuid>
@@ -36,8 +39,9 @@ goliothctl logs --device <uuid>
       --device string       device id
   -h, --help                help for logs
       --interval duration   return entries not older than this value (ex: 15m,8h,1d) (default 4h0m0s)
-      --level string        log level [NONE DEBUG INFO WARN ERROR]
+      --level string        log level [DEBUG INFO WARN ERROR NONE]
       --module string       log module
+      --tags stringArray    tag names
       --term string         free term search
 ```
 
