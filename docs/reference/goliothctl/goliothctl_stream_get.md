@@ -41,5 +41,9 @@ goliothctl stream get [device name] <path> [flags]
 
 ### SEE ALSO
 
+<<<<<<< HEAD
 * [goliothctl stream](/docs/reference/goliothctl/goliothctl_stream/)	 - Access the data in a LightDB Stream.
+=======
+* [goliothctl stream](/docs/reference/goliothctl/goliothctl_stream/)	 - Access data on Light DB Stream
+>>>>>>> c725cda (feat: Add api keys and timeseries docs)
 

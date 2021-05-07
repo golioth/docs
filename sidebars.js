@@ -2,8 +2,8 @@ const fs = require('fs')
 
 const mapFiles = (root,type) => {
   return fs.readdirSync(`./docs/${root}/${type}`)
-    .filter( f => f.endsWith('.md'))
-    .map( f => f.replace('.md',''))
+    .filter( f => f.endsWith('.md') || f.endsWith('.mdx'))
+    .map( f => f.replace('.mdx','').replace('.md', '') )
     .map( f => {
       const parts = f.split('-')
       if (Number.isInteger(parseInt(parts[0],10))) {
@@ -58,6 +58,16 @@ const guides = [
     type: 'category',
     label: 'LightDB',
     items: mapFiles('guides', 'lightdb'),
+  },
+  {
+    type: 'category',
+    label: 'LightDB Stream',
+    items: mapFiles('guides', 'lightdb-stream'),
+  },
+  {
+    type: 'category',
+    label: 'REST API',
+    items: mapFiles('guides', 'rest-api'),
   },
   {
     type: 'category',
