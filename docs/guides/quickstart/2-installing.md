@@ -49,3 +49,6 @@ Verify that `goliothctl` is installed correctly by checking the version
 $ goliothctl version
 0.10.3
 ```
+#### Linux (Binaries)
+
+Running the binary from linux may require it to be added to the PATH variable or to be run as a script: `./goliothctl`
