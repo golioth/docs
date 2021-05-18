@@ -17,6 +17,7 @@ import SetupZephyrUnix from './setup-zephyr-unix.md'
 Install dependencies with `apt`:
 
 ```
+sudo apt update
 sudo apt install --no-install-recommends git cmake ninja-build gperf \
   ccache dfu-util device-tree-compiler wget \
   python3-dev python3-pip python3-setuptools python3-tk python3-wheel xz-utils file \
