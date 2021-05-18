@@ -64,6 +64,10 @@ pip3 install west
 
 With `west` installed, grab the Device SDK:
 
+:::info
+`west update` can take upwards of 5 minutes, depending on your internet and IO speed.
+:::
+
 ```
 cd ~
 west init -m git@github.com:golioth/zephyr.git --mr main ~/zephyrproject
