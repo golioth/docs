@@ -44,7 +44,7 @@ cd ~/zephyrproject/modules/lib/golioth
 
 Zephyr uses [Kconfig](https://docs.zephyrproject.org/latest/guides/kconfig/index.html) to manage build settings at scale. Kconfig values can be set a number of ways but for this example we'll take a simple route by modifying `prj.conf`.
 
-Open `prj.conf` in your editor of choice and add these fields:
+Open `samples/hello/prj.conf` in your editor of choice and add these fields:
 
 ```
 CONFIG_ESP32_WIFI_SSID="YOUR_NETWORK_NAME"
