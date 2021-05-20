@@ -31,13 +31,9 @@ You can also follow the [Getting started Guide](https://docs.zephyrproject.org/l
 </TabItem>
 <TabItem value="qemu">
 
-#### Install QEMU
+import InstallQemuSdk from './install-qemu-sdk.md'
 
-You can follow the [Install QEMU](https://www.qemu.org/download/) instructions from QEMU website.
-
-### Setup QEMU Networking
-
-See [Networking with QEMU](https://docs.zephyrproject.org/latest/guides/networking/qemu_setup.html#networking-with-qemu) on how to setup networking on host and configure NAT/masquerading to access Internet.
+<InstallQemuSdk />
 
 </TabItem>
 <TabItem value="others">
