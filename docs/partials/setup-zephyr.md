@@ -1,4 +1,33 @@
-### Install `west` and the Zephyr SDK
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs
+groupId="os"
+defaultValue="linux"
+values={[
+{label: 'Linux', value: 'linux'},
+{label: 'MacOS', value: 'macos'},
+{label: 'Windows', value: 'windows'},
+]}>
+
+import SetupZephyrUnix from './setup-zephyr-unix.md'
+
+<TabItem value="linux">
+
+Install dependencies with `apt`:
+
+```
+sudo apt update
+sudo apt install --no-install-recommends git cmake ninja-build gperf \
+  ccache dfu-util device-tree-compiler wget \
+  python3-dev python3-pip python3-setuptools python3-tk python3-wheel xz-utils file \
+  make gcc gcc-multilib g++-multilib libsdl2-dev
+```
+
+<SetupZephyrUnix />
+
+</TabItem>
+<TabItem value="macos">
 
 Start by installing dependencies with `brew`:
 
@@ -6,34 +35,17 @@ Start by installing dependencies with `brew`:
 brew install cmake ninja gperf python3 ccache qemu dtc
 ```
 
-Use `pip3` to install `west`:
+<SetupZephyrUnix />
 
-```
-pip3 install west
-```
+</TabItem>
+<TabItem value="windows">
 
-With `west` installed, grab the Device SDK:
-
-```
-cd ~
-west init -m git@github.com:golioth/zephyr.git --mr main ~/zephyrproject
-cd zephyrproject/
-west update
-west patch
-```
-
-:::note
-The patch step is temporary until the Github repo is made public
+:::caution
+While Windows is supported by Zephyr, Golioth does not yet have instructions for
+Windows.
 :::
 
-Tell `west` to automatically configure CMake:
+</TabItem>
+</Tabs>
 
-```
-west zephyr-export
-```
-
-Lastly, install the remaining dependencies:
-
-```
-pip3 install -r ~/zephyrproject/zephyr/scripts/requirements.txt
-```
+---

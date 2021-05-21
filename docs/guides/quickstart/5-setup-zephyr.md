@@ -5,11 +5,7 @@ title: Setup Zephyr
 
 Golioth can be added to a device with _Device SDKs_ which are based on different embedded Operating Systems. Currenly Golioth targets the [Zephyr Project](https://www.zephyrproject.org/) and builds upon the APIs & tools of Zephyr. As such, prior experience with Zephyr will make working with Golioth's Zephyr Device SDK comfortable and familiar. Refer to Zephyr's [detailed documentation](https://docs.zephyrproject.org/) when running into issues.
 
-#### macOS Instructions
-
-:::note
-Zephyr supports developing on Linux, Windows and macOS. This guide will focus on macOS. For other systems follow the guides from the [Zephyr documentation](https://docs.zephyrproject.org/latest/getting_started/index.html).
-:::
+### Install West and the Zephyr SDK
 
 import SetupZephyr from '../../partials/setup-zephyr.md'
 
