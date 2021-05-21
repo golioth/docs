@@ -43,15 +43,11 @@ cd net-tools
 make
 ```
 
-<Tabs
-defaultValue="manual-setup"
-values={[
-{label: 'Manual Setup', value: 'manual-setup'},
-{label: 'Scripted Setup', value: 'scripted-setup'},
-]}>
-<TabItem value="manual-setup">
+:::note
+We're working hard to improve the user-experience here
+:::
 
-Now, open three additional terminals (four in total).
+Now, open two additional terminals (three in total).
 In terminals 2 and 3, `cd` to the `net-tools` directory that you just cloned.
 
 In terminal 2, run:
@@ -72,16 +68,6 @@ In terminal 1, run:
 sudo iptables -t nat -A POSTROUTING -j MASQUERADE -s 192.0.2.1
 sudo sysctl -w net.ipv4.ip_forward=1
 ```
-
-</TabItem>
-<TabItem value="scripted-setup">
-
-:::info
-TODO
-:::
-
-</TabItem>
-</Tabs>
 
 </TabItem>
 <TabItem value="macos">
@@ -110,3 +96,17 @@ Windows.
 
 </TabItem>
 </Tabs>
+
+---
+
+At this point, you can build a golioth zephyr project:
+
+```
+west build -b qemu_cortex_m3 <directory of sample>
+```
+
+and run it:
+
+```
+west build -t run
+```
