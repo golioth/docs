@@ -29,3 +29,8 @@ This command generates static content into the `build` directory and can be serv
 ```console
 npm run fb-deploy
 ```
+## Versioning
+
+In Ubuntu, the default npm install will not be up to date with the required npm packages. Consider using nvm to choose an LTS solution that will work better with Docusaurus V2.
+
+* [nvm install for Ubuntu 20.04 (option 3)](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04)
