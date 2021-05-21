@@ -31,11 +31,10 @@ source ~/zephyr-env/bin/activate
 source ~/zephyr-env/bin/activate.fish
 ```
 
-To deactivate the virtualenv: (but don't run this yet)
-
-```
-deactivate
-```
+:::note
+If you'd like to exit out of the virtualenv at the end of the tutorial,
+run `deactivate`.
+:::
 
 Now, use `pip` to install `west`:
 
@@ -65,7 +64,7 @@ pip3 install west
 With `west` installed, grab the Device SDK:
 
 :::info
-`west update` can take upwards of 5 minutes, depending on your internet and IO speed.
+Depending on your internet and I/O speed, `west update` can take upwards of 5 or 10 minutes.
 :::
 
 ```
