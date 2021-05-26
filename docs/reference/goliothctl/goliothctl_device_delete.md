@@ -8,10 +8,24 @@ hide_title: true
 ---
 ## goliothctl device delete
 
-Delete a device
+Delete a device from Golioth.
 
 ```
 goliothctl device delete [device name] [flags]
+```
+
+### Examples
+
+```
+# Delete a device with name "foobar"
+> goliothctl device delete foobar
+
+# Delete a device with a specified ID
+> goliothctl device delete --id 60ad6ad0ad0772e87bb232ce
+
+# Delete a device with a specified hardware ID
+> goliothctl device delete --hwId BB:BB:BB:BB
+
 ```
 
 ### Options
@@ -32,5 +46,5 @@ goliothctl device delete [device name] [flags]
 
 ### SEE ALSO
 
-* [goliothctl device](/docs/reference/goliothctl/goliothctl_device/)	 - Access device information
+* [goliothctl device](/docs/reference/goliothctl/goliothctl_device/)	 - Use the `goliothctl device` subcommands to add, remove, list, and update data associated with devices.
 

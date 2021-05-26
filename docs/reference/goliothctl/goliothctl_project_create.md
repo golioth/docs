@@ -8,10 +8,16 @@ hide_title: true
 ---
 ## goliothctl project create
 
-Create project
+Create a project.
 
 ```
 goliothctl project create [flags]
+```
+
+### Examples
+
+```
+goliothctl project new my-project
 ```
 
 ### Options
@@ -31,5 +37,5 @@ goliothctl project create [flags]
 
 ### SEE ALSO
 
-* [goliothctl project](/docs/reference/goliothctl/goliothctl_project/)	 - Access and manage project information
+* [goliothctl project](/docs/reference/goliothctl/goliothctl_project/)	 - Access and manage project information.
 

@@ -8,7 +8,13 @@ hide_title: true
 ---
 ## goliothctl login
 
-Authenticate with golioth system
+Authenticate with Golioth manually.
+
+### Synopsis
+
+Running `goliothctl login` will open a browser window and ask you to securely log into or create an account with Golioth.
+
+The login information will be stored in a local secure keystore if available. Otherwise, the data will be stored in `~/.golioth.`
 
 ```
 goliothctl login [flags]

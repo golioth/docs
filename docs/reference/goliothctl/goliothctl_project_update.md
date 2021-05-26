@@ -8,7 +8,7 @@ hide_title: true
 ---
 ## goliothctl project update
 
-Update current project
+Change the name associated with the current project.
 
 ```
 goliothctl project update [flags]
@@ -31,5 +31,5 @@ goliothctl project update [flags]
 
 ### SEE ALSO
 
-* [goliothctl project](/docs/reference/goliothctl/goliothctl_project/)	 - Access and manage project information
+* [goliothctl project](/docs/reference/goliothctl/goliothctl_project/)	 - Access and manage project information.
 

@@ -8,10 +8,16 @@ hide_title: true
 ---
 ## goliothctl tag create
 
-Create tag
+Create a tag.
 
 ```
 goliothctl tag create [flags]
+```
+
+### Examples
+
+```
+> goliothctl tag create --name my-tag
 ```
 
 ### Options
@@ -31,5 +37,5 @@ goliothctl tag create [flags]
 
 ### SEE ALSO
 
-* [goliothctl tag](/docs/reference/goliothctl/goliothctl_tag/)	 - Access tag information
+* [goliothctl tag](/docs/reference/goliothctl/goliothctl_tag/)	 - Create, update, and delete tags.
 

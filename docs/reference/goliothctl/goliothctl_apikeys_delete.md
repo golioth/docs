@@ -8,10 +8,18 @@ hide_title: true
 ---
 ## goliothctl apikeys delete
 
-Delete an API Key by id
+Delete an API key with an ID.
 
 ```
 goliothctl apikeys delete <id> [flags]
+```
+
+### Examples
+
+```
+# Assuming that this API key was created previously
+> goliothctl apikeys delete 5df88b8e-e208-41d4-b7e2-29192ab5de83
+API key deleted
 ```
 
 ### Options
@@ -30,5 +38,5 @@ goliothctl apikeys delete <id> [flags]
 
 ### SEE ALSO
 
-* [goliothctl apikeys](/docs/reference/goliothctl/goliothctl_apikeys/)	 - Access API Keys information
+* [goliothctl apikeys](/docs/reference/goliothctl/goliothctl_apikeys/)	 - Access API Keys information.
 

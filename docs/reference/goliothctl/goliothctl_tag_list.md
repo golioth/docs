@@ -8,7 +8,7 @@ hide_title: true
 ---
 ## goliothctl tag list
 
-Show tag list
+Show all tags.
 
 ```
 goliothctl tag list [flags]
@@ -31,5 +31,5 @@ goliothctl tag list [flags]
 
 ### SEE ALSO
 
-* [goliothctl tag](/docs/reference/goliothctl/goliothctl_tag/)	 - Access tag information
+* [goliothctl tag](/docs/reference/goliothctl/goliothctl_tag/)	 - Create, update, and delete tags.
 

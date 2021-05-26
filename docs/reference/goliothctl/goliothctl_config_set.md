@@ -8,10 +8,17 @@ hide_title: true
 ---
 ## goliothctl config set
 
-Sets a given config
+Set the value associated with a key in the local goliothctl config
 
 ```
 goliothctl config set <key> <value> [flags]
+```
+
+### Examples
+
+```
+# Set the Golioth server URL to localhost
+> goliothctl config set apiUrl http://localhost:9090
 ```
 
 ### Options
@@ -30,5 +37,5 @@ goliothctl config set <key> <value> [flags]
 
 ### SEE ALSO
 
-* [goliothctl config](/docs/reference/goliothctl/goliothctl_config/)	 - Set global goliothctl config
+* [goliothctl config](/docs/reference/goliothctl/goliothctl_config/)	 - The `goliothctl config` subcommands are used to get and set values in the current local goliothctl config.
 
