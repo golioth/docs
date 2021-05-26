@@ -8,10 +8,30 @@ hide_title: true
 ---
 ## goliothctl apikeys
 
-Access API Keys information
+Access API Keys information.
+
+### Synopsis
+
+The `goliothctl apikeys` subcommands are used to create, delete, list API keys that can be used to connect to the Golioth REST APIs.
 
 ```
 goliothctl apikeys [flags]
+```
+
+### Examples
+
+```
+# Create an API key
+> goliothctl apikeys create
+id:"5df88b8e-e208-41d4-b7e2-29192ab5de83"  key:"dLEtQLItz9eSHZYwuZGE5UlcgL2GOmHW" type:API_KEY
+
+# List all API Keys
+> goliothctl apikeys list
+id:"5df88b8e-e208-41d4-b7e2-29192ab5de83"  key:"dLEtQLItz9eSHZYwuZGE5UlcgL2GOmHW" type:API_KEY
+
+# Delete an API Key
+> goliothctl apikeys delete 5df88b8e-e208-41d4-b7e2-29192ab5de83
+API key deleted
 ```
 
 ### Options
@@ -31,7 +51,7 @@ goliothctl apikeys [flags]
 ### SEE ALSO
 
 * [goliothctl](/docs/reference/goliothctl/goliothctl/)	 - Manage Golioth platform resources and developer workflow.
-* [goliothctl apikeys create](/docs/reference/goliothctl/goliothctl_apikeys_create/)	 - Create API Key
-* [goliothctl apikeys delete](/docs/reference/goliothctl/goliothctl_apikeys_delete/)	 - Delete an API Key by id
-* [goliothctl apikeys list](/docs/reference/goliothctl/goliothctl_apikeys_list/)	 - Show API keys list
+* [goliothctl apikeys create](/docs/reference/goliothctl/goliothctl_apikeys_create/)	 - Create an API key.
+* [goliothctl apikeys delete](/docs/reference/goliothctl/goliothctl_apikeys_delete/)	 - Delete an API key with an ID.
+* [goliothctl apikeys list](/docs/reference/goliothctl/goliothctl_apikeys_list/)	 - Show all existing API keys.
 

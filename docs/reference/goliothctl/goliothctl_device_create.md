@@ -8,10 +8,22 @@ hide_title: true
 ---
 ## goliothctl device create
 
-Create device
+Add a device to Golioth.
+
+### Synopsis
+
+Add a device to the Golioth cloud. It can have multiple hardware IDs.
+The hardware IDs are not currently restricted to particular formats.
 
 ```
 goliothctl device create [flags]
+```
+
+### Examples
+
+```
+# Add a device with multiple hardware IDs
+> goliothctl device create --name foobar --hwId AA:AA:AA:AA --hwId BB:BB:BB:BB
 ```
 
 ### Options
@@ -32,5 +44,5 @@ goliothctl device create [flags]
 
 ### SEE ALSO
 
-* [goliothctl device](/docs/reference/goliothctl/goliothctl_device/)	 - Access device information
+* [goliothctl device](/docs/reference/goliothctl/goliothctl_device/)	 - Use the `goliothctl device` subcommands to add, remove, list, and update data associated with devices.
 

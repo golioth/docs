@@ -8,10 +8,17 @@ hide_title: true
 ---
 ## goliothctl updates
 
-Send/Trigger device updates
+Trigger device updates.
 
 ```
 goliothctl updates [flags]
+```
+
+### Examples
+
+```
+# Update a single device by name
+> goliothctl updates send my-device firmware.bin
 ```
 
 ### Options
@@ -31,5 +38,5 @@ goliothctl updates [flags]
 ### SEE ALSO
 
 * [goliothctl](/docs/reference/goliothctl/goliothctl/)	 - Manage Golioth platform resources and developer workflow.
-* [goliothctl updates send](/docs/reference/goliothctl/goliothctl_updates_send/)	 - Send device firmware update
+* [goliothctl updates send](/docs/reference/goliothctl/goliothctl_updates_send/)	 - Update a single device's firmware.
 

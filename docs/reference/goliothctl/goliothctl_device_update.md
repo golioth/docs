@@ -8,10 +8,23 @@ hide_title: true
 ---
 ## goliothctl device update
 
-Update device
+Update the name, hardware IDs, and tags associated with a device.
 
 ```
 goliothctl device update [device name] [flags]
+```
+
+### Examples
+
+```
+# Update the name of a device from "foobar" to "my-device"
+> goliothctl device update foobar --name my-device
+
+# Add two hardware IDs to a device and delete one old one
+> goliothctl device update my-device --rmHwId AA:AA:AA:AA --addHwId BB:BB:BB:BB --addHwId CC:CC:CC:CC
+
+# Add a tag to a device that's referred to by hardware ID
+> goliothctl device update --hwId DD:DD:DD:DD --addTag something-or-other
 ```
 
 ### Options
@@ -37,5 +50,5 @@ goliothctl device update [device name] [flags]
 
 ### SEE ALSO
 
-* [goliothctl device](/docs/reference/goliothctl/goliothctl_device/)	 - Access device information
+* [goliothctl device](/docs/reference/goliothctl/goliothctl_device/)	 - Use the `goliothctl device` subcommands to add, remove, list, and update data associated with devices.
 

@@ -8,7 +8,7 @@ hide_title: true
 ---
 ## goliothctl config
 
-Set global goliothctl config
+The `goliothctl config` subcommands are used to get and set values in the current local goliothctl config.
 
 ```
 goliothctl config [flags]
@@ -17,10 +17,11 @@ goliothctl config [flags]
 ### Examples
 
 ```
-Point to a different instance of golioth server:
-$ goliothctl config set apiUrl http://localhost:9090
-To get the current access token:
-$ goliothctl config get accessToken
+# Set the Golioth server URL to localhost
+> goliothctl config set apiUrl http://localhost:9090
+
+# Get the current access token used to authenticate with Golioth
+> golioth config get accessToken
 ```
 
 ### Options
@@ -40,6 +41,6 @@ $ goliothctl config get accessToken
 ### SEE ALSO
 
 * [goliothctl](/docs/reference/goliothctl/goliothctl/)	 - Manage Golioth platform resources and developer workflow.
-* [goliothctl config get](/docs/reference/goliothctl/goliothctl_config_get/)	 - Show a given config
-* [goliothctl config set](/docs/reference/goliothctl/goliothctl_config_set/)	 - Sets a given config
+* [goliothctl config get](/docs/reference/goliothctl/goliothctl_config_get/)	 - Get the value associated with a key in the local goliothctl config.
+* [goliothctl config set](/docs/reference/goliothctl/goliothctl_config_set/)	 - Set the value associated with a key in the local goliothctl config
 

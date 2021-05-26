@@ -8,10 +8,16 @@ hide_title: true
 ---
 ## goliothctl tag delete
 
-Delete a tag
+Delete a tag.
 
 ```
 goliothctl tag delete [tag name] [flags]
+```
+
+### Examples
+
+```
+> goliothctl tag delete my-tag
 ```
 
 ### Options
@@ -30,5 +36,5 @@ goliothctl tag delete [tag name] [flags]
 
 ### SEE ALSO
 
-* [goliothctl tag](/docs/reference/goliothctl/goliothctl_tag/)	 - Access tag information
+* [goliothctl tag](/docs/reference/goliothctl/goliothctl_tag/)	 - Create, update, and delete tags.
 

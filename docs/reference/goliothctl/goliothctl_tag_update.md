@@ -8,10 +8,16 @@ hide_title: true
 ---
 ## goliothctl tag update
 
-Update tag
+Update the name of an existing tag.
 
 ```
 goliothctl tag update [tag name] [flags]
+```
+
+### Examples
+
+```
+> goliothctl tag update my-tag --name formally-known-as-my-tag
 ```
 
 ### Options
@@ -31,5 +37,5 @@ goliothctl tag update [tag name] [flags]
 
 ### SEE ALSO
 
-* [goliothctl tag](/docs/reference/goliothctl/goliothctl_tag/)	 - Access tag information
+* [goliothctl tag](/docs/reference/goliothctl/goliothctl_tag/)	 - Create, update, and delete tags.
 

@@ -8,10 +8,17 @@ hide_title: true
 ---
 ## goliothctl config get
 
-Show a given config
+Get the value associated with a key in the local goliothctl config.
 
 ```
-goliothctl config get <key> <value> [flags]
+goliothctl config get <key> [flags]
+```
+
+### Examples
+
+```
+# Get the current access token used to authenticate with Golioth
+> golioth config get accessToken
 ```
 
 ### Options
@@ -30,5 +37,5 @@ goliothctl config get <key> <value> [flags]
 
 ### SEE ALSO
 
-* [goliothctl config](/docs/reference/goliothctl/goliothctl_config/)	 - Set global goliothctl config
+* [goliothctl config](/docs/reference/goliothctl/goliothctl_config/)	 - The `goliothctl config` subcommands are used to get and set values in the current local goliothctl config.
 

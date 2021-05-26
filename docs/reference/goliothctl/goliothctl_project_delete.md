@@ -8,7 +8,7 @@ hide_title: true
 ---
 ## goliothctl project delete
 
-Delete current project
+Delete the current project.
 
 ```
 goliothctl project delete [flags]
@@ -30,5 +30,5 @@ goliothctl project delete [flags]
 
 ### SEE ALSO
 
-* [goliothctl project](/docs/reference/goliothctl/goliothctl_project/)	 - Access and manage project information
+* [goliothctl project](/docs/reference/goliothctl/goliothctl_project/)	 - Access and manage project information.
 

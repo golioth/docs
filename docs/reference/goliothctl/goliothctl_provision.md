@@ -8,17 +8,27 @@ hide_title: true
 ---
 ## goliothctl provision
 
-Provision devices and credentials
+Create a device and provision it with credentials.
+
+### Synopsis
+
+Provisioning a device associates it with a pre-shared-key (PSK) and a PSK ID.
 
 ```
 goliothctl provision [flags]
+```
+
+### Examples
+
+```
+> goliothctl provision --name my-device --hwId AA:AA:AA:AA --hwId BB:BB:BB:BB --credId my-psk-id --psk my-psk
 ```
 
 ### Options
 
 ```
       --credId string      credential id
-      --credType string    credential type [PRE_SHARED_KEY ASYMMETRIC_KEY_PAIR] (default "PRE_SHARED_KEY")
+      --credType string    credential type [ASYMMETRIC_KEY_PAIR PRE_SHARED_KEY] (default "PRE_SHARED_KEY")
   -h, --help               help for provision
       --hwId stringArray   device hardware id
       --id string          device id

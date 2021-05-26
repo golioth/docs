@@ -8,7 +8,7 @@ hide_title: true
 ---
 ## goliothctl project list
 
-Show project list
+List all projects associated with your Golioth account.
 
 ```
 goliothctl project list [flags]
@@ -30,5 +30,5 @@ goliothctl project list [flags]
 
 ### SEE ALSO
 
-* [goliothctl project](/docs/reference/goliothctl/goliothctl_project/)	 - Access and manage project information
+* [goliothctl project](/docs/reference/goliothctl/goliothctl_project/)	 - Access and manage project information.
 

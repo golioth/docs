@@ -8,10 +8,21 @@ hide_title: true
 ---
 ## goliothctl apikeys create
 
-Create API Key
+Create an API key.
+
+### Synopsis
+
+Create an API key that can be used to connect to the Golioth REST API.
 
 ```
 goliothctl apikeys create [flags]
+```
+
+### Examples
+
+```
+> golioth apikeys create
+id:"5df88b8e-e208-41d4-b7e2-29192ab5de83"  key:"dLEtQLItz9eSHZYwuZGE5UlcgL2GOmHW" type:API_KEY
 ```
 
 ### Options
@@ -31,5 +42,5 @@ goliothctl apikeys create [flags]
 
 ### SEE ALSO
 
-* [goliothctl apikeys](/docs/reference/goliothctl/goliothctl_apikeys/)	 - Access API Keys information
+* [goliothctl apikeys](/docs/reference/goliothctl/goliothctl_apikeys/)	 - Access API Keys information.
 

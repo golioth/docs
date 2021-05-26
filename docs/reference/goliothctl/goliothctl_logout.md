@@ -8,7 +8,11 @@ hide_title: true
 ---
 ## goliothctl logout
 
-Remove credentials from local config
+Log out of Golioth manually.
+
+### Synopsis
+
+Running `goliothctl logout` will open a browser window, log out of Golioth, and delete the locally stored authentication data.
 
 ```
 goliothctl logout [flags]
