@@ -13,11 +13,9 @@ import SetupZephyr from '../../partials/setup-zephyr.md'
 
 ### Install a device-specific toolchain
 
-Recall that this guide is designed to be used with an [ESP32 DevKitC](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/hw-reference/esp32/get-started-devkitc.html). In addition to Zephyr, you'll need the Espressif SDK to target this device.
+import InstallDeviceToolchain from '../../partials/install-device-toolchain.md'
 
-import SetupEsp from '../../partials/setup-esp.md'
-
-<SetupEsp/>
+<InstallDeviceToolchain />
 
 Your system is all set up and ready to start building & flashing with Zephyr. Verify by building a minimal sample:
 
