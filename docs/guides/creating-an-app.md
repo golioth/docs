@@ -198,6 +198,14 @@ export ESPRESSIF_TOOLCHAIN_PATH="~/.espressif/tools/xtensa-esp32-elf/esp-2020r3-
 export PATH="$PATH:$ESPRESSIF_TOOLCHAIN_PATH/bin"
 ```
 
+You'll also need to make sure that `west` can find the `golioth/zephyr` codebase on your local machine. You'll have to `source` a particular file to do so.
+
+```bash
+source ~/golioth/zephyr/zephyr/zephyr-env.sh
+```
+
+This will set the `$ZEPHYR_BASE` environment variable, as well as make sure `west` can find the correct subcommands.
+
 :::note
 The exact paths may not match up with what is shown here. Look at [`Setup Zephyr`](quickstart/setup-zephyr#install-a-device-specific-toolchain) page for more information
 about setting up the toolchain and the necessary environment variables.
