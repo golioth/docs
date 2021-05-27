@@ -43,6 +43,7 @@ const guides = [
     label: 'Quickstart',
     items: mapFiles('guides','quickstart'),
   },
+  'guides/creating-an-app',
   {
     type: 'category',
     label: 'Platform Guide',
