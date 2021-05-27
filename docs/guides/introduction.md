@@ -9,7 +9,7 @@ that is expected from an IoT platform, from device messaging to security, update
 
 Over time, Golioth will support many RTOSs but to start with, we picked Zephyr, an open-source, safe, secure, and flexible RTOS under the Linux Foundation.
 
-To get started, either go to the [Speedrun](speedrun) if you're already familiar with Zephyr or to the [Quickstart Guide](quickstart/getting-started) if you're not.
+To get started, either go to the [Speedrun](guides/speedrun) if you're already familiar with Zephyr or to the [Quickstart Guide](guides/quickstart/getting-started) if you're not.
 
 ### What's the idea behind Golioth?
 
