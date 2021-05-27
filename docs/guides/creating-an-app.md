@@ -11,7 +11,7 @@ it's simple enough to create a new application that's separate from Zephyr.
 #### Prerequisites
 
 - `goliothctl` and `west` installed
-- Authenticated with Golioth - see [Authentication](../getting-started/authentication)
+- Authenticated with Golioth - see [Authentication](getting-started/authentication)
 - Have a project - see [Create a Project](getting-started/create-project)
 - Have a provisioned device and credential for it - see [Authorizing Devices](getting-started/authorize-devices)
 - The `golioth/zephyr` codebase set up on your machine. See the [Setup Zephyr](quickstart/setup-zephyr) page.
