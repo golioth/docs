@@ -4,6 +4,18 @@ title: Introduction to Golioth
 slug: /guides
 ---
 
+import ThemedImage from '@theme/ThemedImage';
+
+<ThemedImage
+  alt="Docusaurus themed image"
+  sources={{
+    light: '/static/img/Golioth_Logo_Gradient+Black.png',
+    dark: '/static/img/Golioth_Logo_Gradient+White.png',
+  }}
+/>
+
+---
+
 Golioth is the cloud built for hardware. Use the hardware and software you're comfortable with and add Golioth to easily enable everything
 that is expected from an IoT platform, from device messaging to security, updates, and analytics.
 
