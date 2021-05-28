@@ -1,6 +1,6 @@
 module.exports = {
   title: 'Golioth',
-  tagline: 'Making IoT Easy',
+  tagline: 'The Device You\'re Developing Is Cloud Ready.',
   url: 'https://docs.golioth.io',
   customFields: {
     // swaggerUrl: "http://localhost:9090/swagger.json",
