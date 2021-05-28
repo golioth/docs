@@ -1,9 +1,7 @@
 ---
 id: creating-an-app
-title: Creating a New Application
+title: Creating a New Application from Scratch
 ---
-
-# Creating a New Application from Scratch
 
 While the [Quickstart](quickstart/getting-started) focuses on running a sample that's located within the Zephyr file-hierarchy,
 it's simple enough to create a new application that's separate from Zephyr.
