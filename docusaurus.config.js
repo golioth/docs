@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'golioth',
+  title: 'Golioth',
   tagline: 'Making IoT Easy',
   url: 'https://docs.golioth.io',
   customFields: {
@@ -32,11 +32,6 @@ module.exports = {
           activeBasePath: 'reference',
           label: 'Reference',
           position: 'left',
-        },
-        {
-          to: 'blog',
-          label: 'Blog',
-          position: 'left'
         },
         {
           to: 'docs/support',
@@ -116,8 +111,8 @@ module.exports = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: 'blog',
+              label: 'Support',
+              to: 'support',
             },
             {
               label: 'GitHub',
