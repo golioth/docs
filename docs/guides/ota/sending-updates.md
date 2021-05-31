@@ -18,10 +18,10 @@ The device needs to Observe the path `/update` via CoAP and also need to support
 goliothctl updates send <device-uuid> <file path>
 ```
 
-You can simulate that using `gurl`. In one terminal, listen do the `/update` path using this command:
+You can simulate that using `coap`. In one terminal, listen do the `/update` path using this command:
 
 ```
-$ gurl coap ping --psk-id deadbeef-id --psk supersecret -w -o /update --host coap.golioth.dev
+$ coap ping --psk-id deadbeef-id --psk supersecret -w -o /update --host coap.golioth.dev
 Params
 url: coap.golioth.dev:5684
 pre shared key: deadbeef-id:supersecret
@@ -33,4 +33,4 @@ body size:  2
 OK
 ```
 
-Now send any file using goliothctl command as presented before and you will be able to see the file on the `gurl` terminal output.
+Now send any file using goliothctl command as presented before and you will be able to see the file on the `coap` terminal output.
