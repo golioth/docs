@@ -117,7 +117,7 @@ function Home() {
           </section>
         )}
         <div className="container">
-        <div className="row">
+        <div className={"row " + styles['section-header']}>
           <h3 className="section__title">Get more out of the Golioth Docs</h3>
           </div>
         </div>

@@ -41,7 +41,7 @@
 .section-header {
   display: flex;
   align-items: center;
-  padding: 2rem 0;
+  flex-direction: column;
   width: 100%;
 }
 
