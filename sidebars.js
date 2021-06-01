@@ -108,6 +108,20 @@ const support = [
   },
 ]
 
+const support = [
+  'support/home',
+  {
+    type: 'category',
+    label: "GitHub",
+    items: [
+      //'reference/coming-soon',
+      'support/github/submit-issue',
+      'support/github/submit-pr',
+      
+    ],
+  },
+]
+
 module.exports = {
   support,
   reference,

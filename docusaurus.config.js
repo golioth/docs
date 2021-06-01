@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'golioth',
-  tagline: 'Making IoT Easy',
+  title: 'Golioth',
+  tagline: 'The Device You\'re Developing Is Cloud Ready.',
   url: 'https://docs.golioth.io',
   customFields: {
     // swaggerUrl: "http://localhost:9090/swagger.json",
@@ -15,10 +15,10 @@ module.exports = {
   projectName: 'golioth', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'golioth',
+      title: 'Golioth',
       logo: {
-        alt: 'golioth',
-        src: 'img/logo.png',
+        alt: 'Golioth',
+        src: 'img/Golioth_Icon_Gradient.png',
       },
       items: [
         {
@@ -34,8 +34,8 @@ module.exports = {
           position: 'left',
         },
         {
-          to: 'blog',
-          label: 'Blog',
+          to: 'docs/support',
+          label: 'Support',
           position: 'left'
         },
         {
@@ -116,8 +116,8 @@ module.exports = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: 'blog',
+              label: 'Support',
+              to: 'support',
             },
             {
               label: 'GitHub',

@@ -8,11 +8,11 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: 'Backend as a Service for Hardware Developers',
+    title: 'You provide the device, we provide the cloud',
     //imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        We want to make it easy to get started with IoT projects. Choose your device RTOS SDK, focus on your project features and the cloud communication features is handled by us.
+        Golioth makes it easy to get started with IoT projects. The Golioth SDK is built on top of popular RTOSes like Zephyr. Include Golioth features at compile time and your device has advanced communication capabilities.
       </>
     ),
   },
@@ -21,7 +21,7 @@ const features = [
     //imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        Using our IoT services like Over the Air Updates, Logging, Data Fowarding and Device Management, you can just focus on your product.
+        The Golioth SDK includes services like Over the Air Updates, Logging, Data Fowarding and Device Management. Now that cloud communications are taken care of, you can focus on the unique features of your product.
       </>
     ),
   },
@@ -30,7 +30,37 @@ const features = [
     //imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
-        We stand on giants shoulder and try to not reinvent the wheel. We just built the most needed services in IoT using protocols that you already know and love like CoAP, MQTT and LWM2M.
+        We use IoT protocols that you already know and love like CoAP, MQTT and LWM2M. The resulting devices are more robust, reliable, and reach production sooner.
+      </>
+    ),
+  },
+];
+
+const glossary = [
+  {
+    title: 'Guides',
+    //imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    description: (
+      <>
+        Guides include things like quickstart
+      </>
+    ),
+  },
+  {
+    title: 'Reference',
+    //imageUrl: 'img/undraw_docusaurus_tree.svg',
+    description: (
+      <>
+        Code snippets and how to talk to the features of the Golioth web.
+      </>
+    ),
+  },
+  {
+    title: 'Support',
+    //imageUrl: 'img/undraw_docusaurus_react.svg',
+    description: (
+      <>
+        More information on how to get help
       </>
     ),
   },
@@ -57,7 +87,7 @@ function Home() {
   return (
     <Layout
       title={siteConfig.title}
-      description="Making IoT Easy">
+      description="The Device You're Developing Is Cloud Ready">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
@@ -69,7 +99,7 @@ function Home() {
                 styles.getStarted,
               )}
               to={useBaseUrl('docs/guides')}>
-              Get Started
+              Try Our Quickstart Guide
             </Link>
           </div>
         </div>
@@ -80,6 +110,23 @@ function Home() {
             <div className="container">
               <div className="row">
                 {features.map((props, idx) => (
+                  <Feature key={idx} {...props} />
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
+        <div className="container">
+        <div className={"row " + styles['section-header']}>
+          <h2 className="section__title">Get more out of the Golioth Docs</h2>
+          </div>
+        </div>
+
+        {glossary && glossary.length > 0 && (
+          <section className={styles.glossary}>
+            <div className="container">
+              <div className="row">
+                {glossary.map((props, idx) => (
                   <Feature key={idx} {...props} />
                 ))}
               </div>
