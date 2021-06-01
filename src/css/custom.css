@@ -19,16 +19,21 @@
   --ifm-navbar-background-color: #212529;
   --ifm-navbar-link-color: #fff;
   --ifm-menu-color: #fff;
+  --ifm-menu-color-background-active: #212529;
+  --ifm-font-family-base: "MaisonNeue";
+}
+
+@font-face {
+  font-family: "MaisonNeue";
+  src: url("/static/MaisonNeueWEB-Medium.woff2");
 }
 
 .hero {
-  /* background-color: #0d0f19; */
-  background: linear-gradient(
-    79.13deg,
-    #2fe077 0%,
-    #61d2c9 48.78%,
-    #6a70db 100%
-  );
+  background-color: #0d0f19;
+}
+
+.heroLogo {
+  width: 300px;
 }
 
 .footer {

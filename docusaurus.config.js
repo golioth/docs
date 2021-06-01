@@ -19,10 +19,9 @@ module.exports = {
       respectPrefersColorScheme: false,
     },
     navbar: {
-      title: "Golioth",
       logo: {
         alt: "Golioth",
-        src: "img/logo.png",
+        src: "img/white_logo.svg",
       },
       items: [
         {
@@ -121,7 +120,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Golioth. Built </> & Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Golioth. Built ❤️ & Docusaurus.`,
     },
   },
   presets: [

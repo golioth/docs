@@ -5,6 +5,7 @@ import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import styles from "./styles.module.css";
+import LogoImageUrl from "@site/static/img/white_logo.svg";
 
 const features = [
   {
@@ -66,7 +67,7 @@ function Home() {
     >
       <header className={clsx("hero hero--primary", styles.heroBanner)}>
         <div className="container">
-          <h1 className="hero__title">{siteConfig.title}</h1>
+          <LogoImageUrl title="Golioth" className="heroLogo" />;
           <p className="hero__subtitle">{siteConfig.tagline}</p>
           <div className={styles.buttons}>
             <Link
