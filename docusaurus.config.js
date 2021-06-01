@@ -15,7 +15,7 @@ module.exports = {
   projectName: 'golioth', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'Golioth',
+      title: 'Golioth Docs',
       logo: {
         alt: 'Golioth',
         src: 'img/Golioth_Icon_Gradient.png',
