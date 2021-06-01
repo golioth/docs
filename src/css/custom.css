@@ -21,6 +21,27 @@
   --ifm-menu-color: #fff;
 }
 
+.hero {
+  /* background-color: #0d0f19; */
+  background: linear-gradient(
+    79.13deg,
+    #2fe077 0%,
+    #61d2c9 48.78%,
+    #6a70db 100%
+  );
+}
+
+.footer {
+  background: linear-gradient(
+    79.13deg,
+    #2fe077 0%,
+    #61d2c9 48.78%,
+    #6a70db 100%
+  );
+  --ifm-footer-title-color: #0d0f19;
+  --ifm-footer-link-color: #0d0f19;
+}
+
 .menu {
   color: #fff;
   background-color: #0d0f19;

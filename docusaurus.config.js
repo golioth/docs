@@ -43,7 +43,7 @@ module.exports = {
           position: "left",
         },
         {
-          href: "https://github.com/golioth/golioth",
+          href: "https://github.com/golioth",
           label: "GitHub",
           position: "right",
         },
