@@ -21,7 +21,6 @@
     "clsx": "^1.1.1",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
-    "remark-mermaid-dataurl": "^1.0.1",
     "swagger-ui-react": "^3.42.0"
   },
   "browserslist": {
