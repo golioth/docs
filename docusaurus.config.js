@@ -18,7 +18,7 @@ module.exports = {
       title: 'Golioth',
       logo: {
         alt: 'Golioth',
-        src: 'img/logo.png',
+        src: 'img/Golioth_Icon_Gradient.png',
       },
       items: [
         {

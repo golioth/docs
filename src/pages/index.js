@@ -9,7 +9,7 @@ import styles from './styles.module.css';
 const features = [
   {
     title: 'You provide the device, we provide the cloud',
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    //imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
         Golioth makes it easy to get started with IoT projects. The Golioth SDK is built on top of popular RTOSes like Zephyr. Include Golioth features at compile time and your device has advanced communication capabilities.
@@ -18,7 +18,7 @@ const features = [
   },
   {
     title: 'Focus on What Matters',
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    //imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
         The Golioth SDK includes services like Over the Air Updates, Logging, Data Fowarding and Device Management. Now that cloud communications are taken care of, you can focus on the unique features of your product.
@@ -27,7 +27,7 @@ const features = [
   },
   {
     title: 'Standard Protocols',
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    //imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
         We use IoT protocols that you already know and love like CoAP, MQTT and LWM2M. The resulting devices are more robust, reliable, and reach production sooner.
@@ -118,7 +118,7 @@ function Home() {
         )}
         <div className="container">
         <div className={"row " + styles['section-header']}>
-          <h3 className="section__title">Get more out of the Golioth Docs</h3>
+          <h2 className="section__title">Get more out of the Golioth Docs</h2>
           </div>
         </div>
 
