@@ -1,6 +1,6 @@
 ---
 id: simulating-devices
-title: Testing Light DB using gurl and goliothctl
+title: Testing Light DB using coap CLI and goliothctl
 ---
 
 #### Prerequisites
@@ -19,7 +19,7 @@ Let's simulated a light bulb that can report it's brightness and state and also 
 To access Light DB over CoAP, you have to use the prefix `/.d/` and anything past that represents a path that you want to save data. On the example bellow, we are saving a `state` attribute with value `true` and `brightness` with value `50` on path `/light`.
 
 ```
-$ gurl coap --path /.d/light -m POST --psk-id deadbeef-id --psk supersecret --host coap.golioth.dev -b "{\"state\": true, \"brightness\" : 50 }" --format json
+$ coap --path /.d/light -m POST --psk-id deadbeef-id --psk supersecret --host coap.golioth.dev -b "{\"state\": true, \"brightness\" : 50 }" --format json
 ```
 
 Now you can query that data over CoAP or using `goliothctl`. And you can query any path, so if you query `/light` you get the full `{ state : true, brightness : 50 }` or you can query a specific value like at `/light/state` and get only `true`.
@@ -27,7 +27,7 @@ Now you can query that data over CoAP or using `goliothctl`. And you can query a
 - Top level path:
 
 ```
-$ gurl coap --path /.d/light -m GET --psk-id deadbeef-id --psk supersecret --host coap.golioth.dev --accept json
+$ coap --path /.d/light -m GET --psk-id deadbeef-id --psk supersecret --host coap.golioth.dev --accept json
 Response
 payload: Type: Acknowledgement, MID: 64363, Code: Content, Token: 56f991b6703947d7, ContentFormat: application/json
 body: {"brightness":50,"state":true}
@@ -36,7 +36,7 @@ body: {"brightness":50,"state":true}
 - Specific path:
 
 ```
-$ gurl coap --path /.d/light/state -m GET --psk-id deadbeef-id --psk supersecret --host coap.golioth.dev --accept json
+$ coap --path /.d/light/state -m GET --psk-id deadbeef-id --psk supersecret --host coap.golioth.dev --accept json
 Response
 payload: Type: Acknowledgement, MID: 64363, Code: Content, Token: 56f991b6703947d7, ContentFormat: application/json
 body: true
@@ -60,19 +60,19 @@ $ goliothctl lightdb get [device name] /light/brightness
 
 ### Listening to changes on Light DB
 
-We can simulated a device listening to Light DB by using `gurl coap observe` command. Here are some examples to listen to the top level `/light` path or we can also listen to the specific `/light/state` or `/light/brightness` path.
+We can simulated a device listening to Light DB by using `coap observe` command. Here are some examples to listen to the top level `/light` path or we can also listen to the specific `/light/state` or `/light/brightness` path.
 
 Open this on another terminal tab to simulate the device listening to data changes:
 
 ```
-$ gurl coap observe /.d/light/state --psk-id deadbeef-id --psk supersecret --host coap.golioth.dev --accept json
+$ coap observe /.d/light/state --psk-id deadbeef-id --psk supersecret --host coap.golioth.dev --accept json
 waiting for more msgs. Type ctrl+c to close
 ```
 
 or
 
 ```
-$ gurl coap observe /.d/light --psk-id deadbeef-id --psk supersecret --host coap.golioth.dev --accept json
+$ coap observe /.d/light --psk-id deadbeef-id --psk supersecret --host coap.golioth.dev --accept json
 waiting for more msgs. Type ctrl+c to close
 ```
 
@@ -100,5 +100,5 @@ body size:  27
 ```
 
 :::note
-You can check more ways to use [goliothctl lightdb](/docs/reference/goliothctl/goliothctl_lightdb) and [gurl coap observe](/docs/reference/gurl/gurl_coap_observe) on their reference docs.
+You can check more ways to use [goliothctl lightdb](/docs/reference/goliothctl/goliothctl_lightdb) and [coap observe](/docs/reference/coap/coap_observe) on their reference docs.
 :::

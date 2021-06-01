@@ -1,33 +1,33 @@
 ---
-id: gurl_coap
-title: "gurl coap"
-slug: gurl_coap
-sidebar_label: gurl coap
-url: /docs/reference/gurl/gurl_coap/
+id: coap
+title: "coap"
+slug: coap
+sidebar_label: coap
+url: /docs/reference/coap/coap/
 hide_title: true
 ---
-## gurl coap
+## coap
 
 CoAP client to test golioth coap gateway
 
 ```
-gurl coap [flags]
+coap [flags]
 ```
 
 ### Examples
 
 ```
 # Send a GET request to /hello
-gurl coap --path /hello -m GET --psk-id deadbeef-id --psk supersecret --host coap.golioth.dev
+coap --path /hello -m GET --psk-id deadbeef-id --psk supersecret --host coap.golioth.dev
 
 # Send a POST request to /echo
 # With body as string (-b)
-gurl coap --path /echo -m POST --psk-id deadbeef-id --psk supersecret --host coap.golioth.dev -b "Hello"
+coap --path /echo -m POST --psk-id deadbeef-id --psk supersecret --host coap.golioth.dev -b "Hello"
 # With body from file (-f)
-gurl coap --path /echo -m POST --psk-id deadbeef-id --psk supersecret --host coap.golioth.dev -f ./test.txt
+coap --path /echo -m POST --psk-id deadbeef-id --psk supersecret --host coap.golioth.dev -f ./test.txt
 
 # Send a POST request to /logs
-gurl coap --path /logs -m POST --psk-id deadbeef-id --psk supersecret -q module=wifi -q msg="Signal from router" -q level=info -b "{ \"wifi-rssi\": -45 }" --format json --host coap.golioth.dev
+coap --path /logs -m POST --psk-id deadbeef-id --psk supersecret -q module=wifi -q msg="Signal from router" -q level=info -b "{ \"wifi-rssi\": -45 }" --format json --host coap.golioth.dev
 ```
 
 ### Options
@@ -52,7 +52,7 @@ gurl coap --path /logs -m POST --psk-id deadbeef-id --psk supersecret -q module=
 
 ### SEE ALSO
 
-* [gurl](/docs/reference/gurl/gurl/)	 - gurl is a golioth test cli
-* [gurl coap observe](/docs/reference/gurl/gurl_coap_observe/)	 - CoAP observe a given path
-* [gurl coap ping](/docs/reference/gurl/gurl_coap_ping/)	 - CoAP ping to test golioth coap gateway
+* [coap observe](/docs/reference/coap/coap_observe/)	 - CoAP observe a given path
+* [coap ping](/docs/reference/coap/coap_ping/)	 - CoAP ping to test golioth coap gateway
+* [coap version](/docs/reference/coap/coap_version/)	 - Show CLI Version
 

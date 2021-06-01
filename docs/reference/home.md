@@ -12,4 +12,4 @@ The API and SDK reference documentation provides detailed information for each o
 - [API Docs](/docs/reference/api-docs)
 - Command Line Tools
   - [goliothctl](/docs/reference/goliothctl/goliothctl)
-  - [gurl](/docs/reference/gurl/gurl)
+  - [coap](/docs/reference/coap/coap)

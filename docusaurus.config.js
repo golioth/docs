@@ -90,8 +90,8 @@ module.exports = {
               to: 'docs/reference/goliothctl/goliothctl',
             },
             {
-              label: 'gurl',
-              to: 'docs/reference/gurl/gurl',
+              label: 'coap',
+              to: 'docs/reference/coap/coap',
             },
           ],
         },

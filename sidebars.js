@@ -89,7 +89,7 @@ const reference = [
     label: 'Command Line Tools',
     items:  [
       { 'goliothctl': mapFiles('reference','goliothctl') },
-      { 'gurl' : mapFiles('reference','gurl') },
+      { 'coap' : mapFiles('reference','coap') },
     ],
   },
 ]
