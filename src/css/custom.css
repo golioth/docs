@@ -20,6 +20,9 @@
   --ifm-navbar-link-color: #fff;
   --ifm-menu-color: #fff;
   --ifm-menu-color-background-active: #212529;
+  --ifm-footer-color: #0d0f19;
+  --ifm-footer-title-color: #0d0f19;
+  --ifm-footer-link-color: #0d0f19;
   --ifm-font-family-base: "MaisonNeue";
 }
 
@@ -43,6 +46,7 @@
     #61d2c9 48.78%,
     #6a70db 100%
   );
+  --ifm-footer-color: #0d0f19;
   --ifm-footer-title-color: #0d0f19;
   --ifm-footer-link-color: #0d0f19;
 }
@@ -91,4 +95,7 @@ html[data-theme="dark"] {
   --ifm-color-primary-lighter: #52e58e;
   --ifm-color-primary-lightest: #76eba5;
   --ifm-background-color: #0d0f19;
+  --ifm-footer-color: #0d0f19;
+  --ifm-footer-title-color: #0d0f19;
+  --ifm-footer-link-color: #0d0f19;
 }
