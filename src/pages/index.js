@@ -5,7 +5,7 @@ import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import styles from "./styles.module.css";
-import LogoImageUrl from "@site/static/img/white_logo.svg";
+import LogoImageUrl from "@site/static/img/logo_gradient_white.svg";
 
 const features = [
   {
