@@ -51,6 +51,12 @@
   --ifm-footer-link-color: #0d0f19;
 }
 
+.footer--dark {
+  --ifm-footer-color: #0d0f19;
+  --ifm-footer-title-color: #0d0f19;
+  --ifm-footer-link-color: #0d0f19;
+}
+
 .menu {
   color: #fff;
   background-color: #0d0f19;
