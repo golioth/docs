@@ -9,13 +9,11 @@ import LogoImageUrl from "@site/static/img/logo_gradient_white.svg";
 
 const features = [
   {
-    title: "Backend as a Service for Hardware Developers",
+    title: "You Provide the Device, We Provide the Cloud",
     //imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        We want to make it easy to get started with IoT projects. Choose your
-        device RTOS SDK, focus on your project features and the cloud
-        communication features is handled by us.
+        Golioth makes it easy to get started with IoT projects. The Golioth SDK is built on top of popular RTOSes like Zephyr. Include Golioth features at compile time and your device gets advanced communiation capabilities.
       </>
     ),
   },
@@ -24,8 +22,8 @@ const features = [
     //imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        Using our IoT services like Over the Air Updates, Logging, Data
-        Fowarding and Device Management, you can just focus on your product.
+        The Golioth SDK includes services like Over the Air Updates, Logging, Data
+        Fowarding and Device Management. Now that cloud communications are taken care of, you can just on the unique features of your product.
       </>
     ),
   },
@@ -34,9 +32,7 @@ const features = [
     //imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
-        We stand on giants shoulder and try to not reinvent the wheel. We just
-        built the most needed services in IoT using protocols that you already
-        know and love like CoAP, MQTT and LWM2M.
+        We use IoT protocols that you already know and love like CoAP, MQTT and LWM2M. The resulting devices are more robust, reliable, and reach production sooner.
       </>
     ),
   },
@@ -77,7 +73,7 @@ function Home() {
               )}
               to={useBaseUrl("docs/guides")}
             >
-              Get Started
+              Try Our Quickstart Guide
             </Link>
           </div>
         </div>
