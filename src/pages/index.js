@@ -63,7 +63,7 @@ function Home() {
     >
       <header className={clsx("hero hero--primary", styles.heroBanner)}>
         <div className="container">
-          <LogoImageUrl title="Golioth" className="heroLogo" />;
+          <LogoImageUrl title="Golioth" className="heroLogo" />
           <p className="hero__subtitle">{siteConfig.tagline}</p>
           <div className={styles.buttons}>
             <Link
