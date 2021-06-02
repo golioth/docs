@@ -9,8 +9,8 @@ import ThemedImage from '@theme/ThemedImage';
 <ThemedImage
   alt="Docusaurus themed image"
   sources={{
-    light: '/img/Golioth_Logo_Gradient+Black.png',
-    dark: '/img/Golioth_Logo_Gradient+White.png',
+    light: '/img/logo_gradient_black.svg',
+    dark: '/img/logo_gradient_white.svg',
   }}
 />
 

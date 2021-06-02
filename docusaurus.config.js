@@ -1,68 +1,65 @@
 module.exports = {
-  title: 'golioth',
-  tagline: 'Making IoT Easy',
-  url: 'https://docs.golioth.io',
+  title: "Golioth",
+  tagline: "The Device You're Developing Is Cloud Ready",
+  url: "https://docs.golioth.io",
   customFields: {
     // swaggerUrl: "http://localhost:9090/swagger.json",
-    swaggerUrl: "https://api.golioth.dev/swagger.json"
+    swaggerUrl: "https://api.golioth.dev/swagger.json",
   },
-  themes: ['@docusaurus/theme-live-codeblock'],
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'golioth', // Usually your GitHub org/user name.
-  projectName: 'golioth', // Usually your repo name.
+  themes: ["@docusaurus/theme-live-codeblock"],
+  baseUrl: "/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "img/favicon.ico",
+  organizationName: "golioth", // Usually your GitHub org/user name.
+  // projectName: "docs", // Usually your repo name.
   themeConfig: {
+    colorMode: {
+      defaultMode: "dark",
+      respectPrefersColorScheme: false,
+    },
     navbar: {
-      title: 'golioth',
       logo: {
-        alt: 'golioth',
-        src: 'img/logo.png',
+        alt: "Golioth",
+        src: "img/white_logo.svg",
       },
       items: [
         {
-          to: 'docs/guides',
-          activeBasePath: 'guides',
-          label: 'Guides',
-          position: 'left',
+          to: "docs/guides",
+          activeBasePath: "guides",
+          label: "Guides",
+          position: "left",
         },
         {
-          to: 'docs/reference',
-          activeBasePath: 'reference',
-          label: 'Reference',
-          position: 'left',
+          to: "docs/reference",
+          activeBasePath: "reference",
+          label: "Reference",
+          position: "left",
         },
         {
-          to: 'blog',
-          label: 'Blog',
-          position: 'left'
+          to: "docs/support",
+          label: "Support",
+          position: "left",
         },
         {
-          to: 'docs/support',
-          label: 'Support',
-          position: 'left'
-        },
-        {
-          href: 'https://github.com/golioth/golioth',
-          label: 'GitHub',
-          position: 'right',
+          href: "https://github.com/golioth",
+          label: "GitHub",
+          position: "right",
         },
       ],
     },
     footer: {
-      style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: "Docs",
           items: [
             {
-              label: 'Getting Started',
-              to: 'docs/guides',
+              label: "Getting Started",
+              to: "docs/guides",
             },
             {
-              label: 'Over the Air Updates',
-              to: 'docs/guides/ota/sending-updates',
+              label: "Over the Air Updates",
+              to: "docs/guides/ota/sending-updates",
             },
             /*{
               label: 'Logging and Diagnostics',
@@ -71,27 +68,27 @@ module.exports = {
           ],
         },
         {
-          title: 'Reference',
+          title: "Reference",
           items: [
             {
-              label: 'API and SDK Reference',
-              to: 'docs/reference',
+              label: "API and SDK Reference",
+              to: "docs/reference",
             },
             {
-              label: 'API Docs',
-              to: 'docs/reference/api-docs',
+              label: "API Docs",
+              to: "docs/reference/api-docs",
             },
             /*{
               label: 'Zephyr SDK',
               to: 'docs/advanced/running-locally',
             },*/
             {
-              label: 'goliothctl',
-              to: 'docs/reference/goliothctl/goliothctl',
+              label: "goliothctl",
+              to: "docs/reference/goliothctl/goliothctl",
             },
             {
-              label: 'coap',
-              to: 'docs/reference/coap/coap',
+              label: "coap",
+              to: "docs/reference/coap/coap",
             },
           ],
         },
@@ -113,39 +110,34 @@ module.exports = {
           ],
         },*/
         {
-          title: 'More',
+          title: "More",
           items: [
             {
-              label: 'Blog',
-              to: 'blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/golioth/golioth',
+              label: "GitHub",
+              href: "https://github.com/golioth",
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Golioth. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Golioth. Built with ❤️ & Docusaurus.`,
     },
   },
   presets: [
     [
-      '@docusaurus/preset-classic',
+      "@docusaurus/preset-classic",
       {
         docs: {
           //routeBasePath: '/',
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve("./sidebars.js"),
           // editUrl: 'https://github.com/golioth/golioth/edit/master/docs/',
-          remarkPlugins: [require("remark-mermaid-dataurl")],
         },
         blog: {
           showReadingTime: true,
           //editUrl: 'https://github.com/golioth/golioth/edit/master/docs/blog/',
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
-          swaggerCss: require.resolve("swagger-ui-react/swagger-ui.css")
+          customCss: require.resolve("./src/css/custom.css"),
+          swaggerCss: require.resolve("swagger-ui-react/swagger-ui.css"),
         },
       },
     ],
