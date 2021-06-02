@@ -119,7 +119,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Golioth. Built ❤️ & Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Golioth. Built with ❤️ & Docusaurus.`,
     },
   },
   presets: [
