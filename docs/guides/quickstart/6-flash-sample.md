@@ -49,8 +49,9 @@ Open `samples/hello/prj.conf` in your editor of choice and add these fields:
 ```
 CONFIG_ESP32_WIFI_SSID="YOUR_NETWORK_NAME"
 CONFIG_ESP32_WIFI_PASSWORD="YOUR_NETWORK_PW"
-CONFIG_GOLIOTH_SERVER_DTLS_PSK_ID="DEVICE_CRED_ID"
-CONFIG_GOLIOTH_SERVER_DTLS_PSK="DEVICE_PSK"
+
+CONFIG_GOLIOTH_SYSTEM_CLIENT_PSK_ID="DEVICE_CRED_ID"
+CONFIG_GOLIOTH_SYSTEM_CLIENT_PSK="DEVICE_PSK"
 ```
 
 Set the PSK & PSK ID to match what was used during the provisioning step and the Wi-Fi network credentials to match your network.
