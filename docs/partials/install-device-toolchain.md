@@ -19,9 +19,10 @@ import SetupEsp from './setup-esp.md'
 </TabItem>
 <TabItem value="nrf">
 
-#### Install ARM Toolchain
+import SetupNrf9160 from './setup-nrf9160.md'
 
-You can also follow the Getting started Guide from Zephyr docs website and install the required tools.
+<SetupNrf9160 />
+
 </TabItem>
 <TabItem value="arm">
 

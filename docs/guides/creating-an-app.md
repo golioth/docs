@@ -13,7 +13,7 @@ it's simple enough to create a new application that's separate from Zephyr.
 - Have a project - see [Create a Project](getting-started/create-project)
 - Have a provisioned device and credential for it - see [Authorizing Devices](getting-started/authorize-devices)
 - The `golioth/zephyr` codebase set up on your machine. See the [Setup Zephyr](quickstart/setup-zephyr) page.
-- A toolchain installed. In this guide, the toolchain for the ESP32 will be used.
+- A toolchain installed. This guide uses toolchains for either the ESP32 or the nRF9160 Feather.
 
 
 ### Setting up file structure
@@ -26,6 +26,7 @@ example-app/
 ├── Kconfig
 ├── boards
 │   └── esp32.conf
+│   └── circuitdojo_feather_nrf9160ns.conf
 ├── prj.conf
 └── src
     └── main.c
@@ -91,9 +92,6 @@ CONFIG_LOG_PROCESS_THREAD_STACK_SIZE=2048
 
 CONFIG_GOLIOTH_SYSTEM_CLIENT_PSK_ID="<the PSK ID>"
 CONFIG_GOLIOTH_SYSTEM_CLIENT_PSK="<the PSK>"
-
-CONFIG_ESP32_WIFI_SSID="<WIFI SSD>"
-CONFIG_ESP32_WIFI_PASSWORD="<WIFI PASSWORD>"
 ```
 
 As you can see at the end of `prj.conf`, there are some values that you'll need to fill in yourself that depend on your registered devices and environment.
@@ -122,6 +120,43 @@ CONFIG_MBEDTLS_KEY_EXCHANGE_ECDHE_ECDSA_ENABLED=y
 CONFIG_MBEDTLS_ECP_ALL_ENABLED=y
 
 CONFIG_ESP32_WIFI_STA_AUTO=y
+
+CONFIG_ESP32_WIFI_SSID="<WIFI SSD>"
+CONFIG_ESP32_WIFI_PASSWORD="<WIFI PASSWORD>"
+```
+
+```txt title="boards/circuitdojo_feather_nrf9160ns.conf"
+# General config
+CONFIG_HEAP_MEM_POOL_SIZE=4096
+CONFIG_NEWLIB_LIBC=y
+
+# Networking
+CONFIG_NET_NATIVE=n
+CONFIG_NET_SOCKETS_OFFLOAD=y
+
+# Use Zephyr mbedTLS, as there was no success so far with using offloaded TLS in
+# modem library.
+CONFIG_NET_SOCKETS_OFFLOAD_TLS=n
+
+# LTE link control
+CONFIG_LTE_LINK_CONTROL=y
+CONFIG_LTE_AUTO_INIT_AND_CONNECT=y
+
+# Modem library
+CONFIG_NRF_MODEM_LIB=y
+
+# Workaround for https://devzone.nordicsemi.com/f/nordic-q-a/75839/nrf-samples-nrf9160-mqtt_simple-bus-fault
+CONFIG_FPU=y
+
+# Offloaded poll() does not support external events like eventfd, so use timeout
+# in poll() instead.
+CONFIG_GOLIOTH_SYSTEM_CLIENT_TIMEOUT_USING_POLL=y
+
+CONFIG_BOOTLOADER_MCUBOOT=y
+
+# Set the PDP context
+CONFIG_LTE_LINK_CONTROL=y
+CONFIG_LTE_AUTO_INIT_AND_CONNECT=y
 ```
 
 Create one file, `main.c`, inside `src/`.
@@ -212,10 +247,10 @@ The exact paths may not match up with what is shown here. Look at [`Setup Zephyr
 about setting up the toolchain and the necessary environment variables.
 :::
 
-Now, to build it:
+Now, to build it for the ESP32:
 
 ```bash
-west build -b esp32
+west build -p -b esp32
 ```
 
 And to flash it to the board (exact paths may vary)
@@ -224,9 +259,21 @@ And to flash it to the board (exact paths may vary)
 west flash --esp-device=/dev/cu.usbserial-14210
 ```
 
+or for nRF9160 Feather:
+
+```bash
+west build -p -b circuitdojo_feather_nrf9160ns
+```
+
+And to flash it to the board:
+
+```bash
+newtmgr -c serial image upload build/zephyr/app_update.bin
+```
+
 ### Results
 
-If `prj.conf` is set up correctly (e.g. `CONFIG_GOLIOTH_SYSTEM_CLIENT_PSK_ID`, `CONFIG_GOLIOTH_SYSTEM_CLIENT_PSK`, `CONFIG_ESP32_WIFI_SSID`, and `CONFIG_ESP32_WIFI_PASSWORD` are all correct),
+If `prj.conf` and the conf for your board are set up correctly,
 then you should be able to see the logs emitted by your device by running:
 
 ```bash
