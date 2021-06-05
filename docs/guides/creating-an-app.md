@@ -3,6 +3,9 @@ id: creating-an-app
 title: Creating a New Application from Scratch
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 While the [Quickstart](quickstart/getting-started) focuses on running a sample that's located within the Zephyr file-hierarchy,
 it's simple enough to create a new application that's separate from Zephyr.
 
@@ -96,11 +99,21 @@ CONFIG_GOLIOTH_SYSTEM_CLIENT_PSK="<the PSK>"
 
 As you can see at the end of `prj.conf`, there are some values that you'll need to fill in yourself that depend on your registered devices and environment.
 
-Now create two directories, `boards` and `src`. Inside of `boards/`, create a configuration file for the board you're using. In this guide, we're using an ESP32.
+Now create two directories, `boards` and `src`. Inside of `boards/`, create a configuration file for the board you're using. In this guide, we're using either an ESP32 or an NRF9160.
 
 :::note
 For the most part, you can copy these configuration files from Zephyr and Golioth samples.
 :::
+
+<Tabs
+groupId="create-an-app-build"
+defaultValue="esp32"
+values={[
+{label: 'ESP32', value: 'esp32'},
+{label: 'nRF9160', value: 'nrf9160'},
+]}>
+
+<TabItem value="esp32">
 
 ```txt title="boards/esp32.conf"
 CONFIG_WIFI=y
@@ -124,6 +137,10 @@ CONFIG_ESP32_WIFI_STA_AUTO=y
 CONFIG_ESP32_WIFI_SSID="<WIFI SSD>"
 CONFIG_ESP32_WIFI_PASSWORD="<WIFI PASSWORD>"
 ```
+
+</TabItem>
+
+<TabItem value="nrf9160">
 
 ```txt title="boards/circuitdojo_feather_nrf9160ns.conf"
 # General config
@@ -158,6 +175,10 @@ CONFIG_BOOTLOADER_MCUBOOT=y
 CONFIG_LTE_LINK_CONTROL=y
 CONFIG_LTE_AUTO_INIT_AND_CONNECT=y
 ```
+
+</TabItem>
+
+</Tabs>
 
 Create one file, `main.c`, inside `src/`.
 
@@ -247,7 +268,18 @@ The exact paths may not match up with what is shown here. Look at [`Setup Zephyr
 about setting up the toolchain and the necessary environment variables.
 :::
 
-Now, to build it for the ESP32:
+
+<Tabs
+groupId="create-an-app-build"
+defaultValue="esp32"
+values={[
+{label: 'ESP32', value: 'esp32'},
+{label: 'nRF9160', value: 'nrf9160'},
+]}>
+
+<TabItem value="esp32">
+
+Build it for the ESP32:
 
 ```bash
 west build -p -b esp32
@@ -259,7 +291,12 @@ And to flash it to the board (exact paths may vary)
 west flash --esp-device=/dev/cu.usbserial-14210
 ```
 
-or for nRF9160 Feather:
+</TabItem>
+
+<TabItem value="nrf9160">
+
+
+Build it for the nRF9160 Feather:
 
 ```bash
 west build -p -b circuitdojo_feather_nrf9160ns
@@ -270,6 +307,10 @@ And to flash it to the board:
 ```bash
 newtmgr -c serial image upload build/zephyr/app_update.bin
 ```
+
+</TabItem>
+
+</Tabs>
 
 ### Results
 
