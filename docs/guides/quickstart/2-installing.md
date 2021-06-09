@@ -5,7 +5,7 @@ title: Installing Goliothctl
 
 `goliothctl` is a command-line utility that lets you work with Golioth, from creating your account to registering devices to interacting with _device services_ (more on those later.) It runs on your local machine so you'll want to install the version that's appropriate for your operating system:
 
-import InstallTools from '../../partials/install-tools.md'
+import InstallTools from '../../partials/install-tools.mdx'
 
 <InstallTools/>
 
@@ -30,12 +30,14 @@ brew tap golioth/tap
 ```
 
 The available CLIs are:
-* `goliothctl`
+
+- `goliothctl`
+- `coap`
 
 Install them with `brew install`
 
 ```
-brew install goliothctl
+brew install goliothctl coap
 ```
 
 Alternatively you can also install the CLI directly (without adding a tap globally)
@@ -45,10 +47,12 @@ brew install golioth/tap/goliothctl
 ```
 
 Verify that `goliothctl` is installed correctly by checking the version
+
 ```
 $ goliothctl version
-0.10.3
+1.0.0
 ```
+
 #### Linux (Binaries)
 
 Running the binary from linux may require it to be added to the PATH variable or to be run as a script: `./goliothctl`
