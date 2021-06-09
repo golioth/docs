@@ -17,19 +17,25 @@ Devices interact with Light DB using the gateways available on the platform. For
 >
 > /.d/temp/active
 
-To demonstrate the operations here, let's imagine that we are monitoring environment data using an IoT device. All of the data for our device is going to be saved on Light DB.
+# Example
+
+Let's imagine that we are monitoring environment data using an IoT device. All of the data for our device is going to be saved on Light DB.
 
 ### Writing/Updating data with POST/PUT
 
-We can start by saving temperature data on Light DB. On requests to write data, the body can be a JSON/CBOR object or a single value in boolean, float, integer or string format.
+We can start by saving temperature data on Light DB. On requests to write data, the body can be a JSON/CBOR object or a single value in the following formats:
+- `boolean`
+- `float`
+- `integer` 
+- `string`
 
-So for example to save a temperature value of 30 Cº at path `/env/temp` we can do this way.
+Here is a snippet of example code to save a temperature value of 30 Cº at path `/env/temp`
 
 ```
 $ coap --path /.d/env/temp -m PUT --psk-id deadbeef-id --psk supersecret --host coap.golioth.dev -b "{\"value\": 30.0, \"unit\" : \"c\" }" --format json
 ```
 
-After the above request, we are gonna save the device data in Light DB and it's going to look like this now:
+After the above request and device data saves in Light DB, it will look like this:
 
 ```
 {
@@ -42,13 +48,13 @@ After the above request, we are gonna save the device data in Light DB and it's 
 }
 ```
 
-You can set any data on any path, so maybe for initialization we send both temperature and unit, but later on, to reduce bandwidth, we can send just the temperature value to the specific path.
+You can set any data on any path, which allows flexibility throughout the lifetime of the device and connection. Perhaps during initialization we send both temperatur and unit type, but afterwards we only send the temperature value to the specific path. A long as another unit is not written, the first value will persist.
 
 ```
 $ coap --path /.d/env/temp/value -m PUT --psk-id deadbeef-id --psk supersecret --host coap.golioth.dev -b "35.0" --format json
 ```
 
-And the current device state will look like this:
+After this commend, the device state will look like this:
 
 ```
 {
@@ -101,7 +107,7 @@ The current device state might look like this:
 
 ### Reading data with GET
 
-The return value of the CoAP API depends on what is stored on Light DB, which can be any JSON like data type like mentioned [on this guide](./structure-data). The value is gonna be encoded depending on the `Accept` header that is set on the request.
+The return value of the CoAP API depends on what is stored on Light DB, which can be any JSON like data type like mentioned [on this guide](./structure-data). The value will  be encoded depending on the `accept` header that is set on the request.
 
 So to read the device data, we can issue a GET request like this:
 
@@ -130,13 +136,13 @@ And in this case, will return just `45.0`.
 
 ### Deleting data with DELETE method
 
-To remove data, we can send a `DELETE` request with the path that need to be cleaned. On our example, let's say that the device have a button to acknowledge the alert state and clean the `/alert/temp` value.
+To remove data, we can send a `DELETE` request with the path that needs to be cleaned. On our example, let's say that the device has a button to acknowledge the alert state and clean the `/alert/temp` value.
 
 ```
 $ coap --path /.d/alert/temp -m DELETE --psk-id deadbeef-id --psk supersecret --host coap.golioth.dev
 ```
 
-Also, you can do that same acknowledgement via our APIs or `goliothctl`. Maybe for example, there is a web application that the final user can ack that alert. Using `goliothctl` you can delete the path with this command:
+Also, you can do that same acknowledgement via our APIs or `goliothctl`. Maybe for example, there is a web application that the final user can acknowledge that alert. Using `goliothctl` you can delete the path with this command:
 
 ```
 $ goliothctl lightdb delete [device name] /alert/temp
