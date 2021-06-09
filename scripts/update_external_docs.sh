@@ -2,8 +2,14 @@
 
 CUR_DIR=$(pwd)
 
-# Generate Golioth Backend/CLI Docs
-pushd ../golioth
+# Generate goliothctl CLI docs
+pushd ../goliothctl
+git pull
+make docsgen ARGS="-o $CUR_DIR/docs/reference --baseUrl /docs/reference/"
+popd
+
+# Generate coap cli docs
+pushd ../coap-cli
 git pull
 make docsgen ARGS="-o $CUR_DIR/docs/reference --baseUrl /docs/reference/"
 popd
