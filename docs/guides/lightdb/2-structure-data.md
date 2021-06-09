@@ -10,10 +10,10 @@ There are no concepts of tables or records. When you add data to the JSON tree, 
 ### Example on how to structure data
 
 Let's consider an Asset Tracking application: 
-- Each device tracks the GPS position of a given asset 
+- Each device tracks the GPS position of an individual asset 
 - There is an optional geofence set up on the device to trigger an alert.
 
-The device can post data to the `gps` and `cell` paths so we can monitor it's position and connectivity status and on the other side, an external party can set the geofence and the device can read that as an configuration, so it can use that information to calculate either if is `inside` or `outside` of the given geofence.
+The device will post data to the `gps` and `cell` paths. We will monitor its position and connectivity status. On the other side, an external party can set the geofence and the device can read that as a configuration. With the externally posted information, the device will calculate if it is `inside` or `outside` of the given geofence and report that data back to the network.
 
 ```
 {
