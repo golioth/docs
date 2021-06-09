@@ -1,7 +1,22 @@
 {
   "hosting": [
     {
-      "site": "golioth-docs",
+      "target": "docs-dev",
+      "public": "build",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    },
+    {
+      "target": "docs-prod",
       "public": "build",
       "ignore": [
         "firebase.json",
