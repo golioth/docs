@@ -84,7 +84,7 @@ $ goliothctl lightdb set [device name] /light -b "{\"state\": true, \"brightness
 {"state":true,"brightness":30}
 ```
 
-On the other terminal, you should see the device receiving the new data when it changes:
+On the other terminal , you should see the device receiving the new data when it changes:
 
 ```
 New msg on path /.d/light/state Code: Content, Token: 19ba64b2baa06af9, ContentFormat: application/json
