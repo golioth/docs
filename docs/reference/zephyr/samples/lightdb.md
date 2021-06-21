@@ -166,7 +166,7 @@ Light DB with its value. Current value can be fetched using following
 command:
 
 ``` {.console}
-goliothctl lightdb get <device-id> /counter
+goliothctl lightdb get <device-name> /counter
 ```
 
 Control LEDs
@@ -175,7 +175,7 @@ Control LEDs
 Multiple LEDs can be changed simultaneously using following command:
 
 ``` {.console}
-goliothctl lightdb set <device-id> /led -b '{"0":true,"1":false,"2":true,"3":true}'
+goliothctl lightdb set <device-name> /led -b '{"0":true,"1":false,"2":true,"3":true}'
 ```
 
 This request should result in following serial console output:
