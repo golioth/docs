@@ -1,5 +1,17 @@
 {
   "projects": {
     "default": "golioth"
+  },
+  "targets": {
+    "golioth": {
+      "hosting": {
+        "docs-dev": [
+          "golioth-docs-dev"
+        ],
+        "docs-prod": [
+          "golioth-docs"
+        ]
+      }
+    }
   }
 }

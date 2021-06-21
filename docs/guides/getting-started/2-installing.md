@@ -3,7 +3,7 @@ id: installing
 title: Installing Tools
 ---
 
-import InstallTools from '../../partials/install-tools.md'
+import InstallTools from '../../partials/install-tools.mdx'
 
 <InstallTools/>
 
