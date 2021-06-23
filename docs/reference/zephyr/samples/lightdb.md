@@ -53,6 +53,8 @@ access Internet.
 
 ### ESP32
 
+#### Configure ESP32 LightDB sample
+
 Configure the following Kconfig options based on your WiFi AP
 credentials:
 
@@ -66,6 +68,44 @@ by adding these lines to configuration file (e.g. `prj.conf` or
 CONFIG_GOLIOTH_SAMPLE_WIFI_SSID="my-wifi"
 CONFIG_GOLIOTH_SAMPLE_WIFI_PSK="my-psk"
 ```
+
+#### Add ESP32 Overlay
+
+Create the following file as `esp32.overlay` in the `boards` subdirectory inside the LightDB demo directory to have access to the LED_0-3 pins:
+
+```
+/ {
+  leds {
+    compatible = "gpio-leds";
+    //compatible = "esp32-gpio";
+    led0: led_0 {
+      gpios = <&gpio0 5 GPIO_ACTIVE_LOW>;
+      label = "Onboard LED 0";
+    };
+    led1: led_1 {
+      gpios = <&gpio0 18 GPIO_ACTIVE_LOW>;
+      label = "Green LED 1";
+    };
+    led2: led_2 {
+      gpios = <&gpio0 23 GPIO_ACTIVE_LOW>;
+      label = "Green LED 2";
+    };
+    led3: led_3 {
+      gpios = <&gpio0 19 GPIO_ACTIVE_LOW>;
+      label = "Green LED 3";
+    };
+  };
+  aliases {
+    led0 = &led0;
+    led1 = &led1;
+    led2 = &led2;
+    led3 = &led3;
+  };
+};
+
+```
+
+#### Build ESP32 LightDB sample
 
 On your host computer open a terminal window, locate the source code of
 this sample application (i.e., `samples/lightdb`) and type:
