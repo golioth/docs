@@ -6,7 +6,7 @@ draft: true
 
 ## What is Light DB Stream
 
-We created [Light DB](../lightdb) on Golioth platform as a flexible way for users to save device state in the cloud and have a way for devices to observe changes on that state, working like a Digital Twin and allowing to be used as a command and control interface for example. But there is also a need to save not just current state, but save historical information on data that the device is collecting over time.
+We created [Light DB](../lightdb/1-get-started.md) on Golioth platform as a flexible way for users to save device state in the cloud and have a way for devices to observe changes on that state, working like a Digital Twin and allowing to be used as a command and control interface for example. But there is also a need to save not just current state, but save historical information on data that the device is collecting over time.
 
 Following the save principle, we want to bring the same schema-less design from Light DB, by allowing users to send any document like values on any given path and also be able to query data over a period of time, selecting a subset of fields, doing aggregations and also support querying for multiple devices.
 
