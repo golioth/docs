@@ -10,7 +10,7 @@ A LightDB Stream is just that, the concept of LightDB applied to streamed, times
 
 LightDB Stream queries are highly configurable, supporting field subsets, aggregation, and multiple devices at once.
 
-A stream can be accessed through either the [`goliothctl stream`](/docs/reference/goliothctl/goliothctl_stream) subcommand or the [LightDB Stream REST API](../rest-api/1-overview).
+A stream can be accessed through either the [`goliothctl stream`](/docs/reference/goliothctl/goliothctl_stream) subcommand or the [LightDB Stream REST API](../rest-api/overview).
 
 ### Use Cases
 
