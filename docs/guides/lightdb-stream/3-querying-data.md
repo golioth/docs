@@ -3,9 +3,10 @@ id: querying-data
 title: Querying Data
 ---
 
-To allow users to query data on a flexible way, we need to define some structures that can be used for building a query so we can shape the data and filter accordingly to that. For doing so, we defined 2 basic primitives: Fields and Filters. Here are the attributes that can be define on each one of those primitives:
 
-- Field - Users can define multiple fields that they want to be returned on their query. `time` and `deviceId` are special fields that represents the data point time and device that sent the data. All other fields represents a path inside the data blob that is stored.
+To allow users to query data in a flexible way, we need to define some structures that can be used for building a query so we can shape the data and filter accordingly to that. For doing so, we defined 2 basic primitives: Fields and Filters. Here are the attributes that can be defined on each one of those primitives:
+
+- Field - Users can define multiple fields that they want to be returned in their query. `time` and `deviceId` are special fields that represents the data point time and device that sent the data. All other fields represents a path inside the data blob that is stored.
   - `path` : Path inside the json blob, separated by `.`.
   - `alias`: Rename variable. By default it just uses the path name.
   - `agg` : Aggregation to be applied on the field. Can be `avg`, `count`, `max`, `min` and `sum`.
@@ -51,7 +52,7 @@ or
 
 ### Example of querying data on Light DB Stream
 
-Let's consider an environment sensing application were each device tracks temperature over time and we want to plot the collected data. A device can have multiple temperature sensors, like `inside` and `outside` sensors. Also we want to calculate average temperature every 15 minutes.
+Let's consider an application in which we want to plot temperature data that has been recorded by a device over time. In this case, the device has two sensors, one inside and one outside. We also want to calculate the 15 minute average temperature.
 
 The device can post data to the `/env` path so we can put together environment data under a group. An example of posting that kind of data using `gurl` can be seen bellow:
 
@@ -79,7 +80,7 @@ Let's define our first query to get just the raw data on the last 8h and where t
 }
 ```
 
-Let's save that into a `query.json` file and are gonna be using `goliothctl` to run that queries. But a more powerful and useful way of integrating with Light DB Stream is using our REST API. But here is an example with `goliothctl`:
+Let's save that into a file called query.json and use that to query the LightDB stream. You can use the REST API, which is more configurable, but goliothctl works great for simple cases like this.
 
 ```
 ❯ cat query.json | goliothctl stream query --interval 8h --in | jq .
@@ -190,4 +191,4 @@ Executing again our new query will give us this result:
 ]
 ```
 
-We are gonna be improving the query interface with time, but we believe that users will be able to build powerful queries with the current feature set.
+We are gonna be improving the query interface over time, but we believe that users will be able to build powerful queries with the current feature set.

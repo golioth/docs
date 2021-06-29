@@ -16,20 +16,20 @@ Devices interact with Light DB Stream using the gateways available on the platfo
 >
 > /.s/location
 
-To demonstrate the operations here, let's imagine that we are tracking an asset using an IoT device. All of the data for our device is going to be saved on Light DB Stream.
+To demonstrate the operations here, let's imagine that we are tracking an asset using an IoT device. The location data from our device is going to periodically pushed to a Light DB Stream.
 
 ### Inserting data with POST
 
-We can start by saving GPS position data on Light DB Stream. On requests to write data, the body can be a JSON/CBOR object or a single value in boolean, float, integer or string format.
+To insert data into a LightDB Stream, you can either use the REST API or, as we'll do here, pretend to be a device and use gurl to send CoAP packets to the Golioth servers. When writing, data can either be in json or cbor, or a single value of type boolean, float, integer, or string.
 
-So for example to save a GPS position, we can choose a path `/position` and send this way.
+In this example, we'll be saving fictional GPS positional data to a stream located at /position.
 
 ```
 $ gurl coap --path /.s/position -m POST --psk-id deadbeef-id --psk supersecret --host coap.golioth.dev -b "{\"latitude\": 37.75, \"longitude\" : -122.57, \"speed\": 5 }" --format json
 $ gurl coap --path /.s/position -m POST --psk-id deadbeef-id --psk supersecret --host coap.golioth.dev -b "{\"latitude\": 38.75, \"longitude\" : -123.57, \"speed\": 10 }" --format json
 ```
 
-After the above requests, we are gonna have multiple positions stored associated to the device and it's going to look like this after being received:
+If you now dump the data in that stream with `goliothctl stream [device name] get /position`, you can see that it contains multiple items with server-inserted timestamps.
 
 ```
 {
