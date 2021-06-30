@@ -25,8 +25,8 @@ To insert data into a LightDB Stream, you can either use the REST API or, as we'
 In this example, we'll be saving fictional GPS positional data to a stream located at /position.
 
 ```
-$ gurl coap --path /.s/position -m POST --psk-id deadbeef-id --psk supersecret --host coap.golioth.dev -b "{\"latitude\": 37.75, \"longitude\" : -122.57, \"speed\": 5 }" --format json
-$ gurl coap --path /.s/position -m POST --psk-id deadbeef-id --psk supersecret --host coap.golioth.dev -b "{\"latitude\": 38.75, \"longitude\" : -123.57, \"speed\": 10 }" --format json
+$ coap --path /.s/position -m POST --psk-id deadbeef-id --psk supersecret --host coap.golioth.dev -b "{\"latitude\": 37.75, \"longitude\" : -122.57, \"speed\": 5 }" --format json
+$ coap --path /.s/position -m POST --psk-id deadbeef-id --psk supersecret --host coap.golioth.dev -b "{\"latitude\": 38.75, \"longitude\" : -123.57, \"speed\": 10 }" --format json
 ```
 
 If you now dump the data in that stream with `goliothctl stream [device name] get /position`, you can see that it contains multiple items with server-inserted timestamps.
@@ -57,7 +57,7 @@ A device can also get the latest information streamed to Light DB Stream. Maybe 
 Taking our asset tracking example, to read the last device position data, we can issue a GET request like this:
 
 ```
-$ gurl coap --path /.s/position -m GET --psk-id deadbeef-id --psk supersecret --host coap.golioth.dev --accept json
+$ coap --path /.s/position -m GET --psk-id deadbeef-id --psk supersecret --host coap.golioth.dev --accept json
 ```
 
 And that will return the data like on the previous step:
