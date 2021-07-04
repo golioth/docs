@@ -56,6 +56,11 @@ const guides = [
   },
   {
     type: 'category',
+    label: 'Hardware',
+    items: mapFiles('guides', 'hardware'),
+  },
+  {
+    type: 'category',
     label: 'LightDB',
     items: mapFiles('guides', 'lightdb'),
   },
@@ -103,7 +108,7 @@ const support = [
       //'reference/coming-soon',
       'support/github/submit-issue',
       'support/github/submit-pr',
-      
+
     ],
   },
 ]
