@@ -1,7 +1,6 @@
 ---
 id: get-started
 title: Get Started
-draft: true
 ---
 
 ## What is Light DB

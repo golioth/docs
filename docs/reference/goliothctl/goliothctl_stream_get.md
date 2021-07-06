@@ -42,4 +42,3 @@ goliothctl stream get [device name] <path> [flags]
 ### SEE ALSO
 
 * [goliothctl stream](/docs/reference/goliothctl/goliothctl_stream/)	 - Access the data in a LightDB Stream.
-
