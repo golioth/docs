@@ -40,7 +40,7 @@ const guides = [
   'guides/speedrun',
   {
     type: 'category',
-    label: 'Quickstart',
+    label: 'ESP32 Quickstart',
     items: mapFiles('guides','quickstart'),
   },
   'guides/creating-an-app',
