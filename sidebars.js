@@ -48,6 +48,16 @@ const guides = [
     label: 'ESP32 Quickstart',
     items: mapFiles('guides','esp32-quickstart'),
   },
+  {
+    type: 'category',
+    label: 'nRF91 Quickstart',
+    items: mapFiles('guides','nrf91-quickstart'),
+  },
+  {
+    type: 'category',
+    label: 'Virtual Device Quickstart',
+    items: mapFiles('guides','virtual-device-quickstart'),
+  },
   'guides/creating-an-app',
   {
     type: 'category',
