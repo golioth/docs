@@ -3,11 +3,6 @@ id: platform-manage-devices
 title: Manage Devices
 ---
 
-#### Prerequisites
-
-- `goliothctl` CLI installed
-- Authenticated with Golioth - see [Authentication](./authentication)
-- Have a project - see [Create a Project](./create-project)
 
 There are two ways to create a device in Golioth:
 

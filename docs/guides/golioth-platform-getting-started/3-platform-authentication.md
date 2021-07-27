@@ -3,10 +3,6 @@ id: platform-authentication
 title: Authentication
 ---
 
-#### Prerequisites
-
-- `goliothctl` CLI installed
-
 import LoginFlow from '../../partials/login-flow.md'
 
 <LoginFlow/>

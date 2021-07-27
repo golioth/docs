@@ -3,13 +3,7 @@ id: platform-authorize-devices
 title: Authorizing Devices
 ---
 
-#### Prerequisites
-
-- `goliothctl` CLI installed
-- Authenticated with Golioth - see [Authentication](./authentication)
-- Have a project - see [Create a Project](./create-project)
-
-As we saw on the [Manage Devices](./manage-devices) we can create the device, but for it to connect to our platform, we also need to create a credential for it.
+As we saw on the [Manage Devices](./platform-manage-devices) we can create the device, but for it to connect to our platform, we also need to create a credential for it.
 
 Currently we only support PreShared Key based authentication, but we are gonna be adding more in the future.
 

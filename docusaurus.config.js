@@ -55,16 +55,12 @@ module.exports = {
           items: [
             {
               label: "Getting Started",
-              to: "docs/guides",
+              to: "/docs/guides/golioth-platform-getting-started/platform-overview",
             },
             {
               label: "Over the Air Updates",
               to: "docs/guides/ota/sending-updates",
             },
-            /*{
-              label: 'Logging and Diagnostics',
-              to: 'docs/guides/logging/getting-started',
-            },*/
           ],
         },
         {

@@ -3,12 +3,9 @@ id: virtual-simulating-devices
 title: Simulating Devices with coap CLI
 ---
 
-#### Prerequisites
+import Prerequisites from '../../partials/prerequisites-platform-setup.md'
 
-- `goliothctl` CLI installed
-- Authenticated with Golioth - see [Authentication](./authentication)
-- Have a project - see [Create a Project](./create-project)
-- Have a provisioned device and credential for it - see [Authorizing Devices](./authorize-devices)
+<Prerequisites />
 
 With the a properly provisioned device, you can test if the connection with the platform is working by using our `coap` tool.
 
