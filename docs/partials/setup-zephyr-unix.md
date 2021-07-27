@@ -1,61 +1,13 @@
-:::note
-While the official documentation for Zephyr suggests jumping right into
-installing `west`, we suggest creating a `python3` virtual environment
-first, to avoid running into tooling incompatibilities.
-:::
-
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-<Tabs
-groupId="west-installation"
-defaultValue="virtualenv"
-values={[
-{label: 'Install within a virtualenv', value: 'virtualenv'},
-{label: 'Install globally', value: 'global'},
-]}>
-<TabItem value="virtualenv">
-
-Install `virtualenv` and create a new environment:
-
-```
-sudo pip3 install virtualenv
-virtualenv -p python3 ~/zephyr-env
-```
-
-Whenever you need to activate this virtual env, run:
-
-```
-source ~/zephyr-env/bin/activate
-# OR, if you're using the fish shell, run
-source ~/zephyr-env/bin/activate.fish
-```
-
-:::note
-If you'd like to exit out of the virtualenv at the end of the tutorial,
-run `deactivate`.
-:::
-
-Now, use `pip` to install `west`:
-
-:::note
-Because we're in a `python3` `virtualenv`, we don't need to specify `pip3`
-and can just use `pip`.
-:::
-
-```
-pip install west
-```
-</TabItem>
-<TabItem value="global">
+### Installing West
 
 Use `pip3` to install `west`:
 
 ```
 pip3 install west
 ```
-</TabItem>
-</Tabs>
 
 ---
 
@@ -87,6 +39,12 @@ west zephyr-export
 
 Lastly, install the remaining dependencies:
 
+:::note
+We suggest creating a `python3` virtual environment when installing the following dependencies
+to avoid running into incompatibilities between different versions of the same package, particularly
+if you're working on multiple Zephyr implementations at once.
+:::
+
 <Tabs
 groupId="west-installation"
 defaultValue="virtualenv"
@@ -95,6 +53,29 @@ values={[
 {label: 'Install globally', value: 'global'},
 ]}>
 <TabItem value="virtualenv">
+
+1. Create a new version environment:
+
+```
+python3 -m venv ~/zephyrproject/.venv
+```
+
+2. Activate the virtual environment
+
+```
+source ~/zephyr-env/bin/activate
+# OR, if you're using the fish shell, run
+source ~/zephyr-env/bin/activate.fish
+```
+
+Whenever the virtual environment is activated, your shell will be prefixed with `(.venv)`. Deactivate the virtual environment when you're finished
+by running `deactivate`.
+
+:::note
+Activate the virtial environment every time you need to use zephyr.
+:::
+
+3. Install Zephyr's python dependencies:
 
 ```
 pip install -r ~/zephyrproject/zephyr/scripts/requirements.txt
