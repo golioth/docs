@@ -31,24 +31,24 @@ const mapFiles = (root,type) => {
 //   'Platform Guide': mapFiles('guides','getting-started'),
 //   'Device SDK': mapFiles('guides','device-sdk'),
 //   "Light DB": mapFiles('guides','lightdb'),
-//   "Logging and Diagnostics": mapFiles('guides','logging'),
+//   "Logging and Diagnostics": mapFiles('guides','Peslogging'),
 //   "Over the Air Updates": mapFiles('guides','ota'),
 // }
 
 const guides = [
   'guides/introduction',
-  'guides/speedrun',
+  {
+    type: 'category',
+    label: 'Golioth Platform Quickstart',
+    items: mapFiles('guides', 'golioth-platform-getting-started'),
+  },
+  // 'guides/speedrun',
   {
     type: 'category',
     label: 'ESP32 Quickstart',
-    items: mapFiles('guides','quickstart'),
+    items: mapFiles('guides','esp32-quickstart'),
   },
   'guides/creating-an-app',
-  {
-    type: 'category',
-    label: 'Platform Guide',
-    items: mapFiles('guides', 'getting-started'),
-  },
   {
     type: 'category',
     label: 'Device SDK',
