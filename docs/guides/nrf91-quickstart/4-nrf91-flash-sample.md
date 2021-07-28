@@ -64,15 +64,9 @@ west build -b esp32 samples/hello
 
 ### Flashing the device
 
-Flashing is a simple `west` command away.
 
-```
-west flash --esp-device=/dev/cu.usbserial-1337
-```
 
-:::note
-Your ESP32 will likely be at a different location, so adjust the `flash` command accordingly.
-:::
+
 
 ### Verify with serial output
 

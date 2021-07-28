@@ -16,6 +16,6 @@ import SetupZephyr from '../../partials/setup-zephyr.md'
 Your system is all set up and ready to start building & flashing with Zephyr. Verify by building a minimal sample:
 
 ```
-cd ~/zephyrproject/zephyr
+cd ~/zephyr-nrf/zephyr
 west build -b nrf91 samples/basic/minimal
 ```
