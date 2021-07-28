@@ -20,6 +20,9 @@ Unpack the CLIs using the links above to a known location. You will then either 
 
 ### Package Managers
 
+We have plans to support package managers for the various operating systems so you can download, install, and maintain your `goliothctl` install with the latest version. For now, we have some test builds allowing users to install directly from the command line.
+
+
 import ComingSoon from '../../partials/coming-soon.md'
 
 <ComingSoon/>
@@ -28,7 +31,7 @@ import ComingSoon from '../../partials/coming-soon.md'
 
 :::note
 
-During the developer preview CLIs on macOS will be distributed as a [Tap](https://docs.brew.sh/Taps) and will be published to the public Homebrew ecosystem in the future.
+During the developer preview CLIs on macOS will be distributed as a [Tap](https://docs.brew.sh/Taps) and will be published to the public Homebrew ecosystem in the future. Beta members can access [the GitHub repository that containst the tap](https://github.com/golioth/homebrew-tap).
 
 :::
 
