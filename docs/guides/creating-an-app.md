@@ -1,6 +1,6 @@
 ---
 id: creating-an-app
-title: Creating a New Application from Scratch
+title: Creating a new application from scratch
 ---
 
 While the [Quickstart](golioth-platform-getting-started/platform-overview) focuses on running a sample that's located within the Zephyr file-hierarchy,
