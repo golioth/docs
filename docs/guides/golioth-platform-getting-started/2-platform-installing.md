@@ -3,11 +3,20 @@ id: platform-installing
 title: Installing Goliothctl
 ---
 
-`goliothctl` is a command-line utility that lets you work with Golioth, from creating your account to registering devices to interacting with _device services_ (more on those later.) It runs on your local machine so you'll want to install the version that's appropriate for your operating system:
+`goliothctl` is a command-line interface (CLI) utility that lets you work with Golioth, from creating your account to registering devices to interacting with _device services_ (more on those later.) It runs on your local machine so you'll want to install the version that's appropriate for your operating system:
+
+### Download Pre-built CLIs
+
+We recommend working with the binaries to start with, as this will be the most up to date, and lowest complexity way to get started quickly. 
 
 import InstallTools from '../../partials/install-tools.mdx'
 
 <InstallTools/>
+
+### Using the Pre-built CLIs
+
+Unpack the CLIs using the links above to a known location. You will then either need to specifically call out the location of the binary, or add it to a location findable from the command line. Running the binary from linux may require it to be added to the PATH variable or to be run as a script: `./goliothctl`
+
 
 ### Package Managers
 
@@ -52,7 +61,3 @@ Verify that `goliothctl` is installed correctly by checking the version
 $ goliothctl version
 1.0.0
 ```
-
-#### Linux (Binaries)
-
-Running the binary from linux may require it to be added to the PATH variable or to be run as a script: `./goliothctl`
