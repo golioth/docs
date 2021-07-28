@@ -1,6 +1,6 @@
 ---
-id: nrf91-view-logs
-title: View nRF91 Logs
+id: esp32-view-logs
+title: View ESP32 Logs
 ---
 
 ### Viewing logs via Goliothctl

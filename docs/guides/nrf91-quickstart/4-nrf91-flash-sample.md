@@ -1,9 +1,9 @@
 ---
 id: nrf91-flash-sample
-title: Flashing a device with Samples
+title: Flashing an nRF91 with samples
 ---
 
-Now we're getting to the good stuff - working with hardware! The sample project provided will demonstrate a device securely communicating with Golioth and will also introduce the first device service for _logging_.
+The sample code uses the network interface provided on the nRF91 (cellular) and passes packets back to the Golioth network in this. If you're familiar with Zephyr you may recognized the `LOG_*` functions. That's because Golioth tries to use Zephyr APIs whenever it can. In this instance, the Logging Device Service is a cloud-enabled backend for Zephyr's [logging](https://docs.zephyrproject.org/latest/reference/logging/index.html) library. In this way, Golioth can reuse well-tested libraries, reduce the size through shared code and feel idiomatic to developers who are comfortable with Zephyr.
 
 The sample we'll be using is called `hello`, which logs a "hello" message using the _Logging Device Service_. Here's snippet of the `main()` function:
 
@@ -32,14 +32,12 @@ void main(void)
 }
 ```
 
-If you're familiar with Zephyr you may recognized the `LOG_*` functions. That's because Golioth tries to use Zephyr APIs whenever it can. In this instance, the Logging Device Service is a cloud-enabled backend for Zephyr's [logging](https://docs.zephyrproject.org/latest/reference/logging/index.html) library. In this way, Golioth can reuse well-tested libraries, reduce the size through shared code and feel idiomatic to developers who are comfortable with Zephyr.
-
 ### Building `hello`
 
-Samples can be found in the Zephyr SDK in the folder `modules/lib/golioth/samples`. We recommend running the commands below from the `modules/lib/golioth` folder.
+Samples can be found in the nRF Connect SDK ('zephyr-nrf') in the folder `modules/lib/golioth/samples`. We recommend running the commands below from the `modules/lib/golioth` folder.
 
 ```
-cd ~/zephyrproject/modules/lib/golioth
+cd ~/zephyr-nrf/modules/lib/golioth
 ```
 
 Zephyr uses [Kconfig](https://docs.zephyrproject.org/latest/guides/kconfig/index.html) to manage build settings at scale. Kconfig values can be set a number of ways but for this example we'll take a simple route by modifying `prj.conf`.
@@ -47,19 +45,18 @@ Zephyr uses [Kconfig](https://docs.zephyrproject.org/latest/guides/kconfig/index
 Open `samples/hello/prj.conf` in your editor of choice and add these fields:
 
 ```
-CONFIG_ESP32_WIFI_SSID="YOUR_NETWORK_NAME"
-CONFIG_ESP32_WIFI_PASSWORD="YOUR_NETWORK_PW"
-
 CONFIG_GOLIOTH_SYSTEM_CLIENT_PSK_ID="DEVICE_CRED_ID"
 CONFIG_GOLIOTH_SYSTEM_CLIENT_PSK="DEVICE_PSK"
+
+CONFIG_BOOTLOADER_MCUBOOT=y
 ```
 
-Set the PSK & PSK ID to match what was used during the provisioning step and the Wi-Fi network credentials to match your network.
+Set the PSK & PSK ID to match what was used during the provisioning step. Networking validation is taken care of by your SIM card, which was tested in the [carrier setup section](./nrf91-carrier-setup)
 
-After saving, build the sample with the new settings applied.
+After saving, build the sample (for the [CircuitDojo nRF91 Feather](https://www.jaredwolff.com/store/nrf9160-feather/)) with the new settings applied.
 
 ```
-west build -b esp32 samples/hello
+west build -b circuitdojo_feather_nrf9160ns samples/hello -p
 ```
 
 ### Flashing the device

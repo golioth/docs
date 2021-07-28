@@ -1,5 +1,3 @@
-#### Install Espressif SDK (ESP-IDF)
-
 `west` makes it easy to install the Espressif toolchain:
 
 ```
