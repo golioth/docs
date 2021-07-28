@@ -20,9 +20,11 @@ import InstallZephyrSDK from '../../partials/install-zephyr-sdk.md'
 
 ### Install the Espressif (ESP32) toolchain
 
-import InstallDeviceToolchain from '../../partials/install-espressif-toolchain.md'
+import InstallEspressifToolchain from '../../partials/install-espressif-toolchain.md'
 
 <InstallEspressifToolchain />
+
+### Sample build
 
 Your system is all set up and ready to start building & flashing with Zephyr. Verify by building a minimal sample:
 
