@@ -15,26 +15,32 @@ values={[
 ]}>
 <TabItem value="virtualenv">
 
-Install `virtualenv` and create a new environment:
+Create a new version environment:
+
+Even though we haven't pulled down Zephyr yet, we can create the virtual environment in the place where we _will_ pull
+down Zephyr.
 
 ```
-sudo pip3 install virtualenv
-virtualenv -p python3 ~/zephyr-env
+python3 -m venv ~/zephyrproject/.venv
 ```
 
-Whenever you need to activate this virtual env, run:
+Activate the virtual environment:
 
 ```
-source ~/zephyr-env/bin/activate
+source ~/zephyrproject/.venv/bin/activate
 # OR, if you're using the fish shell, run
-source ~/zephyr-env/bin/activate.fish
+source ~/zephyrproject/.venv/bin/activate.fish
 ```
 
-If you'd like to exit out of the virtualenv at the end of the tutorial,
-run `deactivate`.
+Whenever the virtual environment is active, your shell's prompt will be prefixed with `(.venv)`.
+
+Deactivate the virtual environment when you're done by running `deactivate`.
+
+:::note
+Anytime you need to use west or Zephyr, remember to re-activate the virtual environment.
+:::
 
 Now, use `pip` to install `west`:
-
 
 Because we're in a `python3` `virtualenv`, we don't need to specify `pip3` and can just use `pip` (because virtual env knows the best version to use)
 
