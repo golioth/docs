@@ -57,5 +57,3 @@ pip3 install west
 ```
 </TabItem>
 </Tabs>
-
----

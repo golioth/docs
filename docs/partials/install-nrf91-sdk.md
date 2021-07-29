@@ -28,7 +28,7 @@ values={[
 {label: 'Install within a virtualenv', value: 'virtualenv'},
 {label: 'Install globally', value: 'global'},
 ]}>
-<TabItem value="virtalenv">
+<TabItem value="virtualenv">
 
 ```
 pip install -r ~/zephyr-nrf/zephyr/scripts/requirements.txt
