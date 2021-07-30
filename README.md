@@ -26,8 +26,16 @@ This command generates static content into the `build` directory and can be serv
 
 ## Deployment to Firebase Hosting
 
+Deploy to [Golioth Docs Dev site](https://docs.golioth.dev)
+
 ```console
-npm run fb-deploy
+npm run fb-deploy-dev
+```
+
+Deploy to [Golioth Docs Prod Site](https://docs.golioth.io)
+
+```console
+npm run fb-deploy-prod
 ```
 ## Versioning
 
