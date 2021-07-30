@@ -3,12 +3,9 @@ id: sending-logs
 title: Sending Logs
 ---
 
-#### Prerequisites
+import Prerequisites from '../../partials/prerequisites-platform-setup.md'
 
-- `goliothctl` CLI installed
-- Authenticated with Golioth - see [Authentication](../getting-started/authentication)
-- Have a project - see [Create a Project](../getting-started/create-project)
-- Have a provisioned device and credential for it - see [Authorizing Devices](../getting-started/authorize-devices)
+<Prerequisites />
 
 Our platform provides functionality for tracking your devices logs, so you can have a better sense of things that are happening out in the field.
 

@@ -1,12 +1,12 @@
 ---
-id: create-project
+id: platform-create-project
 title: Create a Project
 ---
 
 #### Prerequisites
 
 - `goliothctl` CLI installed
-- Authenticated with Golioth - see [Authentication](./authentication)
+- Authenticated with Golioth - see [Authentication](./platform-authentication)
 
 To create a project, you can simply use `goliothctl project create` command with a `--name` parameter.
 

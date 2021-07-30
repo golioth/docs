@@ -3,14 +3,11 @@ id: simulating-devices
 title: Testing Light DB using coap CLI and goliothctl
 ---
 
-#### Prerequisites
+import Prerequisites from '../../partials/prerequisites-platform-setup.md'
 
-- `goliothctl` CLI installed
-- Authenticated with Golioth - see [Authentication](../getting-started/authentication)
-- Have a project - see [Create a Project](../getting-started/create-project)
-- Have a provisioned device and credential for it - see [Authorizing Devices](../getting-started/authorize-devices)
+<Prerequisites />
 
-With the a properly provisioned device, you can test Light DB to save, query and observe data changes on it. Make sure that the connection with the platform is working. You can check more on the [Getting Started Guide](../getting-started/simulating-devices). Currently it only supports connections via CoAP.
+With the a properly provisioned device, you can test Light DB to save, query and observe data changes on it. Make sure that the connection with the platform is working. 
 
 Let's simulated a light bulb that can report it's brightness and state and also control these values from the Cloud.
 

@@ -1,19 +1,15 @@
 ---
 id: creating-an-app
-title: Creating a New Application from Scratch
+title: Creating a new application from scratch
 ---
 
-While the [Quickstart](quickstart/getting-started) focuses on running a sample that's located within the Zephyr file-hierarchy,
+While the [Quickstart](golioth-platform-getting-started/platform-overview) focuses on running a sample that's located within the Zephyr file-hierarchy,
 it's simple enough to create a new application that's separate from Zephyr.
 
-#### Prerequisites
 
-- `goliothctl` and `west` installed
-- Authenticated with Golioth - see [Authentication](getting-started/authentication)
-- Have a project - see [Create a Project](getting-started/create-project)
-- Have a provisioned device and credential for it - see [Authorizing Devices](getting-started/authorize-devices)
-- The `golioth/zephyr` codebase set up on your machine. See the [Setup Zephyr](quickstart/setup-zephyr) page.
-- A toolchain installed. In this guide, the toolchain for the ESP32 will be used.
+import PrerequisitesDevice from '../partials/prerequisites-device.md'
+
+<PrerequisitesDevice />
 
 
 ### Setting up file structure
@@ -208,7 +204,7 @@ source ~/golioth/zephyr/zephyr/zephyr-env.sh
 This will set the `$ZEPHYR_BASE` environment variable, as well as make sure `west` can find the correct subcommands.
 
 :::note
-The exact paths may not match up with what is shown here. Look at [`Setup Zephyr`](quickstart/setup-zephyr#install-a-device-specific-toolchain) page for more information
+The exact paths may not match up with what is shown here. Look at [`Set up Zephyr (on ESP32)`](esp32-quickstart/esp32-set-up-zephyr) page for more information
 about setting up the toolchain and the necessary environment variables.
 :::
 

@@ -3,12 +3,9 @@ id: searching-logs
 title: Searching Device Logs
 ---
 
-#### Prerequisites
+import Prerequisites from '../../partials/prerequisites-platform-setup.md'
 
-- `goliothctl` CLI installed
-- Authenticated with Golioth - see [Authentication](../getting-started/authentication)
-- Have a project - see [Create a Project](../getting-started/create-project)
-- Have a provisioned device and credential for it - see [Authorizing Devices](../getting-started/authorize-devices)
+<Prerequisites />
 
 After sending a log entry you can search logs using goliothctl command as presented to show messages on the last 10 minutes:
 

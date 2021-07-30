@@ -1,8 +1,3 @@
----
-id: view-logs
-title: View Logs
----
-
 After sending a log entry to Golioth you can search logs using `goliothctl logs`. Here is an example showing logs from the last 10 minutes:
 
 ```
@@ -21,3 +16,4 @@ goliothctl logs --interval 1h --module net_dhcpv4
 ```
 
 You can check for more commands to search logs on the [goliothctl logs](/docs/reference/goliothctl/goliothctl_logs) reference docs.
+

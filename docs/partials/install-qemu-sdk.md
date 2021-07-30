@@ -1,5 +1,3 @@
-## Install QEMU and Setup Networking Support
-
 :::note
 More detailed (and specific to more systems) instructions for installing
 QEMU can be found on the [Download QEMU](https://www.qemu.org/download/)
@@ -98,15 +96,3 @@ Windows.
 </Tabs>
 
 ---
-
-At this point, you can build a golioth zephyr project:
-
-```
-west build -b qemu_cortex_m3 <directory of sample>
-```
-
-and run it:
-
-```
-west build -t run
-```

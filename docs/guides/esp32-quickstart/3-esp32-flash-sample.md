@@ -1,6 +1,6 @@
 ---
-id: flash-sample
-title: Flashing a device with Samples
+id: esp32-flash-sample
+title: Flashing an ESP32 with samples
 ---
 
 Now we're getting to the good stuff - working with hardware! The sample project provided will demonstrate a device securely communicating with Golioth and will also introduce the first device service for _logging_.

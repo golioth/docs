@@ -12,7 +12,7 @@ values={[
 ]}>
 <TabItem value="esp32">
 
-import SetupEsp from './setup-esp.md'
+import SetupEsp from './install-espressif-toolchain.md'
 
 <SetupEsp/>
 
