@@ -3,6 +3,12 @@ id: virtual-simulating-devices-qemu
 title: Simulating devices with QEMU
 ---
 
+### Install Zephyr SDK
+
+import InstallZephyrSDK from '../../partials/install-zephyr-sdk.md'
+
+<InstallZephyrSDK/>
+
 ### Toolchain check
 
 import CheckToolchain from '../../partials/check-toolchain.md'
