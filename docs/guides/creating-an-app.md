@@ -1,89 +1,126 @@
 ---
 id: creating-an-app
-title: Creating a new application from scratch
+title: Creating a New Application
 ---
 
 While the [Quickstart](golioth-platform-getting-started/platform-overview) focuses on running a sample that's located within the Zephyr file-hierarchy,
-it's simple enough to create a new application that's separate from Zephyr.
+it's simple enough to create a new application that's separate from Zephyr. This guide uses the [golioth/golioth-zephyr-app](https://github.com/golioth/golioth-zephyr-app) repo as a base, showing you
+how to build an app that uses Golioth and Zephyr in an idiomatic manner.
 
+### Prerequisites
 
-import PrerequisitesDevice from '../partials/prerequisites-device.md'
+- `goliothctl`
+- Authenticated with Golioth - see [Authentication](/docs/guides/golioth-platform-getting-started/platform-authentication)
+- Have a project - see [Create a Project](/docs/guides/golioth-platform-getting-started/platform-create-project)
+- Have a provisioned device and credentials for it - see [Authorizing Devices](/docs/guides/golioth-platform-getting-started/platform-authorize-devices)
 
-<PrerequisitesDevice />
+### Setup
 
+1. Create a workspace directory:
 
-### Setting up file structure
-
-For reference, this is the file structure of the app we're going to set up:
-
-```
-example-app/
-├── CMakeLists.txt
-├── Kconfig
-├── boards
-│   └── esp32.conf
-├── prj.conf
-└── src
-    └── main.c
+```console
+mkdir golioth-demo
+cd golioth-demo
 ```
 
-To make this, create a new directory for your app (we called ours `example-app`). Feel free to name it whatever you'd like.
+2. Create a virtual environment and activate it (recommended, but not necessary)
 
-Inside this directory, create 3 files: `CMakeLists.txt`, `Kconfig`, and `prj.conf`.
-
-Here are their contents:
-
-```txt title="CMakeLists.txt"
-cmake_minimum_required(VERSION 3.13.1)
-
-find_package(Zephyr REQUIRED HINTS $ENV{ZEPHYR_BASE})
-project(example-app)
-
-target_sources(app PRIVATE src/main.c)
+```console
+python3 -m venv .venv
+source .venv/bin/activate
 ```
 
-```txt title="Kconfig"
-mainmenu "Golioth application options"
+If you're using another shell, like `fish`, `source` the `activate` binary that corresponds to your shell, e.g. `source .venv/bin/activate.fish`.
 
-if WIFI_ESP32
+3. Install west
 
-config ESP32_WIFI_SSID
-	default GOLIOTH_SAMPLE_WIFI_SSID
-
-config ESP32_WIFI_PASSWORD
-	default GOLIOTH_SAMPLE_WIFI_PSK
-
-endif # WIFI_ESP32
-
-source "Kconfig.zephyr"
+```console
+pip3 install west
 ```
 
-```txt title="prj.conf"
-# Generic networking options
-CONFIG_NETWORKING=y
-CONFIG_NET_IPV4=y
-CONFIG_NET_IPV6=n
+4. Pull down this example:
 
-# Logging
-CONFIG_NET_LOG=y
+```console
+west init -m git@github.com:golioth/golioth-zephyr-app.git --manifest-rev main
+```
 
-# Network Shell
-CONFIG_NET_SHELL=y
+or if you've already cloned it
 
-# TLS configuration
-CONFIG_MBEDTLS_ENABLE_HEAP=y
-CONFIG_MBEDTLS_HEAP_SIZE=8192
-CONFIG_MBEDTLS_SSL_MAX_CONTENT_LEN=2048
+```console
+west init -l example-zephyr-app
+```
 
-# Application
-CONFIG_MAIN_STACK_SIZE=4096
-CONFIG_EVENTFD=y
+5. Once it's cloned, `cd` to the `golioth-zephyr-app` directory and run `west update`:
 
-CONFIG_GOLIOTH=y
-CONFIG_GOLIOTH_SYSTEM_CLIENT=y
+```console
+west update
+```
+6. Install the remaining requirements:
 
-CONFIG_LOG_BACKEND_GOLIOTH=y
-CONFIG_LOG_PROCESS_THREAD_STACK_SIZE=2048
+```console
+pip3 install -r zephyr/scripts/requirements.txt
+```
+
+### Understanding the manifest
+
+Take a look at the `west.yml` file from the repo that you just cloned.
+
+It should look like this:
+
+```yaml title="west.yml"
+manifest:
+  projects:
+    - name: zephyr
+      revision: v2.6.0
+      url: https://github.com/zephyrproject-rtos/zephyr
+      import: true
+      import:
+        name-allowlist:
+          - cmsis
+          - hal_espressif
+          - mbedtls
+          - mcuboot
+          - mcumgr
+          - net-tools
+          - segger
+          - tinycbor
+          - tinycrypt
+    # Golioth!
+    - name: golioth
+      path: modules/lib/golioth
+      revision: main
+      url: git@github.com:golioth/zephyr.git
+  self:
+    path: golioth-zephyr-app
+```
+
+This manifest imports both Zephyr and Golioth individually, which is how an idiomatic west application pulls in dependencies.
+Note that the zephyr dependency explictly only allows certain sub-imports to reduce the time and space required to set up.
+
+### Running the Example
+
+1. `cd` to the `golioth-zephyr-app/app` directory:
+
+```console
+cd golioth-zephyr-app/app
+```
+
+2. If you're **not** using the Zephyr SDK (which automatically sets up the toolchain):
+
+```console
+export ZEPHYR_TOOLCHAIN_VARIANT="espressif"
+export ESPRESSIF_TOOLCHAIN_PATH="~/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/"
+export PATH="$PATH:$ESPRESSIF_TOOLCHAIN_PATH/bin"
+```
+
+The `ESPRESSIF_TOOLCHAIN_PATH` could be different, depending on your OS, installation process, and toolchain version.
+
+3. Add your credentials to this application:
+
+Take a look at the [`prj.conf`](app/prj.conf) file and take note of the four lines at the end.
+
+```sh title="prj.conf"
+... 25 lines removed ...
 
 CONFIG_GOLIOTH_SYSTEM_CLIENT_PSK_ID="<the PSK ID>"
 CONFIG_GOLIOTH_SYSTEM_CLIENT_PSK="<the PSK>"
@@ -92,132 +129,19 @@ CONFIG_ESP32_WIFI_SSID="<WIFI SSD>"
 CONFIG_ESP32_WIFI_PASSWORD="<WIFI PASSWORD>"
 ```
 
-As you can see at the end of `prj.conf`, there are some values that you'll need to fill in yourself that depend on your registered devices and environment.
+Fill in `CONFIG_GOLIOTH_SYSTEM_CLIENT_PSK_ID` and `CONFIG_GOLIOTH_SYSTEM_CLIENT_PSK` with the credentials you've generated with Golioth
+and `CONFIG_ESP32_WIFI_SSID` and `CONFIG_ESP32_WIFI_PASSWORD` with your WiFi's SSID and passphrase.
 
-Now create two directories, `boards` and `src`. Inside of `boards/`, create a configuration file for the board you're using. In this guide, we're using an ESP32.
+4. Build it:
 
-:::note
-For the most part, you can copy these configuration files from Zephyr and Golioth samples.
-:::
-
-```txt title="boards/esp32.conf"
-CONFIG_WIFI=y
-CONFIG_WIFI_ESP32=y
-CONFIG_HEAP_MEM_POOL_SIZE=131072
-
-CONFIG_NET_L2_ETHERNET=y
-
-CONFIG_NET_DHCPV4=y
-
-CONFIG_NET_CONFIG_LOG_LEVEL_DBG=y
-CONFIG_NET_CONFIG_SETTINGS=y
-CONFIG_NET_CONFIG_NEED_IPV4=y
-
-CONFIG_MBEDTLS_ENTROPY_ENABLED=y
-CONFIG_MBEDTLS_KEY_EXCHANGE_ECDHE_ECDSA_ENABLED=y
-CONFIG_MBEDTLS_ECP_ALL_ENABLED=y
-
-CONFIG_ESP32_WIFI_STA_AUTO=y
+```console
+west build -b esp32 .
 ```
 
-Create one file, `main.c`, inside `src/`.
+5. Flash it:
 
-For this example, the contents should be a simple logger.
-
-```c title="src/main.c"
-/*
- * Copyright (c) 2021 Golioth, Inc.
- *
- * SPDX-License-Identifier: Apache-2.0
- */
-
-#include <logging/log.h>
-LOG_MODULE_REGISTER(golioth_logging, LOG_LEVEL_DBG);
-
-#include <net/coap.h>
-#include <net/golioth/system_client.h>
-#include <net/golioth/wifi.h>
-
-static struct golioth_client *client = GOLIOTH_SYSTEM_CLIENT_GET();
-
-static void golioth_on_message(struct golioth_client *client,
-                   struct coap_packet *rx)
-{
-    uint16_t payload_len;
-    const uint8_t *payload;
-    uint8_t type;
-
-    type = coap_header_get_type(rx);
-    payload = coap_packet_get_payload(rx, &payload_len);
-
-    if (!IS_ENABLED(CONFIG_LOG_BACKEND_GOLIOTH) && payload) {
-        LOG_HEXDUMP_DBG(payload, payload_len, "Payload");
-    }
-}
-
-void main(void)
-{
-    int counter = 0;
-
-    LOG_DBG("Start Logging sample");
-
-    if (IS_ENABLED(CONFIG_GOLIOTH_SAMPLE_WIFI)) {
-        LOG_INF("Connecting to WiFi");
-        wifi_connect();
-    }
-
-    client->on_message = golioth_on_message;
-    golioth_system_client_start();
-
-    while (true) {
-        LOG_INF("INFO: the counter is %d", counter);
-
-        counter++;
-
-        k_sleep(K_SECONDS(5));
-    }
-}
-```
-
-### Building the Application
-
-:::note
-This guide is for the ESP32, so setting up the required toolchain for other boards will be slightly different.
-
-Look at the Zephyr documentation for your particular board to learn more about setting up the toolchain.
-:::
-
-Set these environment values (The exact method used to do that varies between operating system and shell).
-
-```bash
-export ZEPHYR_TOOLCHAIN_VARIANT="espressif"
-export ESPRESSIF_TOOLCHAIN_PATH="~/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/"
-export PATH="$PATH:$ESPRESSIF_TOOLCHAIN_PATH/bin"
-```
-
-You'll also need to make sure that `west` can find the `golioth/zephyr` codebase on your local machine. You'll have to `source` a particular file to do so.
-
-```bash
-source ~/golioth/zephyr/zephyr/zephyr-env.sh
-```
-
-This will set the `$ZEPHYR_BASE` environment variable, as well as make sure `west` can find the correct subcommands.
-
-:::note
-The exact paths may not match up with what is shown here. Look at [`Set up Zephyr (on ESP32)`](esp32-quickstart/esp32-set-up-zephyr) page for more information
-about setting up the toolchain and the necessary environment variables.
-:::
-
-Now, to build it:
-
-```bash
-west build -b esp32
-```
-
-And to flash it to the board (exact paths may vary)
-
-```bash
-west flash --esp-device=/dev/cu.usbserial-14210
+```console
+west flash --esp-device=<path to the USB device>
 ```
 
 ### Results
