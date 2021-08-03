@@ -115,6 +115,8 @@ export PATH="$PATH:$ESPRESSIF_TOOLCHAIN_PATH/bin"
 
 The `ESPRESSIF_TOOLCHAIN_PATH` could be different, depending on your OS, installation process, and toolchain version.
 
+If you're on Linux, you most likely don't need step 2, since you're most likely using the Zephyr SDK.
+
 3. Add your credentials to this application:
 
 Take a look at the `prj.conf` file and take note of the four lines at the end.
