@@ -117,7 +117,7 @@ The `ESPRESSIF_TOOLCHAIN_PATH` could be different, depending on your OS, install
 
 3. Add your credentials to this application:
 
-Take a look at the [`prj.conf`](app/prj.conf) file and take note of the four lines at the end.
+Take a look at the `prj.conf` file and take note of the four lines at the end.
 
 ```sh title="prj.conf"
 ... 25 lines removed ...
