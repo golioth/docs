@@ -22,7 +22,7 @@ The hardware ID is something that unique identify your device, so it can be the 
 Them you list your projects devices with the command:
 
 ```
-$ goliothctl devices list
+$ goliothctl device list
 id:"<uuid>" name:"My first device" hardwareIds: "DE:AD:BE:EF"
 ```
 
