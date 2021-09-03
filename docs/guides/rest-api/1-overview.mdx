@@ -5,10 +5,7 @@ title: Golioth REST API
 
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 export const SwaggerUrl = () => {
-  const { siteConfig } = useDocusaurusContext();
-  const {
-    customFields: { swaggerUrl },
-  } = siteConfig;
+  const swaggerUrl = process.env.SWAGGER_URL;
   return <a href={swaggerUrl}>{swaggerUrl}</a>;
 };
 

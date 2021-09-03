@@ -10,10 +10,7 @@ import "swagger-ui-react/swagger-ui.css";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 
 export const APIDocs = () => {
-  const { siteConfig } = useDocusaurusContext();
-  const {
-    customFields: { swaggerUrl },
-  } = siteConfig;
+  const swaggerUrl = process.env.SWAGGER_URL;
   return (
     <div
       style={{

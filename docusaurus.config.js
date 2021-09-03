@@ -2,10 +2,6 @@ module.exports = {
   title: "Golioth",
   tagline: "The Device You're Developing Is Cloud Ready",
   url: "https://docs.golioth.io",
-  customFields: {
-    // swaggerUrl: "http://localhost:9090/swagger.json",
-    swaggerUrl: "https://api.golioth.dev/swagger.json",
-  },
   themes: ["@docusaurus/theme-live-codeblock"],
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -138,4 +134,15 @@ module.exports = {
       },
     ],
   ],
+  plugins: [
+    ['docusaurus2-dotenv',
+    {
+        path: `./.env.${process.env.HOSTING_ENV}`, // The path to your environment variables.
+        safe: false, // If false ignore safe-mode, if true load './.env.example', if a string load that file as the sample
+        systemvars: false, // Set to true if you would rather load all system variables as well (useful for CI purposes)
+        silent: false, //  If true, all warnings will be suppressed
+        expand: false, // Allows your variables to be "expanded" for reusability within your .env file
+        defaults: false, //  Adds support for dotenv-defaults. If set to true, uses ./.env.defaults
+    }]
+  ]
 };

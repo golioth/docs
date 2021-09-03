@@ -4,12 +4,12 @@
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
-    "start": "docusaurus start",
+    "start": "HOSTING_ENV=development docusaurus start",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
-    "fb-deploy-prod": "npm run build && firebase deploy --only hosting:docs-prod",
-    "fb-deploy-dev": "npm run build && firebase deploy --only hosting:docs-dev",
+    "fb-deploy-prod": "HOSTING_ENV=production npm run build && firebase deploy --only hosting:docs-prod",
+    "fb-deploy-dev": "HOSTING_ENV=development npm run build && firebase deploy --only hosting:docs-dev",
     "serve": "docusaurus serve",
     "update-external-docs": "./scripts/update_external_docs.sh",
     "clear": "docusaurus clear"
@@ -20,6 +20,7 @@
     "@docusaurus/theme-live-codeblock": "^2.0.0-alpha.70",
     "@mdx-js/react": "^1.6.21",
     "clsx": "^1.1.1",
+    "docusaurus2-dotenv": "^1.4.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "swagger-ui-react": "^3.42.0"
