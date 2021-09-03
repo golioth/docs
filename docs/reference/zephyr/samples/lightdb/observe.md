@@ -1,11 +1,11 @@
 ---
-title: Golioth Hello sample
+title: Golioth Light DB Observe Sample
 ---
 
 # Overview
 
-This sample application demonstrates how to connect with Golioth and
-publish simple Hello messages.
+This sample demonstrates how to connect to Golioth and observe a LightDB
+path for changes.
 
 # Requirements
 
@@ -35,10 +35,11 @@ This application has been built and tested with QEMU x86 (qemu_x86) and
 QEMU ARM Cortex-M3 (qemu_cortex_m3).
 
 On your Linux host computer, open a terminal window, locate the source
-code of this sample application (i.e., `samples/hello`) and type:
+code of this sample application (i.e., `samples/lightdb/observe`) and
+type:
 
 ``` {.console}
-$ west build -b qemu_x86 samples/hello
+$ west build -b qemu_x86 samples/lightdb/observe
 $ west build -t run
 ```
 
@@ -64,10 +65,10 @@ CONFIG_GOLIOTH_SAMPLE_WIFI_PSK="my-psk"
 ```
 
 On your host computer open a terminal window, locate the source code of
-this sample application (i.e., `samples/hello`) and type:
+this sample application (i.e., `samples/lightdb/observe`) and type:
 
 ``` {.console}
-$ west build -b esp32 samples/hello
+$ west build -b esp32 samples/lightdb/observe
 $ west flash
 ```
 
@@ -122,20 +123,20 @@ CONFIG_GOLIOTH_SAMPLE_WIFI_PSK="my-psk"
 ```
 
 On your host computer open a terminal window, locate the source code of
-this sample application (i.e., `samples/hello`) and type:
+this sample application (i.e., `samples/lightdb/observe`) and type:
 
 ``` {.console}
-$ west build -b nrf52840dk_nrf52840 samples/hello
+$ west build -b nrf52840dk_nrf52840 samples/lightdb/observe
 $ west flash
 ```
 
 ### nRF9160 Feather
 
 On your host computer open a terminal window, locate the source code of
-this sample application (i.e., `samples/hello`) and type:
+this sample application (i.e., `samples/ligthdb/observe`) and type:
 
 ``` {.console}
-$ west build -b circuitdojo_feather_nrf9160ns samples/hello
+$ west build -b circuitdojo_feather_nrf9160ns samples/lightdb/observe
 ```
 
 Enter bootloader and use `mcumgr` (or `newtmgr`) to flash firmware:
@@ -153,19 +154,32 @@ for details.
 This is the output from the serial console:
 
 ``` {.console}
-[00:00:00.000,000] <inf> golioth_hello: Initializing golioth client
-[00:00:00.000,000] <inf> golioth_hello: Golioth client initialized
-[00:00:00.000,000] <inf> golioth_hello: Sending hello! 0
-[00:00:00.000,000] <wrn> golioth_hello: Failed to send hello!
-[00:00:00.000,000] <inf> golioth_hello: Starting connect
-[00:00:00.000,000] <inf> golioth_hello: Client connected!
-[00:00:05.010,000] <inf> golioth_hello: Sending hello! 1
-[00:00:05.020,000] <dbg> golioth_hello: Payload
-                                        48 65 6c 6c 6f 20 6d 61  72 6b                   |Hello ma rk
-[00:00:10.030,000] <inf> golioth_hello: Sending hello! 2
-[00:00:10.030,000] <dbg> golioth_hello: Payload
-                                        48 65 6c 6c 6f 20 6d 61  72 6b                   |Hello ma rk
+[00:00:01.079,000] <inf> golioth_system: Initializing
+[00:00:01.080,000] <inf> net_config: Initializing network
+[00:00:01.080,000] <inf> net_config: Waiting interface 1 (0x3ffb01d8) to be up...
+[00:00:01.080,000] <inf> esp_event: WIFI_EVENT_STA_START
+[00:00:01.080,000] <inf> net_config: Interface 1 (0x3ffb01d8) coming up
+[00:00:01.080,000] <inf> net_config: Running dhcpv4 client...
+[00:00:01.977,000] <inf> esp_event: WIFI_EVENT_STA_DISCONNECTED
+[00:00:04.026,000] <inf> esp_event: WIFI_EVENT_STA_DISCONNECTED
+[00:00:09.097,000] <inf> net_dhcpv4: Received: 192.168.0.180
+[00:00:09.097,000] <inf> net_config: IPv4 address: 192.168.0.180
+[00:00:09.097,000] <inf> net_config: Lease time: 7200 seconds
+[00:00:09.097,000] <inf> net_config: Subnet: 255.255.255.0
+[00:00:09.097,000] <inf> net_config: Router: 192.168.0.1
+[00:00:09.097,000] <dbg> golioth_lightdb.main: Start Light DB observe sample
+[00:00:09.097,000] <inf> golioth_system: Starting connect
+[00:00:12.366,000] <inf> golioth_system: Client connected!
+[00:00:12.422,000] <dbg> golioth_lightdb.on_update: payload: {"m":"original"}
+[00:00:22.910,000] <dbg> golioth_lightdb.on_update: payload: {"m":"new"}
 ```
 
-Responses to Hello messages are printed above as a hexdump of \"Hello
-mark\". This means that communication with Golioth is working.
+## Set the observed value
+
+The device retrieves the value stored at `/observed` in LightDB and then
+retrieves it every time that it\'s updated. The value can be updates as
+such:
+
+``` {.console}
+goliothctl lightdb set <device-name> /observed -b "{\"m\":\"new\"}"
+```

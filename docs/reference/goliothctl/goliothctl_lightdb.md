@@ -62,7 +62,7 @@ $ goliothctl lightdb set --tag [tag name] /test -b "{\"state\":1}" --format json
 
 ```
       --apiUrl string      golioth api server url (default "https://api.golioth.dev")
-  -c, --config string      config file (default is $HOME/.goliothctl.yaml)
+  -c, --config string      config file (default is $HOME/.golioth/.goliothctl.yaml)
       --projectId string   golioth project id
 ```
 

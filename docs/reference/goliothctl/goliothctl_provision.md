@@ -27,20 +27,22 @@ goliothctl provision [flags]
 ### Options
 
 ```
+      --blueprint string   blueprint name
       --credId string      credential id
-      --credType string    credential type [ASYMMETRIC_KEY_PAIR PRE_SHARED_KEY] (default "PRE_SHARED_KEY")
+      --credType string    credential type [PRE_SHARED_KEY ASYMMETRIC_KEY_PAIR] (default "PRE_SHARED_KEY")
   -h, --help               help for provision
       --hwId stringArray   device hardware id
       --id string          device id
       --name string        device name
       --psk string         pre shared key
+      --tags stringArray   tag names
 ```
 
 ### Options inherited from parent commands
 
 ```
       --apiUrl string      golioth api server url (default "https://api.golioth.dev")
-  -c, --config string      config file (default is $HOME/.goliothctl.yaml)
+  -c, --config string      config file (default is $HOME/.golioth/.goliothctl.yaml)
       --projectId string   golioth project id
 ```
 

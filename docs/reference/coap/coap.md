@@ -40,13 +40,15 @@ coap --path /logs -m POST --psk-id deadbeef-id --psk supersecret -q module=wifi 
   -h, --help                   help for coap
       --host string            golioth coap host (default "localhost")
       --in                     read request body from stdin
-  -m, --method string          coap method - GET,POST (default "POST")
+  -m, --method string          coap method - GET,POST (default "GET")
   -o, --observe stringArray    coap observation paths
+      --out string             file to save response body
   -p, --path string            coap url path (default "/echo")
       --port int               golioth coap port (default 5684)
       --psk string             coap pre shared key
       --psk-id string          coap psk identity
   -q, --query stringToString   coap query params (default [])
+      --timeout uint           coap request timeout in seconds (default 5)
   -w, --wait                   wait for replies
 ```
 

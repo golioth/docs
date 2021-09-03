@@ -36,7 +36,7 @@ id:"5df88b8e-e208-41d4-b7e2-29192ab5de83"  key:"dLEtQLItz9eSHZYwuZGE5UlcgL2GOmHW
 
 ```
       --apiUrl string      golioth api server url (default "https://api.golioth.dev")
-  -c, --config string      config file (default is $HOME/.goliothctl.yaml)
+  -c, --config string      config file (default is $HOME/.golioth/.goliothctl.yaml)
       --projectId string   golioth project id
 ```
 

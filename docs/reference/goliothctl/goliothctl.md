@@ -38,7 +38,7 @@ goliothctl provision --hwId "DE:AD:BE:EF" --name "My first device" --credId "dea
 
 ```
       --apiUrl string      golioth api server url (default "https://api.golioth.dev")
-  -c, --config string      config file (default is $HOME/.goliothctl.yaml)
+  -c, --config string      config file (default is $HOME/.golioth/.goliothctl.yaml)
   -h, --help               help for goliothctl
       --projectId string   golioth project id
 ```
@@ -46,6 +46,7 @@ goliothctl provision --hwId "DE:AD:BE:EF" --name "My first device" --credId "dea
 ### SEE ALSO
 
 * [goliothctl apikeys](/docs/reference/goliothctl/goliothctl_apikeys/)	 - Access API Keys information.
+* [goliothctl blueprint](/docs/reference/goliothctl/goliothctl_blueprint/)	 - Create, update, and delete blueprint.
 * [goliothctl config](/docs/reference/goliothctl/goliothctl_config/)	 - The `goliothctl config` subcommands are used to get and set values in the current local goliothctl config.
 * [goliothctl device](/docs/reference/goliothctl/goliothctl_device/)	 - Use the `goliothctl device` subcommands to add, remove, list, and update data associated with devices.
 * [goliothctl lightdb](/docs/reference/goliothctl/goliothctl_lightdb/)	 - Access data on Light DB

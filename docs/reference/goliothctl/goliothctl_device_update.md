@@ -33,7 +33,6 @@ goliothctl device update [device name] [flags]
       --addHwId stringArray   add hardware id
       --addTag stringArray    add tag
   -h, --help                  help for update
-      --hwId stringArray      hardware id
       --id string             device id
       --name string           new device name
       --rmHwId stringArray    remove hardware id
@@ -44,7 +43,7 @@ goliothctl device update [device name] [flags]
 
 ```
       --apiUrl string      golioth api server url (default "https://api.golioth.dev")
-  -c, --config string      config file (default is $HOME/.goliothctl.yaml)
+  -c, --config string      config file (default is $HOME/.golioth/.goliothctl.yaml)
       --projectId string   golioth project id
 ```
 

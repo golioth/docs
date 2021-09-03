@@ -1,11 +1,11 @@
 ---
-title: Golioth Hello sample
+title: Golioth Light DB Set Sample
 ---
 
 # Overview
 
-This sample application demonstrates how to connect with Golioth and
-publish simple Hello messages.
+This sample demonstrates how to connect to Golioth and set values inside
+of LigthDB.
 
 # Requirements
 
@@ -35,10 +35,10 @@ This application has been built and tested with QEMU x86 (qemu_x86) and
 QEMU ARM Cortex-M3 (qemu_cortex_m3).
 
 On your Linux host computer, open a terminal window, locate the source
-code of this sample application (i.e., `samples/hello`) and type:
+code of this sample application (i.e., `samples/lightdb/set`) and type:
 
 ``` {.console}
-$ west build -b qemu_x86 samples/hello
+$ west build -b qemu_x86 samples/lightdb/set
 $ west build -t run
 ```
 
@@ -64,10 +64,10 @@ CONFIG_GOLIOTH_SAMPLE_WIFI_PSK="my-psk"
 ```
 
 On your host computer open a terminal window, locate the source code of
-this sample application (i.e., `samples/hello`) and type:
+this sample application (i.e., `samples/lightdb/set`) and type:
 
 ``` {.console}
-$ west build -b esp32 samples/hello
+$ west build -b esp32 samples/lightdb/set
 $ west flash
 ```
 
@@ -122,20 +122,20 @@ CONFIG_GOLIOTH_SAMPLE_WIFI_PSK="my-psk"
 ```
 
 On your host computer open a terminal window, locate the source code of
-this sample application (i.e., `samples/hello`) and type:
+this sample application (i.e., `samples/lightdb/set`) and type:
 
 ``` {.console}
-$ west build -b nrf52840dk_nrf52840 samples/hello
+$ west build -b nrf52840dk_nrf52840 samples/lightdb/set
 $ west flash
 ```
 
 ### nRF9160 Feather
 
 On your host computer open a terminal window, locate the source code of
-this sample application (i.e., `samples/hello`) and type:
+this sample application (i.e., `samples/ligthdb/set`) and type:
 
 ``` {.console}
-$ west build -b circuitdojo_feather_nrf9160ns samples/hello
+$ west build -b circuitdojo_feather_nrf9160ns samples/lightdb/set
 ```
 
 Enter bootloader and use `mcumgr` (or `newtmgr`) to flash firmware:
@@ -153,19 +153,24 @@ for details.
 This is the output from the serial console:
 
 ``` {.console}
-[00:00:00.000,000] <inf> golioth_hello: Initializing golioth client
-[00:00:00.000,000] <inf> golioth_hello: Golioth client initialized
-[00:00:00.000,000] <inf> golioth_hello: Sending hello! 0
-[00:00:00.000,000] <wrn> golioth_hello: Failed to send hello!
-[00:00:00.000,000] <inf> golioth_hello: Starting connect
-[00:00:00.000,000] <inf> golioth_hello: Client connected!
-[00:00:05.010,000] <inf> golioth_hello: Sending hello! 1
-[00:00:05.020,000] <dbg> golioth_hello: Payload
-                                        48 65 6c 6c 6f 20 6d 61  72 6b                   |Hello ma rk
-[00:00:10.030,000] <inf> golioth_hello: Sending hello! 2
-[00:00:10.030,000] <dbg> golioth_hello: Payload
-                                        48 65 6c 6c 6f 20 6d 61  72 6b                   |Hello ma rk
+[00:00:04.033,000] <inf> esp_event: WIFI_EVENT_STA_DISCONNECTED
+[00:00:04.186,000] <inf> esp_event: WIFI_EVENT_STA_CONNECTED
+[00:00:08.102,000] <inf> net_dhcpv4: Received: 192.168.0.180
+[00:00:08.102,000] <inf> net_config: IPv4 address: 192.168.0.180
+[00:00:08.102,000] <inf> net_config: Lease time: 7200 seconds
+[00:00:08.102,000] <inf> net_config: Subnet: 255.255.255.0
+[00:00:08.102,000] <inf> net_config: Router: 192.168.0.1
+[00:00:08.102,000] <dbg> golioth_lightdb.main: Start Light DB set sample
+[00:00:08.102,000] <inf> golioth_system: Starting connect
+[00:00:08.103,000] <inf> golioth_system: Client connected!
 ```
 
-Responses to Hello messages are printed above as a hexdump of \"Hello
-mark\". This means that communication with Golioth is working.
+## Monitor counter value
+
+Device increments counter every 5s and updates `/counter` resource in
+Light DB with its value. Current value can be fetched using following
+command:
+
+``` {.console}
+goliothctl lightdb get <device-name> /counter
+```

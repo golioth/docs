@@ -2,26 +2,23 @@
 title: Golioth Logging sample
 ---
 
-Overview
-========
+# Overview
 
 This sample application demonstrates how to connect with Golioth and
 configure logging backend to send system logs to Golioth.
 
-Requirements
-============
+# Requirements
 
 -   Golioth credentials
 -   Network connectivity
 
-Building and Running
-====================
+# Building and Running
 
 Configure the following Kconfig options based on your Golioth
 credentials:
 
--   GOLIOTH\_SYSTEM\_CLIENT\_PSK\_ID - PSK ID of registered device
--   GOLIOTH\_SYSTEM\_CLIENT\_PSK - PSK of registered device
+-   GOLIOTH_SYSTEM_CLIENT_PSK_ID - PSK ID of registered device
+-   GOLIOTH_SYSTEM_CLIENT_PSK - PSK of registered device
 
 by adding these lines to configuration file (e.g. `prj.conf`):
 
@@ -30,13 +27,12 @@ CONFIG_GOLIOTH_SYSTEM_CLIENT_PSK_ID="my-psk-id"
 CONFIG_GOLIOTH_SYSTEM_CLIENT_PSK="my-psk"
 ```
 
-Platform specific configuration
--------------------------------
+## Platform specific configuration
 
 ### QEMU
 
-This application has been built and tested with QEMU x86 (qemu\_x86) and
-QEMU ARM Cortex-M3 (qemu\_cortex\_m3).
+This application has been built and tested with QEMU x86 (qemu_x86) and
+QEMU ARM Cortex-M3 (qemu_cortex_m3).
 
 On your Linux host computer, open a terminal window, locate the source
 code of this sample application (i.e., `samples/logging`) and type:
@@ -56,8 +52,8 @@ access Internet.
 Configure the following Kconfig options based on your WiFi AP
 credentials:
 
--   GOLIOTH\_SAMPLE\_WIFI\_SSID - WiFi SSID
--   GOLIOTH\_SAMPLE\_WIFI\_PSK - WiFi PSK
+-   GOLIOTH_SAMPLE_WIFI_SSID - WiFi SSID
+-   GOLIOTH_SAMPLE_WIFI_PSK - WiFi PSK
 
 by adding these lines to configuration file (e.g. `prj.conf` or
 `board/esp32.conf`):
@@ -114,8 +110,8 @@ board) using wires:
 Configure the following Kconfig options based on your WiFi AP
 credentials:
 
--   GOLIOTH\_SAMPLE\_WIFI\_SSID - WiFi SSID
--   GOLIOTH\_SAMPLE\_WIFI\_PSK - WiFi PSK
+-   GOLIOTH_SAMPLE_WIFI_SSID - WiFi SSID
+-   GOLIOTH_SAMPLE_WIFI_PSK - WiFi PSK
 
 by adding these lines to configuration file (e.g. `prj.conf` or
 `board/nrf52840dk_nrf52840.conf`):
@@ -133,8 +129,26 @@ $ west build -b nrf52840dk_nrf52840 samples/logging
 $ west flash
 ```
 
-Sample output
--------------
+### nRF9160 Feather
+
+On your host computer open a terminal window, locate the source code of
+this sample application (i.e., `samples/logging`) and type:
+
+``` {.console}
+$ west build -b circuitdojo_feather_nrf9160ns samples/logging
+```
+
+Enter bootloader and use `mcumgr` (or `newtmgr`) to flash firmware:
+
+``` {.console}
+$ mcumgr --conntype serial --connstring /dev/ttyUSB0,baudrate=1000000 build/zephyr/app_update.bin
+```
+
+See [nRF9160 Feather Programming and
+Debugging](https://docs.jaredwolff.com/nrf9160-programming-and-debugging.html)
+for details.
+
+## Sample output
 
 This is the output from the serial console:
 
@@ -170,8 +184,7 @@ This is the output from the serial console:
                                           02 00 00 00
 ```
 
-Access logs with goliothctl
----------------------------
+## Access logs with goliothctl
 
 This is how logs are visible
 

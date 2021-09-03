@@ -29,16 +29,18 @@ goliothctl device create [flags]
 ### Options
 
 ```
+      --blueprint string   blueprint name
   -h, --help               help for create
       --hwId stringArray   device hardware id
       --name string        device name
+      --tags stringArray   tag names
 ```
 
 ### Options inherited from parent commands
 
 ```
       --apiUrl string      golioth api server url (default "https://api.golioth.dev")
-  -c, --config string      config file (default is $HOME/.goliothctl.yaml)
+  -c, --config string      config file (default is $HOME/.golioth/.goliothctl.yaml)
       --projectId string   golioth project id
 ```
 

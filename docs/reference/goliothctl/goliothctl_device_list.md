@@ -29,14 +29,17 @@ id:"60ad5f25ad0772e87bb232cd"  hardware_ids:"CC:CC:CC:CC"  hardware_ids:"BB:BB:B
   -h, --help               help for list
       --hwId stringArray   device hardware id
       --name string        device name
+      --state string       LightDB state path
+      --stream string      LightDB stream latest path
       --tags stringArray   tag names
+      --update string      LightDB update state path
 ```
 
 ### Options inherited from parent commands
 
 ```
       --apiUrl string      golioth api server url (default "https://api.golioth.dev")
-  -c, --config string      config file (default is $HOME/.goliothctl.yaml)
+  -c, --config string      config file (default is $HOME/.golioth/.goliothctl.yaml)
       --projectId string   golioth project id
 ```
 
