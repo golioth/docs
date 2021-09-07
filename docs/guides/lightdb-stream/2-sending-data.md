@@ -26,7 +26,7 @@ To demonstrate the operations here, let's imagine that we are tracking an asset 
 
 ### Inserting data with POST
 
-To insert data into a LightDB Stream, you can either use the REST API or, as we'll do here, pretend to be a device and use gurl to send CoAP packets to the Golioth servers. When writing, data can either be in json or cbor, or a single value of type boolean, float, integer, or string.
+To insert data into a LightDB Stream, you can either use the REST API or, as we'll do here, pretend to be a device and use `coap` CLI to send CoAP packets to the Golioth servers. When writing, data can either be in json or cbor, or a single value of type boolean, float, integer, or string.
 
 In this example, we'll be saving fictional GPS positional data to a stream located at /position.
 

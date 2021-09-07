@@ -3,7 +3,6 @@ id: querying-data
 title: Querying Data
 ---
 
-
 To allow users to query data in a flexible way, we need to define some structures that can be used for building a query so we can shape the data and filter accordingly to that. For doing so, we defined 2 basic primitives: Fields and Filters. Here are the attributes that can be defined on each one of those primitives:
 
 - Field - Users can define multiple fields that they want to be returned in their query. `time` and `deviceId` are special fields that represents the data point time and device that sent the data. All other fields represents a path inside the data blob that is stored.
@@ -54,7 +53,7 @@ or
 
 Let's consider an application in which we want to plot temperature data that has been recorded by a device over time. In this case, the device has two sensors, one inside and one outside. We also want to calculate the 15 minute average temperature.
 
-The device can post data to the `/env` path so we can put together environment data under a group. An example of posting that kind of data using `gurl` can be seen bellow:
+The device can post data to the `/env` path so we can put together environment data under a group. An example of posting that kind of data using `coap` CLI can be seen bellow:
 
 ```
 $ coap --path /.s/env -m POST --psk-id deadbeef-id --psk supersecret --host coap.golioth.dev -b "{\"temperature\": 30, \"type\" : \"inside\" }" --format json
