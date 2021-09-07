@@ -37,7 +37,7 @@ goliothctl provision --hwId "DE:AD:BE:EF" --name "My first device" --credId "dea
 ### Options
 
 ```
-      --apiUrl string      golioth api server url (default "https://api.golioth.dev")
+      --apiUrl string      golioth api server url (default "https://api.golioth.io")
   -c, --config string      config file (default is $HOME/.golioth/.goliothctl.yaml)
   -h, --help               help for goliothctl
       --projectId string   golioth project id

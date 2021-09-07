@@ -34,7 +34,7 @@ goliothctl stream get [device name] <path> [flags]
 ### Options inherited from parent commands
 
 ```
-      --apiUrl string      golioth api server url (default "https://api.golioth.dev")
+      --apiUrl string      golioth api server url (default "https://api.golioth.io")
   -c, --config string      config file (default is $HOME/.golioth/.goliothctl.yaml)
       --projectId string   golioth project id
 ```
