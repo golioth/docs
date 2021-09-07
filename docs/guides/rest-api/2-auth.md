@@ -38,7 +38,7 @@ id:"<api key uuid>"  key:"YOUR_JWT_KEY"  type:JWT_KEY  secret:"YOUR_JWT_SECRET"
 Basic API Key, doesn't require any extra processing to be used and you can use it on a `X-API-Key` header. Now let's list devices on a project using `curl`:
 
 ```
-$ curl -H "x-api-key: YOUR_API_KEY" https://api.golioth.dev/v1/projects/{project-id}/devices
+$ curl -H "x-api-key: YOUR_API_KEY" https://api.golioth.io/v1/projects/{project-id}/devices
 { "list": [ { "id":"<uuid>", "name": "My first device", "hardwareIds": ["DE:AD:BE:EF"], "createdAt":"<timestamp>", "updatedAt":"<timestamp>" }] }, "page":0, "perPage":100, "total":1 }
 ```
 
@@ -66,6 +66,6 @@ The second step is to add to the JWT claims, the `iss` (issuer field) with the `
 Using the JWT debugger at https://jwt.io with the header (HS256), claims (iss), and secret associated with your API Key, you’ll end up with a valid JWT token that can be used like bellow:
 
 ```
-$ curl -H "Authorization: JWT_TOKEN" https://api.golioth.dev/v1/projects/{project-id}/devices
+$ curl -H "Authorization: JWT_TOKEN" https://api.golioth.io/v1/projects/{project-id}/devices
 { "list": [ { "id":"<uuid>", "name": "My first device", "hardwareIds": ["DE:AD:BE:EF"], "createdAt":"<timestamp>", "updatedAt":"<timestamp>" }] }, "page":0, "perPage":100, "total":1 }
 ```

@@ -56,10 +56,10 @@ Let's consider an application in which we want to plot temperature data that has
 The device can post data to the `/env` path so we can put together environment data under a group. An example of posting that kind of data using `coap` CLI can be seen bellow:
 
 ```
-$ coap --path /.s/env -m POST --psk-id deadbeef-id --psk supersecret --host coap.golioth.dev -b "{\"temperature\": 30, \"type\" : \"inside\" }" --format json
-$ coap --path /.s/env -m POST --psk-id deadbeef-id --psk supersecret --host coap.golioth.dev -b "{\"temperature\": 32, \"type\" : \"inside\" }" --format json
-$ coap --path /.s/env -m POST --psk-id deadbeef-id --psk supersecret --host coap.golioth.dev -b "{\"temperature\": 20, \"type\" : \"outside\" }" --format json
-$ coap --path /.s/env -m POST --psk-id deadbeef-id --psk supersecret --host coap.golioth.dev -b "{\"temperature\": 18, \"type\" : \"outside\" }" --format json
+$ coap --path /.s/env -m POST --psk-id deadbeef-id --psk supersecret --host coap.golioth.io -b "{\"temperature\": 30, \"type\" : \"inside\" }" --format json
+$ coap --path /.s/env -m POST --psk-id deadbeef-id --psk supersecret --host coap.golioth.io -b "{\"temperature\": 32, \"type\" : \"inside\" }" --format json
+$ coap --path /.s/env -m POST --psk-id deadbeef-id --psk supersecret --host coap.golioth.io -b "{\"temperature\": 20, \"type\" : \"outside\" }" --format json
+$ coap --path /.s/env -m POST --psk-id deadbeef-id --psk supersecret --host coap.golioth.io -b "{\"temperature\": 18, \"type\" : \"outside\" }" --format json
 ```
 
 Let's define our first query to get just the raw data on the last 8h and where the field `env` is not null.

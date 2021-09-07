@@ -24,15 +24,16 @@ Let's imagine that we are monitoring environment data using an IoT device. All o
 ### Writing/Updating data with POST/PUT
 
 We can start by saving temperature data on Light DB. On requests to write data, the body can be a JSON/CBOR object or a single value in the following formats:
+
 - `boolean`
 - `float`
-- `integer` 
+- `integer`
 - `string`
 
 Here is a snippet of example code to save a temperature value of 30 Cº at path `/env/temp`
 
 ```
-$ coap --path /.d/env/temp -m PUT --psk-id deadbeef-id --psk supersecret --host coap.golioth.dev -b "{\"value\": 30.0, \"unit\" : \"c\" }" --format json
+$ coap --path /.d/env/temp -m PUT --psk-id deadbeef-id --psk supersecret --host coap.golioth.io -b "{\"value\": 30.0, \"unit\" : \"c\" }" --format json
 ```
 
 After the above request and device data saves in Light DB, it will look like this:
@@ -51,7 +52,7 @@ After the above request and device data saves in Light DB, it will look like thi
 You can set any data on any path, which allows flexibility throughout the lifetime of the device and connection. Perhaps during initialization we send both temperatur and unit type, but afterwards we only send the temperature value to the specific path. A long as another unit is not written, the first value will persist.
 
 ```
-$ coap --path /.d/env/temp/value -m PUT --psk-id deadbeef-id --psk supersecret --host coap.golioth.dev -b "35.0" --format json
+$ coap --path /.d/env/temp/value -m PUT --psk-id deadbeef-id --psk supersecret --host coap.golioth.io -b "35.0" --format json
 ```
 
 After this commend, the device state will look like this:
@@ -80,7 +81,7 @@ $ goliothctl lightdb set [device name] /config/temp -b "{\"min\": 20.0, \"max\":
 This way the device can also read the `/config` path and calculate alerts. If an alert condition is met, it can post data to `/alert`.
 
 ```
-$ coap --path /.d/ -m PUT --psk-id deadbeef-id --psk supersecret --host coap.golioth.dev -b "{ \"alert\" : { \"temp\": true }, \"env\" : { \"temp\" : { \"value\" : 45.0 } } }" --format json
+$ coap --path /.d/ -m PUT --psk-id deadbeef-id --psk supersecret --host coap.golioth.io -b "{ \"alert\" : { \"temp\": true }, \"env\" : { \"temp\" : { \"value\" : 45.0 } } }" --format json
 ```
 
 The current device state might look like this:
@@ -107,12 +108,12 @@ The current device state might look like this:
 
 ### Reading data with GET
 
-The return value of the CoAP API depends on what is stored on Light DB, which can be any JSON like data type like mentioned [on this guide](./structure-data). The value will  be encoded depending on the `accept` header that is set on the request.
+The return value of the CoAP API depends on what is stored on Light DB, which can be any JSON like data type like mentioned [on this guide](./structure-data). The value will be encoded depending on the `accept` header that is set on the request.
 
 So to read the device data, we can issue a GET request like this:
 
 ```
-$ coap --path /.d/env -m GET --psk-id deadbeef-id --psk supersecret --host coap.golioth.dev --accept json
+$ coap --path /.d/env -m GET --psk-id deadbeef-id --psk supersecret --host coap.golioth.io --accept json
 ```
 
 And that will return the data like on the previous step:
@@ -129,7 +130,7 @@ And that will return the data like on the previous step:
 But you can also request a more specific path, like this:
 
 ```
-$ coap --path /.d/env/temp/value -m GET --psk-id deadbeef-id --psk supersecret --host coap.golioth.dev --accept json
+$ coap --path /.d/env/temp/value -m GET --psk-id deadbeef-id --psk supersecret --host coap.golioth.io --accept json
 ```
 
 And in this case, will return just `45.0`.
@@ -139,7 +140,7 @@ And in this case, will return just `45.0`.
 To remove data, we can send a `DELETE` request with the path that needs to be cleaned. On our example, let's say that the device has a button to acknowledge the alert state and clean the `/alert/temp` value.
 
 ```
-$ coap --path /.d/alert/temp -m DELETE --psk-id deadbeef-id --psk supersecret --host coap.golioth.dev
+$ coap --path /.d/alert/temp -m DELETE --psk-id deadbeef-id --psk supersecret --host coap.golioth.io
 ```
 
 Also, you can do that same acknowledgement via our APIs or `goliothctl`. Maybe for example, there is a web application that the final user can acknowledge that alert. Using `goliothctl` you can delete the path with this command:

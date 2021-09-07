@@ -30,13 +30,13 @@ You can simulate sending logs by using `coap` and POSTing data to the `/logs` en
 In the example bellow, we are sending the parameters `module`, `level` and `network` as query parameters and also a message in JSON format in the body containing the log `msg`.
 
 ```
-$ coap --path /logs -m POST deadbeef-id --psk supersecret -q module=hello -q level=info -q network=wifi -b "{ \"msg\": \"Hello logs\" } --format json --host coap.golioth.dev
+$ coap --path /logs -m POST deadbeef-id --psk supersecret -q module=hello -q level=info -q network=wifi -b "{ \"msg\": \"Hello logs\" } --format json --host coap.golioth.io
 Params
 method: POST
 path: /logs
 query params: network=wifi module=hello level=info msg="Hello logs"
 
-url: coap.golioth.dev:5684
+url: coap.golioth.io:5684
 pre shared key: deadbeef-id:supersecret
 
 Response

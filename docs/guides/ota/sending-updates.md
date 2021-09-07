@@ -21,9 +21,9 @@ goliothctl updates send <device-uuid> <file path>
 You can simulate that using `coap`. In one terminal, listen do the `/update` path using this command:
 
 ```
-$ coap ping --psk-id deadbeef-id --psk supersecret -w -o /update --host coap.golioth.dev
+$ coap ping --psk-id deadbeef-id --psk supersecret -w -o /update --host coap.golioth.io
 Params
-url: coap.golioth.dev:5684
+url: coap.golioth.io:5684
 pre shared key: deadbeef-id:supersecret
 
 Ping successfully

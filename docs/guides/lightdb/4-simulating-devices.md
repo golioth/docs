@@ -7,7 +7,7 @@ import Prerequisites from '../../partials/prerequisites-platform-setup.md'
 
 <Prerequisites />
 
-With the a properly provisioned device, you can test Light DB to save, query and observe data changes on it. Make sure that the connection with the platform is working. 
+With the a properly provisioned device, you can test Light DB to save, query and observe data changes on it. Make sure that the connection with the platform is working.
 
 Let's simulated a light bulb that can report it's brightness and state and also control these values from the Cloud.
 
@@ -16,7 +16,7 @@ Let's simulated a light bulb that can report it's brightness and state and also 
 To access Light DB over CoAP, you have to use the prefix `/.d/` and anything past that represents a path that you want to save data. On the example bellow, we are saving a `state` attribute with value `true` and `brightness` with value `50` on path `/light`.
 
 ```
-$ coap --path /.d/light -m POST --psk-id deadbeef-id --psk supersecret --host coap.golioth.dev -b "{\"state\": true, \"brightness\" : 50 }" --format json
+$ coap --path /.d/light -m POST --psk-id deadbeef-id --psk supersecret --host coap.golioth.io -b "{\"state\": true, \"brightness\" : 50 }" --format json
 ```
 
 Now you can query that data over CoAP or using `goliothctl`. And you can query any path, so if you query `/light` you get the full `{ state : true, brightness : 50 }` or you can query a specific value like at `/light/state` and get only `true`.
@@ -24,7 +24,7 @@ Now you can query that data over CoAP or using `goliothctl`. And you can query a
 - Top level path:
 
 ```
-$ coap --path /.d/light -m GET --psk-id deadbeef-id --psk supersecret --host coap.golioth.dev --accept json
+$ coap --path /.d/light -m GET --psk-id deadbeef-id --psk supersecret --host coap.golioth.io --accept json
 Response
 payload: Type: Acknowledgement, MID: 64363, Code: Content, Token: 56f991b6703947d7, ContentFormat: application/json
 body: {"brightness":50,"state":true}
@@ -33,7 +33,7 @@ body: {"brightness":50,"state":true}
 - Specific path:
 
 ```
-$ coap --path /.d/light/state -m GET --psk-id deadbeef-id --psk supersecret --host coap.golioth.dev --accept json
+$ coap --path /.d/light/state -m GET --psk-id deadbeef-id --psk supersecret --host coap.golioth.io --accept json
 Response
 payload: Type: Acknowledgement, MID: 64363, Code: Content, Token: 56f991b6703947d7, ContentFormat: application/json
 body: true
@@ -62,14 +62,14 @@ We can simulated a device listening to Light DB by using `coap observe` command.
 Open this on another terminal tab to simulate the device listening to data changes:
 
 ```
-$ coap observe /.d/light/state --psk-id deadbeef-id --psk supersecret --host coap.golioth.dev --accept json
+$ coap observe /.d/light/state --psk-id deadbeef-id --psk supersecret --host coap.golioth.io --accept json
 waiting for more msgs. Type ctrl+c to close
 ```
 
 or
 
 ```
-$ coap observe /.d/light --psk-id deadbeef-id --psk supersecret --host coap.golioth.dev --accept json
+$ coap observe /.d/light --psk-id deadbeef-id --psk supersecret --host coap.golioth.io --accept json
 waiting for more msgs. Type ctrl+c to close
 ```
 

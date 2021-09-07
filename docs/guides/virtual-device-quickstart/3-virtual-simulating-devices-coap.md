@@ -14,13 +14,13 @@ Here are some examples:
 ### Send a PING request
 
 ```
-coap ping --psk-id deadbeef-id --psk supersecret --host coap.golioth.dev
+coap ping --psk-id deadbeef-id --psk supersecret --host coap.golioth.io
 ```
 
 ### Send a GET request to `/hello`
 
 ```
-coap --path /hello -m GET --psk-id deadbeef-id --psk supersecret --host coap.golioth.dev
+coap --path /hello -m GET --psk-id deadbeef-id --psk supersecret --host coap.golioth.io
 ```
 
 The `/hello` endpoint identifies the device by it's credentials and returns `Hello <device-name>`.
@@ -30,7 +30,7 @@ Params
 method: GET
 path: /hello
 
-url: coap.golioth.dev:5684
+url: coap.golioth.io:5684
 pre shared key: deadbeef-id:supersecret
 
 Response
@@ -45,7 +45,7 @@ The `/echo` endpoint identifies just returns the body sent by the device.
 #### With body as string (-b)
 
 ```
-coap --path /echo -m POST --psk-id deadbeef-id --psk supersecret --host coap.golioth.dev -b "Hello"
+coap --path /echo -m POST --psk-id deadbeef-id --psk supersecret --host coap.golioth.io -b "Hello"
 ```
 
 Output:
@@ -56,7 +56,7 @@ method: POST
 path: /echo
 file read correctly: ./README.md
 
-url: coap.golioth.dev:5684
+url: coap.golioth.io:5684
 pre shared key: deadbeef-id:supersecret
 
 Response
@@ -67,7 +67,7 @@ body: Hello
 #### With body from file (-f)
 
 ```
-coap --path /echo -m POST --psk-id deadbeef-id --psk supersecret --host coap.golioth.dev -f ./test.txt
+coap --path /echo -m POST --psk-id deadbeef-id --psk supersecret --host coap.golioth.io -f ./test.txt
 ```
 
 Output:
@@ -78,7 +78,7 @@ method: POST
 path: /echo
 file read correctly: ./test.txt
 
-url: coap.golioth.dev:5684
+url: coap.golioth.io:5684
 pre shared key: deadbeef-id:supersecret
 
 Response
