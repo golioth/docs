@@ -23,22 +23,6 @@ const guides = [
     label: 'Golioth Platform Quickstart',
     items: mapFiles('guides', 'golioth-platform-getting-started'),
   },
-
-  {
-    type: 'category',
-    label: 'ESP32 Quickstart',
-    items: mapFiles('guides','esp32-quickstart'),
-  },
-  {
-    type: 'category',
-    label: 'nRF91 Quickstart',
-    items: mapFiles('guides','nrf91-quickstart'),
-  },
-  {
-    type: 'category',
-    label: 'Virtual Device Quickstart',
-    items: mapFiles('guides','virtual-device-quickstart'),
-  },
   'guides/creating-an-app',
   {
     type: 'category',
@@ -71,6 +55,25 @@ const guides = [
     items: mapFiles('guides', 'ota'),
   },
   'guides/speedrun',
+]
+
+const hardware = [
+  'hardware/home',
+  {
+    type: 'category',
+    label: 'ESP32 Quickstart',
+    items: mapFiles('hardware','esp32-quickstart'),
+  },
+  {
+    type: 'category',
+    label: 'nRF91 Quickstart',
+    items: mapFiles('hardware','nrf91-quickstart'),
+  },
+  {
+    type: 'category',
+    label: 'Virtual Device Quickstart',
+    items: mapFiles('hardware','virtual-device-quickstart'),
+  },
 ]
 
 const reference = [
@@ -110,8 +113,22 @@ const support = [
   },
 ]
 
+const concepts = [
+  'concepts/welcome',
+  {
+    type: 'category',
+    label: "Device",
+    items: [
+      'concepts/speedrun',
+      
+    ],
+  },
+]
+
 module.exports = {
   support,
   reference,
-  guides
+  guides,
+  concepts,
+  hardware
 };

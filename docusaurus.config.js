@@ -21,9 +21,15 @@ module.exports = {
       },
       items: [
         {
-          to: "docs/guides",
-          activeBasePath: "guides",
-          label: "Guides",
+          to: "docs/concepts",
+          activeBasePath: "concepts",
+          label: "Concepts",
+          position: "left",
+        },
+        {
+          to: "docs/hardware",
+          activeBasePath: "hardware",
+          label: "Hardware",
           position: "left",
         },
         {
@@ -33,13 +39,13 @@ module.exports = {
           position: "left",
         },
         {
-          to: "docs/support",
-          label: "Support",
-          position: "left",
-        },
-        {
           href: "https://github.com/golioth",
           label: "GitHub",
+          position: "right",
+        },
+        {
+          href: "https://console.golioth.io",
+          label: "Console",
           position: "right",
         },
       ],
