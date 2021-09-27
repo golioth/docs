@@ -16,46 +16,46 @@ const mapFiles = (root,type) => {
 }
 
 
-const guides = [
-  'guides/introduction',
-  {
-    type: 'category',
-    label: 'Golioth Platform Quickstart',
-    items: mapFiles('guides', 'golioth-platform-getting-started'),
-  },
-  'guides/creating-an-app',
-  {
-    type: 'category',
-    label: 'Device SDK',
-    items: mapFiles('guides', 'device-sdk'),
-  },
-  {
-    type: 'category',
-    label: 'LightDB',
-    items: mapFiles('guides', 'lightdb'),
-  },
-  {
-    type: 'category',
-    label: 'LightDB Stream',
-    items: mapFiles('guides', 'lightdb-stream'),
-  },
-  {
-    type: 'category',
-    label: 'REST API',
-    items: mapFiles('guides', 'rest-api'),
-  },
-  {
-    type: 'category',
-    label: 'Logging and Diagnostics',
-    items: mapFiles('guides', 'logging'),
-  },
-  {
-    type: 'category',
-    label: 'Over the Air Updates',
-    items: mapFiles('guides', 'ota'),
-  },
-  'guides/speedrun',
-]
+// const guides = [
+//   'guides/introduction',
+//   {
+//     type: 'category',
+//     label: 'Golioth Platform Quickstart',
+//     items: mapFiles('platform', 'getting-started'),
+//   },
+//   'guides/creating-an-app',
+//   {
+//     type: 'category',
+//     label: 'Device SDK',
+//     items: mapFiles('guides', 'device-sdk'),
+//   },
+//   {
+//     type: 'category',
+//     label: 'LightDB',
+//     items: mapFiles('guides', 'lightdb'),
+//   },
+//   {
+//     type: 'category',
+//     label: 'LightDB Stream',
+//     items: mapFiles('guides', 'lightdb-stream'),
+//   },
+//   {
+//     type: 'category',
+//     label: 'REST API',
+//     items: mapFiles('guides', 'rest-api'),
+//   },
+//   {
+//     type: 'category',
+//     label: 'Logging and Diagnostics',
+//     items: mapFiles('guides', 'logging'),
+//   },
+//   {
+//     type: 'category',
+//     label: 'Over the Air Updates',
+//     items: mapFiles('guides', 'ota'),
+//   },
+//   'guides/speedrun',
+// ]
 
 const hardware = [
   'hardware/home',
@@ -67,6 +67,7 @@ const hardware = [
   {
     type: 'category',
     label: 'nRF91 Quickstart',
+    // collapsible: false,
     items: mapFiles('hardware','nrf91-quickstart'),
   },
   {
@@ -114,21 +115,18 @@ const support = [
 ]
 
 const concepts = [
-  'concepts/welcome',
-  {
-    type: 'category',
-    label: "Device",
-    items: [
-      'concepts/speedrun',
-      
-    ],
-  },
+  'concepts/home',
+  'concepts/fundamentals',
+  'concepts/device-sdks',
+  'concepts/device-services',
+  'concepts/console',
+  'concepts/cli',
 ]
 
 module.exports = {
   support,
   reference,
-  guides,
+  // guides,
   concepts,
   hardware
 };

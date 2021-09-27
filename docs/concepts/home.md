@@ -1,7 +1,7 @@
 ---
-id: introduction
-title: Introduction to Golioth
-slug: /guides
+id: home
+title: What is Golioth?
+slug: /concepts
 ---
 
 import ThemedImage from '@theme/ThemedImage';
@@ -22,7 +22,7 @@ use the hardware and software you're comfortable with and add Golioth to easily 
 Over time, Golioth will support many RTOSes but to start with, we picked [the Zephyr Project™](https://www.zephyrproject.org), an open-source, safe, secure, and flexible RTOS under the Linux Foundation.
 
 
-To get started, either go to the [Quickstart Guide](docs/guides/golioth-platform-getting-started/platform-overview) if you're completely new to Zephyr or skip to the [Speedrun](guides/speedrun) if you already have some experience with the RTOS and toolchain.
+To get started, either go to the [Quickstart Guide](docs/platform/getting-started/platform-overview) if you're completely new to Zephyr or skip to the [Speedrun](guides/speedrun) if you already have some experience with the RTOS and toolchain.
 
 ### What's the idea behind Golioth?
 

@@ -71,7 +71,7 @@ function Home() {
                 "button button--outline button--secondary button--lg",
                 styles.getStarted
               )}
-              to={useBaseUrl("docs/guides/golioth-platform-getting-started/platform-overview")}
+              to={useBaseUrl("docs/platform/getting-started/platform-overview")}
             >
               Try Our Quickstart Guide
             </Link>
