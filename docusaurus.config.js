@@ -33,6 +33,12 @@ module.exports = {
           position: "left",
         },
         {
+          to: "docs/firmware",
+          activeBasePath: "firmware",
+          label: "Firmware",
+          position: "left",
+        },
+        {
           to: "docs/reference",
           activeBasePath: "reference",
           label: "Reference",
@@ -57,7 +63,7 @@ module.exports = {
           items: [
             {
               label: "Getting Started",
-              to: "/docs/guides/golioth-platform-getting-started/platform-overview",
+              to: "/docs/platform/getting-started/platform-overview",
             },
             {
               label: "Over the Air Updates",
@@ -149,6 +155,17 @@ module.exports = {
         silent: false, //  If true, all warnings will be suppressed
         expand: false, // Allows your variables to be "expanded" for reusability within your .env file
         defaults: false, //  Adds support for dotenv-defaults. If set to true, uses ./.env.defaults
-    }]
+    }],
+    // [
+    //   '@docusaurus/plugin-client-redirects',
+    //   {
+    //     redirects: [
+    //       {
+    //         to: '/docs/', // string
+    //         from: ['/docs/oldDocPathFrom2019', '/docs/legacyDocPathFrom2016'], // string | string[]
+    //       },
+    //     ],
+    //   },
+    // ],
   ]
 };

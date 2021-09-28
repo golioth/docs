@@ -1,6 +1,6 @@
 ---
-id: esp32-overview
-title: ESP32 Quickstart Introduction
+id: esp32-quickstart
+title: ESP32 Quickstart Overview
 ---
 
 :::caution

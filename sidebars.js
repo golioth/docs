@@ -1,4 +1,5 @@
 const fs = require('fs')
+const { isAbsolute } = require('path')
 
 const mapFiles = (root,type) => {
   return fs.readdirSync(`./docs/${root}/${type}`)
@@ -61,8 +62,10 @@ const hardware = [
   'hardware/home',
   {
     type: 'category',
-    label: 'ESP32 Quickstart',
-    items: mapFiles('hardware','esp32-quickstart'),
+    label: 'ESP32',
+    items: [
+      'hardware/esp32/about-esp32',
+    ],
   },
   {
     type: 'category',
@@ -74,6 +77,17 @@ const hardware = [
     type: 'category',
     label: 'Virtual Device Quickstart',
     items: mapFiles('hardware','virtual-device-quickstart'),
+  },
+]
+
+const firmware = [
+  'firmware/home',
+  'firmware/creating-an-app',
+  'firmware/speedrun',
+  {
+    type: 'category',
+    label: 'Logging',
+    items: mapFiles('firmware','logging'),
   },
 ]
 
@@ -100,19 +114,7 @@ const reference = [
   },
 ]
 
-const support = [
-  'support/home',
-  {
-    type: 'category',
-    label: "GitHub",
-    items: [
-      //'reference/coming-soon',
-      'support/github/submit-issue',
-      'support/github/submit-pr',
-      
-    ],
-  },
-]
+
 
 const concepts = [
   'concepts/home',
@@ -124,9 +126,8 @@ const concepts = [
 ]
 
 module.exports = {
-  support,
   reference,
-  // guides,
   concepts,
-  hardware
+  hardware,
+  firmware
 };

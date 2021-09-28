@@ -7,20 +7,20 @@ Golioth can be added to a device with _Device SDKs_ which are based on different
 
 ### Install West
 
-import SetupZephyr from '../../partials/setup-zephyr.md'
+import SetupZephyr from '/docs/partials/setup-zephyr.md'
 
 <SetupZephyr/>
 
 ### Install Zephyr SDK
 
-import InstallZephyrSDK from '../../partials/install-zephyr-sdk.md'
+import InstallZephyrSDK from '/docs/partials/install-zephyr-sdk.md'
 
 <InstallZephyrSDK/>
 
 
 ### Install the Espressif (ESP32) toolchain
 
-import InstallEspressifToolchain from '../../partials/install-espressif-toolchain.md'
+import InstallEspressifToolchain from '/docs/partials/install-espressif-toolchain.md'
 
 <InstallEspressifToolchain />
 
