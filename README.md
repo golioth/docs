@@ -37,6 +37,8 @@ Deploy to [Golioth Docs Prod Site](https://docs.golioth.io)
 ```console
 npm run fb-deploy-prod
 ```
+
+Maintainers of the Golioth docs merging into the `main` branch will also automatically deploy to production (based on the CI system setup)
 ## Versioning
 
 In Ubuntu, the default npm install will not be up to date with the required npm packages. Consider using nvm to choose an LTS solution that will work better with Docusaurus V2.
