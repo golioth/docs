@@ -27,6 +27,12 @@ module.exports = {
           position: "left",
         },
         {
+          to: "docs/platform",
+          activeBasePath: "platform",
+          label: "Platform",
+          position: "left",
+        },
+        {
           to: "docs/hardware",
           activeBasePath: "hardware",
           label: "Hardware",
