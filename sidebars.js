@@ -21,7 +21,23 @@ const guides = [
   {
     type: 'category',
     label: 'Golioth Platform Quickstart',
-    items: mapFiles('guides', 'golioth-platform-getting-started'),
+    items:  [
+      'guides/golioth-platform-getting-started/platform-overview',
+      
+      {
+        type: 'category',
+        label: 'Installing CLI\'s',
+        items: [
+          'guides/golioth-platform-getting-started/platform-install/platform-binaries',
+          'guides/golioth-platform-getting-started/platform-install/platform-packages'
+        ],
+      },
+      'guides/golioth-platform-getting-started/platform-authentication',
+      'guides/golioth-platform-getting-started/platform-create-project',
+      'guides/golioth-platform-getting-started/platform-manage-devices',
+      'guides/golioth-platform-getting-started/platform-authorize-devices',
+      'guides/golioth-platform-getting-started/platform-choose-device',
+    ],
   },
 
   {

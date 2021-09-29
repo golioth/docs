@@ -9,7 +9,7 @@ If not, continue on to the [Quickstart guide](golioth-platform-getting-started/p
 
 ### 1... 2... 3... GO!
 
-- [Install Goliothctl](golioth-platform-getting-started/platform-installing) — you'll use it to interact with Golioth.
+- Install Goliothctl from [Pre-built Binaries](/docs/guides/golioth-platform-getting-started/platform-install/platform-binaries) or [OS Packages](/docs/guides/golioth-platform-getting-started/platform-install/platform-packages) — you'll use it to interact with Golioth.
 - Log In/Sign Up by running [`goliothctl login`](golioth-platform-getting-started/platform-authentication).
 - Create a project to hold your device with [`golioth project create`](golioth-platform-getting-started/platform-create-project).
 - Provision your embedded device with [`golioth provision`](golioth-platform-getting-started/platform-manage-devices).

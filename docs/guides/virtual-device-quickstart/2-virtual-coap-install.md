@@ -9,4 +9,4 @@ import InstallTools from '../../partials/install-tools.mdx'
 
 <InstallTools/>
 
-See [Installing Goliothctl](../golioth-platform-getting-started/platform-installing) for more detailed instruction of using the CLI.
+See Installing Goliothctl from [Pre-built Binaries](../golioth-platform-getting-started/platform-install/platform-binaries) or [OS Packages](../golioth-platform-getting-started/platform-install/platform-packages) for more detailed instruction of using the CLI.
