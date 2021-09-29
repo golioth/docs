@@ -21,31 +21,31 @@ module.exports = {
       },
       items: [
         {
-          to: "docs/concepts",
+          to: "concepts",
           activeBasePath: "concepts",
           label: "Concepts",
           position: "left",
         },
         {
-          to: "docs/platform",
+          to: "platform",
           activeBasePath: "platform",
           label: "Platform",
           position: "left",
         },
         {
-          to: "docs/hardware",
+          to: "hardware",
           activeBasePath: "hardware",
           label: "Hardware",
           position: "left",
         },
         {
-          to: "docs/firmware",
+          to: "firmware",
           activeBasePath: "firmware",
           label: "Firmware",
           position: "left",
         },
         {
-          to: "docs/reference",
+          to: "reference",
           activeBasePath: "reference",
           label: "Reference",
           position: "left",
@@ -137,14 +137,14 @@ module.exports = {
       "@docusaurus/preset-classic",
       {
         docs: {
-          //routeBasePath: '/',
+          routeBasePath: '/',
           sidebarPath: require.resolve("./sidebars.js"),
           // editUrl: 'https://github.com/golioth/golioth/edit/master/docs/',
         },
-        blog: {
-          showReadingTime: true,
-          //editUrl: 'https://github.com/golioth/golioth/edit/master/docs/blog/',
-        },
+        // blog: {
+        //   showReadingTime: true,
+        //   //editUrl: 'https://github.com/golioth/golioth/edit/master/docs/blog/',
+        // },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
           swaggerCss: require.resolve("swagger-ui-react/swagger-ui.css"),
