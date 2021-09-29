@@ -1,5 +1,5 @@
 ---
-id: platform-installing
+id: installing
 title: Installing Goliothctl
 ---
 

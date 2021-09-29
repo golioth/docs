@@ -1,5 +1,5 @@
 ---
-id: platform-authentication
+id: authentication
 title: Authentication
 ---
 

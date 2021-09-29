@@ -30,5 +30,5 @@ goliothctl project list [flags]
 
 ### SEE ALSO
 
-* [goliothctl project](/docs/reference/goliothctl/goliothctl_project/)	 - Access and manage project information.
+* [goliothctl project](/reference/command-line-tools/goliothctl/goliothctl_project)	 - Access and manage project information.
 

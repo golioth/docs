@@ -1,5 +1,5 @@
 ---
-id: platform-manage-devices
+id: manage-devices
 title: Manage Devices
 ---
 

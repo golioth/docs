@@ -45,5 +45,5 @@ id:"60ad5f25ad0772e87bb232cd"  hardware_ids:"CC:CC:CC:CC"  hardware_ids:"BB:BB:B
 
 ### SEE ALSO
 
-* [goliothctl device](/docs/reference/goliothctl/goliothctl_device/)	 - Use the `goliothctl device` subcommands to add, remove, list, and update data associated with devices.
+* [goliothctl device](/reference/command-line-tools/goliothctl/goliothctl_device)	 - Use the `goliothctl device` subcommands to add, remove, list, and update data associated with devices.
 

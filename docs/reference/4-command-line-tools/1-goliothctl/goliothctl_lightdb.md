@@ -68,7 +68,7 @@ $ goliothctl lightdb set --tag [tag name] /test -b "{\"state\":1}" --format json
 
 ### SEE ALSO
 
-* [goliothctl](/docs/reference/goliothctl/goliothctl/)	 - Manage Golioth platform resources and developer workflow.
+* [goliothctl](/reference/command-line-tools/goliothctl)	 - Manage Golioth platform resources and developer workflow.
 * [goliothctl lightdb delete](/docs/reference/goliothctl/goliothctl_lightdb_delete/)	 - Delete data at given path
 * [goliothctl lightdb get](/docs/reference/goliothctl/goliothctl_lightdb_get/)	 - Get data at given path
 * [goliothctl lightdb set](/docs/reference/goliothctl/goliothctl_lightdb_set/)	 - Set data at given path

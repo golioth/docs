@@ -14,4 +14,4 @@ goliothctl logs --interval 10m
 [2021-02-19 15:08:05 +0000 UTC] level:INFO module:"hello" message:"Hello logs" metadata:{fields:{key:"network" value:{string_value:"wifi"}}} device_id:<uuid>
 ```
 
-You can check for more commands to search logs on the [goliothctl logs](/docs/reference/goliothctl/goliothctl_logs) reference docs.
+You can check for more commands to search logs on the [goliothctl logs](/reference/command-line-tools/goliothctl/goliothctl_logs) reference docs.

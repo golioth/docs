@@ -15,5 +15,5 @@ goliothctl logs --interval 1h --module net_dhcpv4
 [2021-03-23 22:37:00 +0000 UTC] level:INFO  module:"net_dhcpv4"  message:"Received: 192.168.84.23"  metadata:{fields:{key:"index"  value:{number_value:0}}  fields:{key:"uptime"  value:{number_value:5.079e+06}}}  device_id:"<device-uuid>"
 ```
 
-You can check for more commands to search logs on the [goliothctl logs](/docs/reference/goliothctl/goliothctl_logs) reference docs.
+You can check for more commands to search logs on the [goliothctl logs](/reference/command-line-tools/goliothctl/goliothctl_logs) reference docs.
 

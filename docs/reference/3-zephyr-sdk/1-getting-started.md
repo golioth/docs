@@ -86,13 +86,13 @@ for details on how to setup nRF Connect SDK based projects.
 
 # Sample applications
 
--   [Golioth DFU sample](/docs/reference/zephyr/samples/dfu)
--   [Golioth Hello sample](/docs/reference/zephyr/samples/hello)
--   [Golioth Light DB get sample](/docs/reference/zephyr/samples/lightdb/get)
+-   [Golioth DFU sample](/docs/reference/zephyr-sdk/samples/dfu)
+-   [Golioth Hello sample](/docs/reference/zephyr-sdk/samples/hello)
+-   [Golioth Light DB get sample](/docs/reference/zephyr-sdk/samples/lightdb/get)
 -   [Golioth Light DB observe
-    sample](/docs/reference/zephyr/samples/lightdb/observe)
--   [Golioth Light DB set sample](/docs/reference/zephyr/samples/lightdb/set)
--   [Golioth Light DB LED sample](/docs/reference/zephyr/samples/lightdb_led)
--   [Golioth Light DB stream sample](/docs/reference/zephyr/samples/lightdb_stream)
--   [Golioth Logging sample](/docs/reference/zephyr/samples/logging)
--   [Golioth Settings sample](/docs/reference/zephyr/samples/settings)
+    sample](/docs/reference/zephyr-sdk/samples/lightdb/observe)
+-   [Golioth Light DB set sample](/docs/reference/zephyr-sdk/samples/lightdb/set)
+-   [Golioth Light DB LED sample](/docs/reference/zephyr-sdk/samples/lightdb_led)
+-   [Golioth Light DB stream sample](/docs/reference/zephyr-sdk/samples/lightdb_stream)
+-   [Golioth Logging sample](/docs/reference/zephyr-sdk/samples/logging)
+-   [Golioth Settings sample](/docs/reference/zephyr-sdk/samples/settings)

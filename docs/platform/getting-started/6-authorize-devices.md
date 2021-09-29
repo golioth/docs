@@ -1,5 +1,5 @@
 ---
-id: platform-authorize-devices
+id: authorize-devices
 title: Authorizing Devices
 ---
 

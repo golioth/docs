@@ -34,5 +34,5 @@ goliothctl logout [flags]
 
 ### SEE ALSO
 
-* [goliothctl](/docs/reference/goliothctl/goliothctl/)	 - Manage Golioth platform resources and developer workflow.
+* [goliothctl](/reference/command-line-tools/goliothctl)	 - Manage Golioth platform resources and developer workflow.
 

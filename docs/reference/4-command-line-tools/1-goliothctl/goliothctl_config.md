@@ -40,7 +40,7 @@ goliothctl config [flags]
 
 ### SEE ALSO
 
-* [goliothctl](/docs/reference/goliothctl/goliothctl/)	 - Manage Golioth platform resources and developer workflow.
+* [goliothctl](/reference/command-line-tools/goliothctl)	 - Manage Golioth platform resources and developer workflow.
 * [goliothctl config get](/docs/reference/goliothctl/goliothctl_config_get/)	 - Get the value associated with a key in the local goliothctl config.
 * [goliothctl config set](/docs/reference/goliothctl/goliothctl_config_set/)	 - Set the value associated with a key in the local goliothctl config
 

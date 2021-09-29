@@ -73,7 +73,7 @@ module.exports = {
             },
             {
               label: "Over the Air Updates",
-              to: "/platform/ota/sending-updates",
+              to: "/platform/ota",
             },
           ],
         },
@@ -94,11 +94,11 @@ module.exports = {
             },*/
             {
               label: "goliothctl",
-              to: "/reference/command-line-tools/goliothctl/goliothctl",
+              to: "/reference/command-line-tools/goliothctl",
             },
             {
               label: "coap",
-              to: "/reference/command-line-tools/coap/coap",
+              to: "/reference/command-line-tools/coap/",
             },
           ],
         },

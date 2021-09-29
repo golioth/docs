@@ -1,5 +1,5 @@
 ---
-id: platform-create-project
+id: create-project
 title: Create a Project
 ---
 
