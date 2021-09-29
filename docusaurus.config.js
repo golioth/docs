@@ -69,11 +69,11 @@ module.exports = {
           items: [
             {
               label: "Getting Started",
-              to: "/docs/platform/getting-started/platform-overview",
+              to: "/platform/getting-started",
             },
             {
               label: "Over the Air Updates",
-              to: "docs/guides/ota/sending-updates",
+              to: "/platform/ota/sending-updates",
             },
           ],
         },
@@ -82,11 +82,11 @@ module.exports = {
           items: [
             {
               label: "API and SDK Reference",
-              to: "docs/reference",
+              to: "/reference",
             },
             {
               label: "API Docs",
-              to: "docs/reference/api-docs",
+              to: "/reference/api-docs",
             },
             /*{
               label: 'Zephyr SDK',
@@ -94,11 +94,11 @@ module.exports = {
             },*/
             {
               label: "goliothctl",
-              to: "docs/reference/goliothctl/goliothctl",
+              to: "/reference/command-line-tools/goliothctl/goliothctl",
             },
             {
               label: "coap",
-              to: "docs/reference/coap/coap",
+              to: "/reference/command-line-tools/coap/coap",
             },
           ],
         },
