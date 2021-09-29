@@ -4,11 +4,11 @@ module.exports = {
   url: "https://docs.golioth.io",
   themes: ["@docusaurus/theme-live-codeblock"],
   baseUrl: "/",
-  onBrokenLinks: "throw",
+  onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
   organizationName: "golioth", // Usually your GitHub org/user name.
-  // projectName: "docs", // Usually your repo name.
+  projectName: "docs", // Usually your repo name.
   themeConfig: {
     colorMode: {
       defaultMode: "dark",
