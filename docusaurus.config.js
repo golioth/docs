@@ -4,8 +4,8 @@ module.exports = {
   url: "https://docs.golioth.io",
   themes: ["@docusaurus/theme-live-codeblock"],
   baseUrl: "/",
-  onBrokenLinks: "warn",
-  onBrokenMarkdownLinks: "warn",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "throw",
   favicon: "img/favicon.ico",
   organizationName: "golioth", // Usually your GitHub org/user name.
   projectName: "docs", // Usually your repo name.
