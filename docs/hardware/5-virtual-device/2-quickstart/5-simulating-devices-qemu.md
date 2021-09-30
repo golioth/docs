@@ -1,5 +1,5 @@
 ---
-id: virtual-simulating-devices-qemu
+id: simulating-devices-qemu
 title: Simulating devices with QEMU
 ---
 
@@ -52,6 +52,6 @@ and run it:
 west build -t run
 ```
 
-This should have the same effect as running on a piece of hardware, as in the [ESP32](/docs/hardware/esp32/quickstart/overview) or [nRF91](/docs/nrf91/quickstart/overview) quickstart guides
+This should have the same effect as running on a piece of hardware, as in the [ESP32](/hardware/esp32/quickstart) or [nRF91](/hardware/nrf91/quickstart/) quickstart guides
 
 For more on networking, see [the QEMU page on the Zephyr Docs](https://docs.zephyrproject.org/latest/guides/networking/qemu_setup.html)

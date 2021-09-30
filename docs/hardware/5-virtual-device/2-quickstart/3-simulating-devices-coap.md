@@ -1,5 +1,5 @@
 ---
-id: virtual-simulating-devices-coap
+id: simulating-devices-coap
 title: Simulating devices with coap CLI
 ---
 

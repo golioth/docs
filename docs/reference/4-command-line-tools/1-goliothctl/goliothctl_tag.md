@@ -49,7 +49,7 @@ goliothctl tag [flags]
 
 * [goliothctl](/reference/command-line-tools/goliothctl)	 - Manage Golioth platform resources and developer workflow.
 * [goliothctl tag create](/reference/command-line-tools/goliothctl/goliothctl_tag_create)	 - Create a tag.
-* [goliothctl tag delete](/reference/command-line-tools/goliothctl/goliothctl_delete)	 - Delete a tag.
+* [goliothctl tag delete](/reference/command-line-tools/goliothctl/goliothctl_tag_delete)	 - Delete a tag.
 * [goliothctl tag list](/reference/command-line-tools/goliothctl/goliothctl_tag_list)	 - Show all tags.
 * [goliothctl tag update](/reference/command-line-tools/goliothctl/goliothctl_tag_update/)	 - Update the name of an existing tag.
 

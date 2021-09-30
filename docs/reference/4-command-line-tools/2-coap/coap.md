@@ -53,6 +53,6 @@ coap --path /logs -m POST --psk-id deadbeef-id --psk supersecret -q module=wifi 
 
 ### SEE ALSO
 
-- [coap observe](/reference/command-line-tools/coap/_observe/) - CoAP observe a given path
-- [coap ping](/reference/command-line-tools/coap/_ping/) - CoAP ping to test golioth coap gateway
-- [coap version](/reference/command-line-tools/coap/_version/) - Show CLI Version
+- [coap observe](/reference/command-line-tools/coap/coap_observe/) - CoAP observe a given path
+- [coap ping](/reference/command-line-tools/coap/coap_ping/) - CoAP ping to test golioth coap gateway
+- [coap version](/reference/command-line-tools/coap/coap_version/) - Show CLI Version

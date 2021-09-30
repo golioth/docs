@@ -1,7 +1,7 @@
 ---
 id: overview
 title: Overview
-slug: /platform-lightdb-stream
+slug: /platform/lightdb-stream
 hide_title: true
 ---
 
@@ -11,7 +11,7 @@ A LightDB Stream is just that, the concept of LightDB applied to streamed, times
 
 LightDB Stream queries are highly configurable, supporting field subsets, aggregation, and multiple devices at once.
 
-A stream can be accessed through either the [`goliothctl stream`](/reference/command-line-tools/goliothctl/goliothctl_stream) subcommand or the [LightDB Stream REST API](../rest-api/overview).
+A stream can be accessed through either the [`goliothctl stream`](/reference/command-line-tools/goliothctl/goliothctl_stream) subcommand or the [LightDB Stream REST API](/reference/api-docs).
 
 ### Use Cases
 

@@ -1,5 +1,5 @@
 ---
-id: nrf91-flash-sample
+id: flash-sample
 title: Flashing an nRF91 with samples
 ---
 
@@ -51,7 +51,7 @@ CONFIG_GOLIOTH_SYSTEM_CLIENT_PSK="DEVICE_PSK"
 CONFIG_BOOTLOADER_MCUBOOT=y
 ```
 
-Set the PSK & PSK ID to match what was used during the provisioning step. Networking validation is taken care of by your SIM card, which was tested in the [carrier setup section](./nrf91-carrier-setup)
+Set the PSK & PSK ID to match what was used during the provisioning step. Networking validation is taken care of by your SIM card, which was tested in the [carrier setup section](/hardware/nrf91/quickstart/carrier-setup)
 
 After saving, build the sample (for the [CircuitDojo nRF91 Feather](https://www.jaredwolff.com/store/nrf9160-feather/)) with the new settings applied.
 

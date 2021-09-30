@@ -1,6 +1,6 @@
 ---
-id: virtual-view-logs
-title: View virtual device logs
+id: view-logs
+title: View Logs on an nRF91
 ---
 
 ### Viewing logs via Goliothctl

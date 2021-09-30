@@ -1,5 +1,5 @@
 ---
-id: virtual-qemu-install
+id: qemu-install
 title: Installing QEMU
 ---
 

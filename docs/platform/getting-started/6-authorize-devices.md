@@ -3,7 +3,7 @@ id: authorize-devices
 title: Authorizing Devices
 ---
 
-As we saw on the [Manage Devices](./platform-manage-devices) we can create the device, but for it to connect to our platform, we also need to create a credential for it.
+As we saw on the [Manage Devices](/platform/getting-started/manage-devices) we can create the device, but for it to connect to our platform, we also need to create a credential for it.
 
 Currently we only support PreShared Key based authentication, but we are gonna be adding more in the future.
 

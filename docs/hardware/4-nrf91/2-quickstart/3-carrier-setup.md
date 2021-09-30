@@ -1,5 +1,5 @@
 ---
-id: nrf91-carrier-setup
+id: carrier-setup
 title: Getting hooked to your carrier
 ---
 

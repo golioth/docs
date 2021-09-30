@@ -12,9 +12,9 @@ This sample application demonstrates how to connect with Golioth and publish sim
 
 ### Requirements
 
-- Authenticated with Golioth - see [Authentication](../golioth-platform-getting-started/platform-authentication)
-- Have a project - see [Create a Project](../golioth-platform-getting-started/platform-create-project)
-- Have a provisioned device and credential for it - see [Authorizing Devices](../golioth-platform-getting-started/platform-authorize-devices)
+- Authenticated with Golioth - see [Authentication](/platform/getting-started/authentication)
+- Have a project - see [Create a Project](/platform/getting-started/create-project)
+- Have a provisioned device and credential for it - see [Authorizing Devices](/platform/getting-started/authorize-devices)
 - Network connectivity
 
 ### Building and Running

@@ -1,5 +1,5 @@
 ---
-id: nrf91-set-up-zephyr
+id: set-up-zephyr
 title: Set up Zephyr for nRF91
 ---
 

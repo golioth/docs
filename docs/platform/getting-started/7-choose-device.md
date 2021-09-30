@@ -7,4 +7,4 @@ Golioth works on multiple devices using Zephyr. In the future, we will also supp
 
 * [ESP32](/hardware/esp32)
 * [nRF91](/hardware/nrf91)
-* [Virtual device](/hardware/virtual-device)
+* [Virtual device](/hardware/virtual-devices)

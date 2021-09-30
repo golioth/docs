@@ -1,10 +1,11 @@
 ---
-id: virtual-overview
-title: Virtual Device Quickstart Introduction
+id: overview
+title: Virtual Device Quickstart Overview
+slug: /hardware/virtual-device/quickstart
 ---
 
 :::caution
-You must first follow the [Golioth Platform Quickstart](/docs/platform/getting-started/platform-installing) before attempting this guide.
+You must first follow the [Golioth Platform Quickstart](/platform/getting-started) before attempting this guide.
 :::
 
 This quickstart guide shows you how to build and test your system *without any hardware*. Take THAT, atoms! Software, FTW!

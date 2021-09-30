@@ -97,5 +97,5 @@ body size:  27
 ```
 
 :::note
-You can check more ways to use [goliothctl lightdb](/reference/command-line-tools/goliothctl/goliothctl_lightdb) and [coap observe](/reference/command-line-tools/coap/_observe) on their reference docs.
+You can check more ways to use [goliothctl lightdb](/reference/command-line-tools/goliothctl/goliothctl_lightdb) and [coap observe](/reference/command-line-tools/coap/coap_observe) on their reference docs.
 :::
