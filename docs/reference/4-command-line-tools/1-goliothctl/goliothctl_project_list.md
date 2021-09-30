@@ -3,7 +3,7 @@ id: goliothctl_project_list
 title: "goliothctl project list"
 slug: goliothctl_project_list
 sidebar_label: goliothctl project list
-url: /docs/reference/goliothctl/goliothctl_project_list/
+url: /reference/command-line-tools/goliothctl/goliothctl_project_list/
 hide_title: true
 ---
 ## goliothctl project list

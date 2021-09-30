@@ -3,7 +3,7 @@ id: goliothctl_provision
 title: "goliothctl provision"
 slug: goliothctl_provision
 sidebar_label: goliothctl provision
-url: /docs/reference/goliothctl/goliothctl_provision/
+url: /reference/command-line-tools/goliothctl/goliothctl_provision/
 hide_title: true
 ---
 ## goliothctl provision

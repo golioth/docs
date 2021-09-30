@@ -3,7 +3,7 @@ id: goliothctl_tag_update
 title: "goliothctl tag update"
 slug: goliothctl_tag_update
 sidebar_label: goliothctl tag update
-url: /docs/reference/goliothctl/goliothctl_tag_update/
+url: /reference/command-line-tools/goliothctl/goliothctl_tag_update/
 hide_title: true
 ---
 ## goliothctl tag update

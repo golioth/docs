@@ -3,7 +3,7 @@ id: goliothctl_project_create
 title: "goliothctl project create"
 slug: goliothctl_project_create
 sidebar_label: goliothctl project create
-url: /docs/reference/goliothctl/goliothctl_project_create/
+url: /reference/command-line-tools/goliothctl/goliothctl_project_create/
 hide_title: true
 ---
 ## goliothctl project create

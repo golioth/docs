@@ -3,7 +3,7 @@ id: goliothctl_lightdb_set
 title: "goliothctl lightdb set"
 slug: goliothctl_lightdb_set
 sidebar_label: goliothctl lightdb set
-url: /docs/reference/goliothctl/goliothctl_lightdb_set/
+url: /reference/command-line-tools/goliothctl/goliothctl_lightdb_set/
 hide_title: true
 ---
 ## goliothctl lightdb set
@@ -37,5 +37,5 @@ goliothctl lightdb set [device name] <path> [flags]
 
 ### SEE ALSO
 
-* [goliothctl lightdb](/docs/reference/goliothctl/goliothctl_lightdb/)	 - Access data on Light DB
+* [goliothctl lightdb](/reference/command-line-tools/goliothctl/goliothctl_lightdb/)	 - Access data on Light DB
 

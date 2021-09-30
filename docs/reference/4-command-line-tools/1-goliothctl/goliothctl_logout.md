@@ -3,7 +3,7 @@ id: goliothctl_logout
 title: "goliothctl logout"
 slug: goliothctl_logout
 sidebar_label: goliothctl logout
-url: /docs/reference/goliothctl/goliothctl_logout/
+url: /reference/command-line-tools/goliothctl/goliothctl_logout/
 hide_title: true
 ---
 ## goliothctl logout

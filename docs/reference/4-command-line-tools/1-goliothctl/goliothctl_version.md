@@ -3,7 +3,7 @@ id: goliothctl_version
 title: "goliothctl version"
 slug: goliothctl_version
 sidebar_label: goliothctl version
-url: /docs/reference/goliothctl/goliothctl_version/
+url: /reference/command-line-tools/goliothctl/goliothctl_version/
 hide_title: true
 ---
 ## goliothctl version

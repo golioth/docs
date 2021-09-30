@@ -3,7 +3,7 @@ id: goliothctl_project_update
 title: "goliothctl project update"
 slug: goliothctl_project_update
 sidebar_label: goliothctl project update
-url: /docs/reference/goliothctl/goliothctl_project_update/
+url: /reference/command-line-tools/goliothctl/goliothctl_project_update/
 hide_title: true
 ---
 ## goliothctl project update

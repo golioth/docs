@@ -3,7 +3,7 @@ id: goliothctl_lightdb_delete
 title: "goliothctl lightdb delete"
 slug: goliothctl_lightdb_delete
 sidebar_label: goliothctl lightdb delete
-url: /docs/reference/goliothctl/goliothctl_lightdb_delete/
+url: /reference/command-line-tools/goliothctl/goliothctl_lightdb_delete/
 hide_title: true
 ---
 ## goliothctl lightdb delete
@@ -33,5 +33,5 @@ goliothctl lightdb delete [device name] <path> [flags]
 
 ### SEE ALSO
 
-* [goliothctl lightdb](/docs/reference/goliothctl/goliothctl_lightdb/)	 - Access data on Light DB
+* [goliothctl lightdb](/reference/command-line-tools/goliothctl/goliothctl_lightdb/)	 - Access data on Light DB
 

@@ -3,7 +3,7 @@ id: goliothctl_lightdb
 title: "goliothctl lightdb"
 slug: goliothctl_lightdb
 sidebar_label: goliothctl lightdb
-url: /docs/reference/goliothctl/goliothctl_lightdb/
+url: /reference/command-line-tools/goliothctl/goliothctl_lightdb/
 hide_title: true
 ---
 ## goliothctl lightdb
@@ -69,7 +69,7 @@ $ goliothctl lightdb set --tag [tag name] /test -b "{\"state\":1}" --format json
 ### SEE ALSO
 
 * [goliothctl](/reference/command-line-tools/goliothctl)	 - Manage Golioth platform resources and developer workflow.
-* [goliothctl lightdb delete](/docs/reference/goliothctl/goliothctl_lightdb_delete/)	 - Delete data at given path
-* [goliothctl lightdb get](/docs/reference/goliothctl/goliothctl_lightdb_get/)	 - Get data at given path
-* [goliothctl lightdb set](/docs/reference/goliothctl/goliothctl_lightdb_set/)	 - Set data at given path
+* [goliothctl lightdb delete](/reference/command-line-tools/goliothctl/goliothctl_lightdb_delete/)	 - Delete data at given path
+* [goliothctl lightdb get](/reference/command-line-tools/goliothctl/goliothctl_lightdb_get/)	 - Get data at given path
+* [goliothctl lightdb set](/reference/command-line-tools/goliothctl/goliothctl_lightdb_set/)	 - Set data at given path
 

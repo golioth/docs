@@ -26,4 +26,4 @@ $ goliothctl device list
 id:"<uuid>" name:"My first device" hardwareIds: "DE:AD:BE:EF"
 ```
 
-Now for the device to connect to our platform, we need to setup some credentials for it and we are gonna see that in the next step. You can check for more commands to manage device [here](/docs/reference/goliothctl/goliothctl_device).
+Now for the device to connect to our platform, we need to setup some credentials for it and we are gonna see that in the next step. You can check for more commands to manage device [here](/reference/command-line-tools/goliothctl/goliothctl_device).

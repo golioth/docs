@@ -3,7 +3,7 @@ id: goliothctl_blueprint_update
 title: "goliothctl blueprint update"
 slug: goliothctl_blueprint_update
 sidebar_label: goliothctl blueprint update
-url: /docs/reference/goliothctl/goliothctl_blueprint_update/
+url: /reference/command-line-tools/goliothctl/goliothctl_blueprint_update/
 hide_title: true
 ---
 ## goliothctl blueprint update

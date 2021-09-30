@@ -3,7 +3,7 @@ id: goliothctl_stream_get
 title: "goliothctl stream get"
 slug: goliothctl_stream_get
 sidebar_label: goliothctl stream get
-url: /docs/reference/goliothctl/goliothctl_stream_get/
+url: /reference/command-line-tools/goliothctl/goliothctl_stream_get/
 hide_title: true
 ---
 ## goliothctl stream get

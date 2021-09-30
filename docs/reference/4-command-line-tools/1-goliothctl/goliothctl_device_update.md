@@ -3,7 +3,7 @@ id: goliothctl_device_update
 title: "goliothctl device update"
 slug: goliothctl_device_update
 sidebar_label: goliothctl device update
-url: /docs/reference/goliothctl/goliothctl_device_update/
+url: /reference/command-line-tools/goliothctl/goliothctl_device_update/
 hide_title: true
 ---
 ## goliothctl device update

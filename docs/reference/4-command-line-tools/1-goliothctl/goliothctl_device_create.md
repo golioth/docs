@@ -3,7 +3,7 @@ id: goliothctl_device_create
 title: "goliothctl device create"
 slug: goliothctl_device_create
 sidebar_label: goliothctl device create
-url: /docs/reference/goliothctl/goliothctl_device_create/
+url: /reference/command-line-tools/goliothctl/goliothctl_device_create/
 hide_title: true
 ---
 ## goliothctl device create

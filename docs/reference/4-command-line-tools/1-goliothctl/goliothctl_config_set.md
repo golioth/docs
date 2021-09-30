@@ -3,7 +3,7 @@ id: goliothctl_config_set
 title: "goliothctl config set"
 slug: goliothctl_config_set
 sidebar_label: goliothctl config set
-url: /docs/reference/goliothctl/goliothctl_config_set/
+url: /reference/command-line-tools/goliothctl/goliothctl_config_set/
 hide_title: true
 ---
 ## goliothctl config set
@@ -37,5 +37,5 @@ goliothctl config set <key> <value> [flags]
 
 ### SEE ALSO
 
-* [goliothctl config](/docs/reference/goliothctl/goliothctl_config/)	 - The `goliothctl config` subcommands are used to get and set values in the current local goliothctl config.
+* [goliothctl config](/reference/command-line-tools/goliothctl/goliothctl_config/)	 - The `goliothctl config` subcommands are used to get and set values in the current local goliothctl config.
 

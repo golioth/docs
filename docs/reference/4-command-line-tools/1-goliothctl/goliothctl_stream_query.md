@@ -3,7 +3,7 @@ id: goliothctl_stream_query
 title: "goliothctl stream query"
 slug: goliothctl_stream_query
 sidebar_label: goliothctl stream query
-url: /docs/reference/goliothctl/goliothctl_stream_query/
+url: /reference/command-line-tools/goliothctl/goliothctl_stream_query/
 hide_title: true
 ---
 ## goliothctl stream query

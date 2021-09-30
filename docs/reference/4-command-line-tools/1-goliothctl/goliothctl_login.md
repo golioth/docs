@@ -3,7 +3,7 @@ id: goliothctl_login
 title: "goliothctl login"
 slug: goliothctl_login
 sidebar_label: goliothctl login
-url: /docs/reference/goliothctl/goliothctl_login/
+url: /reference/command-line-tools/goliothctl/goliothctl_login/
 hide_title: true
 ---
 ## goliothctl login

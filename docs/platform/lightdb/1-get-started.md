@@ -12,7 +12,7 @@ Light DB falls into the Data Resource category, providing an easy way for IoT de
 Also, an external party authenticated within our system can interact with it. Either by using `goliothctl lightdb` commands or in the future we gonna allow the creation of machine-to-machine API Key. External parties for example can query data to show on a UI and also change data so the device can react to those changes.
 
 :::note
-See more on [goliothctl lightdb](/docs/reference/goliothctl/goliothctl_lightdb) reference docs.
+See more on [goliothctl lightdb](/reference/command-line-tools/goliothctl/goliothctl_lightdb) reference docs.
 :::
 
 ### Use Cases

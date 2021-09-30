@@ -48,8 +48,8 @@ goliothctl blueprint [flags]
 ### SEE ALSO
 
 * [goliothctl](/reference/command-line-tools/goliothctl)	 - Manage Golioth platform resources and developer workflow.
-* [goliothctl blueprint create](/docs/reference/goliothctl/goliothctl_blueprint_create/)	 - Create a blueprint.
-* [goliothctl blueprint delete](/docs/reference/goliothctl/goliothctl_blueprint_delete/)	 - Delete a blueprint.
-* [goliothctl blueprint list](/docs/reference/goliothctl/goliothctl_blueprint_list/)	 - Show all blueprints.
-* [goliothctl blueprint update](/docs/reference/goliothctl/goliothctl_blueprint_update/)	 - Update the name of an existing blueprint.
+* [goliothctl blueprint create](/reference/command-line-tools/goliothctl/goliothctl_blueprint_create/)	 - Create a blueprint.
+* [goliothctl blueprint delete](/reference/command-line-tools/goliothctl/goliothctl_blueprint_delete/)	 - Delete a blueprint.
+* [goliothctl blueprint list](/reference/command-line-tools/goliothctl/goliothctl_blueprint_list/)	 - Show all blueprints.
+* [goliothctl blueprint update](/reference/command-line-tools/goliothctl/goliothctl_blueprint_update/)	 - Update the name of an existing blueprint.
 

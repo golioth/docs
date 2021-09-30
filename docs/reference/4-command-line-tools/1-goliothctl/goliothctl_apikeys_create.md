@@ -3,7 +3,7 @@ id: goliothctl_apikeys_create
 title: "goliothctl apikeys create"
 slug: goliothctl_apikeys_create
 sidebar_label: goliothctl apikeys create
-url: /docs/reference/goliothctl/goliothctl_apikeys_create/
+url: /reference/command-line-tools/goliothctl/goliothctl_apikeys_create/
 hide_title: true
 ---
 ## goliothctl apikeys create
@@ -42,5 +42,5 @@ id:"5df88b8e-e208-41d4-b7e2-29192ab5de83"  key:"dLEtQLItz9eSHZYwuZGE5UlcgL2GOmHW
 
 ### SEE ALSO
 
-* [goliothctl apikeys](/docs/reference/goliothctl/goliothctl_apikeys/)	 - Access API Keys information.
+* [goliothctl apikeys](/reference/command-line-tools/goliothctl/goliothctl_apikeys/)	 - Access API Keys information.
 

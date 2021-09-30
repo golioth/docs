@@ -3,7 +3,7 @@ id: goliothctl_blueprint_create
 title: "goliothctl blueprint create"
 slug: goliothctl_blueprint_create
 sidebar_label: goliothctl blueprint create
-url: /docs/reference/goliothctl/goliothctl_blueprint_create/
+url: /reference/command-line-tools/goliothctl/goliothctl_blueprint_create/
 hide_title: true
 ---
 ## goliothctl blueprint create

@@ -38,5 +38,5 @@ goliothctl updates [flags]
 ### SEE ALSO
 
 * [goliothctl](/reference/command-line-tools/goliothctl)	 - Manage Golioth platform resources and developer workflow.
-* [goliothctl updates send](/docs/reference/goliothctl/goliothctl_updates_send/)	 - Update a single device's firmware.
+* [goliothctl updates send](/reference/command-line-tools/goliothctl/goliothctl_updates_send/)	 - Update a single device's firmware.
 

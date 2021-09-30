@@ -31,4 +31,4 @@ Now that you created the project, you need to set it as the default on the CLI:
 goliothctl config set projectId my-first-project
 ```
 
-Now you're all set and can start creating devices. You can check for more commands to manage projects [here](/docs/reference/goliothctl/goliothctl_project).
+Now you're all set and can start creating devices. You can check for more commands to manage projects [here](/reference/command-line-tools/goliothctl/goliothctl_project).

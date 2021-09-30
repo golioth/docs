@@ -3,7 +3,7 @@ id: goliothctl_apikeys_delete
 title: "goliothctl apikeys delete"
 slug: goliothctl_apikeys_delete
 sidebar_label: goliothctl apikeys delete
-url: /docs/reference/goliothctl/goliothctl_apikeys_delete/
+url: /reference/command-line-tools/goliothctl/goliothctl_apikeys_delete/
 hide_title: true
 ---
 ## goliothctl apikeys delete
@@ -38,5 +38,5 @@ API key deleted
 
 ### SEE ALSO
 
-* [goliothctl apikeys](/docs/reference/goliothctl/goliothctl_apikeys/)	 - Access API Keys information.
+* [goliothctl apikeys](/reference/command-line-tools/goliothctl/goliothctl_apikeys/)	 - Access API Keys information.
 

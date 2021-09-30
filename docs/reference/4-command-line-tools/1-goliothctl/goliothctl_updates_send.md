@@ -3,7 +3,7 @@ id: goliothctl_updates_send
 title: "goliothctl updates send"
 slug: goliothctl_updates_send
 sidebar_label: goliothctl updates send
-url: /docs/reference/goliothctl/goliothctl_updates_send/
+url: /reference/command-line-tools/goliothctl/goliothctl_updates_send/
 hide_title: true
 ---
 ## goliothctl updates send

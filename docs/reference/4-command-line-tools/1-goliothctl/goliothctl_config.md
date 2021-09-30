@@ -3,7 +3,7 @@ id: goliothctl_config
 title: "goliothctl config"
 slug: goliothctl_config
 sidebar_label: goliothctl config
-url: /docs/reference/goliothctl/goliothctl_config/
+url: /reference/command-line-tools/goliothctl/goliothctl_config/
 hide_title: true
 ---
 ## goliothctl config
@@ -41,6 +41,6 @@ goliothctl config [flags]
 ### SEE ALSO
 
 * [goliothctl](/reference/command-line-tools/goliothctl)	 - Manage Golioth platform resources and developer workflow.
-* [goliothctl config get](/docs/reference/goliothctl/goliothctl_config_get/)	 - Get the value associated with a key in the local goliothctl config.
-* [goliothctl config set](/docs/reference/goliothctl/goliothctl_config_set/)	 - Set the value associated with a key in the local goliothctl config
+* [goliothctl config get](/reference/command-line-tools/goliothctl/goliothctl_config_get/)	 - Get the value associated with a key in the local goliothctl config.
+* [goliothctl config set](/reference/command-line-tools/goliothctl/goliothctl_config_set/)	 - Set the value associated with a key in the local goliothctl config
 

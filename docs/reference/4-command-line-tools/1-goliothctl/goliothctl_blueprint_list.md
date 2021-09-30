@@ -3,7 +3,7 @@ id: goliothctl_blueprint_list
 title: "goliothctl blueprint list"
 slug: goliothctl_blueprint_list
 sidebar_label: goliothctl blueprint list
-url: /docs/reference/goliothctl/goliothctl_blueprint_list/
+url: /reference/command-line-tools/goliothctl/goliothctl_blueprint_list/
 hide_title: true
 ---
 ## goliothctl blueprint list

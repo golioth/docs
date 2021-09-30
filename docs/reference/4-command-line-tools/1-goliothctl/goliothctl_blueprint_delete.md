@@ -3,7 +3,7 @@ id: goliothctl_blueprint_delete
 title: "goliothctl blueprint delete"
 slug: goliothctl_blueprint_delete
 sidebar_label: goliothctl blueprint delete
-url: /docs/reference/goliothctl/goliothctl_blueprint_delete/
+url: /reference/command-line-tools/goliothctl/goliothctl_blueprint_delete/
 hide_title: true
 ---
 ## goliothctl blueprint delete

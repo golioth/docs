@@ -3,7 +3,7 @@ id: goliothctl_device_delete
 title: "goliothctl device delete"
 slug: goliothctl_device_delete
 sidebar_label: goliothctl device delete
-url: /docs/reference/goliothctl/goliothctl_device_delete/
+url: /reference/command-line-tools/goliothctl/goliothctl_device_delete/
 hide_title: true
 ---
 ## goliothctl device delete

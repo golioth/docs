@@ -61,6 +61,6 @@ goliothctl stream [flags]
 ### SEE ALSO
 
 * [goliothctl](/reference/command-line-tools/goliothctl)	 - Manage Golioth platform resources and developer workflow.
-* [goliothctl stream get](/docs/reference/goliothctl/goliothctl_stream_get/)	 - Get latest stream data at given path.
-* [goliothctl stream query](/docs/reference/goliothctl/goliothctl_stream_query/)	 - Run a query against all data stored in a LightDB stream in the supplied path.
+* [goliothctl stream get](/reference/command-line-tools/goliothctl/goliothctl_stream_get/)	 - Get latest stream data at given path.
+* [goliothctl stream query](/reference/command-line-tools/goliothctl/goliothctl_stream_query/)	 - Run a query against all data stored in a LightDB stream in the supplied path.
 
