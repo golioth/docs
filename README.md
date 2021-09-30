@@ -19,7 +19,7 @@ This command starts a local development server and open up a browser window. Mos
 ## Build
 
 ```console
-npm run build
+npm run build:dev (or :prod)
 ```
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
