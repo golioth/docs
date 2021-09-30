@@ -1,8 +1,12 @@
 ---
 id: cli
-title: CLI
+title: Command Line Interface (CLI)
 ---
 
-## What 
+## Overview 
 
-This is the CLI page
+All Golioth functions can happen over the Command Line Interface (or CLI). We believe this allows our users to script, tests, and--most importantly-- *scale* their applications. 
+
+## Terminology
+
+## Learn More
