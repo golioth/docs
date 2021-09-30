@@ -1,9 +1,9 @@
 ---
 id: overview
 title: Overview
-slug: /hardware/esp32
+slug: /hardware/nrf91
 ---
 
 ## What 
 
-This is the ESP32 page
+This is the nRF91 page
