@@ -9,10 +9,17 @@ If not, continue on to the [Quickstart guide](/platform/getting-started).
 
 ### 1... 2... 3... GO!
 
+<<<<<<< HEAD:docs/firmware/6-speedrun.md
 - [Install Goliothctl](/platform/getting-started/installing) — you'll use it to interact with Golioth.
 - Log In/Sign Up by running [`goliothctl login`](/platform/getting-started/authentication).
 - Create a project to hold your device with [`golioth project create`](/platform/getting-started/create-project).
 - Provision your embedded device with [`golioth provision`](/platform/getting-started/manage-devices).
+=======
+- Install Goliothctl from [Pre-built Binaries](/docs/guides/golioth-platform-getting-started/platform-install/platform-binaries) or [OS Packages](/docs/guides/golioth-platform-getting-started/platform-install/platform-packages) — you'll use it to interact with Golioth.
+- Log In/Sign Up by running [`goliothctl login`](golioth-platform-getting-started/platform-authentication).
+- Create a project to hold your device with [`golioth project create`](golioth-platform-getting-started/platform-create-project).
+- Provision your embedded device with [`golioth provision`](golioth-platform-getting-started/platform-manage-devices).
+>>>>>>> main:docs/guides/speedrun.md
 - Create a west workspace that contains the golioth module:
     - `west init -m git@github.com:golioth/zephyr.git --mr main zephyrproject/`
     - `cd zephyrproject/`

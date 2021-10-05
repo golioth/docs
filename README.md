@@ -1,6 +1,11 @@
 # Golioth Docs
 
-This website is built using [Docusaurus 2](https://v2.docusaurus.io/).
+The Golioth documentation website is built using [Docusaurus 2](https://v2.docusaurus.io/).
+
+
+Click the Gitpod badge to open a contributor workspace instance
+
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-908a85?logo=gitpod)](https://gitpod.io/from-referrer/)
 
 ## Installation
 
@@ -19,7 +24,7 @@ This command starts a local development server and open up a browser window. Mos
 ## Build
 
 ```console
-npm run build
+npm run build:dev (or :prod)
 ```
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.

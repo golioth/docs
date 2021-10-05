@@ -24,6 +24,8 @@
   --ifm-footer-title-color: #0d0f19;
   --ifm-footer-link-color: #0d0f19;
   --ifm-font-family-base: "MaisonNeue";
+  --ifm-menu-link-sublist-icon-filter: invert(100%) sepia(94%) saturate(17%)
+    hue-rotate(223deg) brightness(104%) contrast(98%);
 }
 
 @font-face {
@@ -60,6 +62,7 @@
 .menu {
   color: #fff;
   background-color: #0d0f19;
+  margin-bottom: 0 !important;
 }
 
 .navbar {

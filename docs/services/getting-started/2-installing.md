@@ -9,7 +9,7 @@ title: Installing Goliothctl
 
 We recommend working with the binaries to start with, as this will be the most up to date, and lowest complexity way to get started quickly. 
 
-import InstallTools from '../../partials/install-tools.mdx'
+import InstallTools from '/docs/partials/install-tools.mdx'
 
 <InstallTools/>
 
@@ -18,14 +18,77 @@ import InstallTools from '../../partials/install-tools.mdx'
 Unpack the CLIs using the links above to a known location. You will then either need to specifically call out the location of the binary, or add it to a location findable from the command line. Running the binary from linux may require it to be added to the PATH variable or to be run as a script: `./goliothctl`
 
 
-### Package Managers
-
-We have plans to support package managers for the various operating systems so you can download, install, and maintain your `goliothctl` install with the latest version. For now, we have some test builds allowing users to install directly from the command line.
 
 
-import ComingSoon from '../../partials/coming-soon.md'
+<!-- #### APT (debian and ubuntu based distros)
 
-<ComingSoon/>
+Fisrt you need create an reference to our `.deb` repository in your linux. For that open your terminal and tap:
+```
+echo "deb [trusted=yes] https://repos.golioth.io/apt/ /" | sudo tee /etc/apt/sources.list.d/golioth.list
+```
+
+Your password migth be requested.
+
+Next, you need update your list of packages locally
+```
+sudo apt update
+```
+
+Lastly, install the desired CLI. For `goliothctl`
+```
+sudo apt install goliothctl
+```
+For `coap-cli`
+```
+sudo apt install coap
+```
+
+To check if the CLI has been installed, run
+```
+goliothctl version
+```
+
+```
+coap version
+```
+
+It must show the respective CLI version.
+
+#### YUM/DNF (CentOS, Fedora, Red Hat, openSUSE, etc)
+
+Fisrt of all, our `.rpm` package is compatible with both YUM and DNF pakcage managers. Chosse one and follow the steps.
+
+You need create an reference to our `.rpm` repository in your linux. For that open your terminal and tap:
+```
+echo -en "[fury]
+name=Golioth Linux Repo
+baseurl=https://repos.golioth.io/yum/
+enabled=1
+gpgcheck=0\n" | sudo tee /etc/yum.repos.d/golioth.repo
+```
+
+Your password migth be requested.
+
+Next, you just need install the desired CLI. For `goliothctl`
+```
+sudo dnf install goliothctl
+```
+For `coap-cli`
+```
+sudo dnf install coap
+```
+
+To check if the CLI has been installed, run
+```
+goliothctl version
+```
+
+```
+coap version
+```
+
+It must show the respective CLI version.
+
 
 #### macOS (Homebrew)
 
@@ -63,4 +126,4 @@ Verify that `goliothctl` is installed correctly by checking the version
 ```
 $ goliothctl version
 1.0.0
-```
+``` -->
