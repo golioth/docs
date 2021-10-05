@@ -8,3 +8,9 @@ slug: /firmware
 ## Firmware
 
 The Golioth firmware version is dependent upon the Device SDK you are using. Our first SDK is built on top of Zephyr
+
+## Coming Soon
+
+import ComingSoon from '/docs/partials/coming-soon.md'
+
+<ComingSoon/>

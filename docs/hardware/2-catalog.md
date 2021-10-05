@@ -5,6 +5,8 @@ hide_title: true
 slug: /hardware/catalog
 ---
 
-## Overview
+## Coming Soon
 
-A graphical view of Golioth hardware
+import ComingSoon from '/docs/partials/coming-soon.md'
+
+<ComingSoon/>
