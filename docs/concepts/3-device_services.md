@@ -5,7 +5,7 @@ title: Device Services
 
 ## Overview
 
-This is the Device Services page. The details around individual device services Goioth offers are in the [Platform](/platform/) section of the docs.
+This is the Device Services page. The details around individual device services Goioth offers are in the [Platform](/services/) section of the docs.
 
 ## Terminology
 

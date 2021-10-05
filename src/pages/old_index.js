@@ -71,7 +71,7 @@ function Home() {
                 "button button--outline button--secondary button--lg",
                 styles.getStarted
               )}
-              to={useBaseUrl("/platform/getting-started")}
+              to={useBaseUrl("/services/getting-started")}
             >
               Try Our Quickstart Guide
             </Link>

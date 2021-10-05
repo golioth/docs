@@ -1,9 +1,9 @@
 ---
 id: overview
 title: Overview
-slug: /hardware/device-sdk
+slug: /firmware/device-sdk
 ---
 
-- [Install Device SDK](/hardware/device-sdk/install-device-sdk)
-- [Install Device Toolchain](/hardware/device-sdk/install-device-toolchain)
-- [Run Samples](/hardware/device-sdk/run-sample)
+- [Install Device SDK](/firmware/device-sdk/install-device-sdk)
+- [Install Device Toolchain](/firmware/device-sdk/install-device-toolchain)
+- [Run Samples](/firmware/device-sdk/run-sample)

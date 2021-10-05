@@ -23,7 +23,8 @@ use the hardware and software you're comfortable with and add Golioth to easily 
 Over time, Golioth will support many RTOSes but to start with, we picked [the Zephyr Project™](https://www.zephyrproject.org), an open-source, safe, secure, and flexible RTOS under the Linux Foundation.
 
 
-To get started, either go to the [Quickstart Guide](/platform/getting-started/) if you're completely new to Zephyr or skip to the [Speedrun](/firmware/speedrun) if you already have some experience with the RTOS and toolchain.
+To get started, check out the [Quickstart Guide](/services/getting-started/). That will get you set up with a Golioth account and help you to provision your first devices. Then you can choose which platform to try out using our [supported hardware](/hardware).
+
 
 ### What's the idea behind Golioth?
 

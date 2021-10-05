@@ -1,15 +1,15 @@
 ---
 id: sending-updates
 title: Sending Updates
-slug: /platform/ota
+slug: /services/ota
 ---
 
 #### Prerequisites
 
 - `goliothctl` CLI installed
-- Authenticated with Golioth - see [Authentication](/platform/getting-started/authentication)
-- Have a project - see [Create a Project](/platform/getting-started/create-project)
-- Have a provisioned device and credential for it - see [Authorizing Devices](/platform/getting-started/authorize-devices)
+- Authenticated with Golioth - see [Authentication](/services/getting-started/authentication)
+- Have a project - see [Create a Project](/services/getting-started/create-project)
+- Have a provisioned device and credential for it - see [Authorizing Devices](/services/getting-started/authorize-devices)
 
 Right now we have a really basic feature for doing Over the Air updates (OTA) on a device, where you can send a file directly to the device. A more complete feature is gonna be build in the near future, so stay tuned.
 

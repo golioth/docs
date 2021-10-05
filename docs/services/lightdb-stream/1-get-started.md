@@ -1,7 +1,7 @@
 ---
 id: overview
 title: Overview
-slug: /platform/lightdb-stream
+slug: /services/lightdb-stream
 hide_title: true
 ---
 

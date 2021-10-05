@@ -69,11 +69,11 @@ module.exports = {
           items: [
             {
               label: "Getting Started",
-              to: "/platform/getting-started",
+              to: "/services/getting-started",
             },
             {
               label: "Over the Air Updates",
-              to: "/platform/ota",
+              to: "/services/ota",
             },
           ],
         },
