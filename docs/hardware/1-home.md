@@ -1,6 +1,6 @@
 ---
 id: overview
-title: Golioth Hardware Overview
+title: Hardware
 hide_title: true
 slug: /hardware
 ---
