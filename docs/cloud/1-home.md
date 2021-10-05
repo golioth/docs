@@ -1,8 +1,8 @@
 ---
 id: overview
-title: Golioth Platform Overview
+title: Cloud
 hide_title: true
-slug: /platform
+slug: /cloud
 ---
 
 ## Golioth Platform

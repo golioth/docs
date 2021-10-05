@@ -27,9 +27,9 @@ module.exports = {
           position: "left",
         },
         {
-          to: "platform",
-          activeBasePath: "platform",
-          label: "Platform",
+          to: "services",
+          activeBasePath: "services",
+          label: "Services",
           position: "left",
         },
         {
@@ -42,6 +42,12 @@ module.exports = {
           to: "firmware",
           activeBasePath: "firmware",
           label: "Firmware",
+          position: "left",
+        },
+        {
+          to: "cloud",
+          activeBasePath: "cloud",
+          label: "Cloud",
           position: "left",
         },
         {
