@@ -21,12 +21,6 @@ module.exports = {
       },
       items: [
         {
-          to: "concepts",
-          activeBasePath: "concepts",
-          label: "Concepts",
-          position: "left",
-        },
-        {
           to: "services",
           activeBasePath: "services",
           label: "Services",
