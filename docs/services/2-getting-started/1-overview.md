@@ -6,7 +6,13 @@ slug: /services/getting-started
 
 This is the general installation instructions to get started with the Golioth command line tools and to provision your first devices. You will want to do this before you do any of the other guides on this page.
 
-### Goals
+## Console 
+
+Many of the functions described below are possible to also do on the [Golioth Console](https://console.golioth.io). After signup/login, you will be prompted with a quickstart guide to create and provision your first example device.
+
+![Console](./assets/console.png)
+
+## Command Line Goals
 
 After going through this getting started guide, you will be set up to run on the Golioth platform, including:
 

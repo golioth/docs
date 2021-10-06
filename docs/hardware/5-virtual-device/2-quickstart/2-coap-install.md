@@ -9,4 +9,4 @@ import InstallTools from '/docs/partials/install-tools.mdx'
 
 <InstallTools/>
 
-See [Installing Goliothctl](/services/getting-started/installing) for more detailed instruction of using the CLI.
+See [Installing Goliothctl](/services/getting-started/installing/binaries) for more detailed instruction of using the CLI.

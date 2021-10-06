@@ -1,6 +1,6 @@
 ---
-id: installing
-title: Installing Goliothctl
+id: binaries
+title: Pre-built Binaries
 ---
 
 `goliothctl` is a command-line interface (CLI) utility that lets you work with Golioth, from creating your account to registering devices to interacting with _device services_ (more on those later.) It runs on your local machine so you'll want to install the version that's appropriate for your operating system:
