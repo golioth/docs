@@ -5,6 +5,6 @@ hide_title: true
 slug: /cloud
 ---
 
-## Golioth Platform
+## What is the Golioth Cloud?
 
-Learn all about Golioth
+This section includes how to interface with data that has been sent to the Golioth platform from devices. You can access the information over our simple REST APIs or via Command Line Tools.
