@@ -3,7 +3,7 @@ id: sending-data
 title: Sending Data
 ---
 
-Devices interact with Light DB Stream using the gateways available on the platform. For now, only CoAP is available.
+Devices interact with LightDB Stream using the gateways available on the platform. For now, only CoAP is available.
 
 | Method | Description     | Path            |
 | ------ | --------------- | --------------- |
@@ -16,7 +16,7 @@ Devices interact with Light DB Stream using the gateways available on the platfo
 >
 > /.s/location
 
-To demonstrate the operations here, let's imagine that we are tracking an asset using an IoT device. The location data from our device is going to periodically pushed to a Light DB Stream.
+To demonstrate the operations here, let's imagine that we are tracking an asset using an IoT device. The location data from our device is going to periodically pushed to a LightDB Stream.
 
 ### Parameters and attributes that are known:
 
@@ -64,7 +64,7 @@ If you now dump the data in that stream with `goliothctl stream [device name] ge
 
 ### Reading latest stream data with GET
 
-A device can also get the latest information streamed to Light DB Stream. Maybe on a scenario that the device went offline and want to check what was the latest information sent to check if it should post more data. The returned value of the CoAP API depends on what is stored on Light DB Stream, which can be any JSON like data type. The value is gonna be encoded depending on the `Accept` header that is set on the request.
+A device can also get the latest information streamed to LightDB Stream. Maybe on a scenario that the device went offline and want to check what was the latest information sent to check if it should post more data. The returned value of the CoAP API depends on what is stored on LightDB Stream, which can be any JSON like data type. The value is gonna be encoded depending on the `Accept` header that is set on the request.
 
 Taking our asset tracking example, to read the last device position data, we can issue a GET request like this:
 

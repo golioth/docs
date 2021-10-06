@@ -9,7 +9,7 @@ You can manage API Keys using the Web Console or through the CLI. Here we are go
 
 #### Creating an API Key
 
-By default, any API Key created is bounded and limited to the given project, so you don't need to worry on your API Key having access to other projects. We are also working on more ways to restrict or give more permissions to API Keys, but for now keys have permissions for doing the most common actions on the platform like accessing Light DB, Light DB Stream, listing devices and more.
+By default, any API Key created is bounded and limited to the given project, so you don't need to worry on your API Key having access to other projects. We are also working on more ways to restrict or give more permissions to API Keys, but for now keys have permissions for doing the most common actions on the platform like accessing LightDB, LightDB Stream, listing devices and more.
 
 To create a simple API Key, you can run the following command:
 

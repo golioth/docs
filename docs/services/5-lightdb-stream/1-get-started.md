@@ -5,7 +5,7 @@ slug: /services/lightdb-stream
 hide_title: true
 ---
 
-## What is Light DB Stream?
+## What is LightDB Stream?
 
 A LightDB Stream is just that, the concept of LightDB applied to streamed, timeseries data. Instead of a single value, with the most recent data taking precedence, LightDB Streams are append-only and store all data that's ever been submitted, in order of timestamp.
 
@@ -15,7 +15,7 @@ A stream can be accessed through either the [`goliothctl stream`](/reference/com
 
 ### Use Cases
 
-Here are some ideas on what can be created using Light DB Stream.
+Here are some ideas on what can be created using LightDB Stream.
 
 - Collecting environmental data from your devices over time.
   - Query data using the REST API and plot temperature and humidity data.
@@ -24,5 +24,5 @@ Here are some ideas on what can be created using Light DB Stream.
   - Query data using the REST API to show positions on a map.
 
 :::note
-For bidirectional communication and real time state, we recommend using Light DB.
+For bidirectional communication and real time state, we recommend using LightDB.
 :::

@@ -3,7 +3,7 @@ id: read-write-data
 title: Read and Write Data
 ---
 
-Devices interact with Light DB using the gateways available on the platform. For now, only CoAP is available.
+Devices interact with LightDB using the gateways available on the platform. For now, only CoAP is available.
 
 | Method   | Description         | Path            |
 | -------- | ------------------- | --------------- |
@@ -19,11 +19,11 @@ Devices interact with Light DB using the gateways available on the platform. For
 
 # Example
 
-Let's imagine that we are monitoring environment data using an IoT device. All of the data for our device is going to be saved on Light DB.
+Let's imagine that we are monitoring environment data using an IoT device. All of the data for our device is going to be saved on LightDB.
 
 ### Writing/Updating data with POST/PUT
 
-We can start by saving temperature data on Light DB. On requests to write data, the body can be a JSON/CBOR object or a single value in the following formats:
+We can start by saving temperature data on LightDB. On requests to write data, the body can be a JSON/CBOR object or a single value in the following formats:
 
 - `boolean`
 - `float`
@@ -36,7 +36,7 @@ Here is a snippet of example code to save a temperature value of 30 Cº at path 
 $ coap --path /.d/env/temp -m PUT --psk-id deadbeef-id --psk supersecret --host coap.golioth.io -b "{\"value\": 30.0, \"unit\" : \"c\" }" --format json
 ```
 
-After the above request and device data saves in Light DB, it will look like this:
+After the above request and device data saves in LightDB, it will look like this:
 
 ```
 {
@@ -108,7 +108,7 @@ The current device state might look like this:
 
 ### Reading data with GET
 
-The return value of the CoAP API depends on what is stored on Light DB, which can be any JSON like data type like mentioned [on this guide](./structure-data). The value will be encoded depending on the `accept` header that is set on the request.
+The return value of the CoAP API depends on what is stored on LightDB, which can be any JSON like data type like mentioned [on this guide](./structure-data). The value will be encoded depending on the `accept` header that is set on the request.
 
 So to read the device data, we can issue a GET request like this:
 

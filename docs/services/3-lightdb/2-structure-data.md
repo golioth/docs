@@ -3,7 +3,7 @@ id: structure-data
 title: Structuring Data
 ---
 
-All data on Light DB is stored as JSON like objects. You can think of it as a cloud-hosted JSON tree.
+All data on LightDB is stored as JSON like objects. You can think of it as a cloud-hosted JSON tree.
 
 There are no concepts of tables or records. When you add data to the JSON tree, it becomes a node in the existing JSON structure with an associated key. You can set any arbitrary keys and values inside that tree.
 

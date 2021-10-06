@@ -21,12 +21,6 @@ module.exports = {
       },
       items: [
         {
-          to: "services",
-          activeBasePath: "services",
-          label: "Services",
-          position: "left",
-        },
-        {
           to: "hardware",
           activeBasePath: "hardware",
           label: "Hardware",
@@ -36,6 +30,12 @@ module.exports = {
           to: "firmware",
           activeBasePath: "firmware",
           label: "Firmware",
+          position: "left",
+        },
+        {
+          to: "services",
+          activeBasePath: "services",
+          label: "Services",
           position: "left",
         },
         {

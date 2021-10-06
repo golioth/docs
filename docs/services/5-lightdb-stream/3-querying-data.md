@@ -49,7 +49,7 @@ or
 }
 ```
 
-### Example of querying data on Light DB Stream
+### Example of querying data on LightDB Stream
 
 Let's consider an application in which we want to plot temperature data that has been recorded by a device over time. In this case, the device has two sensors, one inside and one outside. We also want to calculate the 15 minute average temperature.
 

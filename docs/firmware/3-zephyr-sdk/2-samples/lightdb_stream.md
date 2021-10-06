@@ -1,12 +1,12 @@
 ---
-title: Golioth Light DB stream sample
+title: Golioth LightDB stream sample
 ---
 
 # Overview
 
-This Light DB stream application demonstrates how to connect with
-Golioth and periodically send data to Light DB stream. In this sample
-temperature measurements are sent to `/temp` Light DB stream path. For
+This LightDB stream application demonstrates how to connect with
+Golioth and periodically send data to LightDB stream. In this sample
+temperature measurements are sent to `/temp` LightDB stream path. For
 platforms that do not have temperature sensor a value is generated from
 20 up to 30.
 
@@ -160,7 +160,7 @@ This is the output from the serial console:
 [00:00:00.000,000] <inf> golioth_system: Initializing
 [00:00:00.000,000] <inf> net_config: Initializing network
 [00:00:00.000,000] <inf> net_config: IPv4 address: 192.0.2.1
-[00:00:00.000,000] <dbg> golioth_lightdb_stream.main: Start Light DB stream sample
+[00:00:00.000,000] <dbg> golioth_lightdb_stream.main: Start LightDB stream sample
 [00:00:00.000,000] <dbg> golioth_lightdb_stream.main: Sending temperature 20.000000
 [00:00:00.000,000] <inf> golioth_system: Starting connect
 [00:00:00.010,000] <inf> golioth_system: Client connected!
@@ -181,7 +181,7 @@ This is the output from the serial console:
 ## Monitor temperature value over time
 
 Device sends temperature measurements every 5s and updates `/temp`
-resource in Light DB stream. Current value can be fetched using
+resource in LightDB stream. Current value can be fetched using
 following command:
 
 ```{.console}

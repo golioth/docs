@@ -1,19 +1,19 @@
 ---
 id: simulating-devices
-title: Testing Light DB using coap CLI and goliothctl
+title: Testing LightDB using coap CLI and goliothctl
 ---
 
 import Prerequisites from '../../partials/prerequisites-platform-setup.md'
 
 <Prerequisites />
 
-With the a properly provisioned device, you can test Light DB to save, query and observe data changes on it. Make sure that the connection with the platform is working.
+With the a properly provisioned device, you can test LightDB to save, query and observe data changes on it. Make sure that the connection with the platform is working.
 
 Let's simulated a light bulb that can report it's brightness and state and also control these values from the Cloud.
 
-### Saving and Querying data on Light DB
+### Saving and Querying data on LightDB
 
-To access Light DB over CoAP, you have to use the prefix `/.d/` and anything past that represents a path that you want to save data. On the example bellow, we are saving a `state` attribute with value `true` and `brightness` with value `50` on path `/light`.
+To access LightDB over CoAP, you have to use the prefix `/.d/` and anything past that represents a path that you want to save data. On the example bellow, we are saving a `state` attribute with value `true` and `brightness` with value `50` on path `/light`.
 
 ```
 $ coap --path /.d/light -m POST --psk-id deadbeef-id --psk supersecret --host coap.golioth.io -b "{\"state\": true, \"brightness\" : 50 }" --format json
@@ -55,9 +55,9 @@ $ goliothctl lightdb get [device name] /light/brightness
 50
 ```
 
-### Listening to changes on Light DB
+### Listening to changes on LightDB
 
-We can simulated a device listening to Light DB by using `coap observe` command. Here are some examples to listen to the top level `/light` path or we can also listen to the specific `/light/state` or `/light/brightness` path.
+We can simulated a device listening to LightDB by using `coap observe` command. Here are some examples to listen to the top level `/light` path or we can also listen to the specific `/light/state` or `/light/brightness` path.
 
 Open this on another terminal tab to simulate the device listening to data changes:
 
@@ -73,7 +73,7 @@ $ coap observe /.d/light --psk-id deadbeef-id --psk supersecret --host coap.goli
 waiting for more msgs. Type ctrl+c to close
 ```
 
-Now you can set new values on Light DB using `goliothctl`. You can set a specific value or pass a nested value in `json` format.
+Now you can set new values on LightDB using `goliothctl`. You can set a specific value or pass a nested value in `json` format.
 
 ```
 $ goliothctl lightdb set [device name] /light/state -b "true"
