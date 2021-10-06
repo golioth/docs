@@ -1,0 +1,23 @@
+---
+id: overview
+title: Golioth REST API
+---
+
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+export const SwaggerUrl = () => {
+  const swaggerUrl = process.env.SWAGGER_URL;
+  return <a href={swaggerUrl}>{swaggerUrl}</a>;
+};
+
+You can use Golioth API for access all services available on the platform, like device management, provisioning, data resources and others services to be build in the future.
+
+#### API Usage
+
+Our API is documented using OpenAPI definitions. You can access the [API Reference Page](/reference/api-docs) to check all endpoints and methods that can be used. A important aspect is authentication, that can be check on the [Authentication Guide](./auth)
+
+#### Importing OpenAPI/Swagger definitions
+
+You can test Golioth API using a Graphical User Interface (GUI) like Postman or Insomnia. Here are some links on how to import Open API definitions using those projects. For the Swagger file URL, you can use <SwaggerUrl/> url to import our API definitions.
+
+- https://learning.postman.com/docs/integrations/available-integrations/working-with-openAPI/
+- https://support.insomnia.rest/article/172-importing-and-exporting-data

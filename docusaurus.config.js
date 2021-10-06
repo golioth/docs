@@ -5,10 +5,10 @@ module.exports = {
   themes: ["@docusaurus/theme-live-codeblock"],
   baseUrl: "/",
   onBrokenLinks: "throw",
-  onBrokenMarkdownLinks: "warn",
+  onBrokenMarkdownLinks: "throw",
   favicon: "img/favicon.ico",
   organizationName: "golioth", // Usually your GitHub org/user name.
-  // projectName: "docs", // Usually your repo name.
+  projectName: "docs", // Usually your repo name.
   themeConfig: {
     colorMode: {
       defaultMode: "dark",
@@ -21,25 +21,43 @@ module.exports = {
       },
       items: [
         {
-          to: "docs/guides",
-          activeBasePath: "guides",
-          label: "Guides",
+          to: "hardware",
+          activeBasePath: "hardware",
+          label: "Hardware",
           position: "left",
         },
         {
-          to: "docs/reference",
+          to: "firmware",
+          activeBasePath: "firmware",
+          label: "Firmware",
+          position: "left",
+        },
+        {
+          to: "services",
+          activeBasePath: "services",
+          label: "Services",
+          position: "left",
+        },
+        {
+          to: "cloud",
+          activeBasePath: "cloud",
+          label: "Cloud",
+          position: "left",
+        },
+        {
+          to: "reference",
           activeBasePath: "reference",
           label: "Reference",
           position: "left",
         },
         {
-          to: "docs/support",
-          label: "Support",
-          position: "left",
-        },
-        {
           href: "https://github.com/golioth",
           label: "GitHub",
+          position: "right",
+        },
+        {
+          href: "https://console.golioth.io",
+          label: "Console",
           position: "right",
         },
       ],
@@ -51,11 +69,11 @@ module.exports = {
           items: [
             {
               label: "Getting Started",
-              to: "/docs/guides/golioth-platform-getting-started/platform-overview",
+              to: "/services/getting-started",
             },
             {
               label: "Over the Air Updates",
-              to: "docs/guides/ota/sending-updates",
+              to: "/services/ota",
             },
           ],
         },
@@ -64,11 +82,11 @@ module.exports = {
           items: [
             {
               label: "API and SDK Reference",
-              to: "docs/reference",
+              to: "/reference",
             },
             {
               label: "API Docs",
-              to: "docs/reference/api-docs",
+              to: "/reference/api-docs",
             },
             /*{
               label: 'Zephyr SDK',
@@ -76,11 +94,11 @@ module.exports = {
             },*/
             {
               label: "goliothctl",
-              to: "docs/reference/goliothctl/goliothctl",
+              to: "/reference/command-line-tools/goliothctl",
             },
             {
               label: "coap",
-              to: "docs/reference/coap/coap",
+              to: "/reference/command-line-tools/coap/",
             },
           ],
         },
@@ -119,14 +137,14 @@ module.exports = {
       "@docusaurus/preset-classic",
       {
         docs: {
-          //routeBasePath: '/',
+          routeBasePath: '/',
           sidebarPath: require.resolve("./sidebars.js"),
           // editUrl: 'https://github.com/golioth/golioth/edit/master/docs/',
         },
-        blog: {
-          showReadingTime: true,
-          //editUrl: 'https://github.com/golioth/golioth/edit/master/docs/blog/',
-        },
+        // blog: {
+        //   showReadingTime: true,
+        //   //editUrl: 'https://github.com/golioth/golioth/edit/master/docs/blog/',
+        // },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
           swaggerCss: require.resolve("swagger-ui-react/swagger-ui.css"),
@@ -143,6 +161,17 @@ module.exports = {
         silent: false, //  If true, all warnings will be suppressed
         expand: false, // Allows your variables to be "expanded" for reusability within your .env file
         defaults: false, //  Adds support for dotenv-defaults. If set to true, uses ./.env.defaults
-    }]
+    }],
+    // [
+    //   '@docusaurus/plugin-client-redirects',
+    //   {
+    //     redirects: [
+    //       {
+    //         to: '/docs/', // string
+    //         from: ['/docs/oldDocPathFrom2019', '/docs/legacyDocPathFrom2016'], // string | string[]
+    //       },
+    //     ],
+    //   },
+    // ],
   ]
 };
