@@ -18,5 +18,5 @@ After going through this getting started guide, you will be set up to run on the
 
 * Setting up your account
 * Creating a project
-* Creating and adding a device that project
+* Creating and adding a device to that project
 * Authorizing the device to accept and send data to the Golioth cloud

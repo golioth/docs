@@ -12,6 +12,6 @@ This work-through will demonstrate how to quickly connect an Espressif [ESP32 De
 
 :::note
 
-Golioth's Zephyr SDK will work with other ESP32 devkits and many other devices but require additional setup. We've picked a "reference" board to have a consistent getting started experience.
+Golioth's Zephyr SDK will work with other ESP32 devkits and many other devices but require additional setup. We've picked a "reference" board to provide a consistent getting started experience.
 
 :::
