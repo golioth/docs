@@ -8,7 +8,7 @@ slug: /hardware/nrf91/quickstart
 You must first follow the [Golioth Platform Quickstart](/services/getting-started) before attempting this guide.
 :::
 
-This work-through will demonstrate how to quickly connect an nRF91 based device to Golioth. Proven working devices on Golioth include:
+This work-through will demonstrate how to quickly connect an nRF91 based device to Golioth. The following devices are proven to work with Golioth:
 * Nordic nRF9160-DK
 * CircuitDojo nRF91-Feather
 

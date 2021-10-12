@@ -8,7 +8,7 @@ $ goliothctl logs --interval 10m
 [2021-03-23 22:58:31 +0000 UTC] level:DEBUG  module:"golioth_hello"  message:"Debug info! 1"  metadata:{fields:{key:"func"  value:{string_value:"main"}}  fields:{key:"index"  value:{number_value:1}}  fields:{key:"uptime"  value:{number_value:1.301121e+09}}}  device_id:"<device-uuid>"
 ```
 
-You can also filter the logs by Zephyr module. That could be a Golioth module, a Zephyr subsystem or your application. Here is an example showing the device IP address by filtering by Zephyr's `net_dhcpv4` module.
+You can also filter the logs by Zephyr module. This could be a Golioth module, a Zephyr subsystem or your application. Here is an example showing the device IP address by filtering by Zephyr's `net_dhcpv4` module.
 
 ```
 goliothctl logs --interval 1h --module net_dhcpv4

@@ -1,6 +1,6 @@
 ---
 id: carrier-setup
-title: Getting hooked to your carrier
+title: Getting connected to your carrier
 ---
 
 We recommend you follow the directions on the nRF Connect site, including testing using the nRF Connect Application.
