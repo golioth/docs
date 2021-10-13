@@ -1,4 +1,4 @@
-You can also use [Golioth Console](https://console.golioth.io) to also check the logs.
+You can also use [Golioth Console](https://console.golioth.io) to check the logs.
 
 ![Console](./assets/console.jpg)
 

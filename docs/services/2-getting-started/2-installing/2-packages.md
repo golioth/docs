@@ -40,7 +40,7 @@ values={[
 
 #### For debian and ubuntu based distros
 
-First you need create a reference to our `.deb` repository in your linux. Open your terminal and tap:
+First you need create a reference to our `.deb` repository in your linux. Open your terminal and type:
 ```
 echo "deb [trusted=yes] https://repos.golioth.io/apt/ /" | sudo tee /etc/apt/sources.list.d/golioth.list
 ```
@@ -82,9 +82,9 @@ It must show the respective CLI version.
 
 #### For distros like CentOS, Fedora, Red Hat, openSUSE, etc
 
-First of all, our `.rpm` package is compatible with both YUM and DNF package managers. Choose one and follow the steps.
+Our `.rpm` package is compatible with both YUM and DNF package managers. Choose one and follow the steps.
 
-You need create an reference to our `.rpm` repository in your linux. Open your terminal and tap:
+You need create an reference to our `.rpm` repository in your linux. Open your terminal and type:
 ```
 echo -en "[fury]
 name=Golioth Linux Repo
