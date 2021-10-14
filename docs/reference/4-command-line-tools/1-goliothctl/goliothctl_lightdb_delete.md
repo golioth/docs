@@ -33,5 +33,5 @@ goliothctl lightdb delete [device name] <path> [flags]
 
 ### SEE ALSO
 
-* [goliothctl lightdb](/reference/command-line-tools/goliothctl/goliothctl_lightdb/)	 - Access data on LightDB
+* [goliothctl lightdb](/reference/command-line-tools/goliothctl/goliothctl_lightdb)	 - Access data on Light DB
 

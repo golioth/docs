@@ -41,6 +41,6 @@ goliothctl config [flags]
 ### SEE ALSO
 
 * [goliothctl](/reference/command-line-tools/goliothctl)	 - Manage Golioth platform resources and developer workflow.
-* [goliothctl config get](/reference/command-line-tools/goliothctl/goliothctl_config_get/)	 - Get the value associated with a key in the local goliothctl config.
-* [goliothctl config set](/reference/command-line-tools/goliothctl/goliothctl_config_set/)	 - Set the value associated with a key in the local goliothctl config
+* [goliothctl config get](/reference/command-line-tools/goliothctl/goliothctl_config_get)	 - Get the value associated with a key in the local goliothctl config.
+* [goliothctl config set](/reference/command-line-tools/goliothctl/goliothctl_config_set)	 - Set the value associated with a key in the local goliothctl config
 

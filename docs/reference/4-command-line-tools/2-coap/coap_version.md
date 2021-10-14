@@ -3,7 +3,7 @@ id: coap_version
 title: "coap version"
 slug: coap_version
 sidebar_label: coap version
-url: /reference/command-line-tools/coap/_version/
+url: /reference/command-line-tools/coap/coap_version/
 hide_title: true
 ---
 ## coap version
@@ -43,5 +43,5 @@ coap version [flags]
 
 ### SEE ALSO
 
-* [coap](/reference/command-line-tools/coap//)	 - CoAP client to test golioth coap gateway
+* [coap](/reference/command-line-tools/coap)	 - CoAP client to test golioth coap gateway
 

@@ -42,5 +42,5 @@ id:"5df88b8e-e208-41d4-b7e2-29192ab5de83"  key:"dLEtQLItz9eSHZYwuZGE5UlcgL2GOmHW
 
 ### SEE ALSO
 
-* [goliothctl apikeys](/reference/command-line-tools/goliothctl/goliothctl_apikeys/)	 - Access API Keys information.
+* [goliothctl apikeys](/reference/command-line-tools/goliothctl/goliothctl_apikeys)	 - Access API Keys information.
 

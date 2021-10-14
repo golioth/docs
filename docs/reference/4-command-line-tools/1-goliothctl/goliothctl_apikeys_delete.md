@@ -38,5 +38,5 @@ API key deleted
 
 ### SEE ALSO
 
-* [goliothctl apikeys](/reference/command-line-tools/goliothctl/goliothctl_apikeys/)	 - Access API Keys information.
+* [goliothctl apikeys](/reference/command-line-tools/goliothctl/goliothctl_apikeys)	 - Access API Keys information.
 
