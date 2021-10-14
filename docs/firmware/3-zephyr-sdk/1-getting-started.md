@@ -38,7 +38,13 @@ based project (e.g. Zephyr RTOS):
 - name: golioth
   path: modules/lib/golioth
   revision: main
-  url: git@github.com:golioth/zephyr.git
+  url: https://github.com/golioth/zephyr-sdk.git
+
+# Golioth dependencies.
+- name: qcbor
+  revision: 17b5607b8c49b835d22dec3effa97b25c89267b3
+  url: https://github.com/golioth/QCBOR.git
+  path: modules/lib/qcbor
 ```
 
 and clone all repositories including that one by running:
@@ -61,7 +67,7 @@ to make use of their distinct features, which is cellular network
 connectivity. Initialize nRF Connect SDK with following command:
 
 ``` {.console}
-west init -m https://github.com/nrfconnect/sdk-nrf --mr v1.6.0
+west init -m https://github.com/nrfconnect/sdk-nrf --mr v1.7.0-rc2
 ```
 
 Add following entry to `west.yml` file in `manifest/projects` subtree:
@@ -71,7 +77,13 @@ Add following entry to `west.yml` file in `manifest/projects` subtree:
 - name: golioth
   path: modules/lib/golioth
   revision: main
-  url: git@github.com:golioth/zephyr.git
+  url: https://github.com/golioth/zephyr-sdk.git
+
+# Golioth dependencies.
+- name: qcbor
+  revision: 17b5607b8c49b835d22dec3effa97b25c89267b3
+  url: https://github.com/golioth/QCBOR.git
+  path: modules/lib/qcbor
 ```
 
 Now clone all repositories with:
@@ -88,11 +100,11 @@ for details on how to setup nRF Connect SDK based projects.
 
 -   [Golioth DFU sample](/firmware/zephyr-sdk/samples/dfu)
 -   [Golioth Hello sample](/firmware/zephyr-sdk/samples/hello)
--   [Golioth LightDB get sample](/firmware/zephyr-sdk/samples/lightdb/get)
--   [Golioth LightDB observe
+-   [Golioth Light DB get sample](/firmware/zephyr-sdk/samples/lightdb/get)
+-   [Golioth Light DB observe
     sample](/firmware/zephyr-sdk/samples/lightdb/observe)
--   [Golioth LightDB set sample](/firmware/zephyr-sdk/samples/lightdb/set)
--   [Golioth LightDB LED sample](/firmware/zephyr-sdk/samples/lightdb_led)
--   [Golioth LightDB stream sample](/firmware/zephyr-sdk/samples/lightdb_stream)
+-   [Golioth Light DB set sample](/firmware/zephyr-sdk/samples/lightdb/set)
+-   [Golioth Light DB LED sample](/firmware/zephyr-sdk/samples/lightdb_led)
+-   [Golioth Light DB stream sample](/firmware/zephyr-sdk/samples/lightdb_stream)
 -   [Golioth Logging sample](/firmware/zephyr-sdk/samples/logging)
 -   [Golioth Settings sample](/firmware/zephyr-sdk/samples/settings)

@@ -37,5 +37,5 @@ goliothctl config set <key> <value> [flags]
 
 ### SEE ALSO
 
-* [goliothctl config](/reference/command-line-tools/goliothctl/goliothctl_config/)	 - The `goliothctl config` subcommands are used to get and set values in the current local goliothctl config.
+* [goliothctl config](/reference/command-line-tools/goliothctl/goliothctl_config)	 - The `goliothctl config` subcommands are used to get and set values in the current local goliothctl config.
 
