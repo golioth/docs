@@ -37,8 +37,8 @@ goliothctl dfu artifact [flags]
 
 ### SEE ALSO
 
-* [goliothctl dfu](/reference/command-line-tools/goliothctl/goliothctl_dfu)	 - Firmware management command.
-* [goliothctl dfu artifact create](/reference/command-line-tools/goliothctl/goliothctl_dfu_artifact_create)	 - Upload a device artifact artifact.
-* [goliothctl dfu artifact delete](/reference/command-line-tools/goliothctl/goliothctl_dfu_artifact_delete)	 - Delete an artifact from Golioth.
-* [goliothctl dfu artifact list](/reference/command-line-tools/goliothctl/goliothctl_dfu_artifact_list)	 - List all firmware artifacts that have been registered with Golioth
+* [goliothctl dfu](/reference/command-line-tools/goliothctl/goliothctl_dfu/)	 - Firmware management command.
+* [goliothctl dfu artifact create](/reference/command-line-tools/goliothctl/goliothctl_dfu_artifact_create/)	 - Upload a device artifact artifact.
+* [goliothctl dfu artifact delete](/reference/command-line-tools/goliothctl/goliothctl_dfu_artifact_delete/)	 - Delete an artifact from Golioth.
+* [goliothctl dfu artifact list](/reference/command-line-tools/goliothctl/goliothctl_dfu_artifact_list/)	 - List all firmware artifacts that have been registered with Golioth
 

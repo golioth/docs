@@ -39,5 +39,5 @@ goliothctl dfu release delete [flags]
 
 ### SEE ALSO
 
-* [goliothctl dfu release](/reference/command-line-tools/goliothctl/goliothctl_dfu_release)	 - Release management command.
+* [goliothctl dfu release](/reference/command-line-tools/goliothctl/goliothctl_dfu_release/)	 - Release management command.
 

@@ -45,5 +45,5 @@ goliothctl dfu logs [flags]
 
 ### SEE ALSO
 
-* [goliothctl dfu](/reference/command-line-tools/goliothctl/goliothctl_dfu)	 - Firmware management command.
+* [goliothctl dfu](/reference/command-line-tools/goliothctl/goliothctl_dfu/)	 - Firmware management command.
 

@@ -94,11 +94,11 @@ module.exports = {
             },*/
             {
               label: "goliothctl",
-              to: "/reference/command-line-tools/goliothctl",
+              to: "/reference/command-line-tools/goliothctl/goliothctl/",
             },
             {
               label: "coap",
-              to: "/reference/command-line-tools/coap/",
+              to: "/reference/command-line-tools/coap/coap/",
             },
           ],
         },

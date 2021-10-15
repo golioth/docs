@@ -43,5 +43,5 @@ coap ping [flags]
 
 ### SEE ALSO
 
-* [coap](/reference/command-line-tools/coap)	 - CoAP client to test golioth coap gateway
+* [coap](/reference/command-line-tools/coap/coap/)	 - CoAP client to test golioth coap gateway
 

@@ -37,5 +37,5 @@ goliothctl tag update [tag name] [flags]
 
 ### SEE ALSO
 
-* [goliothctl tag](/reference/command-line-tools/goliothctl/goliothctl_tag)	 - Create, update, and delete tags.
+* [goliothctl tag](/reference/command-line-tools/goliothctl/goliothctl_tag/)	 - Create, update, and delete tags.
 
