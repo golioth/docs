@@ -3,7 +3,7 @@ id: coap
 title: "coap"
 slug: coap
 sidebar_label: coap
-url: /reference/command-line-tools/coap
+url: /reference/command-line-tools/coap/coap/
 hide_title: true
 ---
 ## coap

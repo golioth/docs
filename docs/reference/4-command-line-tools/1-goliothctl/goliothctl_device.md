@@ -50,9 +50,9 @@ id:"60ad5f25ad0772e87bb232cd"  hardware_ids:"CC:CC:CC:CC"  hardware_ids:"BB:BB:B
 
 ### SEE ALSO
 
-* [goliothctl](/reference/command-line-tools/goliothctl)	 - Manage Golioth platform resources and developer workflow.
-* [goliothctl device create](/reference/command-line-tools/goliothctl/goliothctl_device_create)	 - Add a device to Golioth.
-* [goliothctl device delete](/reference/command-line-tools/goliothctl/goliothctl_device_delete)	 - Delete a device from Golioth.
-* [goliothctl device list](/reference/command-line-tools/goliothctl/goliothctl_device_list)	 - List all devices that have been registered with Golioth
-* [goliothctl device update](/reference/command-line-tools/goliothctl/goliothctl_device_update)	 - Update the name, hardware IDs, and tags associated with a device.
+* [goliothctl](/reference/command-line-tools/goliothctl/goliothctl/)	 - Manage Golioth platform resources and developer workflow.
+* [goliothctl device create](/reference/command-line-tools/goliothctl/goliothctl_device_create/)	 - Add a device to Golioth.
+* [goliothctl device delete](/reference/command-line-tools/goliothctl/goliothctl_device_delete/)	 - Delete a device from Golioth.
+* [goliothctl device list](/reference/command-line-tools/goliothctl/goliothctl_device_list/)	 - List all devices that have been registered with Golioth
+* [goliothctl device update](/reference/command-line-tools/goliothctl/goliothctl_device_update/)	 - Update the name, hardware IDs, and tags associated with a device.
 

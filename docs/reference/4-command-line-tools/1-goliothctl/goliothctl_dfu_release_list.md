@@ -44,5 +44,5 @@ id:"60d234ddd270946726e284a5" release_tag:"1.4.3"
 
 ### SEE ALSO
 
-* [goliothctl dfu release](/reference/command-line-tools/goliothctl/goliothctl_dfu_release)	 - Release management command.
+* [goliothctl dfu release](/reference/command-line-tools/goliothctl/goliothctl_dfu_release/)	 - Release management command.
 

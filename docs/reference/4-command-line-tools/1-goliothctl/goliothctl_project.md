@@ -50,9 +50,9 @@ goliothctl project [flags]
 
 ### SEE ALSO
 
-* [goliothctl](/reference/command-line-tools/goliothctl)	 - Manage Golioth platform resources and developer workflow.
-* [goliothctl project create](/reference/command-line-tools/goliothctl/goliothctl_project_create)	 - Create a project.
-* [goliothctl project delete](/reference/command-line-tools/goliothctl/goliothctl_project_delete)	 - Delete the current project.
-* [goliothctl project list](/reference/command-line-tools/goliothctl/goliothctl_project_list)	 - List all projects associated with your Golioth account.
-* [goliothctl project update](/reference/command-line-tools/goliothctl/goliothctl_project_update)	 - Change the name associated with the current project.
+* [goliothctl](/reference/command-line-tools/goliothctl/goliothctl/)	 - Manage Golioth platform resources and developer workflow.
+* [goliothctl project create](/reference/command-line-tools/goliothctl/goliothctl_project_create/)	 - Create a project.
+* [goliothctl project delete](/reference/command-line-tools/goliothctl/goliothctl_project_delete/)	 - Delete the current project.
+* [goliothctl project list](/reference/command-line-tools/goliothctl/goliothctl_project_list/)	 - List all projects associated with your Golioth account.
+* [goliothctl project update](/reference/command-line-tools/goliothctl/goliothctl_project_update/)	 - Change the name associated with the current project.
 

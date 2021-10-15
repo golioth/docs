@@ -40,5 +40,5 @@ goliothctl dfu artifact delete <version> [flags]
 
 ### SEE ALSO
 
-* [goliothctl dfu artifact](/reference/command-line-tools/goliothctl/goliothctl_dfu_artifact)	 - Artifact management command.
+* [goliothctl dfu artifact](/reference/command-line-tools/goliothctl/goliothctl_dfu_artifact/)	 - Artifact management command.
 

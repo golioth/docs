@@ -37,8 +37,8 @@ goliothctl dfu [flags]
 
 ### SEE ALSO
 
-* [goliothctl](/reference/command-line-tools/goliothctl)	 - Manage Golioth platform resources and developer workflow.
-* [goliothctl dfu artifact](/reference/command-line-tools/goliothctl/goliothctl_dfu_artifact)	 - Artifact management command.
-* [goliothctl dfu logs](/reference/command-line-tools/goliothctl/goliothctl_dfu_logs)	 - List logs related to firmware status of a device
-* [goliothctl dfu release](/reference/command-line-tools/goliothctl/goliothctl_dfu_release)	 - Release management command.
+* [goliothctl](/reference/command-line-tools/goliothctl/goliothctl/)	 - Manage Golioth platform resources and developer workflow.
+* [goliothctl dfu artifact](/reference/command-line-tools/goliothctl/goliothctl_dfu_artifact/)	 - Artifact management command.
+* [goliothctl dfu logs](/reference/command-line-tools/goliothctl/goliothctl_dfu_logs/)	 - List logs related to firmware status of a device
+* [goliothctl dfu release](/reference/command-line-tools/goliothctl/goliothctl_dfu_release/)	 - Release management command.
 
