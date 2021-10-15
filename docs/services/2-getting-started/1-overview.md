@@ -10,7 +10,13 @@ This is the general installation instructions to get started with the Golioth co
 
 Many of the functions described below are possible to also do on the [Golioth Console](https://console.golioth.io). After signup/login, you will be prompted with a quickstart guide to create and provision your first example device.
 
+
 ![Console](./assets/console.png)
+
+
+:::note
+When prompted to fill in the PSK field this can be any password.
+:::
 
 ## Command Line Goals
 

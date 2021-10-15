@@ -20,11 +20,9 @@ import InstallNRFSDK from '/docs/partials/install-nrf91-sdk.md'
 
 <InstallNRFSDK/>
 
-### Install nRF91 Toolchain (ARM)
-
 Your system is all set up and ready to start building & flashing with Zephyr. Verify by building a minimal sample, in this case for the CircuitDojo nRF91 feather:
 
 ```
 cd ~/zephyr-nrf/zephyr
-west build -b  samples/basic/minimal -p
+west build -p auto -b  circuitdojo_feather_nrf9160 samples/basic/minimal
 ```
