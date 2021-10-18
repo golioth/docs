@@ -5,11 +5,11 @@ title: Read and Write Data
 
 Devices interact with LightDB using the gateways available on the platform. For now, only CoAP is available.
 
-| Method   | Description         | Path            |
-| -------- | ------------------- | --------------- |
-| GET      | Read persisted data | /.d/{path=\*\*} |
-| POST/PUT | Create/Update data  | /.d/{path=\*\*} |
-| DELETE   | Delete Data         | /.d/{path=\*\*} |
+| Method      | Description         | Path            |
+| ----------- | ------------------- | --------------- |
+| GET/Observe | Read persisted data | /.d/{path=\*\*} |
+| POST/PUT    | Create/Update data  | /.d/{path=\*\*} |
+| DELETE      | Delete Data         | /.d/{path=\*\*} |
 
 > `path` can be any valid URI sub path. Ex:
 >
