@@ -4,11 +4,11 @@ title: Overview
 slug: /services/ota
 ---
 
-Golioth Device Firmware Update (DFU) enables quick, secure deployment of firmware packages to IoT devices throughout the world. The Golioth Console enables easy management of firmware releases, including multi-part binary bundles, enabling updates for devices as diverse as smart speakers, digital signage, machine learning enabled sensor systems, multiple processor embedded devices, and more.
+Golioth Device Firmware Update (DFU) enables quick, secure deployment of firmware packages to IoT devices throughout the world. The Golioth Web Console enables easy management of firmware releases, including multi-part binary bundles, enabling updates for devices as diverse as smart speakers, digital signage, machine learning enabled sensor systems, multiple processor embedded devices, and more.
 
 Our DFU feature is highly flexible, allowing to not just update your main firmware, but sub components like the Cellular Modem firmware, update a on device Machine Learning model or even sending custom binaries required for your application as part of a release.
 
-A stream can be accessed through either the [`goliothctl dfu`](/reference/command-line-tools/goliothctl/goliothctl_dfu) subcommand or the [DFU REST API](/reference/api-docs).
+Artifact and Releases can be accessed through either the [`goliothctl dfu`](/reference/command-line-tools/goliothctl/goliothctl_dfu) subcommand, the [DFU REST API](/reference/api-docs) or from Golioth Web Console.
 
 ### Concepts
 
