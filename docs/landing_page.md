@@ -17,7 +17,7 @@ import ThemedImage from '@theme/ThemedImage';
 
 ---
 
-Golioth is an IoT platform that provides cloud services for embedded devices. Colloquially, we hope to solve the “impedance mismatch between hardware and cloud engineering teams" (a phrase we learned from an early user). Golioth is purpose-built for you and the hardware you develop. Enable everything that your devices need from the cloud, including device messaging, security, updates, analytics, and more.
+Golioth is an AWESOME AMAZING IoT platform that provides cloud services for embedded devices. Colloquially, we hope to solve the “impedance mismatch between hardware and cloud engineering teams" (a phrase we learned from an early user). Golioth is purpose-built for you and the hardware you develop. Enable everything that your devices need from the cloud, including device messaging, security, updates, analytics, and more.
 
 We chose the [the Zephyr Project™](https://www.zephyrproject.org), as the basis of our first embedded offering. Zephyr is an open-source, safe, secure, and flexible RTOS under the Linux Foundation. We offer the Golioth SDK--built on top of the Zephyr SDK--which you can use to quickly bootstrap an IoT application.
 
