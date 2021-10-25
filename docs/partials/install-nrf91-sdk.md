@@ -7,7 +7,7 @@ With `west` installed, grab the Device SDK:
 
 ```
 cd ~
-west init -m https://github.com/nrfconnect/sdk-nrf --mr v1.6.0main ~/zephyr-nrf
+west init -m https://github.com/nrfconnect/sdk-nrf --mr v1.6-branch ~/zephyr-nrf
 cd zephyr-nrf/
 west update
 west patch
