@@ -60,7 +60,11 @@ west build -b circuitdojo_feather_nrf9160ns samples/hello -p
 ```
 
 ### Flashing the device
-
+Flash the device by running the command:
+```
+west flash
+```
+If this command fails ensure that the [nRF Command Line tools](https://www.nordicsemi.com/Products/Development-tools/nrf-command-line-tools/download) and [Jlink Software and Documentation Pack](https://www.segger.com/downloads/jlink) are downloaded and installed on the development system.
 
 
 
