@@ -31,7 +31,7 @@ goliothctl device create --name "My first device" --hwId "CH:AN:GE:ME"
 ```
 
 :::note
-`"CH:AN:GE:ME"` must be globally unique to the Golioth cloud, so be sure to change it from the above example. A MAC address or other value that represents a unique value (serial number, ICCID/IMSI from the celullar network, etc) is the best source of this info.
+`"CH:AN:GE:ME"` must be globally unique to your project. You should sure to change it from the above example for each device you add to the project, so why not start by changing it? A MAC address or other value that represents a unique value (serial number, ICCID/IMSI from the celullar network, etc) is the best source of this info.
 :::
 
 ```
