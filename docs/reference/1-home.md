@@ -11,5 +11,5 @@ The API and SDK reference documentation provides detailed information for each o
 
 - [API Docs](/reference/api-docs)
 - Command Line Tools
-  - [goliothctl](/reference/command-line-tools/goliothctl/)
-  - [coap](/reference/command-line-tools/coap/)
+  - [goliothctl](/reference/command-line-tools/goliothctl/goliothctl/)
+  - [coap](/reference/command-line-tools/coap/coap/)

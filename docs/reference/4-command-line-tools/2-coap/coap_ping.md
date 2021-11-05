@@ -3,7 +3,7 @@ id: coap_ping
 title: "coap ping"
 slug: coap_ping
 sidebar_label: coap ping
-url: /reference/command-line-tools/coap/_ping/
+url: /reference/command-line-tools/coap/coap_ping/
 hide_title: true
 ---
 ## coap ping
@@ -43,5 +43,5 @@ coap ping [flags]
 
 ### SEE ALSO
 
-* [coap](/reference/command-line-tools/coap//)	 - CoAP client to test golioth coap gateway
+* [coap](/reference/command-line-tools/coap/coap/)	 - CoAP client to test golioth coap gateway
 

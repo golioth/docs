@@ -32,6 +32,7 @@ goliothctl device update [device name] [flags]
 ```
       --addHwId stringArray   add hardware id
       --addTag stringArray    add tag
+      --blueprint string      new device blueprint
   -h, --help                  help for update
       --id string             device id
       --name string           new device name
@@ -49,5 +50,5 @@ goliothctl device update [device name] [flags]
 
 ### SEE ALSO
 
-* [goliothctl device](/reference/command-line-tools/goliothctl/goliothctl_device)	 - Use the `goliothctl device` subcommands to add, remove, list, and update data associated with devices.
+* [goliothctl device](/reference/command-line-tools/goliothctl/goliothctl_device/)	 - Use the `goliothctl device` subcommands to add, remove, list, and update data associated with devices.
 

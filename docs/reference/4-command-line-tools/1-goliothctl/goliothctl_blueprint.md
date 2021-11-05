@@ -3,7 +3,7 @@ id: goliothctl_blueprint
 title: "goliothctl blueprint"
 slug: goliothctl_blueprint
 sidebar_label: goliothctl blueprint
-url: /reference/command-line-tools/goliothctl/goliothctl_blueprint
+url: /reference/command-line-tools/goliothctl/goliothctl_blueprint/
 hide_title: true
 ---
 ## goliothctl blueprint
@@ -47,7 +47,7 @@ goliothctl blueprint [flags]
 
 ### SEE ALSO
 
-* [goliothctl](/reference/command-line-tools/goliothctl)	 - Manage Golioth platform resources and developer workflow.
+* [goliothctl](/reference/command-line-tools/goliothctl/goliothctl/)	 - Manage Golioth platform resources and developer workflow.
 * [goliothctl blueprint create](/reference/command-line-tools/goliothctl/goliothctl_blueprint_create/)	 - Create a blueprint.
 * [goliothctl blueprint delete](/reference/command-line-tools/goliothctl/goliothctl_blueprint_delete/)	 - Delete a blueprint.
 * [goliothctl blueprint list](/reference/command-line-tools/goliothctl/goliothctl_blueprint_list/)	 - Show all blueprints.

@@ -50,7 +50,7 @@ API key deleted
 
 ### SEE ALSO
 
-* [goliothctl](/reference/command-line-tools/goliothctl)	 - Manage Golioth platform resources and developer workflow.
+* [goliothctl](/reference/command-line-tools/goliothctl/goliothctl/)	 - Manage Golioth platform resources and developer workflow.
 * [goliothctl apikeys create](/reference/command-line-tools/goliothctl/goliothctl_apikeys_create/)	 - Create an API key.
 * [goliothctl apikeys delete](/reference/command-line-tools/goliothctl/goliothctl_apikeys_delete/)	 - Delete an API key with an ID.
 * [goliothctl apikeys list](/reference/command-line-tools/goliothctl/goliothctl_apikeys_list/)	 - Show all existing API keys.

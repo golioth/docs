@@ -1,10 +1,11 @@
 ---
 id: coap
 title: "coap"
-slug: /reference/command-line-tools/coap
+slug: coap
+sidebar_label: coap
+url: /reference/command-line-tools/coap/coap/
 hide_title: true
 ---
-
 ## coap
 
 CoAP client to test golioth coap gateway
@@ -53,6 +54,7 @@ coap --path /logs -m POST --psk-id deadbeef-id --psk supersecret -q module=wifi 
 
 ### SEE ALSO
 
-- [coap observe](/reference/command-line-tools/coap/coap_observe/) - CoAP observe a given path
-- [coap ping](/reference/command-line-tools/coap/coap_ping/) - CoAP ping to test golioth coap gateway
-- [coap version](/reference/command-line-tools/coap/coap_version/) - Show CLI Version
+* [coap observe](/reference/command-line-tools/coap/coap_observe/)	 - CoAP observe a given path
+* [coap ping](/reference/command-line-tools/coap/coap_ping/)	 - CoAP ping to test golioth coap gateway
+* [coap version](/reference/command-line-tools/coap/coap_version/)	 - Show CLI Version
+

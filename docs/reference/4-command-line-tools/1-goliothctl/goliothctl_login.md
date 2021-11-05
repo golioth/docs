@@ -8,11 +8,11 @@ hide_title: true
 ---
 ## goliothctl login
 
-Authenticate with Golioth manually.
+Authenticate with Golioth.
 
 ### Synopsis
 
-Running `goliothctl login` will open a browser window and ask you to securely log into or create an account with Golioth.
+Use `goliothctl login` subcommand for either manual login through the browser or authentication through an API Key.
 
 The login information will be stored in a local secure keystore if available. Otherwise, the data will be stored in `~/.golioth.`
 
@@ -20,10 +20,24 @@ The login information will be stored in a local secure keystore if available. Ot
 goliothctl login [flags]
 ```
 
+### Examples
+
+```
+# Login manually through the browser
+> goliothctl login
+
+# Login through API Key without opening the browser
+> goliothctl login --apiKey Qdn59uyHDMJWw0qKIHEDsMjID9gA85Gp
+
+In this case the API Key must be generated before through goliothctl or web console.
+
+```
+
 ### Options
 
 ```
-  -h, --help   help for login
+      --apiKey string   api key
+  -h, --help            help for login
 ```
 
 ### Options inherited from parent commands
@@ -36,5 +50,5 @@ goliothctl login [flags]
 
 ### SEE ALSO
 
-* [goliothctl](/reference/command-line-tools/goliothctl)	 - Manage Golioth platform resources and developer workflow.
+* [goliothctl](/reference/command-line-tools/goliothctl/goliothctl/)	 - Manage Golioth platform resources and developer workflow.
 

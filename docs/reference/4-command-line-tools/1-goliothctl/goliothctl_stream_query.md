@@ -60,5 +60,5 @@ goliothctl stream query [flags]
 
 ### SEE ALSO
 
-* [goliothctl stream](/reference/command-line-tools/goliothctl/goliothctl_stream)	 - Access the data in a LightDB Stream.
+* [goliothctl stream](/reference/command-line-tools/goliothctl/goliothctl_stream/)	 - Access the data in a LightDB Stream.
 

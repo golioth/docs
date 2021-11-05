@@ -3,7 +3,7 @@ id: goliothctl_tag_create
 title: "goliothctl tag create"
 slug: goliothctl_tag_create
 sidebar_label: goliothctl tag create
-url: /reference/command-line-tools/goliothctl/goliothctl_tag_create
+url: /reference/command-line-tools/goliothctl/goliothctl_tag_create/
 hide_title: true
 ---
 ## goliothctl tag create
@@ -37,5 +37,5 @@ goliothctl tag create [flags]
 
 ### SEE ALSO
 
-* [goliothctl tag](/reference/command-line-tools/goliothctl/goliothctl_tag)	 - Create, update, and delete tags.
+* [goliothctl tag](/reference/command-line-tools/goliothctl/goliothctl_tag/)	 - Create, update, and delete tags.
 

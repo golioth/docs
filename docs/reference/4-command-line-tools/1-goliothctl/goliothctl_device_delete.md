@@ -46,5 +46,5 @@ goliothctl device delete [device name] [flags]
 
 ### SEE ALSO
 
-* [goliothctl device](/reference/command-line-tools/goliothctl/goliothctl_device)	 - Use the `goliothctl device` subcommands to add, remove, list, and update data associated with devices.
+* [goliothctl device](/reference/command-line-tools/goliothctl/goliothctl_device/)	 - Use the `goliothctl device` subcommands to add, remove, list, and update data associated with devices.
 

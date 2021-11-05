@@ -3,7 +3,7 @@ id: coap_observe
 title: "coap observe"
 slug: coap_observe
 sidebar_label: coap observe
-url: /reference/command-line-tools/coap/_observe/
+url: /reference/command-line-tools/coap/coap_observe/
 hide_title: true
 ---
 ## coap observe
@@ -43,5 +43,5 @@ coap observe <path> [flags]
 
 ### SEE ALSO
 
-* [coap](/reference/command-line-tools/coap//)	 - CoAP client to test golioth coap gateway
+* [coap](/reference/command-line-tools/coap/coap/)	 - CoAP client to test golioth coap gateway
 

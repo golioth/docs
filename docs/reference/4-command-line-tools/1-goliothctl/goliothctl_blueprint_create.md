@@ -37,5 +37,5 @@ goliothctl blueprint create [flags]
 
 ### SEE ALSO
 
-* [goliothctl blueprint](/reference/command-line-tools/goliothctl/goliothctl_blueprint)	 - Create, update, and delete blueprint.
+* [goliothctl blueprint](/reference/command-line-tools/goliothctl/goliothctl_blueprint/)	 - Create, update, and delete blueprint.
 
