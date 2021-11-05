@@ -1,0 +1,91 @@
+---
+id: catalog
+title: Hardware Catalog
+hide_title: true
+slug: /hardware/catalog
+hide_table_of_contents: true
+pagination_prev: asdfasdf
+pagination_next: null
+---
+
+import boards from "./assets/boards.json";
+import Image from "@theme/IdealImage";
+import mag from "./assets/img/magnifier.svg";
+import "./assets/hardware-catalog.css";
+import { useState, useEffect } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSearch, faSearchMinus } from "@fortawesome/free-solid-svg-icons";
+
+export const Board = ({ board }) => {
+  const { boardId, name, img } = board;
+  return (
+    <div className="board-card">
+      <div className="board-card-image">
+        <Image img={require(`./assets/${img}`)} />
+      </div>
+      <div className="board-card-footer">{name}</div>
+    </div>
+  );
+};
+
+export const SearchInput = ({ boards, onSearch }) => {
+  const [search, setSearch] = useState("");
+  useEffect(() => {
+    onSearch(search);
+  }, [search]);
+  return (
+    <div className="search-input-group">
+      <span className="search-icon">
+        <FontAwesomeIcon icon={faSearch} />
+      </span>
+      <input
+        className="search-input"
+        type="search"
+        results="5"
+        placeholder="Search by board name"
+        value={search}
+        onChange={(e) => setSearch(e.target.value)}
+      />
+    </div>
+  );
+};
+
+export const Empty = () => {
+  return (
+    <div className="empty">
+      <span className="empty-icon">
+        <FontAwesomeIcon icon={faSearchMinus} />
+      </span>
+      <div className="empty-text">No boards found</div>
+      <div className="empty-detail">Check your active filters</div>
+    </div>
+  );
+};
+
+export const BoardList = ({ boards }) => {
+  const [query, setQuery] = useState("");
+  const [filteredBoards, setFilteredBoards] = useState(boards);
+  //debounce the search
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      const filtered = boards.filter(({ name }) =>
+        name.toLowerCase().includes(query.toLowerCase()),
+      );
+      setFilteredBoards(filtered);
+    }, 500);
+    return () => clearTimeout(timeout);
+  }, [query, boards]);
+  return (
+    <>
+      <SearchInput boards={boards} onSearch={setQuery} />
+      <div className="board-list">
+        {filteredBoards.map((board) => (
+          <Board key={board.boardId} board={board} />
+        ))}
+        {filteredBoards.length === 0 && <Empty />}
+      </div>
+    </>
+  );
+};
+
+<BoardList boards={boards} />
