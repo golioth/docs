@@ -23,48 +23,6 @@ import {
   faQuestion,
 } from "@fortawesome/free-solid-svg-icons";
 
-export const BoardStatusBadge = ({ goliothStatus }) => {
-  switch (goliothStatus) {
-    case "quickstart":
-      return (
-        <FontAwesomeIcon
-          icon={faCheckDouble}
-          className="board-status-badge green"
-        />
-      );
-    case "verified":
-      return (
-        <FontAwesomeIcon icon={faCheck} className="board-status-badge green" />
-      );
-    case "community":
-      return (
-        <FontAwesomeIcon
-          icon={faUserCheck}
-          className="board-status-badge blue"
-        />
-      );
-    default:
-      return (
-        <FontAwesomeIcon icon={faQuestion} className="board-status-badge" />
-      );
-  }
-};
-
-export const Board = ({ board }) => {
-  const { boardId, name, img, goliothStatus } = board;
-  return (
-    <div className="board-card">
-      <div className="board-card-image">
-        <div className="board-card-badge-container">
-          <BoardStatusBadge goliothStatus={goliothStatus} />
-        </div>
-        <Image img={require(`./assets/${img}`)} />
-      </div>
-      <div className="board-card-footer">{name}</div>
-    </div>
-  );
-};
-
 export const SearchInput = ({ boards, onSearch }) => {
   const [search, setSearch] = useState("");
   useEffect(() => {
@@ -94,7 +52,7 @@ export const Legend = () => {
       <div className="legend-item">
         <FontAwesomeIcon
           icon={faCheckDouble}
-          className="board-status-badge green"
+          className="board-status-badge gradient"
         />
         <span>Verified + Quickstart</span>
       </div>
@@ -129,6 +87,53 @@ export const Empty = () => {
   );
 };
 
+export const BoardStatusBadge = ({ goliothStatus }) => {
+  switch (goliothStatus) {
+    case "quickstart":
+      return (
+        <FontAwesomeIcon
+          icon={faCheckDouble}
+          className="board-status-badge gradient"
+        />
+      );
+    case "verified":
+      return (
+        <FontAwesomeIcon icon={faCheck} className="board-status-badge green" />
+      );
+    case "community":
+      return (
+        <FontAwesomeIcon
+          icon={faUserCheck}
+          className="board-status-badge blue"
+        />
+      );
+    default:
+      return (
+        <FontAwesomeIcon icon={faQuestion} className="board-status-badge" />
+      );
+  }
+};
+
+export const Board = ({ board }) => {
+  const { boardId, name, img, goliothStatus } = board;
+  return (
+    <div className="board-card">
+      <div className="board-card-image">
+        <div className="board-card-badge-container">
+          <BoardStatusBadge
+            goliothStatus={goliothStatus}
+            title={goliothStatus}
+          />
+        </div>
+        <Image img={require(`./assets/${img}`)} />
+      </div>
+      <div className="board-card-footer" title={name}>
+        {name}
+      </div>
+    </div>
+  );
+};
+
 export const BoardList = ({ boards }) => {
   const sortOrder = {
     quickstart: 1,
@@ -138,7 +143,7 @@ export const BoardList = ({ boards }) => {
   };
   const [query, setQuery] = useState("");
   const [filteredBoards, setFilteredBoards] = useState(boards);
-  const [sortedBoards, setSortedBoards] = useState(boards);
+  const [sortedBoards, setSortedBoards] = useState([]);
   //debounce the search
   useEffect(() => {
     const timeout = setTimeout(() => {
@@ -154,13 +159,13 @@ export const BoardList = ({ boards }) => {
     setSortedBoards(
       filteredBoards.sort((a, b) => {
         return sortOrder[a.goliothStatus] - sortOrder[b.goliothStatus];
-      })
+      }),
     );
   }, [filteredBoards]);
   return (
     <>
-      <SearchInput boards={boards} onSearch={setQuery} />
       <Legend />
+      <SearchInput boards={boards} onSearch={setQuery} />
       <div className="board-list">
         {sortedBoards.map((board) => (
           <Board key={board.boardId} board={board} />
@@ -170,5 +175,7 @@ export const BoardList = ({ boards }) => {
     </>
   );
 };
+
+## Hardware Catalog
 
 <BoardList boards={boards} />
