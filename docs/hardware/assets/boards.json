@@ -7,7 +7,8 @@
     "flash": null,
     "ram": null,
     "toolchain": ["zephyr", "xtools"],
-    "supported": ["i2c", "spi", "gpio"]
+    "supported": ["i2c", "spi", "gpio"],
+    "goliothStatus": "unverified"
   },
   {
     "boardId": "emsdp",
@@ -17,7 +18,8 @@
     "flash": null,
     "ram": 128,
     "toolchain": ["zephyr", "xtools"],
-    "supported": []
+    "supported": [],
+    "goliothStatus": "community"
   },
   {
     "boardId": "hsdk",
@@ -27,7 +29,8 @@
     "flash": null,
     "ram": null,
     "toolchain": ["zephyr", "xtools", "arcmwdt"],
-    "supported": []
+    "supported": [],
+    "goliothStatus": "verified"
   },
   {
     "boardId": "iotdk",
@@ -37,7 +40,8 @@
     "flash": null,
     "ram": 128,
     "toolchain": ["zephyr", "xtools"],
-    "supported": []
+    "supported": [],
+    "goliothStatus": "quickstart"
   },
   {
     "boardId": "96b_aerocore2",
