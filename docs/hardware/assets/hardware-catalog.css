@@ -111,6 +111,7 @@ html[data-theme="dark"] .search-input-group {
   padding: 5px;
   height: 100%;
   outline: none;
+  color: var(--ifm-font-color-base);
   background-color: var(--ifm-background-surface-color);
   font-size: medium;
   transition: border-color 0.3s ease-in-out;

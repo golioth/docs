@@ -139,14 +139,6 @@ export const BoardList = ({ boards }) => {
   const [query, setQuery] = useState("");
   const [filteredBoards, setFilteredBoards] = useState(boards);
   const [sortedBoards, setSortedBoards] = useState(boards);
-  //sort filtered boards by sort order
-  useEffect(() => {
-    setSortedBoards(
-      filteredBoards.sort((a, b) => {
-        return sortOrder[a.goliothStatus] - sortOrder[b.goliothStatus];
-      })
-    );
-  }, [filteredBoards]);
   //debounce the search
   useEffect(() => {
     const timeout = setTimeout(() => {
@@ -156,7 +148,15 @@ export const BoardList = ({ boards }) => {
       setFilteredBoards(filtered);
     }, 500);
     return () => clearTimeout(timeout);
-  }, [query, boards]);
+  }, [query]);
+  //sort filtered boards by sort order
+  useEffect(() => {
+    setSortedBoards(
+      filteredBoards.sort((a, b) => {
+        return sortOrder[a.goliothStatus] - sortOrder[b.goliothStatus];
+      })
+    );
+  }, [filteredBoards]);
   return (
     <>
       <SearchInput boards={boards} onSearch={setQuery} />
