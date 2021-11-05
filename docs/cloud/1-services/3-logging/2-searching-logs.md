@@ -3,7 +3,7 @@ id: searching-logs
 title: Searching Device Logs
 ---
 
-import Prerequisites from '../../partials/prerequisites-platform-setup.md'
+import Prerequisites from '/docs/partials/prerequisites-platform-setup.md'
 
 <Prerequisites />
 

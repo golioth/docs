@@ -1,8 +1,8 @@
 ---
 id: overview
-title: Services
+title: Services Overview
 hide_title: true
-slug: /Services
+slug: /cloud/services
 ---
 
 ## Overview

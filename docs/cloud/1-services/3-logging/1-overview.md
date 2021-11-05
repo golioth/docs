@@ -1,7 +1,7 @@
 ---
 id: overview
-title: Overview
-slug: /service/ota
+title: Logging Overview
+slug: /cloud/service/logging
 ---
 
 ## Coming Soon

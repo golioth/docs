@@ -3,7 +3,7 @@ id: simulating-devices
 title: Testing LightDB using coap CLI and goliothctl
 ---
 
-import Prerequisites from '../../partials/prerequisites-platform-setup.md'
+import Prerequisites from '/docs/partials/prerequisites-platform-setup.md'
 
 <Prerequisites />
 

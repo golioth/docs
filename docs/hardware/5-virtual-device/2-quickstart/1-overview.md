@@ -5,7 +5,7 @@ slug: /hardware/virtual-device/quickstart
 ---
 
 :::caution
-You must first follow the [Golioth Platform Quickstart](/services/getting-started) before attempting this guide.
+You must first follow the [Golioth Platform Quickstart](/getting-started) before attempting this guide.
 :::
 
 This quickstart guide shows you how to build and test your system *without any hardware*. Take THAT, atoms! Software, FTW!
