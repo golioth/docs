@@ -49,14 +49,14 @@ On your host computer open a terminal window, locate the source code of
 this sample application (i.e., `sample/hello`) and type:
 
 ```{.console}
-$ west build -b esp32 samples/hello
+$ west build -b esp32 samples/hello -p
 $ west flash
 ```
 
 or
 
 ```{.console}
-$ west build -b esp32 samples/hello -- -DOVERLAY_CONFIG="<overlay1.conf>;<overlay2.conf>"
+$ west build -b esp32 samples/hello -- -DOVERLAY_CONFIG="<overlay1.conf>;<overlay2.conf>" -p
 $ west flash
 ```
 
@@ -86,14 +86,14 @@ code of this sample application (i.e., `sample/hello`) and
 type:
 
 ```
-$ west build -b qemu_x86 samples/hello
+$ west build -b qemu_x86 samples/hello -p
 $ west build -t run
 ```
 
 or
 
 ```
-$ west build -b qemu_x86 samples/hello -- -DOVERLAY_CONFIG="<overlay1.conf>;<overlay2.conf>"
+$ west build -b qemu_x86 samples/hello -- -DOVERLAY_CONFIG="<overlay1.conf>;<overlay2.conf>" -p
 $ west build -t run
 ```
 

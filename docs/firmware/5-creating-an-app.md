@@ -211,7 +211,7 @@ about setting up the toolchain and the necessary environment variables.
 Now, to build it:
 
 ```bash
-west build -b esp32
+west build -b esp32 -p
 ```
 
 And to flash it to the board (exact paths may vary)

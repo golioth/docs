@@ -17,7 +17,7 @@ Device Firmware Upgrade (DFU) procedure.
 Build Zephyr sample application for nRF9160 Feather:
 
 ``` {.console}
-$ west build -b circuitdojo_feather_nrf9160ns samples/dfu
+$ west build -b circuitdojo_feather_nrf9160ns samples/dfu -p
 ```
 
 Enter bootloader and use `mcumgr` to flash firmware:
@@ -29,10 +29,10 @@ $ mcumgr --conntype serial --connstring /dev/ttyUSB,baudrate=1000000 build/zephy
 Now rebuild application with assigned new version to 1.2.3 to
 distinguish it from old firmware:
 
-    .. code-block:: console
 
-> \$ west build -p -b circuitdojo_feather_nrf9160ns samples/dfu \--
-> -DCONFIG_MCUBOOT_IMAGE_VERSION=\"1.2.3\"
+``` {.console}
+$ west build -p -b circuitdojo_feather_nrf9160ns samples/dfu -- -DCONFIG_MCUBOOT_IMAGE_VERSION=\"1.2.3\"
+```
 
 Follow [Start DFU using goliothctl](#start-dfu-using-goliothctl) to send
 new firmware, but use `build/zephyr/app_update.bin` instead of `new.bin`
@@ -124,7 +124,7 @@ credentials:
 Now build Zephyr sample application for nRF52840 DK:
 
 ``` {.console}
-$ west build -b nrf52840dk_nrf52840 samples/dfu
+$ west build -b nrf52840dk_nrf52840 samples/dfu -p
 ```
 
 ## Signing the sample image
@@ -158,11 +158,6 @@ won\'t be runnable:
 ``` {.console}
 $ west flash --bin-file build/zephyr/zephyr.signed.bin --hex-file build/zephyr/zephyr.signed.hex
 ```
-
-::: {.note}
-::: {.title}
-Note
-:::
 
 Some west flash runners use `bin` file by default, while others use
 `hex` file. This is why paths to both `zephyr.signed.bin` and

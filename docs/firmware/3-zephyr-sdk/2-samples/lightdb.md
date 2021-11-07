@@ -42,7 +42,7 @@ On your Linux host computer, open a terminal window, locate the source
 code of this sample application (i.e., `samples/lightdb`) and type:
 
 ``` {.console}
-$ west build -b qemu_x86 samples/lightdb
+$ west build -b qemu_x86 samples/lightdb -p
 $ west build -t run
 ```
 
@@ -111,7 +111,7 @@ On your host computer open a terminal window, locate the source code of
 this sample application (i.e., `samples/lightdb`) and type:
 
 ``` {.console}
-$ west build -b esp32 samples/lightdb
+$ west build -b esp32 samples/lightdb -p
 $ west flash
 ```
 
@@ -169,7 +169,7 @@ On your host computer open a terminal window, locate the source code of
 this sample application (i.e., `samples/lightdb`) and type:
 
 ``` {.console}
-$ west build -b nrf52840dk_nrf52840 samples/lightdb
+$ west build -b nrf52840dk_nrf52840 samples/lightdb -p
 $ west flash
 ```
 

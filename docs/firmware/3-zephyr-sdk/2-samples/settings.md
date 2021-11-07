@@ -53,7 +53,7 @@ On your host computer open a terminal window, locate the source code of
 this sample application (i.e., `samples/settings`) and type:
 
 ``` {.console}
-$ west build -b nrf52840dk_nrf52840 samples/hello
+$ west build -b nrf52840dk_nrf52840 samples/hello -p
 $ west flash
 ```
 

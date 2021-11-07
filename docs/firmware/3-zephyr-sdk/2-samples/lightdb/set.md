@@ -38,7 +38,7 @@ On your Linux host computer, open a terminal window, locate the source
 code of this sample application (i.e., `samples/lightdb/set`) and type:
 
 ``` {.console}
-$ west build -b qemu_x86 samples/lightdb/set
+$ west build -b qemu_x86 samples/lightdb/set -p
 $ west build -t run
 ```
 
@@ -67,7 +67,7 @@ On your host computer open a terminal window, locate the source code of
 this sample application (i.e., `samples/lightdb/set`) and type:
 
 ``` {.console}
-$ west build -b esp32 samples/lightdb/set
+$ west build -b esp32 samples/lightdb/set -p
 $ west flash
 ```
 
@@ -125,7 +125,7 @@ On your host computer open a terminal window, locate the source code of
 this sample application (i.e., `samples/lightdb/set`) and type:
 
 ``` {.console}
-$ west build -b nrf52840dk_nrf52840 samples/lightdb/set
+$ west build -b nrf52840dk_nrf52840 samples/lightdb/set -p
 $ west flash
 ```
 
@@ -135,7 +135,7 @@ On your host computer open a terminal window, locate the source code of
 this sample application (i.e., `samples/ligthdb/set`) and type:
 
 ``` {.console}
-$ west build -b circuitdojo_feather_nrf9160ns samples/lightdb/set
+$ west build -b circuitdojo_feather_nrf9160ns samples/lightdb/set -p
 ```
 
 Enter bootloader and use `mcumgr` (or `newtmgr`) to flash firmware:

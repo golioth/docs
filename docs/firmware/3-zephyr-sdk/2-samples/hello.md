@@ -38,7 +38,7 @@ On your Linux host computer, open a terminal window, locate the source
 code of this sample application (i.e., `samples/hello`) and type:
 
 ``` {.console}
-$ west build -b qemu_x86 samples/hello
+$ west build -b qemu_x86 samples/hello -p
 $ west build -t run
 ```
 
@@ -67,7 +67,7 @@ On your host computer open a terminal window, locate the source code of
 this sample application (i.e., `samples/hello`) and type:
 
 ``` {.console}
-$ west build -b esp32 samples/hello
+$ west build -b esp32 samples/hello -p
 $ west flash
 ```
 
@@ -125,7 +125,7 @@ On your host computer open a terminal window, locate the source code of
 this sample application (i.e., `samples/hello`) and type:
 
 ``` {.console}
-$ west build -b nrf52840dk_nrf52840 samples/hello
+$ west build -b nrf52840dk_nrf52840 samples/hello -p
 $ west flash
 ```
 
@@ -135,7 +135,7 @@ On your host computer open a terminal window, locate the source code of
 this sample application (i.e., `samples/hello`) and type:
 
 ``` {.console}
-$ west build -b circuitdojo_feather_nrf9160ns samples/hello
+$ west build -b circuitdojo_feather_nrf9160ns samples/hello -p
 ```
 
 Enter bootloader and use `mcumgr` (or `newtmgr`) to flash firmware:
