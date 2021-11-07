@@ -3,7 +3,7 @@ id: creating-an-app
 title: Creating a new application from scratch
 ---
 
-While the [Quickstart](/services/getting-started) focuses on running a sample that's located within the Zephyr file-hierarchy,
+While the [Quickstart](/getting-started) focuses on running a sample that's located within the Zephyr file-hierarchy,
 it's simple enough to create a new application that's separate from Zephyr.
 
 

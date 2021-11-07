@@ -1,7 +1,7 @@
 ---
 id: overview
-title: Overview
-slug: /service/lightdb
+title: LightDB Overview
+slug: /cloud/service/lightdb
 ---
 
 ## What is LightDB?
