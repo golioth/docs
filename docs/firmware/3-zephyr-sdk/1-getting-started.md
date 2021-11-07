@@ -21,7 +21,7 @@ Execute this command to download this repository together with all
 dependencies:
 
 ``` {.console}
-west init -m git@github.com:golioth/zephyr.git --mr main
+west init -m git@github.com:golioth/zephyr-sdk.git --mr main
 west update
 west patch
 ```
