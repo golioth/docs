@@ -1,6 +1,6 @@
 ---
 id: structure-data
-title: Structuring Data
+title: Structuring LightDB Data
 ---
 
 All data on LightDB is stored as JSON like objects. You can think of it as a cloud-hosted JSON tree.

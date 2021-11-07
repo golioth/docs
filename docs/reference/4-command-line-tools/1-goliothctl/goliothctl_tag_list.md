@@ -3,7 +3,7 @@ id: goliothctl_tag_list
 title: "goliothctl tag list"
 slug: goliothctl_tag_list
 sidebar_label: goliothctl tag list
-url: /reference/command-line-tools/goliothctl/goliothctl_tag_list
+url: /reference/command-line-tools/goliothctl/goliothctl_tag_list/
 hide_title: true
 ---
 ## goliothctl tag list
@@ -31,5 +31,5 @@ goliothctl tag list [flags]
 
 ### SEE ALSO
 
-* [goliothctl tag](/reference/command-line-tools/goliothctl/goliothctl_tag)	 - Create, update, and delete tags.
+* [goliothctl tag](/reference/command-line-tools/goliothctl/goliothctl_tag/)	 - Create, update, and delete tags.
 

@@ -3,7 +3,7 @@ id: goliothctl_tag_delete
 title: "goliothctl tag delete"
 slug: goliothctl_tag_delete
 sidebar_label: goliothctl tag delete
-url: /reference/command-line-tools/goliothctl/goliothctl_delete
+url: /reference/command-line-tools/goliothctl/goliothctl_tag_delete/
 hide_title: true
 ---
 ## goliothctl tag delete
@@ -36,5 +36,5 @@ goliothctl tag delete [tag name] [flags]
 
 ### SEE ALSO
 
-* [goliothctl tag](/reference/command-line-tools/goliothctl/goliothctl_tag)	 - Create, update, and delete tags.
+* [goliothctl tag](/reference/command-line-tools/goliothctl/goliothctl_tag/)	 - Create, update, and delete tags.
 

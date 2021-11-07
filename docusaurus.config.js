@@ -21,6 +21,12 @@ module.exports = {
       },
       items: [
         {
+          to: "getting-started",
+          activeBasePath: "getting-started",
+          label: "Getting Started",
+          position: "left",
+        },
+        {
           to: "hardware",
           activeBasePath: "hardware",
           label: "Hardware",
@@ -30,12 +36,6 @@ module.exports = {
           to: "firmware",
           activeBasePath: "firmware",
           label: "Firmware",
-          position: "left",
-        },
-        {
-          to: "services",
-          activeBasePath: "services",
-          label: "Services",
           position: "left",
         },
         {
@@ -69,11 +69,11 @@ module.exports = {
           items: [
             {
               label: "Getting Started",
-              to: "/services/getting-started",
+              to: "/getting-started",
             },
             {
               label: "Over the Air Updates",
-              to: "/services/ota",
+              to: "/cloud/services/ota",
             },
           ],
         },
@@ -94,11 +94,11 @@ module.exports = {
             },*/
             {
               label: "goliothctl",
-              to: "/reference/command-line-tools/goliothctl",
+              to: "/reference/command-line-tools/goliothctl/goliothctl/",
             },
             {
               label: "coap",
-              to: "/reference/command-line-tools/coap/",
+              to: "/reference/command-line-tools/coap/coap/",
             },
           ],
         },

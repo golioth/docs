@@ -1,5 +1,5 @@
 ---
-title: Golioth LightDB Set Sample
+title: Golioth Light DB Set Sample
 ---
 
 # Overview
@@ -160,7 +160,7 @@ This is the output from the serial console:
 [00:00:08.102,000] <inf> net_config: Lease time: 7200 seconds
 [00:00:08.102,000] <inf> net_config: Subnet: 255.255.255.0
 [00:00:08.102,000] <inf> net_config: Router: 192.168.0.1
-[00:00:08.102,000] <dbg> golioth_lightdb.main: Start LightDB set sample
+[00:00:08.102,000] <dbg> golioth_lightdb.main: Start Light DB set sample
 [00:00:08.102,000] <inf> golioth_system: Starting connect
 [00:00:08.103,000] <inf> golioth_system: Client connected!
 ```
@@ -168,7 +168,7 @@ This is the output from the serial console:
 ## Monitor counter value
 
 Device increments counter every 5s and updates `/counter` resource in
-LightDB with its value. Current value can be fetched using following
+Light DB with its value. Current value can be fetched using following
 command:
 
 ``` {.console}

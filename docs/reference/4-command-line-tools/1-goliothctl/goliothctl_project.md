@@ -3,7 +3,7 @@ id: goliothctl_project
 title: "goliothctl project"
 slug: goliothctl_project
 sidebar_label: goliothctl project
-url: /reference/command-line-tools/goliothctl/goliothctl_project
+url: /reference/command-line-tools/goliothctl/goliothctl_project/
 hide_title: true
 ---
 ## goliothctl project
@@ -50,7 +50,7 @@ goliothctl project [flags]
 
 ### SEE ALSO
 
-* [goliothctl](/reference/command-line-tools/goliothctl)	 - Manage Golioth platform resources and developer workflow.
+* [goliothctl](/reference/command-line-tools/goliothctl/goliothctl/)	 - Manage Golioth platform resources and developer workflow.
 * [goliothctl project create](/reference/command-line-tools/goliothctl/goliothctl_project_create/)	 - Create a project.
 * [goliothctl project delete](/reference/command-line-tools/goliothctl/goliothctl_project_delete/)	 - Delete the current project.
 * [goliothctl project list](/reference/command-line-tools/goliothctl/goliothctl_project_list/)	 - List all projects associated with your Golioth account.

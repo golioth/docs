@@ -45,5 +45,5 @@ goliothctl updates send [device name] <file> [flags]
 
 ### SEE ALSO
 
-* [goliothctl updates](/reference/command-line-tools/goliothctl/goliothctl_updates)	 - Trigger device updates.
+* [goliothctl updates](/reference/command-line-tools/goliothctl/goliothctl_updates/)	 - Trigger device updates.
 

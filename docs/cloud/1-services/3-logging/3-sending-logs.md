@@ -3,7 +3,7 @@ id: sending-logs
 title: Sending Logs
 ---
 
-import Prerequisites from '../../partials/prerequisites-platform-setup.md'
+import Prerequisites from '/docs/partials/prerequisites-platform-setup.md'
 
 <Prerequisites />
 
