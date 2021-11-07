@@ -51,6 +51,11 @@ module.exports = {
           position: "left",
         },
         {
+          href: "https://golioth.io/discord",
+          label: "Discord",
+          position: "right",
+        },
+        {
           href: "https://github.com/golioth",
           label: "GitHub",
           position: "right",
