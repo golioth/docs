@@ -19,3 +19,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# 3rd party / vendor files
+/vendor/zephyr
+/static/img/boards

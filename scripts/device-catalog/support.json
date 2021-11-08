@@ -1,0 +1,23 @@
+{
+    "arc": {
+    },
+    "arm": {
+        "circuitdojo_feather_nrf9160": {
+            "level": "quickstart"
+        }
+    },
+    "arm64": {
+    },
+    "nios2": {
+    },
+    "posix": {
+    },
+    "riscv": {
+    },
+    "sparc": {
+    },
+    "x86": {
+    },
+    "xtensa": {
+    }
+}
