@@ -23,11 +23,14 @@ import {
   faQuestion,
 } from "@fortawesome/free-solid-svg-icons";
 
-export const SearchInput = ({ boards, onSearch }) => {
-  const [search, setSearch] = useState("");
+export const SearchInput = ({ filters, setFilters }) => {
+  const [query, setQuery] = useState("");
   useEffect(() => {
-    onSearch(search);
-  }, [search]);
+    const timeout = setTimeout(() => {
+      setFilters({ ...filters, query });
+    }, 500);
+    return () => clearTimeout(timeout);
+  }, [query]);
   return (
     <div className="search-input-group">
       <span className="search-icon">
@@ -38,36 +41,59 @@ export const SearchInput = ({ boards, onSearch }) => {
         type="search"
         results="5"
         placeholder="Search by board name"
-        value={search}
-        onChange={(e) => setSearch(e.target.value)}
+        value={query}
+        onChange={(e) => setQuery(e.target.value)}
       />
     </div>
   );
 };
 
-export const Legend = () => {
+export const Legend = ({ filters, setFilters }) => {
+  const handleBadgeClick = (badge) => {
+    if (filters.badges.includes(badge))
+      return setFilters({
+        ...filters,
+        badges: filters.badges.filter((b) => b !== badge),
+      });
+    setFilters({
+      ...filters,
+      badges: [...filters.badges, badge],
+    });
+  };
+  // check If legend-item is active
+  const className = (badge) => {
+    return filters.badges.includes(badge)
+      ? "legend-item active"
+      : "legend-item";
+  };
   return (
     <div className="legend">
-      <div className="legend-title">Legend:</div>
-      <div className="legend-item">
+      <div className="legend-title">Filters:</div>
+      <div className={className("quickstart")} onClick={() => handleBadgeClick("quickstart")}>
         <FontAwesomeIcon
           icon={faCheckDouble}
           className="board-status-badge gradient"
         />
         <span>Verified + Quickstart</span>
       </div>
-      <div className="legend-item">
+      <div className={className("verified")} onClick={() => handleBadgeClick("verified")}>
         <FontAwesomeIcon icon={faCheck} className="board-status-badge green" />
         <span>Verified</span>
       </div>
-      <div className="legend-item">
+      <div
+        className={className("community")}
+        onClick={() => handleBadgeClick("community")}
+      >
         <FontAwesomeIcon
           icon={faUserCheck}
           className="board-status-badge blue"
         />
         <span>Community Verified</span>
       </div>
-      <div className="legend-item">
+      <div
+        className={className("unverified")}
+        onClick={() => handleBadgeClick("unverified")}
+      >
         <FontAwesomeIcon icon={faQuestion} className="board-status-badge" />
         <span>Unverified</span>
       </div>
@@ -141,20 +167,25 @@ export const BoardList = ({ boards }) => {
     community: 3,
     unverified: 4,
   };
-  const [query, setQuery] = useState("");
+  const [filters, setFilters] = useState({
+    query: "",
+    badges: [],
+  });
   const [filteredBoards, setFilteredBoards] = useState(boards);
   const [sortedBoards, setSortedBoards] = useState([]);
-  //debounce the search
+  // filter boards by filters
   useEffect(() => {
-    const timeout = setTimeout(() => {
-      const filtered = boards.filter(({ name }) =>
-        name.toLowerCase().includes(query.toLowerCase()),
-      );
-      setFilteredBoards(filtered);
-    }, 500);
-    return () => clearTimeout(timeout);
-  }, [query]);
-  //sort filtered boards by sort order
+    const filtered = boards.filter((board) => {
+      const { query, badges } = filters;
+      const { name } = board;
+      const matchesQuery = query === "" || name.includes(query);
+      const matchesBadges =
+        badges.length === 0 || badges.includes(board.goliothStatus) || 
+        (badges.includes("unverified") && board.goliothStatus === undefined);
+      return matchesQuery && matchesBadges;
+    });
+    setFilteredBoards(filtered);
+  }, [filters, boards]);
   useEffect(() => {
     setSortedBoards(
       filteredBoards.sort((a, b) => {
@@ -164,8 +195,8 @@ export const BoardList = ({ boards }) => {
   }, [filteredBoards]);
   return (
     <>
-      <Legend />
-      <SearchInput boards={boards} onSearch={setQuery} />
+      <Legend filters={filters} setFilters={setFilters} />
+      <SearchInput filters={filters} setFilters={setFilters} />
       <div className="board-list">
         {sortedBoards.map((board) => (
           <Board key={board.boardId} board={board} />

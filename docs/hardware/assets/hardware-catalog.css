@@ -15,7 +15,7 @@
   width: 300px;
   height: 240px;
   border-radius: 4px;
-  background-color: #fafafa; /*var(--ifm-card-background-color);*/
+  background-color: #fafafa;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
   overflow: hidden;
 }
@@ -42,7 +42,7 @@ html[data-theme="dark"] .board-card {
   align-items: flex-end;
   width: 100%;
   height: 100%;
-  padding: 8px;
+  padding: 4px;
 }
 
 .board-card .board-status-badge,
@@ -143,6 +143,14 @@ html[data-theme="dark"] .search-input-group {
   flex-flow: row wrap;
   align-items: center;
   gap: 14px;
+  padding: 6px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.legend .legend-item.active {
+  background-color: var(--ifm-color-primary-darker);
+  color: white;
 }
 
 .empty {
