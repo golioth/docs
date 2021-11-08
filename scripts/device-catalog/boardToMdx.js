@@ -8,7 +8,7 @@ slug: /catalog/${board.boardId}
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![${board.name}!](/img/${board.img} "${board.name}")
+![${board.name}!](/img/boards/${board.arch}/${board.img} "${board.name}")
 
 ## Board ID
 
