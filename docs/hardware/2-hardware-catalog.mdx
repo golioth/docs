@@ -161,6 +161,7 @@ export const BoardStatusBadge = ({ level }) => {
 
 export const Board = ({ board }) => {
   const { boardId, name, img, arch, level } = board;
+  const imgPath = img ? `/img/boards/${arch}/${img}` : "/img/img-placeholder.png"
   return (
     <Link
       className={"board-card " + getBadgeColor(level)}
@@ -170,7 +171,7 @@ export const Board = ({ board }) => {
         <div className="board-card-badge-container">
           <BoardStatusBadge level={level} title={level} />
         </div>
-        <Image img={`/img/boards/${arch}/${img}`} />
+        <Image img={imgPath} />
       </div>
       <div className="board-card-footer" title={name}>
         {name}
