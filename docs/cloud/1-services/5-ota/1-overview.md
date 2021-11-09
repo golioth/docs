@@ -1,7 +1,7 @@
 ---
 id: overview
 title: Overview
-slug: /cloud/service/ota
+slug: /cloud/services/ota
 ---
 
 Golioth Device Firmware Update (DFU) enables quick, secure deployment of firmware packages to IoT devices throughout the world. The Golioth Web Console enables easy management of firmware releases, including multi-part binary bundles, enabling updates for devices as diverse as smart speakers, digital signage, machine learning enabled sensor systems, multiple processor embedded devices, and more.
@@ -18,7 +18,6 @@ Artifact and Releases can be accessed through either the [`goliothctl dfu`](/ref
   - A release is a collection of artifacts to be delivered to the target embedded device. In the simplest example, a release will only contain a single artifact, the firmware image to reprogram the main processor on board. Once you mark a release as active, any eligible embedded devices will attempt to download and install that firmware update. Release rollout and rollback can be controlled from the [Golioth Console](https://console.golioth.io)
 - Blueprint
   - Blueprint is a mapping of the elements on board your system. This includes the memory mapping of flash elements onboard. Blueprints help to segment which devices in your fleet are elible to download a particular release. For instance, the release may have a different firmware memory offset for one blueprint vs another, due to differences in the flash memory on different versions of a product.
- 
 
 ### Use Cases
 
