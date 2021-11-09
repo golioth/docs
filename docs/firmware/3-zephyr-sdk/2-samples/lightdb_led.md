@@ -22,7 +22,7 @@ credentials:
 
 by adding these lines to configuration file (e.g. `prj.conf`):
 
-``` {.cfg}
+``` cfg
 CONFIG_GOLIOTH_SYSTEM_CLIENT_PSK_ID="my-psk-id"
 CONFIG_GOLIOTH_SYSTEM_CLIENT_PSK="my-psk"
 ```
@@ -37,7 +37,7 @@ QEMU ARM Cortex-M3 (qemu_cortex_m3).
 On your Linux host computer, open a terminal window, locate the source
 code of this sample application (i.e., `samples/lightdb_led`) and type:
 
-``` {.console}
+``` console
 $ west build -b qemu_x86 samples/lightdb_led
 $ west build -t run
 ```
@@ -58,7 +58,7 @@ credentials:
 by adding these lines to configuration file (e.g. `prj.conf` or
 `board/esp32.conf`):
 
-``` {.cfg}
+``` cfg
 CONFIG_GOLIOTH_SAMPLE_WIFI_SSID="my-wifi"
 CONFIG_GOLIOTH_SAMPLE_WIFI_PSK="my-psk"
 ```
@@ -66,7 +66,7 @@ CONFIG_GOLIOTH_SAMPLE_WIFI_PSK="my-psk"
 On your host computer open a terminal window, locate the source code of
 this sample application (i.e., `samples/lightdb_led`) and type:
 
-``` {.console}
+``` console
 $ west build -b esp32 samples/lightdb_led
 $ west flash
 ```
@@ -84,7 +84,7 @@ Lists](https://docs.espressif.com/projects/esp-at/en/latest/AT_Binary_Lists/inde
 for links to ESP-AT binaries and details on how to flash ESP-AT image on
 ESP chip. Flash ESP chip with following command:
 
-``` {.console}
+``` console
 esptool.py write_flash --verify 0x0 PATH_TO_ESP_AT/factory/factory_WROOM-32.bin
 ```
 
@@ -116,7 +116,7 @@ credentials:
 by adding these lines to configuration file (e.g. `prj.conf` or
 `board/nrf52840dk_nrf52840.conf`):
 
-``` {.cfg}
+``` cfg
 CONFIG_GOLIOTH_SAMPLE_WIFI_SSID="my-wifi"
 CONFIG_GOLIOTH_SAMPLE_WIFI_PSK="my-psk"
 ```
@@ -124,7 +124,7 @@ CONFIG_GOLIOTH_SAMPLE_WIFI_PSK="my-psk"
 On your host computer open a terminal window, locate the source code of
 this sample application (i.e., `samples/lightdb_led`) and type:
 
-``` {.console}
+``` console
 $ west build -b nrf52840dk_nrf52840 samples/lightdb_led
 $ west flash
 ```
@@ -134,13 +134,13 @@ $ west flash
 On your host computer open a terminal window, locate the source code of
 this sample application (i.e., `samples/lightdb_led`) and type:
 
-``` {.console}
-$ west build -b circuitdojo_feather_nrf9160ns samples/lightdb_led
+``` console
+$ west build -b circuitdojo_feather_nrf9160_ns samples/lightdb_led
 ```
 
 Enter bootloader and use `mcumgr` (or `newtmgr`) to flash firmware:
 
-``` {.console}
+``` console
 $ mcumgr --conntype serial --connstring /dev/ttyUSB0,baudrate=1000000 build/zephyr/app_update.bin
 ```
 
@@ -152,7 +152,7 @@ for details.
 
 This is the output from the serial console:
 
-``` {.console}
+``` console
 [00:00:00.010,000] <wrn> net_sock_tls: No entropy device on the system, TLS communication may be insecure!
 [00:00:00.010,000] <inf> net_config: Initializing network
 [00:00:00.010,000] <inf> net_config: IPv4 address: 192.0.2.1
@@ -178,7 +178,7 @@ Device increments counter every 5s and updates `/counter` resource in
 Light DB with its value. Current value can be fetched using following
 command:
 
-``` {.console}
+``` console
 goliothctl lightdb get <device-id> /counter
 ```
 
@@ -186,13 +186,13 @@ goliothctl lightdb get <device-id> /counter
 
 Multiple LEDs can be changed simultaneously using following command:
 
-``` {.console}
+``` console
 goliothctl lightdb set <device-id> /led -b '{"0":true,"1":false,"2":true,"3":true}'
 ```
 
 This request should result in following serial console output:
 
-``` {.console}
+``` console
 [00:00:04.050,000] <dbg> golioth_lightdb: Payload
                                           a4 61 33 f5 61 30 f5 61  31 f4 61 32 f5          |.a3.a0.a 1.a2.
 [00:00:04.050,000] <inf> golioth_lightdb: LED 3 -> 1

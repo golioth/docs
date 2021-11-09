@@ -22,7 +22,7 @@ credentials:
 
 by adding these lines to configuration file (e.g. `prj.conf`):
 
-``` {.cfg}
+``` cfg
 CONFIG_GOLIOTH_SYSTEM_CLIENT_PSK_ID="my-psk-id"
 CONFIG_GOLIOTH_SYSTEM_CLIENT_PSK="my-psk"
 ```
@@ -37,7 +37,7 @@ QEMU ARM Cortex-M3 (qemu_cortex_m3).
 On your Linux host computer, open a terminal window, locate the source
 code of this sample application (i.e., `samples/lightdb/set`) and type:
 
-``` {.console}
+``` console
 $ west build -b qemu_x86 samples/lightdb/set
 $ west build -t run
 ```
@@ -58,7 +58,7 @@ credentials:
 by adding these lines to configuration file (e.g. `prj.conf` or
 `board/esp32.conf`):
 
-``` {.cfg}
+``` cfg
 CONFIG_GOLIOTH_SAMPLE_WIFI_SSID="my-wifi"
 CONFIG_GOLIOTH_SAMPLE_WIFI_PSK="my-psk"
 ```
@@ -66,7 +66,7 @@ CONFIG_GOLIOTH_SAMPLE_WIFI_PSK="my-psk"
 On your host computer open a terminal window, locate the source code of
 this sample application (i.e., `samples/lightdb/set`) and type:
 
-``` {.console}
+``` console
 $ west build -b esp32 samples/lightdb/set
 $ west flash
 ```
@@ -84,7 +84,7 @@ Lists](https://docs.espressif.com/projects/esp-at/en/latest/AT_Binary_Lists/inde
 for links to ESP-AT binaries and details on how to flash ESP-AT image on
 ESP chip. Flash ESP chip with following command:
 
-``` {.console}
+``` console
 esptool.py write_flash --verify 0x0 PATH_TO_ESP_AT/factory/factory_WROOM-32.bin
 ```
 
@@ -116,7 +116,7 @@ credentials:
 by adding these lines to configuration file (e.g. `prj.conf` or
 `board/nrf52840dk_nrf52840.conf`):
 
-``` {.cfg}
+``` cfg
 CONFIG_GOLIOTH_SAMPLE_WIFI_SSID="my-wifi"
 CONFIG_GOLIOTH_SAMPLE_WIFI_PSK="my-psk"
 ```
@@ -124,7 +124,7 @@ CONFIG_GOLIOTH_SAMPLE_WIFI_PSK="my-psk"
 On your host computer open a terminal window, locate the source code of
 this sample application (i.e., `samples/lightdb/set`) and type:
 
-``` {.console}
+``` console
 $ west build -b nrf52840dk_nrf52840 samples/lightdb/set
 $ west flash
 ```
@@ -134,13 +134,13 @@ $ west flash
 On your host computer open a terminal window, locate the source code of
 this sample application (i.e., `samples/ligthdb/set`) and type:
 
-``` {.console}
-$ west build -b circuitdojo_feather_nrf9160ns samples/lightdb/set
+``` console
+$ west build -b circuitdojo_feather_nrf9160_ns samples/lightdb/set
 ```
 
 Enter bootloader and use `mcumgr` (or `newtmgr`) to flash firmware:
 
-``` {.console}
+``` console
 $ mcumgr --conntype serial --connstring /dev/ttyUSB0,baudrate=1000000 build/zephyr/app_update.bin
 ```
 
@@ -152,7 +152,7 @@ for details.
 
 This is the output from the serial console:
 
-``` {.console}
+``` console
 [00:00:04.033,000] <inf> esp_event: WIFI_EVENT_STA_DISCONNECTED
 [00:00:04.186,000] <inf> esp_event: WIFI_EVENT_STA_CONNECTED
 [00:00:08.102,000] <inf> net_dhcpv4: Received: 192.168.0.180
@@ -171,6 +171,6 @@ Device increments counter every 5s and updates `/counter` resource in
 Light DB with its value. Current value can be fetched using following
 command:
 
-``` {.console}
+``` console
 goliothctl lightdb get <device-name> /counter
 ```

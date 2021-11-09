@@ -22,7 +22,7 @@ credentials:
 
 by adding these lines to configuration file (e.g. `prj.conf`):
 
-``` {.cfg}
+``` cfg
 CONFIG_GOLIOTH_SYSTEM_CLIENT_PSK_ID="my-psk-id"
 CONFIG_GOLIOTH_SYSTEM_CLIENT_PSK="my-psk"
 ```
@@ -37,7 +37,7 @@ QEMU ARM Cortex-M3 (qemu_cortex_m3).
 On your Linux host computer, open a terminal window, locate the source
 code of this sample application (i.e., `samples/logging`) and type:
 
-``` {.console}
+``` console
 $ west build -b qemu_x86 samples/logging
 $ west build -t run
 ```
@@ -58,7 +58,7 @@ credentials:
 by adding these lines to configuration file (e.g. `prj.conf` or
 `board/esp32.conf`):
 
-``` {.cfg}
+``` cfg
 CONFIG_GOLIOTH_SAMPLE_WIFI_SSID="my-wifi"
 CONFIG_GOLIOTH_SAMPLE_WIFI_PSK="my-psk"
 ```
@@ -66,7 +66,7 @@ CONFIG_GOLIOTH_SAMPLE_WIFI_PSK="my-psk"
 On your host computer open a terminal window, locate the source code of
 this sample application (i.e., `samples/logging`) and type:
 
-``` {.console}
+``` console
 $ west build -b esp32 samples/logging
 $ west flash
 ```
@@ -84,7 +84,7 @@ Lists](https://docs.espressif.com/projects/esp-at/en/latest/AT_Binary_Lists/inde
 for links to ESP-AT binaries and details on how to flash ESP-AT image on
 ESP chip. Flash ESP chip with following command:
 
-``` {.console}
+``` console
 esptool.py write_flash --verify 0x0 PATH_TO_ESP_AT/factory/factory_WROOM-32.bin
 ```
 
@@ -116,7 +116,7 @@ credentials:
 by adding these lines to configuration file (e.g. `prj.conf` or
 `board/nrf52840dk_nrf52840.conf`):
 
-``` {.cfg}
+``` cfg
 CONFIG_GOLIOTH_SAMPLE_WIFI_SSID="my-wifi"
 CONFIG_GOLIOTH_SAMPLE_WIFI_PSK="my-psk"
 ```
@@ -124,7 +124,7 @@ CONFIG_GOLIOTH_SAMPLE_WIFI_PSK="my-psk"
 On your host computer open a terminal window, locate the source code of
 this sample application (i.e., `samples/logging`) and type:
 
-``` {.console}
+``` console
 $ west build -b nrf52840dk_nrf52840 samples/logging
 $ west flash
 ```
@@ -134,13 +134,13 @@ $ west flash
 On your host computer open a terminal window, locate the source code of
 this sample application (i.e., `samples/logging`) and type:
 
-``` {.console}
-$ west build -b circuitdojo_feather_nrf9160ns samples/logging
+``` console
+$ west build -b circuitdojo_feather_nrf9160_ns samples/logging
 ```
 
 Enter bootloader and use `mcumgr` (or `newtmgr`) to flash firmware:
 
-``` {.console}
+``` console
 $ mcumgr --conntype serial --connstring /dev/ttyUSB0,baudrate=1000000 build/zephyr/app_update.bin
 ```
 
@@ -152,7 +152,7 @@ for details.
 
 This is the output from the serial console:
 
-``` {.console}
+``` console
 [00:00:00.100,000] <wrn> net_sock_tls: No entropy device on the system, TLS communication may be insecure!
 [00:00:00.100,000] <inf> net_config: Initializing network
 [00:00:00.100,000] <inf> net_config: IPv4 address: 192.0.2.1
@@ -188,7 +188,7 @@ This is the output from the serial console:
 
 This is how logs are visible
 
-``` {.console}
+``` console
 $ goliothctl logs
 [2021-04-08 14:20:32 +0000 UTC] level:WARN module:"golioth_logging" message:"Warn: 0" metadata:{fields:{key:"index" value:{number_value:9}} fields:{key:"uptime" value:{number_value:100000}}} device_id:"xxxxxxxxxxxxxxxxxxxxxxxx"
 [2021-04-08 14:20:32 +0000 UTC] level:INFO module:"golioth_logging" message:"Golioth client initialized" metadata:{fields:{key:"index" value:{number_value:5}} fields:{key:"uptime" value:{number_value:100000}}} device_id:"xxxxxxxxxxxxxxxxxxxxxxxx"
