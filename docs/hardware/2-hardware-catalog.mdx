@@ -141,17 +141,17 @@ export const BoardStatusBadge = ({ goliothStatus }) => {
 };
 
 export const Board = ({ board }) => {
-  const { boardId, name, img, goliothStatus } = board;
+  const { boardId, name, img, arch, level } = board;
   return (
     <div className="board-card">
       <div className="board-card-image">
         <div className="board-card-badge-container">
           <BoardStatusBadge
-            goliothStatus={goliothStatus}
-            title={goliothStatus}
+            goliothStatus={level}
+            title={level}
           />
         </div>
-        <Image img={require(`./assets/${img}`)} />
+        <Image img={`/img/boards/${arch}/${img}`} />
       </div>
       <div className="board-card-footer" title={name}>
         {name}
@@ -180,8 +180,8 @@ export const BoardList = ({ boards }) => {
       const { name } = board;
       const matchesQuery = query === "" || name.includes(query);
       const matchesBadges =
-        badges.length === 0 || badges.includes(board.goliothStatus) || 
-        (badges.includes("unverified") && board.goliothStatus === undefined);
+        badges.length === 0 || badges.includes(board.level) ||
+        (badges.includes("unverified") && board.level === undefined);
       return matchesQuery && matchesBadges;
     });
     setFilteredBoards(filtered);
@@ -189,7 +189,7 @@ export const BoardList = ({ boards }) => {
   useEffect(() => {
     setSortedBoards(
       filteredBoards.sort((a, b) => {
-        return sortOrder[a.goliothStatus] - sortOrder[b.goliothStatus];
+        return sortOrder[a.level] - sortOrder[b.level];
       }),
     );
   }, [filteredBoards]);
