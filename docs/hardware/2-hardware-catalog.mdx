@@ -14,6 +14,7 @@ import mag from "./assets/img/magnifier.svg";
 import "./assets/hardware-catalog.css";
 import { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Link from "@docusaurus/Link";
 import {
   faCheck,
   faSearch,
@@ -39,7 +40,6 @@ export const SearchInput = ({ filters, setFilters }) => {
       <input
         className="search-input"
         type="search"
-        results="5"
         placeholder="Search by board name"
         value={query}
         onChange={(e) => setQuery(e.target.value)}
@@ -132,8 +132,8 @@ export const Empty = () => {
   );
 };
 
-export const BoardStatusBadge = ({ goliothStatus }) => {
-  switch (goliothStatus) {
+export const BoardStatusBadge = ({ level }) => {
+  switch (level) {
     case "quickstart":
       return (
         <FontAwesomeIcon
@@ -162,20 +162,20 @@ export const BoardStatusBadge = ({ goliothStatus }) => {
 export const Board = ({ board }) => {
   const { boardId, name, img, arch, level } = board;
   return (
-    <div className={"board-card " + getBadgeColor(goliothStatus)}>
+    <Link
+      className={"board-card " + getBadgeColor(level)}
+      href={`/hardware/catalog/boards/${arch}/${boardId}`}
+    >
       <div className="board-card-image">
         <div className="board-card-badge-container">
-          <BoardStatusBadge
-            goliothStatus={level}
-            title={level}
-          />
+          <BoardStatusBadge level={level} title={level} />
         </div>
         <Image img={`/img/boards/${arch}/${img}`} />
       </div>
       <div className="board-card-footer" title={name}>
-        <a href={`/hardware/catalog/boards/${arch}/${boardId}`}>{name}</a>
+        {name}
       </div>
-    </div>
+    </Link>
   );
 };
 
@@ -201,8 +201,8 @@ export const BoardList = ({ boards }) => {
         query === "" || name.toLowerCase().includes(query.toLowerCase());
       const matchesBadges =
         badges.length === 0 ||
-        badges.includes(board.goliothStatus) ||
-        (badges.includes("unverified") && board.goliothStatus === undefined);
+        badges.includes(board.level) ||
+        (badges.includes("unverified") && board.level === undefined);
       return matchesQuery && matchesBadges;
     });
     setFilteredBoards(filtered);
