@@ -17,7 +17,7 @@ Device Firmware Upgrade (DFU) procedure.
 Build Zephyr sample application for nRF9160 Feather:
 
 ``` {.console}
-$ west build -b circuitdojo_feather_nrf9160ns samples/dfu
+$ west build -b circuitdojo_feather_nrf9160ns samples/dfu -p -- -DCONFIG_MCUBOOT_IMAGE_VERSION=\"1.0.1\"
 ```
 
 Enter bootloader and use `mcumgr` to flash firmware:
@@ -29,10 +29,9 @@ $ mcumgr --conntype serial --connstring /dev/ttyUSB,baudrate=1000000 build/zephy
 Now rebuild application with assigned new version to 1.2.3 to
 distinguish it from old firmware:
 
-    .. code-block:: console
-
-> \$ west build -p -b circuitdojo_feather_nrf9160ns samples/dfu \--
-> -DCONFIG_MCUBOOT_IMAGE_VERSION=\"1.2.3\"
+``` {.console}
+$ west build -p -b circuitdojo_feather_nrf9160ns samples/dfu -- -DCONFIG_MCUBOOT_IMAGE_VERSION=\"1.2.3\"
+```
 
 Follow [Start DFU using goliothctl](#start-dfu-using-goliothctl) to send
 new firmware, but use `build/zephyr/app_update.bin` instead of `new.bin`
@@ -60,8 +59,8 @@ which means that we can build and flash it like normal using `west`,
 like so:
 
 ``` {.console}
-west build -b <board> -d build_mcuboot bootloader/mcuboot/boot/zephyr
-west flash -d build_mcuboot
+$ west build -b <board> -d build_mcuboot bootloader/mcuboot/boot/zephyr
+$ west flash -d build_mcuboot
 ```
 
 Substitute \<board\> for one of the boards supported by the sample.
