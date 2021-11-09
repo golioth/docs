@@ -48,6 +48,19 @@ export const SearchInput = ({ filters, setFilters }) => {
   );
 };
 
+export const getBadgeColor = (badge) => {
+  switch (badge) {
+    case "quickstart":
+      return "gradient";
+    case "verified":
+      return "green";
+    case "community":
+      return "blue";
+    default:
+      return "";
+  }
+};
+
 export const Legend = ({ filters, setFilters }) => {
   const handleBadgeClick = (badge) => {
     if (filters.badges.includes(badge))
@@ -69,14 +82,20 @@ export const Legend = ({ filters, setFilters }) => {
   return (
     <div className="legend">
       <div className="legend-title">Filters:</div>
-      <div className={className("quickstart")} onClick={() => handleBadgeClick("quickstart")}>
+      <div
+        className={className("quickstart")}
+        onClick={() => handleBadgeClick("quickstart")}
+      >
         <FontAwesomeIcon
           icon={faCheckDouble}
           className="board-status-badge gradient"
         />
         <span>Verified + Quickstart</span>
       </div>
-      <div className={className("verified")} onClick={() => handleBadgeClick("verified")}>
+      <div
+        className={className("verified")}
+        onClick={() => handleBadgeClick("verified")}
+      >
         <FontAwesomeIcon icon={faCheck} className="board-status-badge green" />
         <span>Verified</span>
       </div>
@@ -143,7 +162,7 @@ export const BoardStatusBadge = ({ goliothStatus }) => {
 export const Board = ({ board }) => {
   const { boardId, name, img, arch, level } = board;
   return (
-    <div className="board-card">
+    <div className={"board-card " + getBadgeColor(goliothStatus)}>
       <div className="board-card-image">
         <div className="board-card-badge-container">
           <BoardStatusBadge
