@@ -154,7 +154,7 @@ export const Board = ({ board }) => {
         <Image img={`/img/boards/${arch}/${img}`} />
       </div>
       <div className="board-card-footer" title={name}>
-        {name}
+        <a href={`/hardware/catalog/boards/${arch}/${boardId}`}>{name}</a>
       </div>
     </div>
   );
