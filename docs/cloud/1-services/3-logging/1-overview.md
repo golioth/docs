@@ -1,7 +1,7 @@
 ---
 id: overview
 title: Logging Overview
-slug: /cloud/service/logging
+slug: /cloud/services/logging
 ---
 
 ## Coming Soon
