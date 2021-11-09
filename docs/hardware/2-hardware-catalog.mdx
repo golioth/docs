@@ -197,10 +197,12 @@ export const BoardList = ({ boards }) => {
     const filtered = boards.filter((board) => {
       const { query, badges } = filters;
       const { name } = board;
-      const matchesQuery = query === "" || name.includes(query);
+      const matchesQuery =
+        query === "" || name.toLowerCase().includes(query.toLowerCase());
       const matchesBadges =
-        badges.length === 0 || badges.includes(board.level) ||
-        (badges.includes("unverified") && board.level === undefined);
+        badges.length === 0 ||
+        badges.includes(board.goliothStatus) ||
+        (badges.includes("unverified") && board.goliothStatus === undefined);
       return matchesQuery && matchesBadges;
     });
     setFilteredBoards(filtered);
