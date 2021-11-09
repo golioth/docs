@@ -17,8 +17,8 @@ function mkdir(path) {
 }
 
 function findBoardImage(arch, boardId) {
-    let img = 'default.png';
-    let suffix = 'png';
+    let img = null;
+    let suffix = null;
 
     for (const imageBase of [
         `${zephyrRoot}/boards/${arch}/${boardId}/doc/img/${boardId}`,
@@ -40,6 +40,8 @@ function findBoardImage(arch, boardId) {
 }
 
 function copyBoardImageToBuild(arch, boardId, img, suffix) {
+    if (img === null) return;
+
     mkdir(`${imgRoot}/${arch}`);
 
     if (fs.existsSync(`${imgRoot}/${arch}/${boardId}.${suffix}`) === false) {
@@ -57,7 +59,7 @@ function getBoardMetadata(arch, boardId, suffix) {
     const board = {
         boardId,
         name: boardId,
-        img: `${boardId}.${suffix}`,
+        img: suffix === null ? null : `${boardId}.${suffix}`,
         arch,
         flash: null,
         ram: null,
@@ -120,14 +122,14 @@ for (const arch of architectures) {
     const boardIds = fs.readdirSync(`${zephyrRoot}/boards/${arch}`);
 
     for (const boardId of boardIds) {
+        if (boardId === 'index.rst') continue;
 
         count.boards++;
 
         const { img, suffix } = findBoardImage(arch, boardId);
 
-        if (img === 'default.png') {
+        if (img === null) {
             unbuilt.push(`${arch}:${boardId}`);
-            continue;
         }
 
         const board = getBoardMetadata(arch, boardId, suffix);
