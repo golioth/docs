@@ -4,6 +4,19 @@
     "arm": {
         "circuitdojo_feather_nrf9160": {
             "level": "quickstart"
+        },
+        "nrf9160dk_nrf9160": {
+            "level": "verified"
+        },
+        "nrf52840dk_nrf52840": {
+            "level": "shield",
+            "shield": "nrf52840dk_nrf52840"
+        },
+        "qemu_cortex_m3": {
+            "level": "verified"
+        },
+        "qemu_x86": {
+            "level": "verified"
         }
     },
     "arm64": {
@@ -19,5 +32,8 @@
     "x86": {
     },
     "xtensa": {
+        "esp32": {
+            "level": "verified"
+        }
     }
 }
