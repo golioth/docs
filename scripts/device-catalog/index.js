@@ -49,6 +49,18 @@ function copyBoardImageToBuild(arch, boardId, img, suffix) {
     }
 }
 
+function createArchRoot(arch) {
+    mkdir(`${docsRoot}/${arch}`);
+    fs.writeFileSync(
+        `${docsRoot}/${arch}/_category_.yml`,
+        `\
+label: '${arch.toUpperCase()}'
+collapsible: true
+collapsed: true
+`
+    );
+}
+
 function getBoardVerification(board) {
     const record = verifications[board.arch][board.boardId];
     if (record === undefined)  return 'unverified';
@@ -117,7 +129,7 @@ for (const arch of architectures) {
     if (!fs.statSync(`${zephyrRoot}/boards/${arch}`).isDirectory()) continue;
     if (arch === 'common' || arch === 'shields') continue;
 
-    mkdir(`${docsRoot}/${arch}`);
+    createArchRoot(arch);
 
     const boardIds = fs.readdirSync(`${zephyrRoot}/boards/${arch}`);
 
