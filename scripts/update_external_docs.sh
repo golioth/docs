@@ -26,10 +26,12 @@ for doc in $(find . -type f -name "README.rst" | cut -c3-); do
   #echo "$CUR_DIR/docs/firmware/3-zephyr-sdk/2-samples/${doc}"
   DOC_DIR=$(dirname "$CUR_DIR/docs/firmware/3-zephyr-sdk/$doc")
   mkdir -p "$DOC_DIR"
+  sed -i '' "s~{.console}~\`~g" "$doc"
   pandoc "$doc" -f rst -t markdown -s -o "$DOC_DIR.md"
   sed -i '' "s~(samples/~(/firmware/zephyr-sdk/samples/~g" "$DOC_DIR.md"
   sed -i '' "s~\[samples/~\`sample/~g" "$DOC_DIR.md"
   sed -i '' "s~\]{.title-ref}~\`~g" "$DOC_DIR.md"
+  sed -i '' "s~\<board>~[board]~g" "$DOC_DIR.md"
   sed -i '' "s~/README.rst~~g" "$DOC_DIR.md"
 done
 cp -r $CUR_DIR/docs/firmware/3-zephyr-sdk/samples/* $CUR_DIR/docs/firmware/3-zephyr-sdk/2-samples

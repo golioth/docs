@@ -26,7 +26,7 @@ Lists](https://docs.espressif.com/projects/esp-at/en/latest/AT_Binary_Lists/inde
 for links to ESP-AT binaries and details on how to flash ESP-AT image on
 ESP chip. Flash ESP chip with following command:
 
-``` {.console}
+``` console
 esptool.py write_flash --verify 0x0 PATH_TO_ESP_AT/factory/factory_WROOM-32.bin
 ```
 
@@ -52,7 +52,7 @@ board) using wires:
 On your host computer open a terminal window, locate the source code of
 this sample application (i.e., `samples/settings`) and type:
 
-``` {.console}
+``` console
 $ west build -b nrf52840dk_nrf52840 samples/hello
 $ west flash
 ```
@@ -60,19 +60,19 @@ $ west flash
 Configure PSK and PSK-ID using `mcumgr` based on your Golioth
 credentials:
 
-``` {.console}
+``` console
 mcumgr --conntype ble --connstring peer_name=Zephyr config golioth/psk-id <my-id>
 mcumgr --conntype ble --connstring peer_name=Zephyr config golioth/psk <my-pass>
 ```
 
 Configure WiFi SSID and PSK using `mcumgr`:
 
-``` {.console}
+``` console
 mcumgr --conntype ble --connstring peer_name=Zephyr config wifi/ssid <my-ssid>
 mcumgr --conntype ble --connstring peer_name=Zephyr config wifi/psk <my-pass>
 ```
 
-``` {.console}
+``` console
 mcumgr --conntype ble --connstring peer_name=Zephyr reset
 ```
 
@@ -81,7 +81,7 @@ mcumgr --conntype ble --connstring peer_name=Zephyr reset
 This is the output from the serial console of nRF52840 DK +
 ESP32-WROOM-32:
 
-``` {.console}
+``` console
 [00:00:00.366,455] <inf> bt: Bluetooth initialized
 [00:00:00.366,912] <inf> bt: Advertising successfully started
 [00:00:00.366,943] <inf> golioth_system: Initializing

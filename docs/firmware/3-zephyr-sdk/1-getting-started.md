@@ -20,7 +20,7 @@ manifest repo.
 Execute this command to download this repository together with all
 dependencies:
 
-``` {.console}
+``` console
 west init -m git@github.com:golioth/zephyr.git --mr main
 west update
 west patch
@@ -33,7 +33,7 @@ Alternatively add following entry to `west.yml` file in
 [west](https://docs.zephyrproject.org/latest/guides/west/index.html)
 based project (e.g. Zephyr RTOS):
 
-``` {.yaml}
+``` yaml
 # Golioth repository.
 - name: golioth
   path: modules/lib/golioth
@@ -49,7 +49,7 @@ based project (e.g. Zephyr RTOS):
 
 and clone all repositories including that one by running:
 
-``` {.console}
+``` console
 west update
 ```
 
@@ -66,13 +66,13 @@ SDK](https://www.nordicsemi.com/Software-and-tools/Software/nRF-Connect-SDK)
 to make use of their distinct features, which is cellular network
 connectivity. Initialize nRF Connect SDK with following command:
 
-``` {.console}
-west init -m https://github.com/nrfconnect/sdk-nrf --mr v1.7.0-rc2
+``` console
+west init -m https://github.com/nrfconnect/sdk-nrf --mr v1.7.1
 ```
 
 Add following entry to `west.yml` file in `manifest/projects` subtree:
 
-``` {.yaml}
+``` yaml
 # Golioth repository.
 - name: golioth
   path: modules/lib/golioth
@@ -88,7 +88,7 @@ Add following entry to `west.yml` file in `manifest/projects` subtree:
 
 Now clone all repositories with:
 
-``` {.console}
+``` console
 west update
 ```
 
