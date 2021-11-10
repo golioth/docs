@@ -4,7 +4,7 @@ const boardsToJsonFile = require('./boardsToJsonFile');
 const boardToMdx = require('./boardToMdx');
 
 const zephyrRoot = './vendor/zephyr';
-const docsRoot = './docs/hardware/boards';
+const docsRoot = './docs/hardware/6-boards';
 const imgRoot = './static/img/boards';
 const boardsFile = './docs/hardware/assets/boards.json';
 
@@ -49,16 +49,16 @@ function copyBoardImageToBuild(arch, boardId, img, suffix) {
     }
 }
 
-function createArchRoot(arch) {
-    mkdir(`${docsRoot}/${arch}`);
+function createLevelRoot(level) {
+    mkdir(`${docsRoot}/${level}`);
     fs.writeFileSync(
-        `${docsRoot}/${arch}/_category_.yml`,
+        `${docsRoot}/${level}/_category_.yml`,
         `\
-label: '${arch.toUpperCase()}'
+label: '${level.charAt(0).toUpperCase() + level.slice(1)}'
 collapsible: true
 collapsed: true
 `
-    );
+);
 }
 
 function getBoardVerification(board) {
@@ -103,9 +103,10 @@ function getBoardMetadata(arch, boardId, suffix) {
 }
 
 function buildBoard(board) {
-    const boardPath = `${docsRoot}/${board.arch}`;
+    const { boardId, level } = board;
+    const boardPath = `${docsRoot}/${level}`;
     mkdir(boardPath);
-    fs.writeFileSync(`${boardPath}/${board.boardId}.md`, boardToMdx(board));
+    fs.writeFileSync(`${boardPath}/${boardId}.md`, boardToMdx(board));
 }
 
 if (!fs.existsSync(zephyrRoot)) {
@@ -134,7 +135,7 @@ for (const arch of architectures) {
     if (!fs.statSync(`${zephyrRoot}/boards/${arch}`).isDirectory()) continue;
     if (arch === 'common' || arch === 'shields') continue;
 
-    createArchRoot(arch);
+    // createArchRoot(arch);
 
     const boardIds = fs.readdirSync(`${zephyrRoot}/boards/${arch}`);
 
@@ -151,6 +152,7 @@ for (const arch of architectures) {
 
         const board = getBoardMetadata(arch, boardId, suffix);
         boards.push(board);
+        createLevelRoot(board.level);
         copyBoardImageToBuild(arch, boardId, img, suffix);
         buildBoard(board);
 
@@ -163,7 +165,6 @@ boardsToJsonFile(boards, boardsFile);
 fs.writeFileSync(`${docsRoot}/_category_.yml`,
 `\
 label: 'Board catalog'
-position: 5 # float position is supported
 collapsible: true # make the category collapsible
 collapsed: true # keep the category open by default
 `
@@ -174,5 +175,5 @@ console.log(`Built ${count.built} out of ${count.boards} available boards.`);
 console.log('Built: ');
 console.log(boards.map((b) => `${b.arch}:${b.boardId}`).join(' '));
 
-console.log('\nUnbuilt: ');
+console.log('\nNo image: ');
 console.log(unbuilt.join(' '));

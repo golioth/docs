@@ -10,7 +10,7 @@ function boardToMdx(board) {
 ---
 id: ${board.arch}_${board.boardId}
 title: ${board.name}
-slug: /hardware/catalog/boards/${board.arch}/${board.boardId}
+slug: /hardware/catalog/boards/${board.level}/${board.boardId}
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)

@@ -1,5 +1,8 @@
 {
-    "arc": {
+  "arc": {},
+  "arm": {
+    "circuitdojo_feather_nrf9160": {
+      "level": "quickstart"
     },
     "arm": {
         "circuitdojo_feather_nrf9160": {
@@ -23,9 +26,11 @@
             "quickstart": "/hardware/virtual-device/quickstart"
         }
     },
-    "arm64": {
+    "nrf52840dk_nrf52840": {
+      "level": "community"
     },
-    "nios2": {
+    "qemu_cortex_m3": {
+      "level": "verified"
     },
     "posix": {
     },
@@ -41,4 +46,20 @@
             "quickstart": "/hardware/esp32/quickstart"
         }
     }
+  },
+  "arm64": {
+    "bcm958402m2_a72": {
+      "level": "verified"
+    }
+  },
+  "nios2": {},
+  "posix": {},
+  "riscv": {},
+  "sparc": {},
+  "x86": {},
+  "xtensa": {
+    "esp32": {
+      "level": "quickstart"
+    }
+  }
 }
