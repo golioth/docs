@@ -64,7 +64,10 @@ collapsed: true
 function getBoardVerification(board) {
     const record = verifications[board.arch][board.boardId];
     if (record === undefined)  return 'unverified';
-    return record.level || 'unverified';
+    return {
+        level: record.level || 'unverified',
+        quickstart: record.quickstart || null,
+    };
 }
 
 function getBoardMetadata(arch, boardId, suffix) {
@@ -92,7 +95,9 @@ function getBoardMetadata(arch, boardId, suffix) {
         board.supported = yaml.supported || [];
     }
 
-    board.level = getBoardVerification(board);
+    const { level, quickstart } = getBoardVerification(board);
+    board.level = level;
+    board.quickstart = quickstart;
 
     return board;
 }

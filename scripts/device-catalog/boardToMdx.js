@@ -14,13 +14,22 @@ slug: /hardware/catalog/boards/${board.arch}/${board.boardId}
 
 ${board.img !== null ? `![${board.name}!](/img/boards/${board.arch}/${board.img} "${board.name}")` : ''}
 
-|               | Board properties     |
-| ------------- | -------------------- |
-| Board ID      | \`${board.boardId}\` |
-| Golioth Level | ${board.level}       |
-| Architecture  | ${board.arch.toUpperCase()} |
-| RAM           | ${board.ram === null ? 'N/A' : `${board.ram} kB`} |
-| Flash         | ${board.flash === null ? 'N/A' : `${board.flash} kB`} |
+|                | Board properties     |
+| -------------  | -------------------- |
+| Board ID       | \`${board.boardId}\` |
+| Golioth Level  | ${board.level}       |
+${board.level === 'quickstart' ? `| Golioth Quickstart | [${board.boardId} quickstart](${board.quickstart}) |` : ''}
+| Architecture   | ${board.arch.toUpperCase()} |
+| RAM*           | ${board.ram === null ? 'N/A' : `${board.ram} kB`} |
+| Flash*         | ${board.flash === null ? 'N/A' : `${board.flash} kB`} |
+
+\\* values are as reported by Zephyr \`.yaml\` board files, which don't represent the overall available resources
+
+${ board.level === 'quickstart' ? `\
+## Getting started
+
+See our [quickstart quide for ${board.name}](${board.quickstart}).
+` : ''}
 
 ## Supported features
 
