@@ -15,6 +15,7 @@ import "./assets/hardware-catalog.css";
 import { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "@docusaurus/Link";
+import BrowserOnly from "@docusaurus/BrowserOnly";
 import {
   faCheck,
   faSearch,
@@ -161,7 +162,9 @@ export const BoardStatusBadge = ({ level }) => {
 
 export const Board = ({ board }) => {
   const { boardId, name, img, arch, level } = board;
-  const imgPath = img ? `/img/boards/${arch}/${img}` : "/img/img-placeholder.png"
+  const imgPath = img
+    ? `/img/boards/${arch}/${img}`
+    : "/img/img-placeholder.png";
   return (
     <Link
       className={"board-card " + getBadgeColor(level)}
@@ -232,6 +235,17 @@ export const BoardList = ({ boards }) => {
   );
 };
 
+export const BoardListWithoutFilters = ({ boards }) => (
+  <div className="board-list">
+    {boards.map((board) => (
+      <Board key={board.boardId} board={board} />
+    ))}
+    {boards.length === 0 && <Empty />}
+  </div>
+);
+
 ## Hardware Catalog
 
-<BoardList boards={boards} />
+<BrowserOnly fallback={<BoardListWithoutFilters boards={boards} />}>
+  {() => <BoardList boards={boards} />}
+</BrowserOnly>
