@@ -13,15 +13,7 @@ An endpoint is provided on our gateways on the `/logs` path where the device can
 
 Data can be sent using query parameters and also on the message body. The message body can be send in CBOR or JSON format and is going to be parsed and we will try to identify the known attributes as presented bellow. If the body is sent as plain text, it will be saved as the log entry message.
 
-### Parameters and attributes that are known and indexed:
-
-| Attribute             | Description                                                                         | Default |
-| --------------------- | ----------------------------------------------------------------------------------- | ------- |
-| `time` or `timestamp` | Timestamp of the log entry                                                          | now()   |
-| level                 | Log Level - Can be info/warn/error/debug                                            | info    |
-| module                | Internal module that is generating logs                                             |         |
-| `msg` or `message`    | Free form string with the log message                                               |         |
-|                       | Any other attribute sent over this endpoint is bundled into a `metadata` attribute. |         |
+> See [CoAP Gateway Interface](/cloud/protocols/coap/logging) or [MQTT Gateway Interface](/cloud/protocols/mqtt/logging)
 
 ### Simulating device logs using `coap`
 

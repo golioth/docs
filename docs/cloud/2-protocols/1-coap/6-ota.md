@@ -1,9 +1,15 @@
 ---
-id: cloud-interface
-title: Cloud Interface
+id: ota
+title: Over The Air (OTA) Updates
 ---
 
-Devices interact with our DFU service using the gateways available on the platform. For now, only CoAP is available.
+[Over The Air (OTA) Updates Service](/cloud/services/ota) definitions over CoAP.
+
+How to use guides:
+
+- [OTA Overview](/cloud/services/ota)
+
+### Interface
 
 | Method      | Description                                                                                                       | Path                      |
 | ----------- | ----------------------------------------------------------------------------------------------------------------- | ------------------------- |
