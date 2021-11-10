@@ -2,6 +2,8 @@
 id: arm_particle_argon
 title: Particle Argon
 slug: /hardware/catalog/boards/unverified/arm_particle_argon
+description: IoT board Particle Argon, compatible with Golioth at unverified level.
+image: /img/boards/arm/particle_argon.png
 sidebar_class_name: hide-item
 ---
 

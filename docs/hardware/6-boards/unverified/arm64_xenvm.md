@@ -2,6 +2,8 @@
 id: arm64_xenvm
 title: xenvm
 slug: /hardware/catalog/boards/unverified/arm64_xenvm
+description: IoT board xenvm, compatible with Golioth at unverified level.
+image: /img/boards/arm64/null
 sidebar_class_name: hide-item
 ---
 

@@ -2,6 +2,8 @@
 id: arm_pico_pi_m4
 title: Pico-Pi IMX7D
 slug: /hardware/catalog/boards/unverified/arm_pico_pi_m4
+description: IoT board Pico-Pi IMX7D, compatible with Golioth at unverified level.
+image: /img/boards/arm/pico_pi_m4.png
 sidebar_class_name: hide-item
 ---
 

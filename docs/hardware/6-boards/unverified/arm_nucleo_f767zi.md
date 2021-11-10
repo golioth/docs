@@ -2,6 +2,8 @@
 id: arm_nucleo_f767zi
 title: ST Nucleo F767ZI
 slug: /hardware/catalog/boards/unverified/arm_nucleo_f767zi
+description: IoT board ST Nucleo F767ZI, compatible with Golioth at unverified level.
+image: /img/boards/arm/nucleo_f767zi.jpg
 sidebar_class_name: hide-item
 ---
 

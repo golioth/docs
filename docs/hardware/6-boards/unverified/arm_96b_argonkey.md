@@ -2,6 +2,8 @@
 id: arm_96b_argonkey
 title: 96Boards Argonkey
 slug: /hardware/catalog/boards/unverified/arm_96b_argonkey
+description: IoT board 96Boards Argonkey, compatible with Golioth at unverified level.
+image: /img/boards/arm/96b_argonkey.jpg
 sidebar_class_name: hide-item
 ---
 

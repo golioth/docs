@@ -2,6 +2,8 @@
 id: arm_hexiwear_kw40z
 title: Hexiwear KW40Z
 slug: /hardware/catalog/boards/unverified/arm_hexiwear_kw40z
+description: IoT board Hexiwear KW40Z, compatible with Golioth at unverified level.
+image: /img/boards/arm/null
 sidebar_class_name: hide-item
 ---
 

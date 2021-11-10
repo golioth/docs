@@ -2,6 +2,8 @@
 id: arm_nrf51_ble400
 title: BLE400
 slug: /hardware/catalog/boards/unverified/arm_nrf51_ble400
+description: IoT board BLE400, compatible with Golioth at unverified level.
+image: /img/boards/arm/nrf51_ble400.jpg
 sidebar_class_name: hide-item
 ---
 

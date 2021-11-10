@@ -2,6 +2,8 @@
 id: arm_teensy4
 title: teensy4
 slug: /hardware/catalog/boards/unverified/arm_teensy4
+description: IoT board teensy4, compatible with Golioth at unverified level.
+image: /img/boards/arm/null
 sidebar_class_name: hide-item
 ---
 

@@ -2,6 +2,8 @@
 id: xtensa_esp32
 title: ESP-32
 slug: /hardware/catalog/boards/quickstart/xtensa_esp32
+description: IoT board ESP-32, compatible with Golioth at quickstart level.
+image: /img/boards/xtensa/null
 
 ---
 

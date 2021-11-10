@@ -2,6 +2,8 @@
 id: arm_reel_board
 title: reel-board
 slug: /hardware/catalog/boards/unverified/arm_reel_board
+description: IoT board reel-board, compatible with Golioth at unverified level.
+image: /img/boards/arm/reel_board.png
 sidebar_class_name: hide-item
 ---
 

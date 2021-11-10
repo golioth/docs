@@ -2,6 +2,8 @@
 id: posix_nrf52_bsim
 title: NRF52 BabbleSim board
 slug: /hardware/catalog/boards/unverified/posix_nrf52_bsim
+description: IoT board NRF52 BabbleSim board, compatible with Golioth at unverified level.
+image: /img/boards/posix/null
 sidebar_class_name: hide-item
 ---
 

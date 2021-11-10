@@ -2,6 +2,8 @@
 id: arm_frdm_k22f
 title: NXP FRDM-K22F
 slug: /hardware/catalog/boards/unverified/arm_frdm_k22f
+description: IoT board NXP FRDM-K22F, compatible with Golioth at unverified level.
+image: /img/boards/arm/frdm_k22f.jpg
 sidebar_class_name: hide-item
 ---
 

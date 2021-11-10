@@ -2,6 +2,8 @@
 id: arm_nrf51_blenano
 title: BLE Nano
 slug: /hardware/catalog/boards/unverified/arm_nrf51_blenano
+description: IoT board BLE Nano, compatible with Golioth at unverified level.
+image: /img/boards/arm/nrf51_blenano.png
 sidebar_class_name: hide-item
 ---
 

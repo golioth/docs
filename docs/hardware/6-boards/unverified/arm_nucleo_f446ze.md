@@ -2,6 +2,8 @@
 id: arm_nucleo_f446ze
 title: ST Nucleo F446ZE
 slug: /hardware/catalog/boards/unverified/arm_nucleo_f446ze
+description: IoT board ST Nucleo F446ZE, compatible with Golioth at unverified level.
+image: /img/boards/arm/nucleo_f446ze.jpg
 sidebar_class_name: hide-item
 ---
 

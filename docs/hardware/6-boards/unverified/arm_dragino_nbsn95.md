@@ -2,6 +2,8 @@
 id: arm_dragino_nbsn95
 title: Dragino NBSN95 NB-IoT Sensor Node
 slug: /hardware/catalog/boards/unverified/arm_dragino_nbsn95
+description: IoT board Dragino NBSN95 NB-IoT Sensor Node, compatible with Golioth at unverified level.
+image: /img/boards/arm/dragino_nbsn95.png
 sidebar_class_name: hide-item
 ---
 

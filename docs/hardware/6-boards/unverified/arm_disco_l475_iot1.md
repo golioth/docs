@@ -2,6 +2,8 @@
 id: arm_disco_l475_iot1
 title: ST Disco L475 IOT01 (B-L475E-IOT01A)
 slug: /hardware/catalog/boards/unverified/arm_disco_l475_iot1
+description: IoT board ST Disco L475 IOT01 (B-L475E-IOT01A), compatible with Golioth at unverified level.
+image: /img/boards/arm/disco_l475_iot1.jpg
 sidebar_class_name: hide-item
 ---
 

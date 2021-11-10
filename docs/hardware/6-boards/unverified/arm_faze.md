@@ -2,6 +2,8 @@
 id: arm_faze
 title: Seagate FireCuda Gaming SSD (FaZe)
 slug: /hardware/catalog/boards/unverified/arm_faze
+description: IoT board Seagate FireCuda Gaming SSD (FaZe), compatible with Golioth at unverified level.
+image: /img/boards/arm/null
 sidebar_class_name: hide-item
 ---
 

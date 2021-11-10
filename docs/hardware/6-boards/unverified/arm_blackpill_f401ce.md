@@ -2,6 +2,8 @@
 id: arm_blackpill_f401ce
 title: WeAct Studio Black Pill V3.0
 slug: /hardware/catalog/boards/unverified/arm_blackpill_f401ce
+description: IoT board WeAct Studio Black Pill V3.0, compatible with Golioth at unverified level.
+image: /img/boards/arm/null
 sidebar_class_name: hide-item
 ---
 

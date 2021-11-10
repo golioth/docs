@@ -2,6 +2,8 @@
 id: arc_hsdk
 title: HS Development Kit
 slug: /hardware/catalog/boards/unverified/arc_hsdk
+description: IoT board HS Development Kit, compatible with Golioth at unverified level.
+image: /img/boards/arc/hsdk.jpg
 sidebar_class_name: hide-item
 ---
 

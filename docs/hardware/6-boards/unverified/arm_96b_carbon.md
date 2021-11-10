@@ -2,6 +2,8 @@
 id: arm_96b_carbon
 title: 96Boards Carbon
 slug: /hardware/catalog/boards/unverified/arm_96b_carbon
+description: IoT board 96Boards Carbon, compatible with Golioth at unverified level.
+image: /img/boards/arm/96b_carbon.png
 sidebar_class_name: hide-item
 ---
 

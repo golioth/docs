@@ -2,6 +2,8 @@
 id: arm_96b_nitrogen
 title: 96Boards Nitrogen
 slug: /hardware/catalog/boards/unverified/arm_96b_nitrogen
+description: IoT board 96Boards Nitrogen, compatible with Golioth at unverified level.
+image: /img/boards/arm/96b_nitrogen.png
 sidebar_class_name: hide-item
 ---
 

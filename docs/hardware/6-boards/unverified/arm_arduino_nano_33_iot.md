@@ -2,6 +2,8 @@
 id: arm_arduino_nano_33_iot
 title: Arduino Nano 33 IOT
 slug: /hardware/catalog/boards/unverified/arm_arduino_nano_33_iot
+description: IoT board Arduino Nano 33 IOT, compatible with Golioth at unverified level.
+image: /img/boards/arm/null
 sidebar_class_name: hide-item
 ---
 

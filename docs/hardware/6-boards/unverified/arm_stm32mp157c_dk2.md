@@ -2,6 +2,8 @@
 id: arm_stm32mp157c_dk2
 title: ST STM32MP157C-DK2 Discovery
 slug: /hardware/catalog/boards/unverified/arm_stm32mp157c_dk2
+description: IoT board ST STM32MP157C-DK2 Discovery, compatible with Golioth at unverified level.
+image: /img/boards/arm/null
 sidebar_class_name: hide-item
 ---
 

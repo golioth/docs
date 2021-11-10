@@ -2,6 +2,8 @@
 id: arm_arduino_zero
 title: Arduino Zero
 slug: /hardware/catalog/boards/unverified/arm_arduino_zero
+description: IoT board Arduino Zero, compatible with Golioth at unverified level.
+image: /img/boards/arm/arduino_zero.png
 sidebar_class_name: hide-item
 ---
 

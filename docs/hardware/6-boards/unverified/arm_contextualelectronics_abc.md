@@ -2,6 +2,8 @@
 id: arm_contextualelectronics_abc
 title: contextualelectronics_abc
 slug: /hardware/catalog/boards/unverified/arm_contextualelectronics_abc
+description: IoT board contextualelectronics_abc, compatible with Golioth at unverified level.
+image: /img/boards/arm/contextualelectronics_abc.jpg
 sidebar_class_name: hide-item
 ---
 

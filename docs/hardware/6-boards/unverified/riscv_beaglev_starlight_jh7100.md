@@ -2,6 +2,8 @@
 id: riscv_beaglev_starlight_jh7100
 title: BeagleV Starlight JH7100 (NON-SMP)
 slug: /hardware/catalog/boards/unverified/riscv_beaglev_starlight_jh7100
+description: IoT board BeagleV Starlight JH7100 (NON-SMP), compatible with Golioth at unverified level.
+image: /img/boards/riscv/null
 sidebar_class_name: hide-item
 ---
 

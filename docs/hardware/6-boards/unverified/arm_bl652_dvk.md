@@ -2,6 +2,8 @@
 id: arm_bl652_dvk
 title: bl652_dvk
 slug: /hardware/catalog/boards/unverified/arm_bl652_dvk
+description: IoT board bl652_dvk, compatible with Golioth at unverified level.
+image: /img/boards/arm/bl652_dvk.jpg
 sidebar_class_name: hide-item
 ---
 

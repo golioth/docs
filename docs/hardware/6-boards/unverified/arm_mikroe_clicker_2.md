@@ -2,6 +2,8 @@
 id: arm_mikroe_clicker_2
 title: MikroE Clicker 2 for STM32
 slug: /hardware/catalog/boards/unverified/arm_mikroe_clicker_2
+description: IoT board MikroE Clicker 2 for STM32, compatible with Golioth at unverified level.
+image: /img/boards/arm/null
 sidebar_class_name: hide-item
 ---
 

@@ -2,6 +2,8 @@
 id: xtensa_intel_s1000_crb
 title: Intel S1000 using CAVS (Connected Audio Voice and Speech)
 slug: /hardware/catalog/boards/unverified/xtensa_intel_s1000_crb
+description: IoT board Intel S1000 using CAVS (Connected Audio Voice and Speech), compatible with Golioth at unverified level.
+image: /img/boards/xtensa/intel_s1000_crb.png
 sidebar_class_name: hide-item
 ---
 

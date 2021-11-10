@@ -2,6 +2,8 @@
 id: arm_legend
 title: Legend
 slug: /hardware/catalog/boards/unverified/arm_legend
+description: IoT board Legend, compatible with Golioth at unverified level.
+image: /img/boards/arm/null
 sidebar_class_name: hide-item
 ---
 

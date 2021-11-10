@@ -2,6 +2,8 @@
 id: arm_efm32pg_stk3401a
 title: EFM32PG-STK3401A
 slug: /hardware/catalog/boards/unverified/arm_efm32pg_stk3401a
+description: IoT board EFM32PG-STK3401A, compatible with Golioth at unverified level.
+image: /img/boards/arm/efm32pg_stk3401a.jpg
 sidebar_class_name: hide-item
 ---
 

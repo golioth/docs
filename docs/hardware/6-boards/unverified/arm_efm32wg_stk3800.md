@@ -2,6 +2,8 @@
 id: arm_efm32wg_stk3800
 title: EFM32WG-STK3800
 slug: /hardware/catalog/boards/unverified/arm_efm32wg_stk3800
+description: IoT board EFM32WG-STK3800, compatible with Golioth at unverified level.
+image: /img/boards/arm/efm32wg_stk3800.jpg
 sidebar_class_name: hide-item
 ---
 

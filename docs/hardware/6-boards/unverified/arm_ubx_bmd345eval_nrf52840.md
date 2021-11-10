@@ -2,6 +2,8 @@
 id: arm_ubx_bmd345eval_nrf52840
 title: BMD-345-EVAL
 slug: /hardware/catalog/boards/unverified/arm_ubx_bmd345eval_nrf52840
+description: IoT board BMD-345-EVAL, compatible with Golioth at unverified level.
+image: /img/boards/arm/null
 sidebar_class_name: hide-item
 ---
 

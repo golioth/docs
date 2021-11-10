@@ -2,6 +2,8 @@
 id: arm_stm32l562e_dk
 title: ST STM32L562E-DK Discovery
 slug: /hardware/catalog/boards/unverified/arm_stm32l562e_dk
+description: IoT board ST STM32L562E-DK Discovery, compatible with Golioth at unverified level.
+image: /img/boards/arm/stm32l562e_dk.jpg
 sidebar_class_name: hide-item
 ---
 

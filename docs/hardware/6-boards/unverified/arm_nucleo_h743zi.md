@@ -2,6 +2,8 @@
 id: arm_nucleo_h743zi
 title: ST Nucleo H743ZI
 slug: /hardware/catalog/boards/unverified/arm_nucleo_h743zi
+description: IoT board ST Nucleo H743ZI, compatible with Golioth at unverified level.
+image: /img/boards/arm/nucleo_h743zi.jpg
 sidebar_class_name: hide-item
 ---
 

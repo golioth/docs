@@ -2,6 +2,8 @@
 id: arm_nucleo_l476rg
 title: ST Nucleo L476RG
 slug: /hardware/catalog/boards/unverified/arm_nucleo_l476rg
+description: IoT board ST Nucleo L476RG, compatible with Golioth at unverified level.
+image: /img/boards/arm/nucleo_l476rg.jpg
 sidebar_class_name: hide-item
 ---
 

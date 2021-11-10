@@ -2,6 +2,8 @@
 id: arm_mec2016evb_assy6797
 title: MEC2016 EVB ASSY 6797
 slug: /hardware/catalog/boards/unverified/arm_mec2016evb_assy6797
+description: IoT board MEC2016 EVB ASSY 6797, compatible with Golioth at unverified level.
+image: /img/boards/arm/mec2016evb_assy6797.jpg
 sidebar_class_name: hide-item
 ---
 

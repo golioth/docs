@@ -2,6 +2,8 @@
 id: arm_mimxrt1160_evk
 title: mimxrt1160_evk
 slug: /hardware/catalog/boards/unverified/arm_mimxrt1160_evk
+description: IoT board mimxrt1160_evk, compatible with Golioth at unverified level.
+image: /img/boards/arm/mimxrt1160_evk.jpg
 sidebar_class_name: hide-item
 ---
 

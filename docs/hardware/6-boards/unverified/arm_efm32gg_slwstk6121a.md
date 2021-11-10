@@ -2,6 +2,8 @@
 id: arm_efm32gg_slwstk6121a
 title: EFM32GG-SLWSTK6121A
 slug: /hardware/catalog/boards/unverified/arm_efm32gg_slwstk6121a
+description: IoT board EFM32GG-SLWSTK6121A, compatible with Golioth at unverified level.
+image: /img/boards/arm/null
 sidebar_class_name: hide-item
 ---
 

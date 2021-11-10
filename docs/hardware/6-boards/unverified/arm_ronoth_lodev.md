@@ -2,6 +2,8 @@
 id: arm_ronoth_lodev
 title: Ronoth LoDev
 slug: /hardware/catalog/boards/unverified/arm_ronoth_lodev
+description: IoT board Ronoth LoDev, compatible with Golioth at unverified level.
+image: /img/boards/arm/null
 sidebar_class_name: hide-item
 ---
 

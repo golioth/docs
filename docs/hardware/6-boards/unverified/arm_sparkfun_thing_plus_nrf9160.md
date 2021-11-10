@@ -2,6 +2,8 @@
 id: arm_sparkfun_thing_plus_nrf9160
 title: Sparkfun-Thing-Plus-nRF9160
 slug: /hardware/catalog/boards/unverified/arm_sparkfun_thing_plus_nrf9160
+description: IoT board Sparkfun-Thing-Plus-nRF9160, compatible with Golioth at unverified level.
+image: /img/boards/arm/sparkfun_thing_plus_nrf9160.jpg
 sidebar_class_name: hide-item
 ---
 

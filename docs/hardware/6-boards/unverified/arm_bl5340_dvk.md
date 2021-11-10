@@ -2,6 +2,8 @@
 id: arm_bl5340_dvk
 title: bl5340_dvk
 slug: /hardware/catalog/boards/unverified/arm_bl5340_dvk
+description: IoT board bl5340_dvk, compatible with Golioth at unverified level.
+image: /img/boards/arm/null
 sidebar_class_name: hide-item
 ---
 

@@ -2,6 +2,8 @@
 id: arm_sam4s_xplained
 title: SAM4S Xplained
 slug: /hardware/catalog/boards/unverified/arm_sam4s_xplained
+description: IoT board SAM4S Xplained, compatible with Golioth at unverified level.
+image: /img/boards/arm/sam4s_xplained.png
 sidebar_class_name: hide-item
 ---
 

@@ -2,6 +2,8 @@
 id: riscv_esp32c3_devkitm
 title: ESP32-C3
 slug: /hardware/catalog/boards/unverified/riscv_esp32c3_devkitm
+description: IoT board ESP32-C3, compatible with Golioth at unverified level.
+image: /img/boards/riscv/null
 sidebar_class_name: hide-item
 ---
 

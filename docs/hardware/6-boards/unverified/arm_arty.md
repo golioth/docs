@@ -2,6 +2,8 @@
 id: arm_arty
 title: arty
 slug: /hardware/catalog/boards/unverified/arm_arty
+description: IoT board arty, compatible with Golioth at unverified level.
+image: /img/boards/arm/null
 sidebar_class_name: hide-item
 ---
 

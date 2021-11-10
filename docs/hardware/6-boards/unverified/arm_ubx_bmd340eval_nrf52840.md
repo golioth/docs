@@ -2,6 +2,8 @@
 id: arm_ubx_bmd340eval_nrf52840
 title: UBX_BMD340EVAL_NRF52840
 slug: /hardware/catalog/boards/unverified/arm_ubx_bmd340eval_nrf52840
+description: IoT board UBX_BMD340EVAL_NRF52840, compatible with Golioth at unverified level.
+image: /img/boards/arm/null
 sidebar_class_name: hide-item
 ---
 

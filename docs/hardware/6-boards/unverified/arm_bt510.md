@@ -2,6 +2,8 @@
 id: arm_bt510
 title: BT510
 slug: /hardware/catalog/boards/unverified/arm_bt510
+description: IoT board BT510, compatible with Golioth at unverified level.
+image: /img/boards/arm/bt510.jpg
 sidebar_class_name: hide-item
 ---
 

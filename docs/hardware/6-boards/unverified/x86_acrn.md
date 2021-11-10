@@ -2,6 +2,8 @@
 id: x86_acrn
 title: ACRN
 slug: /hardware/catalog/boards/unverified/x86_acrn
+description: IoT board ACRN, compatible with Golioth at unverified level.
+image: /img/boards/x86/null
 sidebar_class_name: hide-item
 ---
 

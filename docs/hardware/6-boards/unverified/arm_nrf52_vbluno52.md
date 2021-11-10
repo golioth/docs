@@ -2,6 +2,8 @@
 id: arm_nrf52_vbluno52
 title: nRF52-VBLUno52
 slug: /hardware/catalog/boards/unverified/arm_nrf52_vbluno52
+description: IoT board nRF52-VBLUno52, compatible with Golioth at unverified level.
+image: /img/boards/arm/nrf52_vbluno52.png
 sidebar_class_name: hide-item
 ---
 

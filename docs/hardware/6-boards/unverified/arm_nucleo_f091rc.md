@@ -2,6 +2,8 @@
 id: arm_nucleo_f091rc
 title: ST Nucleo F091RC
 slug: /hardware/catalog/boards/unverified/arm_nucleo_f091rc
+description: IoT board ST Nucleo F091RC, compatible with Golioth at unverified level.
+image: /img/boards/arm/nucleo_f091rc.jpg
 sidebar_class_name: hide-item
 ---
 

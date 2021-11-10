@@ -2,6 +2,8 @@
 id: arm_usb_kw24d512
 title: NXP USB-KW24D512
 slug: /hardware/catalog/boards/unverified/arm_usb_kw24d512
+description: IoT board NXP USB-KW24D512, compatible with Golioth at unverified level.
+image: /img/boards/arm/null
 sidebar_class_name: hide-item
 ---
 

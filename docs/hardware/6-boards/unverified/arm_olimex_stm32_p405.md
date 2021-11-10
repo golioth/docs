@@ -2,6 +2,8 @@
 id: arm_olimex_stm32_p405
 title: OLIMEX-STM32-P405
 slug: /hardware/catalog/boards/unverified/arm_olimex_stm32_p405
+description: IoT board OLIMEX-STM32-P405, compatible with Golioth at unverified level.
+image: /img/boards/arm/olimex_stm32_p405.png
 sidebar_class_name: hide-item
 ---
 

@@ -2,6 +2,8 @@
 id: arm_arduino_nano_33_ble
 title: Arduino Nano 33 BLE (Sense)
 slug: /hardware/catalog/boards/unverified/arm_arduino_nano_33_ble
+description: IoT board Arduino Nano 33 BLE (Sense), compatible with Golioth at unverified level.
+image: /img/boards/arm/null
 sidebar_class_name: hide-item
 ---
 

@@ -2,6 +2,8 @@
 id: arm_nucleo_l053r8
 title: ST Nucleo L053R8
 slug: /hardware/catalog/boards/unverified/arm_nucleo_l053r8
+description: IoT board ST Nucleo L053R8, compatible with Golioth at unverified level.
+image: /img/boards/arm/nucleo_l053r8.jpg
 sidebar_class_name: hide-item
 ---
 

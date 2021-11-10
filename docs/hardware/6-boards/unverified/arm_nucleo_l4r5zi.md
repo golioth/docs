@@ -2,6 +2,8 @@
 id: arm_nucleo_l4r5zi
 title: ST Nucleo L4R5ZI
 slug: /hardware/catalog/boards/unverified/arm_nucleo_l4r5zi
+description: IoT board ST Nucleo L4R5ZI, compatible with Golioth at unverified level.
+image: /img/boards/arm/nucleo_l4r5zi.jpg
 sidebar_class_name: hide-item
 ---
 

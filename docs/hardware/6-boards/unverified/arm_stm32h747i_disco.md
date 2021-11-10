@@ -2,6 +2,8 @@
 id: arm_stm32h747i_disco
 title: stm32h747i_disco
 slug: /hardware/catalog/boards/unverified/arm_stm32h747i_disco
+description: IoT board stm32h747i_disco, compatible with Golioth at unverified level.
+image: /img/boards/arm/stm32h747i_disco.jpg
 sidebar_class_name: hide-item
 ---
 

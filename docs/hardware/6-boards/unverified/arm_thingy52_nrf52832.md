@@ -2,6 +2,8 @@
 id: arm_thingy52_nrf52832
 title: Thingy52-NRF52832
 slug: /hardware/catalog/boards/unverified/arm_thingy52_nrf52832
+description: IoT board Thingy52-NRF52832, compatible with Golioth at unverified level.
+image: /img/boards/arm/thingy52_nrf52832.jpg
 sidebar_class_name: hide-item
 ---
 

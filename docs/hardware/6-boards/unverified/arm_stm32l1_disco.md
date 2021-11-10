@@ -2,6 +2,8 @@
 id: arm_stm32l1_disco
 title: ST STM32L1 Discovery
 slug: /hardware/catalog/boards/unverified/arm_stm32l1_disco
+description: IoT board ST STM32L1 Discovery, compatible with Golioth at unverified level.
+image: /img/boards/arm/stm32l1_disco.jpg
 sidebar_class_name: hide-item
 ---
 

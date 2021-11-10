@@ -2,6 +2,8 @@
 id: arm_mps2_an521
 title: ARM V2M MPS2-AN521
 slug: /hardware/catalog/boards/unverified/arm_mps2_an521
+description: IoT board ARM V2M MPS2-AN521, compatible with Golioth at unverified level.
+image: /img/boards/arm/mps2_an521.png
 sidebar_class_name: hide-item
 ---
 

@@ -2,6 +2,8 @@
 id: nios2_qemu_nios2
 title: QEMU Emulation for NIOS II
 slug: /hardware/catalog/boards/unverified/nios2_qemu_nios2
+description: IoT board QEMU Emulation for NIOS II, compatible with Golioth at unverified level.
+image: /img/boards/nios2/qemu_nios2.png
 sidebar_class_name: hide-item
 ---
 

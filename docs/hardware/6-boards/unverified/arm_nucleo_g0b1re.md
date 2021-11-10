@@ -2,6 +2,8 @@
 id: arm_nucleo_g0b1re
 title: ST Nucleo G0B1RE
 slug: /hardware/catalog/boards/unverified/arm_nucleo_g0b1re
+description: IoT board ST Nucleo G0B1RE, compatible with Golioth at unverified level.
+image: /img/boards/arm/nucleo_g0b1re.jpg
 sidebar_class_name: hide-item
 ---
 

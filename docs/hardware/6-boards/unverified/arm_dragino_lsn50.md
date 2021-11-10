@@ -2,6 +2,8 @@
 id: arm_dragino_lsn50
 title: Dragino LSN50 LoRA Sensor Node
 slug: /hardware/catalog/boards/unverified/arm_dragino_lsn50
+description: IoT board Dragino LSN50 LoRA Sensor Node, compatible with Golioth at unverified level.
+image: /img/boards/arm/dragino_lsn50.png
 sidebar_class_name: hide-item
 ---
 

@@ -2,6 +2,8 @@
 id: arm_nrf52832_mdk
 title: nRF52832-MDK
 slug: /hardware/catalog/boards/unverified/arm_nrf52832_mdk
+description: IoT board nRF52832-MDK, compatible with Golioth at unverified level.
+image: /img/boards/arm/null
 sidebar_class_name: hide-item
 ---
 

@@ -2,6 +2,8 @@
 id: arc_qemu_arc
 title: qemu_arc
 slug: /hardware/catalog/boards/unverified/arc_qemu_arc
+description: IoT board qemu_arc, compatible with Golioth at unverified level.
+image: /img/boards/arc/null
 sidebar_class_name: hide-item
 ---
 

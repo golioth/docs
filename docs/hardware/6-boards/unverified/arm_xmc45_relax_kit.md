@@ -2,6 +2,8 @@
 id: arm_xmc45_relax_kit
 title: XMC45-RELAX-KIT
 slug: /hardware/catalog/boards/unverified/arm_xmc45_relax_kit
+description: IoT board XMC45-RELAX-KIT, compatible with Golioth at unverified level.
+image: /img/boards/arm/xmc45_relax_kit.jpg
 sidebar_class_name: hide-item
 ---
 

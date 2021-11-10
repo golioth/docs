@@ -2,6 +2,8 @@
 id: arm_mimxrt685_evk
 title: mimxrt685_evk
 slug: /hardware/catalog/boards/unverified/arm_mimxrt685_evk
+description: IoT board mimxrt685_evk, compatible with Golioth at unverified level.
+image: /img/boards/arm/mimxrt685_evk.jpg
 sidebar_class_name: hide-item
 ---
 

@@ -2,6 +2,8 @@
 id: sparc_gr716a_mini
 title: GR716-MINI Development Board
 slug: /hardware/catalog/boards/unverified/sparc_gr716a_mini
+description: IoT board GR716-MINI Development Board, compatible with Golioth at unverified level.
+image: /img/boards/sparc/gr716a_mini.jpg
 sidebar_class_name: hide-item
 ---
 

@@ -2,6 +2,8 @@
 id: arm_96b_neonkey
 title: 96Boards Neonkey
 slug: /hardware/catalog/boards/unverified/arm_96b_neonkey
+description: IoT board 96Boards Neonkey, compatible with Golioth at unverified level.
+image: /img/boards/arm/96b_neonkey.jpg
 sidebar_class_name: hide-item
 ---
 

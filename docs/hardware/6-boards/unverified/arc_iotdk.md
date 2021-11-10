@@ -2,6 +2,8 @@
 id: arc_iotdk
 title: IoT Development Kit
 slug: /hardware/catalog/boards/unverified/arc_iotdk
+description: IoT board IoT Development Kit, compatible with Golioth at unverified level.
+image: /img/boards/arc/iotdk.jpg
 sidebar_class_name: hide-item
 ---
 

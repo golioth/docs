@@ -2,6 +2,8 @@
 id: arm_nucleo_wl55jc
 title: ST Nucleo WL55JC
 slug: /hardware/catalog/boards/unverified/arm_nucleo_wl55jc
+description: IoT board ST Nucleo WL55JC, compatible with Golioth at unverified level.
+image: /img/boards/arm/nucleo_wl55jc.jpg
 sidebar_class_name: hide-item
 ---
 

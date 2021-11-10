@@ -2,6 +2,8 @@
 id: arm64_intel_socfpga_agilex_socdk
 title: Intel SoC FPGA Agilex
 slug: /hardware/catalog/boards/unverified/arm64_intel_socfpga_agilex_socdk
+description: IoT board Intel SoC FPGA Agilex, compatible with Golioth at unverified level.
+image: /img/boards/arm64/null
 sidebar_class_name: hide-item
 ---
 

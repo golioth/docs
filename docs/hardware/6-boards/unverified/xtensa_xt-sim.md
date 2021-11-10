@@ -2,6 +2,8 @@
 id: xtensa_xt-sim
 title: XT Simulator
 slug: /hardware/catalog/boards/unverified/xtensa_xt-sim
+description: IoT board XT Simulator, compatible with Golioth at unverified level.
+image: /img/boards/xtensa/xt-sim.png
 sidebar_class_name: hide-item
 ---
 

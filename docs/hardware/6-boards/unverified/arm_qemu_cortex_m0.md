@@ -2,6 +2,8 @@
 id: arm_qemu_cortex_m0
 title: QEMU Emulation for Cortex-M0
 slug: /hardware/catalog/boards/unverified/arm_qemu_cortex_m0
+description: IoT board QEMU Emulation for Cortex-M0, compatible with Golioth at unverified level.
+image: /img/boards/arm/qemu_cortex_m0.png
 sidebar_class_name: hide-item
 ---
 

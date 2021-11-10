@@ -2,6 +2,8 @@
 id: arm_circuitdojo_feather_nrf9160
 title: CircuitDojo-Feather-nRF9160
 slug: /hardware/catalog/boards/quickstart/arm_circuitdojo_feather_nrf9160
+description: IoT board CircuitDojo-Feather-nRF9160, compatible with Golioth at quickstart level.
+image: /img/boards/arm/circuitdojo_feather_nrf9160.png
 
 ---
 

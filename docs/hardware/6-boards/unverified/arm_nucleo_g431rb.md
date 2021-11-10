@@ -2,6 +2,8 @@
 id: arm_nucleo_g431rb
 title: ST Nucleo G431RB
 slug: /hardware/catalog/boards/unverified/arm_nucleo_g431rb
+description: IoT board ST Nucleo G431RB, compatible with Golioth at unverified level.
+image: /img/boards/arm/nucleo_g431rb.jpg
 sidebar_class_name: hide-item
 ---
 

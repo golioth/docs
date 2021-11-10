@@ -2,6 +2,8 @@
 id: arm_lpcxpresso55s69
 title: lpcxpresso55s69
 slug: /hardware/catalog/boards/unverified/arm_lpcxpresso55s69
+description: IoT board lpcxpresso55s69, compatible with Golioth at unverified level.
+image: /img/boards/arm/lpcxpresso55s69.jpg
 sidebar_class_name: hide-item
 ---
 

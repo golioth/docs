@@ -2,6 +2,8 @@
 id: sparc_generic_leon3
 title: Generic LEON3 system
 slug: /hardware/catalog/boards/unverified/sparc_generic_leon3
+description: IoT board Generic LEON3 system, compatible with Golioth at unverified level.
+image: /img/boards/sparc/null
 sidebar_class_name: hide-item
 ---
 

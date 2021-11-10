@@ -2,6 +2,8 @@
 id: arm_lpcxpresso55s28
 title: NXP LPCXpresso55S28
 slug: /hardware/catalog/boards/unverified/arm_lpcxpresso55s28
+description: IoT board NXP LPCXpresso55S28, compatible with Golioth at unverified level.
+image: /img/boards/arm/null
 sidebar_class_name: hide-item
 ---
 

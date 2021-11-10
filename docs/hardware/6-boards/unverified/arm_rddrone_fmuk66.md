@@ -2,6 +2,8 @@
 id: arm_rddrone_fmuk66
 title: NXP RDDRONE-FMUK66
 slug: /hardware/catalog/boards/unverified/arm_rddrone_fmuk66
+description: IoT board NXP RDDRONE-FMUK66, compatible with Golioth at unverified level.
+image: /img/boards/arm/rddrone_fmuk66.jpg
 sidebar_class_name: hide-item
 ---
 

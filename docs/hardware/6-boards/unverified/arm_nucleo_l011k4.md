@@ -2,6 +2,8 @@
 id: arm_nucleo_l011k4
 title: ST Nucleo L011K4
 slug: /hardware/catalog/boards/unverified/arm_nucleo_l011k4
+description: IoT board ST Nucleo L011K4, compatible with Golioth at unverified level.
+image: /img/boards/arm/nucleo_l011k4.jpg
 sidebar_class_name: hide-item
 ---
 

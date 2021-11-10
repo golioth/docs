@@ -2,6 +2,8 @@
 id: arm_mimxrt1064_evk
 title: NXP MIMXRT1064-EVK
 slug: /hardware/catalog/boards/unverified/arm_mimxrt1064_evk
+description: IoT board NXP MIMXRT1064-EVK, compatible with Golioth at unverified level.
+image: /img/boards/arm/mimxrt1064_evk.jpg
 sidebar_class_name: hide-item
 ---
 

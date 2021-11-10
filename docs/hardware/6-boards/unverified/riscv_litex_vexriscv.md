@@ -2,6 +2,8 @@
 id: riscv_litex_vexriscv
 title: LiteX SoC with VexRiscV softcore CPU
 slug: /hardware/catalog/boards/unverified/riscv_litex_vexriscv
+description: IoT board LiteX SoC with VexRiscV softcore CPU, compatible with Golioth at unverified level.
+image: /img/boards/riscv/litex_vexriscv.jpg
 sidebar_class_name: hide-item
 ---
 

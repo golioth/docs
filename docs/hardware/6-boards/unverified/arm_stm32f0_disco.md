@@ -2,6 +2,8 @@
 id: arm_stm32f0_disco
 title: ST STM32F0 Discovery
 slug: /hardware/catalog/boards/unverified/arm_stm32f0_disco
+description: IoT board ST STM32F0 Discovery, compatible with Golioth at unverified level.
+image: /img/boards/arm/stm32f0_disco.jpg
 sidebar_class_name: hide-item
 ---
 

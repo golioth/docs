@@ -2,6 +2,8 @@
 id: arm_nrf5340dk_nrf5340
 title: nrf5340dk_nrf5340
 slug: /hardware/catalog/boards/unverified/arm_nrf5340dk_nrf5340
+description: IoT board nrf5340dk_nrf5340, compatible with Golioth at unverified level.
+image: /img/boards/arm/null
 sidebar_class_name: hide-item
 ---
 

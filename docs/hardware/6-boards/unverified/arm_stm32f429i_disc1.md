@@ -2,6 +2,8 @@
 id: arm_stm32f429i_disc1
 title: ST STM32F429I Discovery
 slug: /hardware/catalog/boards/unverified/arm_stm32f429i_disc1
+description: IoT board ST STM32F429I Discovery, compatible with Golioth at unverified level.
+image: /img/boards/arm/stm32f429i_disc1.png
 sidebar_class_name: hide-item
 ---
 

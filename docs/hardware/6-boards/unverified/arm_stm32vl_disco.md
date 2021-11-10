@@ -2,6 +2,8 @@
 id: arm_stm32vl_disco
 title: ST STM32VL Discovery
 slug: /hardware/catalog/boards/unverified/arm_stm32vl_disco
+description: IoT board ST STM32VL Discovery, compatible with Golioth at unverified level.
+image: /img/boards/arm/stm32vl_disco.jpg
 sidebar_class_name: hide-item
 ---
 

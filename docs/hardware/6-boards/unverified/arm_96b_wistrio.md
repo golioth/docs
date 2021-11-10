@@ -2,6 +2,8 @@
 id: arm_96b_wistrio
 title: 96boards WisTrio
 slug: /hardware/catalog/boards/unverified/arm_96b_wistrio
+description: IoT board 96boards WisTrio, compatible with Golioth at unverified level.
+image: /img/boards/arm/null
 sidebar_class_name: hide-item
 ---
 

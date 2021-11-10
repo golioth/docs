@@ -2,6 +2,8 @@
 id: riscv_qemu_riscv32
 title: QEMU Emulation for RISC-V 32-bit
 slug: /hardware/catalog/boards/unverified/riscv_qemu_riscv32
+description: IoT board QEMU Emulation for RISC-V 32-bit, compatible with Golioth at unverified level.
+image: /img/boards/riscv/qemu_riscv32.png
 sidebar_class_name: hide-item
 ---
 

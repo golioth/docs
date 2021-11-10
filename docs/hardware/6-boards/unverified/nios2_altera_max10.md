@@ -2,6 +2,8 @@
 id: nios2_altera_max10
 title: Altera MAX10
 slug: /hardware/catalog/boards/unverified/nios2_altera_max10
+description: IoT board Altera MAX10, compatible with Golioth at unverified level.
+image: /img/boards/nios2/altera_max10.jpg
 sidebar_class_name: hide-item
 ---
 

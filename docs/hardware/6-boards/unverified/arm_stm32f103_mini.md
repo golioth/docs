@@ -2,6 +2,8 @@
 id: arm_stm32f103_mini
 title: STM32F103RCT6 Mini Board
 slug: /hardware/catalog/boards/unverified/arm_stm32f103_mini
+description: IoT board STM32F103RCT6 Mini Board, compatible with Golioth at unverified level.
+image: /img/boards/arm/null
 sidebar_class_name: hide-item
 ---
 

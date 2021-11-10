@@ -2,6 +2,8 @@
 id: x86_qemu_x86
 title: QEMU Emulation for X86
 slug: /hardware/catalog/boards/unverified/x86_qemu_x86
+description: IoT board QEMU Emulation for X86, compatible with Golioth at unverified level.
+image: /img/boards/x86/qemu_x86.png
 sidebar_class_name: hide-item
 ---
 

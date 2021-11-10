@@ -2,6 +2,8 @@
 id: arm_nucleo_f429zi
 title: ST Nucleo F429ZI
 slug: /hardware/catalog/boards/unverified/arm_nucleo_f429zi
+description: IoT board ST Nucleo F429ZI, compatible with Golioth at unverified level.
+image: /img/boards/arm/nucleo_f429zi.png
 sidebar_class_name: hide-item
 ---
 

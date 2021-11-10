@@ -2,6 +2,8 @@
 id: arm_96b_aerocore2
 title: 96Boards AeroCore 2
 slug: /hardware/catalog/boards/unverified/arm_96b_aerocore2
+description: IoT board 96Boards AeroCore 2, compatible with Golioth at unverified level.
+image: /img/boards/arm/96b_aerocore2.jpg
 sidebar_class_name: hide-item
 ---
 

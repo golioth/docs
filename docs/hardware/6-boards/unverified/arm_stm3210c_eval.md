@@ -2,6 +2,8 @@
 id: arm_stm3210c_eval
 title: ST STM3210C Evaluation
 slug: /hardware/catalog/boards/unverified/arm_stm3210c_eval
+description: IoT board ST STM3210C Evaluation, compatible with Golioth at unverified level.
+image: /img/boards/arm/stm3210c_eval.jpg
 sidebar_class_name: hide-item
 ---
 

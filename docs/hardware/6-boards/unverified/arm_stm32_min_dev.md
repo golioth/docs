@@ -2,6 +2,8 @@
 id: arm_stm32_min_dev
 title: stm32_min_dev
 slug: /hardware/catalog/boards/unverified/arm_stm32_min_dev
+description: IoT board stm32_min_dev, compatible with Golioth at unverified level.
+image: /img/boards/arm/stm32_min_dev.jpg
 sidebar_class_name: hide-item
 ---
 

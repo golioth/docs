@@ -2,6 +2,8 @@
 id: arm_ubx_bmd300eval_nrf52832
 title: UBX_BMD300EVAL_NRF52832
 slug: /hardware/catalog/boards/unverified/arm_ubx_bmd300eval_nrf52832
+description: IoT board UBX_BMD300EVAL_NRF52832, compatible with Golioth at unverified level.
+image: /img/boards/arm/null
 sidebar_class_name: hide-item
 ---
 

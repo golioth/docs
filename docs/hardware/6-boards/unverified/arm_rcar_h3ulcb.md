@@ -2,6 +2,8 @@
 id: arm_rcar_h3ulcb
 title: rcar_h3ulcb
 slug: /hardware/catalog/boards/unverified/arm_rcar_h3ulcb
+description: IoT board rcar_h3ulcb, compatible with Golioth at unverified level.
+image: /img/boards/arm/null
 sidebar_class_name: hide-item
 ---
 

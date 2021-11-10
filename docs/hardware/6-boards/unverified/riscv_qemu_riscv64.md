@@ -2,6 +2,8 @@
 id: riscv_qemu_riscv64
 title: QEMU Emulation for RISC-V 64-bit
 slug: /hardware/catalog/boards/unverified/riscv_qemu_riscv64
+description: IoT board QEMU Emulation for RISC-V 64-bit, compatible with Golioth at unverified level.
+image: /img/boards/riscv/qemu_riscv64.png
 sidebar_class_name: hide-item
 ---
 

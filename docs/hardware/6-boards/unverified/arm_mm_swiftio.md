@@ -2,6 +2,8 @@
 id: arm_mm_swiftio
 title: MM MM-SWIFTIO
 slug: /hardware/catalog/boards/unverified/arm_mm_swiftio
+description: IoT board MM MM-SWIFTIO, compatible with Golioth at unverified level.
+image: /img/boards/arm/mm_swiftio.jpg
 sidebar_class_name: hide-item
 ---
 

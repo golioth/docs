@@ -2,6 +2,8 @@
 id: arm_ubx_evkninab1_nrf52832
 title: UBX-EVKNINAB1-NRF52832
 slug: /hardware/catalog/boards/unverified/arm_ubx_evkninab1_nrf52832
+description: IoT board UBX-EVKNINAB1-NRF52832, compatible with Golioth at unverified level.
+image: /img/boards/arm/null
 sidebar_class_name: hide-item
 ---
 

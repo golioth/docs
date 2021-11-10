@@ -2,6 +2,8 @@
 id: arm_udoo_neo_full_m4
 title: UDOO Neo Full
 slug: /hardware/catalog/boards/unverified/arm_udoo_neo_full_m4
+description: IoT board UDOO Neo Full, compatible with Golioth at unverified level.
+image: /img/boards/arm/udoo_neo_full_m4.jpg
 sidebar_class_name: hide-item
 ---
 

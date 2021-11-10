@@ -2,6 +2,8 @@
 id: arm_nrf52_sparkfun
 title: Sparkfun nRF52832 breakout
 slug: /hardware/catalog/boards/unverified/arm_nrf52_sparkfun
+description: IoT board Sparkfun nRF52832 breakout, compatible with Golioth at unverified level.
+image: /img/boards/arm/null
 sidebar_class_name: hide-item
 ---
 

@@ -2,6 +2,8 @@
 id: arm_mps2_an385
 title: ARM V2M MPS2
 slug: /hardware/catalog/boards/unverified/arm_mps2_an385
+description: IoT board ARM V2M MPS2, compatible with Golioth at unverified level.
+image: /img/boards/arm/mps2_an385.png
 sidebar_class_name: hide-item
 ---
 

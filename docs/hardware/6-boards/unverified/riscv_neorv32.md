@@ -2,6 +2,8 @@
 id: riscv_neorv32
 title: NEORV32 Processor (SoC)
 slug: /hardware/catalog/boards/unverified/riscv_neorv32
+description: IoT board NEORV32 Processor (SoC), compatible with Golioth at unverified level.
+image: /img/boards/riscv/null
 sidebar_class_name: hide-item
 ---
 

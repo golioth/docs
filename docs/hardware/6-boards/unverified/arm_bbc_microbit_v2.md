@@ -2,6 +2,8 @@
 id: arm_bbc_microbit_v2
 title: BBC Micro:Bit V2
 slug: /hardware/catalog/boards/unverified/arm_bbc_microbit_v2
+description: IoT board BBC Micro:Bit V2, compatible with Golioth at unverified level.
+image: /img/boards/arm/null
 sidebar_class_name: hide-item
 ---
 

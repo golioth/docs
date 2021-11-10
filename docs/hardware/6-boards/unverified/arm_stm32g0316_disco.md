@@ -2,6 +2,8 @@
 id: arm_stm32g0316_disco
 title: ST STM32G0316 Discovery
 slug: /hardware/catalog/boards/unverified/arm_stm32g0316_disco
+description: IoT board ST STM32G0316 Discovery, compatible with Golioth at unverified level.
+image: /img/boards/arm/stm32g0316_disco.jpg
 sidebar_class_name: hide-item
 ---
 

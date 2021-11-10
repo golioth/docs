@@ -2,6 +2,8 @@
 id: arm_actinius_icarus_bee
 title: Actinius Icarus Bee
 slug: /hardware/catalog/boards/unverified/arm_actinius_icarus_bee
+description: IoT board Actinius Icarus Bee, compatible with Golioth at unverified level.
+image: /img/boards/arm/null
 sidebar_class_name: hide-item
 ---
 

@@ -2,6 +2,8 @@
 id: arm_nucleo_l496zg
 title: ST Nucleo L496ZG
 slug: /hardware/catalog/boards/unverified/arm_nucleo_l496zg
+description: IoT board ST Nucleo L496ZG, compatible with Golioth at unverified level.
+image: /img/boards/arm/nucleo_l496zg.jpg
 sidebar_class_name: hide-item
 ---
 

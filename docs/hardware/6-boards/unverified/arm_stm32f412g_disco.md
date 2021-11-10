@@ -2,6 +2,8 @@
 id: arm_stm32f412g_disco
 title: ST STM32F412G Discovery
 slug: /hardware/catalog/boards/unverified/arm_stm32f412g_disco
+description: IoT board ST STM32F412G Discovery, compatible with Golioth at unverified level.
+image: /img/boards/arm/stm32f412g_disco.jpg
 sidebar_class_name: hide-item
 ---
 

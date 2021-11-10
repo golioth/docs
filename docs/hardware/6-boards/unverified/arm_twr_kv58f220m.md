@@ -2,6 +2,8 @@
 id: arm_twr_kv58f220m
 title: NXP TWR-KV58F220M
 slug: /hardware/catalog/boards/unverified/arm_twr_kv58f220m
+description: IoT board NXP TWR-KV58F220M, compatible with Golioth at unverified level.
+image: /img/boards/arm/twr_kv58f220m.jpg
 sidebar_class_name: hide-item
 ---
 

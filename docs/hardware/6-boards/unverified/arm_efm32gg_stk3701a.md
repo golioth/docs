@@ -2,6 +2,8 @@
 id: arm_efm32gg_stk3701a
 title: EFM32GG-STK3701A
 slug: /hardware/catalog/boards/unverified/arm_efm32gg_stk3701a
+description: IoT board EFM32GG-STK3701A, compatible with Golioth at unverified level.
+image: /img/boards/arm/efm32gg_stk3701a.jpg
 sidebar_class_name: hide-item
 ---
 

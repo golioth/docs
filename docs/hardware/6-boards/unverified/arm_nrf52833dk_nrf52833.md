@@ -2,6 +2,8 @@
 id: arm_nrf52833dk_nrf52833
 title: nRF52833-DK-NRF52833
 slug: /hardware/catalog/boards/unverified/arm_nrf52833dk_nrf52833
+description: IoT board nRF52833-DK-NRF52833, compatible with Golioth at unverified level.
+image: /img/boards/arm/null
 sidebar_class_name: hide-item
 ---
 

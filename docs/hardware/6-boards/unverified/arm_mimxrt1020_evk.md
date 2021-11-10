@@ -2,6 +2,8 @@
 id: arm_mimxrt1020_evk
 title: NXP MIMXRT1020-EVK
 slug: /hardware/catalog/boards/unverified/arm_mimxrt1020_evk
+description: IoT board NXP MIMXRT1020-EVK, compatible with Golioth at unverified level.
+image: /img/boards/arm/mimxrt1020_evk.jpg
 sidebar_class_name: hide-item
 ---
 

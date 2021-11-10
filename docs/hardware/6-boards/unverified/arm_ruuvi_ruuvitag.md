@@ -2,6 +2,8 @@
 id: arm_ruuvi_ruuvitag
 title: Ruuvi-RuuviTag
 slug: /hardware/catalog/boards/unverified/arm_ruuvi_ruuvitag
+description: IoT board Ruuvi-RuuviTag, compatible with Golioth at unverified level.
+image: /img/boards/arm/null
 sidebar_class_name: hide-item
 ---
 

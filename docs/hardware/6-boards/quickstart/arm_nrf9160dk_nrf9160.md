@@ -2,6 +2,8 @@
 id: arm_nrf9160dk_nrf9160
 title: nRF9160-DK-NRF9160
 slug: /hardware/catalog/boards/quickstart/arm_nrf9160dk_nrf9160
+description: IoT board nRF9160-DK-NRF9160, compatible with Golioth at quickstart level.
+image: /img/boards/arm/nrf9160dk_nrf9160.png
 
 ---
 

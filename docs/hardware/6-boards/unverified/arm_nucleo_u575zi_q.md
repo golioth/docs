@@ -2,6 +2,8 @@
 id: arm_nucleo_u575zi_q
 title: ST Nucleo U575ZI Q
 slug: /hardware/catalog/boards/unverified/arm_nucleo_u575zi_q
+description: IoT board ST Nucleo U575ZI Q, compatible with Golioth at unverified level.
+image: /img/boards/arm/null
 sidebar_class_name: hide-item
 ---
 

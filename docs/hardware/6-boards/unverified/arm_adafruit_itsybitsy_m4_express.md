@@ -2,6 +2,8 @@
 id: arm_adafruit_itsybitsy_m4_express
 title: Adafruit ItsyBitsy M4 Express
 slug: /hardware/catalog/boards/unverified/arm_adafruit_itsybitsy_m4_express
+description: IoT board Adafruit ItsyBitsy M4 Express, compatible with Golioth at unverified level.
+image: /img/boards/arm/adafruit_itsybitsy_m4_express.png
 sidebar_class_name: hide-item
 ---
 

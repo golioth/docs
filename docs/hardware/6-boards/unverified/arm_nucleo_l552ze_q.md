@@ -2,6 +2,8 @@
 id: arm_nucleo_l552ze_q
 title: ST Nucleo L552ZE Q
 slug: /hardware/catalog/boards/unverified/arm_nucleo_l552ze_q
+description: IoT board ST Nucleo L552ZE Q, compatible with Golioth at unverified level.
+image: /img/boards/arm/nucleo_l552ze_q.jpg
 sidebar_class_name: hide-item
 ---
 

@@ -2,6 +2,8 @@
 id: posix_native_posix
 title: Native 32-bit POSIX port
 slug: /hardware/catalog/boards/unverified/posix_native_posix
+description: IoT board Native 32-bit POSIX port, compatible with Golioth at unverified level.
+image: /img/boards/posix/null
 sidebar_class_name: hide-item
 ---
 

@@ -2,6 +2,8 @@
 id: arm_nucleo_h745zi_q
 title: nucleo_h745zi_q
 slug: /hardware/catalog/boards/unverified/arm_nucleo_h745zi_q
+description: IoT board nucleo_h745zi_q, compatible with Golioth at unverified level.
+image: /img/boards/arm/nucleo_h745zi_q.jpg
 sidebar_class_name: hide-item
 ---
 

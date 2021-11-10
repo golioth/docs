@@ -2,6 +2,8 @@
 id: arm_adafruit_feather_nrf52840
 title: Adafruit Feather nRF52840 Express
 slug: /hardware/catalog/boards/unverified/arm_adafruit_feather_nrf52840
+description: IoT board Adafruit Feather nRF52840 Express, compatible with Golioth at unverified level.
+image: /img/boards/arm/adafruit_feather_nrf52840.jpg
 sidebar_class_name: hide-item
 ---
 

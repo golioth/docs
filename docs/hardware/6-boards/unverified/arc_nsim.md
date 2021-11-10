@@ -2,6 +2,8 @@
 id: arc_nsim
 title: nsim
 slug: /hardware/catalog/boards/unverified/arc_nsim
+description: IoT board nsim, compatible with Golioth at unverified level.
+image: /img/boards/arc/null
 sidebar_class_name: hide-item
 ---
 

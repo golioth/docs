@@ -2,6 +2,8 @@
 id: arm_sensortile_box
 title: ST SensorTile.box
 slug: /hardware/catalog/boards/unverified/arm_sensortile_box
+description: IoT board ST SensorTile.box, compatible with Golioth at unverified level.
+image: /img/boards/arm/sensortile_box.jpg
 sidebar_class_name: hide-item
 ---
 

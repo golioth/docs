@@ -2,6 +2,8 @@
 id: riscv_rv32m1_vega
 title: rv32m1_vega
 slug: /hardware/catalog/boards/unverified/riscv_rv32m1_vega
+description: IoT board rv32m1_vega, compatible with Golioth at unverified level.
+image: /img/boards/riscv/rv32m1_vega.png
 sidebar_class_name: hide-item
 ---
 

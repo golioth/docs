@@ -2,6 +2,8 @@
 id: arm_mimx8mm_evk
 title: NXP i.MX8M Mini EVK
 slug: /hardware/catalog/boards/unverified/arm_mimx8mm_evk
+description: IoT board NXP i.MX8M Mini EVK, compatible with Golioth at unverified level.
+image: /img/boards/arm/mimx8mm_evk.jpg
 sidebar_class_name: hide-item
 ---
 

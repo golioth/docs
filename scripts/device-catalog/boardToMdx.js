@@ -12,6 +12,8 @@ function boardToMdx(board) {
 id: ${arch}_${boardId}
 title: ${name}
 slug: /hardware/catalog/boards/${level}/${arch}_${boardId}
+description: IoT board ${name}, compatible with Golioth at ${level} level.
+image: /img/boards/${arch}/${img}
 ${level === 'unverified' ? 'sidebar_class_name: hide-item' : ''}
 ---
 
@@ -33,7 +35,7 @@ ${level === 'quickstart' ? `| Golioth Quickstart | [${boardId} quickstart](${qui
 ${ level === 'quickstart' ? `\
 ## Getting started
 
-See our [quickstart quide for ${name}](${quickstart}).
+See our [quickstart guide for ${name}](${quickstart}).
 ` : ''}
 
 ## Supported features

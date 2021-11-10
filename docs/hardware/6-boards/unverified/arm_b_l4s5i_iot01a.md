@@ -2,6 +2,8 @@
 id: arm_b_l4s5i_iot01a
 title: ST B_L4S5I_IOT01A Discovery kit
 slug: /hardware/catalog/boards/unverified/arm_b_l4s5i_iot01a
+description: IoT board ST B_L4S5I_IOT01A Discovery kit, compatible with Golioth at unverified level.
+image: /img/boards/arm/null
 sidebar_class_name: hide-item
 ---
 

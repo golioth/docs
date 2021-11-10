@@ -2,6 +2,8 @@
 id: arm_lpcxpresso54114
 title: lpcxpresso54114
 slug: /hardware/catalog/boards/unverified/arm_lpcxpresso54114
+description: IoT board lpcxpresso54114, compatible with Golioth at unverified level.
+image: /img/boards/arm/null
 sidebar_class_name: hide-item
 ---
 

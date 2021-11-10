@@ -2,6 +2,8 @@
 id: x86_up_squared
 title: UP Squared (x86_64)
 slug: /hardware/catalog/boards/unverified/x86_up_squared
+description: IoT board UP Squared (x86_64), compatible with Golioth at unverified level.
+image: /img/boards/x86/up_squared.png
 sidebar_class_name: hide-item
 ---
 

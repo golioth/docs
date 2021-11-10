@@ -2,6 +2,8 @@
 id: arm_olimex_stm32_e407
 title: OLIMEX-STM32-E407
 slug: /hardware/catalog/boards/unverified/arm_olimex_stm32_e407
+description: IoT board OLIMEX-STM32-E407, compatible with Golioth at unverified level.
+image: /img/boards/arm/olimex_stm32_e407.png
 sidebar_class_name: hide-item
 ---
 

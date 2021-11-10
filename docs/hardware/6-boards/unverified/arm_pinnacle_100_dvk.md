@@ -2,6 +2,8 @@
 id: arm_pinnacle_100_dvk
 title: pinnacle-100-dvk
 slug: /hardware/catalog/boards/unverified/arm_pinnacle_100_dvk
+description: IoT board pinnacle-100-dvk, compatible with Golioth at unverified level.
+image: /img/boards/arm/pinnacle_100_dvk.jpg
 sidebar_class_name: hide-item
 ---
 

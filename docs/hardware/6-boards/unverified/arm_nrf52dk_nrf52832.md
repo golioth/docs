@@ -2,6 +2,8 @@
 id: arm_nrf52dk_nrf52832
 title: nRF52-DK-NRF52832
 slug: /hardware/catalog/boards/unverified/arm_nrf52dk_nrf52832
+description: IoT board nRF52-DK-NRF52832, compatible with Golioth at unverified level.
+image: /img/boards/arm/nrf52dk_nrf52832.jpg
 sidebar_class_name: hide-item
 ---
 

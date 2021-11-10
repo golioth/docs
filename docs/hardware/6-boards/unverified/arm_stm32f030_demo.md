@@ -2,6 +2,8 @@
 id: arm_stm32f030_demo
 title: STM32F030 DEMO BOARD
 slug: /hardware/catalog/boards/unverified/arm_stm32f030_demo
+description: IoT board STM32F030 DEMO BOARD, compatible with Golioth at unverified level.
+image: /img/boards/arm/stm32f030_demo.png
 sidebar_class_name: hide-item
 ---
 

@@ -2,6 +2,8 @@
 id: xtensa_nxp_adsp_imx8
 title: i.MX8 DSP
 slug: /hardware/catalog/boards/unverified/xtensa_nxp_adsp_imx8
+description: IoT board i.MX8 DSP, compatible with Golioth at unverified level.
+image: /img/boards/xtensa/null
 sidebar_class_name: hide-item
 ---
 

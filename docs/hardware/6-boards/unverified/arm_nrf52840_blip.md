@@ -2,6 +2,8 @@
 id: arm_nrf52840_blip
 title: Electronut Labs Blip
 slug: /hardware/catalog/boards/unverified/arm_nrf52840_blip
+description: IoT board Electronut Labs Blip, compatible with Golioth at unverified level.
+image: /img/boards/arm/nrf52840_blip.jpg
 sidebar_class_name: hide-item
 ---
 

@@ -2,6 +2,8 @@
 id: arm_nucleo_l452re
 title: ST Nucleo L452RE
 slug: /hardware/catalog/boards/unverified/arm_nucleo_l452re
+description: IoT board ST Nucleo L452RE, compatible with Golioth at unverified level.
+image: /img/boards/arm/null
 sidebar_class_name: hide-item
 ---
 

@@ -2,6 +2,8 @@
 id: arm_b_u585i_iot02a
 title: ST B_U585I_IOT02A Discovery kit
 slug: /hardware/catalog/boards/unverified/arm_b_u585i_iot02a
+description: IoT board ST B_U585I_IOT02A Discovery kit, compatible with Golioth at unverified level.
+image: /img/boards/arm/null
 sidebar_class_name: hide-item
 ---
 

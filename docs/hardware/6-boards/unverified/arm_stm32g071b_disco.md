@@ -2,6 +2,8 @@
 id: arm_stm32g071b_disco
 title: ST STM32G071B Discovery
 slug: /hardware/catalog/boards/unverified/arm_stm32g071b_disco
+description: IoT board ST STM32G071B Discovery, compatible with Golioth at unverified level.
+image: /img/boards/arm/stm32g071b_disco.jpg
 sidebar_class_name: hide-item
 ---
 

@@ -2,6 +2,8 @@
 id: arm_cc3235sf_launchxl
 title: SimpleLink Wi-Fi CC3235SF LaunchPad development kit
 slug: /hardware/catalog/boards/unverified/arm_cc3235sf_launchxl
+description: IoT board SimpleLink Wi-Fi CC3235SF LaunchPad development kit, compatible with Golioth at unverified level.
+image: /img/boards/arm/null
 sidebar_class_name: hide-item
 ---
 

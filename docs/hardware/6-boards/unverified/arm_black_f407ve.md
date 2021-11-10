@@ -2,6 +2,8 @@
 id: arm_black_f407ve
 title: Black STM32 F407VE Development Board
 slug: /hardware/catalog/boards/unverified/arm_black_f407ve
+description: IoT board Black STM32 F407VE Development Board, compatible with Golioth at unverified level.
+image: /img/boards/arm/black_f407ve.jpg
 sidebar_class_name: hide-item
 ---
 

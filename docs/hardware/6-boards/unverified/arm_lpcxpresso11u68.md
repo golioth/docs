@@ -2,6 +2,8 @@
 id: arm_lpcxpresso11u68
 title: NXP LPCxpresso 11U68
 slug: /hardware/catalog/boards/unverified/arm_lpcxpresso11u68
+description: IoT board NXP LPCxpresso 11U68, compatible with Golioth at unverified level.
+image: /img/boards/arm/lpcxpresso11u68.png
 sidebar_class_name: hide-item
 ---
 

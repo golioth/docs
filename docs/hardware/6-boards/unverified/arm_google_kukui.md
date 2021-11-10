@@ -2,6 +2,8 @@
 id: arm_google_kukui
 title: Google Kukui EC
 slug: /hardware/catalog/boards/unverified/arm_google_kukui
+description: IoT board Google Kukui EC, compatible with Golioth at unverified level.
+image: /img/boards/arm/null
 sidebar_class_name: hide-item
 ---
 

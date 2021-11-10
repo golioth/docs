@@ -2,6 +2,8 @@
 id: arm_stm32f469i_disco
 title: ST STM32F469I Discovery
 slug: /hardware/catalog/boards/unverified/arm_stm32f469i_disco
+description: IoT board ST STM32F469I Discovery, compatible with Golioth at unverified level.
+image: /img/boards/arm/stm32f469i_disco.jpg
 sidebar_class_name: hide-item
 ---
 

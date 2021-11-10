@@ -2,6 +2,8 @@
 id: arm_rm1xx_dvk
 title: RM1xx_DVK
 slug: /hardware/catalog/boards/unverified/arm_rm1xx_dvk
+description: IoT board RM1xx_DVK, compatible with Golioth at unverified level.
+image: /img/boards/arm/null
 sidebar_class_name: hide-item
 ---
 

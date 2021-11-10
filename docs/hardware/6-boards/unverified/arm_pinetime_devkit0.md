@@ -2,6 +2,8 @@
 id: arm_pinetime_devkit0
 title: pinetime_devkit0
 slug: /hardware/catalog/boards/unverified/arm_pinetime_devkit0
+description: IoT board pinetime_devkit0, compatible with Golioth at unverified level.
+image: /img/boards/arm/pinetime_devkit0.jpg
 sidebar_class_name: hide-item
 ---
 

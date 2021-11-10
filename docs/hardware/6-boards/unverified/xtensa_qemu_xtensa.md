@@ -2,6 +2,8 @@
 id: xtensa_qemu_xtensa
 title: QEMU Emulation for Xtensa
 slug: /hardware/catalog/boards/unverified/xtensa_qemu_xtensa
+description: IoT board QEMU Emulation for Xtensa, compatible with Golioth at unverified level.
+image: /img/boards/xtensa/qemu_xtensa.png
 sidebar_class_name: hide-item
 ---
 

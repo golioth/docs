@@ -2,6 +2,8 @@
 id: arm_nucleo_l432kc
 title: ST Nucleo L432KC
 slug: /hardware/catalog/boards/unverified/arm_nucleo_l432kc
+description: IoT board ST Nucleo L432KC, compatible with Golioth at unverified level.
+image: /img/boards/arm/nucleo_l432kc.jpg
 sidebar_class_name: hide-item
 ---
 

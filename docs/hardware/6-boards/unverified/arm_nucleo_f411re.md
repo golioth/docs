@@ -2,6 +2,8 @@
 id: arm_nucleo_f411re
 title: ST Nucleo F411RE
 slug: /hardware/catalog/boards/unverified/arm_nucleo_f411re
+description: IoT board ST Nucleo F411RE, compatible with Golioth at unverified level.
+image: /img/boards/arm/nucleo_f411re.png
 sidebar_class_name: hide-item
 ---
 

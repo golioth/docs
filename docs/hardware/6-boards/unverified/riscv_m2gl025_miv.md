@@ -2,6 +2,8 @@
 id: riscv_m2gl025_miv
 title: Microsemi M2GL025 with MiV target
 slug: /hardware/catalog/boards/unverified/riscv_m2gl025_miv
+description: IoT board Microsemi M2GL025 with MiV target, compatible with Golioth at unverified level.
+image: /img/boards/riscv/null
 sidebar_class_name: hide-item
 ---
 

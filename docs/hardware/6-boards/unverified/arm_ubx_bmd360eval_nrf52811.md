@@ -2,6 +2,8 @@
 id: arm_ubx_bmd360eval_nrf52811
 title: UBX_BMD360EVAL_NRF52811
 slug: /hardware/catalog/boards/unverified/arm_ubx_bmd360eval_nrf52811
+description: IoT board UBX_BMD360EVAL_NRF52811, compatible with Golioth at unverified level.
+image: /img/boards/arm/null
 sidebar_class_name: hide-item
 ---
 

@@ -2,6 +2,8 @@
 id: arm_stm32373c_eval
 title: ST STM32373C Evaluation
 slug: /hardware/catalog/boards/unverified/arm_stm32373c_eval
+description: IoT board ST STM32373C Evaluation, compatible with Golioth at unverified level.
+image: /img/boards/arm/stm32373c_eval.jpg
 sidebar_class_name: hide-item
 ---
 

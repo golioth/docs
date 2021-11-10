@@ -2,6 +2,8 @@
 id: arm64_fvp_baser_aemv8r
 title: FVP Emulation FVP_BaseR_AEMv8R
 slug: /hardware/catalog/boards/unverified/arm64_fvp_baser_aemv8r
+description: IoT board FVP Emulation FVP_BaseR_AEMv8R, compatible with Golioth at unverified level.
+image: /img/boards/arm64/null
 sidebar_class_name: hide-item
 ---
 

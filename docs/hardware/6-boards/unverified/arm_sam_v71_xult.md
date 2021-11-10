@@ -2,6 +2,8 @@
 id: arm_sam_v71_xult
 title: SAM V71 Xplained Ultra
 slug: /hardware/catalog/boards/unverified/arm_sam_v71_xult
+description: IoT board SAM V71 Xplained Ultra, compatible with Golioth at unverified level.
+image: /img/boards/arm/sam_v71_xult.jpg
 sidebar_class_name: hide-item
 ---
 

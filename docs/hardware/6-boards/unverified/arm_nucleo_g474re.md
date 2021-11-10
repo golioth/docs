@@ -2,6 +2,8 @@
 id: arm_nucleo_g474re
 title: ST Nucleo G474RE
 slug: /hardware/catalog/boards/unverified/arm_nucleo_g474re
+description: IoT board ST Nucleo G474RE, compatible with Golioth at unverified level.
+image: /img/boards/arm/nucleo_g474re.jpg
 sidebar_class_name: hide-item
 ---
 

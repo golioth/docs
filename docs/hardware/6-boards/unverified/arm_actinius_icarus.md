@@ -2,6 +2,8 @@
 id: arm_actinius_icarus
 title: Actinius Icarus
 slug: /hardware/catalog/boards/unverified/arm_actinius_icarus
+description: IoT board Actinius Icarus, compatible with Golioth at unverified level.
+image: /img/boards/arm/null
 sidebar_class_name: hide-item
 ---
 

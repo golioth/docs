@@ -2,6 +2,8 @@
 id: xtensa_intel_adsp_cavs25
 title: CAVS 2.5 Audio DSP (Connected Audio Voice and Speech)
 slug: /hardware/catalog/boards/unverified/xtensa_intel_adsp_cavs25
+description: IoT board CAVS 2.5 Audio DSP (Connected Audio Voice and Speech), compatible with Golioth at unverified level.
+image: /img/boards/xtensa/null
 sidebar_class_name: hide-item
 ---
 

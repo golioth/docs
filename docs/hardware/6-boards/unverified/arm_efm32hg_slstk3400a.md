@@ -2,6 +2,8 @@
 id: arm_efm32hg_slstk3400a
 title: EFM32HG-SLSTK3400A
 slug: /hardware/catalog/boards/unverified/arm_efm32hg_slstk3400a
+description: IoT board EFM32HG-SLSTK3400A, compatible with Golioth at unverified level.
+image: /img/boards/arm/efm32hg_slstk3400a.jpg
 sidebar_class_name: hide-item
 ---
 

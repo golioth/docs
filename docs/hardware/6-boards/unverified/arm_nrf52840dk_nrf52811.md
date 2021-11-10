@@ -2,6 +2,8 @@
 id: arm_nrf52840dk_nrf52811
 title: nRF52840-DK-NRF52811
 slug: /hardware/catalog/boards/unverified/arm_nrf52840dk_nrf52811
+description: IoT board nRF52840-DK-NRF52811, compatible with Golioth at unverified level.
+image: /img/boards/arm/null
 sidebar_class_name: hide-item
 ---
 

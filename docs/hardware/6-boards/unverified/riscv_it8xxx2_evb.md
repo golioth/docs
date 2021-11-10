@@ -2,6 +2,8 @@
 id: riscv_it8xxx2_evb
 title: it8xxx2_evb
 slug: /hardware/catalog/boards/unverified/riscv_it8xxx2_evb
+description: IoT board it8xxx2_evb, compatible with Golioth at unverified level.
+image: /img/boards/riscv/null
 sidebar_class_name: hide-item
 ---
 

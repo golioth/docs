@@ -2,6 +2,8 @@
 id: arm_nucleo_f756zg
 title: ST Nucleo F756ZG
 slug: /hardware/catalog/boards/unverified/arm_nucleo_f756zg
+description: IoT board ST Nucleo F756ZG, compatible with Golioth at unverified level.
+image: /img/boards/arm/nucleo_f756zg.jpg
 sidebar_class_name: hide-item
 ---
 

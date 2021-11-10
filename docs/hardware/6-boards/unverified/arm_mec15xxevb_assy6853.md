@@ -2,6 +2,8 @@
 id: arm_mec15xxevb_assy6853
 title: MEC15XX EVB ASSY 6853
 slug: /hardware/catalog/boards/unverified/arm_mec15xxevb_assy6853
+description: IoT board MEC15XX EVB ASSY 6853, compatible with Golioth at unverified level.
+image: /img/boards/arm/mec15xxevb_assy6853.png
 sidebar_class_name: hide-item
 ---
 

@@ -2,6 +2,8 @@
 id: arm_nucleo_f103rb
 title: ST Nucleo F103RB
 slug: /hardware/catalog/boards/unverified/arm_nucleo_f103rb
+description: IoT board ST Nucleo F103RB, compatible with Golioth at unverified level.
+image: /img/boards/arm/nucleo_f103rb.jpg
 sidebar_class_name: hide-item
 ---
 

@@ -2,6 +2,8 @@
 id: arm_quick_feather
 title: QuickLogic Quick Feather
 slug: /hardware/catalog/boards/unverified/arm_quick_feather
+description: IoT board QuickLogic Quick Feather, compatible with Golioth at unverified level.
+image: /img/boards/arm/null
 sidebar_class_name: hide-item
 ---
 

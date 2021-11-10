@@ -2,6 +2,8 @@
 id: arm64_nxp_ls1046ardb
 title: NXP LS1046ARDB on single CPU Core (NON-SMP)
 slug: /hardware/catalog/boards/unverified/arm64_nxp_ls1046ardb
+description: IoT board NXP LS1046ARDB on single CPU Core (NON-SMP), compatible with Golioth at unverified level.
+image: /img/boards/arm64/null
 sidebar_class_name: hide-item
 ---
 

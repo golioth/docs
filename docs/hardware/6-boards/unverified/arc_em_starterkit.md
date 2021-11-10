@@ -2,6 +2,8 @@
 id: arc_em_starterkit
 title: EM Starterkit
 slug: /hardware/catalog/boards/unverified/arc_em_starterkit
+description: IoT board EM Starterkit, compatible with Golioth at unverified level.
+image: /img/boards/arc/em_starterkit.jpg
 sidebar_class_name: hide-item
 ---
 

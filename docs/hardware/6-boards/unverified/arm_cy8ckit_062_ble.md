@@ -2,6 +2,8 @@
 id: arm_cy8ckit_062_ble
 title: cy8ckit_062_ble
 slug: /hardware/catalog/boards/unverified/arm_cy8ckit_062_ble
+description: IoT board cy8ckit_062_ble, compatible with Golioth at unverified level.
+image: /img/boards/arm/null
 sidebar_class_name: hide-item
 ---
 

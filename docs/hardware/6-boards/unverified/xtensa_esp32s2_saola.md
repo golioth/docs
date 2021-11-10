@@ -2,6 +2,8 @@
 id: xtensa_esp32s2_saola
 title: ESP32-S2
 slug: /hardware/catalog/boards/unverified/xtensa_esp32s2_saola
+description: IoT board ESP32-S2, compatible with Golioth at unverified level.
+image: /img/boards/xtensa/null
 sidebar_class_name: hide-item
 ---
 

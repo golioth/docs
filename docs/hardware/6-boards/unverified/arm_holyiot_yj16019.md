@@ -2,6 +2,8 @@
 id: arm_holyiot_yj16019
 title: Holyiot YJ-16019
 slug: /hardware/catalog/boards/unverified/arm_holyiot_yj16019
+description: IoT board Holyiot YJ-16019, compatible with Golioth at unverified level.
+image: /img/boards/arm/null
 sidebar_class_name: hide-item
 ---
 

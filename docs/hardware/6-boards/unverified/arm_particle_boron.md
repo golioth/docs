@@ -2,6 +2,8 @@
 id: arm_particle_boron
 title: Particle Boron
 slug: /hardware/catalog/boards/unverified/arm_particle_boron
+description: IoT board Particle Boron, compatible with Golioth at unverified level.
+image: /img/boards/arm/particle_boron.png
 sidebar_class_name: hide-item
 ---
 

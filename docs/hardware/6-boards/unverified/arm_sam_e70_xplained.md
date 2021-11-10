@@ -2,6 +2,8 @@
 id: arm_sam_e70_xplained
 title: SAM E70 Xplained
 slug: /hardware/catalog/boards/unverified/arm_sam_e70_xplained
+description: IoT board SAM E70 Xplained, compatible with Golioth at unverified level.
+image: /img/boards/arm/sam_e70_xplained.png
 sidebar_class_name: hide-item
 ---
 

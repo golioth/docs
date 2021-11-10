@@ -2,6 +2,8 @@
 id: arm_mm_feather
 title: MM MM-FEATHER
 slug: /hardware/catalog/boards/unverified/arm_mm_feather
+description: IoT board MM MM-FEATHER, compatible with Golioth at unverified level.
+image: /img/boards/arm/mm_feather.jpg
 sidebar_class_name: hide-item
 ---
 

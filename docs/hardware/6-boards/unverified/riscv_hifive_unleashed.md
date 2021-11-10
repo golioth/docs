@@ -2,6 +2,8 @@
 id: riscv_hifive_unleashed
 title: SiFive HiFive Unleashed
 slug: /hardware/catalog/boards/unverified/riscv_hifive_unleashed
+description: IoT board SiFive HiFive Unleashed, compatible with Golioth at unverified level.
+image: /img/boards/riscv/null
 sidebar_class_name: hide-item
 ---
 

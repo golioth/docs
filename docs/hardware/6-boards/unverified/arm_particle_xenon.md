@@ -2,6 +2,8 @@
 id: arm_particle_xenon
 title: particle-xenon
 slug: /hardware/catalog/boards/unverified/arm_particle_xenon
+description: IoT board particle-xenon, compatible with Golioth at unverified level.
+image: /img/boards/arm/particle_xenon.png
 sidebar_class_name: hide-item
 ---
 

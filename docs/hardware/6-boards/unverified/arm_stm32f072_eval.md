@@ -2,6 +2,8 @@
 id: arm_stm32f072_eval
 title: ST STM32F072 Evaluation
 slug: /hardware/catalog/boards/unverified/arm_stm32f072_eval
+description: IoT board ST STM32F072 Evaluation, compatible with Golioth at unverified level.
+image: /img/boards/arm/stm32f072_eval.jpg
 sidebar_class_name: hide-item
 ---
 

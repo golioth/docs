@@ -2,6 +2,8 @@
 id: arm_lpcxpresso55s16
 title: NXP LPCXpresso55S16
 slug: /hardware/catalog/boards/unverified/arm_lpcxpresso55s16
+description: IoT board NXP LPCXpresso55S16, compatible with Golioth at unverified level.
+image: /img/boards/arm/lpcxpresso55s16.jpg
 sidebar_class_name: hide-item
 ---
 

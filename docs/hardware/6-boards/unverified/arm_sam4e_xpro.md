@@ -2,6 +2,8 @@
 id: arm_sam4e_xpro
 title: SAM4E Xplained Pro
 slug: /hardware/catalog/boards/unverified/arm_sam4e_xpro
+description: IoT board SAM4E Xplained Pro, compatible with Golioth at unverified level.
+image: /img/boards/arm/sam4e_xpro.jpg
 sidebar_class_name: hide-item
 ---
 

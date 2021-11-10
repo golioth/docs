@@ -2,6 +2,8 @@
 id: arm_qemu_cortex_m3
 title: QEMU Emulation for Cortex-M3
 slug: /hardware/catalog/boards/quickstart/arm_qemu_cortex_m3
+description: IoT board QEMU Emulation for Cortex-M3, compatible with Golioth at quickstart level.
+image: /img/boards/arm/qemu_cortex_m3.png
 
 ---
 

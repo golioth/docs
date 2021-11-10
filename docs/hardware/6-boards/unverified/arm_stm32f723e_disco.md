@@ -2,6 +2,8 @@
 id: arm_stm32f723e_disco
 title: ST STM32F723E Discovery
 slug: /hardware/catalog/boards/unverified/arm_stm32f723e_disco
+description: IoT board ST STM32F723E Discovery, compatible with Golioth at unverified level.
+image: /img/boards/arm/stm32f723e_disco.jpg
 sidebar_class_name: hide-item
 ---
 

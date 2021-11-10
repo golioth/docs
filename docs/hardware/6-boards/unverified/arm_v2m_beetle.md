@@ -2,6 +2,8 @@
 id: arm_v2m_beetle
 title: V2M Beetle
 slug: /hardware/catalog/boards/unverified/arm_v2m_beetle
+description: IoT board V2M Beetle, compatible with Golioth at unverified level.
+image: /img/boards/arm/v2m_beetle.png
 sidebar_class_name: hide-item
 ---
 

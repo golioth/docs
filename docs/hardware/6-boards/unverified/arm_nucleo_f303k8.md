@@ -2,6 +2,8 @@
 id: arm_nucleo_f303k8
 title: ST Nucleo F303k8
 slug: /hardware/catalog/boards/unverified/arm_nucleo_f303k8
+description: IoT board ST Nucleo F303k8, compatible with Golioth at unverified level.
+image: /img/boards/arm/nucleo_f303k8.jpg
 sidebar_class_name: hide-item
 ---
 

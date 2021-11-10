@@ -2,6 +2,8 @@
 id: arm_twr_ke18f
 title: NXP TWR-KE18F
 slug: /hardware/catalog/boards/unverified/arm_twr_ke18f
+description: IoT board NXP TWR-KE18F, compatible with Golioth at unverified level.
+image: /img/boards/arm/null
 sidebar_class_name: hide-item
 ---
 
