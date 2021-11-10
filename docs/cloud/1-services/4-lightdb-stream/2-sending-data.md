@@ -5,7 +5,7 @@ title: Sending LightDB Stream Data
 
 Devices interact with LightDB Stream using the gateways available on the platform.
 
-> See [CoAP Gateway Interface](/cloud/protocols/coap/lightdb-stream) or [MQTT Gateway Interface](/cloud/protocols/mqtt/lightdb-stream)
+> See [CoAP Gateway Interface](/reference/protocols/coap/lightdb-stream) or [MQTT Gateway Interface](/reference/protocols/mqtt/lightdb-stream)
 
 ### Inserting data with POST
 

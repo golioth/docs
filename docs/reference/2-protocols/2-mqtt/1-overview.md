@@ -1,7 +1,7 @@
 ---
 id: overview
 title: MQTT Gateway Overview
-slug: /cloud/protocols/mqtt
+slug: /reference/protocols/mqtt
 ---
 
 ## What is MQTT?
