@@ -3,26 +3,9 @@ id: sending-data
 title: Sending LightDB Stream Data
 ---
 
-Devices interact with LightDB Stream using the gateways available on the platform. For now, only CoAP is available.
+Devices interact with LightDB Stream using the gateways available on the platform.
 
-| Method | Description     | Path            |
-| ------ | --------------- | --------------- |
-| POST   | Send data       | /.s/{path=\*\*} |
-| GET    | Get latest data | /.s/{path=\*\*} |
-
-> `path` can be any valid URI sub path. Ex:
->
-> /.s/env/temperature
->
-> /.s/location
-
-To demonstrate the operations here, let's imagine that we are tracking an asset using an IoT device. The location data from our device is going to periodically pushed to a LightDB Stream.
-
-### Parameters and attributes that are known:
-
-| Attribute                            | Description                | Default |
-| ------------------------------------ | -------------------------- | ------- |
-| `t` or `ts` or `time` or `timestamp` | Timestamp of the datapoint | now()   |
+> See [CoAP Gateway Interface](/cloud/protocols/coap/lightdb-stream) or [MQTT Gateway Interface](/cloud/protocols/mqtt/lightdb-stream)
 
 ### Inserting data with POST
 

@@ -8,7 +8,9 @@ Golioth Device Firmware Update (DFU) enables quick, secure deployment of firmwar
 
 Our DFU feature is highly flexible, allowing to not just update your main firmware, but sub components like the Cellular Modem firmware, update a on device Machine Learning model or even sending custom binaries required for your application as part of a release.
 
-Artifact and Releases can be accessed through either the [`goliothctl dfu`](/reference/command-line-tools/goliothctl/goliothctl_dfu) subcommand, the [DFU REST API](/reference/api-docs) or from Golioth Web Console.
+Artifact and Releases can be accessed through either the [`goliothctl dfu`](/reference/command-line-tools/goliothctl/goliothctl_dfu) subcommand, the [DFU REST API](/reference/api-docs), or from Golioth Web Console.
+
+> See [CoAP Gateway Interface](/cloud/protocols/coap/ota) or [MQTT Gateway Interface](/cloud/protocols/mqtt/ota)
 
 ### Concepts
 
