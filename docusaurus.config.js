@@ -86,7 +86,7 @@ module.exports = {
             },
             {
               label: "API Docs",
-              to: "/reference/api-docs",
+              to: "/reference/rest-api/overview",
             },
             /*{
               label: 'Zephyr SDK',
