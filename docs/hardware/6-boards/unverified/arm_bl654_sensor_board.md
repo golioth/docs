@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `bl654_sensor_board` |
 | Golioth Level  | unverified       |
-
 | Architecture   | ARM |
 | RAM*           | 256 kB |
 | Flash*         | 1024 kB |

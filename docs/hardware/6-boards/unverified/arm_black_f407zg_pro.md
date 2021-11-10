@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `black_f407zg_pro` |
 | Golioth Level  | unverified       |
-
 | Architecture   | ARM |
 | RAM*           | 192 kB |
 | Flash*         | 1024 kB |

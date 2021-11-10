@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `nrf52dk_nrf52832` |
 | Golioth Level  | unverified       |
-
 | Architecture   | ARM |
 | RAM*           | 64 kB |
 | Flash*         | 512 kB |

@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `olimex_stm32_e407` |
 | Golioth Level  | unverified       |
-
 | Architecture   | ARM |
 | RAM*           | 128 kB |
 | Flash*         | 1024 kB |

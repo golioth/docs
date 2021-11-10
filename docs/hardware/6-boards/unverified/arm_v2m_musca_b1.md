@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `v2m_musca_b1` |
 | Golioth Level  | unverified       |
-
 | Architecture   | ARM |
 | RAM*           | N/A |
 | Flash*         | N/A |

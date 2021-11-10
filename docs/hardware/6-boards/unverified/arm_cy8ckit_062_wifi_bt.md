@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `cy8ckit_062_wifi_bt` |
 | Golioth Level  | unverified       |
-
 | Architecture   | ARM |
 | RAM*           | N/A |
 | Flash*         | N/A |

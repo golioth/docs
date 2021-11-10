@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `reel_board` |
 | Golioth Level  | unverified       |
-
 | Architecture   | ARM |
 | RAM*           | 512 kB |
 | Flash*         | 1024 kB |

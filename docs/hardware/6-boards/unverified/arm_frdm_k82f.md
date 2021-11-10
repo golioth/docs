@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `frdm_k82f` |
 | Golioth Level  | unverified       |
-
 | Architecture   | ARM |
 | RAM*           | 192 kB |
 | Flash*         | 256 kB |

@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `nuvoton_pfm_m487` |
 | Golioth Level  | unverified       |
-
 | Architecture   | ARM |
 | RAM*           | 160 kB |
 | Flash*         | 512 kB |

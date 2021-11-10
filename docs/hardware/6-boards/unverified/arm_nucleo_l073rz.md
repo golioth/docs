@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `nucleo_l073rz` |
 | Golioth Level  | unverified       |
-
 | Architecture   | ARM |
 | RAM*           | 20 kB |
 | Flash*         | 192 kB |

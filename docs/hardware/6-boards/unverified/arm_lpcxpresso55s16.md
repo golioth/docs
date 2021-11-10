@@ -7,13 +7,12 @@ sidebar_class_name: hide-item
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![NXP LPCXpresso55S16!](/img/boards/arm/lpcxpresso55s16.jpg "NXP LPCXpresso55S16")
 
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `lpcxpresso55s16` |
 | Golioth Level  | unverified       |
-
 | Architecture   | ARM |
 | RAM*           | 96 kB |
 | Flash*         | 256 kB |

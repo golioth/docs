@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `rddrone_fmuk66` |
 | Golioth Level  | unverified       |
-
 | Architecture   | ARM |
 | RAM*           | 256 kB |
 | Flash*         | 2048 kB |

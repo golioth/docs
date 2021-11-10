@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `tlsr9518adk80d` |
 | Golioth Level  | unverified       |
-
 | Architecture   | RISCV |
 | RAM*           | 128 kB |
 | Flash*         | 1024 kB |

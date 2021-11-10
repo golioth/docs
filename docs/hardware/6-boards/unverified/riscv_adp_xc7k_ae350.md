@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `adp_xc7k_ae350` |
 | Golioth Level  | unverified       |
-
 | Architecture   | RISCV |
 | RAM*           | 512 kB |
 | Flash*         | N/A |

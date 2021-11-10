@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `mec1501modular_assy6885` |
 | Golioth Level  | unverified       |
-
 | Architecture   | ARM |
 | RAM*           | 32 kB |
 | Flash*         | 224 kB |

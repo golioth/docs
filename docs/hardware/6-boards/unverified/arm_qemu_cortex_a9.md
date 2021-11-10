@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `qemu_cortex_a9` |
 | Golioth Level  | unverified       |
-
 | Architecture   | ARM |
 | RAM*           | 524288 kB |
 | Flash*         | 262144 kB |

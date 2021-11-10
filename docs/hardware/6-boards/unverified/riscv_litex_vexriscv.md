@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `litex_vexriscv` |
 | Golioth Level  | unverified       |
-
 | Architecture   | RISCV |
 | RAM*           | 262144 kB |
 | Flash*         | N/A |

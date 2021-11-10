@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `olimexino_stm32` |
 | Golioth Level  | unverified       |
-
 | Architecture   | ARM |
 | RAM*           | 20 kB |
 | Flash*         | N/A |

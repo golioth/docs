@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `cc1352r1_launchxl` |
 | Golioth Level  | unverified       |
-
 | Architecture   | ARM |
 | RAM*           | 80 kB |
 | Flash*         | 352 kB |

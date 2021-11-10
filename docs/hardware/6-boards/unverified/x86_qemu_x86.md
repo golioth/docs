@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `qemu_x86` |
 | Golioth Level  | unverified       |
-
 | Architecture   | X86 |
 | RAM*           | N/A |
 | Flash*         | N/A |

@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `sam4l_ek` |
 | Golioth Level  | unverified       |
-
 | Architecture   | ARM |
 | RAM*           | 32 kB |
 | Flash*         | 256 kB |

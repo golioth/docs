@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `mps2_an521` |
 | Golioth Level  | unverified       |
-
 | Architecture   | ARM |
 | RAM*           | 4096 kB |
 | Flash*         | 4096 kB |

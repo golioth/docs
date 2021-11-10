@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `mimxrt1020_evk` |
 | Golioth Level  | unverified       |
-
 | Architecture   | ARM |
 | RAM*           | 32768 kB |
 | Flash*         | 8192 kB |

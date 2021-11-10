@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `intel_socfpga_agilex_socdk` |
 | Golioth Level  | unverified       |
-
 | Architecture   | ARM64 |
 | RAM*           | N/A |
 | Flash*         | N/A |

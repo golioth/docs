@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `pico_pi_m4` |
 | Golioth Level  | unverified       |
-
 | Architecture   | ARM |
 | RAM*           | 32 kB |
 | Flash*         | 32 kB |

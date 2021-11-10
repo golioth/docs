@@ -23,7 +23,7 @@ ${img !== null ? `![${name}!](/img/boards/${arch}/${img} "${name}")` : ''}
 | -------------  | -------------------- |
 | Board ID       | \`${boardId}\` |
 | Golioth Level  | ${level}       |
-${level === 'quickstart' ? `| Golioth Quickstart | [${boardId} quickstart](${quickstart}) |` : ''}
+${level === 'quickstart' ? `| Golioth Quickstart | [${boardId} quickstart](${quickstart}) |` : ''}\
 | Architecture   | ${arch.toUpperCase()} |
 | RAM*           | ${ram === null ? 'N/A' : `${ram} kB`} |
 | Flash*         | ${flash === null ? 'N/A' : `${flash} kB`} |

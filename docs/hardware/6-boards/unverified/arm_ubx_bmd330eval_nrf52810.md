@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `ubx_bmd330eval_nrf52810` |
 | Golioth Level  | unverified       |
-
 | Architecture   | ARM |
 | RAM*           | 24 kB |
 | Flash*         | 192 kB |

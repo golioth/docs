@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `sam_v71_xult` |
 | Golioth Level  | unverified       |
-
 | Architecture   | ARM |
 | RAM*           | N/A |
 | Flash*         | N/A |

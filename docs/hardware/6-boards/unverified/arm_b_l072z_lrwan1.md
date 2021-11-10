@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `b_l072z_lrwan1` |
 | Golioth Level  | unverified       |
-
 | Architecture   | ARM |
 | RAM*           | 20 kB |
 | Flash*         | 192 kB |

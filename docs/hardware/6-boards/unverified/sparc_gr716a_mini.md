@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `gr716a_mini` |
 | Golioth Level  | unverified       |
-
 | Architecture   | SPARC |
 | RAM*           | N/A |
 | Flash*         | N/A |

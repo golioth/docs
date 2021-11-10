@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `dragino_lsn50` |
 | Golioth Level  | unverified       |
-
 | Architecture   | ARM |
 | RAM*           | 20 kB |
 | Flash*         | 192 kB |

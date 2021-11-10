@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `up_squared` |
 | Golioth Level  | unverified       |
-
 | Architecture   | X86 |
 | RAM*           | 256 kB |
 | Flash*         | N/A |

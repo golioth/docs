@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `em_starterkit` |
 | Golioth Level  | unverified       |
-
 | Architecture   | ARC |
 | RAM*           | N/A |
 | Flash*         | N/A |

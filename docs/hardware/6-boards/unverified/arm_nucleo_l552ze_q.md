@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `nucleo_l552ze_q` |
 | Golioth Level  | unverified       |
-
 | Architecture   | ARM |
 | RAM*           | 192 kB |
 | Flash*         | 512 kB |

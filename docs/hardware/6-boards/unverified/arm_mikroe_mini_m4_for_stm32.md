@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `mikroe_mini_m4_for_stm32` |
 | Golioth Level  | unverified       |
-
 | Architecture   | ARM |
 | RAM*           | 128 kB |
 | Flash*         | 1024 kB |

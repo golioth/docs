@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `rcar_h3ulcb` |
 | Golioth Level  | unverified       |
-
 | Architecture   | ARM |
 | RAM*           | N/A |
 | Flash*         | N/A |

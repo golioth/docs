@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `esp32s2_saola` |
 | Golioth Level  | unverified       |
-
 | Architecture   | XTENSA |
 | RAM*           | N/A |
 | Flash*         | N/A |

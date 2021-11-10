@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `npcx7m6fb_evb` |
 | Golioth Level  | unverified       |
-
 | Architecture   | ARM |
 | RAM*           | 64 kB |
 | Flash*         | 192 kB |

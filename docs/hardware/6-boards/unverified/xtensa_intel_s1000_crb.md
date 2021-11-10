@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `intel_s1000_crb` |
 | Golioth Level  | unverified       |
-
 | Architecture   | XTENSA |
 | RAM*           | N/A |
 | Flash*         | N/A |

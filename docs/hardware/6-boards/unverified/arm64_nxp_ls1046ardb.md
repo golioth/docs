@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `nxp_ls1046ardb` |
 | Golioth Level  | unverified       |
-
 | Architecture   | ARM64 |
 | RAM*           | 1024 kB |
 | Flash*         | N/A |

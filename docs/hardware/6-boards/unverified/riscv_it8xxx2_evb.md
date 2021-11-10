@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `it8xxx2_evb` |
 | Golioth Level  | unverified       |
-
 | Architecture   | RISCV |
 | RAM*           | 60 kB |
 | Flash*         | N/A |

@@ -13,8 +13,7 @@ slug: /hardware/catalog/boards/quickstart/arm_nrf9160dk_nrf9160
 | -------------  | -------------------- |
 | Board ID       | `nrf9160dk_nrf9160` |
 | Golioth Level  | quickstart       |
-| Golioth Quickstart | [nrf9160dk_nrf9160 quickstart](/hardware/nrf91/quickstart) |
-| Architecture   | ARM |
+| Golioth Quickstart | [nrf9160dk_nrf9160 quickstart](/hardware/nrf91/quickstart) || Architecture   | ARM |
 | RAM*           | 88 kB |
 | Flash*         | 256 kB |
 

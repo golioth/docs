@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `nucleo_wb55rg` |
 | Golioth Level  | unverified       |
-
 | Architecture   | ARM |
 | RAM*           | 96 kB |
 | Flash*         | 1024 kB |

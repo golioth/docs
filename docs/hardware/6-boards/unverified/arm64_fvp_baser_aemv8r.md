@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `fvp_baser_aemv8r` |
 | Golioth Level  | unverified       |
-
 | Architecture   | ARM64 |
 | RAM*           | 2048 kB |
 | Flash*         | 64 kB |

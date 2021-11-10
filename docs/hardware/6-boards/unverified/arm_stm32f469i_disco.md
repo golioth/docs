@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `stm32f469i_disco` |
 | Golioth Level  | unverified       |
-
 | Architecture   | ARM |
 | RAM*           | 320 kB |
 | Flash*         | 2048 kB |

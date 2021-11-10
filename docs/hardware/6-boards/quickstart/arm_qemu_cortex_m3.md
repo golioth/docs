@@ -13,8 +13,7 @@ slug: /hardware/catalog/boards/quickstart/arm_qemu_cortex_m3
 | -------------  | -------------------- |
 | Board ID       | `qemu_cortex_m3` |
 | Golioth Level  | quickstart       |
-| Golioth Quickstart | [qemu_cortex_m3 quickstart](/hardware/virtual-device/quickstart) |
-| Architecture   | ARM |
+| Golioth Quickstart | [qemu_cortex_m3 quickstart](/hardware/virtual-device/quickstart) || Architecture   | ARM |
 | RAM*           | 64 kB |
 | Flash*         | 256 kB |
 

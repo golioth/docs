@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `iotdk` |
 | Golioth Level  | unverified       |
-
 | Architecture   | ARC |
 | RAM*           | 128 kB |
 | Flash*         | N/A |

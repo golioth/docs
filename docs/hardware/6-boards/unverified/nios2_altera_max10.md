@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `altera_max10` |
 | Golioth Level  | unverified       |
-
 | Architecture   | NIOS2 |
 | RAM*           | N/A |
 | Flash*         | N/A |

@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `lora_e5_dev_board` |
 | Golioth Level  | unverified       |
-
 | Architecture   | ARM |
 | RAM*           | 64 kB |
 | Flash*         | 256 kB |

@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `efm32gg_slwstk6121a` |
 | Golioth Level  | unverified       |
-
 | Architecture   | ARM |
 | RAM*           | 512 kB |
 | Flash*         | 2048 kB |

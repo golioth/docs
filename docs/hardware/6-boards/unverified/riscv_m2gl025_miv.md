@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `m2gl025_miv` |
 | Golioth Level  | unverified       |
-
 | Architecture   | RISCV |
 | RAM*           | 64 kB |
 | Flash*         | N/A |

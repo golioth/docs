@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `ehl_crb` |
 | Golioth Level  | unverified       |
-
 | Architecture   | X86 |
 | RAM*           | 2048 kB |
 | Flash*         | N/A |

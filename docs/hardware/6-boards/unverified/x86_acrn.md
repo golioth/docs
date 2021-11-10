@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `acrn` |
 | Golioth Level  | unverified       |
-
 | Architecture   | X86 |
 | RAM*           | 8192 kB |
 | Flash*         | N/A |

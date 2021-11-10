@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `native_posix` |
 | Golioth Level  | unverified       |
-
 | Architecture   | POSIX |
 | RAM*           | 65536 kB |
 | Flash*         | 65536 kB |

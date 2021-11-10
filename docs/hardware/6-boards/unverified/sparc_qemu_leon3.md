@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `qemu_leon3` |
 | Golioth Level  | unverified       |
-
 | Architecture   | SPARC |
 | RAM*           | 1048576 kB |
 | Flash*         | 524288 kB |

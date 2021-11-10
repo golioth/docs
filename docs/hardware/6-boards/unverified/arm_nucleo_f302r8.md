@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `nucleo_f302r8` |
 | Golioth Level  | unverified       |
-
 | Architecture   | ARM |
 | RAM*           | 16 kB |
 | Flash*         | 64 kB |

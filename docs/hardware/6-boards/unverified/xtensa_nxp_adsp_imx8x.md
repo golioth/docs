@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `nxp_adsp_imx8x` |
 | Golioth Level  | unverified       |
-
 | Architecture   | XTENSA |
 | RAM*           | N/A |
 | Flash*         | N/A |

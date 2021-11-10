@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `frdm_kw41z` |
 | Golioth Level  | unverified       |
-
 | Architecture   | ARM |
 | RAM*           | 128 kB |
 | Flash*         | 512 kB |

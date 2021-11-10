@@ -13,8 +13,7 @@ slug: /hardware/catalog/boards/quickstart/arm_circuitdojo_feather_nrf9160
 | -------------  | -------------------- |
 | Board ID       | `circuitdojo_feather_nrf9160` |
 | Golioth Level  | quickstart       |
-| Golioth Quickstart | [circuitdojo_feather_nrf9160 quickstart](/hardware/nrf91/quickstart) |
-| Architecture   | ARM |
+| Golioth Quickstart | [circuitdojo_feather_nrf9160 quickstart](/hardware/nrf91/quickstart) || Architecture   | ARM |
 | RAM*           | 64 kB |
 | Flash*         | 256 kB |
 

@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `stm32f103_mini` |
 | Golioth Level  | unverified       |
-
 | Architecture   | ARM |
 | RAM*           | 48 kB |
 | Flash*         | 256 kB |

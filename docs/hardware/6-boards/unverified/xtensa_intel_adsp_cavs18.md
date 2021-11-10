@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `intel_adsp_cavs18` |
 | Golioth Level  | unverified       |
-
 | Architecture   | XTENSA |
 | RAM*           | N/A |
 | Flash*         | N/A |

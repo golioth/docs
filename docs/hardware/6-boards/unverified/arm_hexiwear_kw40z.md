@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `hexiwear_kw40z` |
 | Golioth Level  | unverified       |
-
 | Architecture   | ARM |
 | RAM*           | 16 kB |
 | Flash*         | 512 kB |

@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `nucleo_f429zi` |
 | Golioth Level  | unverified       |
-
 | Architecture   | ARM |
 | RAM*           | 192 kB |
 | Flash*         | 2048 kB |

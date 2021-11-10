@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `xenvm` |
 | Golioth Level  | unverified       |
-
 | Architecture   | ARM64 |
 | RAM*           | N/A |
 | Flash*         | N/A |

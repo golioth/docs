@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `qemu_riscv64` |
 | Golioth Level  | unverified       |
-
 | Architecture   | RISCV |
 | RAM*           | N/A |
 | Flash*         | N/A |

@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `nrf51_blenano` |
 | Golioth Level  | unverified       |
-
 | Architecture   | ARM |
 | RAM*           | 16 kB |
 | Flash*         | N/A |

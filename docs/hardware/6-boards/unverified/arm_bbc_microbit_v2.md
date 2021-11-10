@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `bbc_microbit_v2` |
 | Golioth Level  | unverified       |
-
 | Architecture   | ARM |
 | RAM*           | 128 kB |
 | Flash*         | N/A |

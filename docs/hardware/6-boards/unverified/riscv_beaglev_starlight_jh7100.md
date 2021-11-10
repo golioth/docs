@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `beaglev_starlight_jh7100` |
 | Golioth Level  | unverified       |
-
 | Architecture   | RISCV |
 | RAM*           | N/A |
 | Flash*         | N/A |

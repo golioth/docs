@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `hifive1_revb` |
 | Golioth Level  | unverified       |
-
 | Architecture   | RISCV |
 | RAM*           | 16 kB |
 | Flash*         | N/A |

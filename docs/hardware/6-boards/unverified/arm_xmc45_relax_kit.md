@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `xmc45_relax_kit` |
 | Golioth Level  | unverified       |
-
 | Architecture   | ARM |
 | RAM*           | 160 kB |
 | Flash*         | 1024 kB |

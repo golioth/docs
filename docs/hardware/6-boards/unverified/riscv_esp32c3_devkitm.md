@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `esp32c3_devkitm` |
 | Golioth Level  | unverified       |
-
 | Architecture   | RISCV |
 | RAM*           | N/A |
 | Flash*         | N/A |

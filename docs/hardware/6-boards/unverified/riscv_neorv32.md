@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `neorv32` |
 | Golioth Level  | unverified       |
-
 | Architecture   | RISCV |
 | RAM*           | 32 kB |
 | Flash*         | 64 kB |

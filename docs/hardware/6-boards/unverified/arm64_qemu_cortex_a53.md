@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `qemu_cortex_a53` |
 | Golioth Level  | unverified       |
-
 | Architecture   | ARM64 |
 | RAM*           | 128 kB |
 | Flash*         | N/A |

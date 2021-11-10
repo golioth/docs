@@ -13,8 +13,7 @@ slug: /hardware/catalog/boards/quickstart/xtensa_esp32
 | -------------  | -------------------- |
 | Board ID       | `esp32` |
 | Golioth Level  | quickstart       |
-| Golioth Quickstart | [esp32 quickstart](/hardware/esp32/quickstart) |
-| Architecture   | XTENSA |
+| Golioth Quickstart | [esp32 quickstart](/hardware/esp32/quickstart) || Architecture   | XTENSA |
 | RAM*           | N/A |
 | Flash*         | N/A |
 

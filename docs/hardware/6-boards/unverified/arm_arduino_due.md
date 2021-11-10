@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `arduino_due` |
 | Golioth Level  | unverified       |
-
 | Architecture   | ARM |
 | RAM*           | 96 kB |
 | Flash*         | 512 kB |

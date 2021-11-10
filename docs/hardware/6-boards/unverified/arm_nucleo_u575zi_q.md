@@ -13,7 +13,6 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `nucleo_u575zi_q` |
 | Golioth Level  | unverified       |
-
 | Architecture   | ARM |
 | RAM*           | 786 kB |
 | Flash*         | 2048 kB |
