@@ -63,7 +63,7 @@ collapsed: true
 
 function getBoardVerification(board) {
     const record = verifications[board.arch][board.boardId];
-    if (record === undefined)  return 'unverified';
+    if (!record) return { level: 'unverified', quickstart: null };
     return {
         level: record.level || 'unverified',
         quickstart: record.quickstart || null,
