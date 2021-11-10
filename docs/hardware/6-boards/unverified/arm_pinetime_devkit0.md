@@ -7,7 +7,7 @@ sidebar_class_name: hide-item
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![pinetime_devkit0!](/img/boards/arm/pinetime_devkit0.jpg "pinetime_devkit0")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
