@@ -19,5 +19,5 @@ You can manage device and proejct credentials using the Web Console or through t
 Instructions to create credential
 
 - Guides on how to use:
-  - [Using Pre Shared Keys on CoAP Gateway](./coap/auth)
-  - [Using Pre Shared Keys on MQTT Gateway](./mqtt/auth)
+  - [Using Pre Shared Keys on CoAP Gateway](/reference/protocols/coap/auth)
+  - [Using Pre Shared Keys on MQTT Gateway](/reference/protocols/mqtt/auth)

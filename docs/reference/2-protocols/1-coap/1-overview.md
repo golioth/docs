@@ -1,7 +1,7 @@
 ---
 id: overview
 title: CoAP Gateway Overview
-slug: /cloud/protocols/coap
+slug: /reference/protocols/coap
 ---
 
 ## What is CoAP?

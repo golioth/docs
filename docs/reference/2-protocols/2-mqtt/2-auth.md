@@ -5,7 +5,7 @@ title: Authentication
 
 Our MQTT Gateway uses TLS by default and Username/Password for authentication.
 
-See [Device Authentication](/cloud/protocols/device-auth) page for creating device credentials
+See [Device Authentication](/reference/protocols/device-auth) page for creating device credentials
 
 ### Authentication Methods
 
