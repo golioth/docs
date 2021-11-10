@@ -1,0 +1,39 @@
+---
+id: arm_nucleo_l011k4
+title: ST Nucleo L011K4
+slug: /hardware/catalog/boards/arm/nucleo_l011k4
+---
+
+[//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
+
+![ST Nucleo L011K4!](/img/boards/arm/nucleo_l011k4.jpg "ST Nucleo L011K4")
+
+|                | Board properties     |
+| -------------  | -------------------- |
+| Board ID       | `nucleo_l011k4` |
+| Golioth Level  | undefined       |
+
+| Architecture   | ARM |
+| RAM*           | 2 kB |
+| Flash*         | 16 kB |
+
+\* values are as reported by Zephyr `.yaml` board files, which don't represent the overall available resources
+
+
+
+## Supported features
+
+* gpio
+* i2c
+* spi
+* eeprom
+
+## Supported toolchains
+
+* zephyr
+* gnuarmemb
+* xtools
+
+## Official Zephyr docs
+
+[ST Nucleo L011K4 (nucleo_l011k4)](https://docs.zephyrproject.org/latest/boards/arm/nucleo_l011k4/doc/index.html)

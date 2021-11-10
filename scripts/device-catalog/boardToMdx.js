@@ -1,11 +1,14 @@
 /*
     This function is used to generate the per-board docusaurus pages in markdown.
+
+    See https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-docs#markdown-frontmatter
+    for frontmatter (the part at the start of the document)
 */
 
 function boardToMdx(board) {
     return `\
 ---
-id: ${board.boardId}
+id: ${board.arch}_${board.boardId}
 title: ${board.name}
 slug: /hardware/catalog/boards/${board.arch}/${board.boardId}
 ---

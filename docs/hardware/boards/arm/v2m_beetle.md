@@ -1,0 +1,36 @@
+---
+id: arm_v2m_beetle
+title: V2M Beetle
+slug: /hardware/catalog/boards/arm/v2m_beetle
+---
+
+[//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
+
+![V2M Beetle!](/img/boards/arm/v2m_beetle.png "V2M Beetle")
+
+|                | Board properties     |
+| -------------  | -------------------- |
+| Board ID       | `v2m_beetle` |
+| Golioth Level  | undefined       |
+
+| Architecture   | ARM |
+| RAM*           | N/A |
+| Flash*         | N/A |
+
+\* values are as reported by Zephyr `.yaml` board files, which don't represent the overall available resources
+
+
+
+## Supported features
+
+* counter
+
+## Supported toolchains
+
+* zephyr
+* gnuarmemb
+* xtools
+
+## Official Zephyr docs
+
+[V2M Beetle (v2m_beetle)](https://docs.zephyrproject.org/latest/boards/arm/v2m_beetle/doc/index.html)
