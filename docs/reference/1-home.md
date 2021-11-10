@@ -9,7 +9,8 @@ slug: /reference
 
 The API and SDK reference documentation provides detailed information for each of the APIs, tools and libraries provided to integrate with our IoT platform.
 
-- [API Docs](/reference/api-docs)
+- [REST API](/reference/rest-api/overview)
+- [Protocols](/reference/protocols/overview)
 - Command Line Tools
   - [goliothctl](/reference/command-line-tools/goliothctl/goliothctl/)
   - [coap](/reference/command-line-tools/coap/coap/)
