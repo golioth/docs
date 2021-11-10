@@ -57,6 +57,7 @@ function createLevelRoot(level) {
 label: '${level.charAt(0).toUpperCase() + level.slice(1)}'
 collapsible: true
 collapsed: true
+${level === 'unverified' ? 'className: "hide-menu"' : ''}
 `
 );
 }
@@ -103,10 +104,10 @@ function getBoardMetadata(arch, boardId, suffix) {
 }
 
 function buildBoard(board) {
-    const { boardId, level } = board;
+    const { boardId, level, arch } = board;
     const boardPath = `${docsRoot}/${level}`;
     mkdir(boardPath);
-    fs.writeFileSync(`${boardPath}/${boardId}.md`, boardToMdx(board));
+    fs.writeFileSync(`${boardPath}/${arch}_${boardId}.md`, boardToMdx(board));
 }
 
 if (!fs.existsSync(zephyrRoot)) {

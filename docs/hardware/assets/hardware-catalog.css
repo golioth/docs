@@ -1,3 +1,10 @@
+.hide-menu > .menu__link:not(.menu__link--active){
+  display: none !important;
+}
+.hide-item > .menu__link:not(.menu__link--active) {
+  display: none !important;
+}
+
 .board-list {
   display: flex;
   flex-flow: row wrap;
@@ -17,7 +24,7 @@
   border-image: linear-gradient(#00000000, #00000000) 1;
   background-color: #fafafa;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
-  transition: border-image .2s ease-in-out, transform .2s ease-in-out;
+  transition: border-image 0.2s ease-in-out, transform 0.2s ease-in-out;
   color: var(--ifm-font-color-base);
   text-decoration: unset;
 }

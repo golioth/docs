@@ -6,45 +6,47 @@
 */
 
 function boardToMdx(board) {
+    const {arch, boardId, name, level, img, ram, flash, quickstart, toolchain, supported} = board;
     return `\
 ---
-id: ${board.arch}_${board.boardId}
-title: ${board.name}
-slug: /hardware/catalog/boards/${board.level}/${board.boardId}
+id: ${arch}_${boardId}
+title: ${name}
+slug: /hardware/catalog/boards/${level}/${arch}_${boardId}
+${level === 'unverified' ? 'sidebar_class_name: hide-item' : ''}
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-${board.img !== null ? `![${board.name}!](/img/boards/${board.arch}/${board.img} "${board.name}")` : ''}
+${img !== null ? `![${name}!](/img/boards/${arch}/${img} "${name}")` : ''}
 
 |                | Board properties     |
 | -------------  | -------------------- |
-| Board ID       | \`${board.boardId}\` |
-| Golioth Level  | ${board.level}       |
-${board.level === 'quickstart' ? `| Golioth Quickstart | [${board.boardId} quickstart](${board.quickstart}) |` : ''}
-| Architecture   | ${board.arch.toUpperCase()} |
-| RAM*           | ${board.ram === null ? 'N/A' : `${board.ram} kB`} |
-| Flash*         | ${board.flash === null ? 'N/A' : `${board.flash} kB`} |
+| Board ID       | \`${boardId}\` |
+| Golioth Level  | ${level}       |
+${level === 'quickstart' ? `| Golioth Quickstart | [${boardId} quickstart](${quickstart}) |` : ''}
+| Architecture   | ${arch.toUpperCase()} |
+| RAM*           | ${ram === null ? 'N/A' : `${ram} kB`} |
+| Flash*         | ${flash === null ? 'N/A' : `${flash} kB`} |
 
 \\* values are as reported by Zephyr \`.yaml\` board files, which don't represent the overall available resources
 
-${ board.level === 'quickstart' ? `\
+${ level === 'quickstart' ? `\
 ## Getting started
 
-See our [quickstart quide for ${board.name}](${board.quickstart}).
+See our [quickstart quide for ${name}](${quickstart}).
 ` : ''}
 
 ## Supported features
 
-${board.supported.map((sup) => `* ${sup}`).join('\n') || 'List of supported features is not available.'}
+${supported.map((sup) => `* ${sup}`).join('\n') || 'List of supported features is not available.'}
 
 ## Supported toolchains
 
-${board.toolchain.map((tc) => `* ${tc}`).join('\n') || 'List of supported toolchains is not available.'}
+${toolchain.map((tc) => `* ${tc}`).join('\n') || 'List of supported toolchains is not available.'}
 
 ## Official Zephyr docs
 
-[${board.name} (${board.boardId})](https://docs.zephyrproject.org/latest/boards/${board.arch}/${board.boardId}/doc/index.html)
+[${name} (${boardId})](https://docs.zephyrproject.org/latest/boards/${arch}/${boardId}/doc/index.html)
 `;
 }
 
