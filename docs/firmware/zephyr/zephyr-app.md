@@ -1,8 +1,6 @@
 ---
-id: creating-an-app
-title: Creating a new application from scratch
-hide_title: true
-slug: /firmware/3-zephyr
+title: Clean Application
+hide_title: false
 ---
 
 While the [Quickstart](/getting-started) focuses on running a sample that's located within the Zephyr file-hierarchy,

@@ -1,9 +1,12 @@
 ---
-id: home
 title: Firmware
-hide_title: true
 slug: /firmware
+sidebar_position: 1
 ---
+
+## Introduction
+
+Golioth is a cloud services platform for IoT devices. The accepted model for understanding 
 
 ## Firmware
 
