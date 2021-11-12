@@ -77,7 +77,15 @@ tab content 3
 </Tabs>
 
 ## Signing and flashing the signed image
-{Using the readme as source, clarify the need of the signing process and reiterate why it is not done for the Nordic targets.}
+
+## Coming Soon
+
+import ComingSoon from '/docs/partials/coming-soon.md'
+
+<ComingSoon/>
+Please refer to the Readme for the DFU project for binary signing information.
+https://github.com/golioth/zephyr-sdk/tree/main/samples/dfu
+
 
 # Viewing the update
 If the procedure has been followed to create the release candidate and the 'old' firmware is currently running on the target board, then the DFU process should be started in Zephyr. This is what should be visible on serial console:
@@ -150,7 +158,4 @@ secondary area (2):
   image ok: unset
 ``` 
 
-## How does the application work?
-
-{Go into detail regarding use of the API in a modular fashion. Detail the process of adding the DFU components to a standard sample application like Blinky to encourage the distinguishing of the API from the DFU sample.  Provide some insight into the system_client.c functions that enable the DFU service.}
 
