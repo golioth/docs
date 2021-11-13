@@ -6,12 +6,11 @@ sidebar_position: 1
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Device Firmware Update
 This is a guide to implementing firmware updates for embedded devices using the Golioth Device Firmware Update (DFU) service. It is recommended but not necessary to become familiar with the individual components involved in the service which are described in the DFU background document in detail. Working through the Getting Started Guide is also a prerequisite to ensure that the necessary tooling is place to build and implement this solution.
 
 The steps to implementation are as follows:
 * Create a device with credentials in the Golioth console
-* Build and flash MCUBoot for the target
+* Build and flash MCUBoot for the target board
   * If building firmware using the Nordic SDK, this step is integrated into the application build
   * If building firmware using stock Zephyr and/or custom targets, this step will be done separately.
 * Build and flash the application utilizing the DFU API applying the device credentials created earlier to the appropriate 
@@ -19,17 +18,20 @@ The steps to implementation are as follows:
 * Upload the alternative image version to Golioth Console and prepare it for release
 * The active application running the DFU service will automatically download the release candidate and update the firmware.
 
-The first requirement of the service is creating device credentials. This procedure is available in the Getting Started Guide. The goliothctl command line tool interacts with the golioth console to create a virtual device.  Virtual device credentials are applied to the embedded device via the proj.conf file.  This credential configuration method is common to all Golioth service reference code.
+## Get Device Credentials
 
-The next steps will vary slightly based on the target hardware setup dependencies.  The final command line arguement in the build commands is the directory in which the sample project lives.  This specification will depend upon where the command was executed from in the terminal.  The project is located in <ProjectRoot\>/modules/lib/golioth/samples/dfu.  Golioth has tested the following three targets:
+The first requirement of the service is creating device credentials. This procedure is available in the Getting Started Guide. The goliothctl command line tool interacts with the golioth console to create a virtual device.  Virtual device credentials in this sample are applied to the embedded device via the proj.conf file.  This credential configuration method is common to all Golioth service reference code.
+
+The next steps will vary slightly based on the target hardware. The final command line arguement in the build commands is the directory in which the sample project lives.  This specification will depend upon where the command was executed from in the terminal.  The project is located in <ProjectRoot\>/modules/lib/golioth/samples/dfu.  Golioth has tested the following three targets:
 
 <Tabs
 groupId="targets"
 defaultValue="nrf"
-values={[
-{label: 'nRF9160 Feather', value: 'nrf9160-feather'},
-{label: 'nRF9160 DK', value: 'nrf9160-dk'},
-{label: 'nRF52840 DK + ESP32-WROOM-32', value: 'esp-32'},
+values=
+{[
+  {label: 'nRF9160 Feather', value: 'nrf9160-feather'},
+  {label: 'nRF9160 DK', value: 'nrf9160-dk'},
+  {label: 'nRF52840 DK + ESP32-WROOM-32', value: 'esp-32'},
 ]}>
 
 <TabItem value="nrf9160-feather">
@@ -71,23 +73,23 @@ Terminal output is viewable over UART at 115200 baud. After the device establish
 </TabItem>
 
 <TabItem value="esp-32">
-tab content 3
+<ComingSoon/>
 </TabItem>
 
 </Tabs>
 
+--- 
 ## Signing and flashing the signed image
 
-## Coming Soon
-
-import ComingSoon from '/docs/partials/coming-soon.md'
+import ComingSoon from '/docs/partials/coming-soon-centered.md'
 
 <ComingSoon/>
-Please refer to the Readme for the DFU project for binary signing information.
-https://github.com/golioth/zephyr-sdk/tree/main/samples/dfu
+
+In the mean time use the dfu [sample readme](https://github.com/golioth/zephyr-sdk/tree/main/samples/dfu) for guidance on image signing.
 
 
-# Viewing the update
+## Watch the device update
+
 If the procedure has been followed to create the release candidate and the 'old' firmware is currently running on the target board, then the DFU process should be started in Zephyr. This is what should be visible on serial console:
 ```
 [00:00:06.483,764] <dbg> golioth_dfu: Desired

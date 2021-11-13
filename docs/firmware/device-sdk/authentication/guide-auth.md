@@ -2,9 +2,8 @@
 title: 'Guide - Device Auth'
 sidebar_position: 1
 ---
-
-## Coming Soon
-
-import ComingSoon from '/docs/partials/coming-soon.md'
+import ComingSoon from '/docs/partials/coming-soon-centered.md'
 
 <ComingSoon/>
+
+Related material: https://blog.golioth.io/yes-even-your-iot-prototype-should-be-secure/
