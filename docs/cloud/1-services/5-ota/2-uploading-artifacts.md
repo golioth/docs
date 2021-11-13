@@ -9,7 +9,7 @@ On the device side, our [Zephyr SDK](/firmware/device-sdk) relies on MCUboot, an
 You can find more information about MCUboot in the [MCUboot Github Repository](https://github.com/mcu-tools/mcuboot).
 :::
 
-We provided a [sample application](/firmware/zephyr-sdk/samples/dfu) that can be used to test our DFU feature. That sample listen for new releases notifications from our backend and automatically downloads and installs them with MCUboot.
+We provided a [sample application](https://github.com/golioth/zephyr-sdk/tree/main/samples/dfu) that can be used to test our DFU service. That sample listens for new releases notifications from our backend and automatically downloads and installs them with MCUboot.
 
 Follow the guide to run the sample application on your target board, and follow the steps below to upload your artifacts. After pushing the initial firmware locally, we can build it again and sign it with the `west` tool. Signing is really important, as this is how MCUboot can check if the device is running the desired version.
 
