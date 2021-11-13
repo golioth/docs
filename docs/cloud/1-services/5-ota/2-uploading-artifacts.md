@@ -3,7 +3,7 @@ id: uploading-artifacts
 title: Uploading Artifacts
 ---
 
-On the device side, our [Zephyr SDK](/firmware/device-sdk) relies on MCUboot, an open source bootloader. Our backend also knows how to detect MCUboot compatible images when a artifact is created/uploaded and reads MCUboot metadata like signed version, internal image hash and so on. This makes our solution more robust and reliable, as we can guarantee that the image is compatible with MCUboot.
+On the device side, our [Zephyr SDK](https://github.com/golioth/zephyr-sdk) relies on MCUboot, an open source bootloader. Our backend also knows how to detect MCUboot compatible images when a artifact is created/uploaded and reads MCUboot metadata like signed version, internal image hash and so on. This makes our solution more robust and reliable, as we can guarantee that the image is compatible with MCUboot.
 
 :::note
 You can find more information about MCUboot in the [MCUboot Github Repository](https://github.com/mcu-tools/mcuboot).
