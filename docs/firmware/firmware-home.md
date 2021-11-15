@@ -6,8 +6,6 @@ sidebar_position: 1
 
 import ComingSoon from '/docs/partials/coming-soon-centered.md'
 
-<ComingSoon/>
-
 ## Introduction
 
 Golioth is a cloud services platform for IoT devices. One accepted model for understanding services like those provided by golioth is the [Client Server Model](https://en.wikipedia.org/wiki/Client%E2%80%93server_model). Applying Client/Server to the IoT stretches the definition a bit but will prove useful for introducing our Device SDK.
@@ -27,5 +25,4 @@ Our DSDK currently abstracts the following services:
 * Bulk data streaming via LightDB Stream
 * System Logging
 
-
-The Golioth firmware version is dependent upon the Device SDK you are using. Our first SDK is built on top of Zephyr
+The following sections will provide overviews and detailed guides on how to consume these services from an embedded, or firmware, development context.
