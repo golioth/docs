@@ -23,7 +23,7 @@ image: /img/boards/xtensa/null
 
 ## Getting started
 
-See our [quickstart quide for ESP-32](/hardware/esp32/quickstart).
+See our [quickstart guide for ESP-32](/hardware/esp32/quickstart).
 
 
 ## Supported features

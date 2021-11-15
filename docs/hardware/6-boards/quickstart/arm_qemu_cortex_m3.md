@@ -23,7 +23,7 @@ image: /img/boards/arm/qemu_cortex_m3.png
 
 ## Getting started
 
-See our [quickstart quide for QEMU Emulation for Cortex-M3](/hardware/virtual-device/quickstart).
+See our [quickstart guide for QEMU Emulation for Cortex-M3](/hardware/virtual-device/quickstart).
 
 
 ## Supported features

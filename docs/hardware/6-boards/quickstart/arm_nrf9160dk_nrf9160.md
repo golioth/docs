@@ -23,7 +23,7 @@ image: /img/boards/arm/nrf9160dk_nrf9160.png
 
 ## Getting started
 
-See our [quickstart quide for nRF9160-DK-NRF9160](/hardware/nrf91/quickstart).
+See our [quickstart guide for nRF9160-DK-NRF9160](/hardware/nrf91/quickstart).
 
 
 ## Supported features

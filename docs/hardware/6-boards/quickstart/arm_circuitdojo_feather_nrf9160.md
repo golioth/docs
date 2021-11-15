@@ -23,7 +23,7 @@ image: /img/boards/arm/circuitdojo_feather_nrf9160.png
 
 ## Getting started
 
-See our [quickstart quide for CircuitDojo-Feather-nRF9160](/hardware/nrf91/quickstart).
+See our [quickstart guide for CircuitDojo-Feather-nRF9160](/hardware/nrf91/quickstart).
 
 
 ## Supported features
