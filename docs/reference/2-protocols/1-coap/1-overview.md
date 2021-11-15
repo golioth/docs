@@ -6,15 +6,16 @@ slug: /reference/protocols/coap
 
 ## What is CoAP?
 
-Talk about CoAP
+Constrained Application Protocol (CoAP) is a specialized Internet application protocol for constrained devices, as defined in RFC 7252. It enables those constrained devices called "nodes" to communicate with the wider Internet using similar protocols. CoAP is designed for use between devices on the same constrained network (e.g., low-power, lossy networks), between devices and general nodes on the Internet, and between devices on different constrained networks both joined by an internet. CoAP is also being used via other mechanisms, such as SMS on mobile communication networks.
 
 :::note
-See more about CoAP.
+See more about [CoAP](https://en.wikipedia.org/wiki/Constrained_Application_Protocol).
 :::
 
 ### Use Cases for CoAP
 
-Here are some ideas on what can be created using LightDB.
+Here are some ideas on which scenarios CoAP can be used:
 
-- Low Power Scenarios
-- Constrained devices
+- Low-power devices with limited battery life.
+- Unreliable networks, like NB-IoT and CatM1.
+- Constrained devices, UDP/CoAP stack is much more efficient than TCP/HTTP/MQTT.
