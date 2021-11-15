@@ -5,7 +5,7 @@ The Golioth documentation website is built using [Docusaurus 2](https://v2.docus
 
 Click the Gitpod badge to open a contributor workspace instance
 
-[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-908a85?logo=gitpod)](https://gitpod.io/from-referrer/)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/from-referrer/)
 
 ## Installation
 
