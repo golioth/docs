@@ -5,6 +5,10 @@ title: Authentication
 
 Our MQTT Gateway uses TLS by default and Username/Password for authentication. The MQTT Client ID should be the same as the MQTT Username.
 
+This protocol can be accessed via the following endpoints:
+
+- **mqtt.golioth.io** at port **8883**
+
 See [Device Authentication](/reference/protocols/device-auth) page for creating device credentials
 
 ### Authentication Methods
