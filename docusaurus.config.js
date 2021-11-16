@@ -10,6 +10,10 @@ module.exports = {
   organizationName: "golioth", // Usually your GitHub org/user name.
   projectName: "docs", // Usually your repo name.
   themeConfig: {
+    gtag: {
+      trackingID: 'G-C2MSLQD9D7',
+      anonymizeIP: true,
+    },
     colorMode: {
       defaultMode: "dark",
       respectPrefersColorScheme: false,
