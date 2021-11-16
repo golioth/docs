@@ -26,7 +26,7 @@ The next steps will vary slightly based on the target hardware. The final comman
 
 <Tabs
 groupId="targets"
-defaultValue="nrf"
+defaultValue="nrf9160-feather"
 values=
 {[
   {label: 'nRF9160 Feather', value: 'nrf9160-feather'},
