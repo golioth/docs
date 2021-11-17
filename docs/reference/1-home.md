@@ -11,6 +11,7 @@ The API and SDK reference documentation provides detailed information for each o
 
 - [REST API](/reference/rest-api/overview)
 - [Protocols](/reference/protocols/overview)
+- [WebSocket API](/reference/websocket/overview)
 - Command Line Tools
   - [goliothctl](/reference/command-line-tools/goliothctl/goliothctl/)
   - [coap](/reference/command-line-tools/coap/coap/)
