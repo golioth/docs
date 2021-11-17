@@ -1,6 +1,6 @@
 ---
-title: Guide - Logging Client
-sidebar_position: 1
+title: Guide
+sidebar_position: 2
 ---
 import ComingSoon from '/docs/partials/coming-soon-centered.md'
 

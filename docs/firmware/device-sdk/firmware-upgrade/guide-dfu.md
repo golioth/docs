@@ -1,6 +1,6 @@
 ---
-title: 'Guide - Firmware Update'
-sidebar_position: 1
+title: Guide
+sidebar_position: 2
 ---
 
 import Tabs from '@theme/Tabs';
