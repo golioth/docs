@@ -68,10 +68,13 @@ The second step is to add to the JWT claims, the `iss` (issuer field) with the `
 }
 ```
 
-Using the JWT debugger at https://jwt.io with the header (HS256), claims (iss), and secret associated with your API Key, you’ll end up with a valid JWT token that can be used like bellow:
+Using the JWT debugger at https://jwt.io with the header (HS256), claims (iss), and secret associated with your API Key, you’ll end up with a valid JWT token that can be used as a `jwt` query parameter as following:
+```
+?jwt={JWT}
+```
 
-### See with Alvaro how JWT is embedded in the websocket connection request
-<!-- ```
-$ curl -H "Authorization: JWT_TOKEN" https://api.golioth.io/v1/projects/{project-id}/devices
-{ "list": [ { "id":"<uuid>", "name": "My first device", "hardwareIds": ["DE:AD:BE:EF"], "createdAt":"<timestamp>", "updatedAt":"<timestamp>" }] }, "page":0, "perPage":100, "total":1 }
-``` -->
+For example, to connect to LightDB Endpoint with authentication:
+```
+wss://api.golioth.net/v1/ws/projects/local-test/devices/6173155307bbb1c7c9bb158f/data/env?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ey[...]Jvc2Nh
+
+```

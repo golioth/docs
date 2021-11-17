@@ -13,16 +13,16 @@ Real-Time Endpoint to listen to any changes in a device state path.
 
 | Method    | Description                       | Complete Endpoint                                               | Content Format |
 | --------- | --------------------------------- | --------------------------------------------------------------- | -------------- |
-| WebSocket | Listening to LightDB Device State | wss://api.golioth.io/v1/ws/projects/{projectId}/devices/{deviceId}/data{/path=\*\*}?x-api-key={API_KEY} | JSON |
+| WebSocket | Listening to LightDB Device State | wss://api.golioth.io/v1/ws/projects/{projectId}/devices/{deviceId}/data{/path=\*\*}?{x-api-key\|jwt}={API_KEY\|JWT} | JSON |
 
 To open the WebSocket connection you will make an HTTP Request for a websocket endpoint, passing the following parameteres:
 
 |Parameter             | Optional | Description                                                                                            |
 |--------------------- | -------- | ------------------------------------------------------------------------------------------------------ |
-|`ProjectID`           | **true** | ID of the project                                                                                      |
-|`DeviceID`            | **true** | ID of the device                                                                                       |
-|`Path` to listened to | false    | _'empty path'_ if desired to listen to the root path <br /> _'some path'_ to listen to a specific path <br /> Ex: '/data', '/data/temp', '/data/temp/state' |
-|`API_KEY`             | **true** | Api Key to authenticate to the Golioth valid for the ProjectID passed |
+|`projectId`           | **false** | ID of the project                                                                                      |
+|`deviceId`            | **false** | ID of the device                                                                                       |
+|`path` to be listened to | true    | _'empty path'_ if desired to listen to the root path <br /> _'some path'_ to listen to a specific path <br /> Ex: '/data', '/data/temp', '/data/temp/state' |
+|`API_KEY` or `JWT`            | **false** | Api Key or JWT valid for the ProjectID passed to authenticate to the Golioth |
 
 ### Use Cases
 
