@@ -3,8 +3,10 @@ title: Overview
 sidebar_position: 1
 ---
 
-import ComingSoon from '/docs/partials/coming-soon-centered.md'
+TLS & DTLS are the basis for our device authentication service as well as how the device authenticates a Golioth instance. The diagram below illustrates how the device's PSK keypair, managed by Golioth Auth client, maps to MbedTLS.
 
-<ComingSoon/>
+![Device Authentication & Identity](../../firmware-client-auth.drawio.svg)
 
-Preview from our Blog: https://blog.golioth.io/yes-even-your-iot-prototype-should-be-secure/
+At runtime, the Golioth Auth client retrieves the device credentials and provides them to the DTLS client. Currently the client and service support PSK based authentication. Implementation of asymmetric certificate based authentication is underway.
+
+
