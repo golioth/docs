@@ -1,5 +1,5 @@
 ---
-title: Monitor Device Update
+title: Monitor A Device Update
 sidebar_position: 2
 ---
 

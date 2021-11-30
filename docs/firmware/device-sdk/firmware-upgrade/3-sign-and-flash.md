@@ -1,5 +1,5 @@
 ---
-title: Sign and Flash the Signed Image
+title: Sign and Flash an Image
 sidebar_position: 2
 ---
 
