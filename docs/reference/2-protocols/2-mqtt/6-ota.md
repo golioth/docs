@@ -3,7 +3,7 @@ id: ota
 title: Over The Air (OTA) Updates
 ---
 
-[Over The Air (OTA) Updates Service](/cloud/services/ota) definitions over CoAP.
+[Over The Air (OTA) Updates Service](/cloud/services/ota) definitions over MQTT.
 
 How to use guides:
 

@@ -3,7 +3,7 @@ id: lightdb-stream
 title: LightDB Stream
 ---
 
-[LightDB Stream Device Service](/cloud/services/lightdb-stream) definitions over CoAP.
+[LightDB Stream Device Service](/cloud/services/lightdb-stream) definitions over MQTT.
 
 How to use guides:
 
@@ -40,5 +40,5 @@ The body can be a JSON/CBOR object or a single value in the following formats:
 You can also send a batch request by sending an array at the root level and with different timestamps:
 
 ```
-$ coap --path /.s/position -m POST --psk-id deadbeef-id --psk supersecret --host coap.golioth.io -b "[{\"ts\": 1626362266059, \"latitude\": 37.75, \"longitude\" : -122.57, \"speed\": 5 }, {\"ts\": 1626362276059, \"latitude\": 38.75, \"longitude\" : -123.57, \"speed\": 10 }]" --format json
+$ mosquitto_pub -i deadbeef-id -L mqtts://deadbeef-id:supersecret@mqtt.golioth.io:1883/.s/position -m "[{\"ts\": 1626362266059, \"latitude\": 37.75, \"longitude\" : -122.57, \"speed\": 5 }, {\"ts\": 1626362276059, \"latitude\": 38.75, \"longitude\" : -123.57, \"speed\": 10 }]"
 ```
