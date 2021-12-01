@@ -3,7 +3,7 @@ id: lightdb
 title: LightDB
 ---
 
-[LightDB Device Service](/cloud/services/lightdb) definitions over CoAP.
+[LightDB Device Service](/cloud/services/lightdb) definitions over MQTT.
 
 How to use guides:
 

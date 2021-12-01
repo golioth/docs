@@ -3,7 +3,7 @@ id: logging
 title: Logging
 ---
 
-[Logging Device Service](/cloud/services/logging) definitions over CoAP.
+[Logging Device Service](/cloud/services/logging) definitions over MQTT.
 
 How to use guides:
 
