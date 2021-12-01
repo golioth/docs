@@ -42,4 +42,10 @@ wss://api.golioth.net/v1/ws/projects/local-test/logs?x-api-key=AAABbBbBbCcCcCcDd
 
 You'll see data arriving to your WebSocket client as soon as the data sent by the device arrive to the platform, indefinitely or until the connection is closed:
 ```
+{"result":{"data":{"timestamp":"2021-12-01T19:14:07.376256912Z","type":"LOGGING","level":"DEBUG","module":"golioth_logging","moduleId":"","message":"Log 1: 33","metadata":{"func":"func_1","index":214,"uptime":172271000},"deviceId":"61a4cfc9b2b45578105aeca3"}}}
+{"result":{"data":{"timestamp":"2021-12-01T19:14:07.376201852Z","type":"LOGGING","level":"INFO","module":"golioth_logging","moduleId":"","message":"Counter hexdump","metadata":{"hexdump":"IQAAAA==","index":218,"uptime":172271000},"deviceId":"61a4cfc9b2b45578105aeca3"}}}
+{"result":{"data":{"timestamp":"2021-12-01T19:14:07.376104957Z","type":"LOGGING","level":"DEBUG","module":"golioth_logging","moduleId":"","message":"Log 2: 33","metadata":{"func":"func_2","index":215,"uptime":172271000},"deviceId":"61a4cfc9b2b45578105aeca3"}}}
+{"result":{"data":{"timestamp":"2021-12-01T19:14:07.376117753Z","type":"LOGGING","level":"DEBUG","module":"golioth_logging","moduleId":"","message":"Debug info! 33","metadata":{"func":"main","index":213,"uptime":172271000},"deviceId":"61a4cfc9b2b45578105aeca3"}}}
+{"result":{"data":{"timestamp":"2021-12-01T19:14:07.376104727Z","type":"LOGGING","level":"ERROR","module":"golioth_logging","moduleId":"","message":"Err: 33","metadata":{"index":217,"uptime":172271000},"deviceId":"61a4cfc9b2b45578105aeca3"}}}
+{"result":{"data":{"timestamp":"2021-12-01T19:14:07.376103940Z","type":"LOGGING","level":"WARN","module":"golioth_logging","moduleId":"","message":"Warn: 33","metadata":{"index":216,"uptime":172271000},"deviceId":"61a4cfc9b2b45578105aeca3"}}}
 ```
