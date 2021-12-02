@@ -2,7 +2,7 @@
 title: LightDB 'Get' Application Walkthrough
 sidebar_position: 2
 ---
-This application demonstrates the retrieval of objects from LightDB with the use of Golioth SDK. The first thing that the example application does is check for the KConfig settings related to using Wi-Fi. If a different connectivity option is used such as cellular, this connection will be made outside of main.c. The Wi-Fi connection method is verified in ```main()``` in all of the samples as zephyr handles this connecivity method differently. Namely, Wi-Fi credentials must be in place in the Kconfig to ensure the success of the ```wifi_connect()``` method.
+The [Get](https://github.com/golioth/zephyr-sdk/tree/main/samples/lightdb/get) application demonstrates the retrieval of objects from LightDB with the use of Golioth SDK. The first thing that the example application does is check for the KConfig settings related to using Wi-Fi. If a different connectivity option is used such as cellular, this connection will be made outside of main.c. The Wi-Fi connection method is verified in ```main()``` in all of the samples as zephyr handles this connecivity method differently. Namely, Wi-Fi credentials must be in place in the Kconfig to ensure the success of the ```wifi_connect()``` method.
 
 The next thing that the LightDB application does is prepare the reply handler for CoAP replies. This is completed with the ```coap_replies_clear()``` function. An array of replies is declared near the top of the sample and initialized with the ```coap_replies_clear()``` function. An array size of 1 is sufficient for the sample.
 
