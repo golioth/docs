@@ -10,3 +10,5 @@ Due to the similarities between the [get](https://github.com/golioth/zephyr-sdk/
 The unique function found in the [observe](https://github.com/golioth/zephyr-sdk/tree/main/samples/lightdb/observe) sample is the ```golioth_on_connect``` function.  This is the function that is used to subscribe to resources in Golioth.  After the reply handler array is cleared, the ```golioth_lightdb_observe()``` function is called to subscribe to the ```"observed"``` resource.
 
 The while loop found in ```main()``` contains only a sleep function because the updates regarding resource value occur from the context of the ```golioth_system_client_start()``` thread context in the background.
+
+Descriptions of the ```golioth_lightdb_x``` functions can be found [here](https://github.com/golioth/zephyr-sdk/blob/main/include/net/golioth.h)

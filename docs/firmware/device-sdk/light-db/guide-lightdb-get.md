@@ -16,4 +16,6 @@ The function ```golioth_lightdb_get()``` is found within the first code block gu
 
 The reply handler will utilize the zephyr coap function ```coap_packet_get_payload()``` to parse the incoming coap packet. The received message is printed to the console before the reply handler returns.
 
+Descriptions of the ```golioth_lightdb_x``` functions can be found [here](https://github.com/golioth/zephyr-sdk/blob/main/include/net/golioth.h)
+
 
