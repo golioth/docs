@@ -4,6 +4,7 @@ title: Sending Logs
 ---
 
 import Prerequisites from '/docs/partials/prerequisites-platform-setup.md'
+import { ProtocolPublishSample } from '/docs/partials/protocol.mdx'
 
 <Prerequisites />
 
@@ -21,19 +22,6 @@ You can simulate sending logs by using `coap` and POSTing data to the `/logs` en
 
 In the example bellow, we are sending the parameters `module`, `level` and `network` as query parameters and also a message in JSON format in the body containing the log `msg`.
 
-```
-$ coap --path /logs -m POST deadbeef-id --psk supersecret -q module=hello -q level=info -q network=wifi -b "{ \"msg\": \"Hello logs\" } --format json --host coap.golioth.io
-Params
-method: POST
-path: /logs
-query params: network=wifi module=hello level=info msg="Hello logs"
-
-url: coap.golioth.io:5684
-pre shared key: deadbeef-id:supersecret
-
-Response
-payload: Type: Acknowledgement, MID: 49203, Code: Valid, Token: cbd46230e64c42e7, ContentFormat: text/plain;charset=utf-8
-body: OK%
-```
+<ProtocolPublishSample path="/logs" method="POST" query={{"module":"sensor", "level": "info", "network": "sensor"}} body={{"msg":"Hello World"}} response="OK"/>
 
 After sending a log entry you can search logs using `goliothctl`. Check the [next page](./searching-logs) for more details on how to do that.

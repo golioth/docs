@@ -1,0 +1,121 @@
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import CodeBlock from "@theme/CodeBlock";
+
+export function getCoapResponse(response) {
+  if (!response) {
+    return "";
+  }
+  return `Response\npayload: Type: Acknowledgement, MID: 64363, Code: Content, Token: 56f991b6703947d7, ContentFormat: application/json\nbody: ${JSON.stringify(
+    response
+  )}`;
+}
+
+export const ProtocolPublishSample = ({
+  path,
+  method,
+  identity = "deadbeef-id",
+  psk = "supersecret",
+  body,
+  query,
+  response,
+}) => {
+  const escapedCoapBody = JSON.stringify(body).replace(/\"/g, '\\"');
+  const queryParamCoap = Object.keys(query || {})
+    .map((key) => `-q ${key}=${query[key]}`)
+    .join(" ");
+  const escapedMqttBody = JSON.stringify({ ...body, ...query }).replace(
+    /\"/g,
+    '\\"'
+  );
+  return (
+    <Tabs
+      groupId="protocol"
+      defaultValue="coap"
+      values={[
+        { label: "CoAP", value: "coap" },
+        { label: "MQTT", value: "mqtt" },
+      ]}
+    >
+      <TabItem value="coap">
+        <CodeBlock>
+          {`coap --path ${path} -m ${method} --psk-id ${identity} --psk ${psk} ${queryParamCoap} --host coap.golioth.io -b "${escapedCoapBody}" --format json`}
+        </CodeBlock>
+        {response && <CodeBlock>{getCoapResponse(response)}</CodeBlock>}
+      </TabItem>
+      <TabItem value="mqtt">
+        <CodeBlock>
+          {`mosquitto_pub -i ${identity} -L mqtts://${identity}:${psk}@mqtt.golioth.io:8883${path} -m "${escapedMqttBody}"`}
+        </CodeBlock>
+      </TabItem>
+    </Tabs>
+  );
+};
+
+export const ProtocolReadSample = ({
+  path,
+  identity = "deadbeef-id",
+  psk = "supersecret",
+  response,
+  listen = false,
+}) => {
+  return (
+    <Tabs
+      groupId="protocol"
+      defaultValue="coap"
+      values={[
+        { label: "CoAP", value: "coap" },
+        { label: "MQTT", value: "mqtt" },
+      ]}
+    >
+      <TabItem value="coap">
+        <CodeBlock>
+          {`coap ${listen ? "observe " : ""}--path ${path} ${
+            listen ? "" : "-m GET"
+          } --psk-id ${identity} --psk ${psk} --host coap.golioth.io --accept json`}
+        </CodeBlock>
+        {(response || listen) && (
+          <CodeBlock>
+            {listen ? `waiting for more msgs. Type ctrl+c to close\n` : ""}
+            {getCoapResponse(response)}
+          </CodeBlock>
+        )}
+      </TabItem>
+      <TabItem value="mqtt">
+        <CodeBlock>
+          {`mosquitto_sub -i ${identity} -L mqtts://${identity}:${psk}@mqtt.golioth.io:8883${path}`}
+        </CodeBlock>
+        {response && <CodeBlock>{`${JSON.stringify(response)}`}</CodeBlock>}
+      </TabItem>
+    </Tabs>
+  );
+};
+
+export const ProtocolDeleteSample = ({
+  path,
+  identity = "deadbeef-id",
+  psk = "supersecret",
+  message,
+}) => {
+  return (
+    <Tabs
+      groupId="protocol"
+      defaultValue="coap"
+      values={[
+        { label: "CoAP", value: "coap" },
+        { label: "MQTT", value: "mqtt" },
+      ]}
+    >
+      <TabItem value="coap">
+        <CodeBlock>
+          {`coap --path ${path} -m DELETE --psk-id ${identity} --psk ${psk} --host coap.golioth.io --accept json`}
+        </CodeBlock>
+      </TabItem>
+      <TabItem value="mqtt">
+        <CodeBlock>
+          {`mosquitto_pub -i ${identity} -L mqtts://${identity}:${psk}@mqtt.golioth.io:8883${path} -m ""`}
+        </CodeBlock>
+      </TabItem>
+    </Tabs>
+  );
+};
