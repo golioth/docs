@@ -24,3 +24,8 @@ With the LTE Montior appication open, power on the nrf9160 board and select from
 
 Test connectivity by pressing the AT+CFUN? button on the LTE Link Montior application.  Serial output will stream to the Monitor application.  Verify that the board has connected through the SIM portal of the SIM being tested.  If the SIM reports that it has connected then the board and SIM are ready to proceed with Golioth application examples.
 
+:::note
+Thanks goes to Jared Wolff for the LTE Montitor technique.  You can read the original work at:
+https://www.jaredwolff.com/the-nrf9160-feather-connects/
+:::
+
