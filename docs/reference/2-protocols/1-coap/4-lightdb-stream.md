@@ -40,5 +40,5 @@ The body can be a JSON/CBOR object or a single value in the following formats:
 You can also send a batch request by sending an array at the root level and with different timestamps:
 
 ```
-$ coap --path /.s/position -m POST --psk-id deadbeef-id --psk supersecret --host coap.golioth.io -b "[{\"ts\": 1626362266059, \"latitude\": 37.75, \"longitude\" : -122.57, \"speed\": 5 }, {\"ts\": 1626362276059, \"latitude\": 38.75, \"longitude\" : -123.57, \"speed\": 10 }]" --format json
+$ coap --path /.s/position -m POST --psk-id deadbeef-id@my-project-id --psk supersecret --host coap.golioth.io -b "[{\"ts\": 1626362266059, \"latitude\": 37.75, \"longitude\" : -122.57, \"speed\": 5 }, {\"ts\": 1626362276059, \"latitude\": 38.75, \"longitude\" : -123.57, \"speed\": 10 }]" --format json
 ```
