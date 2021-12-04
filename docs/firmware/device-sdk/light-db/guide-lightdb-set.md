@@ -1,5 +1,5 @@
 ---
-title: LightDB 'Set' Application Walkthrough
+title: LightDB Set Request
 sidebar_position: 4
 ---
 
