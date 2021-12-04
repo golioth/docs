@@ -1,5 +1,5 @@
 ---
-title: LightDB 'Observe' Application Walkthrough
+title: LightDB Observe Request
 sidebar_position: 3
 ---
 
