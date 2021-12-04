@@ -1,5 +1,5 @@
 ---
-title: LightDB 'Get' Application Walkthrough
+title: LightDB Get Request
 sidebar_position: 2
 ---
 The [Get](https://github.com/golioth/zephyr-sdk/tree/main/samples/lightdb/get) application demonstrates the retrieval of resources from LightDB with the use of Golioth SDK. The first thing that the example application does is check for the KConfig settings related to using Wi-Fi. If a different connectivity option is used such as cellular, this connection will be made outside of main.c. The Wi-Fi connection method is verified in ```main()``` in all of the samples as zephyr handles this connecivity method differently. Namely, Wi-Fi credentials must be in place in the Kconfig to ensure the success of the ```wifi_connect()``` method.
