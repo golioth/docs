@@ -6,7 +6,7 @@ sidebar_position: 2
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 ### Signing the sample image
-The following instructions do not apply to Nordic targets.  The build process for the nrf91 includes the signing of images.
+This guide only applies to targets other than Nordic. Nordic targets do not require the extra manual step of signing images. The images are automatically signed during the build process.
 
 A key feature of MCUboot is that images must be signed before they can be successfully uploaded and run on a target. To sign images, the MCUboot tool imgtool can be used.
 
