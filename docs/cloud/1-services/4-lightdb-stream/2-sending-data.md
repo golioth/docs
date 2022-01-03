@@ -45,7 +45,7 @@ If you now dump the data in that stream with `goliothctl stream [device name] ge
 
 ### Reading latest stream data with GET
 
-A device can also get the latest information streamed to LightDB Stream. Maybe on a scenario that the device went offline and want to check what was the latest information sent to check if it should post more data. The returned value of the CoAP API depends on what is stored on LightDB Stream, which can be any JSON like data type. The value is gonna be encoded depending on the `Accept` header that is set on the request.
+A device can also get the latest information streamed to LightDB Stream. Imagine a scenario where the device went offline and now wants to check the latest information sent to know if it should post more data. The returned value of the CoAP API depends on what is stored on LightDB Stream, which can be any JSON-like data type. The value will be encoded depending on the `Accept` header that is set on the request.
 
 Taking our asset tracking example, to read the last device position data, we can issue a GET request like this:
 
