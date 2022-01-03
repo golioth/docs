@@ -190,4 +190,4 @@ Executing again our new query will give us this result:
 ]
 ```
 
-We are gonna be improving the query interface over time, but we believe that users will be able to build powerful queries with the current feature set.
+Users are able to build powerful queries using this query interface, and the feature set is constantly being improved.
