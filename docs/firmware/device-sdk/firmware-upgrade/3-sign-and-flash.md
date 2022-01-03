@@ -5,6 +5,7 @@ sidebar_position: 2
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+
 ### Signing the sample image
 This guide only applies to targets other than Nordic. Nordic targets do not require the extra manual step of signing images. The images are automatically signed during the build process.
 
