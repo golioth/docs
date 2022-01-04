@@ -66,12 +66,12 @@ sudo apt install coap
 To check if the CLI has been installed, run
 ```
 $ goliothctl version 
-1.0.0
+1.3.0
 ```
 
 ```
 $ coap version
-1.0.0
+1.0.5
 ```
 
 It must show the respective CLI version.
@@ -94,7 +94,7 @@ gpgcheck=0\n" | sudo tee /etc/yum.repos.d/golioth.repo
 ```
 
 :::note
-Your password migth be requested.
+Your password might be requested.
 :::
 
 Next, you just need install the desired CLI. For `goliothctl`
@@ -126,7 +126,7 @@ It must show the respective CLI version.
 
 :::note
 
-During the developer preview CLIs on macOS will be distributed as a [Tap](https://docs.brew.sh/Taps) and will be published to the public Homebrew ecosystem in the future. Beta members can access [the GitHub repository that containst the tap](https://github.com/golioth/homebrew-tap).
+During the developer preview CLIs on macOS will be distributed as a [Tap](https://docs.brew.sh/Taps) and will be published to the public Homebrew ecosystem in the future. Beta members can access [the GitHub repository that contains the tap](https://github.com/golioth/homebrew-tap).
 
 :::
 
