@@ -7,16 +7,16 @@ import TabItem from '@theme/TabItem';
 
 <Tabs
 groupId="os"
-defaultValue="linux"
+defaultValue="ubuntu"
 values={[
-{label: 'Linux', value: 'linux'},
+{label: 'Ubuntu', value: 'ubuntu'},
 {label: 'MacOS', value: 'macos'},
 {label: 'Windows', value: 'windows'},
 ]}>
 
 import SetupZephyrUnix from './setup-zephyr-unix.md'
 
-<TabItem value="linux">
+<TabItem value="ubuntu">
 
 Install dependencies with `apt`:
 
@@ -44,9 +44,12 @@ brew install cmake ninja gperf python3 ccache qemu dtc
 </TabItem>
 <TabItem value="windows">
 
-:::caution
-While Windows is supported by Zephyr, Golioth does not yet have instructions for
-Windows.
+[The nRF Connect For Desktop](https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-desktop) installer includes a Toolchain Manager section that handles many of the same functions described in the Ubuntu tab. This can be used in conjunction with [the VS Code extension for nRF Connect SDK (NCS)](https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-VS-Code). This is the recommended path for Windows users with the nRF9160. 
+
+:::note
+
+Using the VS Code extension in conjuction with the nRF Connect for Desktop tools may move you outside many of the other recommended methods of compiling your firmware, described on this docs page and elsewhere on Golioth. If you're having problems with your Windows install, please contact us on our [Community Discord](https://golioth.io/discord)
+
 :::
 
 </TabItem>
