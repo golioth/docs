@@ -29,7 +29,6 @@ Add the following to west.yml file in the manifest/projects subtree to add the G
 Do the following to redeploy zephyr and add the Golioth SDK library.
 ```
 west update
-west patch
 ```
 
 Tell `west` to automatically configure CMake:
