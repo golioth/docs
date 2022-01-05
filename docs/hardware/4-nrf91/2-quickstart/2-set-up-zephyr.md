@@ -1,6 +1,6 @@
 ---
 id: set-up-zephyr
-title: Set up Zephyr for the nRF9160
+title: Set up Zephyr for nRF9160
 ---
 
 ### Zephyr Setup Overview
@@ -25,7 +25,7 @@ import InstallNRFSDK from '/docs/partials/install-nrf91-sdk.md'
 
 The nRF9160 is an ARM based device, so we will use the ARM toolchains (gcc, gdb, etc) included in the Zephyr SDK
 
-import InstallZephyrSDKtoolchain from '/docs/partials/install-zephyr-sdk-toolchain.md'
+import InstallZephyrSDKtoolchain from '/docs/partials/install-zephyr-sdk-toolchain.md'  
 
 <InstallZephyrSDKtoolchain/>
 
@@ -35,7 +35,7 @@ Your system is all set up and ready to start building & flashing with Zephyr. Ve
 
 ```
 cd ~/zephyr-nrf/zephyr
-west build -p auto -b  circuitdojo_feather_nrf9160_ns samples/basic/minimal
+west build -p auto -b  circuitdojo_feather_nrf9160ns samples/basic/minimal
 ```
 Alternatively, build for the nRF9160_DK with the following commands:
 
