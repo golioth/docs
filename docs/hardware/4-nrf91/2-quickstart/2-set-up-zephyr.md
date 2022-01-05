@@ -3,6 +3,9 @@ id: set-up-zephyr
 title: Set up Zephyr for nRF9160
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 ### Zephyr Setup Overview
 
 Golioth is implemented on IoT devices using [Device SDKs](/firmware). These are based on different embedded Real Time Operating Systems (RTOS). Currently Golioth targets the [Zephyr Project](https://www.zephyrproject.org/) and builds upon the APIs & tools of Zephyr. As such, prior experience with Zephyr will be helpful when working with [Golioth's Zephyr Device SDK](https://github.com/golioth/zephyr-sdk). Refer to Zephyr's [detailed documentation](https://docs.zephyrproject.org/) when running into issues.
@@ -46,7 +49,16 @@ west build -p auto -b  nrf9160dk_nrf9160_ns samples/basic/minimal
 
 ### Flash firmware to the device
 
-#### nRF9160_DK
+<Tabs
+groupId="nrf9160-hw"
+defaultValue="nrf9160dk"
+values={[
+{label: 'nRF9160-DK', value: 'nrf9160dk'},
+{label: 'nRF91 Feather', value: 'nrf91feather'},
+]}>
+
+<TabItem value="nrf9160dk">
+
 
 The official nRF9160 Development Kit has an onboard debugger and can program entire images into the flash using native west commands. However, there is a required nRF CLI tool installation.
 
@@ -61,9 +73,12 @@ Flash the application to the board with the following command:
 ```
 west flash
 ```
-
-#### nRF91 Feather
+</TabItem>
+<TabItem value="nrf91feather">
 
 The nRF91 Feather does not have a debugger onboard like the nRF9160_DK. If you have an external debugger (like a JLink) and a programming cable (the board uses a 6 pin Tag Connect), use can the same directions as the nRF9160_DK flashing, shown above.
 
 If you'd like to load firmware directly to the board using a USB cable, you must compile the firmware to compile a bootload-able image and then use an external tool like [`newtmgr`](https://github.com/circuitdojo/mynewt-newtmgr?organization=circuitdojo&organization=circuitdojo). Follow the directions [on the CircuitDojo wiki to install and flash the image to the nRF91 Feather](https://docs.jaredwolff.com/nrf9160-programming-and-debugging.html#using-newtmgr).
+
+</TabItem>
+</Tabs>
