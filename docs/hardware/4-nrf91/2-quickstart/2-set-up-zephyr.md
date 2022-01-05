@@ -42,9 +42,26 @@ cd ~/zephyr-nrf/zephyr
 west build -p auto -b  nrf9160dk_nrf9160_ns samples/basic/minimal
 ```
 
-### Flash firmware to the nRF9160
+### Flash firmware to the device
+
+#### nRF9160_DK
+
+The official nRF9160 Development Kit has an onboard debugger and can program entire images into the flash using native west commands. However, there is a required nRF CLI tool installation.
+
+[Download the package here](https://www.nordicsemi.com/Products/Development-tools/nrf-command-line-tools/download) and unpack the archive (Linux)
+
+```
+sudo dpkg -i JLink_Linux_V758b_x86_64.deb
+sudo dpkg -i nrf-command-line-tools_10.15.1_amd64.deb
+```
 
 Flash the application to the board with the following command:
 ```
 west flash
 ```
+
+#### nRF91 Feather
+
+The nRF91 Feather does not have a debugger onboard like the nRF9160_DK. If you have an external debugger (like a JLink) and a programming cable (the board uses a 6 pin Tag Connect), use can the same directions as the nRF9160_DK flashing, shown above.
+
+If you'd like to load firmware directly to the board using a USB cable, you must compile the firmware to compile a bootload-able image and then use an external tool like [`newtmgr`](https://github.com/circuitdojo/mynewt-newtmgr?organization=circuitdojo&organization=circuitdojo). Follow the directions [on the CircuitDojo wiki to install and flash the image to the nRF91 Feather](https://docs.jaredwolff.com/nrf9160-programming-and-debugging.html#using-newtmgr).
