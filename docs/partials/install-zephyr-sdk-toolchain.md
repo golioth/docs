@@ -39,6 +39,7 @@ sudo udevadm control --reload
 
 </TabItem>
 <TabItem value="macos">
+
 Follow the instructions in [Set Up a Toolchain (External Zephyr page)](https://docs.zephyrproject.org/latest/guides/beyond-GSG.html#gs-toolchain). Note that the Zephyr SDK is not available on macOS.
 
 Do not forget to set the required [environment variables](https://docs.zephyrproject.org/latest/guides/env_vars.html#env-vars) (`ZEPHYR_TOOLCHAIN_VARIANT` and toolchain specific ones).
