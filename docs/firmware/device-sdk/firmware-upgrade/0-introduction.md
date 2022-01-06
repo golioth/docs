@@ -1,6 +1,7 @@
 ---
 title: Introduction
 sidebar_position: 2
+slug: /firmware/device-sdk/firmware-upgrade
 ---
 
 import Tabs from '@theme/Tabs';
