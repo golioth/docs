@@ -17,7 +17,6 @@ values=
 {[
   {label: 'nRF9160 Feather', value: 'nrf9160-feather'},
   {label: 'nRF9160 DK', value: 'nrf9160-dk'},
-  {label: 'nRF52840 DK + ESP32-WROOM-32', value: 'esp-32'},
 ]}>
 
 <TabItem value="nrf9160-feather">
@@ -56,10 +55,6 @@ Follow Over-The-Air (OTA) Updates guide using goliothctl to turn the update bina
 
 Terminal output is viewable over UART at 115200 baud. After the device establishes an active connection with the Golioth Cloud, it will begin a firmware update download if the version of the firmware release candidate is different from that currently flashed to the device.
 
-</TabItem>
-
-<TabItem value="esp-32">
-<ComingSoon/>
 </TabItem>
 
 </Tabs>
