@@ -21,7 +21,7 @@ Add the following to west.yml file in the manifest/projects subtree to add the G
 # Golioth repository.
 - name: golioth
   path: modules/lib/golioth
-  revision: main
+  revision: 309597316d6963832bb777f901e5c869f99daff3
   url: https://github.com/golioth/zephyr-sdk.git
   import:
     name-allowlist:
