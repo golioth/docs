@@ -38,7 +38,7 @@ Your system is all set up and ready to start building & flashing with Zephyr. Ve
 
 ```
 cd ~/zephyr-nrf/zephyr
-west build -p auto -b  circuitdojo_feather_nrf9160ns samples/basic/minimal
+west build -p auto -b  circuitdojo_feather_nrf9160_ns samples/basic/minimal
 ```
 Alternatively, build for the nRF9160_DK with the following commands:
 
