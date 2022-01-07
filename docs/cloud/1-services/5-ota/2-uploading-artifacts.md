@@ -18,7 +18,7 @@ Here are the steps to build and sign your image with version `1.0.1` and both wi
 - For Nordic Zephyr SDK and the nrf9160 Feather board
 
 ```
-$ west build -b circuitdojo_feather_nrf9160ns samples/dfu -p -- -DCONFIG_MCUBOOT_IMAGE_VERSION=\"1.0.1\"
+$ west build -b circuitdojo_feather_nrf9160_ns samples/dfu -p -- -DCONFIG_MCUBOOT_IMAGE_VERSION=\"1.0.1\"
 ```
 
 - For Pure Zephyr SDK and a nrf52840-dk board

@@ -56,7 +56,7 @@ Set the PSK & PSK ID to match what was used during the provisioning step. Networ
 After saving, build the sample (for the [CircuitDojo nRF91 Feather](https://www.jaredwolff.com/store/nrf9160-feather/)) with the new settings applied.
 
 ```
-west build -b circuitdojo_feather_nrf9160ns samples/hello -p
+west build -b circuitdojo_feather_nrf9160_ns samples/hello -p
 ```
 
 ### Flashing the device
