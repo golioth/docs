@@ -6,8 +6,8 @@ sidebar_position: 2
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
+When a new release candidate appears on the Golioth Cloud it will be detected by any target boards not already running the new version and the DFU process will be started in Zephyr. Here is an example of what is visible on the serial console:
 
-If the procedure has been followed to create the release candidate and the 'old' firmware is currently running on the target board, then the DFU process should be started in Zephyr. This is what should be visible on serial console:
 ```
 [00:00:06.483,764] <dbg> golioth_dfu: Desired
                                       a3 01 1a 61 7a be 80 02  78 40 61 66 62 66 38 34 |...az... x@afbf84
@@ -38,10 +38,10 @@ If the procedure has been followed to create the release candidate and the 'old'
 [00:03:45.210,540] <inf> golioth_dfu: Rebooting in 1 second(s)
 
 ```
-At this point mcuboot swaps the first application slot (containing old firmware) with the second application slot (containing new firmware). After few seconds (or a minute depending on firmware size) new firmware will be booted from first application slot and following messages should appear on serial console:
+
+At this point MCUboot swaps the first application slot (containing old firmware) with the second application slot (containing new firmware). After a few seconds (this timing depends on firmware size) new firmware will be booted from the first application slot and the following messages will appear on the serial console:
 
 ```
-
 *** Booting Zephyr OS build zephyr-v2.5.0-2205-g3276779c5a88  ***
 [00:00:00.008,850] <dbg> golioth_dfu.main: Start DFU sample
 [00:00:00.009,155] <inf> golioth_dfu: Initializing golioth client
@@ -49,9 +49,8 @@ At this point mcuboot swaps the first application slot (containing old firmware)
 [00:00:00.009,307] <inf> golioth_dfu: Starting connect
 
 ```
-The application creates a shell command accessible via the serial console.  Execute the command:
-```mcuboot```
-to confirm that new firmware is running from primary area (first application slot):
+
+The application creates a shell command accessible via the serial console.  Execute the command `mcuboot` to confirm that new firmware is running from primary area (first application slot):
 
 ```
 uart:~$ mcuboot
@@ -75,6 +74,4 @@ secondary area (2):
   swap type: none
   copy done: unset
   image ok: unset
-``` 
-
-
+```

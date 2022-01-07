@@ -6,11 +6,9 @@ hide_title: false
 While the [Quickstart](/getting-started) focuses on running a sample that's located within the Zephyr file-hierarchy,
 it's simple enough to create a new application that's separate from Zephyr.
 
-
 import PrerequisitesDevice from '/docs/partials/prerequisites-device.md'
 
 <PrerequisitesDevice />
-
 
 ### Setting up file structure
 
@@ -204,7 +202,7 @@ source ~/golioth/zephyr/zephyr/zephyr-env.sh
 This will set the `$ZEPHYR_BASE` environment variable, as well as make sure `west` can find the correct subcommands.
 
 :::note
-The exact paths may not match up with what is shown here. Look at [`Set up Zephyr (on ESP32)`](hardware/esp32/quickstart/set-up-zephyr) page for more information
+The exact paths may not match up with what is shown here. Look at [Set up Zephyr (on ESP32)](https://docs.golioth.io/hardware/esp32/quickstart/set-up-zephyr) page for more information
 about setting up the toolchain and the necessary environment variables.
 :::
 
