@@ -9,7 +9,7 @@ Depending on your internet and I/O speed, `west update` can take upwards of 5 or
 
 ```
 cd ~
-west init -m git@github.com:golioth/zephyr.git --mr main ~/zephyrproject
+west init -m https://github.com/golioth/zephyr-sdk.git --mr main ~/zephyrproject
 cd zephyrproject/
 west update
 west patch
