@@ -1,6 +1,5 @@
 ---
 title: DFU Sample Guide
-sidebar_position: 2
 ---
 
 The Device Firmware Update service includes several helper functions and data structures.  
