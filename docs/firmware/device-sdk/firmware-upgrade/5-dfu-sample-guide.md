@@ -6,9 +6,16 @@ The Device Firmware Update service includes several helper functions and data st
 
 ### Header File fw.h
 
-The first discussed are found within fw.h. The enum ```golioth_fw_state{}``` is used to register and indicate the current state of the DFU service process.  The struct ```golioth_dfu_result{}``` indicates whether the process was successful or that an error has occurred. The ```golioth_fw_download_ctx``` struct contains the context of the firmware download. The inner struct ```golioth_blockwise_download_ctx``` contains CoAP-specific blockwise transfer elements. The URI defines the artifact and version of artifact being downloaded. In the example case of downloading multiple artifacts for perhaps updating both a cellular modem as well as the host MCU firmware, there would be an instance of ```golioth_fw_download_ctx``` for each firmware download artifact.
+Let's first discuss the functions found within [fw.h](https://github.com/golioth/zephyr-sdk/blob/main/include/net/golioth/fw.h).
 
-After requesting a specific version of firmware from the Golioth server, a CBOR-encoded payload is received and parsed with the ```golioth_fw_desired_parse()``` function. The ```golioth_fw_observe_desired()``` function works similarly to the observe functions found in the LightDB observe samples.  This function creates a subscription to the state of the firmware in the cloud in order to trigger an update if the active firmware is changed.  The ```golioth_fw_download()``` is a helper function that makes use of the ```golioth_client``` object to request a firmware download from Golioth.  The last function in fw.h is ```golioth_fw_report_state```.  It is used to commmunicate the application state to Golioth server.  The reported state is used to govern firmware transfers and report to Golioth server when transfers are complete.
+* The enum ```golioth_fw_state{}``` is used to register and indicate the current state of the DFU service process.
+* The struct ```golioth_dfu_result{}``` indicates whether the process was successful or that an error has occurred.
+* The ```golioth_fw_download_ctx``` struct contains the context of the firmware download.
+* The inner struct ```golioth_blockwise_download_ctx``` contains CoAP-specific blockwise transfer elements. The URI defines the artifact and version of artifact being downloaded. In the example case of downloading multiple artifacts for perhaps updating both a cellular modem as well as the host MCU firmware, there would be an instance of ```golioth_fw_download_ctx``` for each firmware download artifact.
+* The ```golioth_fw_desired_parse()``` function parses the CBOR-encoded payload is received after requesting a specific version of firmware from the Golioth server.
+* The ```golioth_fw_observe_desired()``` function works similarly to the observe functions found in the LightDB observe samples. It creates a subscription to the state of the firmware in the cloud in order to trigger an update if the active firmware is changed.
+* The ```golioth_fw_download()``` is a helper function that makes use of the ```golioth_client``` object to request a firmware download from Golioth.
+* The ```golioth_fw_report_state``` function is used to communicate the application state to the Golioth server.  The reported state is used to govern firmware transfers and report to the Golioth server when transfers are complete.
 
 ### Logging
 
