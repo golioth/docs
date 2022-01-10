@@ -19,11 +19,13 @@ Let's first discuss the functions found within [fw.h](https://github.com/golioth
 
 ### Logging
 
-The ```log_ctrl.h``` header is included to make use of the log functions which connect the Golioth logging backend to the Zephyr logging system. ```LOG_PANIC()``` is used to synchronize the log messages and ensure that all logs are received by Golioth server prior to exiting the function containing logging calls.  The ```LOG_PANIC()``` call will ensure that log calls in all threads are processed.  In the case of the sample code this is performed prior to calling a system reboot.
+The ```log_ctrl.h``` header is included to make use of the log functions which connect the Golioth logging backend to the Zephyr logging system.
+
+* ```LOG_PANIC()``` is used to synchronize the log messages and ensure that all logs are received by Golioth server prior to exiting the function containing logging calls.  The ```LOG_PANIC()``` call will ensure that log calls in all threads are processed.  In the case of the sample code this is performed prior to calling a system reboot.
 
 ### Writing to Flash
 
-The ```flash.h``` is a helper included specifically for the dfu application. The flash helper functions govern things like writing to flash and confirming contents of flash. 
+The ```flash.h``` is a helper included specifically for the dfu application. The flash helper functions govern things like writing to flash and confirming contents of flash.
 
 Most of the flash helper functions provide an abstraction for testing with the QEMU platform. If the project is configured to use a platform utilizing MCUboot, then most of the functions present in this file will not be used as indicated by the ```#ifdef CONFIG_BOOTLOADER_MCUBOOT``` section of code.
 
