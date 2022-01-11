@@ -33,19 +33,26 @@ Most of the flash helper functions provide an abstraction for testing with the Q
 
 In the ```main.c``` file the first thing to be instantiated is the ```golioth_client``` struct to enable the Golioth system client.  Next the ```coap_reply``` struct is instantiated with memory allocated for more than one reply.  This larger storage reservation is unique to this sample as the other samples reserve space for only one coap reply.  There are currently two replies in use.  One is for receiving the blockwise transfer, and the other is used for receiving the desired artifact version message.
 
-The ```dfu_ctx{}``` struct contains the both the firmware download context :```golioth_fw_download_ctx``` as well as the ```flash_img_context```. The ```flash_img_context``` is zephyr-specific and allows the application to track how many bytes have been written to flash.
+The ```dfu_ctx{}``` struct contains the both ```golioth_fw_download_ctx``` (the firmware download context) as well as the zerphyr-specific ```flash_img_context``` that allows the application to track how many bytes have been written to flash.
 
-The ```data_received()``` function receives each block of the firmware update. For each block of data a pointer is passed into this function for the blockwise transfer context struct, a pointer to the data itself, a sizetype of offset of the data, a sizetype of the length of the data, and a boolean to indicate if the current block of data is the last.  This structure is determined by the CoAP protocol and transfer structure.  This handler function structure can be used in context of custom application development.
+The ```data_received()``` function receives each block of the firmware update. For each block of data, these parameters are passed to the function:
+
+* a pointer to the blockwise transfer context struct
+* a pointer to the data itself
+* a sizetype of offset of the data
+* a sizetype of the length of the data
+* a boolean to indicate if the current block of data is the last
+  
+    This structure is determined by the CoAP protocol and transfer structure.  This handler function structure can be used in context of custom application development.
 
 The ```uri_strip_leading_slash()``` function strips the leading slash from the URI to prepare it for consumption by the CoAP library.
 
-The ```golioth_desired_update()``` function is called when a new update request is received.  This function will receive the CBOR-formatted payload over CoAP and parse the payload.  The CBOR encoding is specified in ```fw.c``` This function will then proceed to strip the leading slash from the URI, report the current state of the download process to Golioth server, and finally execute the next firmware block download using the updated URI formatted for CoAP.
+The ```golioth_desired_update()``` function is called when a new update request is received.  This function will receive the CBOR-formatted payload over CoAP and parse the payload.  The CBOR encoding is specified in ```fw.c``` This function will then proceed to strip the leading slash from the URI, report the current state of the download process to the Golioth server, and finally execute the next firmware block download using the updated URI formatted for CoAP.
 
-The ```golioth_on_connect``` is common to many of the Golioth samples.  The portion of the function that is unique to this sample is the ```golioth_fw_observe_desired()``` which uses the LightDB observe functionality to monitor the state of the firmware artifact currently in Golioth server.
+The ```golioth_on_connect``` function is common to many of the Golioth samples.  The portion of it that is unique to this sample is the ```golioth_fw_observe_desired()``` which uses the LightDB observe functionality to monitor the state of the firmware artifact currently in the Golioth server.
 
 The ```golioth_on_message()``` function is a helper function to handle CoAP replies.
 
 ### Application instantiation in ```main()```
 
-The ```main()``` function contains the setup for the DFU process.  The first if evaluation checks to see if the current boot image is confirmed.  This means that after the latest reboot, the firwmare has been downloaded and verified successfully or this is the first bootup.  Next is the Wi-Fi helper that will be called if Wi-Fi connectivity is being used. Finally the ```client->on_connect``` and ```client->on_message``` objects are populated with the function pointers that will launch and manage the continuous DFU update and monitoring process.
-
+The ```main()``` function contains the setup for the DFU process.  The first if evaluation checks to see if the current boot image is confirmed.  This means that after the latest reboot, the firwmare has been downloaded and verified successfully (or that this is the first bootup).  Next is the Wi-Fi helper that will be called if Wi-Fi connectivity is being used. Finally the ```client->on_connect``` and ```client->on_message``` objects are populated with the function pointers that will launch and manage the continuous DFU update and monitoring process.
