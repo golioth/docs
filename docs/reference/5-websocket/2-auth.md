@@ -42,7 +42,7 @@ Basic API Key doesn't require any extra processing to be used and a `X-API-Key` 
 
 For example, to connect to LightDB Endpoint with authentication:
 ```
-wss://api.golioth.net/v1/ws/projects/local-test/devices/6173155307bbb1c7c9bb158f/data/env?x-api-key=AAABbBbBbCcCcCcDdDdDdEeEe1H2E3KJ==
+wss://api.golioth.io/v1/ws/projects/local-test/devices/6173155307bbb1c7c9bb158f/data/env?x-api-key=AAABbBbBbCcCcCcDdDdDdEeEe1H2E3KJ==
 
 ```
 
@@ -75,6 +75,6 @@ Using the JWT debugger at https://jwt.io with the header (HS256), claims (iss), 
 
 For example, to connect to LightDB Endpoint with authentication:
 ```
-wss://api.golioth.net/v1/ws/projects/local-test/devices/6173155307bbb1c7c9bb158f/data/env?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ey[...]Jvc2Nh
+wss://api.golioth.io/v1/ws/projects/local-test/devices/6173155307bbb1c7c9bb158f/data/env?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ey[...]Jvc2Nh
 
 ```

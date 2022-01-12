@@ -38,7 +38,7 @@ While the GET method only allows you to receive one data packet at a time, WebSo
 
 For example, for listening to the data stream from the devices, connect a WebSocket client to the following endpoint:
 ```
-wss://api.golioth.net/v1/ws/projects/local-test/stream?x-api-key=AAABbBbBbCcCcCcDdDdDdEeEe1H2E3KJ==
+wss://api.golioth.io/v1/ws/projects/local-test/stream?x-api-key=AAABbBbBbCcCcCcDdDdDdEeEe1H2E3KJ==
 ```
 
 You'll see data arriving to your WebSocket client as soon as the data sent by the device arrive to the platform, indefinitely or until the connection is closed:

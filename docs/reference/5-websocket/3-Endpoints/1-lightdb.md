@@ -32,7 +32,7 @@ While the GET method only allows you to receive one data packet at a time, WebSo
 
 For example, for listening to any changes in the `/env` path, connect a WebSocket client to the following endpoint:
 ```
-wss://api.golioth.net/v1/ws/projects/local-test/devices/6173155307bbb1c7c9bb158f/data/env?x-api-key=AAABbBbBbCcCcCcDdDdDdEeEe1H2E3KJ==
+wss://api.golioth.io/v1/ws/projects/local-test/devices/6173155307bbb1c7c9bb158f/data/env?x-api-key=AAABbBbBbCcCcCcDdDdDdEeEe1H2E3KJ==
 ```
 
 You'll see data arriving to your WebSocket client as soon as the `/env` path is either modified or deleted indefinitely, or until the connection is closed:
@@ -47,7 +47,7 @@ You'll see data arriving to your WebSocket client as soon as the `/env` path is 
 
 If you want to listen to the entire device state without specifying any particular path, just omit the path:
 ```
-wss://api.golioth.net/v1/ws/projects/local-test/devices/6173155307bbb1c7c9bb158f/data?x-api-key=AAABbBbBbCcCcCcDdDdDdEeEe1H2E3KJ==
+wss://api.golioth.io/v1/ws/projects/local-test/devices/6173155307bbb1c7c9bb158f/data?x-api-key=AAABbBbBbCcCcCcDdDdDdEeEe1H2E3KJ==
 ```
 In this case you will see data arriving for the entire device state:
 ```
