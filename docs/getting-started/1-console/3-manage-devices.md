@@ -16,4 +16,12 @@ In the center at the top of the console widow the currently selected project is 
 
 * Enter a Name and click save to create the device.
 
+:::note
+There are three optional values that we are not setting for this example
+
+* **Tags:** Group different types of devices together with your project
+* **Blueprints:** A designator used to identify device types for Over-the-Air updates (OTA)
+* **Hardware ID:** A unique hardware ID that you can choose to set to meet your project's needs (MAC address, serial number, etc.)
+:::
+
 Before your newly created device can communicate with the Golioth Cloud it will need to be assigned credentials using the device authorization process.
