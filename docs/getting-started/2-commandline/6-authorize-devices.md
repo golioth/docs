@@ -1,6 +1,6 @@
 ---
 id: authorize-devices
-title: Authorizing Devices
+title: Authorize Devices
 ---
 
 We saw on the [Manage Devices](/getting-started/manage-devices) we can create the device. To connect to our platform we also need to create a credential for it.
