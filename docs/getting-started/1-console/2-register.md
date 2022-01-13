@@ -9,7 +9,12 @@ Once registered, you will be greeted with a Wizard to guide you in provisioning 
 
 ![Golioth Console hardware provisioning wizard](../assets/gettingstarted-console-wizard.png)
 
+### Step 1
+
 * Enter a Project Name of your choosing
+
+### Step 2
+
 * Enter a human-readable Device Name
 * Under Credential Info, the Identity of this device will automatically be populated from the device name with `-id` appended
 * Enter a Pre-Shared Key (PSK). This is a password that will authenticate this device to the Golioth Cloud
