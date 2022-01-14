@@ -12,4 +12,4 @@ This work-through will demonstrate how to quickly connect an nRF9160 based devic
 * [Nordic nRF9160-DK](/hardware/catalog/boards/quickstart/arm_nrf9160dk_nrf9160)
 * [CircuitDojo nRF91-Feather](/hardware/catalog/boards/quickstart/arm_circuitdojo_feather_nrf9160)
 
-See the [Hardware Catalog](/hardware/catalog) search tool for more devices that use the nRF9160
+See the [Hardware Catalog](/hardware/catalog/search) search tool for more devices that use the nRF9160

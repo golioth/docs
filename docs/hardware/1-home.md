@@ -1,15 +1,29 @@
 ---
 id: overview
 title: Overview
-hide_title: true
+hide_title: false
 slug: /hardware
 ---
 
-## Overview
+The Hardware section includes supported hardware for the Golioth platform. Includes hardware description, how to get started using that hardware on the Golioth platform, and how to apply other Golioth examples to that hardware.
 
-This section includes supported hardware for the Golioth platform. Includes hardware description, how to get started using that hardware on the Golioth platform, and how to apply other Golioth examples to that hardware.
+## Classifications of Hardware
 
-*See Also*: Device SDK
+### Verified + Quickstart Boards
+
+These are Verified Boards (see below) that also have a quickstart guide written for the board.
+
+### Verified Boards
+
+These are boards or devices that members of the Golioth team have used and confirm work well using the Golioth platform. There will be additional support, such as overlay files in the various firmware samples, and regular testing that goes along with the "verified status". Verified boards do not yet have quickstart guides associated with them.
+
+### Community Verified Boards
+
+These are boards or devices that community members have used and confirm work well using the Golioth platform.
+
+### Zephyr Supported Boards
+
+These are boards that are listed by Zephyr and are candidates to be either Community Verified Boards or Golioth Verified boards, but have not yet been tested by members of the Golioth team, nor the community. 
 
 ## Terminology
 
@@ -25,20 +39,3 @@ This section includes supported hardware for the Golioth platform. Includes hard
 * **Golioth Verified Boards** - Development Boards that are both supported by the Zephyr Project and have been tested/verified by the Golioth team to work well with Golioth. 
 * **Zephyr Supported Boards** - Development Boards or Custom Hardware that has been verified to work with Zephyr, but has not yet been tested with Golioth.
 * **Community Boards** - Development Boards or Custom Hardware that works with Golioth and is being used by community members, but is not yet officially supported by Golioth.
-
-## Golioth Platform Boards
-
-These are pieces of example hardware that Golioth has created to showcase certain features or to target a specific application. A custom made *PCB* that targets a vertically integrated target application, such as our AgTech Demo board, is a good example. This Platform board can integrate many of the *[Golioth Verified (dev) Boards](/hardware#golioth-supported-boards)*, such as the nRF91 Feather. Other *Golioth Reference Boards* may contain *Processors* that are also supported but are integrated directly onto that *PCB*.
-
-## Golioth Verified Boards
-
-These are boards or devices that members of the Golioth team have used and confirm work well using the Golioth platform. There will be additional support, such as overlay files in the various firmware samples, and regular testing that goes along with the "verified status".
-
-## Community Verified Boards
-
-These are boards or devices that community members have used and confirm work well using the Golioth platform.
-
-## Zephyr Supported Boards
-
-These are boards that are listed by Zephyr and are candidates to be either Community Verified Boards or Golioth Verified boards, but have not yet been tested by members of the Golioth team, nor the community. 
-
