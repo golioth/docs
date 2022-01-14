@@ -16,7 +16,7 @@ You can manage device and proejct credentials using the Web Console or through t
 
 ### Creating an Pre Shared Key Credential
 
-See the getting started guide to [authorize devices](/getting-started/authorize-devices).
+See the getting started guide to [authorize devices](/getting-started/2-commandline/6-authorize-devices.md).
 
 - Guides on how to use:
   - [Using Pre Shared Keys on CoAP Gateway](/reference/protocols/coap/auth)

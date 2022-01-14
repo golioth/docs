@@ -4,25 +4,15 @@ title: Platform Overview
 slug: /getting-started
 ---
 
-This is the general installation instructions to get started with the Golioth command line tools and to provision your first devices. You will want to do this before you do any of the other guides on this page.
+This guide will prepare your Golioth account to communicate directly with your hardware devices. 
 
-## Console 
+* Register for your account on Golioth
+* Add a project and provision your first device
 
-Many of the functions described below are possible to also do on the [Golioth Console](https://console.golioth.io). After signup/login, you will be prompted with a quickstart guide to create and provision your first example device.
+Once completed, you can to move on to [the Hardware section](../hardware/1-home.md) to get a device (or emulated device) communicating with the Golioth Cloud.
 
+## Choose Golioth Console or Command Line Tools
 
 ![Console](./assets/console.png)
 
-
-:::note
-When prompted to fill in the PSK field this can be any password.
-:::
-
-## Command Line Goals
-
-After going through this getting started guide, you will be set up to run on the Golioth platform, including:
-
-* Setting up your account
-* Creating a project
-* Creating and adding a device to that project
-* Authorizing the device to accept and send data to the Golioth cloud
+If this your first time trying out Golioth we recommend using [the Golioth Console](https://console.golioth.io/) which is a web-based tool. However, it is possible to accomplish everything in this guide by following [the Command Line Tools section](2-commandline/1-overview.md).
