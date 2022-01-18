@@ -28,6 +28,22 @@ sudo apt install --no-install-recommends git cmake ninja-build gperf \
   make gcc gcc-multilib g++-multilib libsdl2-dev
 ```
 
+West requires CMake version 3.20.0 or higher. Check the version that your package manager installed:
+
+```
+$ cmake --version
+cmake version 3.16.3
+```
+
+If you have an older version, get the source package [from the CMake download page](https://cmake.org/download/) and compile it:
+
+```
+sudo apt install build-essential libssl-dev
+./bootstrap
+make
+sudo make install
+```
+
 <SetupZephyrUnix />
 
 </TabItem>
