@@ -40,19 +40,21 @@ Deactivate the virtual environment when you're done by running `deactivate`.
 Anytime you need to use west or Zephyr, remember to re-activate the virtual environment.
 :::
 
-Now, use `pip` to install `west`:
+Now, use `pip` to install `west` (beginning with the `wheel` dependency):
 
 Because we're in a `python3` `virtualenv`, we don't need to specify `pip3` and can just use `pip` (because virtual env knows the best version to use)
 
 ```
+pip install wheel
 pip install west
 ```
 </TabItem>
 <TabItem value="global">
 
-Use `pip3` to install `west`:
+Use `pip3` to install `west` (beginning with the `wheel` dependency):
 
 ```
+pip3 install wheel
 pip3 install west
 ```
 </TabItem>
