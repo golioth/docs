@@ -14,6 +14,7 @@
     "serve": "docusaurus serve",
     "update-external-docs": "./scripts/update_external_docs.sh",
     "clear": "docusaurus clear",
+    "gen-protobuf": "pbjs -t json ../api/services/messages.proto > ./docs/cloud/2-output-streams/messages.json",
     "build-device-catalog": "./scripts/get_zephyr_boards.sh && node ./scripts/device-catalog/index.js"
   },
   "dependencies": {
@@ -30,6 +31,7 @@
     "clsx": "^1.1.1",
     "docusaurus2-dotenv": "^1.4.0",
     "env-cmd": "^10.1.0",
+    "protobufjs": "^6.11.2",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "swagger-ui-react": "^3.52.3",

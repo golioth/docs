@@ -1,0 +1,4 @@
+label: 'Output Streams'
+position: 2.5 # float position is supported
+collapsible: true # make the category collapsible
+collapsed: false # keep the category open by default
