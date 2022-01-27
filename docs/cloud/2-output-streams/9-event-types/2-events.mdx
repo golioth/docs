@@ -106,7 +106,7 @@ export const MessageTypes = () => {
   return (
     <>
       {types.map((t) => {
-        let payload = (t.openapi.example || "").replaceAll("'", '"');
+        let payload = (t.openapi.example || "").replace(/'/g, '"');
         try {
           payload = JSON.stringify(JSON.parse(payload), null, 2);
         } catch (err) {
@@ -121,7 +121,7 @@ export const MessageTypes = () => {
             <h4>Event Type: {t.cloudEvent.message_type}</h4>
             <MessageFields fields={t.fields} enums={enums} />
             <h4>Payload</h4>
-            <CodeBlock>{payload}</CodeBlock>
+            <CodeBlock className="language-json">{payload}</CodeBlock>
           </div>
         );
       })}
