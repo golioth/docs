@@ -9,17 +9,25 @@ Flashing via hardware programmer requires the `nrfjprog` tool.
 
 ### Installing the nRF Command Line Tools (for hardware programmers)
 
-Zephyr uses `nrfjprog` to flash nRF9160 targets using a hardware programmer like the Segger J-Link, or the debugger that is built into the nRF9160 DK board. This tool is part of the nRF Command Line Tools.
+Zephyr uses `nrfjprog` to flash nRF9160 targets using a hardware programmer like the Segger J-Link, or the debugger that is built into the nRF9160 DK board. This tool is part of the nRF Command Line Tools which we will install along with the Segger tool.
 
-1. Go to the [nRF Command Line Tools](https://www.nordicsemi.com/Products/Development-tools/nrf-command-line-tools/download) page. Scroll down, select your operating system, and download the installer package.
+1. Go to Segger and download the latest [J-Link Software and Documentation Pack](https://www.segger.com/downloads/jlink)
 
-2. Run the installer
+2. Run the J-Link installer
+
+    ```bash
+    sudo dpkg -i JLink_Linux_V760f_x86_64.deb
+    ```
+
+3. Go to the [nRF Command Line Tools](https://www.nordicsemi.com/Products/Development-tools/nrf-command-line-tools/download) page. Scroll down, select your operating system, and download the installer package.
+
+4. Run the nRF Command Line Tools installer
 
     ```bash
     sudo dpkg -i nrf-command-line-tools_10.15.2_amd64.deb
     ```
 
-## Hardware Programmer
+## Flashing Firmware
 
 During development we suggest using a hardware programmer like the Segger J-Link. This approach avoids the need to put a device into DFU mode, flashing takes far less time than when using the bootloader, and the J-Link can automatically reset the target. This method is built into Zephyr, and a hardware programmer can be used for on-chip debugging.
 
