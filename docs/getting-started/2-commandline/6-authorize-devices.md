@@ -50,10 +50,10 @@ id:"<uuid>" name:"My first device" hardwareIds: "DE:AD:BE:EF"
 
 :::
 
-You can also check later the existing credentials of a device with the command `goliothctl credential list`.
+You can also check later the existing credentials of a device with the command `goliothctl credentials list`.
 
 ```
-$ goliothctl credential list "My First Device"
+$ goliothctl credentials list "My First Device"
 id:"61aa3834e46b0ffed740c3a1" identity:"20211203113100-my-first-device@my-project-id" pre_shared_key:"1c2c37859771b3d647291866f986b219"
 ```
 
