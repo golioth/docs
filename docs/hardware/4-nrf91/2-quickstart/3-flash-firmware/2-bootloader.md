@@ -1,15 +1,11 @@
 ---
-id: thingy91
-title: Nordic Thingy91 Guide
+id: bootloader
+title: Flash via USB Bootloader
 ---
-
-# Flashing Binaries to nRF9160-Based Boards
-
-There are two main options for flashing code to nRF9160 boards: by USB bootloader or by using a hardware programmer. This section will discuss how to set up and use both of these. Anyone working with boards like the [Circuit Dojo nRF9160 Feather](/hardware/catalog/boards/quickstart/arm_circuitdojo_feather_nrf9160), the [nRF9160 DK](/hardware/catalog/boards/quickstart/arm_nrf9160dk_nrf9160), or the Thingy:91 will find this information useful.
 
 ## Installing Tools
 
-Flashing via USB bootloader requires the `newtmgr` tool. Flashing via hardware programmer requires the `nrfjprog` tool. Here is the installation process for these tools.
+Flashing via USB bootloader requires the `newtmgr` tool.
 
 ### Installing Newt Manager (for bootloading)
 
@@ -52,23 +48,11 @@ We recommend you use [Jared Wolff's fork of newtmgr](https://github.com/circuitd
     go install
     ```
 
-### Installing the nRF Command Line Tools (for hardware programmers)
-
-Zephyr uses `nrfjprog` to flash nRF9160 targets using a hardware programmer like the Segger J-Link, or the debugger that is built into the nRF9160 DK board. This tool is part of the nRF Command Line Tools.
-
-1. Go to the [nRF Command Line Tools](https://www.nordicsemi.com/Products/Development-tools/nrf-command-line-tools/download) page. Scroll down, select your operating system, and download the installer package.
-
-2. Run the installer
-
-    ```bash
-    sudo dpkg -i nrf-command-line-tools_10.15.2_amd64.deb
-    ```
-
-## USB bootloader
+## Flashing Firmware
 
 The nRF9160 can be programmed via USB using the MCUboot bootloader. The process depends on three steps: compiling your application for MCUboot, placing the target board in Device Firmware Upgrade (DFU) mode, and using a device management tool to write the firmware binary to the target.
 
-### Compiling with MCUboot in mind
+### Compile your code with MCUboot in mind
 
 1. Add the `CONFIG_BOOTLOADER_MCUBOOT` flag to the project's `prj.conf` file.
 
@@ -92,7 +76,7 @@ The nRF9160 can be programmed via USB using the MCUboot bootloader. The process 
     {project_dir}/build/zephyr/app-update.bin
     ```
 
-### Flashing with MCUboot
+### Flash with MCUboot
 
 1. Put the board into DFU mode by holding the bootloader button and power cycling the device.
 
@@ -112,7 +96,7 @@ The nRF9160 can be programmed via USB using the MCUboot bootloader. The process 
 
     If the device has a reset button it can be used to exit DFU mode and run the new binary. You may also use the flashing tool to reset the device:
 
-    ```
+    ```bash
     newtmgr --conntype=serial --connstring='dev=/dev/ttyACM0,baud=115200' reset
     ```
 
@@ -137,31 +121,3 @@ Complexity can be reduced when using `newtmgr` by adding profiles that store the
     #Profile for the Thingy:91
     newtmgr -c thingy91 image upload build/zephyr/app_update.bin
     ```
-
-## Hardware Programmer
-
-During development we suggest using a hardware programmer like the Segger J-Link. This approach avoids the need to put a device into DFU mode, flashing takes far less time than when using the bootloader, and the J-Link can automatically reset the target. This method is built into Zephyr, and a hardware programmer can be used for on-chip debugging.
-
-1. Build the project
-
-    ```bash
-    cd ~/zephyr-nrf/modules/lib/golioth
-    #Flashing example for Circuit Dojo nRF9160 Feather
-    west build -b circuitdojo_feather_nrf9160_ns samples/basic/blinky -p
-    #Flashing example for Thiny:91
-    west build -b thingy91_nrf9160_ns samples/basic/blinky -p
-    ```
-
-2. Connect the J-Link to USB and to the target board
-
-    * The CircuitDojo nRF9160 Feather uses a 6-pin "No Legs" Tag-Connect cable
-    * The Thingy:91 uses a 10-pin 1.27mm pitch Cortex-style cable
-    * The nRF9160 DK has J-Link functionality built in and will identify as a hardware programmed when connected via USB
-
-3. Flash the firmware
-
-    ```bash
-    west flash
-    ```
-
-    You can see the advantage here is that the flasher profiles built into Zephyr automatically handle the details.
