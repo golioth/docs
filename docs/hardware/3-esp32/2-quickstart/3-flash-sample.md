@@ -59,7 +59,7 @@ Set the PSK & PSK ID to match what was used during the provisioning step and the
 After saving, build the sample with the new settings applied.
 
 ```
-west build -b esp32 samples/hello
+west build -b esp32 samples/hello -p
 ```
 
 ### Flashing the device

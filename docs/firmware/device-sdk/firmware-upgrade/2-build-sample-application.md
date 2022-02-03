@@ -21,7 +21,7 @@ values=
 
 Build the sample application:
 
-```west build -b circuitdojo_feather_nrf9160_ns samples/dfu```
+```west build -b circuitdojo_feather_nrf9160_ns samples/dfu -p```
 
 Enter bootloader and use mcumgr to flash firmware (see [mcumgr guide](https://docs.zephyrproject.org/latest/guides/device_mgmt/mcumgr.html#command-line-tool) for installation):
 
@@ -37,7 +37,7 @@ Next the application will be built a second time. The parameter -DCONFIG_MCUBOOT
 
 Build the sample application:
 
-```west build -b nrf9160dk_nrf9160_ns samples/dfu```
+```west build -b nrf9160dk_nrf9160_ns samples/dfu -p```
 
 Flash the firmware with the following command:
 

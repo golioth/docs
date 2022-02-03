@@ -30,5 +30,5 @@ Your system is all set up and ready to start building & flashing with Zephyr. Ve
 
 ```
 cd ~/zephyrproject/zephyr
-west build -b esp32 samples/basic/minimal
+west build -b esp32 samples/basic/minimal -p
 ```
