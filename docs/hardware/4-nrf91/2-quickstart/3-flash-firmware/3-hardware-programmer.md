@@ -34,10 +34,10 @@ During development we suggest using a hardware programmer like the Segger J-Link
 1. Build the project
 
     ```bash
-    cd ~/zephyr-nrf/modules/lib/golioth
+    cd ~/zephyr-nrf/zephyr
     #Flashing example for Circuit Dojo nRF9160 Feather
     west build -b circuitdojo_feather_nrf9160_ns samples/basic/blinky -p
-    #Flashing example for Thiny:91
+    #Flashing example for Thingy:91
     west build -b thingy91_nrf9160_ns samples/basic/blinky -p
     ```
 

@@ -7,6 +7,22 @@ title: Flash via USB Bootloader
 
 Flashing via USB bootloader requires the `newtmgr` tool.
 
+### Prerequisite: add yourself to the `dialout` user group
+
+Linux users need to be part of the `dialout` user group for permission to work
+with the USB ports. For this to take effect you need to log out and log back in,
+so do this first!
+
+```bash
+# Check to see if your user is in the dialout user group
+$ groups
+mike adm tty uucp cdrom sudo dip plugdev lpadmin sambashare
+# If groups list didn't include dialout, add yourself now
+$ sudo adduser $USER dialout
+# IMPORTANT: log out and back into Linux for this change to take effect.
+# (restarting the terminal is not enough)
+```
+
 ### Installing Newt Manager (for bootloading)
 
 We recommend you use [Jared Wolff's fork of newtmgr](https://github.com/circuitdojo/mynewt-newtmgr) which includes customization for higher-speed transfers on MCUboot implementations that support it. This tool depends on the Go language so we will also install that.
@@ -14,7 +30,7 @@ We recommend you use [Jared Wolff's fork of newtmgr](https://github.com/circuitd
 1. Install the Go Language
 
     :::note
-    You can install the Go language with `sudo apt install golang-go`, but some package managers have older versions. The following process will install the newest version.
+    We recommend you do not use a package manager (like `apt`) to install the Go language. They often have older versions and can present some permission problems as well.
     :::
 
     Visit [the Go language download page](https://go.dev/dl/) and download the latest version. Install the package:
@@ -54,23 +70,30 @@ The nRF9160 can be programmed via USB using the MCUboot bootloader. The process 
 
 ### Compile your code with MCUboot in mind
 
-1. Add the `CONFIG_BOOTLOADER_MCUBOOT` flag to the project's `prj.conf` file.
+We'll use Zephyr's default blinky project as an example:
+
+1. Change to the Zephyr directory:
 
     ```bash
-    CONFIG_BOOTLOADER_MCUBOOT=y
+    cd ~/zephyr-nrf/zephyr
     ```
 
-2. Build the project:
+2. Add the `CONFIG_BOOTLOADER_MCUBOOT` flag to the project's `prj.conf` file.
 
     ```bash
-    cd ~/zephyr-nrf/modules/lib/golioth
+    echo 'CONFIG_BOOTLOADER_MCUBOOT=y' >> samples/basic/blinky/prj.conf
+    ```
+
+3. Build the project:
+
+    ```bash
     #Flashing example for Circuit Dojo nRF9160 Feather
     west build -b circuitdojo_feather_nrf9160_ns samples/basic/blinky -p
-    #Flashing example for Thiny:91
+    #Flashing example for Thingy:91
     west build -b thingy91_nrf9160_ns samples/basic/blinky -p
     ```
 
-3. When configured for MCUboot, the build process will compile an additional file for use with DFU. This file is located at:
+4. When configured for MCUboot, the build process will compile an additional file for use with DFU. This file is located at:
 
     ```bash
     {project_dir}/build/zephyr/app-update.bin
@@ -88,7 +111,7 @@ The nRF9160 can be programmed via USB using the MCUboot bootloader. The process 
     ```bash
     #Flashing example for Circuit Dojo nRF9160 Feather
     newtmgr --conntype=serial --connstring='dev=/dev/ttyUSB0,baud=1000000' image upload build/zephyr/app_update.bin
-    #Flashing example for Thiny:91
+    #Flashing example for Thingy:91
     newtmgr --conntype=serial --connstring='dev=/dev/ttyACM0,baud=115200' image upload build/zephyr/app_update.bin
     ```
 
