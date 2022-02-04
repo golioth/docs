@@ -7,6 +7,8 @@ title: Simulating devices with coap command line interface
 
 :::info
 This guide uses `goliothctl` and `coap` which are part of the [Golioth Command Line tools](/commandline) install.
+
+Checkout our reference section for comprehensive information on [the goliothctl tool](/reference/command-line-tools/goliothctl/goliothctl) and [the coap tool](/reference/command-line-tools/coap/coap).
 :::
 
 With a properly provisioned device, you can test the connection with the Golioth
@@ -91,6 +93,8 @@ body: Hello
 ```
 
 #### With body from file (-f)
+
+Files (of any type) can be sent using the `-f` flag. In this example the file is located in the same directory from which the `coap` command is being executed.
 
 ```bash
 $ coap --path /echo -m POST --psk-id deadbeef-id@my-project-id --psk supersecret --host coap.golioth.io -f ./test.txt
