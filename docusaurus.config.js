@@ -10,10 +10,6 @@ module.exports = {
   organizationName: "golioth", // Usually your GitHub org/user name.
   projectName: "docs", // Usually your repo name.
   themeConfig: {
-    gtag: {
-      trackingID: 'G-C2MSLQD9D7',
-      anonymizeIP: true,
-    },
     colorMode: {
       defaultMode: "dark",
       respectPrefersColorScheme: false,
@@ -144,6 +140,10 @@ module.exports = {
           routeBasePath: "/",
           sidebarPath: require.resolve("./sidebars.js"),
           // editUrl: 'https://github.com/golioth/golioth/edit/master/docs/',
+        },
+        gtag: {
+          trackingID: 'G-C2MSLQD9D7',
+          anonymizeIP: true,
         },
         // blog: {
         //   showReadingTime: true,
