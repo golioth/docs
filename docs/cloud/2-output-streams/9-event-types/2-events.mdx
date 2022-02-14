@@ -66,10 +66,9 @@ export const MessageTypes = () => {
     return subjectNames[name] || name;
   };
   const getFieldsPrefixedBy = (prefix, t) => {
-    const finalPrefix = "(" + prefix + ").";
     const fields = Object.keys(t.options).reduce((acc, k) => {
-      if (k.startsWith(finalPrefix)) {
-        const newKey = k.replace(finalPrefix, "");
+      if (k.startsWith(prefix)) {
+        const newKey = k.replace(prefix, "");
         acc[newKey] = t.options[k];
       }
       return acc;
@@ -78,12 +77,12 @@ export const MessageTypes = () => {
   };
   const getOpenAPIFields = (t) => {
     return getFieldsPrefixedBy(
-      "grpc.gateway.protoc_gen_openapiv2.options.openapiv2_schema",
+      "(grpc.gateway.protoc_gen_openapiv2.options.openapiv2_schema).json_schema.",
       t
     );
   };
   const getCloudEventFields = (t) => {
-    return getFieldsPrefixedBy("cloudEvent", t);
+    return getFieldsPrefixedBy("(cloudEvent).", t);
   };
   const goliothPkg = root.nested.github.nested.com.nested.golioth.nested;
   const enums = Object.values(goliothPkg).filter(
