@@ -1,7 +1,7 @@
 ---
 id: overview
 title: Overview
-slug: /cloud/output-streams/webhooks
+slug: /cloud/output-streams/webhook
 ---
 
 Webhooks are a simple and flexible way to receive events from the Golioth platform using HTTP. It is really easy to build a web server to receive these events and you can write you own logic to process them.
