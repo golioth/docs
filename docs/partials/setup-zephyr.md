@@ -35,14 +35,17 @@ $ cmake --version
 cmake version 3.16.3
 ```
 
-If you have an older version, get the source package [from the CMake download page](https://cmake.org/download/) and compile it:
+If you have an older version, Ubuntu 20.04 systems can add the Kitware repository which maintains the newest release:
 
 ```
-sudo apt install build-essential libssl-dev
-./bootstrap
-make
-sudo make install
+wget -O - https://apt.kitware.com/keys/kitware-archive-latest.asc 2>/dev/null | sudo apt-key add -
+sudo apt-add-repository 'deb https://apt.kitware.com/ubuntu/ focal main'
+sudo apt update
+sudo apt install cmake
+cmake --version
 ```
+
+If the Kitware repository doesn't work for you (ie: your system is not running Ubuntu 20.04), you can [build the stable version of CMake from source](https://cmake.org/install/).
 
 <SetupZephyrUnix />
 

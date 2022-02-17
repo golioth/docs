@@ -12,12 +12,13 @@ cd ~
 west init -m https://github.com/golioth/zephyr-sdk.git --mr main ~/zephyrproject
 cd zephyrproject/
 west update
-west patch
 ```
 
-:::note
-The patch step is temporary until the Github repo is made public
-:::
+Install the Espressif submodules:
+
+```bash
+west espressif update
+```
 
 Tell `west` to automatically configure CMake:
 
@@ -25,7 +26,7 @@ Tell `west` to automatically configure CMake:
 west zephyr-export
 ```
 
-Lastly, install the remaining dependencies:
+Install the remaining dependencies:
 
 <Tabs
 groupId="west-installation"
