@@ -8,15 +8,15 @@ hide_title: true
 ---
 ## goliothctl stream listen
 
-Listen to stream messages from all devices of the project or filter them by device passing the device name, device id or the hardware id.
+Listen to stream messages from all devices of the project or filter them by device using the device name, device id or the hardware id.
 
-```
+```bash
 goliothctl stream listen [device name] [flags]
 ```
 
 ### Examples
 
-```
+```bash
 # Listen to stream messages from all devices of the project
 > goliothctl stream listen
 
@@ -28,15 +28,15 @@ goliothctl stream listen [device name] [flags]
 
 ### Options
 
-```
-  -h, --help               help for get
+```bash
+  -h, --help               help for stream listen
       --hwId stringArray   hardware id
       --id string          device id
 ```
 
 ### Options inherited from parent commands
 
-```
+```bash
       --apiUrl string      golioth api server url (default "https://api.golioth.io")
   -c, --config string      config file (default is $HOME/.golioth/.goliothctl.yaml)
       --projectId string   golioth project id
@@ -44,5 +44,4 @@ goliothctl stream listen [device name] [flags]
 
 ### SEE ALSO
 
-* [goliothctl stream](/reference/command-line-tools/goliothctl/goliothctl_stream/)	 - Access the data in a LightDB Stream.
-
+* [goliothctl stream](/reference/command-line-tools/goliothctl/goliothctl_stream/) - Access the data in a LightDB Stream.

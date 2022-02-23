@@ -8,23 +8,23 @@ hide_title: true
 ---
 ## goliothctl lightdb listen
 
-Listen to changes on the device state at some specific path or root path.
-Use the device name, device id or hardware id of the device to specify the device to be listened.
+Listen for device state changes on the LightDB root path or a specific path.
+Use the device name, device id or hardware id of the device to select the device.
 
-```
+```bash
 goliothctl lightdb listen [device name] <path>
 goliothctl lightdb listen [flags] <path>
 ```
 
 ### Examples
 
-```
+```bash
 # Listen to all lightdb messages from a device
 > goliothctl lightdb listen <device name>
 > goliothctl lightdb listen --id <device id>
 > goliothctl lightdb listen --hwid <hardware id>
 
-# Listen to lightdb messages at a path from a device
+# Listen to a specific path for lightdb messages from a device
 > goliothctl lightdb listen <device name> <path>
 > goliothctl lightdb listen --id <device id> <path>
 > goliothctl lightdb listen --hwid <hardware id> <path>
@@ -32,15 +32,15 @@ goliothctl lightdb listen [flags] <path>
 
 ### Options
 
-```
-  -h, --help               help for delete
+```bash
+  -h, --help               help for lightdb listen
       --hwId stringArray   hardware id
       --id string          device id
 ```
 
 ### Options inherited from parent commands
 
-```
+```bash
       --apiUrl string      golioth api server url (default "https://api.golioth.io")
   -c, --config string      config file (default is $HOME/.golioth/.goliothctl.yaml)
       --projectId string   golioth project id
@@ -48,5 +48,4 @@ goliothctl lightdb listen [flags] <path>
 
 ### SEE ALSO
 
-* [goliothctl lightdb](/reference/command-line-tools/goliothctl/goliothctl_lightdb/)	 - Access data on Light DB
-
+* [goliothctl lightdb](/reference/command-line-tools/goliothctl/goliothctl_lightdb/) - Access data on Light DB
