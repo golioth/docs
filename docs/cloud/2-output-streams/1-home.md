@@ -7,4 +7,4 @@ slug: /cloud/output-streams
 
 ## Overview
 
-Output Streams is a the features on Golioth platform to allow users to integrate with the platform in a seamless way.
+Output Streams are a feature of the Golioth platform that allows users to integrate their data seamlessly with a number of external services.
