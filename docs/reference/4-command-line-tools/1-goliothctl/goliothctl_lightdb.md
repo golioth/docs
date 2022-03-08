@@ -72,4 +72,4 @@ $ goliothctl lightdb set --tag [tag name] /test -b "{\"state\":1}" --format json
 * [goliothctl lightdb delete](/reference/command-line-tools/goliothctl/goliothctl_lightdb_delete/)	 - Delete data at given path
 * [goliothctl lightdb get](/reference/command-line-tools/goliothctl/goliothctl_lightdb_get/)	 - Get data at given path
 * [goliothctl lightdb set](/reference/command-line-tools/goliothctl/goliothctl_lightdb_set/)	 - Set data at given path
-
+* [goliothctl lightdb listen](/reference/command-line-tools/goliothctl/goliothctl_lightdb_listen/)	 - Listen at given path

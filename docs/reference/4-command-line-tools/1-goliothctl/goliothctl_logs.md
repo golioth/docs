@@ -56,4 +56,4 @@ goliothctl logs --device <uuid>
 ### SEE ALSO
 
 * [goliothctl](/reference/command-line-tools/goliothctl/goliothctl/)	 - Manage Golioth platform resources and developer workflow.
-
+* [goliothctl logs listen](/reference/command-line-tools/goliothctl/goliothctl_logs_listen/)	 - Listen to logs
