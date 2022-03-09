@@ -82,7 +82,7 @@ $ coap --path /echo -m POST --psk-id deadbeef-id@my-project-id --psk supersecret
 Params
 method: POST
 path: /echo
-file read correctly: ./README.md
+body: Hello
 
 url: coap.golioth.io:5684
 pre shared key: deadbeef-id@my-project-id:supersecret
