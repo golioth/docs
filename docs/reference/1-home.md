@@ -15,3 +15,5 @@ The API and SDK reference documentation provides detailed information for each o
 - Command Line Tools
   - [goliothctl](/reference/command-line-tools/goliothctl/goliothctl/)
   - [coap](/reference/command-line-tools/coap/coap/)
+- Zephyr SDK
+  - [Golioth Zephyr SDK Reference](https://golioth-doxygen-dev.web.app/) (External Doxygen)
