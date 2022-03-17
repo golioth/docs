@@ -20,20 +20,22 @@ values={[
 
 ```
 cd ~
-wget https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.13.2/zephyr-sdk-0.13.2-linux-x86_64-setup.run
+wget https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/zephyr-sdk-0.14.0_linux-x86_64.tar.gz
 ```
 
-Run the installer, installing the SDK in ~/zephyr-sdk-0.13.2:
+Run the installer, installing the SDK in `~/zephyr-sdk-0.14.0`:
 
 ```
-chmod +x zephyr-sdk-0.13.2-linux-x86_64-setup.run
-./zephyr-sdk-0.13.2-linux-x86_64-setup.run -- -d ~/zephyr-sdk-0.13.2
+tar -xvf zephyr-sdk-0.14.0_linux-x86_64.tar.gz
+cd zephyr-sdk-0.14.0/
+./setup.sh
 ```
+Answer `y` to both of the questions asked during the setup process.
 
 Install udev rules, which allow you to flash most Zephyr boards as a regular user:
 
 ```
-sudo cp ~/zephyr-sdk-0.13.2/sysroots/x86_64-pokysdk-linux/usr/share/openocd/contrib/60-openocd.rules /etc/udev/rules.d
+sudo cp ~/zephyr-sdk-0.14.0/sysroots/x86_64-pokysdk-linux/usr/share/openocd/contrib/60-openocd.rules /etc/udev/rules.d/
 sudo udevadm control --reload
 ```
 
