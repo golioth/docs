@@ -21,6 +21,15 @@ goliothctl device list [flags]
 > goliothctl device list
 id:"60abc24dad0772e87bb232c9"  hardware_ids:"AA:AA:AA:AA"  name:"Test Device 1"
 id:"60ad5f25ad0772e87bb232cd"  hardware_ids:"CC:CC:CC:CC"  hardware_ids:"BB:BB:BB:BB"  name:"foobar"
+
+# list devices searching on name and hardwareId that have at least partial match with --term provided
+> goliothctl device list --term num
+id:"60abc24dad0772e87bb232f4"  hardware_ids:"serialNumber1"  name:"Test Device 1"
+id:"60abc24dad0772e87bb232f4"  hardware_ids:"serialNumber2"  name:"Test Device 2"
+
+> goliothctl device list --term dev
+id:"60abc24dad0772e87bb232f4"  hardware_ids:"serialNumber1"  name:"Test Device 1"
+id:"60abc24dad0772e87bb232f4"  hardware_ids:"serialNumber2"  name:"Test Device 2"
 ```
 
 ### Options
@@ -32,6 +41,7 @@ id:"60ad5f25ad0772e87bb232cd"  hardware_ids:"CC:CC:CC:CC"  hardware_ids:"BB:BB:B
       --state string       LightDB state path
       --stream string      LightDB stream latest path
       --tags stringArray   tag names
+      --term string        term to find devices through partial string match
       --update string      LightDB update state path
 ```
 
