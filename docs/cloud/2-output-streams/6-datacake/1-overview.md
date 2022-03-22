@@ -10,7 +10,7 @@ slug: /cloud/output-streams/datacake
 
 ## Datacake Specific Attributes
 
-For each Output Stream type, there is a set of specify attributes. Here are the ones for Datacake:
+For each Output Stream type, there is a set of specified attributes. Here are the ones for Datacake:
 
 | Attribute        | Type   | Required | Description                                                                                                                                                                                    |
 | ---------------- | ------ |:--------:| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -32,7 +32,7 @@ To use this integration, you need to:
 
 [Follow this tutorial](https://docs.datacake.de/integrations/golioth) to create a complete integration between Golioth and Datacake through a Datacake output stream.
 
-In this tuto you will see how to:
+In this tutorial you will see how to:
 - Create devices on Datacake
 - Create the datacake integration in Golioth
 - Test the integration
