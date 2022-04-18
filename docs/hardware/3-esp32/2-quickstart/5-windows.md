@@ -1,6 +1,7 @@
 ---
 id: windows-set-up-zephyr
-title: "Windows: Set up Zephyr for ESP32"
+title: "Windows Addendum: Set up Zephyr for ESP32"
+pagination_next: hardware/esp32/quickstart/flash-sample
 ---
 
 ### Install Dependencies
@@ -79,3 +80,7 @@ Many ESP32 development modules use a CP2012 USB-to-Serial chip. Windows users ne
 1. [Download the driver package](https://www.silabs.com/developers/)usb-to-uart-bridge-vcp-drivers
 2. After unzipping the archive, right click on the `silabser.inf` file and choose "Install"
 3. Unplug and replug your ESP32 device. It will now appear as a COM port in the Device Manager.
+
+## Continue to *Flashing with Examples*
+
+Continue the ESP32 Quickstart by going to the [*Flashing with Examples*](./3-flash-sample.md) section next.
