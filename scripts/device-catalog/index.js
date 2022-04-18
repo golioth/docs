@@ -63,7 +63,7 @@ ${level === 'unverified' ? 'className: "hide-menu"' : ''}
 }
 
 function getBoardVerification(board) {
-    const record = verifications[board.arch][board.boardId];
+    const record = verifications?.[board.arch]?.[board.boardId];
     if (!record) return { level: 'unverified', quickstart: null };
     return {
         level: record.level || 'unverified',
