@@ -4,7 +4,7 @@ const boardsToJsonFile = require('./boardsToJsonFile');
 const boardToMdx = require('./boardToMdx');
 
 const zephyrRoot = './vendor/zephyr';
-const docsRoot = './docs/hardware/6-boards';
+const docsRoot = './docs/hardware/6-catalog';
 const imgRoot = './static/img/boards';
 const boardsFile = './docs/hardware/assets/boards.json';
 
@@ -49,14 +49,18 @@ function copyBoardImageToBuild(arch, boardId, img, suffix) {
     }
 }
 
+function capitalize(s) {
+    return s.charAt(0).toUpperCase() + s.slice(1);
+}
+
 function createLevelRoot(level) {
     mkdir(`${docsRoot}/${level}`);
     fs.writeFileSync(
         `${docsRoot}/${level}/_category_.yml`,
         `\
-label: '${level.charAt(0).toUpperCase() + level.slice(1)}'
+label: '${level === 'quickstart' ? 'Verified + ' + capitalize(level) : capitalize(level)}'
 collapsible: true
-collapsed: true
+collapsed: false
 ${level === 'unverified' ? 'className: "hide-menu"' : ''}
 `
 );
@@ -165,9 +169,9 @@ boardsToJsonFile(boards, boardsFile);
 
 fs.writeFileSync(`${docsRoot}/_category_.yml`,
 `\
-label: 'Board catalog'
+label: 'Hardware Catalog'
 collapsible: true # make the category collapsible
-collapsed: true # keep the category open by default
+collapsed: false # keep the category open by default
 `
 );
 
