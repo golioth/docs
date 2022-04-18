@@ -11,11 +11,11 @@
     },
     "qemu_cortex_m3": {
       "level": "quickstart",
-      "quickstart": "/hardware/virtual-device/quickstart"
+      "quickstart": "/hardware/virtual-devices"
     },
     "qemu_x86": {
       "level": "quickstart",
-      "quickstart": "/hardware/virtual-device/quickstart"
+      "quickstart": "/hardware/virtual-devices"
     }
   },
   "arm64": {},
