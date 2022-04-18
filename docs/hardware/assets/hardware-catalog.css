@@ -1,7 +1,7 @@
-.hide-menu > .menu__link:not(.menu__link--active){
+.hide-menu .menu__link:not(.menu__link--active){
   display: none !important;
 }
-.hide-item > .menu__link:not(.menu__link--active) {
+.hide-item .menu__link:not(.menu__link--active) {
   display: none !important;
 }
 
