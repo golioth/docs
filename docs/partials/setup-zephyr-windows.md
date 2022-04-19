@@ -8,7 +8,7 @@ import TabItem from '@theme/TabItem';
 
 <Tabs
 groupId="west-installation"
-defaultValue="global"
+defaultValue="virtualenv"
 values={[
 {label: 'Install within a virtualenv', value: 'virtualenv'},
 {label: 'Install globally', value: 'global'},

@@ -8,9 +8,12 @@ pagination_next: hardware/esp32/quickstart/flash-sample
 
 #### Python3
 
-1. From the command line type `python3`
-2. If python3 is installed, the interpreter will open and display the version. Type `exit()` to exit.
-3. If python3 is not installed, the Windows Store will automatically open and offer to install it. Alternatively you can [download Python3 directly](https://www.python.org/downloads/windows/) and install it manually.
+1. Open the command line by hitting the Windows key, typing `cmd.exe` and pressing enter.
+2. Type `python3`
+3. If python3 is installed, the interpreter will open and display the version. Type `exit()` to exit.
+4. If python3 is not installed, the Windows Store will automatically open and offer to install it.
+    * Test it: Go back to to the command line, type `python3` to launch then interpreter, `exit()` to exit. 
+    * Alternatively you can [download Python3 directly](https://www.python.org/downloads/windows/) and install it manually.
 
 #### Package Manager: Chocolatey
 
@@ -77,7 +80,7 @@ Your system is all set up and ready to start building & flashing with Zephyr.
 
 Many ESP32 development modules use a CP2012 USB-to-Serial chip. Windows users need to install a driver for this chip.
 
-1. [Download the driver package](https://www.silabs.com/developers/)usb-to-uart-bridge-vcp-drivers
+1. [Download the driver package](https://www.silabs.com/developers/) for usb-to-uart-bridge-vcp-drivers
 2. After unzipping the archive, right click on the `silabser.inf` file and choose "Install"
 3. Unplug and replug your ESP32 device. It will now appear as a COM port in the Device Manager.
 

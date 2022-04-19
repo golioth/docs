@@ -20,6 +20,8 @@ import TabItem from '@theme/TabItem';
     west espressif update
     ```
 
+    We need to install the submodles now using this update command, but will also properly install the Espressif toolchain in a just a moment.
+
 3. Tell `west` to automatically configure CMake:
 
     ```
