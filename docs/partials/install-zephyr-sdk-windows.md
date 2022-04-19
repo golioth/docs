@@ -14,21 +14,13 @@ import TabItem from '@theme/TabItem';
     Depending on your internet and I/O speed, `west update` can take upwards of 5 or 10 minutes.
     :::
 
-2. Install the Espressif submodules:
-
-    ```shell
-    west espressif update
-    ```
-
-    We need to install the submodules now using this update command, but will also properly install the Espressif toolchain in a just a moment.
-
-3. Tell `west` to automatically configure CMake:
+2. Tell `west` to automatically configure CMake:
 
     ```
     west zephyr-export
     ```
 
-4. Install the remaining dependencies:
+3. Install the remaining dependencies:
 
     <Tabs
     groupId="west-installation"

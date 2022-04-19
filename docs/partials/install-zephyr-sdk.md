@@ -14,12 +14,6 @@ cd zephyrproject/
 west update
 ```
 
-Install the Espressif submodules:
-
-```bash
-west espressif update
-```
-
 Tell `west` to automatically configure CMake:
 
 ```
