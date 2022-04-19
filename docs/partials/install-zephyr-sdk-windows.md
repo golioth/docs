@@ -4,7 +4,7 @@ import TabItem from '@theme/TabItem';
 1. With `west` installed, download the Zephyr SDK:
 
     ```shell
-    cd %HOMEPATH%
+    cd c:\
     west init -m https://github.com/golioth/zephyr-sdk.git --mr main zephyrproject
     cd zephyrproject
     west update
@@ -20,7 +20,7 @@ import TabItem from '@theme/TabItem';
     west espressif update
     ```
 
-    We need to install the submodles now using this update command, but will also properly install the Espressif toolchain in a just a moment.
+    We need to install the submodules now using this update command, but will also properly install the Espressif toolchain in a just a moment.
 
 3. Tell `west` to automatically configure CMake:
 
@@ -40,14 +40,14 @@ import TabItem from '@theme/TabItem';
     <TabItem value="virtualenv">
 
     ```
-    pip install -r %HOMEPATH%\zephyrproject\zephyr\scripts\requirements.txt
+    pip install -r C:\zephyrproject\zephyr\scripts\requirements.txt
     ```
 
     </TabItem>
     <TabItem value="global">
 
     ```
-    pip3 install -r %HOMEPATH%\zephyrproject\zephyr\scripts\requirements.txt
+    pip3 install -r C:\zephyrproject\zephyr\scripts\requirements.txt
     ```
 
     </TabItem>

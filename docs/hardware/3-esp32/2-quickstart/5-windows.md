@@ -72,7 +72,7 @@ Your system is all set up and ready to start building & flashing with Zephyr.
 1. Verify by building a minimal sample:
 
     ```shell
-    cd %HOMEPATH%\zephyrproject\zephyr
+    cd C:\zephyrproject\zephyr
     west build -b esp32 samples\basic\minimal -p
     ```
 

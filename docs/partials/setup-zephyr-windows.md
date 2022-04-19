@@ -18,7 +18,7 @@ values={[
 1. Create a new virtual environment:
 
     ```shell
-    cd %HOMEPATH%
+    cd c:\
     python3 -m venv zephyrproject\.venv
     ```
 
