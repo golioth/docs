@@ -64,8 +64,7 @@ brew install cmake ninja gperf python3 ccache qemu dtc
 <TabItem value="windows">
 
 :::caution
-While Windows is supported by Zephyr, Golioth does not yet have instructions for
-Windows.
+Please follow the [*Windows Addendum: Set up Zephyr for ESP32*](hardware/3-esp32/2-quickstart/5-windows.md) page for instructions on installing the toolchain on Windows machines.
 :::
 
 </TabItem>

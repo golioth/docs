@@ -1,6 +1,7 @@
 `west` makes it easy to install the Espressif toolchain:
 
 ```
+west espressif update
 west espressif install
 ```
 
