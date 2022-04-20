@@ -3,6 +3,12 @@ id: simulating-devices-qemu
 title: Simulating devices with QEMU
 ---
 
+### Install West
+
+import SetupZephyr from '/docs/partials/setup-zephyr.md'
+
+<SetupZephyr/>
+
 ### Install Zephyr SDK
 
 import InstallZephyrSDK from '/docs/partials/install-zephyr-sdk.md'
