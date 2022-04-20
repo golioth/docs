@@ -30,7 +30,7 @@ sudo apt install qemu
 Install the necessary tooling:
 
 ```
-sudo apt install libpcap-dev autoconf automake libtool socat net-tools
+sudo apt install libpcap-dev autoconf automake libtool socat net-tools libglib2.0-dev
 ```
 
 Then, compile the zephyr fork of net-tools:
@@ -81,7 +81,7 @@ brew install qemu
 :::info
 QEMU on MacOS does not current support the necessary networking features for simulating a
 network-based Zephyr application.
-See [this issue](https://github.com/zephyrproject-rtos/zephyr/issues/15738) for more information. 
+See [this issue](https://github.com/zephyrproject-rtos/zephyr/issues/15738) for more information.
 :::
 
 </TabItem>
