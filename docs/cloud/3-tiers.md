@@ -13,7 +13,7 @@ Golioth tiers are tied to pricing and your sales agreement with Golioth (except 
 * 50 devices
 * 7 day retention of LightDB Stream & Logs
 * 10 MB of LightDB storage
-* 4 MB maximum atrifact
+* 4 MB maximum artifact
 * 1 message per minute (up or down, logs/DB/stream/dfu)
 * 100 tags
 * 100 releases
