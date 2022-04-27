@@ -14,7 +14,7 @@ This should list the following variable
 If these are set to Espressif, change them to use the default zephyr toolchain (part of the SDK you installed above)
 
 <Tabs
-groupId="arch"
+groupId="os"
 defaultValue="linux"
 values={[
 {label: 'Linux', value: 'linux'},

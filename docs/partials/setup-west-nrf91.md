@@ -7,16 +7,16 @@ import TabItem from '@theme/TabItem';
 
 <Tabs
 groupId="os"
-defaultValue="ubuntu"
+defaultValue="linux"
 values={[
-{label: 'Ubuntu', value: 'ubuntu'},
+{label: 'Linux', value: 'linux'},
 {label: 'MacOS', value: 'macos'},
 {label: 'Windows', value: 'windows'},
 ]}>
 
 import SetupZephyrUnix from './setup-zephyr-unix.md'
 
-<TabItem value="ubuntu">
+<TabItem value="linux">
 
 Install dependencies with `apt`:
 

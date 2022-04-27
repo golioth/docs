@@ -9,14 +9,14 @@ Download the [latest SDK installer](https://github.com/zephyrproject-rtos/sdk-ng
 
 
 <Tabs
-groupId="zephyr-sdk-toolchain-os"
-defaultValue="ubuntu"
+groupId="os"
+defaultValue="linux"
 values={[
-{label: 'Ubuntu', value: 'ubuntu'},
+{label: 'Linux', value: 'linux'},
 {label: 'MacOS', value: 'macos'},
 {label: 'Windows', value: 'windows'},
 ]}>
-<TabItem value="ubuntu">
+<TabItem value="linux">
 
 ```
 cd ~
