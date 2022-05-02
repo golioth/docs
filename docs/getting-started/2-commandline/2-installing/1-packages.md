@@ -41,7 +41,8 @@ values={[
 #### For debian and ubuntu based distros
 
 First you need create a reference to our `.deb` repository in your linux. Open your terminal and type:
-```
+
+```shell
 echo "deb [trusted=yes] https://repos.golioth.io/apt/ /" | sudo tee /etc/apt/sources.list.d/golioth.list
 ```
 
@@ -50,33 +51,37 @@ After above step your password migth be requested.
 :::
 
 Next, you need update your list of packages locally
-```
+
+```shell
 sudo apt update
 ```
 
 Lastly, install the desired CLI. For `goliothctl`
-```
+
+```shell
 sudo apt install goliothctl
 ```
+
 For `coap-cli`
-```
+
+```shell
 sudo apt install coap
 ```
 
 To check if the CLI has been installed, run
-```
-$ goliothctl version 
+
+```text
+$ goliothctl version
 1.3.0
 ```
 
-```
+```text
 $ coap version
 1.0.5
 ```
 
 It must show the respective CLI version.
-</TabItem> 
-
+</TabItem>
 
 <TabItem value="yum/dnf">
 
@@ -85,7 +90,8 @@ It must show the respective CLI version.
 Our `.rpm` package is compatible with both YUM and DNF package managers. Choose one and follow the steps.
 
 You need create an reference to our `.rpm` repository in your linux. Open your terminal and type:
-```
+
+```shell
 echo -en "[fury]
 name=Golioth Linux Repo
 baseurl=https://repos.golioth.io/yum/
@@ -98,28 +104,32 @@ Your password might be requested.
 :::
 
 Next, you just need install the desired CLI. For `goliothctl`
-```
+
+```shell
 sudo dnf install goliothctl
 ```
+
 For `coap-cli`
-```
+
+```shell
 sudo dnf install coap
 ```
 
 To check if the CLI has been installed, run
-```
+
+```text
 $ goliothctl version
 1.0.0
 ```
 
-```
+```text
 $ coap version
 1.0.0
 ```
 
 It must show the respective CLI version.
 </TabItem>
-</Tabs> 
+</Tabs>
 </TabItem>
 
 <TabItem value="macos">
@@ -132,29 +142,29 @@ During the developer preview CLIs on macOS will be distributed as a [Tap](https:
 
 To enable the Golioth Tap globally, use
 
-```
+```shell
 brew tap golioth/tap
 ```
 
-
 Install the CLI's with `brew install`
 
-```
+```shell
 brew install goliothctl coap
 ```
 
 Alternatively you can also install the CLI directly (without adding a tap globally)
 
-```
+```shell
 brew install golioth/tap/goliothctl
 ```
 
 Verify that `goliothctl` is installed correctly by checking the version
 
-```
+```text
 $ goliothctl version
 1.0.0
 ```
+
 </TabItem>
 
 <TabItem value="windows">
@@ -229,9 +239,3 @@ Golioth does not have support for Windows Package Manager (aka Winget) yet. We a
 
 <!-- End OS tab -->
 </Tabs>
-
-<!-- ### Package Managers
-
-import InstallLinux from '../../../partials/install-linux-packages.md'
-
-<InstallLinux/> -->
