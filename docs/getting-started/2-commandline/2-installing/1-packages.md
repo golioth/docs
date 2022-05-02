@@ -159,9 +159,9 @@ $ goliothctl version
 
 <TabItem value="windows">
 
-For windows users, the `cli's` packages are provided, for now, only through the **[CHOCOLATEY](https://chocolatey.org/)** package manager. 
+For windows users, the CLI packages are currently available through the **[Chocolatey](https://chocolatey.org/)** package manager.
 
-<Tabs
+<!-- <Tabs
 groupId="pm"
 defaultValue="choco"
 values={[
@@ -169,46 +169,52 @@ values={[
 {label: 'Winget', value: 'winget'},
 ]}>
 
-<TabItem value="choco">
+<TabItem value="choco"> -->
 
-> Requirements: 
-* To install/upgrade the cli's through the chocolatey package manager you first need [install the chocolatey](https://chocolatey.org/install).
-* run PowerShell or CMD as **Administrator**
+Requirements:
+
+- [install the chocolatey package manager](https://chocolatey.org/install)
+- run PowerShell or CMD as **Administrator**
 
 First, open the PowerShell or the command line (CMD) as administrator.
 
 To install the `goliothctl` run:
-```
-$ choco install goliothctl
+
+```shell
+choco install goliothctl
 ```
 
 For the `coap-cli` run:
-```
-$ choco install coapcli
+
+```shell
+choco install coapcli
 ```
 
 To check if the CLI has been installed, run
-```
-$ goliothctl version
+
+```text
+C:\Users\Golioth> goliothctl version
 1.5.0
 ```
 
-```
-$ coap version
+```text
+C:\Users\Golioth> coap version
 1.1.0
 ```
 
 To upgrade the `goliothctl`, run
-```
-$ choco upgrade goliothctl
+
+```shell
+choco upgrade goliothctl
 ```
 
 For the `coap-cli`, run
-```
-$ choco upgrade coapcli
+
+```shell
+choco upgrade coapcli
 ```
 
-</TabItem>
+<!-- </TabItem>
 
 <TabItem value="winget">
 
@@ -218,7 +224,7 @@ Golioth does not have support for Windows Package Manager (aka Winget) yet. We a
 
 </TabItem>
 
-</Tabs> 
+</Tabs>  -->
 </TabItem>
 
 <!-- End OS tab -->
