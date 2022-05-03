@@ -1,46 +1,27 @@
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-With `west` installed, grab the Zephyr SDK:
-
-:::info
-Depending on your internet and I/O speed, `west update` can take upwards of 5 or 10 minutes.
-:::
-
-```
-cd ~
-west init -m https://github.com/golioth/zephyr-sdk.git --mr main ~/zephyrproject
-cd zephyrproject/
-west update
-```
-
-Tell `west` to automatically configure CMake:
-
-```
-west zephyr-export
-```
-
-Install the remaining dependencies:
-
 <Tabs
-groupId="west-installation"
-defaultValue="virtualenv"
+groupId="os"
+defaultValue="linux"
 values={[
-{label: 'Install within a virtualenv', value: 'virtualenv'},
-{label: 'Install globally', value: 'global'},
+{label: 'Linux', value: 'linux'},
+{label: 'MacOS', value: 'macos'},
+{label: 'Windows', value: 'windows'},
 ]}>
-<TabItem value="virtualenv">
 
-```
-pip install -r ~/zephyrproject/zephyr/scripts/requirements.txt
-```
+import InstallZephyrSDKUnix from '/docs/partials/install-zephyr-sdk-unix.md'
+import InstallZephyrSDKWindows from '/docs/partials/install-zephyr-sdk-windows.md'
 
+<TabItem value="linux">
+<InstallZephyrSDKUnix/>
 </TabItem>
-<TabItem value="global">
 
-```
-pip3 install -r ~/zephyrproject/zephyr/scripts/requirements.txt
-```
+<TabItem value="macos">
+<InstallZephyrSDKUnix/>
+</TabItem>
 
+<TabItem value="windows">
+<InstallZephyrSDKWindows/>
 </TabItem>
 </Tabs>
