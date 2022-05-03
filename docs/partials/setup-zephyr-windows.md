@@ -51,8 +51,9 @@ values={[
 
 1. Use `pip3` to install `west`:
 
-```
-pip3 install -U west
-```
+    ```shell
+    pip3 install -U west
+    ```
+
 </TabItem>
 </Tabs>
