@@ -5,7 +5,7 @@ import TabItem from '@theme/TabItem';
 
     ```shell
     cd c:\
-    west init -m https://github.com/golioth/zephyr-sdk.git --mr main zephyrproject
+    west init -m https://github.com/golioth/golioth-zephyr-sdk.git --mr main zephyrproject
     cd zephyrproject
     west update
     ```

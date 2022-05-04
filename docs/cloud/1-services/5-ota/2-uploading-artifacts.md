@@ -3,13 +3,13 @@ id: uploading-artifacts
 title: Uploading Artifacts
 ---
 
-On the device side, our [Zephyr SDK](https://github.com/golioth/zephyr-sdk) relies on MCUboot, an open source bootloader. Our backend also knows how to detect MCUboot compatible images when a artifact is created/uploaded and reads MCUboot metadata like signed version, internal image hash and so on. This makes our solution more robust and reliable, as we can guarantee that the image is compatible with MCUboot.
+On the device side, our [Zephyr SDK](https://github.com/golioth/golioth-zephyr-sdk) relies on MCUboot, an open source bootloader. Our backend also knows how to detect MCUboot compatible images when a artifact is created/uploaded and reads MCUboot metadata like signed version, internal image hash and so on. This makes our solution more robust and reliable, as we can guarantee that the image is compatible with MCUboot.
 
 :::note
 You can find more information about MCUboot in the [MCUboot Github Repository](https://github.com/mcu-tools/mcuboot).
 :::
 
-We provided a [sample application](https://github.com/golioth/zephyr-sdk/tree/main/samples/dfu) that can be used to test our DFU service. That sample listens for new releases notifications from our backend and automatically downloads and installs them with MCUboot.
+We provided a [sample application](https://github.com/golioth/golioth-zephyr-sdk/tree/main/samples/dfu) that can be used to test our DFU service. That sample listens for new releases notifications from our backend and automatically downloads and installs them with MCUboot.
 
 Follow the guide to run the sample application on your target board, and follow the steps below to upload your artifacts. After pushing the initial firmware locally, we can build it again and sign it with the `west` tool. Signing is really important, as this is how MCUboot can check if the device is running the desired version.
 

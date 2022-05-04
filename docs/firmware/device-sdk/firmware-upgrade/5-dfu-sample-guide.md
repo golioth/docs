@@ -2,11 +2,11 @@
 title: DFU Sample Guide
 ---
 
-Golioth has [a Device Firmware Update (DFU) sample application](https://github.com/golioth/zephyr-sdk/tree/main/samples/dfu) that demonstrates how to connect with Golioth for an Over-the-Air (OTA) update. Here is a walkthrough of the role that helper functions and data structures play in that sample.
+Golioth has [a Device Firmware Update (DFU) sample application](https://github.com/golioth/golioth-zephyr-sdk/tree/main/samples/dfu) that demonstrates how to connect with Golioth for an Over-the-Air (OTA) update. Here is a walkthrough of the role that helper functions and data structures play in that sample.
 
 ### Header File fw.h
 
-Let's first discuss the functions found within [fw.h](https://github.com/golioth/zephyr-sdk/blob/main/include/net/golioth/fw.h).
+Let's first discuss the functions found within [fw.h](https://github.com/golioth/golioth-zephyr-sdk/blob/main/include/net/golioth/fw.h).
 
 * The enum ```golioth_fw_state{}``` is used to register and indicate the current state of the DFU service process.
 * The struct ```golioth_dfu_result{}``` indicates whether the process was successful or that an error has occurred.

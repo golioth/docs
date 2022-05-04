@@ -6,7 +6,7 @@ slug: /firmware/device-sdk/firmware-upgrade
 
 This is a guide to implementing firmware updates for embedded devices using the Golioth Device Firmware Update (DFU) service. It is recommended but not necessary to become familiar with the individual components involved in the service which are described in the DFU overview document in detail. Working through the [Getting Started Guide](https://docs.golioth.io/getting-started) is also a prerequisite to ensure that the necessary tooling is place to build and implement this solution.
 
-The following diagram illustrates the architecture of the sample within the Device SDK architecture. The DFU sample can be found in the [Golioth zephyr-sdk repository](https://github.com/golioth/zephyr-sdk/tree/main/samples/dfu).
+The following diagram illustrates the architecture of the sample within the Device SDK architecture. The DFU sample can be found in the [Golioth zephyr-sdk repository](https://github.com/golioth/golioth-zephyr-sdk/tree/main/samples/dfu).
 
 ![Console](../assets/dfu-svg-a4.svg)
 
