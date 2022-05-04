@@ -19,3 +19,10 @@
     set ESPRESSIF_TOOLCHAIN_PATH=C:\Users\Mike\.espressif\tools\zephyr
     set ZEPHYR_TOOLCHAIN_VARIANT=espressif
     ```
+
+If you're using Powershell instead of cmd, you'll need to use these commands instead:
+
+    ```shell
+    $env:ESPRESSIF_TOOLCHAIN_PATH = 'C:\Users\<USER>\.espressif\tools\zephyr'
+    $env:ZEPHYR_TOOLCHAIN_VARIANT = 'espressif'
+    ```
