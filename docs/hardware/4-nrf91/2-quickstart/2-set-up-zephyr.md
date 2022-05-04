@@ -34,15 +34,9 @@ import InstallZephyrSDKtoolchain from '/docs/partials/install-zephyr-sdk-toolcha
 
 ### Build firmware for the nRF9160
 
-Your system is all set up and ready to start building & flashing with Zephyr. Verify by building a minimal sample, in this case for the CircuitDojo nRF91 feather:
+Your system is all set up and ready to start building & flashing with Zephyr. Verify by building a minimal sample for the nRF9160 DK:
 
-```
-cd ~/zephyr-nrf/zephyr
-west build -p auto -b  circuitdojo_feather_nrf9160_ns samples/basic/minimal
-```
-Alternatively, build for the nRF9160_DK with the following commands:
-
-```
+```console
 cd ~/zephyr-nrf/zephyr
 west build -p auto -b  nrf9160dk_nrf9160_ns samples/basic/minimal
 ```
