@@ -75,7 +75,7 @@ We'll use Zephyr's default blinky project as an example:
 1. Change to the Zephyr directory:
 
     ```bash
-    cd ~/zephyr-nrf/zephyr
+    cd ~/golioth-ncs-sdk/zephyr
     ```
 
 2. Add the `CONFIG_BOOTLOADER_MCUBOOT` flag to the project's `prj.conf` file.

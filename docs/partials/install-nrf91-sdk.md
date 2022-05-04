@@ -12,8 +12,8 @@ With `west` installed, grab the Device SDK:
 
 ```
 cd ~
-west init -m https://github.com/nrfconnect/sdk-nrf --mr v1.7.1 ~/zephyr-nrf
-cd zephyr-nrf/
+west init -m https://github.com/golioth/zephyr-sdk.git --mf west-ncs.yml ~/golioth-ncs-sdk
+cd golioth-ncs-sdk/
 ```
 Locate the west.yml file under the `nrf` folder.
 Add the following to west.yml file in the manifest/projects subtree to add the Golioth SDK and dependencies to the NRF Connect SDK:
@@ -51,14 +51,14 @@ values={[
 <TabItem value="virtualenv">
 
 ```
-pip install -r ~/zephyr-nrf/zephyr/scripts/requirements.txt
+pip install -r ~/golioth-ncs-sdk/zephyr/scripts/requirements.txt
 ```
 
 </TabItem>
 <TabItem value="global">
 
 ```
-pip3 install -r ~/zephyr-nrf/zephyr/scripts/requirements.txt
+pip3 install -r ~/golioth-ncs-sdk/zephyr/scripts/requirements.txt
 ```
 
 </TabItem>
