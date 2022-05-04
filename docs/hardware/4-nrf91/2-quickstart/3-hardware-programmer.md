@@ -5,7 +5,7 @@ title: Hardware Programmer
 
 ## Installing Tools
 
-Flashing via hardware programmer requires the `nrfjprog` tool.
+Nordic parts can be flashed using a J-Link programmer. The nrf9160 DK will behave like a J-Link programmer when connected to USB. Flashing via a hardware programmer requires the `nrfjprog` tool.
 
 ### Installing the nRF Command Line Tools (for hardware programmers)
 
@@ -35,16 +35,11 @@ During development we suggest using a hardware programmer like the Segger J-Link
 
     ```bash
     cd ~/zephyr-nrf/zephyr
-    #Flashing example for Circuit Dojo nRF9160 Feather
-    west build -b circuitdojo_feather_nrf9160_ns samples/basic/blinky -p
-    #Flashing example for Thingy:91
-    west build -b thingy91_nrf9160_ns samples/basic/blinky -p
+    west build -b nrf9160dk_nrf9160_ns samples/basic/blinky -p
     ```
 
 2. Connect the J-Link to USB and to the target board
 
-    * The CircuitDojo nRF9160 Feather uses a 6-pin "No Legs" Tag-Connect cable
-    * The Thingy:91 uses a 10-pin 1.27mm pitch Cortex-style cable
     * The nRF9160 DK has J-Link functionality built in and will identify as a hardware programmed when connected via USB
 
 3. Flash the firmware
@@ -52,5 +47,3 @@ During development we suggest using a hardware programmer like the Segger J-Link
     ```bash
     west flash
     ```
-
-    You can see the advantage here is that the flasher profiles built into Zephyr automatically handle the details.
