@@ -2,7 +2,7 @@
 title: LightDB Get Request
 sidebar_position: 2
 ---
-The [Get](https://github.com/golioth/zephyr-sdk/tree/main/samples/lightdb/get) application demonstrates the retrieval of resources from LightDB with the use of Golioth SDK. The first thing that the example application does is check for the KConfig settings related to using Wi-Fi. If a different connectivity option is used such as cellular, this connection will be made outside of main.c. The Wi-Fi connection method is verified in ```main()``` in all of the samples as zephyr handles this connecivity method differently. Namely, Wi-Fi credentials must be in place in the Kconfig to ensure the success of the ```wifi_connect()``` method.
+The [Get](https://github.com/golioth/golioth-zephyr-sdk/tree/main/samples/lightdb/get) application demonstrates the retrieval of resources from LightDB with the use of Golioth SDK. The first thing that the example application does is check for the KConfig settings related to using Wi-Fi. If a different connectivity option is used such as cellular, this connection will be made outside of main.c. The Wi-Fi connection method is verified in ```main()``` in all of the samples as zephyr handles this connecivity method differently. Namely, Wi-Fi credentials must be in place in the Kconfig to ensure the success of the ```wifi_connect()``` method.
 
 The next thing that the LightDB application does is prepare the reply handler for CoAP replies. This is completed with the ```coap_replies_clear()``` function. An array of replies is declared near the top of the sample and initialized with the ```coap_replies_clear()``` function. An array size of 1 is sufficient for the sample.
 
@@ -16,6 +16,6 @@ The function ```golioth_lightdb_get()``` is found within the first code block gu
 
 The reply handler will utilize the zephyr coap function ```coap_packet_get_payload()``` to parse the incoming coap packet. The received message is printed to the console before the reply handler returns.
 
-Descriptions of the ```golioth_lightdb_x``` functions can be found [here](https://github.com/golioth/zephyr-sdk/blob/main/include/net/golioth.h)
+Descriptions of the ```golioth_lightdb_x``` functions can be found [here](https://github.com/golioth/golioth-zephyr-sdk/blob/main/include/net/golioth.h)
 
 

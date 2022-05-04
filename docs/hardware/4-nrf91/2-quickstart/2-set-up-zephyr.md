@@ -8,7 +8,7 @@ import TabItem from '@theme/TabItem';
 
 ### Zephyr Setup Overview
 
-Golioth is implemented on IoT devices using [Device SDKs](/firmware). These are based on different embedded Real Time Operating Systems (RTOS). Currently Golioth targets the [Zephyr Project](https://www.zephyrproject.org/) and builds upon the APIs & tools of Zephyr. As such, prior experience with Zephyr will be helpful when working with [Golioth's Zephyr Device SDK](https://github.com/golioth/zephyr-sdk). Refer to Zephyr's [detailed documentation](https://docs.zephyrproject.org/) when running into issues.
+Golioth is implemented on IoT devices using [Device SDKs](/firmware). These are based on different embedded Real Time Operating Systems (RTOS). Currently Golioth targets the [Zephyr Project](https://www.zephyrproject.org/) and builds upon the APIs & tools of Zephyr. As such, prior experience with Zephyr will be helpful when working with [Golioth's Zephyr Device SDK](https://github.com/golioth/golioth-zephyr-sdk). Refer to Zephyr's [detailed documentation](https://docs.zephyrproject.org/) when running into issues.
 
 The nRF9160 Feather and all Nordic Semiconductor devices utilizing Zephyr require the [nRF Connect SDK (NCS)](https://www.nordicsemi.com/Products/Development-software/nRF-Connect-SDK). Nordic Semiconductor maintains a fork of the Zephyr project that includes some distinct features and IP, including the firmware for the cellular modem on the nRF9160. We will install the nRF Connect SDK in a directory in your home location separate from other Zephyr projects shown for Golioth (in a directory called `zephyr-nrf`)
 
