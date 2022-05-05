@@ -18,33 +18,43 @@ values={[
 ]}>
 <TabItem value="linux">
 
-```
+```console
 cd ~
-wget https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/zephyr-sdk-0.14.0_linux-x86_64.tar.gz
+wget https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.1/zephyr-sdk-0.14.1_linux-x86_64.tar.gz
 ```
 
-Run the installer, installing the SDK in `~/zephyr-sdk-0.14.0`:
+Unpack the archive and run the installer. The SDK will be placed in the `~/zephyr-sdk-0.14.1` directory:
 
-```
-tar -xvf zephyr-sdk-0.14.0_linux-x86_64.tar.gz
-cd zephyr-sdk-0.14.0/
+```console
+tar -xvf zephyr-sdk-0.14.1_linux-x86_64.tar.gz
+cd zephyr-sdk-0.14.1
 ./setup.sh
 ```
+
 Answer `y` to both of the questions asked during the setup process.
 
 Install udev rules, which allow you to flash most Zephyr boards as a regular user:
 
-```
-sudo cp ~/zephyr-sdk-0.14.0/sysroots/x86_64-pokysdk-linux/usr/share/openocd/contrib/60-openocd.rules /etc/udev/rules.d/
+```console
+sudo cp ~/zephyr-sdk-0.14.1/sysroots/x86_64-pokysdk-linux/usr/share/openocd/contrib/60-openocd.rules /etc/udev/rules.d/
 sudo udevadm control --reload
 ```
 
 </TabItem>
 <TabItem value="macos">
 
-Follow the instructions in [Set Up a Toolchain (External Zephyr page)](https://docs.zephyrproject.org/latest/guides/beyond-GSG.html#gs-toolchain). Note that the Zephyr SDK is not available on macOS.
+```console
+cd ~
+wget https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.1/zephyr-sdk-0.14.1_macos-x86_64.tar.gz
+```
 
-Do not forget to set the required [environment variables](https://docs.zephyrproject.org/latest/guides/env_vars.html#env-vars) (`ZEPHYR_TOOLCHAIN_VARIANT` and toolchain specific ones).
+Unpack the archive and run the installer. The SDK will be placed in the `~/zephyr-sdk-0.14.1` directory:
+
+```console
+tar -xvf zephyr-sdk-0.14.1_macos-x86_64.tar.gz
+cd zephyr-sdk-0.14.1
+./setup.sh
+```
 
 </TabItem>
 <TabItem value="windows">
