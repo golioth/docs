@@ -29,6 +29,18 @@ npm run build:dev (or :prod)
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
+## Device Catalog
+
+The device catalog is automatically generated. To update it, run this command from the project root directory:
+
+```console
+npm run build-device-catalog
+```
+
+Quickstart guides can be added in the `docs/hardware/6-catalog/quickstart` directory and enabled by adding a node in the `scripts/device-catalog/support.json` file.
+
+Documentation on automatic generation and adding customized pages for supported boards can be found in [the device catalog README](scripts/device-catalog/README.md).
+
 ## Deployment to Firebase Hosting
 
 Deploy to [Golioth Docs Dev site](https://docs.golioth.dev)
