@@ -1,5 +1,5 @@
-You can also use [Golioth Console](https://console.golioth.io) to check the logs.
+You can use [Golioth Console](https://console.golioth.io) to check the logs.
 
 ![Console](./assets/console.jpg)
 
-Filtering is selectable via the menu items at the top, including date ranges, devices, modules and more. Log levels are selectable on the left side menu.
+Filtering is selectable via the menu items, including date ranges, devices, log levels, modules and more.
