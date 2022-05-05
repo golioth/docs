@@ -16,8 +16,8 @@ sidebar_class_name: hide-item
 | Board ID       | `nrf52833dk_nrf52833` |
 | Golioth Level  | unverified       |
 | Architecture   | ARM |
-| RAM*           | N/A |
-| Flash*         | N/A |
+| RAM*           | 128 kB |
+| Flash*         | 512 kB |
 
 \* values are as reported by Zephyr `.yaml` board files, which don't represent the overall available resources
 

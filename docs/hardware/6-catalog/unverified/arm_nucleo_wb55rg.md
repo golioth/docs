@@ -16,7 +16,7 @@ sidebar_class_name: hide-item
 | Board ID       | `nucleo_wb55rg` |
 | Golioth Level  | unverified       |
 | Architecture   | ARM |
-| RAM*           | 96 kB |
+| RAM*           | 192 kB |
 | Flash*         | 1024 kB |
 
 \* values are as reported by Zephyr `.yaml` board files, which don't represent the overall available resources

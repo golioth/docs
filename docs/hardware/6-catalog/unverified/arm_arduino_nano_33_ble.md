@@ -1,8 +1,8 @@
 ---
 id: arm_arduino_nano_33_ble
-title: Arduino Nano 33 BLE (Sense)
+title: Arduino Nano 33 BLE
 slug: /hardware/catalog/boards/unverified/arm_arduino_nano_33_ble
-description: IoT board Arduino Nano 33 BLE (Sense), compatible with Golioth at unverified level.
+description: IoT board Arduino Nano 33 BLE, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
 ---
@@ -45,4 +45,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[Arduino Nano 33 BLE (Sense) (arduino_nano_33_ble)](https://docs.zephyrproject.org/latest/boards/arm/arduino_nano_33_ble/doc/index.html)
+[Arduino Nano 33 BLE (arduino_nano_33_ble)](https://docs.zephyrproject.org/latest/boards/arm/arduino_nano_33_ble/doc/index.html)

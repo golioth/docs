@@ -33,6 +33,9 @@ sidebar_class_name: hide-item
 * watchdog
 * usb_device
 * pwm
+* can
+* canfd
+* hwinfo
 
 ## Supported toolchains
 

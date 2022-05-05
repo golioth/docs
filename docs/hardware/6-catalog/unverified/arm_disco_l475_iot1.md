@@ -39,6 +39,7 @@ sidebar_class_name: hide-item
 * vl53l0x
 * watchdog
 * adc
+* dac
 * dma
 
 ## Supported toolchains

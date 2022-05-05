@@ -1,8 +1,8 @@
 ---
 id: xtensa_intel_adsp_cavs20
-title: CAVS 2.0 Audio DSP (Connected Audio Voice and Speech)
+title: cAVS 2.0 Audio DSP (converged Audio Voice and Speech)
 slug: /hardware/catalog/boards/unverified/xtensa_intel_adsp_cavs20
-description: IoT board CAVS 2.0 Audio DSP (Connected Audio Voice and Speech), compatible with Golioth at unverified level.
+description: IoT board cAVS 2.0 Audio DSP (converged Audio Voice and Speech), compatible with Golioth at unverified level.
 image: /img/boards/xtensa/null
 sidebar_class_name: hide-item
 ---
@@ -29,8 +29,9 @@ List of supported features is not available.
 
 ## Supported toolchains
 
+* xcc
 * zephyr
 
 ## Official Zephyr docs
 
-[CAVS 2.0 Audio DSP (Connected Audio Voice and Speech) (intel_adsp_cavs20)](https://docs.zephyrproject.org/latest/boards/xtensa/intel_adsp_cavs20/doc/index.html)
+[cAVS 2.0 Audio DSP (converged Audio Voice and Speech) (intel_adsp_cavs20)](https://docs.zephyrproject.org/latest/boards/xtensa/intel_adsp_cavs20/doc/index.html)

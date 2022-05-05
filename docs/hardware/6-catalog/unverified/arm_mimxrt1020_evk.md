@@ -34,6 +34,7 @@ sidebar_class_name: hide-item
 * spi
 * usb_device
 * adc
+* sdhc
 
 ## Supported toolchains
 

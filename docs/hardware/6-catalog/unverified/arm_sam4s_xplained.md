@@ -32,6 +32,7 @@ sidebar_class_name: hide-item
 * xplained_i2c
 * xplained_serial
 * xplained_spi
+* hwinfo
 
 ## Supported toolchains
 

@@ -30,7 +30,6 @@ sidebar_class_name: hide-item
 * gpio
 * hwinfo
 * i2c
-* pinmux
 * pwm
 * spi
 * uart

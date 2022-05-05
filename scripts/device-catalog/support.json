@@ -1,10 +1,6 @@
 {
   "arc": {},
   "arm": {
-    "circuitdojo_feather_nrf9160": {
-      "level": "quickstart",
-      "quickstart": "/hardware/nrf91/quickstart"
-    },
     "nrf9160dk_nrf9160": {
       "level": "quickstart",
       "quickstart": "/hardware/nrf91/quickstart"
