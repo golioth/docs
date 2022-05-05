@@ -7,32 +7,31 @@ slug: /cloud/output-streams/ubidots
 ## Ubidots
 
 [Ubidots](https://ubidots.com/) makes it easy to white-label visualizations to produce a
-branded version of your service for end customers; you can also create end-users, in order
-to allow access to custom dashboards.
+branded version of your service for end customers. You can also create end-users who have
+access to their own custom dashboards.
 
 ## Ubidots Specific Attributes
 
 For each Output Stream type, there is a set of specified attributes. Here are the ones for Ubidots:
 
-| Attribute        | Type   | Required | Description                                                                                                                                                                                    |
-| ---------------- | ------ |:--------:| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| HTTPS endpoint URL | string | ✅       | URL where events are sent via POST request |
-| Ubidots auth token | string| ✅| Ubidots authentication token |
+| Attribute          | Type   | Required | Description |
+| ------------------ | ------ |:--------:| ----------- |
+| HTTPS endpoint URL | string | ✅        | URL where events are sent via POST request |
+| Ubidots auth token | string | ✅        | Ubidots authentication token |
 
 ## Overview
 
 To use this integration, you need to:
+
 - Have an Ubidots account
 - Create an instance of the Golioth plugin in your Ubidots account
-- Create an instance of the Ubidots outpustream in your Golioth account
+- Create an instance of the Ubidots output stream in your Golioth account
 
-## Setup the Golioth plugin 
+## Setup the Ubidots Output Stream
 
 ### 1. Create an Ubidots account
 
 [Create your account](https://industrial.ubidots.com/accounts/signup_industrial/) if you don't have one yet.
-
-## Setup the Ubidots Output Stream
 
 ### 2. Create an integration between Ubidots and Golioth
 
@@ -73,3 +72,7 @@ Content-Type: application/json
   "timestamp":{"nanos":346519550,"seconds":1647624308}
 }
 ```
+
+## Resources
+
+For more information on the Ubidots integration, [please see our blog post](https://blog.golioth.io/new-feature-visualizing-iot-data-using-ubidots/).
