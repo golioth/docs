@@ -37,6 +37,7 @@ sidebar_class_name: hide-item
 * spi
 * watchdog
 * adc
+* dac
 * dma
 * can
 * canfd

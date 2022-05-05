@@ -25,12 +25,14 @@ sidebar_class_name: hide-item
 
 ## Supported features
 
+* can
 * eeprom
 * netif:eth
 * usb_device
 * adc
 * i2c
 * spi
+* gpio
 
 ## Supported toolchains
 

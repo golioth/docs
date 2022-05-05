@@ -17,7 +17,7 @@ sidebar_class_name: hide-item
 | Golioth Level  | unverified       |
 | Architecture   | ARM |
 | RAM*           | 32 kB |
-| Flash*         | N/A |
+| Flash*         | 256 kB |
 
 \* values are as reported by Zephyr `.yaml` board files, which don't represent the overall available resources
 

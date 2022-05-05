@@ -31,7 +31,9 @@ sidebar_class_name: hide-item
 * netif:eth
 * watchdog
 * spi
+* sdhc
 * adc
+* usb_device
 
 ## Supported toolchains
 

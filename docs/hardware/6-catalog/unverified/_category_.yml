@@ -1,4 +1,4 @@
 label: 'Unverified'
 collapsible: true
-collapsed: true
+collapsed: false
 className: "hide-menu"

@@ -39,6 +39,9 @@ sidebar_class_name: hide-item
 * xpro_i2c
 * xpro_serial
 * xpro_spi
+* can
+* canfd
+* hwinfo
 
 ## Supported toolchains
 

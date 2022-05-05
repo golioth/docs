@@ -39,6 +39,7 @@ sidebar_class_name: hide-item
 * counter
 * can
 * adc
+* dac
 * dma
 * backup_sram
 

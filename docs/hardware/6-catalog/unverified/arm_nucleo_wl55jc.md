@@ -31,6 +31,11 @@ sidebar_class_name: hide-item
 * arduino_gpio
 * arduino_i2c
 * arduino_spi
+* adc
+* dac
+* pwm
+* dma
+* watchdog
 
 ## Supported toolchains
 

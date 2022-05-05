@@ -34,6 +34,8 @@ sidebar_class_name: hide-item
 * watchdog
 * adc
 * dac
+* pwm
+* rng
 
 ## Supported toolchains
 
