@@ -15,10 +15,10 @@ Follow the guide to run the sample application on your target board, and follow 
 
 Here are the steps to build and sign your image with version `1.0.1` and both will save the image on path `./build/zephyr/app_update.bin`:
 
-- For Nordic Zephyr SDK and the nrf9160 Feather board
+- For Nordic Zephyr SDK and the nRF9160 DK board
 
 ```
-$ west build -b circuitdojo_feather_nrf9160_ns samples/dfu -p -- -DCONFIG_MCUBOOT_IMAGE_VERSION=\"1.0.1\"
+$ west build -b nrf9160dk_nrf9160_ns samples/dfu -p -- -DCONFIG_MCUBOOT_IMAGE_VERSION=\"1.0.1\"
 ```
 
 - For Pure Zephyr SDK and a nrf52840-dk board

@@ -14,8 +14,7 @@ The [nRF9160](https://www.nordicsemi.com/Products/nRF9160) is [Nordic Semiconduc
 
 ## Terminology
 
-* **nRF91 Development Board** 
+* **nRF91 Development Board**
   * A PCB with a module soldered to it, often with breakout headers to allow easy access to the pins.
+  * Example Board: [Nordic Semiconductor nRF9160 DK](https://www.nordicsemi.com/Products/Development-hardware/nRF9160-DK/GetStarted)
   * Example Board: [CircuitDojo nRF91 Feather](https://www.jaredwolff.com/store/nrf9160-feather/)
-  * Example Board: [Nordic Semiconductor nRF9160-DK](https://www.nordicsemi.com/Products/Development-hardware/nRF9160-DK/GetStarted)
-  

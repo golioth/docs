@@ -34,15 +34,9 @@ import InstallZephyrSDKtoolchain from '/docs/partials/install-zephyr-sdk-toolcha
 
 ### Build firmware for the nRF9160
 
-Your system is all set up and ready to start building & flashing with Zephyr. Verify by building a minimal sample, in this case for the CircuitDojo nRF91 feather:
+Your system is all set up and ready to start building & flashing with Zephyr. Verify by building a minimal sample for the nRF9160 DK:
 
-```
-cd ~/zephyr-nrf/zephyr
-west build -p auto -b  circuitdojo_feather_nrf9160_ns samples/basic/minimal
-```
-Alternatively, build for the nRF9160_DK with the following commands:
-
-```
+```console
 cd ~/zephyr-nrf/zephyr
 west build -p auto -b  nrf9160dk_nrf9160_ns samples/basic/minimal
 ```
@@ -55,4 +49,4 @@ If you are using a J-Link hardware programmer and already have the software for 
 west flash
 ```
 
-There is a USB bootloader available for flashing boards like the nRF9160 Feather or the Thingy:91. In the next section we'll detail how to install the [software to flash code via the bootloader](flash-firmware/bootloader), as well as how to install [software for the J-Link programmer](flash-firmware/hardware-programmer) and the nRF9160 DK board.
+The nRF9160 DK acts as a J-Link hardware programmer. `west` will automatically work with J-Link as long as the supporting software is installed on your system. The next section will walk through installing that software.
