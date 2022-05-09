@@ -19,16 +19,16 @@ values={[
 
     ```shell
     cd c:\
-    python3 -m venv zephyrproject\.venv
+    python3 -m venv golioth-zephyr-workspace\.venv
     ```
 
 2. Activate the virtual environment:
 
     ```shell
     :: cmd.exe
-    zephyrproject\.venv\Scripts\activate.bat
+    golioth-zephyr-workspace\.venv\Scripts\activate.bat
     :: PowerShell
-    zephyrproject\.venv\Scripts\Activate.ps1
+    golioth-zephyr-workspace\.venv\Scripts\Activate.ps1
     ```
 
     Once activated your shell will be prefixed with `(.venv)`. The virtual environment can be deactivated at any time by running `deactivate`.

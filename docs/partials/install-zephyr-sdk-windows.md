@@ -5,8 +5,8 @@ import TabItem from '@theme/TabItem';
 
     ```shell
     cd c:\
-    west init -m https://github.com/golioth/golioth-zephyr-sdk.git --mr main zephyrproject
-    cd zephyrproject
+    west init -m https://github.com/golioth/golioth-zephyr-sdk.git --mf west-zephyr.yml golioth-zephyr-workspace
+    cd golioth-zephyr-workspace
     west update
     ```
 
@@ -32,14 +32,14 @@ import TabItem from '@theme/TabItem';
     <TabItem value="virtualenv">
 
     ```
-    pip install -r C:\zephyrproject\zephyr\scripts\requirements.txt
+    pip install -r C:\golioth-zephyr-workspace\zephyr\scripts\requirements.txt
     ```
 
     </TabItem>
     <TabItem value="global">
 
     ```
-    pip3 install -r C:\zephyrproject\zephyr\scripts\requirements.txt
+    pip3 install -r C:\golioth-zephyr-workspace\zephyr\scripts\requirements.txt
     ```
 
     </TabItem>
