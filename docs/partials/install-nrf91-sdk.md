@@ -6,30 +6,12 @@ import TabItem from '@theme/TabItem';
 These directions are mirroring [the Zephyr and Python dependency install instructions](https://docs.zephyrproject.org/latest/getting_started/index.html#get-zephyr-and-install-python-dependencies). Some directions may be slightly modified to fit your nRF91 / Golioth install.
 :::
 
-
-With `west` installed, grab the Device SDK:
-
+With `west` installed, grab the Golioth NCS SDK:
 
 ```
 cd ~
 west init -m https://github.com/golioth/zephyr-sdk.git --mf west-ncs.yml ~/golioth-ncs-workspace
 cd golioth-ncs-workspace
-```
-Locate the west.yml file under the `nrf` folder.
-Add the following to west.yml file in the manifest/projects subtree to add the Golioth SDK and dependencies to the NRF Connect SDK:
-```
-# Golioth repository.
-- name: golioth
-  path: modules/lib/golioth
-  revision: 309597316d6963832bb777f901e5c869f99daff3
-  url: https://github.com/golioth/golioth-zephyr-sdk.git
-  import:
-    name-allowlist:
-      - qcbor
-
-```
-Do the following to redeploy zephyr and add the Golioth SDK library.
-```
 west update
 ```
 
