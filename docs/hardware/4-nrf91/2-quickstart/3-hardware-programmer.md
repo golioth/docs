@@ -34,7 +34,7 @@ During development we suggest using a hardware programmer like the Segger J-Link
 1. Build the project
 
     ```bash
-    cd ~/golioth-ncs-sdk/zephyr
+    cd ~/golioth-ncs-workspace/zephyr
     west build -b nrf9160dk_nrf9160_ns samples/basic/blinky -p
     ```
 

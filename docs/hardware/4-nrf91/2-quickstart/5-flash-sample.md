@@ -34,10 +34,10 @@ If you're familiar with Zephyr you may recognized the `LOG_*` functions. That's 
 
 ### Building `hello`
 
-Samples can be found in Golioth's nRF Connect based SDK ('golioth-ncs-sdk') in the folder `modules/lib/golioth/samples`. We recommend running the commands below from the `modules/lib/golioth` folder.
+Samples can be found in Golioth's nRF Connect based SDK ('golioth-ncs-workspace') in the folder `modules/lib/golioth/samples`. We recommend running the commands below from the `modules/lib/golioth` folder.
 
 ```console
-cd ~/golioth-ncs-sdk/modules/lib/golioth
+cd ~/golioth-ncs-workspace/modules/lib/golioth
 ```
 
 Zephyr uses [Kconfig](https://docs.zephyrproject.org/latest/guides/kconfig/index.html) to manage build settings at scale. Kconfig values can be set a number of ways but for this example we'll take a simple route by modifying `prj.conf`.
