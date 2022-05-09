@@ -9,8 +9,8 @@ Depending on your internet and I/O speed, `west update` can take upwards of 5 or
 
 ```
 cd ~
-west init -m https://github.com/golioth/golioth-zephyr-sdk.git --mr main ~/zephyrproject
-cd zephyrproject/
+west init -m https://github.com/golioth/golioth-zephyr-sdk.git --mf west-zephyr.yml ~/golioth-zephyr-workspace
+cd golioth-zephyr-workspace
 west update
 ```
 
@@ -32,14 +32,14 @@ values={[
 <TabItem value="virtualenv">
 
 ```
-pip install -r ~/zephyrproject/zephyr/scripts/requirements.txt
+pip install -r ~/golioth-zephyr-workspace/zephyr/scripts/requirements.txt
 ```
 
 </TabItem>
 <TabItem value="global">
 
 ```
-pip3 install -r ~/zephyrproject/zephyr/scripts/requirements.txt
+pip3 install -r ~/golioth-zephyr-workspace/zephyr/scripts/requirements.txt
 ```
 
 </TabItem>

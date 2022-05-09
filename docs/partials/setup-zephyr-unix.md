@@ -21,15 +21,15 @@ Even though we haven't pulled down Zephyr yet, we can create the virtual environ
 down Zephyr.
 
 ```
-python3 -m venv ~/zephyrproject/.venv
+python3 -m venv ~/golioth-zephyr-workspace/.venv
 ```
 
 Activate the virtual environment:
 
 ```
-source ~/zephyrproject/.venv/bin/activate
+source ~/golioth-zephyr-workspace/.venv/bin/activate
 # OR, if you're using the fish shell, run
-source ~/zephyrproject/.venv/bin/activate.fish
+source ~/golioth-zephyr-workspace/.venv/bin/activate.fish
 ```
 
 Whenever the virtual environment is active, your shell's prompt will be prefixed with `(.venv)`.

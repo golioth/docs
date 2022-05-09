@@ -43,7 +43,7 @@ values={[
 <TabItem value="linux">
 
 ```shell
-cd ~/zephyrproject/zephyr
+cd ~/golioth-zephyr-workspace/zephyr
 west build -b esp32 samples/basic/minimal -p
 ```
 
@@ -51,7 +51,7 @@ west build -b esp32 samples/basic/minimal -p
 <TabItem value="macos">
 
 ```shell
-cd ~/zephyrproject/zephyr
+cd ~/golioth-zephyr-workspace/zephyr
 west build -b esp32 samples/basic/minimal -p
 ```
 
@@ -61,7 +61,7 @@ west build -b esp32 samples/basic/minimal -p
 1. Verify by building a minimal sample:
 
     ```shell
-    cd C:\zephyrproject\zephyr
+    cd C:\golioth-zephyr-workspace\zephyr
     west build -b esp32 samples\basic\minimal -p
     ```
 

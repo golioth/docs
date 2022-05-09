@@ -26,7 +26,7 @@ import CheckToolchain from '/docs/partials/check-toolchain.md'
 Navigate to the Golioth directory within Zephyr
 
 ```
-cd ~/zephyrproject/modules/lib/golioth
+cd ~/golioth-zephyr-workspace/modules/lib/golioth
 ```
 This is also the place we will build Zephyr from.
 
