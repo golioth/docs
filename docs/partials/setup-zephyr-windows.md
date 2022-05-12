@@ -1,6 +1,22 @@
+:::note
+Python3 should have been installed by chocolatey in the last step.
+Verify you have version 3 (and not version 2):
+
+1. Open the command line by hitting the Windows key, typing `cmd.exe` and
+   pressing enter.
+2. Type `python`
+3. The interpreter will open and display the version. Type `exit()` to exit.
+
+    ```python
+    Python 3.10.4 (tags/v3.10.4:9d38120, Mar 23 2022, 23:13:41) [MSC v.1929 64 bit (AMD64)] on win32
+    Type "help", "copyright", "credits" or "license" for more information.
+    >>>
+    ```
+
+:::
 
 While the official documentation for Zephyr suggests jumping right into
-installing `west`, we suggest creating a `python3` virtual environment
+installing `west`, we suggest creating a `python` virtual environment
 first, to avoid running into tooling incompatibilities.
 
 import Tabs from '@theme/Tabs';
@@ -19,16 +35,13 @@ values={[
 
     ```shell
     cd c:\
-    python3 -m venv golioth-zephyr-workspace\.venv
+    python -m venv golioth-zephyr-workspace\.venv
     ```
 
 2. Activate the virtual environment:
 
     ```shell
-    :: cmd.exe
-    golioth-zephyr-workspace\.venv\Scripts\activate.bat
-    :: PowerShell
-    golioth-zephyr-workspace\.venv\Scripts\Activate.ps1
+    c:\golioth-zephyr-workspace\.venv\Scripts\activate.bat
     ```
 
     Once activated your shell will be prefixed with `(.venv)`. The virtual environment can be deactivated at any time by running `deactivate`.
@@ -39,7 +52,7 @@ values={[
 
 3. Install west:
 
-    Now, use `pip` to install `west`. Because we're in a `python3` `virtualenv`, we don't need to specify `pip3` and can just use `pip` (because virtual env knows the best version to use)
+    Now, use `pip` to install `west`.
 
     ```shell
     pip install west
@@ -52,7 +65,7 @@ values={[
 1. Use `pip3` to install `west`:
 
     ```shell
-    pip3 install -U west
+    pip install -U west
     ```
 
 </TabItem>
