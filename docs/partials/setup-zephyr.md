@@ -65,15 +65,6 @@ brew install cmake ninja gperf python3 ccache qemu dtc
 
 ### Install Dependencies
 
-#### Python3
-
-1. Open the command line by hitting the Windows key, typing `cmd.exe` and pressing enter.
-2. Type `python3`
-3. If python3 is installed, the interpreter will open and display the version. Type `exit()` to exit.
-4. If python3 is not installed, the Windows Store will automatically open and offer to install it.
-    * Test it: Go back to to the command line, type `python3` to launch then interpreter, `exit()` to exit. 
-    * Alternatively you can [download Python3 directly](https://www.python.org/downloads/windows/) and install it manually.
-
 #### Package Manager: Chocolatey
 
 The [chocolatey](https://chocolatey.org/) package manager needs to be installed to fetch software packages required by Zephyr.
@@ -88,11 +79,9 @@ The [chocolatey](https://chocolatey.org/) package manager needs to be installed 
     ```
 
     ```console
-    > Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
-    > exit
+    Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+    exit
     ```
-
-    This command may take a few minutes to complete.
 
 3. Disable global confirmation and use `choco` to install remaining dependencies:
 
