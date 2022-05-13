@@ -59,11 +59,17 @@ cd zephyr-sdk-0.14.1
 </TabItem>
 <TabItem value="windows">
 
-[The nRF Connect For Desktop](https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-desktop) installer includes a Toolchain Manager section that handles many of the same functions described in the Ubuntu tab. This can be used in conjunction with [the VS Code extension for nRF Connect SDK (NCS)](https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-VS-Code). This is the recommended path for Windows users with the nRF9160. 
+Unpack the archive and run the installer. The SDK will be placed in the `%HOMEPATH%\zephyr-sdk-0.14.1` directory:
 
-:::note
+```console
+cd %HOMEPATH%
+wget https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.1/zephyr-sdk-0.14.1_windows-x86_64.zip
+unzip zephyr-sdk-0.14.1_windows-x86_64.zip
+cd zephyr-sdk-0.14.1
+setup.cmd
+```
 
-Using the VS Code extension in conjuction with the nRF Connect for Desktop tools may move you outside many of the other recommended methods of compiling your firmware, described on this docs page and elsewhere on Golioth. If you're having problems with your Windows install, please contact us on our [Community Discord](https://golioth.io/discord)
+Answer `y` to both of the questions asked during the setup process.
 
 :::
 
