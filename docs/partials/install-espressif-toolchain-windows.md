@@ -1,21 +1,17 @@
-1. `west` makes it easy to install the Espressif toolchain:
+`west` makes it easy to install Espressif submodules and OpenOCD configurations:
 
-    ```shell
-    west espressif update
-    west espressif install
-    ```
+```shell
+west espressif update
+west espressif install
+```
 
-2. Configure the toolchain with environment variables:
+:::caution
+Older versions of the Zephyr SDK Toolchain (prior to 0.14.2) installed the compiler tools using `west espressif install` and required manually setting environmental variables as follows:
 
-    :::caution
-    Pay close attention to the output at the end of the `west espressif install`
-    step. **There is currently a bug for Windows** that adds quotes to these
-    variable. **Remove the quotes in these commands** and make sure to use the
-    path that is show in your console (it will differ from what you see below
-    because of the user name).
-    :::
+```shell
+set ESPRESSIF_TOOLCHAIN_PATH=C:\Users\Mike\.espressif\tools\zephyr
+set ZEPHYR_TOOLCHAIN_VARIANT=espressif
+```
 
-    ```shell
-    set ESPRESSIF_TOOLCHAIN_PATH=C:\Users\Mike\.espressif\tools\zephyr
-    set ZEPHYR_TOOLCHAIN_VARIANT=espressif
-    ```
+Now, compiler tools are included in the Zephyr SDK. Manually setting these environmental variables is deprecated and this step is no longer needed. We included this message to help inform users about the changes.
+:::

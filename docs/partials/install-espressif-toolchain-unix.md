@@ -1,21 +1,18 @@
-`west` makes it easy to install the Espressif toolchain:
+`west` makes it easy to install Espressif submodules and OpenOCD configurations:
 
-```
+```shell
 west espressif update
 west espressif install
 ```
 
 :::caution
-Pay close attention to the output at the end of the `west espressif install`
-step. You will see the export commands you need to set your environmental
-variables. The `ESPRESSIF_TOOLCHAIN_PATH` shown below may be different on your
-machine.
-:::
-
-Configure the toolchain with environment variables:
+Older versions of the Zephyr SDK Toolchain (prior to 0.14.2) installed the compiler tools using `west espressif install` and required manually setting environmental variables as follows:
 
 ```
 export ZEPHYR_TOOLCHAIN_VARIANT="espressif"
 export ESPRESSIF_TOOLCHAIN_PATH="${HOME}/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf"
 export PATH=$PATH:$ESPRESSIF_TOOLCHAIN_PATH/bin
 ```
+
+Now, compiler tools are included in the Zephyr SDK. Manually setting these environmental variables is deprecated and this step is no longer needed. We included this message to help inform users about the changes.
+:::
