@@ -1,12 +1,7 @@
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-:::note
-These directions are mirroring [the Zephyr toolchain install instructions](https://docs.zephyrproject.org/latest/getting_started/index.html#install-a-toolchain). Some directions may be slightly modified to fit your nRF91 / Golioth install.
-:::
-
 Download the [latest SDK installer](https://github.com/zephyrproject-rtos/sdk-ng/releases):
-
 
 <Tabs
 groupId="os"

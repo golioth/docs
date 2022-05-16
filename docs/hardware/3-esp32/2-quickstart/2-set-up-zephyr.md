@@ -14,14 +14,19 @@ import SetupZephyr from '/docs/partials/setup-zephyr.md'
 
 <SetupZephyr/>
 
-### Install Zephyr SDK
+### Install Golioth Zephyr SDK
 
 import InstallZephyrSDK from '/docs/partials/install-zephyr-sdk.md'
 
 <InstallZephyrSDK/>
 
+### Installing the Zephyr SDK Toolchain
 
-### Install the Espressif (ESP32) toolchain
+import InstallZephyrSDKtoolchain from '/docs/partials/install-zephyr-sdk-toolchain.md'
+
+<InstallZephyrSDKtoolchain/>
+
+### Install the Espressif (ESP32) submodules
 
 import InstallEspressifToolchain from '/docs/partials/install-espressif-toolchain.md'
 
