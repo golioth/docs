@@ -108,7 +108,7 @@ The [chocolatey](https://chocolatey.org/) package manager needs to be installed 
 
 `west` is the Zephyr "meta tool" that will allow you to build firmware, install packages, and flash firmware. There are various dependencies required, depending upon your operating system (OS), because `west` is Python based.
 
-import SetupZephyrWindows from '/docs/partials/setup-zephyr-windows.md'
+import SetupZephyrWindows from './setup-zephyr-windows.md'
 
 <SetupZephyrWindows />
 

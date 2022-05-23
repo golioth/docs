@@ -10,8 +10,8 @@ values={[
 {label: 'Windows', value: 'windows'},
 ]}>
 
-import InstallZephyrSDKUnix from '/docs/partials/install-zephyr-sdk-unix.md'
-import InstallZephyrSDKWindows from '/docs/partials/install-zephyr-sdk-windows.md'
+import InstallZephyrSDKUnix from './install-zephyr-sdk-unix.md'
+import InstallZephyrSDKWindows from './install-zephyr-sdk-windows.md'
 
 <TabItem value="linux">
 <InstallZephyrSDKUnix/>

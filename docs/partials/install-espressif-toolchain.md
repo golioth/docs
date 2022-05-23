@@ -10,8 +10,8 @@ values={[
 {label: 'Windows', value: 'windows'},
 ]}>
 
-import InstallEspressifToolchainUnix from '/docs/partials/install-espressif-toolchain-unix.md'
-import InstallEspressifToolchainWindows from '/docs/partials/install-espressif-toolchain-windows.md'
+import InstallEspressifToolchainUnix from './install-espressif-toolchain-unix.md'
+import InstallEspressifToolchainWindows from './install-espressif-toolchain-windows.md'
 
 <TabItem value="linux">
 <InstallEspressifToolchainUnix />
