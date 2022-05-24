@@ -66,7 +66,5 @@ setup.cmd
 
 Answer `y` to both of the questions asked during the setup process.
 
-:::
-
 </TabItem>
 </Tabs>
