@@ -3,9 +3,9 @@ id: authorize-devices
 title: Authorize Devices
 ---
 
-To connect to the Golioth Cloud, we need to create a credentials for the newly created device.
+To connect to the Golioth Cloud, we need to create credentials for the newly created device.
 
-Open the device details screen can by first selecting the Management&rarr;Devices option from the left sidebar. This will bring up a list of all of your devices. In the Action column, click the sliders icon for your device.
+Open the device details screen by first selecting the Management&rarr;Devices option from the left sidebar. This will bring up a list of all of your devices. In the Action column, click the sliders icon for your device.
 
 ### Adding Device Credentials
 
