@@ -3,28 +3,31 @@ id: device-connectivity
 title: Device Connectivity
 ---
 
-Device connected to Golioth platform through one of our IoT Gateway, by default, have information about it's connectivity status against our platform.
+Anytime a devices connects to one of Golioth IoT Gateways (CoAP / MQTT), the Gateway will track and report the status of the connection.
 
-We have 3 main attributes and timestamps for a given device in our system, using those to derive the latest status of that device.
+Rather than tracking just online / offline information, we keep a set of three timestamps for each device which can be used to dynamically compute the online or offline status:
 
-| Field             | Description                                                                                                    |
-| ----------------- | -------------------------------------------------------------------------------------------------------------- |
-| Last Report       | On every report of the device on a given service (LightDB State/Stream, Device Logs and other services).       |
-| Last Time Online  | When the device finishes sucessfully handshake and authentication with a given gateway, this field is updated. |
-| Last Time Offline | When the gateway of a given protocol, consider that device to offline/disconnected (more on the next topic).   |
+| Timestamp         | Update event
+| ----------------- | --------------------------------------------------------------------------------------------- |
+| Last Report       | Device interacts with a given service (LightDB State/Stream, Device Logs and other services). |
+| Last Time Online  | Device performs a successful handshake and authentication with a Golioth IoT Gateway          |
+| Last Time Offline | Depends on which protocol the device uses, see below.                                         |
 
 ### Online and Offline meaning on each protocol
 
-Depending on the protocol, the meaning for a device to online/offline.
+The online / offline indication varies by protocol.
 
-**MQTT** for example is based on TCP, so we have a persistent connection between the device and our IoT Gateways, so the notion of online/offline is more precise in some sense. During the whole lifetime of the MQTT/TCP connection with our system after the TLS Handshake and Authentication, we know that that device is online/connected. When that connection is broken, or the device is not keeping the connection alive using a Keep-Alive mechanism, we consider the connection broken and that the device is offline/disconnected.
+**MQTT** is based on TCP. The online and offline events are reported by the TCP stack. Once the TLS handshake and authentication succeed, we mark the device as online.
+When the connection is actively closed by the device, we mark it as offline. But frequently (such as on a power loss, or a hard reset), a device cannot actively close the connection.
+In that case, we rely on a keep-alive mechanism that periodically queries the device state. If we don't hear from the device within the keepalive timeout, we consider the device offline.
 
 | Related configuration | Default Value                                                      |
 | --------------------- | ------------------------------------------------------------------ |
-| Keep Alive Setting    | Can be negotiated with the device, but by default is `60 seconds`. |
+| Keep Alive Interval   | Can be negotiated with the device, but by default is `60 seconds`. |
 | Keep Alive Timeout    | Follows this formula `=(KeepAlive) + (KeepAlive/2)`.               |
 
-**CoAP** is based on UDP, which makes things a more complicated, as UDP is a connectionless and stateless protocol. Although, as we only allow secure communication over that protocol by using DTLS, we have a notion of a device session, which is started after the device and the server finishes the Handshake and Authentication. As CoAP is more used in low power and low data usage scenarios, we try to keep that session open for a while, currently set for 3 hours, so the device doesn't need to restart a session to send data in a given interval, saving some time on that. If the device doesn't send any information after that period or it sends a explicity disconnection, we consider that device to be offline/disconnected.
+**CoAP** is based on UDP, a connectionless and stateless protocol which doesn't have a concept of online or offline. But since we are mandating the use of DTLS for all CoAP connections,
+we use the DTLS handshake and authentication as indication of a device going online. Since CoAP is frequently used in low power scenarios with infrequent communication, we don't send keepalives to devices. We keep every DTLS session stored for 3 hours, during which a device can resume it. If the device doesn't send any information for 3 hours or if it actively disconnects, we consider the device offline.
 
 | Related configuration | Default Value                                              |
 | --------------------- | ---------------------------------------------------------- |
