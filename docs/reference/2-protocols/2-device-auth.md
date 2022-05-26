@@ -5,7 +5,7 @@ title: Device Authentication
 
 To access Golioth Service from a device, the device need to be properly created and provisioned.
 
-You can manage device and proejct credentials using the Web Console or through the CLI.
+You can manage device and project credentials using the Web Console or through the CLI.
 
 ### Credential Types
 
