@@ -47,14 +47,16 @@ export const ChecksumsLinks = ({ clis }) => {
   });
 };
 
-| Operating System | Download link                                                                                     |
-| ---------------- | ------------------------------------------------------------------------------------------------- |
-| macOS            | <DownloadLinks variant="macos_64bit" osName="macOS" fileFormat="tar.gz" clis={["goliothctl","coap-cli"]} />           |
-| Linux 32bit      | <DownloadLinks variant="linux_32bit" osName="Linux 32bit" fileFormat="tar.gz" clis={["goliothctl","coap-cli"]} />     |
-| Linux 64bit      | <DownloadLinks variant="linux_64bit" osName="Linux 64bit" fileFormat="tar.gz" clis={["goliothctl","coap-cli"]} />     |
-| ARM Linux 64bit  | <DownloadLinks variant="linux_arm64" osName="ARM Linux 64bit" fileFormat="tar.gz" clis={["goliothctl","coap-cli"]} /> |
-| Windows 32bit    | <DownloadLinks variant="windows_32bit" osName="Windows 32bit" fileFormat="zip" clis={["goliothctl","coap-cli"]} /> |
-| Windows 64bit    | <DownloadLinks variant="windows_64bit" osName="Windows 64bit" fileFormat="zip" clis={["goliothctl","coap-cli"]} /> |
-| Checksums        | <ChecksumsLinks clis={["goliothctl","coap-cli"]} />                                               |
+| Operating System  | Download link                                                                                                          |
+| ----------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| macOS             | <DownloadLinks variant="macos_64bit" osName="macOS" fileFormat="tar.gz" clis={["goliothctl","coap-cli"]} />            |
+| ARM/M1 macOS      | <DownloadLinks variant="macos_arm64" osName="ARM/M1 macOS" fileFormat="tar.gz" clis={["goliothctl","coap-cli"]} />     |
+| Linux 32bit       | <DownloadLinks variant="linux_32bit" osName="Linux 32bit" fileFormat="tar.gz" clis={["goliothctl","coap-cli"]} />      |
+| Linux 64bit       | <DownloadLinks variant="linux_64bit" osName="Linux 64bit" fileFormat="tar.gz" clis={["goliothctl","coap-cli"]} />      |
+| ARM Linux 64bit   | <DownloadLinks variant="linux_arm64" osName="ARM Linux 64bit" fileFormat="tar.gz" clis={["goliothctl","coap-cli"]} />  |
+| Windows 32bit     | <DownloadLinks variant="windows_32bit" osName="Windows 32bit" fileFormat="zip" clis={["goliothctl","coap-cli"]} />     |
+| Windows 64bit     | <DownloadLinks variant="windows_64bit" osName="Windows 64bit" fileFormat="zip" clis={["goliothctl","coap-cli"]} />     |
+| ARM Windows 64bit | <DownloadLinks variant="windows_arm64" osName="ARM Windows 64bit" fileFormat="zip" clis={["goliothctl","coap-cli"]} /> |
+| Checksums         | <ChecksumsLinks clis={["goliothctl","coap-cli"]} />                                                                    |
 
 Each zip file contains [goliothctl](/reference/command-line-tools/goliothctl/goliothctl/) and [coap](/reference/command-line-tools/coap/coap/) command line tools.
