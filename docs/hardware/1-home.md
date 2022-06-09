@@ -5,37 +5,56 @@ hide_title: false
 slug: /hardware
 ---
 
-The Hardware section includes supported hardware for the Golioth platform. Includes hardware description, how to get started using that hardware on the Golioth platform, and how to apply other Golioth examples to that hardware.
+The Hardware section includes a catalog of supported boards for the Golioth
+platform. Additionally, there are quickstart guides and recommended boards for
+common MCUs, such as the ESP32 and nRF91.
 
-## Classifications of Hardware
+## Board Support Tiers
 
-### Verified + Quickstart Boards
+Golioth has three levels of board support.
 
-These are Verified Boards (see below) that also have a quickstart guide written for the board.
+### Continuously Verified Boards
+
+A continuously verified board:
+
+* is highly recommended for new users that want to try out Golioth.
+* is tested on every release of the [Golioth Zephyr SDK](https://github.com/golioth/golioth-zephyr-sdk).
+* is regularly tested and used by the Golioth development team.
+* has first class support and maintenance from Golioth. If you encounter a problem
+    with one of these boards, you can reach out to us on [Discord](https://golioth.io/discord) or
+    [file a bug report](https://github.com/golioth/golioth-zephyr-sdk/issues),
+    and we will address it quickly.
+
+The set of boards in this category covers commonly used
+connectivity options including WiFi, cellular, and Thread.
+Additionally, these boards cover common MCUs, such as the ESP32 and nRF91.
 
 ### Verified Boards
 
-These are boards or devices that members of the Golioth team have used and confirm work well using the Golioth platform. There will be additional support, such as overlay files in the various firmware samples, and regular testing that goes along with the "verified status". Verified boards do not yet have quickstart guides associated with them.
+A verified board:
 
-### Community Verified Boards
+* is tested and confirmed to work with Golioth.
+* is tested less frequently than continously verified boards. This might mean it
+    was tested on an older version of the Golioth Zephyr SDK, or that
+    it has been a while since it was last tested.
+* is supported and maintained by the Golioth development team. You can reach
+    out to us on [Discord](https://golioth.io/discord) for help and troubleshooting.
 
-These are boards or devices that community members have used and confirm work well using the Golioth platform.
+Boards in this category cover a wider range of MCUs and peripherals.
 
-### Zephyr Supported Boards
+### Unverified Boards
 
-These are boards that are listed by Zephyr and are candidates to be either Community Verified Boards or Golioth Verified boards, but have not yet been tested by members of the Golioth team, nor the community. 
+An unverified board:
 
-## Terminology
+* has not yet been verified to work with Golioth.
 
-* **Hardware** - A broad classification of electronic components, often mounted on PCBs. May also refer to an assembly of many components.
-* **Processor** - The computing element that runs code. This could be a microcontroller or microprocessor, generally the former.
-* **Printed CircuitBoard (PCB)** - A piece of fiberglass with copper traces on it. 
-* **Board** - A PCB with a Processor on it. To be useful on the Golioth network, it requires a Network Interface in order to communicate back to Golioth APIs over the internet.
-* **MPN** - Manufacturer Part Number (ie. nRF9160 from Nordic Semiconductor) of the Processor.
-* **Core** -  The intellectual property used to design the silicon inside a Processor (ie. ARM Cortex M0 or RISC V)
-* **Development Board** - Off the shelf *Boards* that contain a Processor and a Network Interface that can communicate back to Golioth out of the box. Golioth users can purchase these boards and confidently use them
-* **Custom Hardware** - These are non-standardized pieces of *Hardware* that contain a Processor and Network Interface. Often these are designs that derived from circuits on a *Development Board*.
-* **Golioth Reference Boards** - Custom Hardware designed by the Golioth team for specific demonstration purposes. These boards may integrate Development Boards via connectors, or they may contain a Processor directly on the PCB. 
-* **Golioth Verified Boards** - Development Boards that are both supported by the Zephyr Project and have been tested/verified by the Golioth team to work well with Golioth. 
-* **Zephyr Supported Boards** - Development Boards or Custom Hardware that has been verified to work with Zephyr, but has not yet been tested with Golioth.
-* **Community Boards** - Development Boards or Custom Hardware that works with Golioth and is being used by community members, but is not yet officially supported by Golioth.
+It's very possible that the board may work well with Golioth, but it has not
+yet been tested by the Golioth team.
+
+Check if the board is in [Zephyr's list of supported boards](https://docs.zephyrproject.org/latest/boards/index.html).
+If it's in the list, there's a good chance it will work with Golioth with
+low development effort.
+
+If you're interested in using a board from this category, you can reach out to us on
+[Discord](https://golioth.io/discord), and we can help you with next steps to
+get the board connected to Golioth.
