@@ -11,7 +11,8 @@ common MCUs, such as the ESP32 and nRF91.
 
 ## Board Support Tiers
 
-Golioth has three levels of board support.
+Golioth has three levels of board support: Continuously Verified, Verified,
+and Unverified.
 
 ### Continuously Verified Boards
 
@@ -34,9 +35,9 @@ Additionally, these boards cover common MCUs, such as the ESP32 and nRF91.
 A verified board:
 
 * is tested and confirmed to work with Golioth.
-* is tested less frequently than continously verified boards. This might mean it
-    was tested on an older version of the Golioth Zephyr SDK, or that
-    it has been a while since it was last tested.
+* is tested less frequently than continuously verified boards. This means it
+    was tested on an older version of the Golioth Zephyr SDK, but may not
+    have been tested on the most recent commits.
 * is supported and maintained by the Golioth development team. You can reach
     out to us on [Discord](https://golioth.io/discord) for help and troubleshooting.
 
