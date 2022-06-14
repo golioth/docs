@@ -14,7 +14,7 @@ image: /img/boards/arm/circuitdojo_feather_nrf9160.png
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `circuitdojo_feather_nrf9160` |
-| Golioth Level  | quickstart       |
+| Golioth Level  | [Continuously verified](/hardware#continuously-verified-boards) |
 | Golioth Quickstart | [circuitdojo_feather_nrf9160 quickstart](/hardware/nrf91/quickstart) || Architecture   | ARM |
 | RAM*           | 64 kB |
 | Flash*         | 256 kB |

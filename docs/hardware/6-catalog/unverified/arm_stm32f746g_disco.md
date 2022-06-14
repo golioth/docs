@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `stm32f746g_disco` |
-| Golioth Level  | unverified       |
+| Golioth Level  | [Unverified](/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 256 kB |
 | Flash*         | 1024 kB |
@@ -35,6 +35,8 @@ sidebar_class_name: hide-item
 * sdhc
 * usb_device
 * kscan:touch
+* display
+* memc
 
 ## Supported toolchains
 

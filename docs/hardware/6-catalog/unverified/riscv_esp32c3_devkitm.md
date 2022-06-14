@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `esp32c3_devkitm` |
-| Golioth Level  | unverified       |
+| Golioth Level  | [Unverified](/hardware#unverified-boards) |
 | Architecture   | RISCV |
 | RAM*           | N/A |
 | Flash*         | N/A |
@@ -29,7 +29,7 @@ List of supported features is not available.
 
 ## Supported toolchains
 
-* espressif
+* zephyr
 
 ## Official Zephyr docs
 

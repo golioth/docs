@@ -14,7 +14,7 @@ image: /img/boards/arm/qemu_cortex_m3.png
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `qemu_cortex_m3` |
-| Golioth Level  | quickstart       |
+| Golioth Level  | [Continuously verified](/hardware#continuously-verified-boards) |
 | Golioth Quickstart | [qemu_cortex_m3 quickstart](/hardware/virtual-devices) || Architecture   | ARM |
 | RAM*           | 64 kB |
 | Flash*         | 256 kB |

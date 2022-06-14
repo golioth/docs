@@ -58,7 +58,7 @@ function createLevelRoot(level) {
     fs.writeFileSync(
         `${docsRoot}/${level}/_category_.yml`,
         `\
-label: '${level === 'quickstart' ? 'Verified + ' + capitalize(level) : capitalize(level)}'
+label: '${level === 'quickstart' ? 'Continuously verified boards' : `${capitalize(level)} boards`}'
 collapsible: true
 collapsed: false
 ${level === 'unverified' ? 'className: "hide-menu"' : ''}

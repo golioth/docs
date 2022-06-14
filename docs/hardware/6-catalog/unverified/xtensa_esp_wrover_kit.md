@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `esp_wrover_kit` |
-| Golioth Level  | unverified       |
+| Golioth Level  | [Unverified](/hardware#unverified-boards) |
 | Architecture   | XTENSA |
 | RAM*           | N/A |
 | Flash*         | N/A |
@@ -35,7 +35,7 @@ sidebar_class_name: hide-item
 
 ## Supported toolchains
 
-* espressif
+* zephyr
 
 ## Official Zephyr docs
 
