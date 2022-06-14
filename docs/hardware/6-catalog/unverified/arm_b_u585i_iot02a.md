@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `b_u585i_iot02a` |
-| Golioth Level  | unverified       |
+| Golioth Level  | [Unverified](/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 786 kB |
 | Flash*         | 2048 kB |

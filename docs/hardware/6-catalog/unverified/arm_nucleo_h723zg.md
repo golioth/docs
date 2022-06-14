@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `nucleo_h723zg` |
-| Golioth Level  | unverified       |
+| Golioth Level  | [Unverified](/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 372 kB |
 | Flash*         | 1024 kB |
@@ -27,11 +27,13 @@ sidebar_class_name: hide-item
 
 * arduino_gpio
 * arduino_i2c
+* arduino_spi
 * uart
 * gpio
 * counter
 * i2c
 * pwm
+* spi
 * netif:eth
 * backup_sram
 

@@ -16,10 +16,12 @@ You'll need `node` and `bash` to run it. It's only been tested with `bash`.
 
 ## Execution
 
-There is a `build-device-catalog` script available on the project level. Running it from the
-repository root is the preferred execution method for the device catalog.
+There is a `build-device-catalog` node.js script available on the project level. Running it from the
+repository root is the preferred execution method for generating the device catalog:
 
-You can also execute the individual scripts.
+`npm run build-device-catalog`
+
+You can also execute the individual scripts from that node.js script.
 
 ## Development
 

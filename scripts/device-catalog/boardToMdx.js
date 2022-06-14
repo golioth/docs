@@ -7,6 +7,17 @@
 
 function boardToMdx(board) {
     const {arch, boardId, name, level, img, ram, flash, quickstart, toolchain, supported} = board;
+    const levelStrings = {
+        'quickstart': 'Continuously verified',
+        'verified': 'Verified',
+        'unverified': 'Unverified',
+    };
+    const levelLinks = {
+        'quickstart': '/hardware#continuously-verified-boards',
+        'verified': '/hardware#verified-boards',
+        'unverified': '/hardware#unverified-boards',
+    };
+
     return `\
 ---
 id: ${arch}_${boardId}
@@ -24,7 +35,7 @@ ${img !== null ? `![${name}!](/img/boards/${arch}/${img} "${name}")` : ''}
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | \`${boardId}\` |
-| Golioth Level  | ${level}       |
+| Golioth Level  | [${levelStrings[level]}](${levelLinks[level]}) |
 ${level === 'quickstart' ? `| Golioth Quickstart | [${boardId} quickstart](${quickstart}) |` : ''}\
 | Architecture   | ${arch.toUpperCase()} |
 | RAM*           | ${ram === null ? 'N/A' : `${ram} kB`} |

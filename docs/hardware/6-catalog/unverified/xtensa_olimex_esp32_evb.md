@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `olimex_esp32_evb` |
-| Golioth Level  | unverified       |
+| Golioth Level  | [Unverified](/hardware#unverified-boards) |
 | Architecture   | XTENSA |
 | RAM*           | N/A |
 | Flash*         | N/A |
@@ -29,14 +29,13 @@ sidebar_class_name: hide-item
 * gpio
 * hwinfo
 * i2c
-* netif:wifi
 * spi
 * uart
 * watchdog
 
 ## Supported toolchains
 
-* espressif
+* zephyr
 
 ## Official Zephyr docs
 

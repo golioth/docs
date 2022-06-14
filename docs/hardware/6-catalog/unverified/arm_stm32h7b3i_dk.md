@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `stm32h7b3i_dk` |
-| Golioth Level  | unverified       |
+| Golioth Level  | [Unverified](/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 1376 kB |
 | Flash*         | 2048 kB |
@@ -33,6 +33,8 @@ sidebar_class_name: hide-item
 * memc
 * backup_sram
 * display
+* can
+* canfd
 
 ## Supported toolchains
 

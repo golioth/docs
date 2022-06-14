@@ -1,8 +1,8 @@
 ---
 id: xtensa_esp32
-title: ESP32
+title: ESP-32
 slug: /hardware/catalog/boards/quickstart/xtensa_esp32
-description: IoT board ESP32, compatible with Golioth at quickstart level.
+description: IoT board ESP-32, compatible with Golioth at quickstart level.
 image: /img/boards/xtensa/null
 
 ---
@@ -14,7 +14,7 @@ image: /img/boards/xtensa/null
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `esp32` |
-| Golioth Level  | quickstart       |
+| Golioth Level  | [Continuously verified](/hardware#continuously-verified-boards) |
 | Golioth Quickstart | [esp32 quickstart](/hardware/esp32/quickstart) || Architecture   | XTENSA |
 | RAM*           | N/A |
 | Flash*         | N/A |
@@ -23,7 +23,7 @@ image: /img/boards/xtensa/null
 
 ## Getting started
 
-See our [quickstart guide for ESP32](/hardware/esp32/quickstart).
+See our [quickstart guide for ESP-32](/hardware/esp32/quickstart).
 
 
 ## Supported features
@@ -37,8 +37,8 @@ See our [quickstart guide for ESP32](/hardware/esp32/quickstart).
 
 ## Supported toolchains
 
-* espressif
+* zephyr
 
 ## Official Zephyr docs
 
-[ESP32 (esp32)](https://docs.zephyrproject.org/latest/boards/xtensa/esp32/doc/index.html)
+[ESP-32 (esp32)](https://docs.zephyrproject.org/latest/boards/xtensa/esp32/doc/index.html)

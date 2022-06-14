@@ -14,7 +14,7 @@ image: /img/boards/arm/nrf9160dk_nrf9160.png
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `nrf9160dk_nrf9160` |
-| Golioth Level  | quickstart       |
+| Golioth Level  | [Continuously verified](/hardware#continuously-verified-boards) |
 | Golioth Quickstart | [nrf9160dk_nrf9160 quickstart](/hardware/nrf91/quickstart) || Architecture   | ARM |
 | RAM*           | 88 kB |
 | Flash*         | 256 kB |

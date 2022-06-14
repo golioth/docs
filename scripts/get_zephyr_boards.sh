@@ -1,4 +1,7 @@
 #!/bin/sh
+# IMPORTANT! This needs to be run from the repository root, not from the current directory
+# 	     You should run this as ./scripts/get_zephyr_board.sh
+
 if [ -d vendor/zephyr/.git ]
 then
     cd vendor/zephyr
@@ -13,5 +16,5 @@ else
     git pull origin main
 
     # --depth=1 might further reduce download size
-    # without depth limitation, the download size is cuurently ~430 MB
+    # without depth limitation, the download size is cuurently ~480 MB
 fi

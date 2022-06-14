@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `heltec_wifi_lora32_v2` |
-| Golioth Level  | unverified       |
+| Golioth Level  | [Unverified](/hardware#unverified-boards) |
 | Architecture   | XTENSA |
 | RAM*           | N/A |
 | Flash*         | N/A |
@@ -34,7 +34,7 @@ sidebar_class_name: hide-item
 
 ## Supported toolchains
 
-* espressif
+* zephyr
 
 ## Official Zephyr docs
 
