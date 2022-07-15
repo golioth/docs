@@ -2,7 +2,6 @@
 id: overview
 title: LightDB Stream Overview
 slug: /cloud/services/lightdb-stream
-hide_title: true
 ---
 
 ## What is LightDB Stream?
