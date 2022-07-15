@@ -72,7 +72,8 @@
   border-image-width: 1;
 }
 
-.button.button--secondary.button--outline:not(.button--active):not(:hover) {
+.button.button--secondary.button--outline:not(.button--active):not(:hover),
+button [class^="lightToggleIcon"]:not(:hover) {
   color: white;
 }
 
