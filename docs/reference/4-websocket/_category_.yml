@@ -1,4 +1,3 @@
-label: 'Command Line Tools'
-position: 2.5 # float position is supported
+label: 'WebSocket API'
 collapsible: true # make the category collapsible
 collapsed: false # keep the category open by default
