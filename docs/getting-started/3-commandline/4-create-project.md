@@ -6,7 +6,7 @@ title: Create a Project
 #### Prerequisites
 
 - `goliothctl` CLI installed
-- Authenticated with Golioth - see [Authentication](/getting-started/2-commandline/3-authentication.md)
+- Authenticated with Golioth - see [Authentication](./3-authentication.md)
 
 To create a project, simply use `goliothctl project create` command with a `--name` parameter.
 
