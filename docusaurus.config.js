@@ -142,7 +142,7 @@ module.exports = {
           // editUrl: 'https://github.com/golioth/golioth/edit/master/docs/',
         },
         gtag: {
-          trackingID: 'G-C2MSLQD9D7',
+          trackingID: "G-C2MSLQD9D7",
           anonymizeIP: true,
         },
         // blog: {
@@ -150,7 +150,10 @@ module.exports = {
         //   //editUrl: 'https://github.com/golioth/golioth/edit/master/docs/blog/',
         // },
         theme: {
-          customCss: [require.resolve("./src/css/custom.css"), require.resolve("swagger-ui-react/swagger-ui.css")],
+          customCss: [
+            require.resolve("./src/css/custom.css"),
+            require.resolve("swagger-ui-react/swagger-ui.css"),
+          ],
         },
       },
     ],
