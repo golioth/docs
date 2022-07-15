@@ -1,7 +1,7 @@
 ---
 id: overview
-title: nRF9160 Quickstart Overview
-slug: /hardware/nrf91/quickstart
+title: nRF9160 Zephyr Quickstart
+slug: /hardware/nrf91/zephyr-quickstart
 ---
 
 :::caution

@@ -1,6 +1,6 @@
 ---
 id: overview
-title: Overview
+title: nRF91 Overview
 slug: /hardware/nrf91
 ---
 
