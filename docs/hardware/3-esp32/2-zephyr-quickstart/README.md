@@ -1,7 +1,7 @@
 ---
 id: overview
-title: ESP32 Quickstart Overview
-slug: /hardware/esp32/quickstart
+title: ESP32 Zephyr Quickstart
+slug: /hardware/esp32/zephyr-quickstart
 ---
 
 :::caution
