@@ -1,10 +1,8 @@
 ---
 id: overview
-title: Overview
+title: Ubidots Overview
 slug: /cloud/output-streams/ubidots
 ---
-
-## Ubidots
 
 [Ubidots](https://ubidots.com/) makes it easy to white-label visualizations to produce a
 branded version of your service for end customers. You can also create end-users who have

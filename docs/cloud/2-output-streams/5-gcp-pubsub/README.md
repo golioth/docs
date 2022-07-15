@@ -1,10 +1,8 @@
 ---
 id: overview
-title: Overview
+title:  Google Cloud Platform (GCP) PubSub Overview
 slug: /cloud/output-streams/gcp-pubsub
 ---
-
-## Google Cloud Platform (GCP) PubSub
 
 [Google Cloud PubSub](https://cloud.google.com/pubsub/) works as a messaging middleware for traditional service integration or a simple communication medium for modern microservices. Events can be ingested with serverless environments like Cloud Functions, Cloud Run or custom environments on Google Kubernetes Engine or Compute Engine.
 

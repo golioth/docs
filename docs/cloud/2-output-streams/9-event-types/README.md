@@ -1,6 +1,6 @@
 ---
 id: overview
-title: Overview
+title: Event Types Overview
 slug: /cloud/output-streams/event-types
 ---
 
