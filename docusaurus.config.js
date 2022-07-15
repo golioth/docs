@@ -150,8 +150,7 @@ module.exports = {
         //   //editUrl: 'https://github.com/golioth/golioth/edit/master/docs/blog/',
         // },
         theme: {
-          customCss: require.resolve("./src/css/custom.css"),
-          swaggerCss: require.resolve("swagger-ui-react/swagger-ui.css"),
+          customCss: [require.resolve("./src/css/custom.css"), require.resolve("swagger-ui-react/swagger-ui.css")],
         },
       },
     ],
