@@ -5,7 +5,7 @@ slug: /commandline
 ---
 
 :::caution
-This section is for medium and advanced users. For beginners we recommend first completing the [Golioth Console (GUI)](../1-console/1-overview.md) guide and the continue on to [choose your hardware device](../1-console/5-choose-device.md).
+This section is for medium and advanced users. For beginners we recommend first completing the [Golioth Console (GUI)](../2-console/1-overview.md) guide and the continue on to [choose your hardware device](../2-console/5-choose-device.md).
 :::
 
 The `goliothctl` allows you to provision and manage your devices from the command line. This portion of the Getting Started guide will demonstrate:
