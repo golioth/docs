@@ -1,6 +1,6 @@
 ---
 id: overview
-title: Overview
+title: Webhooks Overview
 slug: /cloud/output-streams/webhook
 ---
 

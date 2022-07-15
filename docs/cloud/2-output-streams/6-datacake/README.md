@@ -1,10 +1,8 @@
 ---
 id: overview
-title: Overview
+title: Datacake Overview
 slug: /cloud/output-streams/datacake
 ---
-
-## Datacake
 
 [Datacake](https://datacake.co/) is a multi-purpose, low-code IoT platform that requires no programming skills and minimal time to create custom IoT applications that can be brought into a white label IoT solution at the push of a button.
 

@@ -1,11 +1,8 @@
 ---
 id: overview
-title: Overview
+title: AWS SQS Overview
 slug: /cloud/output-streams/aws-sqs
-hide_title: true
 ---
-
-## AWS SQS Overview
 
 Amazon Simple Queue Service (SQS) is a fully managed message queuing service that enables you receive events generated on the Golioth platform that can be processed in a decoupled and scalable way. SQS eliminates the complexity and overhead associated with managing and operating message-oriented middleware systems. Data can be ingested using multiple solutions inside of AWS, including Serverless offerings like AWS Lambda.
 

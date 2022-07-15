@@ -1,10 +1,8 @@
 ---
 id: overview
-title: Overview
+title: Azure Event Hub Overview
 slug: /cloud/output-streams/azure-event-hub
 ---
-
-## Azure Event Hub
 
 Azure Event Hub is a fully managed, real-time data ingestion service that can be used to consume Golioth events in a simple, trusted, and scalable way. You can ingest data in multiple ways inside Azure with support for popular protocols, including AMQP, HTTPS, and Apache Kafka. You can also consume Azure Event Hub in a serverless manner using Azure Functions.
 
