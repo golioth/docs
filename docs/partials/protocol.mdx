@@ -45,7 +45,7 @@ export const ProtocolPublishSample = ({
       </TabItem>
       <TabItem value="mqtt">
         <CodeBlock>
-          {`mosquitto_pub -i ${identity} -L mqtts://${identity}:${psk}@mqtt.golioth.io:8883${path} -m "${escapedMqttBody}"`}
+          {`mosquitto_pub -i ${identity} --username ${identity} -P ${psk}  --host mqtt.golioth.io --port 8883 --topic ${path} -m "${escapedMqttBody}"`}
         </CodeBlock>
       </TabItem>
     </Tabs>
@@ -83,7 +83,7 @@ export const ProtocolReadSample = ({
       </TabItem>
       <TabItem value="mqtt">
         <CodeBlock>
-          {`mosquitto_sub -i ${identity} -L mqtts://${identity}:${psk}@mqtt.golioth.io:8883${path}`}
+          {`mosquitto_sub -i ${identity} --username ${identity} -P ${psk}  --host mqtt.golioth.io --port 8883 --topic ${path}`}
         </CodeBlock>
         {response && <CodeBlock>{`${JSON.stringify(response)}`}</CodeBlock>}
       </TabItem>
@@ -113,7 +113,7 @@ export const ProtocolDeleteSample = ({
       </TabItem>
       <TabItem value="mqtt">
         <CodeBlock>
-          {`mosquitto_pub -i ${identity} -L mqtts://${identity}:${psk}@mqtt.golioth.io:8883${path} -m ""`}
+          {`mosquitto_pub -i ${identity} --username ${identity} -P ${psk}  --host mqtt.golioth.io --port 8883 --topic ${path} -m ""`}
         </CodeBlock>
       </TabItem>
     </Tabs>
