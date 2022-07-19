@@ -1,6 +1,7 @@
 ---
 title: Clean Application
 hide_title: false
+sidebar_position: 6
 ---
 
 While the [Quickstart](/getting-started) focuses on running a sample that's located within the Zephyr file-hierarchy,
