@@ -2,20 +2,95 @@
 title: LightDB Get Request
 sidebar_position: 2
 ---
-The [Get](https://github.com/golioth/golioth-zephyr-sdk/tree/main/samples/lightdb/get) application demonstrates the retrieval of resources from LightDB with the use of Golioth SDK. The first thing that the example application does is check for the KConfig settings related to using Wi-Fi. If a different connectivity option is used such as cellular, this connection will be made outside of main.c. The Wi-Fi connection method is verified in ```main()``` in all of the samples as zephyr handles this connecivity method differently. Namely, Wi-Fi credentials must be in place in the Kconfig to ensure the success of the ```wifi_connect()``` method.
+The [LightDB Get sample
+application](https://github.com/golioth/golioth-zephyr-sdk/tree/main/samples/lightdb/get)
+demonstrates how to retrieve resources from LightDB State using the Golioth SDK.
+Data is retrieved asynchronously and sent to a handler function registered when
+the get request is first made.
 
-The next thing that the LightDB application does is prepare the reply handler for CoAP replies. This is completed with the ```coap_replies_clear()``` function. An array of replies is declared near the top of the sample and initialized with the ```coap_replies_clear()``` function. An array size of 1 is sufficient for the sample.
+## Details
 
-The next two lines are required to initialize and launch the golioth system client. These steps are registering the ```on_message``` handler and starting the golioth system client thread. The golioth system client is described in more detail in a separate doc.
+### Preparation
 
-The function ```golioth_on_message()``` is registered in main and is the handler called when the device receives a message. The first thing that the function does is lock the mutex to ensure that concurrent access to coap replies is prevented.
+```c
+#include <net/coap.h>
+static struct coap_reply coap_replies[1];
+```
 
-Next the function ```coap_response_received()``` is called. This is a zephyr function. It is passed the CoAP reply as well as a pointer to the reply handler array. It will iterate through the reply array comparing the received message ID and token. If the incoming message ID matches one of the reply handlers, a the reply_callback function will be executed to handle the payload. The sample implements a polling while loop in ```main()``` to monitor for a valid CoAP reply. If there is a reply, the reply handler is called. The reply is then cleared afterward before the check for a new reply is repeated.
+The Zephyr CoAP library provides a set of helper functions. Creating an array of
+`coap_reply` structs is necessary for registering the callback and pointing to
+the data when it arrives from the Golioth servers.
 
-The function ```golioth_lightdb_get()``` is found within the first code block guarded by the ```reply``` flag. It is set to true if there are any unused reply slots available in the reply handler array. This is checked with the ```coap_reply_next_unused()``` function. The ```golioth_lightdb_get()``` function must not be executed if there is not a cleared reply slot available.
+### Callback function
 
-The reply handler will utilize the zephyr coap function ```coap_packet_get_payload()``` to parse the incoming coap packet. The received message is printed to the console before the reply handler returns.
+```c
+static int reply_callback(const struct coap_packet *response,
+                          struct coap_reply *reply,
+                          const struct sockaddr *from)
+{
+    /* Process the received message */
+}
+```
 
-Descriptions of the ```golioth_lightdb_x``` functions can be found [here](https://github.com/golioth/golioth-zephyr-sdk/blob/main/include/net/golioth.h)
+A callback function is necessary to handle the reply received from the get
+request. Get requests can use different callbacks, and these functions may be
+arbitrarily named.
 
+### Route data to callback using `on_message`
 
+```c
+static void golioth_on_message(struct golioth_client *client,
+                               struct coap_packet *rx)
+{
+    coap_response_received(rx, NULL, coap_replies,
+                           ARRAY_SIZE(coap_replies));
+}
+```
+
+The `coap_response_received()` function must be called for all messages received.
+It iterates through the `coap_replies` array to properly associate received data
+with callback functions.
+
+### Setup in `main()`
+
+```c
+coap_replies_clear(coap_replies, ARRAY_SIZE(coap_replies));
+client->on_message = golioth_on_message;
+golioth_system_client_start();
+```
+
+Setup code in the `main()` function clears the `coap_replies` array to ensure
+that we begin with a set of empty `coap_reply` structs. The `golioth_on_message`
+is then registered to be called whenever a message is received. Finally, the
+Golioth system client is started.
+
+### Call `golioth_lightdb_get()` to retrieve data
+
+```c
+struct coap_reply *reply;
+reply = coap_reply_next_unused(coap_replies,
+                    ARRAY_SIZE(coap_replies));
+err = golioth_lightdb_get(client,
+                          GOLIOTH_LIGHTDB_PATH("counter"),
+                          COAP_CONTENT_FORMAT_APP_JSON,
+                          reply, reply_callback);
+if (err) {
+    LOG_WRN("failed to get data from LightDB: %d", err);
+}
+```
+
+The `golioth_lightdb_get()` API call requests data from the `counter` endpoint,
+passing a `coap_reply` object and a callback function to execute when the reply
+is received from Golioth. The `coap_reply_next_unused()` function ensures that
+the `coap_reply` struct being passed is not already in use by another request.
+
+## Summary
+
+The best example of a Get request is found in [the LightDB Get sample
+code](https://github.com/golioth/golioth-zephyr-sdk/tree/main/samples/lightdb/get).
+Please note the use of a mutex for protecting the `coap_reply` objects as the
+array is a resource shared between the Golioth client thread and the main
+application thread.
+
+Further documentation of the device SDK is available in the [Golioth Zephyr SDK
+Reference](https://zephyr-sdk-docs.golioth.io/) (Doxygen).
