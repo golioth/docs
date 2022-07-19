@@ -1,5 +1,5 @@
 ---
-title: Guide
+title: Logging Sample
 sidebar_position: 2
 ---
 
@@ -12,4 +12,4 @@ The configurations found in the prj.conf file of the logging sample that should 
 ```
 CONFIG_LOG_BACKEND_GOLIOTH=y
 CONFIG_LOG_PROCESS_THREAD_STACK_SIZE=2048
-``` 
+```
