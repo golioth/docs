@@ -10,8 +10,8 @@ demonstrate core features like LightDB State/Stream, Logging, and OTA Updates.
 ### Build the `golioth_basics` code example
 
 Golioth ESP-IDF SDK example code is located in the
-`golioth-esp-idf-sdk/examples` Samples can be found in the . Navigate to the
-`golioth_basics` example and run the following code to build the example app:
+`golioth-esp-idf-sdk/examples`. Navigate to the `golioth_basics` example and run
+the following code to build the example app:
 
 ```console
 idf.py set-target esp32
