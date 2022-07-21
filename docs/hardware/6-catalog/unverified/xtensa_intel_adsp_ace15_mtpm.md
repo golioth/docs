@@ -1,19 +1,19 @@
 ---
-id: xtensa_odroid_go
-title: ODROID-GO
-slug: /hardware/catalog/boards/unverified/xtensa_odroid_go
-description: IoT board ODROID-GO, compatible with Golioth at unverified level.
-image: /img/boards/xtensa/odroid_go.png
+id: xtensa_intel_adsp_ace15_mtpm
+title: ACE 1.5 MTL M Audio DSP
+slug: /hardware/catalog/boards/unverified/xtensa_intel_adsp_ace15_mtpm
+description: IoT board ACE 1.5 MTL M Audio DSP, compatible with Golioth at unverified level.
+image: /img/boards/xtensa/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![ODROID-GO!](/img/boards/xtensa/odroid_go.png "ODROID-GO")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
-| Board ID       | `odroid_go` |
+| Board ID       | `intel_adsp_ace15_mtpm` |
 | Golioth Level  | [Unverified](/hardware#unverified-boards) |
 | Architecture   | XTENSA |
 | RAM*           | N/A |
@@ -25,18 +25,13 @@ sidebar_class_name: hide-item
 
 ## Supported features
 
-* gpio
-* i2c
-* spi
-* watchdog
-* uart
-* pinmux
-* nvs
+* dma
 
 ## Supported toolchains
 
 * zephyr
+* xcc
 
 ## Official Zephyr docs
 
-[ODROID-GO (odroid_go)](https://docs.zephyrproject.org/latest/boards/xtensa/odroid_go/doc/index.html)
+[ACE 1.5 MTL M Audio DSP (intel_adsp_ace15_mtpm)](https://docs.zephyrproject.org/latest/boards/xtensa/intel_adsp_ace15_mtpm/doc/index.html)

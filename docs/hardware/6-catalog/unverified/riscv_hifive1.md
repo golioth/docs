@@ -3,13 +3,13 @@ id: riscv_hifive1
 title: SiFive HiFive1
 slug: /hardware/catalog/boards/unverified/riscv_hifive1
 description: IoT board SiFive HiFive1, compatible with Golioth at unverified level.
-image: /img/boards/riscv/null
+image: /img/boards/riscv/hifive1.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![SiFive HiFive1!](/img/boards/riscv/hifive1.jpg "SiFive HiFive1")
 
 |                | Board properties     |
 | -------------  | -------------------- |

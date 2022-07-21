@@ -15,7 +15,7 @@ image: /img/boards/arm/circuitdojo_feather_nrf9160.png
 | -------------  | -------------------- |
 | Board ID       | `circuitdojo_feather_nrf9160` |
 | Golioth Level  | [Continuously verified](/hardware#continuously-verified-boards) |
-| Golioth Quickstart | [circuitdojo_feather_nrf9160 quickstart](/hardware/nrf91/quickstart) || Architecture   | ARM |
+| Golioth Quickstart | [circuitdojo_feather_nrf9160 quickstart](/hardware/nrf91/zephyr-quickstart) || Architecture   | ARM |
 | RAM*           | 64 kB |
 | Flash*         | 256 kB |
 
@@ -23,7 +23,7 @@ image: /img/boards/arm/circuitdojo_feather_nrf9160.png
 
 ## Getting started
 
-See our [quickstart guide for CircuitDojo-Feather-nRF9160](/hardware/nrf91/quickstart).
+See our [quickstart guide for CircuitDojo-Feather-nRF9160](/hardware/nrf91/zephyr-quickstart).
 
 
 ## Supported features

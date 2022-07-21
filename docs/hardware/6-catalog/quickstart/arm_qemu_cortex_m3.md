@@ -15,7 +15,7 @@ image: /img/boards/arm/qemu_cortex_m3.png
 | -------------  | -------------------- |
 | Board ID       | `qemu_cortex_m3` |
 | Golioth Level  | [Continuously verified](/hardware#continuously-verified-boards) |
-| Golioth Quickstart | [qemu_cortex_m3 quickstart](/hardware/virtual-devices) || Architecture   | ARM |
+| Golioth Quickstart | [qemu_cortex_m3 quickstart](/hardware/virtual-devices/zephyr-quickstart) || Architecture   | ARM |
 | RAM*           | 64 kB |
 | Flash*         | 256 kB |
 
@@ -23,7 +23,7 @@ image: /img/boards/arm/qemu_cortex_m3.png
 
 ## Getting started
 
-See our [quickstart guide for QEMU Emulation for Cortex-M3](/hardware/virtual-devices).
+See our [quickstart guide for QEMU Emulation for Cortex-M3](/hardware/virtual-devices/zephyr-quickstart).
 
 
 ## Supported features

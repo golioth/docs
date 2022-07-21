@@ -3,13 +3,13 @@ id: riscv_hifive_unmatched
 title: SiFive HiFive Unmatched
 slug: /hardware/catalog/boards/unverified/riscv_hifive_unmatched
 description: IoT board SiFive HiFive Unmatched, compatible with Golioth at unverified level.
-image: /img/boards/riscv/null
+image: /img/boards/riscv/hifive_unmatched.png
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![SiFive HiFive Unmatched!](/img/boards/riscv/hifive_unmatched.png "SiFive HiFive Unmatched")
 
 |                | Board properties     |
 | -------------  | -------------------- |

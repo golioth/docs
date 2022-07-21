@@ -1,22 +1,22 @@
 ---
-id: arm_nucleo_wl55jc
-title: ST Nucleo WL55JC
-slug: /hardware/catalog/boards/unverified/arm_nucleo_wl55jc
-description: IoT board ST Nucleo WL55JC, compatible with Golioth at unverified level.
-image: /img/boards/arm/nucleo_wl55jc.jpg
+id: arm_pan1781_evb
+title: pan1781-evb
+slug: /hardware/catalog/boards/unverified/arm_pan1781_evb
+description: IoT board pan1781-evb, compatible with Golioth at unverified level.
+image: /img/boards/arm/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![ST Nucleo WL55JC!](/img/boards/arm/nucleo_wl55jc.jpg "ST Nucleo WL55JC")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
-| Board ID       | `nucleo_wl55jc` |
+| Board ID       | `pan1781_evb` |
 | Golioth Level  | [Unverified](/hardware#unverified-boards) |
 | Architecture   | ARM |
-| RAM*           | 64 kB |
+| RAM*           | 32 kB |
 | Flash*         | 256 kB |
 
 \* values are as reported by Zephyr `.yaml` board files, which don't represent the overall available resources
@@ -25,18 +25,15 @@ sidebar_class_name: hide-item
 
 ## Supported features
 
-* gpio
-* i2c
-* spi
 * arduino_gpio
 * arduino_i2c
 * arduino_spi
-* adc
-* dac
-* pwm
-* dma
+* ble
+* gpio
+* i2c
+* spi
 * watchdog
-* nvs
+* counter
 
 ## Supported toolchains
 
@@ -46,4 +43,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[ST Nucleo WL55JC (nucleo_wl55jc)](https://docs.zephyrproject.org/latest/boards/arm/nucleo_wl55jc/doc/index.html)
+[pan1781-evb (pan1781_evb)](https://docs.zephyrproject.org/latest/boards/arm/pan1781_evb/doc/index.html)
