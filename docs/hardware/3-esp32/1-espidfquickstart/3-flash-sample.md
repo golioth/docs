@@ -34,10 +34,11 @@ a port such as: `idf.py -p /dev/ttyUSB0 flash`
 ### Set credentials in the serial terminal
 
 You must set WiFi and Golioth credentials for the example to connect properly.
-Connect to the device over a serial console using a tool like `screen`:
+Connect to the device over a serial console. This can be done using a tool like
+`screen`, but the IDF also includes a command for this purpose:
 
 ```console
-screen /dev/ttyUSB0 115200
+idf.py monitor
 ```
 
 Press enter to see the command prompt and type `reset` to restart the device.
@@ -53,9 +54,12 @@ esp32> W (2721) golioth_example: WiFi and golioth credentials are not set
 W (2721) golioth_example: Use the shell settings commands to set them, then restart
 ```
 
-Use the `settings set <key> <value>` syntax to set the for required items. Your Golioth PSK-ID and PSK can be found on the device page of [the Golioth Console](https://console.golioth.io). Use the 'reset' command once you've set these credentials to restart the device.
+Use the `settings set <key> <value>` syntax to set the for required items. Your
+Golioth PSK-ID and PSK can be found on the device page of [the Golioth
+Console](https://console.golioth.io). Use the `reset` command once you've set
+these credentials to restart the device.
 
-'''console
+```console
 esp32> settings set wifi/ssid MyWiFiAP
 Setting wifi/ssid saved
 esp32> settings set wifi/psk some_wifi_password
@@ -65,7 +69,7 @@ Setting golioth/psk-id saved
 esp32> settings set golioth/psk e1b66bde537969b37be0e8698dbf85bc
 Setting golioth/psk saved
 esp32> reset
-'''
+```
 
 The result should be a successful connection to Golioth.
 
@@ -89,4 +93,8 @@ I (4462) golioth_example: Callback got my_int = 42
 
 ```
 
-Congratulations! On the next page, we'll look at the data that the device sent to Golioth.
+You can exit from the ESP-IDF Monitor tool using `CTRL-]`. (A help menu can be
+displayed by typing `CTRL-T` followed by `CTRL-H`.)
+
+Congratulations! On the next page, we'll look at the data that the device sent
+to Golioth.
