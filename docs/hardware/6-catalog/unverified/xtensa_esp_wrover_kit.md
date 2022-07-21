@@ -32,6 +32,7 @@ sidebar_class_name: hide-item
 * uart
 * pinmux
 * nvs
+* pwm
 
 ## Supported toolchains
 

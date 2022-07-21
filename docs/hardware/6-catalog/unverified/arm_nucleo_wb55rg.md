@@ -37,6 +37,7 @@ sidebar_class_name: hide-item
 * arduino_i2c
 * arduino_spi
 * usb_device
+* nvs
 
 ## Supported toolchains
 

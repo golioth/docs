@@ -1,8 +1,8 @@
 ---
-id: arm_b_u585i_iot02a
-title: ST B_U585I_IOT02A Discovery kit
-slug: /hardware/catalog/boards/unverified/arm_b_u585i_iot02a
-description: IoT board ST B_U585I_IOT02A Discovery kit, compatible with Golioth at unverified level.
+id: arm_blackpill_f401cc
+title: WeAct Studio Black Pill V3.0
+slug: /hardware/catalog/boards/unverified/arm_blackpill_f401cc
+description: IoT board WeAct Studio Black Pill V3.0, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
 ---
@@ -13,11 +13,11 @@ sidebar_class_name: hide-item
 
 |                | Board properties     |
 | -------------  | -------------------- |
-| Board ID       | `b_u585i_iot02a` |
+| Board ID       | `blackpill_f401cc` |
 | Golioth Level  | [Unverified](/hardware#unverified-boards) |
 | Architecture   | ARM |
-| RAM*           | 786 kB |
-| Flash*         | 2048 kB |
+| RAM*           | N/A |
+| Flash*         | N/A |
 
 \* values are as reported by Zephyr `.yaml` board files, which don't represent the overall available resources
 
@@ -25,15 +25,13 @@ sidebar_class_name: hide-item
 
 ## Supported features
 
-* arduino_i2c
-* arduino_spi
-* hts221
-* usb_device
+* counter
 * spi
-* dac
+* usb
+* i2c
+* uart
+* pwm
 * adc
-* watchdog
-* nvs
 
 ## Supported toolchains
 
@@ -43,4 +41,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[ST B_U585I_IOT02A Discovery kit (b_u585i_iot02a)](https://docs.zephyrproject.org/latest/boards/arm/b_u585i_iot02a/doc/index.html)
+[WeAct Studio Black Pill V3.0 (blackpill_f401cc)](https://docs.zephyrproject.org/latest/boards/arm/blackpill_f401cc/doc/index.html)

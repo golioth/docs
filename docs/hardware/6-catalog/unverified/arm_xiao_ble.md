@@ -1,23 +1,23 @@
 ---
-id: arm_b_u585i_iot02a
-title: ST B_U585I_IOT02A Discovery kit
-slug: /hardware/catalog/boards/unverified/arm_b_u585i_iot02a
-description: IoT board ST B_U585I_IOT02A Discovery kit, compatible with Golioth at unverified level.
-image: /img/boards/arm/null
+id: arm_xiao_ble
+title: XIAO BLE
+slug: /hardware/catalog/boards/unverified/arm_xiao_ble
+description: IoT board XIAO BLE, compatible with Golioth at unverified level.
+image: /img/boards/arm/xiao_ble.png
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![XIAO BLE!](/img/boards/arm/xiao_ble.png "XIAO BLE")
 
 |                | Board properties     |
 | -------------  | -------------------- |
-| Board ID       | `b_u585i_iot02a` |
+| Board ID       | `xiao_ble` |
 | Golioth Level  | [Unverified](/hardware#unverified-boards) |
 | Architecture   | ARM |
-| RAM*           | 786 kB |
-| Flash*         | 2048 kB |
+| RAM*           | 256 kB |
+| Flash*         | 1024 kB |
 
 \* values are as reported by Zephyr `.yaml` board files, which don't represent the overall available resources
 
@@ -25,15 +25,19 @@ sidebar_class_name: hide-item
 
 ## Supported features
 
-* arduino_i2c
-* arduino_spi
-* hts221
-* usb_device
-* spi
-* dac
 * adc
+* ble
+* counter
+* gpio
+* i2c
+* i2s
+* ieee802154
+* pwm
+* spi
+* usb_cdc
+* usb_device
 * watchdog
-* nvs
+* netif:openthread
 
 ## Supported toolchains
 
@@ -43,4 +47,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[ST B_U585I_IOT02A Discovery kit (b_u585i_iot02a)](https://docs.zephyrproject.org/latest/boards/arm/b_u585i_iot02a/doc/index.html)
+[XIAO BLE (xiao_ble)](https://docs.zephyrproject.org/latest/boards/arm/xiao_ble/doc/index.html)

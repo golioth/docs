@@ -1,23 +1,23 @@
 ---
-id: arm_nucleo_f429zi
-title: ST Nucleo F429ZI
-slug: /hardware/catalog/boards/unverified/arm_nucleo_f429zi
-description: IoT board ST Nucleo F429ZI, compatible with Golioth at unverified level.
-image: /img/boards/arm/nucleo_f429zi.png
+id: arm_stm32f7508_dk
+title: ST STM32F7508 DK
+slug: /hardware/catalog/boards/unverified/arm_stm32f7508_dk
+description: IoT board ST STM32F7508 DK, compatible with Golioth at unverified level.
+image: /img/boards/arm/stm32f7508_dk.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![ST Nucleo F429ZI!](/img/boards/arm/nucleo_f429zi.png "ST Nucleo F429ZI")
+![ST STM32F7508 DK!](/img/boards/arm/stm32f7508_dk.jpg "ST STM32F7508 DK")
 
 |                | Board properties     |
 | -------------  | -------------------- |
-| Board ID       | `nucleo_f429zi` |
+| Board ID       | `stm32f7508_dk` |
 | Golioth Level  | [Unverified](/hardware#unverified-boards) |
 | Architecture   | ARM |
-| RAM*           | 192 kB |
-| Flash*         | 2048 kB |
+| RAM*           | 320 kB |
+| Flash*         | 64 kB |
 
 \* values are as reported by Zephyr `.yaml` board files, which don't represent the overall available resources
 
@@ -25,21 +25,18 @@ sidebar_class_name: hide-item
 
 ## Supported features
 
-* arduino_gpio
 * arduino_i2c
-* arduino_spi
 * netif:eth
 * i2c
 * spi
 * gpio
 * pwm
 * counter
+* sdhc
 * usb_device
-* watchdog
-* adc
-* dac
-* dma
-* nvs
+* kscan:touch
+* display
+* memc
 
 ## Supported toolchains
 
@@ -49,4 +46,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[ST Nucleo F429ZI (nucleo_f429zi)](https://docs.zephyrproject.org/latest/boards/arm/nucleo_f429zi/doc/index.html)
+[ST STM32F7508 DK (stm32f7508_dk)](https://docs.zephyrproject.org/latest/boards/arm/stm32f7508_dk/doc/index.html)

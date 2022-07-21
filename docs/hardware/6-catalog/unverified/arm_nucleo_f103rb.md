@@ -34,6 +34,7 @@ sidebar_class_name: hide-item
 * watchdog
 * adc
 * dma
+* nvs
 
 ## Supported toolchains
 

@@ -1,22 +1,22 @@
 ---
-id: arm_nucleo_wl55jc
-title: ST Nucleo WL55JC
-slug: /hardware/catalog/boards/unverified/arm_nucleo_wl55jc
-description: IoT board ST Nucleo WL55JC, compatible with Golioth at unverified level.
-image: /img/boards/arm/nucleo_wl55jc.jpg
+id: arm_atsamr34_xpro
+title: SAM R34 Xplained Pro
+slug: /hardware/catalog/boards/unverified/arm_atsamr34_xpro
+description: IoT board SAM R34 Xplained Pro, compatible with Golioth at unverified level.
+image: /img/boards/arm/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![ST Nucleo WL55JC!](/img/boards/arm/nucleo_wl55jc.jpg "ST Nucleo WL55JC")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
-| Board ID       | `nucleo_wl55jc` |
+| Board ID       | `atsamr34_xpro` |
 | Golioth Level  | [Unverified](/hardware#unverified-boards) |
 | Architecture   | ARM |
-| RAM*           | 64 kB |
+| RAM*           | 32 kB |
 | Flash*         | 256 kB |
 
 \* values are as reported by Zephyr `.yaml` board files, which don't represent the overall available resources
@@ -25,18 +25,16 @@ sidebar_class_name: hide-item
 
 ## Supported features
 
+* adc
+* counter
+* dma
 * gpio
 * i2c
-* spi
-* arduino_gpio
-* arduino_i2c
-* arduino_spi
-* adc
-* dac
 * pwm
-* dma
+* spi
+* usb_cdc
+* usb_device
 * watchdog
-* nvs
 
 ## Supported toolchains
 
@@ -46,4 +44,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[ST Nucleo WL55JC (nucleo_wl55jc)](https://docs.zephyrproject.org/latest/boards/arm/nucleo_wl55jc/doc/index.html)
+[SAM R34 Xplained Pro (atsamr34_xpro)](https://docs.zephyrproject.org/latest/boards/arm/atsamr34_xpro/doc/index.html)

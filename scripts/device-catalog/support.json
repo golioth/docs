@@ -3,19 +3,19 @@
   "arm": {
     "circuitdojo_feather_nrf9160": {
       "level": "quickstart",
-      "quickstart": "/hardware/nrf91/quickstart"
+      "quickstart": "/hardware/nrf91/zephyr-quickstart"
     },
     "nrf9160dk_nrf9160": {
       "level": "quickstart",
-      "quickstart": "/hardware/nrf91/quickstart"
+      "quickstart": "/hardware/nrf91/zephyr-quickstart"
     },
     "qemu_cortex_m3": {
       "level": "quickstart",
-      "quickstart": "/hardware/virtual-devices"
+      "quickstart": "/hardware/virtual-devices/zephyr-quickstart"
     },
     "qemu_x86": {
       "level": "quickstart",
-      "quickstart": "/hardware/virtual-devices"
+      "quickstart": "/hardware/virtual-devices/zephyr-quickstart"
     }
   },
   "arm64": {},
@@ -27,7 +27,7 @@
   "xtensa": {
     "esp32": {
       "level": "quickstart",
-      "quickstart": "/hardware/esp32/quickstart"
+      "quickstart": "/hardware/esp32/zephyr-quickstart"
     }
   }
 }

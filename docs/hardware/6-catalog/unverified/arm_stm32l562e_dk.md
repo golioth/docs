@@ -27,7 +27,6 @@ sidebar_class_name: hide-item
 
 * gpio
 * i2c
-* lsm6dso
 * lptim
 * pwm
 * watchdog
@@ -38,6 +37,7 @@ sidebar_class_name: hide-item
 * usart
 * arduino_spi
 * usb
+* nvs
 
 ## Supported toolchains
 

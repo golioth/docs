@@ -37,6 +37,7 @@ sidebar_class_name: hide-item
 * dac
 * pwm
 * dma
+* nvs
 
 ## Supported toolchains
 

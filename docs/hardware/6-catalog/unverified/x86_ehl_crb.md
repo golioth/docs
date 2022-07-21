@@ -25,11 +25,12 @@ sidebar_class_name: hide-item
 
 ## Supported features
 
-List of supported features is not available.
+* gpio
 
 ## Supported toolchains
 
 * zephyr
+* llvm
 
 ## Official Zephyr docs
 

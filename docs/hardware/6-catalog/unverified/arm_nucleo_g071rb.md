@@ -28,6 +28,7 @@ sidebar_class_name: hide-item
 * arduino_gpio
 * arduino_i2c
 * arduino_spi
+* arduino_serial
 * uart
 * gpio
 * i2c
@@ -39,6 +40,7 @@ sidebar_class_name: hide-item
 * dac
 * dma
 * lptim
+* nvs
 
 ## Supported toolchains
 

@@ -15,7 +15,7 @@ image: /img/boards/xtensa/null
 | -------------  | -------------------- |
 | Board ID       | `esp32` |
 | Golioth Level  | [Continuously verified](/hardware#continuously-verified-boards) |
-| Golioth Quickstart | [esp32 quickstart](/hardware/esp32/quickstart) || Architecture   | XTENSA |
+| Golioth Quickstart | [esp32 quickstart](/hardware/esp32/zephyr-quickstart) || Architecture   | XTENSA |
 | RAM*           | N/A |
 | Flash*         | N/A |
 
@@ -23,7 +23,7 @@ image: /img/boards/xtensa/null
 
 ## Getting started
 
-See our [quickstart guide for ESP-32](/hardware/esp32/quickstart).
+See our [quickstart guide for ESP-32](/hardware/esp32/zephyr-quickstart).
 
 
 ## Supported features
@@ -34,6 +34,7 @@ See our [quickstart guide for ESP-32](/hardware/esp32/quickstart).
 * uart
 * pinmux
 * nvs
+* pwm
 
 ## Supported toolchains
 
