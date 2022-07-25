@@ -1,6 +1,6 @@
 ---
 id: view-logs
-title: View Logs
+title: View Cloud Data
 ---
 
 ### Viewing logs via the Golioth Console Interface
