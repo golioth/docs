@@ -3,8 +3,8 @@ id: view-cloud-data
 title: View Cloud Data
 ---
 
-The golioth_basics sample sent several different types of data to the Golioth
-Cloud. Included are LightDB State (peristent data), LightDB Stream (time-series
+The `golioth_basics` sample sent several different types of data to the Golioth
+Cloud. Included are LightDB State (persistent data), LightDB Stream (time-series
 data), and Log messages. All of these can be view from [the Golioth Web
 Console](https://console.golioth.io).
 
