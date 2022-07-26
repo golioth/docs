@@ -15,5 +15,6 @@ The API and SDK reference documentation provides detailed information for each o
 - Command Line Tools
   - [goliothctl](/reference/command-line-tools/goliothctl/goliothctl/)
   - [coap](/reference/command-line-tools/coap/coap/)
-- Zephyr SDK
-  - [Golioth Zephyr SDK Reference](https://zephyr-sdk-docs.golioth.io/) (Doxygen)
+- Device SDKs
+  - [Golioth ESP-IDF SDK Reference](/reference/device-sdks/golioth-esp-idf-sdk)
+  - [Golioth Zephyr SDK Reference](/reference/device-sdks/golioth-zephyr-sdk)
