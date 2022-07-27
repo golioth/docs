@@ -6,13 +6,13 @@
       "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
       "redirects": [
         {
-          "source": "/hardware/esp32/quickstart{,/**}",
-          "destination": "/hardware/esp32/zephyr-quickstart",
+          "source": "/hardware/:arch/quickstart/:page*",
+          "destination": "/hardware/:arch/zephyr-quickstart/:page",
           "type": 301
         },
         {
-          "source": "/hardware/nrf91/quickstart{,/**}",
-          "destination": "/hardware/nrf91/zephyr-quickstart",
+          "source": "/hardware/:arch/quickstart{,/**}",
+          "destination": "/hardware/:arch/zephyr-quickstart",
           "type": 301
         }
       ],
@@ -29,13 +29,13 @@
       "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
       "redirects": [
         {
-          "source": "/hardware/esp32/quickstart{,/**}",
-          "destination": "/hardware/esp32/zephyr-quickstart",
+          "source": "/hardware/:arch/quickstart/:page*",
+          "destination": "/hardware/:arch/zephyr-quickstart/:page",
           "type": 301
         },
         {
-          "source": "/hardware/nrf91/quickstart{,/**}",
-          "destination": "/hardware/nrf91/zephyr-quickstart",
+          "source": "/hardware/:arch/quickstart{,/**}",
+          "destination": "/hardware/:arch/zephyr-quickstart",
           "type": 301
         }
       ],
