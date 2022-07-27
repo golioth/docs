@@ -9,6 +9,11 @@
           "source": "/hardware/esp32/quickstart{,/**}",
           "destination": "/hardware/esp32/zephyr-quickstart",
           "type": 301
+        },
+        {
+          "source": "/hardware/nrf91/quickstart{,/**}",
+          "destination": "/hardware/nrf91/zephyr-quickstart",
+          "type": 301
         }
       ],
       "rewrites": [
@@ -26,6 +31,11 @@
         {
           "source": "/hardware/esp32/quickstart{,/**}",
           "destination": "/hardware/esp32/zephyr-quickstart",
+          "type": 301
+        },
+        {
+          "source": "/hardware/nrf91/quickstart{,/**}",
+          "destination": "/hardware/nrf91/zephyr-quickstart",
           "type": 301
         }
       ],
