@@ -3,10 +3,13 @@
     {
       "target": "docs-dev",
       "public": "build",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+      "redirects": [
+        {
+          "source": "/hardware/esp32/quickstart{,/**}",
+          "destination": "/hardware/esp32/zephyr-quickstart",
+          "type": 301
+        }
       ],
       "rewrites": [
         {
@@ -18,10 +21,13 @@
     {
       "target": "docs-prod",
       "public": "build",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+      "redirects": [
+        {
+          "source": "/hardware/esp32/quickstart{,/**}",
+          "destination": "/hardware/esp32/zephyr-quickstart",
+          "type": 301
+        }
       ],
       "rewrites": [
         {
