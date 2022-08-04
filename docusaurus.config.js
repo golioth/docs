@@ -131,6 +131,32 @@ module.exports = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Golioth. Built with ❤️ & Docusaurus.`,
     },
+    algolia: {
+      // The application ID provided by Algolia
+      appId: '42Q13YI9MY',
+
+      // Public API key: it is safe to commit it
+      apiKey: '174525da827993e07fc87b28736000f1',
+
+      indexName: 'golioth',
+
+      // Optional: see doc section below
+      contextualSearch: true,
+
+      // Optional: Specify domains where the navigation should occur through
+      // window.location instead on history.push. Useful when our Algolia
+      // config crawls multiple documentation sites and we want to
+      // navigate with window.location.href to them. externalUrlRegex
+      //'external\\.com|domain\\.com',
+
+      // Optional: Algolia search parameters
+      searchParameters: {},
+
+      // Optional: path for search page that enabled by default (`false` to disable it)
+      searchPagePath: 'search',
+
+      //... other Algolia params
+    },
   },
   presets: [
     [
