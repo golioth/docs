@@ -68,5 +68,5 @@ $ goliothctl stream listen [device name]
 
 * [goliothctl](/reference/command-line-tools/goliothctl/goliothctl/)	 - Manage Golioth platform resources and developer workflow.
 * [goliothctl stream get](/reference/command-line-tools/goliothctl/goliothctl_stream_get/)	 - Get latest stream data at given path.
-* [goliothctl stream query](/reference/command-line-tools/goliothctl/goliothctl_stream_query/)	 - Run a query against all data stored in a LightDB stream in the supplied path.
+* [goliothctl stream query](/reference/command-line-tools/goliothctl/goliothctl_stream_query/)	 - Run a query against all data stored in a LightDB Stream in the supplied path.
 * [goliothctl stream listen](/reference/command-line-tools/goliothctl/goliothctl_stream_listen/)	 - Listen to streams

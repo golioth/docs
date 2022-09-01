@@ -79,7 +79,7 @@ Let's define our first query to get just the raw data on the last 8h and where t
 }
 ```
 
-Let's save that into a file called query.json and use that to query the LightDB stream. You can use the REST API, which is more configurable, but goliothctl works great for simple cases like this.
+Let's save that into a file called query.json and use that to query the LightDB Stream. You can use the REST API, which is more configurable, but goliothctl works great for simple cases like this.
 
 ```
 ❯ cat query.json | goliothctl stream query --interval 8h --in | jq .
