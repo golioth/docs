@@ -6,7 +6,7 @@ slug: /cloud/services/lightdb-stream
 
 ## What is LightDB Stream?
 
-A LightDB Stream is just that, the concept of LightDB applied to streamed, timeseries data. Instead of a single value, with the most recent data taking precedence, LightDB Streams are append-only and store all data that's ever been submitted, in order of timestamp.
+A LightDB Stream is just that, the concept of LightDB applied to streamed, timeseries data. Instead of a single value, with the most recent data taking precedence, LightDB Stream is append-only and store all data that's ever been submitted, in order of timestamp.
 
 LightDB Stream queries are highly configurable, supporting field subsets, aggregation, and multiple devices at once.
 

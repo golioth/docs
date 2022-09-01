@@ -8,7 +8,7 @@ The Golioth Console provides a web-based configuration tool for managing your de
 
 * Create and manage projects
 * Provision your fleet of hardware, organized by projects and tags
-* View and query device logs and LightDB Streams
+* View and query device logs and LightDB Stream
 * View and change persistent data in LightDB
 * Manage Over-the-Air (OTA) updates for firmware and other assets
 * Manage API keys (REST, WebSockets, etc.)
