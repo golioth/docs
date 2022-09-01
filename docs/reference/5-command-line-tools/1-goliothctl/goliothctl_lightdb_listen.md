@@ -48,4 +48,4 @@ goliothctl lightdb listen [flags] <path>
 
 ### SEE ALSO
 
-* [goliothctl lightdb](/reference/command-line-tools/goliothctl/goliothctl_lightdb/) - Access data on Light DB
+* [goliothctl lightdb](/reference/command-line-tools/goliothctl/goliothctl_lightdb/) - Access data on LightDB

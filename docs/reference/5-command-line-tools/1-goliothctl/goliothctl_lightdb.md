@@ -8,7 +8,7 @@ hide_title: true
 ---
 ## goliothctl lightdb
 
-Access data on Light DB
+Access data on LightDB
 
 ```
 goliothctl lightdb [flags]
