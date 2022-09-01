@@ -300,13 +300,13 @@
                     <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 49px; height: 1px; padding-top: 469px; margin-left: 84px;">
                         <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
                             <div style="display: inline-block; font-size: 10px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: none; font-weight: bold; white-space: normal; word-wrap: normal; ">
-                                Light DB
+                                LightDB
                             </div>
                         </div>
                     </div>
                 </foreignObject>
                 <text x="108" y="472" fill="#000000" font-family="Helvetica" font-size="10px" text-anchor="middle" font-weight="bold">
-                    Light DB
+                    LightDB
                 </text>
             </switch>
         </g>
@@ -317,13 +317,13 @@
                     <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 55px; height: 1px; padding-top: 469px; margin-left: 141px;">
                         <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
                             <div style="display: inline-block; font-size: 10px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: none; font-weight: bold; white-space: normal; word-wrap: normal; ">
-                                Light DB Stream
+                                LightDB Stream
                             </div>
                         </div>
                     </div>
                 </foreignObject>
                 <text x="169" y="472" fill="#000000" font-family="Helvetica" font-size="10px" text-anchor="middle" font-weight="bold">
-                    Light DB St...
+                    LightDB St...
                 </text>
             </switch>
         </g>
