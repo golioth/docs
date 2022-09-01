@@ -39,7 +39,7 @@ id:"60abc24dad0772e87bb232f4"  hardware_ids:"serialNumber2"  name:"Test Device 2
       --hwId stringArray   device hardware id
       --name string        device name
       --state string       LightDB state path
-      --stream string      LightDB stream latest path
+      --stream string      LightDB Stream latest path
       --tags stringArray   tag names
       --term string        term to find devices through partial string match
       --update string      LightDB update state path
