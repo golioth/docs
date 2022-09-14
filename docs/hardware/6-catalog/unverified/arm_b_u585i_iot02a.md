@@ -28,12 +28,14 @@ sidebar_class_name: hide-item
 * arduino_i2c
 * arduino_spi
 * hts221
+* dma
 * usb_device
 * spi
 * dac
 * adc
 * watchdog
 * nvs
+* pwm
 
 ## Supported toolchains
 

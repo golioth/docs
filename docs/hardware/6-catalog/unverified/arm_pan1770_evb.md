@@ -34,7 +34,6 @@ sidebar_class_name: hide-item
 * gpio
 * i2c
 * i2s
-* ieee802154
 * pwm
 * spi
 * usb_cdc

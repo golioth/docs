@@ -28,7 +28,6 @@ sidebar_class_name: hide-item
 * usb_device
 * usb_cdc
 * ble
-* ieee802154
 * watchdog
 * counter
 

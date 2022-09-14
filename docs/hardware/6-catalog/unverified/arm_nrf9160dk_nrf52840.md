@@ -26,7 +26,6 @@ sidebar_class_name: hide-item
 ## Supported features
 
 * ble
-* ieee802154
 
 ## Supported toolchains
 

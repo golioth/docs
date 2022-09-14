@@ -3,13 +3,13 @@ id: arm_qemu_cortex_r5
 title: QEMU Emulation for Cortex-R5
 slug: /hardware/catalog/boards/unverified/arm_qemu_cortex_r5
 description: IoT board QEMU Emulation for Cortex-R5, compatible with Golioth at unverified level.
-image: /img/boards/arm/qemu_cortex_r5.png
+image: /img/boards/arm/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![QEMU Emulation for Cortex-R5!](/img/boards/arm/qemu_cortex_r5.png "QEMU Emulation for Cortex-R5")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |

@@ -3,13 +3,13 @@ id: arm_96b_avenger96
 title: 96Boards Avenger96
 slug: /hardware/catalog/boards/unverified/arm_96b_avenger96
 description: IoT board 96Boards Avenger96, compatible with Golioth at unverified level.
-image: /img/boards/arm/96b_avenger96.png
+image: /img/boards/arm/96b_avenger96.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![96Boards Avenger96!](/img/boards/arm/96b_avenger96.png "96Boards Avenger96")
+![96Boards Avenger96!](/img/boards/arm/96b_avenger96.jpg "96Boards Avenger96")
 
 |                | Board properties     |
 | -------------  | -------------------- |

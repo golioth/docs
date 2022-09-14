@@ -30,6 +30,7 @@ sidebar_class_name: hide-item
 * arduino_i2c
 * arduino_spi
 * counter
+* dma
 * gpio
 * i2c
 * nvs

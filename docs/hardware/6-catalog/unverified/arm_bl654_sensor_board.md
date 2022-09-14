@@ -3,13 +3,13 @@ id: arm_bl654_sensor_board
 title: BL654_Sensor_Board
 slug: /hardware/catalog/boards/unverified/arm_bl654_sensor_board
 description: IoT board BL654_Sensor_Board, compatible with Golioth at unverified level.
-image: /img/boards/arm/bl654_sensor_board.png
+image: /img/boards/arm/bl654_sensor_board.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![BL654_Sensor_Board!](/img/boards/arm/bl654_sensor_board.png "BL654_Sensor_Board")
+![BL654_Sensor_Board!](/img/boards/arm/bl654_sensor_board.jpg "BL654_Sensor_Board")
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -30,7 +30,6 @@ sidebar_class_name: hide-item
 * counter
 * gpio
 * i2c
-* ieee802154
 * pwm
 * watchdog
 * netif:openthread

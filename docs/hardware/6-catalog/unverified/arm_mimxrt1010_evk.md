@@ -28,6 +28,7 @@ sidebar_class_name: hide-item
 * arduino_serial
 * i2c
 * counter
+* dma
 * usb_device
 * spi
 * adc

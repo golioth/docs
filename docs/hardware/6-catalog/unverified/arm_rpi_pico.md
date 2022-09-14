@@ -3,13 +3,13 @@ id: arm_rpi_pico
 title: RaspberryPi-Pico
 slug: /hardware/catalog/boards/unverified/arm_rpi_pico
 description: IoT board RaspberryPi-Pico, compatible with Golioth at unverified level.
-image: /img/boards/arm/rpi_pico.png
+image: /img/boards/arm/rpi_pico.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![RaspberryPi-Pico!](/img/boards/arm/rpi_pico.png "RaspberryPi-Pico")
+![RaspberryPi-Pico!](/img/boards/arm/rpi_pico.jpg "RaspberryPi-Pico")
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -27,7 +27,9 @@ sidebar_class_name: hide-item
 
 * uart
 * gpio
+* adc
 * i2c
+* spi
 * hwinfo
 * watchdog
 * pwm

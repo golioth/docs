@@ -27,7 +27,6 @@ sidebar_class_name: hide-item
 
 * usb_device
 * ble
-* ieee802154
 * pwm
 
 ## Supported toolchains

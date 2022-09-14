@@ -3,13 +3,13 @@ id: arm_nucleo_f446re
 title: ST Nucleo F446RE
 slug: /hardware/catalog/boards/unverified/arm_nucleo_f446re
 description: IoT board ST Nucleo F446RE, compatible with Golioth at unverified level.
-image: /img/boards/arm/nucleo_f446re.png
+image: /img/boards/arm/nucleo_f446re.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![ST Nucleo F446RE!](/img/boards/arm/nucleo_f446re.png "ST Nucleo F446RE")
+![ST Nucleo F446RE!](/img/boards/arm/nucleo_f446re.jpg "ST Nucleo F446RE")
 
 |                | Board properties     |
 | -------------  | -------------------- |

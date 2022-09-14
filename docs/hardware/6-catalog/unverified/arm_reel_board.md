@@ -3,13 +3,13 @@ id: arm_reel_board
 title: reel-board
 slug: /hardware/catalog/boards/unverified/arm_reel_board
 description: IoT board reel-board, compatible with Golioth at unverified level.
-image: /img/boards/arm/reel_board.png
+image: /img/boards/arm/reel_board.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![reel-board!](/img/boards/arm/reel_board.png "reel-board")
+![reel-board!](/img/boards/arm/reel_board.jpg "reel-board")
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -31,7 +31,6 @@ sidebar_class_name: hide-item
 * usb_device
 * usb_cdc
 * ble
-* ieee802154
 * pwm
 * arduino_i2c
 * arduino_spi

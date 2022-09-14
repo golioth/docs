@@ -3,13 +3,13 @@ id: arm_arduino_due
 title: Arduino Due
 slug: /hardware/catalog/boards/unverified/arm_arduino_due
 description: IoT board Arduino Due, compatible with Golioth at unverified level.
-image: /img/boards/arm/arduino_due.png
+image: /img/boards/arm/arduino_due.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![Arduino Due!](/img/boards/arm/arduino_due.png "Arduino Due")
+![Arduino Due!](/img/boards/arm/arduino_due.jpg "Arduino Due")
 
 |                | Board properties     |
 | -------------  | -------------------- |

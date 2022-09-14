@@ -29,6 +29,8 @@ sidebar_class_name: hide-item
 * gpio
 * counter
 * can
+* i2c
+* spi
 
 ## Supported toolchains
 

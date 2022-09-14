@@ -3,13 +3,13 @@ id: arm_mimxrt595_evk
 title: mimxrt595_evk
 slug: /hardware/catalog/boards/unverified/arm_mimxrt595_evk
 description: IoT board mimxrt595_evk, compatible with Golioth at unverified level.
-image: /img/boards/arm/mimxrt595_evk.png
+image: /img/boards/arm/mimxrt595_evk.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![mimxrt595_evk!](/img/boards/arm/mimxrt595_evk.png "mimxrt595_evk")
+![mimxrt595_evk!](/img/boards/arm/mimxrt595_evk.jpg "mimxrt595_evk")
 
 |                | Board properties     |
 | -------------  | -------------------- |

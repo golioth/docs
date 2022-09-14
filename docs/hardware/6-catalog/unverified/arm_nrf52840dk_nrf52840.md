@@ -28,13 +28,13 @@ sidebar_class_name: hide-item
 * adc
 * arduino_gpio
 * arduino_i2c
+* arduino_serial
 * arduino_spi
 * ble
 * counter
 * gpio
 * i2c
 * i2s
-* ieee802154
 * pwm
 * spi
 * usb_cdc

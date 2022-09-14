@@ -3,13 +3,13 @@ id: arm_atsame54_xpro
 title: SAM E54 Xplained Pro
 slug: /hardware/catalog/boards/unverified/arm_atsame54_xpro
 description: IoT board SAM E54 Xplained Pro, compatible with Golioth at unverified level.
-image: /img/boards/arm/atsame54_xpro.png
+image: /img/boards/arm/atsame54_xpro.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![SAM E54 Xplained Pro!](/img/boards/arm/atsame54_xpro.png "SAM E54 Xplained Pro")
+![SAM E54 Xplained Pro!](/img/boards/arm/atsame54_xpro.jpg "SAM E54 Xplained Pro")
 
 |                | Board properties     |
 | -------------  | -------------------- |

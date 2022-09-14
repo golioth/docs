@@ -3,13 +3,13 @@ id: arm_nrf9160_innblue21
 title: nRF9160-INNBLUE21
 slug: /hardware/catalog/boards/unverified/arm_nrf9160_innblue21
 description: IoT board nRF9160-INNBLUE21, compatible with Golioth at unverified level.
-image: /img/boards/arm/nrf9160_innblue21.png
+image: /img/boards/arm/nrf9160_innblue21.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![nRF9160-INNBLUE21!](/img/boards/arm/nrf9160_innblue21.png "nRF9160-INNBLUE21")
+![nRF9160-INNBLUE21!](/img/boards/arm/nrf9160_innblue21.jpg "nRF9160-INNBLUE21")
 
 |                | Board properties     |
 | -------------  | -------------------- |

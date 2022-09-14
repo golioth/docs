@@ -31,6 +31,7 @@ sidebar_class_name: hide-item
 * pwm
 * watchdog
 * adc
+* counter
 
 ## Supported toolchains
 

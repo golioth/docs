@@ -3,13 +3,13 @@ id: arm_nucleo_l433rc_p
 title: ST Nucleo L433RC
 slug: /hardware/catalog/boards/unverified/arm_nucleo_l433rc_p
 description: IoT board ST Nucleo L433RC, compatible with Golioth at unverified level.
-image: /img/boards/arm/nucleo_l433rc_p.png
+image: /img/boards/arm/nucleo_l433rc_p.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![ST Nucleo L433RC!](/img/boards/arm/nucleo_l433rc_p.png "ST Nucleo L433RC")
+![ST Nucleo L433RC!](/img/boards/arm/nucleo_l433rc_p.jpg "ST Nucleo L433RC")
 
 |                | Board properties     |
 | -------------  | -------------------- |

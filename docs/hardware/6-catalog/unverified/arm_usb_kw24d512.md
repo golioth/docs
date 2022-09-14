@@ -25,7 +25,6 @@ sidebar_class_name: hide-item
 
 ## Supported features
 
-* ieee802154
 * usb_device
 * watchdog
 

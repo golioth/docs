@@ -3,13 +3,13 @@ id: arm_arduino_mkrzero
 title: Arduino MKRZERO
 slug: /hardware/catalog/boards/unverified/arm_arduino_mkrzero
 description: IoT board Arduino MKRZERO, compatible with Golioth at unverified level.
-image: /img/boards/arm/arduino_mkrzero.png
+image: /img/boards/arm/arduino_mkrzero.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![Arduino MKRZERO!](/img/boards/arm/arduino_mkrzero.png "Arduino MKRZERO")
+![Arduino MKRZERO!](/img/boards/arm/arduino_mkrzero.jpg "Arduino MKRZERO")
 
 |                | Board properties     |
 | -------------  | -------------------- |

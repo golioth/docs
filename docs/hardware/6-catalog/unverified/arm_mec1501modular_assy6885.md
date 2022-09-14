@@ -3,13 +3,13 @@ id: arm_mec1501modular_assy6885
 title: MEC1501 MODULAR ASSY 6885
 slug: /hardware/catalog/boards/unverified/arm_mec1501modular_assy6885
 description: IoT board MEC1501 MODULAR ASSY 6885, compatible with Golioth at unverified level.
-image: /img/boards/arm/mec1501modular_assy6885.png
+image: /img/boards/arm/mec1501modular_assy6885.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![MEC1501 MODULAR ASSY 6885!](/img/boards/arm/mec1501modular_assy6885.png "MEC1501 MODULAR ASSY 6885")
+![MEC1501 MODULAR ASSY 6885!](/img/boards/arm/mec1501modular_assy6885.jpg "MEC1501 MODULAR ASSY 6885")
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -33,8 +33,6 @@ sidebar_class_name: hide-item
 * pinmux
 * pwm
 * watchdog
-* ps2
-* peci
 * kscan
 * tach
 

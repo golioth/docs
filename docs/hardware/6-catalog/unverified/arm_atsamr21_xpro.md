@@ -3,13 +3,13 @@ id: arm_atsamr21_xpro
 title: SAM R21 Xplained Pro
 slug: /hardware/catalog/boards/unverified/arm_atsamr21_xpro
 description: IoT board SAM R21 Xplained Pro, compatible with Golioth at unverified level.
-image: /img/boards/arm/atsamr21_xpro.png
+image: /img/boards/arm/atsamr21_xpro.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![SAM R21 Xplained Pro!](/img/boards/arm/atsamr21_xpro.png "SAM R21 Xplained Pro")
+![SAM R21 Xplained Pro!](/img/boards/arm/atsamr21_xpro.jpg "SAM R21 Xplained Pro")
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -28,7 +28,6 @@ sidebar_class_name: hide-item
 * adc
 * gpio
 * i2c
-* ieee802154
 * netif
 * pwm
 * spi

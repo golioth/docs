@@ -3,13 +3,13 @@ id: arm_96b_stm32_sensor_mez
 title: 96Boards STM32 Sensor Mezzanine
 slug: /hardware/catalog/boards/unverified/arm_96b_stm32_sensor_mez
 description: IoT board 96Boards STM32 Sensor Mezzanine, compatible with Golioth at unverified level.
-image: /img/boards/arm/96b_stm32_sensor_mez.png
+image: /img/boards/arm/96b_stm32_sensor_mez.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![96Boards STM32 Sensor Mezzanine!](/img/boards/arm/96b_stm32_sensor_mez.png "96Boards STM32 Sensor Mezzanine")
+![96Boards STM32 Sensor Mezzanine!](/img/boards/arm/96b_stm32_sensor_mez.jpg "96Boards STM32 Sensor Mezzanine")
 
 |                | Board properties     |
 | -------------  | -------------------- |
