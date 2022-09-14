@@ -1,7 +1,6 @@
 
-While the official documentation for Zephyr suggests jumping right into
-installing `west`, we suggest creating a `python3` virtual environment
-first, to avoid running into tooling incompatibilities.
+We recommend creating a `python3` virtual environment to avoid running into
+tooling incompatibilities.
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';

@@ -10,25 +10,31 @@ The sample we'll be using is called `hello`, which logs a "hello" message using 
 ```cpp
 void main(void)
 {
-	int r;
 	int counter = 0;
+	int err;
 
 	LOG_DBG("Start Hello sample");
 
-	k_sem_take(&golioth_client_ready, K_FOREVER);
-
-	while (true) {
-		LOG_INF("Sending hello! %d", counter++);
-
-		r = golioth_send_hello(client);
-		if (r < 0) {
-			LOG_WRN("Failed to send hello!");
-		}
-
-		k_sleep(K_SECONDS(5));
+	if (IS_ENABLED(CONFIG_GOLIOTH_SAMPLES_COMMON)) {
+		net_connect();
 	}
 
-	LOG_DBG("Quit");
+	client->on_connect = golioth_on_connect;
+	client->on_message = golioth_on_message;
+	golioth_system_client_start();
+
+	k_sem_take(&connected, K_FOREVER);
+
+	while (true) {
+		LOG_INF("Sending hello! %d", counter);
+
+		err = golioth_send_hello(client);
+		if (err) {
+			LOG_WRN("Failed to send hello!");
+		}
+		++counter;
+		k_sleep(K_SECONDS(5));
+	}
 }
 ```
 
@@ -47,19 +53,16 @@ Zephyr uses [Kconfig](https://docs.zephyrproject.org/latest/guides/kconfig/index
 Open `samples/hello/prj.conf` in your editor of choice and add these fields:
 
 ```
-CONFIG_ESP32_WIFI_SSID="YOUR_NETWORK_NAME"
-CONFIG_ESP32_WIFI_PASSWORD="YOUR_NETWORK_PW"
-
 CONFIG_GOLIOTH_SYSTEM_CLIENT_PSK_ID="DEVICE_CRED_ID"
 CONFIG_GOLIOTH_SYSTEM_CLIENT_PSK="DEVICE_PSK"
 ```
 
-Set the PSK & PSK ID to match what was used during the provisioning step and the Wi-Fi network credentials to match your network.
+Set the PSK & PSK ID to match what was used during the provisioning step.
 
 After saving, build the sample with the new settings applied.
 
 ```
-west build -b esp32 samples/hello -p
+west build -b mimxrt1060_evkb samples/hello -p
 ```
 
 ### Flashing the device
@@ -67,11 +70,11 @@ west build -b esp32 samples/hello -p
 Flashing is a simple `west` command away.
 
 ```
-west flash --esp-device=/dev/cu.usbserial-1337
+west flash
 ```
 
-:::note
-Your ESP32 will likely be at a different location, so adjust the `flash` command accordingly.
+:::tip
+Remember to connect your J-Link programmer and power the board via USB, or you can use the on-board debug circuit with J-Link firmware. Find details for both methods in [NXP's programming guide](https://community.nxp.com/t5/i-MX-RT-Knowledge-Base/Using-J-Link-with-MIMXRT1060-EVKB/ta-p/1452717).
 :::
 
 ### Verify with serial output
@@ -79,7 +82,7 @@ Your ESP32 will likely be at a different location, so adjust the `flash` command
 You can verify that everything is working by connecting to the device over a serial console using a tool like `screen`:
 
 ```
-screen /dev/cu.usbserial-1337 115200
+screen /dev/ttyACM0 115200
 ```
 
 This is an snippet from the serial console:
