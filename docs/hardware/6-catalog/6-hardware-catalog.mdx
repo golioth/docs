@@ -52,7 +52,7 @@ export const SearchInput = ({ filters, setFilters }) => {
 
 export const getBadgeColor = (badge) => {
   switch (badge) {
-    case "quickstart":
+    case "continuously-verified":
       return "gradient";
     case "verified":
       return "green";
@@ -85,8 +85,8 @@ export const Legend = ({ filters, setFilters }) => {
     <div className="legend">
       <div className="legend-title">Filters:</div>
       <div
-        className={className("quickstart")}
-        onClick={() => handleBadgeClick("quickstart")}
+        className={className("continuously-verified")}
+        onClick={() => handleBadgeClick("continuously-verified")}
       >
         <FontAwesomeIcon
           icon={faCheckDouble}
@@ -137,7 +137,7 @@ export const Empty = () => {
 
 export const BoardStatusBadge = ({ level }) => {
   switch (level) {
-    case "quickstart":
+    case "continuously-verified":
       return (
         <FontAwesomeIcon
           icon={faCheckDouble}
@@ -192,10 +192,10 @@ export const Board = ({ board }) => {
 
 export const BoardList = ({ boards }) => {
   const sortOrder = {
-    quickstart: 1,
-    verified: 2,
-    community: 3,
-    unverified: 4,
+    'continuously-verified': 1,
+    'verified': 2,
+    'community': 3,
+    'unverified': 4,
   };
   const storedFilters = JSON.parse(
     localStorage.getItem("golioth-catalog-filters"),
