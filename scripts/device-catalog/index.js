@@ -55,15 +55,28 @@ function capitalize(s) {
 
 function createLevelRoot(level) {
     mkdir(`${docsRoot}/${level}`);
+
+    var levelCategory;
+    switch(level) {
+        case 'continuously-verified':
+            levelCategory = 'Continuously verified boards';
+            break;
+        case 'verified':
+            levelCategory = 'Verified boards';
+            break;
+        default:
+            levelCategory = `${capitalize(level)} boards`
+    }
+
     fs.writeFileSync(
         `${docsRoot}/${level}/_category_.yml`,
         `\
-label: '${level === 'quickstart' ? 'Continuously verified boards' : `${capitalize(level)} boards`}'
-collapsible: true
-collapsed: false
-${level === 'unverified' ? 'className: "hide-menu"' : ''}
-`
-);
+        label: ${levelCategory}
+        collapsible: true
+        collapsed: false
+        ${level === 'unverified' ? 'className: "hide-menu"' : ''}
+        `
+        );
 }
 
 function getBoardVerification(board) {
@@ -168,12 +181,12 @@ for (const arch of architectures) {
 boardsToJsonFile(boards, boardsFile);
 
 fs.writeFileSync(`${docsRoot}/_category_.yml`,
-`\
-label: 'Hardware Catalog'
-collapsible: true # make the category collapsible
-collapsed: false # keep the category open by default
-`
-);
+                    `\
+                    label: 'Hardware Catalog'
+                    collapsible: true # make the category collapsible
+                    collapsed: false # keep the category open by default
+                    `
+                    );
 
 console.log(`Built ${count.built} out of ${count.boards} available boards.`);
 

@@ -8,12 +8,12 @@
 function boardToMdx(board) {
     const {arch, boardId, name, level, img, ram, flash, quickstart, toolchain, supported} = board;
     const levelStrings = {
-        'quickstart': 'Continuously verified',
+        'continuously-verified': 'Continuously verified',
         'verified': 'Verified',
         'unverified': 'Unverified',
     };
     const levelLinks = {
-        'quickstart': '/hardware#continuously-verified-boards',
+        'continuously-verified': '/hardware#continuously-verified-boards',
         'verified': '/hardware#verified-boards',
         'unverified': '/hardware#unverified-boards',
     };
@@ -36,14 +36,14 @@ ${img !== null ? `![${name}!](/img/boards/${arch}/${img} "${name}")` : ''}
 | -------------  | -------------------- |
 | Board ID       | \`${boardId}\` |
 | Golioth Level  | [${levelStrings[level]}](${levelLinks[level]}) |
-${level === 'quickstart' ? `| Golioth Quickstart | [${boardId} quickstart](${quickstart}) |` : ''}\
+${level === 'continuously-verified' ? `| Golioth Quickstart | [${boardId} quickstart](${quickstart}) |` : ''}\
 | Architecture   | ${arch.toUpperCase()} |
 | RAM*           | ${ram === null ? 'N/A' : `${ram} kB`} |
 | Flash*         | ${flash === null ? 'N/A' : `${flash} kB`} |
 
 \\* values are as reported by Zephyr \`.yaml\` board files, which don't represent the overall available resources
 
-${ level === 'quickstart' ? `\
+${ level === 'continuously-verified' ? `\
 ## Getting started
 
 See our [quickstart guide for ${name}](${quickstart}).
