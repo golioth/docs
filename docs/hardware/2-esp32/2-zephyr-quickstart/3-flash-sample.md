@@ -5,7 +5,7 @@ title: Flashing with samples
 
 Now we're getting to the good stuff - working with hardware! The sample project provided will demonstrate a device securely communicating with Golioth and will also introduce the first device service for _logging_.
 
-The sample we'll be using is called `hello`, which logs a "hello" message using the _Logging Device Service_. Here's snippet of the `main()` function:
+The sample we'll be using is called `hello`, which logs a "hello" message using the _Logging Device Service_. Here's a snippet of the `main()` function:
 
 ```cpp
 void main(void)
