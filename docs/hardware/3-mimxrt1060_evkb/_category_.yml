@@ -1,0 +1,4 @@
+label: 'i.MX RT1060'
+position: 3 # float position is supported
+collapsible: true # make the category collapsible
+collapsed: true # keep the category open by default
