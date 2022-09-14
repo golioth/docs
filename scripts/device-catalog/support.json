@@ -14,7 +14,7 @@
       "quickstart": "/hardware/virtual-devices/zephyr-quickstart"
     },
     "qemu_x86": {
-      "level": "quickstart",
+      "level": "continuously-verified",
       "quickstart": "/hardware/virtual-devices/zephyr-quickstart"
     }
   },
