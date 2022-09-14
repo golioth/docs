@@ -3,13 +3,13 @@ id: arm_waveshare_open103z
 title: Waveshare Open103Z
 slug: /hardware/catalog/boards/unverified/arm_waveshare_open103z
 description: IoT board Waveshare Open103Z, compatible with Golioth at unverified level.
-image: /img/boards/arm/waveshare_open103z.png
+image: /img/boards/arm/waveshare_open103z.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![Waveshare Open103Z!](/img/boards/arm/waveshare_open103z.png "Waveshare Open103Z")
+![Waveshare Open103Z!](/img/boards/arm/waveshare_open103z.jpg "Waveshare Open103Z")
 
 |                | Board properties     |
 | -------------  | -------------------- |

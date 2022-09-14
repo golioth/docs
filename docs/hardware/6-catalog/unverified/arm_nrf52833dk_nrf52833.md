@@ -32,7 +32,6 @@ sidebar_class_name: hide-item
 * usb_device
 * ble
 * gpio
-* ieee802154
 * pwm
 * watchdog
 * counter

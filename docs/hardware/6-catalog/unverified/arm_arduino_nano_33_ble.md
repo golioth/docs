@@ -28,7 +28,6 @@ sidebar_class_name: hide-item
 * adc
 * ble
 * i2c
-* ieee802154
 * pwm
 * serial
 * spi

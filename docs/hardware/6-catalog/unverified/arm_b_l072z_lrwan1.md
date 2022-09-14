@@ -3,13 +3,13 @@ id: arm_b_l072z_lrwan1
 title: B_L072Z_LRWAN1
 slug: /hardware/catalog/boards/unverified/arm_b_l072z_lrwan1
 description: IoT board B_L072Z_LRWAN1, compatible with Golioth at unverified level.
-image: /img/boards/arm/b_l072z_lrwan1.png
+image: /img/boards/arm/b_l072z_lrwan1.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![B_L072Z_LRWAN1!](/img/boards/arm/b_l072z_lrwan1.png "B_L072Z_LRWAN1")
+![B_L072Z_LRWAN1!](/img/boards/arm/b_l072z_lrwan1.jpg "B_L072Z_LRWAN1")
 
 |                | Board properties     |
 | -------------  | -------------------- |

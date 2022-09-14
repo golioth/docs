@@ -3,13 +3,13 @@ id: arm_nrf52_blenano2
 title: BLE Nano 2
 slug: /hardware/catalog/boards/unverified/arm_nrf52_blenano2
 description: IoT board BLE Nano 2, compatible with Golioth at unverified level.
-image: /img/boards/arm/nrf52_blenano2.png
+image: /img/boards/arm/nrf52_blenano2.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![BLE Nano 2!](/img/boards/arm/nrf52_blenano2.png "BLE Nano 2")
+![BLE Nano 2!](/img/boards/arm/nrf52_blenano2.jpg "BLE Nano 2")
 
 |                | Board properties     |
 | -------------  | -------------------- |

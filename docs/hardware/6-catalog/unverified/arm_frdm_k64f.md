@@ -33,6 +33,7 @@ sidebar_class_name: hide-item
 * can
 * counter
 * dac
+* dma
 * gpio
 * i2c
 * netif:eth

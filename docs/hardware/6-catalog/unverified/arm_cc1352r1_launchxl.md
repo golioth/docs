@@ -3,13 +3,13 @@ id: arm_cc1352r1_launchxl
 title: TI SimpleLink CC1352R LaunchPad
 slug: /hardware/catalog/boards/unverified/arm_cc1352r1_launchxl
 description: IoT board TI SimpleLink CC1352R LaunchPad, compatible with Golioth at unverified level.
-image: /img/boards/arm/cc1352r1_launchxl.png
+image: /img/boards/arm/cc1352r1_launchxl.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![TI SimpleLink CC1352R LaunchPad!](/img/boards/arm/cc1352r1_launchxl.png "TI SimpleLink CC1352R LaunchPad")
+![TI SimpleLink CC1352R LaunchPad!](/img/boards/arm/cc1352r1_launchxl.jpg "TI SimpleLink CC1352R LaunchPad")
 
 |                | Board properties     |
 | -------------  | -------------------- |

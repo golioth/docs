@@ -3,13 +3,13 @@ id: arm_lora_e5_dev_board
 title: Seeedstudio LoRa-E5 Dev Board
 slug: /hardware/catalog/boards/unverified/arm_lora_e5_dev_board
 description: IoT board Seeedstudio LoRa-E5 Dev Board, compatible with Golioth at unverified level.
-image: /img/boards/arm/lora_e5_dev_board.png
+image: /img/boards/arm/lora_e5_dev_board.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![Seeedstudio LoRa-E5 Dev Board!](/img/boards/arm/lora_e5_dev_board.png "Seeedstudio LoRa-E5 Dev Board")
+![Seeedstudio LoRa-E5 Dev Board!](/img/boards/arm/lora_e5_dev_board.jpg "Seeedstudio LoRa-E5 Dev Board")
 
 |                | Board properties     |
 | -------------  | -------------------- |

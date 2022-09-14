@@ -29,7 +29,6 @@ sidebar_class_name: hide-item
 * i2c
 * usb_device
 * ble
-* ieee802154
 
 ## Supported toolchains
 

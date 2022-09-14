@@ -3,13 +3,13 @@ id: arm64_qemu_cortex_a53
 title: QEMU Emulation for Cortex-A53
 slug: /hardware/catalog/boards/unverified/arm64_qemu_cortex_a53
 description: IoT board QEMU Emulation for Cortex-A53, compatible with Golioth at unverified level.
-image: /img/boards/arm64/qemu_cortex_a53.png
+image: /img/boards/arm64/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![QEMU Emulation for Cortex-A53!](/img/boards/arm64/qemu_cortex_a53.png "QEMU Emulation for Cortex-A53")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |

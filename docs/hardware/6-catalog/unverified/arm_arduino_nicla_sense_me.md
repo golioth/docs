@@ -3,13 +3,13 @@ id: arm_arduino_nicla_sense_me
 title: Arduino Nicla Sense ME
 slug: /hardware/catalog/boards/unverified/arm_arduino_nicla_sense_me
 description: IoT board Arduino Nicla Sense ME, compatible with Golioth at unverified level.
-image: /img/boards/arm/arduino_nicla_sense_me.png
+image: /img/boards/arm/arduino_nicla_sense_me.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![Arduino Nicla Sense ME!](/img/boards/arm/arduino_nicla_sense_me.png "Arduino Nicla Sense ME")
+![Arduino Nicla Sense ME!](/img/boards/arm/arduino_nicla_sense_me.jpg "Arduino Nicla Sense ME")
 
 |                | Board properties     |
 | -------------  | -------------------- |

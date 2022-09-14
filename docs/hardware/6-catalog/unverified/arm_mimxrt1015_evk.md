@@ -28,6 +28,7 @@ sidebar_class_name: hide-item
 * arduino_gpio
 * arduino_serial
 * counter
+* dma
 * gpio
 * i2c
 * usb_device

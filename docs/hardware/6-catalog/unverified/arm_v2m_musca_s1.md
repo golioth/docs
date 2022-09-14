@@ -3,13 +3,13 @@ id: arm_v2m_musca_s1
 title: ARM V2M MUSCA-S1
 slug: /hardware/catalog/boards/unverified/arm_v2m_musca_s1
 description: IoT board ARM V2M MUSCA-S1, compatible with Golioth at unverified level.
-image: /img/boards/arm/v2m_musca_s1.png
+image: /img/boards/arm/v2m_musca_s1.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![ARM V2M MUSCA-S1!](/img/boards/arm/v2m_musca_s1.png "ARM V2M MUSCA-S1")
+![ARM V2M MUSCA-S1!](/img/boards/arm/v2m_musca_s1.jpg "ARM V2M MUSCA-S1")
 
 |                | Board properties     |
 | -------------  | -------------------- |

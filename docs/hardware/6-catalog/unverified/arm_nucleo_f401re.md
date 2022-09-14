@@ -3,13 +3,13 @@ id: arm_nucleo_f401re
 title: ST Nucleo F401RE
 slug: /hardware/catalog/boards/unverified/arm_nucleo_f401re
 description: IoT board ST Nucleo F401RE, compatible with Golioth at unverified level.
-image: /img/boards/arm/nucleo_f401re.png
+image: /img/boards/arm/nucleo_f401re.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![ST Nucleo F401RE!](/img/boards/arm/nucleo_f401re.png "ST Nucleo F401RE")
+![ST Nucleo F401RE!](/img/boards/arm/nucleo_f401re.jpg "ST Nucleo F401RE")
 
 |                | Board properties     |
 | -------------  | -------------------- |

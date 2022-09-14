@@ -3,13 +3,13 @@ id: xtensa_xt-sim
 title: XT Simulator
 slug: /hardware/catalog/boards/unverified/xtensa_xt-sim
 description: IoT board XT Simulator, compatible with Golioth at unverified level.
-image: /img/boards/xtensa/xt-sim.png
+image: /img/boards/xtensa/xt-sim.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![XT Simulator!](/img/boards/xtensa/xt-sim.png "XT Simulator")
+![XT Simulator!](/img/boards/xtensa/xt-sim.jpg "XT Simulator")
 
 |                | Board properties     |
 | -------------  | -------------------- |

@@ -29,6 +29,7 @@ sidebar_class_name: hide-item
 * arduino_serial
 * counter
 * display
+* dma
 * gpio
 * i2c
 * netif:eth

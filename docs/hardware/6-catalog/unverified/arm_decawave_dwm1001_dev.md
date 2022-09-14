@@ -27,7 +27,6 @@ sidebar_class_name: hide-item
 
 * spi
 * i2c
-* ieee802154
 
 ## Supported toolchains
 

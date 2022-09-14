@@ -3,13 +3,13 @@ id: arm_seeeduino_xiao
 title: Seeeduino XIAO
 slug: /hardware/catalog/boards/unverified/arm_seeeduino_xiao
 description: IoT board Seeeduino XIAO, compatible with Golioth at unverified level.
-image: /img/boards/arm/seeeduino_xiao.png
+image: /img/boards/arm/seeeduino_xiao.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![Seeeduino XIAO!](/img/boards/arm/seeeduino_xiao.png "Seeeduino XIAO")
+![Seeeduino XIAO!](/img/boards/arm/seeeduino_xiao.jpg "Seeeduino XIAO")
 
 |                | Board properties     |
 | -------------  | -------------------- |

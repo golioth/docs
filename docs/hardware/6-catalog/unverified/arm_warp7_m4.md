@@ -3,13 +3,13 @@ id: arm_warp7_m4
 title: WaRP7 IMX7S
 slug: /hardware/catalog/boards/unverified/arm_warp7_m4
 description: IoT board WaRP7 IMX7S, compatible with Golioth at unverified level.
-image: /img/boards/arm/warp7_m4.png
+image: /img/boards/arm/warp7_m4.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![WaRP7 IMX7S!](/img/boards/arm/warp7_m4.png "WaRP7 IMX7S")
+![WaRP7 IMX7S!](/img/boards/arm/warp7_m4.jpg "WaRP7 IMX7S")
 
 |                | Board properties     |
 | -------------  | -------------------- |

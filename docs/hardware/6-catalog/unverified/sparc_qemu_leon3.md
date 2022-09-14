@@ -3,13 +3,13 @@ id: sparc_qemu_leon3
 title: QEMU Emulation for LEON3
 slug: /hardware/catalog/boards/unverified/sparc_qemu_leon3
 description: IoT board QEMU Emulation for LEON3, compatible with Golioth at unverified level.
-image: /img/boards/sparc/qemu_leon3.png
+image: /img/boards/sparc/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![QEMU Emulation for LEON3!](/img/boards/sparc/qemu_leon3.png "QEMU Emulation for LEON3")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |

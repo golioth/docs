@@ -3,13 +3,13 @@ id: xtensa_odroid_go
 title: ODROID-GO
 slug: /hardware/catalog/boards/unverified/xtensa_odroid_go
 description: IoT board ODROID-GO, compatible with Golioth at unverified level.
-image: /img/boards/xtensa/odroid_go.png
+image: /img/boards/xtensa/odroid_go.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![ODROID-GO!](/img/boards/xtensa/odroid_go.png "ODROID-GO")
+![ODROID-GO!](/img/boards/xtensa/odroid_go.jpg "ODROID-GO")
 
 |                | Board properties     |
 | -------------  | -------------------- |

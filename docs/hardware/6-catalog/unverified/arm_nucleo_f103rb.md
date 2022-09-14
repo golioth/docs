@@ -35,6 +35,7 @@ sidebar_class_name: hide-item
 * adc
 * dma
 * nvs
+* counter
 
 ## Supported toolchains
 

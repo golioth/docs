@@ -27,7 +27,6 @@ sidebar_class_name: hide-item
 
 * gpio
 * i2c
-* ieee802154
 * pwm
 * spi
 * netif:openthread

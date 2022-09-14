@@ -3,13 +3,13 @@ id: arm_nucleo_f412zg
 title: ST Nucleo F412ZG
 slug: /hardware/catalog/boards/unverified/arm_nucleo_f412zg
 description: IoT board ST Nucleo F412ZG, compatible with Golioth at unverified level.
-image: /img/boards/arm/nucleo_f412zg.png
+image: /img/boards/arm/nucleo_f412zg.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![ST Nucleo F412ZG!](/img/boards/arm/nucleo_f412zg.png "ST Nucleo F412ZG")
+![ST Nucleo F412ZG!](/img/boards/arm/nucleo_f412zg.jpg "ST Nucleo F412ZG")
 
 |                | Board properties     |
 | -------------  | -------------------- |

@@ -3,13 +3,13 @@ id: arm_bbc_microbit
 title: BBC Micro:Bit
 slug: /hardware/catalog/boards/unverified/arm_bbc_microbit
 description: IoT board BBC Micro:Bit, compatible with Golioth at unverified level.
-image: /img/boards/arm/bbc_microbit.png
+image: /img/boards/arm/bbc_microbit.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![BBC Micro:Bit!](/img/boards/arm/bbc_microbit.png "BBC Micro:Bit")
+![BBC Micro:Bit!](/img/boards/arm/bbc_microbit.jpg "BBC Micro:Bit")
 
 |                | Board properties     |
 | -------------  | -------------------- |

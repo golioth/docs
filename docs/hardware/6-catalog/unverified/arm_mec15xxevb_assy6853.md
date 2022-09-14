@@ -3,13 +3,13 @@ id: arm_mec15xxevb_assy6853
 title: MEC15XX EVB ASSY 6853
 slug: /hardware/catalog/boards/unverified/arm_mec15xxevb_assy6853
 description: IoT board MEC15XX EVB ASSY 6853, compatible with Golioth at unverified level.
-image: /img/boards/arm/mec15xxevb_assy6853.png
+image: /img/boards/arm/mec15xxevb_assy6853.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![MEC15XX EVB ASSY 6853!](/img/boards/arm/mec15xxevb_assy6853.png "MEC15XX EVB ASSY 6853")
+![MEC15XX EVB ASSY 6853!](/img/boards/arm/mec15xxevb_assy6853.jpg "MEC15XX EVB ASSY 6853")
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -33,8 +33,6 @@ sidebar_class_name: hide-item
 * pinmux
 * pwm
 * watchdog
-* ps2
-* peci
 * kscan
 
 ## Supported toolchains

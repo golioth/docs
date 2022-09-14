@@ -3,13 +3,13 @@ id: arm_xiao_ble
 title: XIAO BLE
 slug: /hardware/catalog/boards/unverified/arm_xiao_ble
 description: IoT board XIAO BLE, compatible with Golioth at unverified level.
-image: /img/boards/arm/xiao_ble.png
+image: /img/boards/arm/xiao_ble.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![XIAO BLE!](/img/boards/arm/xiao_ble.png "XIAO BLE")
+![XIAO BLE!](/img/boards/arm/xiao_ble.jpg "XIAO BLE")
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -31,7 +31,6 @@ sidebar_class_name: hide-item
 * gpio
 * i2c
 * i2s
-* ieee802154
 * pwm
 * spi
 * usb_cdc

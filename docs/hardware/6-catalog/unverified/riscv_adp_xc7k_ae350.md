@@ -26,6 +26,10 @@ sidebar_class_name: hide-item
 ## Supported features
 
 * gpio
+* counter
+* i2c
+* spi
+* eeprom
 
 ## Supported toolchains
 

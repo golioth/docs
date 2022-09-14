@@ -3,13 +3,13 @@ id: arm_atsamd21_xpro
 title: SAM D21 Xplained Pro
 slug: /hardware/catalog/boards/unverified/arm_atsamd21_xpro
 description: IoT board SAM D21 Xplained Pro, compatible with Golioth at unverified level.
-image: /img/boards/arm/atsamd21_xpro.png
+image: /img/boards/arm/atsamd21_xpro.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![SAM D21 Xplained Pro!](/img/boards/arm/atsamd21_xpro.png "SAM D21 Xplained Pro")
+![SAM D21 Xplained Pro!](/img/boards/arm/atsamd21_xpro.jpg "SAM D21 Xplained Pro")
 
 |                | Board properties     |
 | -------------  | -------------------- |

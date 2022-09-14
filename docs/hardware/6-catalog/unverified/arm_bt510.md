@@ -27,7 +27,6 @@ sidebar_class_name: hide-item
 
 * adc
 * ble
-* ieee802154
 * pwm
 * watchdog
 * i2c

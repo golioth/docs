@@ -36,6 +36,7 @@ sidebar_class_name: hide-item
 * dma
 * usart
 * arduino_spi
+* sdhc
 * usb
 * nvs
 
