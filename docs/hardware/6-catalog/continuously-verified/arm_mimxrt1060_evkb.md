@@ -52,4 +52,4 @@ See our [quickstart guide for NXP MIMXRT1060-EVKB](/hardware/mimxrt1060_evkb/zep
 
 ## Official Zephyr docs
 
-[NXP MIMXRT1060-EVKB (mimxrt1060_evkb)](https://docs.zephyrproject.org/latest/boards/arm/mimxrt1060_evkb/doc/index.html)
+The EVKB version of this board does not have its own documentation in the Zephyr tree, but it is closely related to the [mimxrt1060_evkb](https://docs.zephyrproject.org/latest/boards/arm/mimxrt1060_evk/doc/index.html).
