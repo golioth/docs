@@ -3,13 +3,13 @@ id: arm_qemu_cortex_m3
 title: QEMU Emulation for Cortex-M3
 slug: /hardware/catalog/boards/continuously-verified/arm_qemu_cortex_m3
 description: IoT board QEMU Emulation for Cortex-M3, compatible with Golioth at continuously-verified level.
-image: /img/boards/arm/null
+image: /img/boards/arm/qemu_cortex_m3.jpg
 
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![QEMU Emulation for Cortex-M3!](/img/boards/arm/qemu_cortex_m3.jpg "QEMU Emulation for Cortex-M3")
 
 |                | Board properties     |
 | -------------  | -------------------- |

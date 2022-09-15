@@ -3,13 +3,13 @@ id: xtensa_esp32
 title: ESP-32
 slug: /hardware/catalog/boards/continuously-verified/xtensa_esp32
 description: IoT board ESP-32, compatible with Golioth at continuously-verified level.
-image: /img/boards/xtensa/null
+image: /img/boards/xtensa/esp32.jpg
 
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![ESP-32!](/img/boards/xtensa/esp32.jpg "ESP-32")
 
 |                | Board properties     |
 | -------------  | -------------------- |
