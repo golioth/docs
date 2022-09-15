@@ -5,6 +5,10 @@
       "level": "verified",
       "quickstart": "/hardware/nrf91/zephyr-quickstart"
     },
+    "mimxrt1060_evkb": {
+      "level": "continuously-verified",
+      "quickstart": "/hardware/mimxrt1060_evkb/zephyr-quickstart"
+    },
     "nrf9160dk_nrf9160": {
       "level": "continuously-verified",
       "quickstart": "/hardware/nrf91/zephyr-quickstart"

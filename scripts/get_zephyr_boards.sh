@@ -5,6 +5,7 @@
 if [ -d vendor/zephyr/.git ]
 then
     cd vendor/zephyr
+    git reset --hard origin/main
     git pull origin main
 else
     mkdir -p vendor/zephyr
@@ -17,4 +18,11 @@ else
 
     # --depth=1 might further reduce download size
     # without depth limitation, the download size is cuurently ~480 MB
+fi
+
+cd -
+if [ -d scripts/device-catalog/manually_added/boards ]
+then
+    echo "\nCopying board info from scripts/device-catalog/manually_added/boards to vendor/zephyr/boards\n"
+    cp -r scripts/device-catalog/manually_added/boards/* vendor/zephyr/boards/.
 fi
