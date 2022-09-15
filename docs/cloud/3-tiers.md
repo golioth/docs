@@ -1,31 +1,19 @@
 ---
 id: tiers
-title: Tiers
+title: Golioth Tiers and Pricing
 hide_title: False
 slug: /cloud/tiers
 ---
 
-Golioth tiers are tied to pricing and your sales agreement with Golioth (except for the Dev Tier). 
+<div style={{textAlign: 'center'}}>
 
-## Dev Tier
+[![Golioth pricing tool](assets/golioth-pricing-snip.png
+"Golioth predictable pricing")](https://golioth.io/pricing/)
 
-* 1 project
-* 50 devices
-* 7 day retention of LightDB Stream & Logs
-* 10 MB of LightDB storage
-* 4 MB maximum artifact
-* 1 message per minute (up or down, logs/DB/stream/dfu)
-* 100 tags
-* 100 releases
-* 5 API keys
-* 3 credentials per device
+</div>
 
-Looking to scale? [Contact us](mailto:sales@golioth.io)
+From Golioth's Dev tier which gets you started with up to 50 devices, to our
+Enterprise tier which is designed to handle the unique challenges of
+large-scale fleets, Golioth has a tier to fit every need. [Learn more about
+our tiers on the Golioth website](https://golioth.io/pricing/).
 
-## Pilot Tier
-
-Coming soon
-
-## Enterprise Tier
-
-[Contact us](mailto:sales@golioth.io)
