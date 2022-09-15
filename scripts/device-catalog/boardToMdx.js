@@ -6,7 +6,7 @@
 */
 
 function boardToMdx(board) {
-    const {arch, boardId, name, level, img, ram, flash, quickstart, toolchain, supported} = board;
+    const {arch, boardId, name, level, img, ram, flash, quickstart, toolchain, supported, customDocMD} = board;
     const levelStrings = {
         'continuously-verified': 'Continuously verified',
         'verified': 'Verified',
@@ -59,7 +59,7 @@ ${toolchain.map((tc) => `* ${tc}`).join('\n') || 'List of supported toolchains i
 
 ## Official Zephyr docs
 
-[${name} (${boardId})](https://docs.zephyrproject.org/latest/boards/${arch}/${boardId}/doc/index.html)
+${customDocMD === null ? `[${name} (${boardId})](https://docs.zephyrproject.org/latest/boards/${arch}/${boardId}/doc/index.html)` : `${customDocMD}`}
 `;
 }
 
