@@ -81,10 +81,11 @@ function createLevelRoot(level) {
 
 function getBoardVerification(board) {
     const record = verifications?.[board.arch]?.[board.boardId];
-    if (!record) return { level: 'unverified', quickstart: null };
+    if (!record) return { level: 'unverified', quickstart: null, customDocMD: null };
     return {
         level: record.level || 'unverified',
         quickstart: record.quickstart || null,
+        customDocMD: record.customDocMD || null,
     };
 }
 
@@ -113,9 +114,10 @@ function getBoardMetadata(arch, boardId, suffix) {
         board.supported = yaml.supported || [];
     }
 
-    const { level, quickstart } = getBoardVerification(board);
+    const { level, quickstart, customDocMD } = getBoardVerification(board);
     board.level = level;
     board.quickstart = quickstart;
+    board.customDocMD = customDocMD;
 
     return board;
 }
