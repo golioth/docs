@@ -18,11 +18,11 @@
     "build-device-catalog": "./scripts/get_zephyr_boards.sh && node ./scripts/device-catalog/index.js"
   },
   "dependencies": {
-    "@docusaurus/core": "2.0.1",
-    "@docusaurus/mdx-loader": "2.0.1",
-    "@docusaurus/plugin-ideal-image": "^2.0.1",
-    "@docusaurus/preset-classic": "2.0.1",
-    "@docusaurus/theme-live-codeblock": "2.0.1",
+    "@docusaurus/core": "^2.1.0",
+    "@docusaurus/mdx-loader": "^2.1.0",
+    "@docusaurus/plugin-ideal-image": "^2.1.0",
+    "@docusaurus/preset-classic": "^2.1.0",
+    "@docusaurus/theme-live-codeblock": "^2.1.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
     "@fortawesome/react-fontawesome": "^0.1.16",
