@@ -1,7 +1,7 @@
-`west` makes it easy to install Espressif submodules and OpenOCD configurations:
+Use `west` to install the WiFi and Bluetooth binary blobs necessary for building Espressif projects.
 
 ```shell
 cd c:\golioth-zephyr-workspace
-west espressif update
+west blobs fetch hal_espressif
 ```
 

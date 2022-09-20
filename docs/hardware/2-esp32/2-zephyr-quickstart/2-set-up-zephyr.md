@@ -26,7 +26,7 @@ import InstallZephyrSDKtoolchain from '/docs/partials/install-zephyr-sdk-toolcha
 
 <InstallZephyrSDKtoolchain/>
 
-### Install the Espressif (ESP32) submodules
+### Install Espressif (ESP32) Binary Blobs
 
 import InstallEspressifToolchain from '/docs/partials/install-espressif-toolchain.md'
 
