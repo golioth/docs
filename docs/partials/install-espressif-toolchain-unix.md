@@ -3,6 +3,5 @@
 ```shell
 cd ~/golioth-zephyr-workspace
 west espressif update
-west espressif install
 ```
 
