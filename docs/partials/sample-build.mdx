@@ -1,0 +1,38 @@
+import CodeBlock from '@theme/CodeBlock';
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs
+groupId="os"
+defaultValue="linux"
+values={[
+{label: 'Linux', value: 'linux'},
+{label: 'MacOS', value: 'macos'},
+{label: 'Windows', value: 'windows'},
+]}>
+
+<TabItem value="linux">
+
+<CodeBlock language="bash">
+cd ~/golioth-zephyr-workspace/zephyr<br />
+west build -b {props.board} samples/basic/minimal -p
+</CodeBlock>
+
+</TabItem>
+<TabItem value="macos">
+
+<CodeBlock language="bash">
+cd ~/golioth-zephyr-workspace/zephyr<br />
+west build -b {props.board} samples/basic/minimal -p
+</CodeBlock>
+
+</TabItem>
+<TabItem value="windows">
+
+<CodeBlock language="bash">
+cd C:\golioth-zephyr-workspace\zephyr<br />
+west build -b {props.board} samples\basic\minimal -p
+</CodeBlock>
+
+</TabItem>
+</Tabs>
