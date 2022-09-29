@@ -33,8 +33,6 @@ git submodule update --init --recursive
 ./install.sh all
 ```
 
-<SetupZephyrUnix />
-
 </TabItem>
 <TabItem value="macos">
 
@@ -59,8 +57,6 @@ git checkout v4.4.1
 git submodule update --init --recursive
 ./install.sh all
 ```
-
-<SetupZephyrUnix />
 
 </TabItem>
 <TabItem value="windows">
