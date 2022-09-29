@@ -36,39 +36,6 @@ import InstallEspressifToolchain from '/docs/partials/install-espressif-toolchai
 
 Your system is all set up and ready to start building & flashing with Zephyr. Verify by building a minimal sample:
 
-<Tabs
-groupId="os"
-defaultValue="linux"
-values={[
-{label: 'Linux', value: 'linux'},
-{label: 'MacOS', value: 'macos'},
-{label: 'Windows', value: 'windows'},
-]}>
+import BuildSample from '/docs/partials/sample-build.mdx'
 
-<TabItem value="linux">
-
-```shell
-cd ~/golioth-zephyr-workspace/zephyr
-west build -b esp32 samples/basic/minimal -p
-```
-
-</TabItem>
-<TabItem value="macos">
-
-```shell
-cd ~/golioth-zephyr-workspace/zephyr
-west build -b esp32 samples/basic/minimal -p
-```
-
-</TabItem>
-<TabItem value="windows">
-
-1. Verify by building a minimal sample:
-
-    ```shell
-    cd C:\golioth-zephyr-workspace\zephyr
-    west build -b esp32 samples\basic\minimal -p
-    ```
-
-</TabItem>
-</Tabs>
+<BuildSample board="esp32"/>
