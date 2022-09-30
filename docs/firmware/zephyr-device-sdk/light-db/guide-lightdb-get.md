@@ -2,95 +2,95 @@
 title: LightDB Get Request
 sidebar_position: 2
 ---
+
 The [LightDB Get sample
 application](https://github.com/golioth/golioth-zephyr-sdk/tree/main/samples/lightdb/get)
-demonstrates how to retrieve resources from LightDB State using the Golioth SDK.
-Data is retrieved asynchronously and sent to a handler function registered when
-the get request is first made.
+demonstrates how to retrieve resources from LightDB State using the Golioth
+SDK. Data can be retrieved synchronously, or asynchronously. Synchronous
+requests block program flow until a response is response is received from the
+Golioth server. Asynchronous requests register a callback function that runs
+when a response is received at some point in the future.
 
-## Details
-
-### Preparation
+## Includes
 
 ```c
-#include <net/coap.h>
-static struct coap_reply coap_replies[1];
+#include <net/golioth/system_client.h>
 ```
 
-The Zephyr CoAP library provides a set of helper functions. Creating an array of
-`coap_reply` structs is necessary for registering the callback and pointing to
-the data when it arrives from the Golioth servers.
+Including the Golioth System Client header file makes the LightDB Get API
+functions available to your program.
+
+## Synchronous Get
+
+```c
+uint8_t value[128];
+size_t len = sizeof(value);
+int err;
+
+err = golioth_lightdb_get(client, "counter",
+				  GOLIOTH_CONTENT_FORMAT_APP_JSON,
+				  value, &len);
+```
+
+The simplest way to get LightDB State data from Golioth is using the
+synchronous `golioth_lightdb_get()` function. This blocking function will
+request data from the given endpoint ("counter" in this example).
+
+The returned value (or JSON object) is stored in a character array. A pointer
+to this array and the length of the array are passed as the final two
+parameters of the synchronous get function.
+
+When a request is received, the variable pointed to by `&len` will be changed
+to indicate the length of the response.
+
+## Asynchronous Get
+
+### Registering a callback
+
+```c
+int err;
+
+err = golioth_lightdb_get_cb(client, "counter",
+                 GOLIOTH_CONTENT_FORMAT_APP_JSON,
+                 counter_handler, NULL);
+```
+
+The asynchronous `golioth_lightdb_get_cb()` function is a non-blocking approach
+to requesting LightDB State data from Golioth. The API call still passes the
+desired endpoint, but specifies a callback function instead of a character
+array. The final parameter of the asynchronous get can be used to pass
+additional user-defined arguments to the callback.
+
+Registering a callback is required for asynchronous function calls. When the
+response is received from Golioth, the registered callback will run, allowing
+you to validate and react to the data.
 
 ### Callback function
 
 ```c
-static int reply_callback(const struct coap_packet *response,
-                          struct coap_reply *reply,
-                          const struct sockaddr *from)
+static int counter_handler(struct golioth_req_rsp *rsp)
 {
-    /* Process the received message */
+	if (rsp->err) {
+		LOG_ERR("Failed to receive counter value: %d", rsp->err);
+		return rsp->err;
+	}
+
+	LOG_HEXDUMP_INF(rsp->data, rsp->len, "Counter (async)");
+
+	return 0;
 }
 ```
 
-A callback function is necessary to handle the reply received from the get
-request. Get requests can use different callbacks, and these functions may be
-arbitrarily named.
+The response is passed to the callback function as a `golioth_req_rsp` struct
+that includes `err`, `data`, and `len`. It is recommended that callbacks test
+for an error code to ensure the expected data was received.
 
-### Route data to callback using `on_message`
+User-defined arguments are passed to the callback as `rsp->user_data`.
 
-```c
-static void golioth_on_message(struct golioth_client *client,
-                               struct coap_packet *rx)
-{
-    coap_response_received(rx, NULL, coap_replies,
-                           ARRAY_SIZE(coap_replies));
-}
-```
-
-The `coap_response_received()` function must be called for all messages received.
-It iterates through the `coap_replies` array to properly associate received data
-with callback functions.
-
-### Setup in `main()`
-
-```c
-coap_replies_clear(coap_replies, ARRAY_SIZE(coap_replies));
-client->on_message = golioth_on_message;
-golioth_system_client_start();
-```
-
-Setup code in the `main()` function clears the `coap_replies` array to ensure
-that we begin with a set of empty `coap_reply` structs. The `golioth_on_message`
-is then registered to be called whenever a message is received. Finally, the
-Golioth system client is started.
-
-### Call `golioth_lightdb_get()` to retrieve data
-
-```c
-struct coap_reply *reply;
-reply = coap_reply_next_unused(coap_replies,
-                    ARRAY_SIZE(coap_replies));
-err = golioth_lightdb_get(client,
-                          GOLIOTH_LIGHTDB_PATH("counter"),
-                          COAP_CONTENT_FORMAT_APP_JSON,
-                          reply, reply_callback);
-if (err) {
-    LOG_WRN("failed to get data from LightDB: %d", err);
-}
-```
-
-The `golioth_lightdb_get()` API call requests data from the `counter` endpoint,
-passing a `coap_reply` object and a callback function to execute when the reply
-is received from Golioth. The `coap_reply_next_unused()` function ensures that
-the `coap_reply` struct being passed is not already in use by another request.
-
-## Summary
+## Resources
 
 The best example of a Get request is found in [the LightDB Get sample
 code](https://github.com/golioth/golioth-zephyr-sdk/tree/main/samples/lightdb/get).
-Please note the use of a mutex for protecting the `coap_reply` objects as the
-array is a resource shared between the Golioth client thread and the main
-application thread.
 
 Further documentation of the device SDK is available in the [Golioth Zephyr SDK
 Reference](https://zephyr-sdk-docs.golioth.io/) (Doxygen).
