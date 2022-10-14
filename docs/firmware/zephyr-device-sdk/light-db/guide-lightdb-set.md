@@ -5,39 +5,102 @@ sidebar_position: 4
 
 The [LightDB Set sample
 application](https://github.com/golioth/golioth-zephyr-sdk/tree/main/samples/lightdb/set)
-demonstrates how to send resources to LightDB State using the Golioth SDK. The
-process in non-blocking and after submitting a set request, the Golioth system
-client will complete the operation asyncronously.
+demonstrates how to send resources to LightDB State using the Golioth SDK. Data
+can be set synchronously, or asynchronously. Synchronous requests block program
+flow until a response is received from the Golioth server. Asynchronous requests
+register a callback function that runs when a response is received at some point
+in the future.
 
-## Details
-
-### Payload preparation
+## Includes
 
 ```c
-char sbuf[64]; // Large enough for data plus zero terminator
+#include <net/golioth/system_client.h>
+```
+
+Including the Golioth System Client header file makes the LightDB Set API
+functions available to your program.
+
+## Payload preparation
+
+```c
+char sbuf[11]; // Large enough for data plus NULL terminator
 snprintk(sbuf, sizeof(sbuf), "%d", some_counter_value);
 ```
 
-We recommend converting the payload data to plain text using `snprintk()` which
-prevents buffer overflows. This command uses `printf` substitution can be easily
-be used to format JSON objects like `"{\"value\":%d}"`.
+We recommend converting the payload data to text using `snprintk()` which
+prevents buffer overflows. This command uses `printf` substitution to easily
+format JSON objects like `"{\"value\":%d}"`.
 
-### Send payload to Golioth
+:::tip Escape Quotes for Strings
+Be sure to include escaped quotes around strings that are sent to LightDB
+state.
+
+For instance, integers are simply formatted in quotes `"42"`, but strings must
+also include escaped quotes to indicate to the server that the data is a string
+value: `"\"Golioth\""`.
+:::
+
+## Synchronous Set
 
 ```c
-err = golioth_lightdb_set(client,
-                          GOLIOTH_LIGHTDB_PATH("counter"),
-                          COAP_CONTENT_FORMAT_TEXT_PLAIN,
-                          sbuf, strlen(sbuf));
-if (err) {
-    LOG_WRN("Failed to update counter: %d", err);
+int err = golioth_lightdb_set(client, "counter",
+              GOLIOTH_CONTENT_FORMAT_APP_JSON,
+              sbuf, strlen(sbuf));
+```
+
+The simplest way to send LightDB State data to Golioth is using the synchronous
+`golioth_lightdb_set()` function. This blocking function will send data to the
+given endpoint ("counter" in this example) and wait for a response (or error)
+from the server.
+
+## Asynchronous Set
+
+### Registering a callback
+
+```c
+err = golioth_lightdb_set_cb(client, "counter",
+                 GOLIOTH_CONTENT_FORMAT_APP_JSON,
+                 sbuf, strlen(sbuf),
+                 counter_set_handler, NULL);
+```
+
+The asynchronous `golioth_lightdb_set_cb()` function is a non-blocking approach
+to sending LightDB State data to Golioth. The API call registers a callback
+function (e.g.: `counter_set_handler`) to handle the server response. The final
+parameter of the asynchronous set can be used to pass additional user-defined
+arguments to the callback.
+
+Registering a callback is required for asynchronous function calls. When the
+response is received from Golioth, the registered callback will run, confirming
+that the data was received, or passing back error codes when the set operation
+was not successful.
+
+### Callback function
+
+```c
+static int counter_set_handler(struct golioth_req_rsp *rsp)
+{
+	if (rsp->err) {
+		LOG_WRN("Failed to set counter: %d", rsp->err);
+		return rsp->err;
+	}
+
+	LOG_DBG("Counter successfully set");
+
+	return 0;
 }
 ```
 
-The `golioth_lightdb_set()` API call takes a data endpoint and format as the first two arguments. A pointer to an array containing the payload data, and the length of that array are the last two parameters.
+The response is passed to the callback function as a `golioth_req_rsp` struct
+that includes `err`. It is recommended that callbacks test for an error code to
+ensure the expected data was received.
 
-## Summary
+User-defined arguments are passed to the callback as `rsp.user_data`.
 
-The best example of a set request is found in [the LightDB Set sample code](https://github.com/golioth/golioth-zephyr-sdk/tree/main/samples/lightdb/set).
+## Resources
 
-Further documentation of the device SDK is available in the [Golioth Zephyr SDK Reference](https://zephyr-sdk-docs.golioth.io/) (Doxygen).
+The best example of a set request is found in [the LightDB Set sample
+code](https://github.com/golioth/golioth-zephyr-sdk/tree/main/samples/lightdb/set).
+
+Further documentation of the device SDK is available in the [Golioth Zephyr SDK
+Reference](https://zephyr-sdk-docs.golioth.io/) (Doxygen).
