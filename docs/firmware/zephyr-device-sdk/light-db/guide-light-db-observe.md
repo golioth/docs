@@ -11,101 +11,71 @@ request works in a similar way to the get request and much of the setup is the
 same. Data is received asynchronously and sent to a handler function registered
 when the observe request is first made.
 
-## Details
-
-### Preparation
+## Includes
 
 ```c
-#include <net/coap.h>
-static struct coap_reply coap_replies[1];
+#include <net/golioth/system_client.h>
 ```
 
-The Zephyr CoAP library provides a set of helper functions. Creating an array of
-`coap_reply` structs is necessary for registering the callback and pointing to
-the data when it arrives from the Golioth servers. Each Observe request uses one
-unique `coap_reply` stored in this array.
+Including the Golioth System Client header file makes the LightDB Observe API
+functions available to your program.
 
-### Callback function
+## Asynchronous Observe
 
-```c
-static int on_update(const struct coap_packet *response,
-                     struct coap_reply *reply,
-                     const struct sockaddr *from)
-{
-    /* Process the received message */
-}
-```
-
-A callback function is necessary to handle the update received when data changes
-on the Golioth servers. Multiple Observe requests each use different callbacks, and these
-functions may be arbitrarily named.
-
-### Route data to callback using `on_message`
-
-```c
-static void golioth_on_message(struct golioth_client *client,
-                               struct coap_packet *rx)
-{
-    coap_response_received(rx, NULL, coap_replies,
-                           ARRAY_SIZE(coap_replies));
-}
-```
-
-The `coap_response_received()` function must be called for all messages received.
-It iterates through the `coap_replies` array to properly associate received data
-with callback functions.
-
-### Register the observation in `golioth_on_connect()`
+### Registering a callback
 
 ```c
 static void golioth_on_connect(struct golioth_client *client)
 {
-    struct coap_reply *observe_reply;
-    int err;
+	int err;
 
-    coap_replies_clear(coap_replies, ARRAY_SIZE(coap_replies));
+	err = golioth_lightdb_observe_cb(client, "counter",
+					 GOLIOTH_CONTENT_FORMAT_APP_JSON,
+					 counter_handler, NULL);
 
-    observe_reply = coap_reply_next_unused(coap_replies,
-                           ARRAY_SIZE(coap_replies));
-
-    err = golioth_lightdb_observe(client,
-                                  GOLIOTH_LIGHTDB_PATH("counter"),
-                                  COAP_CONTENT_FORMAT_TEXT_PLAIN,
-                                  observe_reply, on_update);
-
-    if (err) {
-        LOG_WRN("failed to observe lightdb path: %d", err);
-    }
+	if (err) {
+		LOG_WRN("failed to observe lightdb path: %d", err);
+	}
 }
 ```
 
-When the application first connects to Golioth this function will clear the
-`coap_replies` array to ensure that we begin with a set of empty `coap_reply`
-structs. The `golioth_lightdb_observe()` API call registers the `counter` as an
-observed data endpoint, passing a `coap_reply` object and a callback function to
-execute when updated data is received from Golioth. The
-`coap_reply_next_unused()` function ensures that the `coap_reply` struct being
-passed is not already in use by another request.
+Use the `golioth_lightdb_observe_cb()` to register a non-blocking callback that
+will execute asynchronously when receiving data updates from the Golioth Cloud.
+Parameters include a desired endpoint and the name of the callback function.
+The final parameter can be used to pass additional user-defined arguments to
+the callback. The Golioth servers will send an update when the callback is
+first registered and each time data changes on the cloud. When the response is
+received from Golioth, the registered callback will run, allowing you to
+validate and react to the data.
 
-To register observations at multiple endpoints it is necessary to increase the
-size of the `coap_replies` array to match. For each endpoint you want to
-observe, call `coap_reply_next_unused()` to locate the next available struct and
-pass it as an argument for `golioth_lightdb_observe()` call along with the
-desired callback function.
+:::tip
+Register Observe requests whenever connected We recommend that this
+callback be registered in the `client->on_connect` callback that runs each time
+the device connects to Golioth. This way, the device will receive endpoint data
+at every reconnect as well as whenever data changes on the cloud.
+:::
 
-### Setup in `main()`
+### Callback function
 
 ```c
-client->on_connect = golioth_on_connect;
-client->on_message = golioth_on_message;
-golioth_system_client_start();
+static int counter_handler(struct golioth_req_rsp *rsp)
+{
+	if (rsp->err) {
+		LOG_ERR("Failed to receive counter value: %d", rsp->err);
+		return rsp->err;
+	}
+
+	LOG_HEXDUMP_INF(rsp->data, rsp->len, "Counter (async)");
+
+	return 0;
+}
 ```
 
-The setup code in the `main()` function registers `golioth_on_connect()` to be
-called when a connection is first established and `golioth_on_message()` to be called
-whenever a message is received. These will take care of registering the Observe
-request(s) and routing incoming messages from Golioth to the proper callback function(s).
-Finally, the Golioth system client is started.
+The response is passed to the callback function as a `golioth_req_rsp` struct
+that includes `err`, `data`, and `len`. It is recommended that callbacks test
+for an error code to ensure the expected data was received.
+
+User-defined arguments are passed to the callback as `rsp.user_data`.
 
 ## Summary
 
