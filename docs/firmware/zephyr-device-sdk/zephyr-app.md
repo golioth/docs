@@ -33,10 +33,10 @@ Inside this directory, create 3 files: `CMakeLists.txt`, `Kconfig`, and `prj.con
 Here are their contents:
 
 ```txt title="CMakeLists.txt"
-cmake_minimum_required(VERSION 3.13.1)
+cmake_minimum_required(VERSION 3.20.0)
 
 find_package(Zephyr REQUIRED HINTS $ENV{ZEPHYR_BASE})
-project(example-app)
+project(hello)
 
 target_sources(app PRIVATE src/main.c)
 ```
@@ -44,20 +44,22 @@ target_sources(app PRIVATE src/main.c)
 ```txt title="Kconfig"
 mainmenu "Golioth application options"
 
-if WIFI_ESP32
+if DNS_RESOLVER
 
-config ESP32_WIFI_SSID
-	default GOLIOTH_SAMPLE_WIFI_SSID
+config DNS_SERVER_IP_ADDRESSES
+	default y
 
-config ESP32_WIFI_PASSWORD
-	default GOLIOTH_SAMPLE_WIFI_PSK
+config DNS_SERVER1
+	default "1.1.1.1"
 
-endif # WIFI_ESP32
+endif # DNS_RESOLVER
 
 source "Kconfig.zephyr"
 ```
 
 ```txt title="prj.conf"
+CONFIG_GOLIOTH_SAMPLES_COMMON=y
+
 # Generic networking options
 CONFIG_NETWORKING=y
 CONFIG_NET_IPV4=y
@@ -71,15 +73,16 @@ CONFIG_NET_SHELL=y
 
 # TLS configuration
 CONFIG_MBEDTLS_ENABLE_HEAP=y
-CONFIG_MBEDTLS_HEAP_SIZE=8192
+CONFIG_MBEDTLS_HEAP_SIZE=10240
 CONFIG_MBEDTLS_SSL_MAX_CONTENT_LEN=2048
 
 # Application
 CONFIG_MAIN_STACK_SIZE=4096
-CONFIG_EVENTFD=y
 
 CONFIG_GOLIOTH=y
 CONFIG_GOLIOTH_SYSTEM_CLIENT=y
+
+CONFIG_MINIMAL_LIBC_MALLOC_ARENA_SIZE=256
 
 CONFIG_LOG_BACKEND_GOLIOTH=y
 CONFIG_LOG_PROCESS_THREAD_STACK_SIZE=2048
@@ -87,8 +90,8 @@ CONFIG_LOG_PROCESS_THREAD_STACK_SIZE=2048
 CONFIG_GOLIOTH_SYSTEM_CLIENT_PSK_ID="<the PSK ID>"
 CONFIG_GOLIOTH_SYSTEM_CLIENT_PSK="<the PSK>"
 
-CONFIG_ESP32_WIFI_SSID="<WIFI SSD>"
-CONFIG_ESP32_WIFI_PASSWORD="<WIFI PASSWORD>"
+CONFIG_GOLIOTH_SAMPLE_WIFI_SSID="<WIFI SSD>"
+CONFIG_GOLIOTH_SAMPLE_WIFI_PSK="<WIFI PASSWORD>"
 ```
 
 As you can see at the end of `prj.conf`, there are some values that you'll need to fill in yourself that depend on your registered devices and environment.
@@ -100,23 +103,29 @@ For the most part, you can copy these configuration files from Zephyr and Goliot
 :::
 
 ```txt title="boards/esp32.conf"
-CONFIG_WIFI=y
-CONFIG_WIFI_ESP32=y
-CONFIG_HEAP_MEM_POOL_SIZE=131072
+ONFIG_WIFI=y
+CONFIG_HEAP_MEM_POOL_SIZE=98304
 
 CONFIG_NET_L2_ETHERNET=y
 
 CONFIG_NET_DHCPV4=y
 
-CONFIG_NET_CONFIG_LOG_LEVEL_DBG=y
-CONFIG_NET_CONFIG_SETTINGS=y
-CONFIG_NET_CONFIG_NEED_IPV4=y
-
 CONFIG_MBEDTLS_ENTROPY_ENABLED=y
 CONFIG_MBEDTLS_KEY_EXCHANGE_ECDHE_ECDSA_ENABLED=y
 CONFIG_MBEDTLS_ECP_ALL_ENABLED=y
 
-CONFIG_ESP32_WIFI_STA_AUTO=y
+CONFIG_ESP32_WIFI_STA_AUTO_DHCPV4=y
+
+CONFIG_NET_L2_WIFI_SHELL=y
+CONFIG_GOLIOTH_SAMPLE_WIFI=y
+```
+
+An overlay file for the ESP32 is used to enable the Wi-Fi
+
+```txt title="boards/esp32.overlay"
+&wifi {
+	status = "okay";
+};
 ```
 
 Create one file, `main.c`, inside `src/`.
@@ -130,51 +139,48 @@ For this example, the contents should be a simple logger.
  * SPDX-License-Identifier: Apache-2.0
  */
 
-#include <logging/log.h>
-LOG_MODULE_REGISTER(golioth_logging, LOG_LEVEL_DBG);
+#include <zephyr/logging/log.h>
+LOG_MODULE_REGISTER(golioth_hello, LOG_LEVEL_DBG);
 
-#include <net/coap.h>
 #include <net/golioth/system_client.h>
-#include <net/golioth/wifi.h>
+#include <samples/common/net_connect.h>
+#include <zephyr/net/coap.h>
 
 static struct golioth_client *client = GOLIOTH_SYSTEM_CLIENT_GET();
 
-static void golioth_on_message(struct golioth_client *client,
-                   struct coap_packet *rx)
+static K_SEM_DEFINE(connected, 0, 1);
+
+static void golioth_on_connect(struct golioth_client *client)
 {
-    uint16_t payload_len;
-    const uint8_t *payload;
-    uint8_t type;
-
-    type = coap_header_get_type(rx);
-    payload = coap_packet_get_payload(rx, &payload_len);
-
-    if (!IS_ENABLED(CONFIG_LOG_BACKEND_GOLIOTH) && payload) {
-        LOG_HEXDUMP_DBG(payload, payload_len, "Payload");
-    }
+	k_sem_give(&connected);
 }
 
 void main(void)
 {
-    int counter = 0;
+	int counter = 0;
+	int err;
 
-    LOG_DBG("Start Logging sample");
+	LOG_DBG("Start Hello sample");
 
-    if (IS_ENABLED(CONFIG_GOLIOTH_SAMPLE_WIFI)) {
-        LOG_INF("Connecting to WiFi");
-        wifi_connect();
-    }
+	if (IS_ENABLED(CONFIG_GOLIOTH_SAMPLES_COMMON)) {
+		net_connect();
+	}
 
-    client->on_message = golioth_on_message;
-    golioth_system_client_start();
+	client->on_connect = golioth_on_connect;
+	golioth_system_client_start();
 
-    while (true) {
-        LOG_INF("INFO: the counter is %d", counter);
+	k_sem_take(&connected, K_FOREVER);
 
-        counter++;
+	while (true) {
+		LOG_INF("Sending hello! %d", counter);
 
-        k_sleep(K_SECONDS(5));
-    }
+		err = golioth_send_hello(client);
+		if (err) {
+			LOG_WRN("Failed to send hello!");
+		}
+		++counter;
+		k_sleep(K_SECONDS(5));
+	}
 }
 ```
 
@@ -186,25 +192,21 @@ This guide is for the ESP32, so setting up the required toolchain for other boar
 Look at the Zephyr documentation for your particular board to learn more about setting up the toolchain.
 :::
 
-Set these environment values (The exact method used to do that varies between operating system and shell).
+Make sure that `west` can find the `golioth/zephyr` codebase on your local
+machine. You'll have to `source` a particular file to do so.
 
 ```bash
-export ZEPHYR_TOOLCHAIN_VARIANT="espressif"
-export ESPRESSIF_TOOLCHAIN_PATH="~/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/"
-export PATH="$PATH:$ESPRESSIF_TOOLCHAIN_PATH/bin"
+source ~/golioth-zephyr-workspace/zephyr/zephyr/zephyr-env.sh
 ```
 
-You'll also need to make sure that `west` can find the `golioth/zephyr` codebase on your local machine. You'll have to `source` a particular file to do so.
-
-```bash
-source ~/golioth/zephyr/zephyr/zephyr-env.sh
-```
-
-This will set the `$ZEPHYR_BASE` environment variable, as well as make sure `west` can find the correct subcommands.
+This will set the `$ZEPHYR_BASE` environment variable, as well as make sure
+`west` can find the correct subcommands.
 
 :::note
-The exact paths may not match up with what is shown here. Look at [Set up Zephyr (on ESP32)](https://docs.golioth.io/hardware/esp32/quickstart/set-up-zephyr) page for more information
-about setting up the toolchain and the necessary environment variables.
+The exact paths may not match up with what is shown here. Look at [Set
+up Zephyr (on
+ESP32)](https://docs.golioth.io/hardware/esp32/quickstart/set-up-zephyr) page
+for more information about setting up the toolchain. environment variables.
 :::
 
 Now, to build it:
@@ -221,8 +223,10 @@ west flash --esp-device=/dev/cu.usbserial-14210
 
 ### Results
 
-If `prj.conf` is set up correctly (e.g. `CONFIG_GOLIOTH_SYSTEM_CLIENT_PSK_ID`, `CONFIG_GOLIOTH_SYSTEM_CLIENT_PSK`, `CONFIG_ESP32_WIFI_SSID`, and `CONFIG_ESP32_WIFI_PASSWORD` are all correct),
-then you should be able to see the logs emitted by your device by running:
+If `prj.conf` is set up correctly (e.g. `CONFIG_GOLIOTH_SYSTEM_CLIENT_PSK_ID`,
+`CONFIG_GOLIOTH_SYSTEM_CLIENT_PSK`, `CONFIG_GOLIOTH_SAMPLE_WIFI_SSID`, and
+`CONFIG_GOLIOTH_SAMPLE_WIFI_PSK` are all correct), then will see the logs
+emitted by your device by running:
 
 ```bash
 goliothctl logs --interval 10m
