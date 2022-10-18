@@ -43,6 +43,29 @@ west flash
 
 This will build and run `v0.0.0` firmware on the Nordic nRF9160 development kit.
 
+:::note Building and flashing MCUboot to other devices
+
+Images for Nordic targets are automatically signed during the build process and
+do not require an extra manual step for signing.
+
+<details><summary>Click to reveal details on MCUboot and signing binaries</summary>
+
+The README in the Golioth DFU sample discusses [building MCUBoot for other architectures](https://github.com/golioth/golioth-zephyr-sdk/tree/main/samples/dfu#using-with-zephyr).
+
+Signing application code is also discussed in the sample's README. It should
+follow a process similar to the following:
+
+```bash
+# After building your app image, sign the binary:
+west sign -t imgtool -- --key WEST_ROOT/bootloader/mcuboot/root-rsa-2048.pem
+# Flash a signed app to a device already running the MCUboot bootloader:
+west flash --bin-file build/zephyr/zephyr.signed.bin --hex-file build/zephyr/zephyr.signed.hex
+```
+
+</details>
+
+:::
+
 ### 2. Pass credentials to the device
 
 The Golioth DFU sample stores the device credentials in the settings partition
