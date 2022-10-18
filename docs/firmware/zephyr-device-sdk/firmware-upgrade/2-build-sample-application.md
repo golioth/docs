@@ -1,5 +1,5 @@
 ---
-title: Over-the-Air (OTA) Update Sample Application
+title: Over-the-Air (OTA) Update Walkthrough
 sidebar_position: 2
 ---
 

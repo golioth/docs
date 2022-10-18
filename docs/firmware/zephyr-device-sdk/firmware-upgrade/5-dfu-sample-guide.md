@@ -1,5 +1,5 @@
 ---
-title: DFU Sample Guide
+title: DFU Sample Code Review
 ---
 
 Golioth has [a Device Firmware Update (DFU) sample
