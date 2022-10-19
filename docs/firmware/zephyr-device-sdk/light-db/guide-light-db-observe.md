@@ -84,6 +84,5 @@ User-defined arguments are passed to the callback as `rsp.user_data`.
 The best example of an Observe request is found in [the LightDB Observe sample
 code](https://github.com/golioth/golioth-zephyr-sdk/tree/main/samples/lightdb/observe).
 
-* Further documentation of the device SDK is available in the [Golioth Zephyr
-  SDK Reference](https://zephyr-sdk-docs.golioth.io/) (Doxygen).
-* Blog post: [How to Add Golioth LightDB Observe to any Zephyr application](https://blog.golioth.io/how-to-add-golioth-lightdb-observe-to-any-zephyr-application/)
+Further documentation of the device SDK is available in the [Golioth Zephyr SDK
+Reference](https://zephyr-sdk-docs.golioth.io/) (Doxygen).
