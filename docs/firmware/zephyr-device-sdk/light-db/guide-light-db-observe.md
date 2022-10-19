@@ -48,11 +48,13 @@ first registered and each time data changes on the cloud. When the response is
 received from Golioth, the registered callback will run, allowing you to
 validate and react to the data.
 
-:::tip
-Register Observe requests whenever connected We recommend that this
-callback be registered in the `client->on_connect` callback that runs each time
-the device connects to Golioth. This way, the device will receive endpoint data
-at every reconnect as well as whenever data changes on the cloud.
+:::tip Register Observe requests whenever connected
+
+We recommend that this callback be registered in the `client->on_connect`
+callback that runs each time the device connects to Golioth. This way, the
+device will receive endpoint data at every reconnect as well as whenever data
+changes on the cloud.
+
 :::
 
 ### Callback function
