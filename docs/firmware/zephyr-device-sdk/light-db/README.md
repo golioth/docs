@@ -25,8 +25,8 @@ The Golioth Zephyr SDK includes three API functions for working with state data:
 
 :::note
 The examples in this section all demonstrate working with
-`COAP_CONTENT_FORMAT_APP_JSON` format. These API calls can also be used with
-CBOR serialization by using the `COAP_CONTENT_FORMAT_APP_CBOR` format. For an
+`GOLIOTH_CONTENT_FORMAT_APP_JSON` format. These API calls can also be used with
+CBOR serialization by using the `GOLIOTH_CONTENT_FORMAT_APP_CBOR` format. For an
 example of this, see [the Golioth LightDB LED sample
 code](https://github.com/golioth/golioth-zephyr-sdk/tree/main/samples/lightdb_led).
 :::
