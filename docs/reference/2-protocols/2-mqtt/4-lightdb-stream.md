@@ -11,16 +11,16 @@ How to use guides:
 
 ### Interface
 
-| Method    | Description     | Path            | Content Format |
-| --------- | --------------- | --------------- | -------------- |
-| Publish   | Send data       | /.s/{path=\*\*} | JSON           |
-| Subscribe | Get latest data | /.s/{path=\*\*} | JSON           |
+| Method    | Description     | Path           | Content Format |
+| --------- | --------------- | -------------- | -------------- |
+| Publish   | Send data       | .s/{path=\*\*} | JSON           |
+| Subscribe | Get latest data | .s/{path=\*\*} | JSON           |
 
 > `path` can be any valid URI sub path. Ex:
 >
-> /.s/env/temperature
+> .s/env/temperature
 >
-> /.s/location
+> .s/location
 
 To demonstrate the operations here, let's imagine that we are tracking an asset using an IoT device. The location data from our device is going to periodically pushed to a LightDB Stream.
 

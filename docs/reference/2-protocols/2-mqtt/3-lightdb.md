@@ -11,17 +11,17 @@ How to use guides:
 
 ### Interface
 
-| Method    | Description                  | Path            | Content Format |
-| --------- | ---------------------------- | --------------- | -------------- |
-| Subscribe | Read persisted data          | /.d/{path=\*\*} | JSON           |
-| Publish   | Create/Update data           | /.d/{path=\*\*} | JSON           |
-| Publish   | Delete Data if body is empty | /.d/{path=\*\*} | JSON           |
+| Method    | Description                  | Path           | Content Format |
+| --------- | ---------------------------- | -------------- | -------------- |
+| Subscribe | Read persisted data          | .d/{path=\*\*} | JSON           |
+| Publish   | Create/Update data           | .d/{path=\*\*} | JSON           |
+| Publish   | Delete Data if body is empty | .d/{path=\*\*} | JSON           |
 
 > `path` can be any valid URI sub path. Ex:
 >
-> /.d/temp/state
+> .d/temp/state
 >
-> /.d/temp/active
+> .d/temp/active
 
 The body can be a JSON object or a single value in the following formats:
 
