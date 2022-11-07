@@ -11,11 +11,11 @@ How to use guides:
 
 ### Interface
 
-| Method    | Description                                      | Path                      |
-| --------- | ------------------------------------------------ | ------------------------- |
-| Subscribe | Get desired release version in Manifest Format   | /.u/desired               |
-| Subscribe | Download binary of a given component and version | /.u/c/{package}@{version} |
-| Publish   | Report firmware state for a given package        | /.u/c/{package}           |
+| Method    | Description                                      | Path                     |
+| --------- | ------------------------------------------------ | ------------------------ |
+| Subscribe | Get desired release version in Manifest Format   | .u/desired               |
+| Subscribe | Download binary of a given component and version | .u/c/{package}@{version} |
+| Publish   | Report firmware state for a given package        | .u/c/{package}           |
 
 ### Release Manifest Format
 

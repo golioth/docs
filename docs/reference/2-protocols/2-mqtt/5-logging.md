@@ -11,9 +11,9 @@ How to use guides:
 
 ### Interface
 
-| Method  | Description | Path  | Content Format |
-| ------- | ----------- | ----- | -------------- |
-| Publish | Send logs   | /logs | JSON           |
+| Method  | Description | Path | Content Format |
+| ------- | ----------- | ---- | -------------- |
+| Publish | Send logs   | logs | JSON           |
 
 ### Parameters and attributes that are known and indexed:
 
