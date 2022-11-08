@@ -16,7 +16,14 @@ Remember that a new setting can only be created at the project-level.
 
 Project-level settings are easily found in the main page of the Golioth Console.
 Click on `Device Settings` in the left side bar menu to open the project-level
-settings listing:
+settings listing.
+
+The `Create` button in the upper right is used to generate a new setting:
+
+![Create new setting modal](./assets/create-setting-modal.png)
+
+Use upper-case letters, numbers, and underscore to set a unique Key. Specify the
+data type, and set an initial value before clicking the save button.
 
 ![Listing Project-level settings](./assets/listing-project-level-settings.png)
 
@@ -62,3 +69,25 @@ been overridden at the `Device` level and this value will only affect the device
 you're currently viewing. The garbage-can icon next to the setting can be used
 to remove this override, restoring the project-level/blueprint-level
 inheritance.
+
+## Settings synch status and other information
+
+### Sync status
+
+Devices will report their settings synchronization status to the Golioth
+Console. Sync status is shown in summary tab and settings tab of each device.
+Hover over the red-I icon to reveal the sync status message.
+
+![Settings sync status](./assets/sync-status.png)
+
+For more information on types of sync status, see the `golioth_settings_status`
+enumeration on [the Golioth Zephyr SDK
+reference](https://zephyr-sdk-docs.golioth.io/group__golioth__settings.html).
+
+### Inheritance information on mouseover
+
+When viewing a setting that has been overridden, an information icon will be
+present in the `Level` column. Stop the mouse over the icon to reveal a modal
+containing a summary of the hierarchy of overrides:
+
+![Hierarchy of overrides](./assets/overrides-hierarchy.png)
