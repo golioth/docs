@@ -18,8 +18,8 @@ Settings service lets users to set one or more settings for a single device, for
 
 But if you want to change the value of the settings either for a single device or an entire group of devices under a blueprint you can:
 
-* override a per device-level setting value
-* override a per blueprint-level setting value
+* override a per blueprint-level setting value, to be applied only to blueprint's devices
+* override a per device-level setting value, to be applied only to that device
 
 Pay attention to the precendence order of the overrides:
 * Device-level overrides will always override blueprint and project-level settings.

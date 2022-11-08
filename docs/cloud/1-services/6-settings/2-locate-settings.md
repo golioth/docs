@@ -1,6 +1,6 @@
 ---
 id: locate-setting
-title: Locating Settings
+title: Where to find
 ---
 
 Before creating new settings, let's understand where to find them when they are created.
