@@ -3,9 +3,8 @@ id: settings-structure
 title: Settings Structure
 ---
 
-## Settings Structure
+Each setting structure includes the following fields:
 
-Each setting has the following fields structured:
 * Name
 * Data Type
 * Value
@@ -20,10 +19,17 @@ READINGS_PERIOD | Integer | 60
 TEMP_LIMIT_IN_C | Float | 88.5
 SEND_DATA_AT_NIGHT | Boolean | true
 
-### Setting Name
+### Setting Keys
 
-It's a per project unique name to describe a setting. There are rules to create a setting name:
-<!-- * It's allowed only numbers and  -->
+The settings keys are unique names used to describe a setting. They are used by
+the Golioth Console, the Golioth Cloud, and the firmware running on the devices
+so they are limited to the following characters:
+
+* Upper case letters (A-Z)
+* Numbers (0-9)
+* Underscore (`_`)
+
+No other characters may be used.
 
 ### Setting Data Type
 
@@ -33,9 +39,11 @@ These are the allowed settings data types:
 * integer
 * boolean
 
-:::caution
+:::caution Settings keys and data types cannot be changed after they are created.
 
-**Too much important to observe is once a setting is created, its name (or key) and data type cannot be changed in the future. They're immutable attributes. This was designed this way to avoid issues and inconsistences with firmwares after a setting is already being used.**
+The settings key and data type are immutable attributes. This is by design to
+avoid issues and inconsistences with device firmware after a setting is already
+being used.
 
 :::
 
