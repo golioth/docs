@@ -47,8 +47,8 @@ Zephyr uses [Kconfig](https://docs.zephyrproject.org/latest/guides/kconfig/index
 Open `samples/hello/prj.conf` in your editor of choice and add these fields:
 
 ```
-CONFIG_ESP32_WIFI_SSID="YOUR_NETWORK_NAME"
-CONFIG_ESP32_WIFI_PASSWORD="YOUR_NETWORK_PW"
+CONFIG_GOLIOTH_SAMPLE_WIFI_SSID="YOUR_NETWORK_NAME"
+CONFIG_GOLIOTH_SAMPLE_WIFI_PSK="YOUR_NETWORK_PW"
 
 CONFIG_GOLIOTH_SYSTEM_CLIENT_PSK_ID="DEVICE_CRED_ID"
 CONFIG_GOLIOTH_SYSTEM_CLIENT_PSK="DEVICE_PSK"
