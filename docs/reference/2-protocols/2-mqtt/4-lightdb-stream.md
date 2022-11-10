@@ -14,7 +14,6 @@ How to use guides:
 | Method    | Description     | Path           | Content Format |
 | --------- | --------------- | -------------- | -------------- |
 | Publish   | Send data       | .s/{path=\*\*} | JSON           |
-| Subscribe | Get latest data | .s/{path=\*\*} | JSON           |
 
 > `path` can be any valid URI sub path. Ex:
 >
