@@ -9,8 +9,8 @@ demonstrate core features like LightDB State/Stream, Logging, and OTA Updates.
 
 ### Build the `golioth_basics` code example
 
-Golioth ESP-IDF SDK example code is located in the
-`golioth-esp-idf-sdk/examples`. Navigate to the `golioth_basics` example and run
+Golioth Firmware SDK example code is located in the
+`golioth-firmware-sdk/examples/esp_idf`. Navigate to the `golioth_basics` example and run
 the following code to build the example app:
 
 ```console

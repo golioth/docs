@@ -12,6 +12,6 @@ This walk-through will demonstrate how to quickly connect an Espressif [ESP32 De
 
 :::note
 
-[Golioth's ESP-IDF SDK](https://github.com/golioth/golioth-esp-idf-sdk) will work with other ESP32 devkits. We're using the DevKitC as a reference board to provide a consistent getting started experience.
+[Golioth's Firmware SDK](https://github.com/golioth/golioth-firmware-sdk) will work with other ESP32 devkits. We're using the DevKitC as a reference board to provide a consistent getting started experience.
 
 :::
