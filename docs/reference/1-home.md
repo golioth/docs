@@ -16,5 +16,5 @@ The API and SDK reference documentation provides detailed information for each o
   - [goliothctl](/reference/command-line-tools/goliothctl/goliothctl/)
   - [coap](/reference/command-line-tools/coap/coap/)
 - Device SDKs
-  - [Golioth ESP-IDF SDK Reference](/reference/device-sdks/golioth-esp-idf-sdk)
+  - [Golioth Firmware SDK Reference](/reference/device-sdks/golioth-firmware-sdk)
   - [Golioth Zephyr SDK Reference](/reference/device-sdks/golioth-zephyr-sdk)

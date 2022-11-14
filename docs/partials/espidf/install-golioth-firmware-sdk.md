@@ -12,12 +12,12 @@ values={[
 
 <TabItem value="linux">
 
-#### 1. Clone the Golioth ESP-IDF SDK repository and update submodules
+#### 1. Clone the Golioth Firmware SDK repository and update submodules
 
 ```console
 cd ~
-git clone --recursive https://github.com/golioth/golioth-esp-idf-sdk.git
-cd golioth-esp-idf-sdk
+git clone --recursive https://github.com/golioth/golioth-firmware-sdk.git
+cd golioth-firmware-sdk
 git submodule update --init --recursive
 ```
 
@@ -25,12 +25,12 @@ git submodule update --init --recursive
 
 <TabItem value="macos">
 
-#### 1. Clone the Golioth ESP-IDF SDK repository and update submodules
+#### 1. Clone the Golioth Firmware SDK repository and update submodules
 
 ```console
 cd ~
-git clone --recursive https://github.com/golioth/golioth-esp-idf-sdk.git
-cd golioth-esp-idf-sdk
+git clone --recursive https://github.com/golioth/golioth-firmware-sdk.git
+cd golioth-firmware-sdk
 git submodule update --init --recursive
 ```
 
@@ -38,12 +38,12 @@ git submodule update --init --recursive
 
 <TabItem value="windows">
 
-#### 1. Clone the Golioth ESP-IDF SDK repository and update submodules
+#### 1. Clone the Golioth Firmware SDK repository and update submodules
 
 ```console
 cd %HOMEPATH%
-git clone --recursive https://github.com/golioth/golioth-esp-idf-sdk.git
-cd golioth-esp-idf-sdk
+git clone --recursive https://github.com/golioth/golioth-firmware-sdk.git
+cd golioth-firmware-sdk
 git submodule update --init --recursive
 ```
 
