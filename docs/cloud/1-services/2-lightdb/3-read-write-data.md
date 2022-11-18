@@ -5,7 +5,7 @@ title: Read and Write LightDB Data
 
 Devices interact with LightDB using the gateways available on the platform. For now, only CoAP is available.
 
-> See [CoAP Gateway Interface](/reference/protocols/coap/lightdb) or [MQTT Gateway Interface](/reference/protocols/mqtt/lightdb)
+> See [CoAP Gateway Interface](/reference/protocols/coap/lightdb)
 
 # Example
 

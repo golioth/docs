@@ -11,8 +11,8 @@ You can manage device and project credentials using the Web Console or through t
 
 | Credential Type               | Description               | Supported Gateways    |
 | ----------------------------- | ------------------------- | --------------------- |
-| Per Device PSK/Pre Shared Key | Pre Shared Keys           | CoAP ✅ <br/> MQTT ✅ |
-| Per Project Certificate       | Mutual TLS Authentication | CoAP 🚧 <br/> MQTT 🚧 |
+| Per Device PSK/Pre Shared Key | Pre Shared Keys           | CoAP ✅               |
+| Per Project Certificate       | Mutual TLS Authentication | CoAP 🚧               |
 
 ### Creating an Pre Shared Key Credential
 
@@ -20,4 +20,3 @@ See the getting started guide to [authorize devices](/getting-started/3-commandl
 
 - Guides on how to use:
   - [Using Pre Shared Keys on CoAP Gateway](/reference/protocols/coap/auth)
-  - [Using Pre Shared Keys on MQTT Gateway](/reference/protocols/mqtt/auth)
