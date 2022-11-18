@@ -34,7 +34,6 @@ export const ProtocolPublishSample = ({
       defaultValue="coap"
       values={[
         { label: "CoAP", value: "coap" },
-        { label: "MQTT", value: "mqtt" },
       ]}
     >
       <TabItem value="coap">
@@ -42,11 +41,6 @@ export const ProtocolPublishSample = ({
           {`coap --path ${path} -m ${method} --psk-id ${identity} --psk ${psk} ${queryParamCoap} --host coap.golioth.io -b "${escapedCoapBody}" --format json`}
         </CodeBlock>
         {response && <CodeBlock>{getCoapResponse(response)}</CodeBlock>}
-      </TabItem>
-      <TabItem value="mqtt">
-        <CodeBlock>
-          {`mosquitto_pub -i ${identity} --username ${identity} -P ${psk}  --host mqtt.golioth.io --port 8883 --topic ${path} -m "${escapedMqttBody}"`}
-        </CodeBlock>
       </TabItem>
     </Tabs>
   );
@@ -65,7 +59,6 @@ export const ProtocolReadSample = ({
       defaultValue="coap"
       values={[
         { label: "CoAP", value: "coap" },
-        { label: "MQTT", value: "mqtt" },
       ]}
     >
       <TabItem value="coap">
@@ -80,12 +73,6 @@ export const ProtocolReadSample = ({
             {getCoapResponse(response)}
           </CodeBlock>
         )}
-      </TabItem>
-      <TabItem value="mqtt">
-        <CodeBlock>
-          {`mosquitto_sub -i ${identity} --username ${identity} -P ${psk}  --host mqtt.golioth.io --port 8883 --topic ${path}`}
-        </CodeBlock>
-        {response && <CodeBlock>{`${JSON.stringify(response)}`}</CodeBlock>}
       </TabItem>
     </Tabs>
   );
@@ -103,17 +90,11 @@ export const ProtocolDeleteSample = ({
       defaultValue="coap"
       values={[
         { label: "CoAP", value: "coap" },
-        { label: "MQTT", value: "mqtt" },
       ]}
     >
       <TabItem value="coap">
         <CodeBlock>
           {`coap --path ${path} -m DELETE --psk-id ${identity} --psk ${psk} --host coap.golioth.io --accept json`}
-        </CodeBlock>
-      </TabItem>
-      <TabItem value="mqtt">
-        <CodeBlock>
-          {`mosquitto_pub -i ${identity} --username ${identity} -P ${psk}  --host mqtt.golioth.io --port 8883 --topic ${path} -m ""`}
         </CodeBlock>
       </TabItem>
     </Tabs>
