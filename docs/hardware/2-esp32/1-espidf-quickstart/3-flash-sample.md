@@ -96,5 +96,5 @@ I (4462) golioth_example: Callback got my_int = 42
 You can exit from the ESP-IDF Monitor tool using `CTRL-]`. (A help menu can be
 displayed by typing `CTRL-T` followed by `CTRL-H`.)
 
-Congratulations! On the next page, we'll look at the data that the device sent
-to Golioth.
+Congratulations! On the next page, we'll look at how Over-the-Air (OTA) firmware
+updates work with this sample.
