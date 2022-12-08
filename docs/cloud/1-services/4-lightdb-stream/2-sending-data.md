@@ -18,29 +18,61 @@ import { ProtocolPublishSample, ProtocolReadSample } from '/docs/partials/protoc
 <ProtocolPublishSample path="/.s/position" method="POST" body={{"latitude": 37.75, "longitude" : -122.57, "speed": 5 }} />
 <ProtocolPublishSample path="/.s/position" method="POST" body={{"latitude": 38.75, "longitude" : -123.57, "speed": 10 }} />
 
-You can also send a batch request by sending an array at the root level and with different timestamps:
 
-<ProtocolPublishSample path="/.s/position" method="POST" body={[{"ts": 1626362266059, "latitude": 37.75, "longitude" : -122.57, "speed": 5 }, {"ts": 1626362276059, "latitude": 38.75, "longitude" : -123.57, "speed": 10 }]} />
+### Sending data with a timestamp
 
-If you now dump the data in that stream with `goliothctl stream [device name] get /position`, you can see that it contains multiple items with server-inserted timestamps.
+You can also send a batch request by sending an array at the root level that
+includes a timestamp for each entry. The following keys are valid for timestamp
+values: `t`, `ts`, `time`. The timestamp will not appear in the data payload
+once received by Golioth LightDB Stream, but instead be used as the `time`
+value.
+
+The following example illustrates sending the timestamp in either [Unix
+time](https://en.wikipedia.org/wiki/Unix_time) or ISO 8601 format. In this case
+the [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) format includes a
+timezone offset, but also allow for the `2022-12-08T14:45:47Z` style instead.
+
+<ProtocolPublishSample path="/.s/position" method="POST" body={[{"ts": 1670532287544, "latitude": 37.75, "longitude" : -122.57, "speed": 5 }, {"ts": "2022-12-08T14:45:47-06:00", "latitude": 38.75, "longitude" : -123.57, "speed": 10 }]} />
+
+Getting the latest data entry in the stream with `goliothctl stream get [device
+name] /position` shows that the data doesn't contain the timestamp:
 
 ```
-{
-  "time": <time of reception on server>
-  "position": {
-    "latitude": 37.75,
-    "longitude" : -122.57,
-    "speed" : 5
+{"latitude":38.75,"longitude":-123.57,"speed":10}
+```
+
+However, if we use a query we can see the full data structure stored on LightDB
+Stream that uses the timestamps we submitted:
+
+```
+goliothctl stream query [device name] --interval 8h --field time --field "deviceId" --field "*"
+```
+
+```
+[
+  {
+    "data": {
+      "position": {
+        "latitude": 37.75,
+        "longitude": -122.57,
+        "speed": 5
+      }
+    },
+    "deviceId": "61d34aceea77dbd14986344a",
+    "time": "2022-12-08T20:44:47.544+00:00"
+  },
+  {
+    "data": {
+      "position": {
+        "latitude": 38.75,
+        "longitude": -123.57,
+        "speed": 10
+      }
+    },
+    "deviceId": "61d34aceea77dbd14986344a",
+    "time": "2022-12-08T20:45:47+00:00"
   }
-}
-{
-  "time": <time of reception on server>
-  "position": {
-    "latitude": 38.75,
-    "longitude" : -123.57,
-    "speed" : 10
-  }
-}
+]
 ```
 
 ### Reading latest stream data with GET
