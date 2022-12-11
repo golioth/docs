@@ -103,7 +103,7 @@ For the most part, you can copy these configuration files from Zephyr and Goliot
 :::
 
 ```txt title="boards/esp32.conf"
-ONFIG_WIFI=y
+CONFIG_WIFI=y
 CONFIG_HEAP_MEM_POOL_SIZE=98304
 
 CONFIG_NET_L2_ETHERNET=y
