@@ -39,7 +39,7 @@ See the getting started guide to [authorize PSK devices](/getting-started/3-comm
 
 Certificate authentication is more complex to setup and use, but provides a superior level of security.
 
-It also enables you to perform zero-touch provisioning of devices. After you configure the trusted root or intermediate certificates in your Golioth project, and device connecting using a certificate signed by one of the trusted certificates will be *automatically provisioned*.
+It also enables you to perform zero-touch provisioning of devices. After you configure the trusted root or intermediate certificates in your Golioth project, a device connecting using a certificate signed by one of the trusted certificates will be *automatically provisioned* in that project.
 
 ### Server authentication
 
@@ -49,7 +49,7 @@ That typically consists of multiple steps:
 * Verify that the certificate by the gateway is signed by a trusted authority
 * Verify the *Valid From* and *Valid Until* timestamps of the certificate
 * Verify the Common Name (CN) of the certificate against the URL you are connecting to
-* Verify the Alternative Subject Name (ASN) of the certificate against the URL yo uare connecting to
+* Verify the Alternative Subject Name (ASN) of the certificate against the URL you are connecting to
 
 To verify the certificate is signed by a trusted authority, your device will need to be pre-provisioned with a set of trusted authority certificates, and need to maintain them over its lifetime.
 
