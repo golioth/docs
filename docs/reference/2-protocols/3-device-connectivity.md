@@ -25,4 +25,4 @@ we use the DTLS handshake and authentication as indication of a device going onl
 | Session Timeout       | Default is `3 hours`. Can't be negotiated with the device. |
 
 - More on authentication over each protocol:
-  - [Using Pre Shared Keys on CoAP Gateway](/reference/protocols/device-auth)
+  - [Using Pre-Shared Keys on CoAP Gateway](/reference/protocols/device-auth)

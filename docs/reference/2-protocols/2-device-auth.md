@@ -5,7 +5,7 @@ title: Device Authentication
 
 To access Golioth Services from a device, the device needs to be properly created and provisioned.
 
-You can manage device level and project credentials using the Web Console or through the CLI.
+You can manage device level and project credentials using the Web Console or through the Golioth CLI.
 
 ## CoAP Gateway address and port
 
@@ -24,22 +24,23 @@ The CoAP gateway requires authentication.
 | DTLS PSK                      | Per-device pre-shared key               |
 | DTLS Client Certificate       | Mutual certificate-based authentication |
 
-## PSK Authentication
+## Pre-Shared Key (PSK) Authentication
 
 For every device, a shared secret (key) needs to be established prior to first communication.
 
-This can be as simple as generating a pre-shared key on the Golioth console, and loading it on your device.
+This can be as simple as generating a pre-shared key on the Golioth console, and loading it on your device. Alternatively, you can generate a key on the device, and upload it to Golioth.
 
-Alternatively, you can generate a key on the device, an upload it to Golioth.
+See the getting started guide:
 
-See the getting started guide to [authorize PSK devices](/getting-started/3-commandline/6-authorize-devices.md).
+* Golioth Console: [authorize PSK devices](/getting-started/console/authorize-devices).
+* Command line Tools: [authorize PSK devices](/getting-started/3-commandline/6-authorize-devices.md).
 
 
 ## Client Certificate Authentication
 
-Certificate authentication is more complex to setup and use, but provides a superior level of security.
+Certificate authentication is more complex to setup and use than PSK authentication, but it provides a superior level of security. It also enables you to perform zero-touch provisioning of devices.
 
-It also enables you to perform zero-touch provisioning of devices. After you configure the trusted root or intermediate certificates in your Golioth project, a device connecting using a certificate signed by one of the trusted certificates will be *automatically provisioned* in that project.
+The trusted root or intermediate certificates are first configured on your Golioth project. When a device connects to Golioth using a certificate signed by one of your trusted certificates, the device will be *automatically provisioned* in that project.
 
 ### Server authentication
 
@@ -51,7 +52,7 @@ That typically consists of multiple steps:
 * Verify the Common Name (CN) of the certificate against the URL you are connecting to
 * Verify the Alternative Subject Name (ASN) of the certificate against the URL you are connecting to
 
-To verify the certificate is signed by a trusted authority, your device will need to be pre-provisioned with a set of trusted authority certificates, and need to maintain them over its lifetime.
+To verify the server certificate is signed by a trusted authority, your device will need to be pre-provisioned with a set of trusted authority certificates, and need to maintain them over its lifetime.
 
 To verify the *Valid From* and *Valid Until* timestamps, your device will need to have an accurate real-time clock.
 
