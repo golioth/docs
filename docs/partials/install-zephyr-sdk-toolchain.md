@@ -54,7 +54,7 @@ cd zephyr-sdk-0.15.0
 </TabItem>
 <TabItem value="windows">
 
-Unpack the archive and run the installer. The SDK will be placed in the `%HOMEPATH%\zephyr-sdk-0.14.2` directory:
+Unpack the archive and run the installer. The SDK will be placed in the `%HOMEPATH%\zephyr-sdk-0.15.0` directory:
 
 ```console
 cd %HOMEPATH%
