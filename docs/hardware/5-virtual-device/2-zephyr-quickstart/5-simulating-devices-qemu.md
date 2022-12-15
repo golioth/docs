@@ -41,6 +41,10 @@ At the bottom of the page, add your credentials for your device:
 ```
 CONFIG_GOLIOTH_SYSTEM_CLIENT_PSK_ID="DEVICE_CRED_ID"
 CONFIG_GOLIOTH_SYSTEM_CLIENT_PSK="DEVICE_PSK"
+
+# May be required to address undefined references to functions
+CONFIG_ENTROPY_GENERATOR=y
+CONFIG_TEST_RANDOM_GENERATOR=y
 ```
 Save and exit (`ctrl+x` in nano)
 
