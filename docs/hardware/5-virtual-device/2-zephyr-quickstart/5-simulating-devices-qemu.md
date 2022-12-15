@@ -49,7 +49,7 @@ Save and exit (`ctrl+x` in nano)
 At this point, you can build a Golioth Zephyr project:
 
 ```
-west build -b qemu_cortex_m3 samples/hello -p
+west build -b qemu_x86 samples/hello -p
 ```
 
 and run it:
