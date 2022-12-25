@@ -196,7 +196,7 @@ Make sure that `west` can find the `golioth/zephyr` codebase on your local
 machine. You'll have to `source` a particular file to do so.
 
 ```bash
-source ~/golioth-zephyr-workspace/zephyr/zephyr/zephyr-env.sh
+source ~/golioth-zephyr-workspace/zephyr/zephyr-env.sh
 ```
 
 This will set the `$ZEPHYR_BASE` environment variable, as well as make sure
