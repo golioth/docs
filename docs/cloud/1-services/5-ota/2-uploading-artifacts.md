@@ -28,7 +28,7 @@ $ west build -b nrf52840dk_nrf52840 samples/dfu -p
 $ west sign -t imgtool --no-hex -B ./build/zephyr/app_update.bin -- --key ../../../bootloader/mcuboot/root-rsa-2048.pem --version 1.0.1
 ```
 
-Them you can upload to our backend using the following command:
+Then you can upload to our backend using the following command:
 
 ```
 # assuming you have a blueprint name nrf91
