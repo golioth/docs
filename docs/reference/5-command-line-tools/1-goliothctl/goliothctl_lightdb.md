@@ -8,7 +8,7 @@ hide_title: true
 ---
 ## goliothctl lightdb
 
-Access data on LightDB
+Access data on Light DB
 
 ```
 goliothctl lightdb [flags]
@@ -50,6 +50,13 @@ $ goliothctl lightdb set --id <device id> /test -b "{\"state\":1}" --format json
 # Update a data on multiple devices
 $ goliothctl lightdb set --tag [tag name] /test -b "{\"state\":1}" --format json
 {"state":1}
+
+# Listen to lightdb messages from a device
+$ goliothctl lightb listen [device name]
+
+# Listen to lightdb messages from a device at a specific path
+$ goliothctl lightb listen [device name] /test
+
 ```
 
 ### Options
@@ -71,5 +78,6 @@ $ goliothctl lightdb set --tag [tag name] /test -b "{\"state\":1}" --format json
 * [goliothctl](/reference/command-line-tools/goliothctl/goliothctl/)	 - Manage Golioth platform resources and developer workflow.
 * [goliothctl lightdb delete](/reference/command-line-tools/goliothctl/goliothctl_lightdb_delete/)	 - Delete data at given path
 * [goliothctl lightdb get](/reference/command-line-tools/goliothctl/goliothctl_lightdb_get/)	 - Get data at given path
+* [goliothctl lightdb listen](/reference/command-line-tools/goliothctl/goliothctl_lightdb_listen/)	 - Listen to lightdb messages
 * [goliothctl lightdb set](/reference/command-line-tools/goliothctl/goliothctl_lightdb_set/)	 - Set data at given path
-* [goliothctl lightdb listen](/reference/command-line-tools/goliothctl/goliothctl_lightdb_listen/)	 - Listen at given path
+

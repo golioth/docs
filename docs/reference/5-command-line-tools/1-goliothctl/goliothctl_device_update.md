@@ -33,6 +33,8 @@ goliothctl device update [device name] [flags]
       --addHwId stringArray   add hardware id
       --addTag stringArray    add tag
       --blueprint string      new device blueprint
+      --disable               disable device
+      --enable                enable device
   -h, --help                  help for update
       --id string             device id
       --name string           new device name

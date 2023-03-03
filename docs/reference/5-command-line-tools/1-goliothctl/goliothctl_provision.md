@@ -35,6 +35,7 @@ goliothctl provision [flags]
       --id string          device id
       --name string        device name
       --psk string         pre shared key
+      --pskId string       credential id
       --tags stringArray   tag names
 ```
 

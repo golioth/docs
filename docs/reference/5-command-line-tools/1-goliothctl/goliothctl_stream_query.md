@@ -8,7 +8,7 @@ hide_title: true
 ---
 ## goliothctl stream query
 
-Run a query against all data stored in a LightDB Stream in the supplied path.
+Run a query against all data stored in a LightDB stream in the supplied path.
 
 ```
 goliothctl stream query [flags]
