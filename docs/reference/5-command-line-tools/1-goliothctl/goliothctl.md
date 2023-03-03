@@ -47,10 +47,12 @@ goliothctl provision --hwId "DE:AD:BE:EF" --name "My first device" --credId "dea
 
 * [goliothctl apikeys](/reference/command-line-tools/goliothctl/goliothctl_apikeys/)	 - Access API Keys information.
 * [goliothctl blueprint](/reference/command-line-tools/goliothctl/goliothctl_blueprint/)	 - Create, update, and delete blueprint.
+* [goliothctl completion](/reference/command-line-tools/goliothctl/goliothctl_completion/)	 - Generate completion script
 * [goliothctl config](/reference/command-line-tools/goliothctl/goliothctl_config/)	 - The `goliothctl config` subcommands are used to get and set values in the current local goliothctl config.
+* [goliothctl credentials](/reference/command-line-tools/goliothctl/goliothctl_credentials/)	 - Use the `goliothctl credentials` subcommands to list and delete devices credentials.
 * [goliothctl device](/reference/command-line-tools/goliothctl/goliothctl_device/)	 - Use the `goliothctl device` subcommands to add, remove, list, and update data associated with devices.
 * [goliothctl dfu](/reference/command-line-tools/goliothctl/goliothctl_dfu/)	 - Firmware management command.
-* [goliothctl lightdb](/reference/command-line-tools/goliothctl/goliothctl_lightdb/)	 - Access data on LightDB
+* [goliothctl lightdb](/reference/command-line-tools/goliothctl/goliothctl_lightdb/)	 - Access data on Light DB
 * [goliothctl login](/reference/command-line-tools/goliothctl/goliothctl_login/)	 - Authenticate with Golioth.
 * [goliothctl logout](/reference/command-line-tools/goliothctl/goliothctl_logout/)	 - Log out of Golioth manually.
 * [goliothctl logs](/reference/command-line-tools/goliothctl/goliothctl_logs/)	 - Show device logs (from the last 4h by default)
@@ -58,6 +60,5 @@ goliothctl provision --hwId "DE:AD:BE:EF" --name "My first device" --credId "dea
 * [goliothctl provision](/reference/command-line-tools/goliothctl/goliothctl_provision/)	 - Create a device and provision it with credentials.
 * [goliothctl stream](/reference/command-line-tools/goliothctl/goliothctl_stream/)	 - Access the data in a LightDB Stream.
 * [goliothctl tag](/reference/command-line-tools/goliothctl/goliothctl_tag/)	 - Create, update, and delete tags.
-* [goliothctl updates](/reference/command-line-tools/goliothctl/goliothctl_updates/)	 - Trigger device updates.
 * [goliothctl version](/reference/command-line-tools/goliothctl/goliothctl_version/)	 - Show CLI Version
 

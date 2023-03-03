@@ -39,7 +39,7 @@ goliothctl logs --device <uuid>
       --device string       device id
   -h, --help                help for logs
       --interval duration   return entries not older than this value (ex: 15m,8h,1d) (default 4h0m0s)
-      --level string        log level [NONE DEBUG INFO WARN ERROR]
+      --level string        log level [ERROR NONE DEBUG INFO WARN]
       --module string       log module
       --tags stringArray    tag names
       --term string         free term search
@@ -56,4 +56,5 @@ goliothctl logs --device <uuid>
 ### SEE ALSO
 
 * [goliothctl](/reference/command-line-tools/goliothctl/goliothctl/)	 - Manage Golioth platform resources and developer workflow.
-* [goliothctl logs listen](/reference/command-line-tools/goliothctl/goliothctl_logs_listen/)	 - Listen to logs
+* [goliothctl logs listen](/reference/command-line-tools/goliothctl/goliothctl_logs_listen/)	 - Listen to logs messages
+
