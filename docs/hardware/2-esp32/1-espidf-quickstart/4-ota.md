@@ -24,7 +24,7 @@ updating the version number to `1.2.6`. For fun, also change the tag name to
 new firmware version is running.
 
 ```c title="changes to: golioth-firmware-sdk/examples/common/golioth_basics.c"
-#define TAG "golioth_basics_new"
+LOG_TAG_DEFINE(golioth_basics_new);
 
 // Current firmware version
 static const char* _current_version = "1.2.6";
