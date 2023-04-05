@@ -18,6 +18,10 @@ How to use guides:
 | GET         | Download binary of a given component and version                                                                  | /.u/c/{package}@{version} |
 | POST/PUT    | Report firmware state for a given package                                                                         | /.u/c/{package}           |
 
+:::note
+The desired release version returned in the manifest will be the most recently created release that is enabled.
+:::
+
 ### Release Manifest Format
 
 Here is an example of a release manifest in JSON format:
