@@ -8,7 +8,7 @@ hide_title: true
 ---
 ## goliothctl apikeys create
 
-Create an API key or JWT that can be used to connect to the Golioth REST API.
+Create an API key or JSON Web Token (JWT) that can be used to connect to the Golioth REST API.
 
 ### Synopsis
 
