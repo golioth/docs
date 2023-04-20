@@ -39,7 +39,7 @@ id:"fe71a35c-0cb9-4643-9761-e95c332c2b1c"  key:"LQBgNB0LldJ4tyIDDzQd4tY7G060o8bV
 
 ```
   -h, --help                 help for create
-      --keyTag stringArray   key tag(s)
+      --keyTag stringArray   optionally assign one or more tags to the key being created
   -t, --type string          api key type [API_KEY JWT_KEY] (default "API_KEY")
 
 ```
