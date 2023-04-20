@@ -12,7 +12,6 @@ Create an API key or JSON Web Token (JWT) that can be used to connect to the Gol
 
 ### Synopsis
 
-The '--type' is API_KEY by default. To create a JWT use '--type JWT_KEY'. It's also possible to tag keys with one or more tag(s) using the '--keyTag'.
 
 ```
 goliothctl apikeys create [flags]
