@@ -10,7 +10,6 @@ hide_title: true
 
 Create an API key or JSON Web Token (JWT) that can be used to connect to the Golioth REST API.
 
-### Synopsis
 
 
 ```
