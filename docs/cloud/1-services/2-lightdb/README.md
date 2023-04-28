@@ -8,7 +8,7 @@ slug: /cloud/services/lightdb
 
 One of the goals of the Golioth platform is to provide a flexible way for users to have access to Data and Compute resources for IoT projects.
 
-LightDB provids an easy way for IoT devices to save, query and listen to data changes in the cloud. Any authenticated device can connected to one of the gateways on our system and access LightDB.
+LightDB provides an easy way for IoT devices to save, query and listen to data changes in the cloud. Any authenticated device can connected to one of the gateways on our system and access LightDB.
 
 An external party authenticated within our system (such as the command line interface on your computer) can interact with LightDB. Currently this is possible via the `goliothctl lightdb` command. External parties can query data to show on a UI and also change data so the device can react to those changes.
 
