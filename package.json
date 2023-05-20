@@ -32,6 +32,7 @@
     "clsx": "^1.1.1",
     "docusaurus2-dotenv": "^1.4.0",
     "env-cmd": "^10.1.0",
+    "posthog-docusaurus": "^2.0.0",
     "protobufjs": "^6.11.2",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",

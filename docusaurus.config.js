@@ -196,6 +196,13 @@ module.exports = {
         defaults: false, //  Adds support for dotenv-defaults. If set to true, uses ./.env.defaults
       },
     ],
+    [
+      "posthog-docusaurus",
+      {
+        apiKey: `${process.env.POSTHOG_API_KEY}`,
+        appUrl: "https://app.posthog.com",
+      },
+    ],
     "@docusaurus/plugin-ideal-image",
     // [
     //   '@docusaurus/plugin-client-redirects',
