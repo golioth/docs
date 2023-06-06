@@ -5,7 +5,7 @@ title: Registration & Wizard
 
 To begin using Golioth please register for an account at [console.golioth.io](https://console.golioth.io/).
 
-Once registered, you can review our terms of service and continue to the Wizard that guides you through provisioning your first device.
+Once registered, you can review our terms of service and continue to the wizard that guides you through provisioning your first device.
 
 ![Golioth Console hardware provisioning wizard](../assets/gettingstarted-console-wizard.png)
 

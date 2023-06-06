@@ -7,7 +7,7 @@ Let's use the Golioth Console to create a new device.
 
 ![Golioth Console device view](../assets/gettingstarted-console-devices.png)
 
-In the center at the top of the console widow the currently selected project is
+In the center at the top of the console window the currently selected project is
 shown. On the left sidebar we can use the Devices option to list this project's
 devices. Here we see the device that was created by the quickstart wizard.
 
