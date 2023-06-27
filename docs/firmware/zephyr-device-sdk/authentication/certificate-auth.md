@@ -89,24 +89,36 @@ openssl x509 -req \
     -days 500 -sha256
 
 # Convert device certificates to DER format
-openssl x509 -in ${CLIENT_NAME}.crt.pem -outform DER -out ${CLIENT_NAME}.crt.pem.der
-openssl ec -in ${CLIENT_NAME}.key.pem -outform DER -out ${CLIENT_NAME}.key.pem.der
+openssl x509 -in ${CLIENT_NAME}.crt.pem -outform DER -out ${CLIENT_NAME}.crt.der
+openssl ec -in ${CLIENT_NAME}.key.pem -outform DER -out ${CLIENT_NAME}.key.der
 ```
 
 This will generate the following files:
 
 * **Signed device certificate:** `<projectID>-<primary-hardware-ID].crt.pem`
-* **Signed device certificate (DER):** `<projectID>-<primary-hardware-ID>.crt.pem.der`
+* **Signed device certificate (DER):** `<projectID>-<primary-hardware-ID>.crt.der`
 * **Certificate Signing Request:** `<projectID>-<primary-hardware-ID>.csr.pem`
 * **Private device key:** `<projectID>-<primary-hardware-ID>.key.pem`
-* **Private device key (DER):** `<projectID>-<primary-hardware-ID>.key.pem.der`
+* **Private device key (DER):** `<projectID>-<primary-hardware-ID>.key.der`
 
 ## Position the certificates
 
-### Compile the `hello` sample using device certificates
-
 The device certificate and key (both in DER binary format) can now be used with
-the device. To test them, build the Golioth `hello` sample code.
+the device. For simple testing, you can hardcode a certificate to use with our
+provided samples. For production, you should provision unique certificates onto each
+device.
+
+### Hardcoding for samples
+
+All of our samples can be compiled with hardcoded certificate credentials. As an
+example, build the Golioth `hello` sample code.
+
+:::note For prototyping only
+
+Using a hardcoded certificate is an easy way to start using and test
+certificate based authentication. It should not be used in production.
+
+:::
 
 1. Set the project to use Certificate Authentication
 
@@ -117,10 +129,31 @@ the device. To test them, build the Golioth `hello` sample code.
 
     ```
     CONFIG_GOLIOTH_AUTH_METHOD_CERT=y
-    CONFIG_GOLIOTH_SYSTEM_CLIENT_CRT_PATH="keys/device.crt.der"
-    CONFIG_GOLIOTH_SYSTEM_CLIENT_KEY_PATH="keys/device.key.der"
+    CONFIG_GOLIOTH_SAMPLE_HARDCODED_CRT_PATH="keys/device.crt.der"
+    CONFIG_GOLIOTH_SAMPLE_HARDCODED_KEY_PATH="keys/device.key.der"
     ```
 2. Build and flash the firmware following the instructions in the [README](https://github.com/golioth/golioth-zephyr-sdk/tree/main/samples/hello).
+
+### Provisioning certificates
+
+In a production flow, you should provision unique certificates onto each device as
+part of your manufacturing process. Once the certificates are on the device, you
+need to load them into the [Zephyr TLS Credential Store](https://docs.zephyrproject.org/apidoc/latest/group__tls__credentials.html). As an example, if your client certificate and private
+key are stored in the byte arrays `tls_client_crt` and `tls_private_key` (respectively):
+
+```C
+tls_credential_add(CONFIG_GOLIOTH_SYSTEM_CLIENT_CREDENTIALS_TAG,
+                   TLS_CREDENTIAL_SERVER_CERTIFICATE,
+                   tls_client_crt, ARRAY_SIZE(tls_client_crt));
+tls_credential_add(CONFIG_GOLIOTH_SYSTEM_CLIENT_CREDENTIALS_TAG,
+                   TLS_CREDENTIAL_PRIVATE_KEY,
+                   tls_private_key, ARRAY_SIZE(tls_private_key));
+```
+
+Golioth does not specify the means of provisioning certificates onto a device; you are
+free to use whichever method bests fits your device architecture and manufacturing
+process. We provide an example of one way to provision certificates in the
+`certificate_provisioning` sample.
 
 ### Upload public root key
 
