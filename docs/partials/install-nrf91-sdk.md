@@ -1,4 +1,3 @@
-
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
@@ -8,40 +7,30 @@ These directions are mirroring [the Zephyr and Python dependency install instruc
 
 With `west` installed, grab the Golioth NCS SDK:
 
-```
-cd ~
-west init -m https://github.com/golioth/golioth-zephyr-sdk.git --mf west-ncs.yml ~/golioth-ncs-workspace
-cd golioth-ncs-workspace
-west update
-```
-
-Tell `west` to automatically configure CMake:
-
-```
-west zephyr-export
-```
-
-Lastly, install the remaining dependencies:
-
 <Tabs
-groupId="west-installation"
-defaultValue="global"
+groupId="os"
+defaultValue="linux"
 values={[
-{label: 'Install within a virtualenv', value: 'virtualenv'},
-{label: 'Install globally', value: 'global'},
+{label: 'Linux', value: 'linux'},
+{label: 'MacOS', value: 'macos'},
+{label: 'Windows', value: 'windows'},
 ]}>
-<TabItem value="virtualenv">
 
-```
-pip install -r ~/golioth-ncs-workspace/zephyr/scripts/requirements.txt
-```
+import InstallNRFSDKUnix from './install-nrf91-sdk-unix.md'
+import InstallNRFSDKWindows from './install-nrf91-sdk-windows.md'
 
+<TabItem value="linux">
+<InstallNRFSDKUnix/>
 </TabItem>
-<TabItem value="global">
 
-```
-pip3 install -r ~/golioth-ncs-workspace/zephyr/scripts/requirements.txt
-```
+<TabItem value="macos">
+<InstallNRFSDKUnix/>
+</TabItem>
 
+<TabItem value="windows">
+<InstallNRFSDKWindows/>
 </TabItem>
 </Tabs>
+
+
+

@@ -44,13 +44,9 @@ brew install cmake ninja gperf python3 ccache qemu dtc
 </TabItem>
 <TabItem value="windows">
 
-[The nRF Connect For Desktop](https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-desktop) installer includes a Toolchain Manager section that handles many of the same functions described in the Ubuntu tab. This can be used in conjunction with [the VS Code extension for nRF Connect SDK (NCS)](https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-VS-Code). This is the recommended path for Windows users with the nRF9160. 
+import SetupWestNRF91Windows from './setup-west-nrf91-windows.md'
 
-:::note
-
-Using the VS Code extension in conjuction with the nRF Connect for Desktop tools may move you outside many of the other recommended methods of compiling your firmware, described on this docs page and elsewhere on Golioth. If you're having problems with your Windows install, please contact us on our [Community Discord](https://golioth.io/discord)
-
-:::
+<SetupWestNRF91Windows />
 
 </TabItem>
 </Tabs>
