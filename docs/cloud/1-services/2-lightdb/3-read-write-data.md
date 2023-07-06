@@ -20,7 +20,7 @@ We can start by saving temperature data on LightDB. On requests to write data, t
 - `integer`
 - `string`
 
-import { ProtocolPublishSample, ProtocolReadSample, ProtocolDeleteSample } from '/docs/partials/protocol.mdx'
+import { ProtocolPublishSample, ProtocolReadSample, ProtocolDeleteSample } from '/docs/partials-common/protocol.mdx'
 
 Here is a snippet of example code to save a temperature value of 30 Cº at path `/env/temp`
 
