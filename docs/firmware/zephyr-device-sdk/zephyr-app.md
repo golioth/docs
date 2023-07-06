@@ -7,7 +7,7 @@ sidebar_position: 99
 While the [Quickstart](/getting-started) focuses on running a sample that's located within the Zephyr file-hierarchy,
 it's simple enough to create a new application that's separate from Zephyr.
 
-import PrerequisitesDevice from '/docs/partials/prerequisites-device.md'
+import PrerequisitesDevice from '/docs/partials-common/prerequisites-device.md'
 
 <PrerequisitesDevice />
 
