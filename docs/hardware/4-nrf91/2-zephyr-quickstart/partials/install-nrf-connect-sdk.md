@@ -16,8 +16,8 @@ values={[
 {label: 'Windows', value: 'windows'},
 ]}>
 
-import InstallNRFSDKUnix from './install-nrf91-sdk-unix.md'
-import InstallNRFSDKWindows from './install-nrf91-sdk-windows.md'
+import InstallNRFSDKUnix from '/docs/hardware/4-nrf91/2-zephyr-quickstart/partials/install-nrf-connect-sdk-unix.md'
+import InstallNRFSDKWindows from '/docs/hardware/4-nrf91/2-zephyr-quickstart/partials/install-nrf-connect-sdk-windows.md'
 
 <TabItem value="linux">
 <InstallNRFSDKUnix/>
