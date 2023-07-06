@@ -14,13 +14,13 @@ The nRF9160 Feather and all Nordic Semiconductor devices utilizing Zephyr requir
 
 ### Install West
 
-import SetupWestNRF91 from '/docs/partials/setup-west-nrf91.md'
+import SetupWestNRF91 from '/docs/hardware/4-nrf91/2-zephyr-quickstart/partials/setup-west-nrf91.md'
 
 <SetupWestNRF91/>
 
 ### Installing the NRF Connect SDK
 
-import InstallNRFSDK from '/docs/partials/install-nrf91-sdk.md'
+import InstallNRFSDK from '/docs/hardware/4-nrf91/2-zephyr-quickstart/partials/install-nrf-connect-sdk.md'
 
 <InstallNRFSDK/>
 
@@ -28,7 +28,7 @@ import InstallNRFSDK from '/docs/partials/install-nrf91-sdk.md'
 
 The nRF9160 is an ARM based device, so we will use the ARM toolchains (gcc, gdb, etc) included in the Zephyr SDK
 
-import InstallZephyrSDKtoolchain from '/docs/partials/install-zephyr-sdk-toolchain.md'
+import InstallZephyrSDKtoolchain from '/docs/partials-common/install-zephyr-sdk-toolchain.md'
 
 <InstallZephyrSDKtoolchain/>
 
@@ -36,7 +36,7 @@ import InstallZephyrSDKtoolchain from '/docs/partials/install-zephyr-sdk-toolcha
 
 Your system is all set up and ready to start building & flashing with Zephyr. Verify by building a minimal sample for the nRF9160 DK:
 
-import BuildFirmwareFor9160 from '/docs/partials/build-fw-nrf91.md'  
+import BuildFirmwareFor9160 from '/docs/hardware/4-nrf91/2-zephyr-quickstart/partials/build-fw-nrf91.md'  
 
 <BuildFirmwareFor9160/>
 
