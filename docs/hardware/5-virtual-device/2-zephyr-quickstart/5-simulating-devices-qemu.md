@@ -5,20 +5,19 @@ title: Simulating devices with QEMU
 
 ### Install West
 
-import SetupZephyr from '/docs/partials/setup-zephyr.md'
+import SetupZephyr from '/docs/partials-common/setup-zephyr.md'
 
 <SetupZephyr/>
 
 ### Install Zephyr SDK
 
-import InstallZephyrSDK from '/docs/partials/install-zephyr-sdk.md'
+import InstallZephyrSDK from '/docs/partials-common/install-zephyr-sdk.md'
 
 <InstallZephyrSDK/>
 
 ### Toolchain check
 
-import CheckToolchain from '/docs/partials/check-toolchain.md'
-
+import CheckToolchain from '/docs/hardware/5-virtual-device/2-zephyr-quickstart/partials/check-toolchain.md'
 <CheckToolchain/>
 
 ### Add credentials to sample

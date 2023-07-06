@@ -10,19 +10,19 @@ Golioth can be added to a device with _Device SDKs_ which are based on different
 
 ### Install West
 
-import SetupZephyr from '/docs/partials/setup-zephyr.md'
+import SetupZephyr from '/docs/partials-common/setup-zephyr.md'
 
 <SetupZephyr/>
 
 ### Install Golioth Zephyr SDK
 
-import InstallZephyrSDK from '/docs/partials/install-zephyr-sdk.md'
+import InstallZephyrSDK from '/docs/partials-common/install-zephyr-sdk.md'
 
 <InstallZephyrSDK/>
 
 ### Installing the Zephyr SDK Toolchain
 
-import InstallZephyrSDKtoolchain from '/docs/partials/install-zephyr-sdk-toolchain.md'
+import InstallZephyrSDKtoolchain from '/docs/partials-common/install-zephyr-sdk-toolchain.md'
 
 <InstallZephyrSDKtoolchain/>
 
@@ -30,6 +30,6 @@ import InstallZephyrSDKtoolchain from '/docs/partials/install-zephyr-sdk-toolcha
 
 Your system is all set up and ready to start building & flashing with Zephyr. Verify by building a minimal sample:
 
-import BuildSample from '/docs/partials/sample-build.mdx'
+import BuildSample from '/docs/partials-common/sample-build.mdx'
 
 <BuildSample board="mimxrt1060_evkb"/>
