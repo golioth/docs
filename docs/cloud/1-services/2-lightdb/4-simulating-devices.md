@@ -3,8 +3,8 @@ id: simulating-devices
 title: Testing LightDB using coap CLI and goliothctl
 ---
 
-import Prerequisites from '/docs/partials/prerequisites-platform-setup.md'
-import { ProtocolPublishSample, ProtocolReadSample, ProtocolDeleteSample } from '/docs/partials/protocol.mdx'
+import Prerequisites from '/docs/partials-common/prerequisites-platform-setup.md'
+import { ProtocolPublishSample, ProtocolReadSample, ProtocolDeleteSample } from '/docs/partials-common/protocol.mdx'
 
 <Prerequisites />
 

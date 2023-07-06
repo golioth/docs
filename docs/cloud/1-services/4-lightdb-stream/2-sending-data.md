@@ -16,7 +16,7 @@ string.
 In this example, we'll be using the `coap` CLI to send fictional GPS positional
 data to a stream located at `/position`.
 
-import { ProtocolPublishSample, ProtocolReadSample } from '/docs/partials/protocol.mdx'
+import { ProtocolPublishSample, ProtocolReadSample } from '/docs/partials-common/protocol.mdx'
 
 <ProtocolPublishSample path="/.s/position" method="POST" body={{"latitude": 37.75, "longitude" : -122.57, "speed": 5 }} />
 <ProtocolPublishSample path="/.s/position" method="POST" body={{"latitude": 38.75, "longitude" : -123.57, "speed": 10 }} />

@@ -55,7 +55,7 @@ Let's consider an application in which we want to plot temperature data that has
 
 The device can post data to the `/env` path so we can put together environment data under a group. An example of posting that kind of data using `coap` CLI can be seen bellow:
 
-import { ProtocolPublishSample } from '/docs/partials/protocol.mdx'
+import { ProtocolPublishSample } from '/docs/partials-common/protocol.mdx'
 
 <ProtocolPublishSample path="/.s/env" method="POST" body={{"temperature": 30, "type" : "inside" }}/>
 <ProtocolPublishSample path="/.s/env" method="POST" body={{"temperature": 32, "type" : "inside" }}/>
