@@ -5,13 +5,16 @@ title: Sending LightDB Stream Data
 
 Devices interact with LightDB Stream using the gateways available on the platform.
 
-> See [CoAP Gateway Interface](/reference/protocols/coap/lightdb-stream)
+> See [CoAP API Reference](/reference/protocols/coap/lightdb-stream).
 
 ### Inserting data with POST
 
-To insert data into a LightDB Stream, you can either use the REST API or, as we'll do here, pretend to be a device and use `coap` CLI to send CoAP packets to the Golioth servers. When writing, data can either be in json or cbor, or a single value of type boolean, float, integer, or string.
+Devices can insert data into LightDB Stream with a CoAP `POST` request. Data can
+either be in JSON or CBOR, or a single value of type boolean, float, integer, or
+string.
 
-In this example, we'll be saving fictional GPS positional data to a stream located at /position.
+In this example, we'll be using the `coap` CLI to send fictional GPS positional
+data to a stream located at `/position`.
 
 import { ProtocolPublishSample, ProtocolReadSample } from '/docs/partials/protocol.mdx'
 
@@ -77,9 +80,15 @@ goliothctl stream query [device name] --interval 8h --field time --field "device
 
 ### Reading latest stream data with GET
 
-A device can also get the latest information streamed to LightDB Stream. Imagine a scenario where the device went offline and now wants to check the latest information sent to know if it should post more data. The returned value of the CoAP API depends on what is stored on LightDB Stream, which can be any JSON-like data type. The value will be encoded depending on the `Accept` header that is set on the request.
+A device can also get the latest information streamed to LightDB Stream. Imagine
+a scenario where the device went offline and now wants to check the latest
+information sent to know if it should post more data. The returned value of the
+CoAP API depends on what is stored on LightDB Stream, which can be any JSON-like
+data type. The value will be encoded depending on the `Accept` header that is
+set on the request.
 
-Taking our asset tracking example, to read the last device position data, we can issue a GET request like this:
+Taking our asset tracking example, to read the last device position data, we can
+issue a `GET` request like this:
 
 <ProtocolReadSample path="/.s/position" response={{ "latitude": 38.75, "longitude" : -123.57, "speed": 5 }} />
 
