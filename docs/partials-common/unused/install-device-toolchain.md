@@ -12,7 +12,7 @@ values={[
 ]}>
 <TabItem value="esp32">
 
-import SetupEsp from './install-espressif-toolchain.md'
+import SetupEsp from '/docs/hardware/2-esp32/2-zephyr-quickstart/partials/install-espressif-toolchain.md'
 
 <SetupEsp/>
 
@@ -31,7 +31,7 @@ You can also follow the [Getting started Guide](https://docs.zephyrproject.org/l
 </TabItem>
 <TabItem value="qemu">
 
-import InstallQemuSdk from './install-qemu-sdk.md'
+import InstallQemuSdk from '/docs/partials-common/install-qemu-sdk.md'
 
 <InstallQemuSdk />
 
