@@ -14,7 +14,7 @@ values={[
 {label: 'Windows', value: 'windows'},
 ]}>
 
-import SetupZephyrUnix from './setup-zephyr-unix.md'
+import SetupZephyrUnix from '/docs/partials-common/setup-zephyr-unix.md'
 
 <TabItem value="linux">
 
