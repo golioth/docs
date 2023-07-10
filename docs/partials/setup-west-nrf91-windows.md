@@ -3,7 +3,7 @@ import TabItem from '@theme/TabItem';
 
 :::note
 
-[The nRF Connect For Desktop](https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-desktop) installer includes a Toolchain Manager section that handles many of the same functions described in the Ubuntu tab. This can be used in conjunction with [the VS Code extension for nRF Connect SDK (NCS)](https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-VS-Code). This is the recommended path for Windows users with the nRF9160. 
+[The nRF Connect For Desktop](https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-desktop) installer includes a Toolchain Manager section that handles many of the same functions described in the Linux tab. This can be used in conjunction with [the VS Code extension for nRF Connect SDK (NCS)](https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-VS-Code). This is the recommended path for Windows users with the nRF9160. 
 
 :::
 
@@ -15,15 +15,21 @@ These instructions must be run in a `cmd.exe` command prompt. The required comma
 
 1. [Install chocolatey](https://chocolatey.org/install)
 
-1. Open an Administrator `cmd.exe` window: press the Windows key, type “cmd.exe”, right-click the result, and choose “Run as Administrator”.
+2. Open an Administrator `cmd.exe` window:
+
+    * press the Windows key
+    * type `cmd.exe`
+    * right-click the result, and choose `Run as Administrator`
 
 3. Disable global confirmation to avoid having to confirm the installation of individual programs:
-    ```
+
+    ```shell
     choco feature enable -n allowGlobalConfirmation
     ```
 
 4. Use `choco` to install the required dependencies: 
-    ```
+
+    ```shell
     choco install cmake --installargs 'ADD_CMAKE_TO_PATH=System'
     choco install ninja gperf python git dtc-msys2 wget 7zip
     ```
@@ -61,14 +67,16 @@ values={[
 
     ```
 
-Once activated your shell will be prefixed with `(.venv)`. The virtual environment can be deactivated at any time by running `deactivate`.
+    Once activated your shell will be prefixed with `(.venv)`. The virtual environment can be deactivated at any time by running `deactivate`.
 
-:::note
-Remember to activate the virtual environment every time you start working.
-:::
+    :::tip Reactivate for each new session
+    Remember to activate the virtual environment every time you start working.
+    :::
+
 
 3. Install west:
-    ```
+
+    ```shell
     pip install west
     ```
 
@@ -77,7 +85,7 @@ Remember to activate the virtual environment every time you start working.
 
 1. Install west:
 
-    ```
+    ```shell
     pip3 install -U west
     ```
 
@@ -87,6 +95,6 @@ Remember to activate the virtual environment every time you start working.
 
 :::note
 
-Using the VS Code extension in conjuction with the nRF Connect for Desktop tools may move you outside many of the other recommended methods of compiling your firmware, described on this docs page and elsewhere on Golioth. If you're having problems with your Windows install, please contact us on our [Community Discord](https://golioth.io/discord)
+Using the VS Code extension in conjuction with the nRF Connect for Desktop tools may move you outside many of the other recommended methods of compiling your firmware, described on this docs page and elsewhere on Golioth. If you're having problems with your Windows install, please contact us on [the Golioth Forum](https://forum.golioth.io).
 
 :::
