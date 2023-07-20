@@ -35,7 +35,7 @@ id:"<api key uuid>"  key:"YOUR_JWT_KEY"  type:JWT_KEY  secret:"YOUR_JWT_SECRET"
 
 #### Using a Basic API Key
 
-Basic API Key, doesn't require any extra processing to be used and a `X-API-Key` header can be used. Now let's list devices on a project using `curl`:
+Basic API Key, doesn't require any extra processing to be used and a `x-api-key` header can be used. Now let's list devices on a project using `curl`:
 
 ```
 $ curl -H "x-api-key: YOUR_API_KEY" https://api.golioth.io/v1/projects/{project-id}/devices
