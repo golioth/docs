@@ -35,7 +35,7 @@ id:"<api key uuid>"  key:"YOUR_JWT_KEY"  type:JWT_KEY  secret:"YOUR_JWT_SECRET"
 
 #### Using a Basic API Key to authenticate WebSocket connection
 
-Basic API Key doesn't require any extra processing to be used and a `X-API-Key` query parameter must be used as you can see:
+Basic API Key doesn't require any extra processing to be used and a `x-api-key` query parameter must be used as you can see:
 ```
 ?x-api-key={API_KEY}
 ```
