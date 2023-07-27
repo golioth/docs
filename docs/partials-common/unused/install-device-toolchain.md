@@ -12,7 +12,7 @@ values={[
 ]}>
 <TabItem value="esp32">
 
-import SetupEsp from '/docs/hardware/2-esp32/2-zephyr-quickstart/partials/install-espressif-toolchain.md'
+import SetupEsp from '/docs/hardware/2-esp32/2-zephyr-quickstart/\_partials/install-espressif-toolchain.md'
 
 <SetupEsp/>
 
