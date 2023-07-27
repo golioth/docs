@@ -17,7 +17,7 @@ import InstallZephyrSDK from '/docs/partials-common/install-zephyr-sdk.md'
 
 ### Toolchain check
 
-import CheckToolchain from '/docs/hardware/5-virtual-device/2-zephyr-quickstart/partials/check-toolchain.md'
+import CheckToolchain from '/docs/hardware/5-virtual-device/2-zephyr-quickstart/\_partials/check-toolchain.md'
 <CheckToolchain/>
 
 ### Add credentials to sample
