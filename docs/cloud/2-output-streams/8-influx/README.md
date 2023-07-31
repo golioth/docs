@@ -17,7 +17,7 @@ the ones for InfluxDB:
 
 | Attribute          | Type   | Required | Description |
 | ------------------ | ------ |:--------:| ----------- |
-| Name | string | ✅        | URL where events are sent via POST request |
+| Name | string | ✅        | Name to identify the Output Stream |
 | Event Type Filter | string | ✅        | Select `DEVICE_STREAM_TYPE` |
 | InfluxDB URL| string | ✅        | URL for the InfluxDB Cloud API |
 | InfluxDB token| string | ✅        | InfluxDB API token |
@@ -29,7 +29,6 @@ the ones for InfluxDB:
 To use this integration, you need to:
 
 - Have an InfluxDB Cloud account
-- Have an existing bucket
 - Create an API token for the InfluxDB Cloud
 - Use the "Serverless" version of InfluxDB Cloud
 - Create an instance of the InfluxDB Output Stream in your Golioth account
@@ -92,15 +91,15 @@ From the `Select an Output Stream Type` page, select `InfluxDB`.
 
 In the `Create a new Output Stream` form, enter the following:
 
-* Name: The name you want to give to your Output Stream
-* Event Type Filter: select `DEVICE_STREAM_TYPE` from the list of types (the
+* **Name**: The name you want to give to your Output Stream
+* **Event Type Filter**: select `DEVICE_STREAM_TYPE` from the list of types (the
   InfluxDB Output Stream is currently limited to stream events only)
-* InfluxDB URL: Paste the `Cluster URL` you copied from your InfluxDB Cloud org
+* **InfluxDB URL**: Paste the `Cluster URL` you copied from your InfluxDB Cloud org
   settings
-* InfluxDB token: Paste the InfluxDB Cloud API token
-* InfluxDB bucket: the name of an existing InfluxDB Cloud bucket where you want
+* **InfluxDB token**: Paste the InfluxDB Cloud API token
+* **InfluxDB bucket**: the name of an existing InfluxDB Cloud bucket where you want
   to send your events
-* InfluxDB measurement name: The name of the InfluxDB measurement
+* **InfluxDB measurement name**: The name of the InfluxDB measurement
 
 ![Complete create Output Stream form](./assets/create-outputstream-form.png)
 
