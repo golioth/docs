@@ -1,11 +1,11 @@
 ---
 id: overview
-title: InfluxDB Outputstream Overview
+title: InfluxDB Overview
 slug: /cloud/output-streams/influx
 ---
 
 [InfluxDB Cloud](https://www.influxdata.com/products/influxdb-cloud/) is a fully managed timeseries database that can be used to consume
-Golioth events in a simple, trusted, and scalable way. Golioth's outputstream for InfluxDB
+Golioth events in a simple, trusted, and scalable way. Golioth's Output Stream for InfluxDB
 Cloud allows you to transform Golioth events into InfluxDB's native line protocol and
 ingest them in your InfluxDB Cloud instance.
 
@@ -30,10 +30,10 @@ To use this integration, you need to:
 - Have an existing bucket
 - Create an API token for the InfluxDB Cloud
 - Use the "Serverless" version of InfluxDB Cloud
-- Create an instance of the InfluxDB outputstream in your Golioth account
+- Create an instance of the InfluxDB Output Stream in your Golioth account
 
-The InfluxDB outputstream is geared specifically to the [InfluxDB Cloud Serverless](https://docs.influxdata.com/influxdb/cloud-serverless/)
-version of the managed cloud offering. 
+The InfluxDB Output Stream is geared specifically to the [InfluxDB Cloud Serverless](https://docs.influxdata.com/influxdb/cloud-serverless/)
+version of the managed cloud offering.
 
 ## Setup the InfluxDB Output Stream
 
@@ -64,9 +64,9 @@ permissions for the bucket where you're measurements are going.
 
 Go to your list of buckets by clicking the `Buckets` link in the navigation.
 
-![Navigating to bucket](./assets/token-create-form.png)
+![Navigating to bucket](./assets/buckets.png)
 
-Identify the bucket to use for your InfluxDB outputstream.
+Identify the bucket to use for your InfluxDB Output Stream.
 
 ### 4. Get the InfluxDB URL for your InfluxDB Cloud organization
 
@@ -80,24 +80,24 @@ CLIPBOARD` button.
 
 ![Copying cluster URL](./assets/cluster-url.png)
 
-### 5. Create an InfluxDB outputstream in the Golioth console
+### 5. Create an InfluxDB Output Stream in the Golioth console
 
-From the `Select an Outputstream Type` page, select `InfluxDB`.
+From the `Select an Output Stream Type` page, select `InfluxDB`.
 
-![Select InfluxDB outputstream](./assets/select-outputstream.png)
+![Select InfluxDB Output Stream](./assets/select-outputstream.png)
 
-In the `Create a new OutputStream` form, enter the following:
+In the `Create a new Output Stream` form, enter the following:
 
-* Name: The name you want to give to your outputstream
+* Name: The name you want to give to your Output Stream
 * Event Type Filter: select `DEVICE_STREAM_TYPE` from the list of types (the InfluxDB
-  outputstream is currently limited to stream events only)
+  Output Stream is currently limited to stream events only)
 * InfluxDB URL: Paste the `Cluster URL` you copied from your InfluxDB Cloud org settings
 * InfluxDB token: Paste the InfluxDB Cloud API token
 * InfluxDB bucket: the name of an existing InfluxDB Cloud bucket where you want to send
   your events
 * InfluxDB measurement name: The name of the InfluxDB measurement
 
-![Complete create outputstream form](./assets/create-outputstream-form.png)
+![Complete create Output Stream form](./assets/create-outputstream-form.png)
 
 ## Example Data
 
@@ -106,7 +106,7 @@ InfluxDB is a timeseries database, we transform events from the CloudEvents form
 InfluxDB [line protocol](https://docs.influxdata.com/influxdb/cloud-serverless/reference/syntax/line-protocol/) format.
 
 Here is an example of a CloudEvent on the Golioth platform:
-```
+```json
 Context Attributes,
   specversion: 1.0
   type: TEST_EVENT_TYPE
