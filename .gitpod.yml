@@ -20,3 +20,8 @@ github:
     addComment: true
     # add a "Review in Gitpod" button to the pull request's description (defaults to false)
     addBadge: false
+
+vscode:
+  extensions:
+    - EditorConfig.EditorConfig
+    - stkb.rewrap
