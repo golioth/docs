@@ -13,9 +13,6 @@ $ goliothctl dfu release create --release-tags v1 --components main@1.0.1 --roll
 ```
 
 Now you can check on our Web Console for the created releases and see the releases `1.0.0` in the list.
-
-![Releases](./assets/release-no-tags.png)
-
 You can also add device tags to target more specific devices.
 
 ![Releases With Tags](./assets/release-list.png)
