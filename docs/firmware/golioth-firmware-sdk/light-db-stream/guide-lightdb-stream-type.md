@@ -1,4 +1,5 @@
 ---
+id: by-type
 title: LightDB Stream (by type)
 sidebar_position: 1
 ---
@@ -67,8 +68,8 @@ the same time, you can use a JSON or CBOR object to do so. For the example
 above, an object containing all values could be sent to the `sensors` path,
 turning four function calls (and four network requests) into just one.
 
-Sending JSON or CBOR objects to LightDB Stream is covered in the next page of
-this section.
+Sending JSON or CBOR objects to LightDB Stream is covered in [the next page of
+this section](by-object).
 
 :::
 
