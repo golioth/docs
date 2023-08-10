@@ -214,10 +214,9 @@ different message may be printed.
 
 ## Custom Timestamps
 
-As a convenience, data received without a timestamp will be automatically
-assigned one. However, in cases where you are caching sensor readings, you may
-send custom timestamps along with your data. Golioth will recognize and use the
-custom timestamp when storing the data.
+By default, the server will automatically assign a timestamp to all data
+received by the LightDB Stream service. However, in some cases you may want to
+assign your own timestamps.
 
 ```c
 /* Create a valid JSON string that includes a timestamp */
@@ -229,14 +228,23 @@ char json_buf[] = "{\"name\":\"Golioth\","
 
 Format your custom time as either Unix time or ISO 8601 format, and add it to
 your payload using any of the special key names: `t`, `ts`, `time`, or
-`timestamp`. The timestamp will not appear as a key-value pair once received by
-Golioth LightDB Stream, but instead be removed and used as the time value for
-the database record.
+`timestamp`. When a timestamp key is provided, it will be used as the timestamp
+for the event itself, and will be removed from the object structure.
 
-:::tip A timestamp applies to all data received as a single payload
+:::tip Timestamps for single or batch data
 
-In both cases (automatic or custom timestamps), one timestamp will be used for
-all of the data received in the same object.
+In both cases (automatic or custom timestamps), one root-level timestamp will be
+used for all of the data received in the same object. But in cases where you
+have more than one data payload to send to the same endpoint, batch data may be
+sent by including each reading as a sibling object, with a different timestamp
+as a root-member of that sibling object. For example, let's send three
+temperature readings taken one minute apart:
+
+```json
+char json_batch[] = "[{\"temp\":21.5,\"time\":\"2023-08-09T08:27:49-05:00\"},"
+                     "{\"temp\":22.0,\"time\":\"2023-08-09T08:28:49-05:00\"},"
+                     "{\"temp\":22.5,\"time\":\"2023-08-09T08:29:49-05:00\"}]";
+```
 
 :::
 
