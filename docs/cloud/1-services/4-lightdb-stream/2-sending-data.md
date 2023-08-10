@@ -24,11 +24,15 @@ import { ProtocolPublishSample, ProtocolReadSample } from '/docs/partials-common
 
 ### Sending data with a timestamp
 
-You can also send a batch request by sending an array at the root level that
-includes a timestamp for each entry. The following keys are valid for timestamp
-values: `t`, `ts`, `time`. The timestamp will not appear in the data payload
-once received by Golioth LightDB Stream, but instead be used as the `time`
-value.
+By default, the server will automatically assign a timestamp to all data
+received by the LightDB Stream service. However, in some cases (e.g. when you
+are caching sensor readings) you may want to assign your own timestamps.
+
+To record batch requests, send an array at the root level that includes a
+timestamp for each entry. The following keys are valid for timestamp values:
+`t`, `ts`, `time` or `timestamp`. When a timestamp key is provided, it will be
+used as the timestamp for the event itself, and will be removed from the object
+structure.
 
 The following example illustrates sending the timestamp in either [Unix
 time](https://en.wikipedia.org/wiki/Unix_time) or ISO 8601 format. In this case
