@@ -43,5 +43,5 @@ reference](https://firmware-sdk-docs.golioth.io/group__golioth__lightdb.html).
 :::tip
 LightDB API calls that have `stream` in the name&mdash;e.g.,
 `golioth_lightdb_stream_set_int_async()`&mdash;are used for the time-series
-LightDB State service. All others relate to the LightDB State service.
+LightDB Stream service. All others relate to the LightDB State service.
 :::
