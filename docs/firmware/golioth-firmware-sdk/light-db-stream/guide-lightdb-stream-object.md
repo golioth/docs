@@ -27,6 +27,18 @@ to your program.
 The data you want to send must first be prepared as an object. This will include
 one or more key-values pairs. Choose between `JSON` or `CBOR` format.
 
+:::note You Decide the Schema
+
+Golioth doesn't enforce a schema for your data. You may write to the root path
+using an empty string `""`, or create `"any/path/you/like"`.
+
+You choose what keys to use with your key-value pairs, and you are free to use
+nested objects. The only reserved keys are `t`, `ts`, `time` and `timestamp`;
+each will be interpreted as a user-supplied timestamp. [More on that
+later](by-object#custom-timestamps).
+
+:::
+
 ### JSON
 
 JSON payloads may be formatted using simple `snprintf()` style string
@@ -216,9 +228,10 @@ char json_buf[] = "{\"name\":\"Golioth\","
 ```
 
 Format your custom time as either Unix time or ISO 8601 format, and add it to
-your payload using any of the special key names: `t`, `ts`, `time`. The
-timestamp will not appear as a key-value pair once received by Golioth LightDB
-Stream, but instead be removed and used as the time value for the database record.
+your payload using any of the special key names: `t`, `ts`, `time`, or
+`timestamp`. The timestamp will not appear as a key-value pair once received by
+Golioth LightDB Stream, but instead be removed and used as the time value for
+the database record.
 
 :::tip A timestamp applies to all data received as a single payload
 
