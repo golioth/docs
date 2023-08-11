@@ -73,6 +73,42 @@ uint8_t cbor_buf[] = { 0xA3, 0x64, 0x6E, 0x61, 0x6D, 0x65, 0x67, 0x47, 0x6F, 0x6
 While CBOR is not human readable, there are online tools like
 [cbor.me](https://cbor.me/) that are useful for debugging.
 
+<details><summary>Click to reveal a zcbor encoding example</summary>
+
+Here is an example of using zcbor in canonical mode (`ZCBOR_CANONICAL` or in
+Zephyr: `CONFIG_ZCBOR_CANONICAL`)to encode a CBOR payload.
+
+```c
+#include <zcbor_encode.h>
+
+uint8_t cbor_payload[128] = {0};
+bool my_bool = true;
+double my_float = 1.337;
+int my_int = 42;
+char my_str[] = "Golioth";
+
+ZCBOR_STATE_E(encoding_state, 8, cbor_payload, sizeof(cbor_payload), 0);
+zcbor_map_start_encode(encoding_state, 3);
+zcbor_tstr_put_lit(encoding_state, "name");
+zcbor_tstr_put_term(encoding_state, my_str);
+zcbor_tstr_put_lit(encoding_state, "active");
+zcbor_bool_put(encoding_state, my_bool);
+zcbor_tstr_put_lit(encoding_state, "data");
+zcbor_map_start_encode(encoding_state, 2);
+zcbor_tstr_put_lit(encoding_state, "reading");
+zcbor_float64_put(encoding_state, my_float);
+zcbor_tstr_put_lit(encoding_state, "calib");
+zcbor_int32_put(encoding_state, my_int);
+zcbor_map_end_encode(encoding_state, 2);
+zcbor_map_end_encode(encoding_state, 3);
+
+size_t cbor_payload_len = encoding_state->payload - cbor_payload;
+
+// Use `cbor_payload` and `cbor_payload_len` in the Golioth function call
+```
+</details>
+
+
 :::note Comparing JSON and CBOR
 
 For this example we see that the CBOR package is 53 bytes while the JSON
