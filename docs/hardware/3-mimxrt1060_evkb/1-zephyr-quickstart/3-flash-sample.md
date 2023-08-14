@@ -53,8 +53,8 @@ Zephyr uses [Kconfig](https://docs.zephyrproject.org/latest/guides/kconfig/index
 Open `samples/hello/prj.conf` in your editor of choice and add these fields:
 
 ```
-CONFIG_GOLIOTH_SYSTEM_CLIENT_PSK_ID="DEVICE_CRED_ID"
-CONFIG_GOLIOTH_SYSTEM_CLIENT_PSK="DEVICE_PSK"
+CONFIG_GOLIOTH_SAMPLE_HARDCODED_PSK_ID="DEVICE_CRED_ID"
+CONFIG_GOLIOTH_SAMPLE_HARDCODED_PSK="DEVICE_PSK"
 ```
 
 Set the PSK & PSK ID to match what was used during the provisioning step.
