@@ -4,7 +4,7 @@ title: MongoDB Overview
 slug: /cloud/output-streams/mongodb-timeseries
 ---
 
-[MongoDB Cloud](https://www.mongodb.com/) is a document database and has
+[MongoDB](https://www.mongodb.com/) is a document database and has
 support for timeseries collections, which can be used to consume Golioth
 events in a simple, trusted, and scalable way. Golioth's Output Stream for
 MongoDB Cloud allows you to transform Golioth events into MongoDB's native
@@ -49,9 +49,70 @@ If you are using MongoDB Atlas, see [Create a Database User for Your Cluster](ht
 
 ### 3. Create a timeseries collection
 
+To use the MongoDB timeseries outputstream you must create a timeseries
+collection in your MongoDB database.
 
+#### Creating the timeseries collection from mongosh
+You can connect to your MongoDB database using the monogsh command, and then
+from there you can create your timeseries collection. For example:
+
+```
+db.createCollection(
+"weather",
+{
+  timeseries: {
+  timeField: "timestamp",
+  metaField: "metadata"
+}})
+```
+
+#### Creating the timeseries collection from Atlas
+You can create your timeseries collection from the Atlas console.
+
+From the collections pages, click the `plus` sign next to the database name.
+
+![Click plus next to database](./assets/create-collection-button.png)
+
+Next, you will see the `Create Collection` form.
+
+![Create collection form](./assets/create-collection-form.png)
+
+In the `Collection name` field, give your collection a name (e.g. `events`).
+Then, in the `Additional Preferences` dropdown, select `Time Series Collection`.
+
+![Select timeseries as collection type](./assets/choosing-timeseries-additional-prefs.png)
+
+Provide names for the `timeField` and `metaField` form fields. You will use
+these fields when you create the outputstream in the Golioth console.
+
+![Specifying timeField and MetaField](./assets/timefield-metafield-form.png)
+
+Finally, click the `Create` button.
 
 ### 4. Get the MongoDB connection string
+
+#### Local deployment
+If you're using a local deployment, then connection string will be of the form
+`mongodb://<username>:<password>@localhost:[port]` where the port is 27017 by
+default.
+
+#### Atlas deployment
+If you're using an Atlas deployment, you can get the connection string from the
+Atlas console. From the `Database Deployments` screen, click the `Connect`
+button.
+
+![Connect button](./assets/atlas-connect-button.png)
+
+Next, under `Access your data through tools`, select `Compass`.
+
+Finally, copy the connection string. NOTE: do not copy the trailing slash. What
+you copy should look similar to this:
+
+```
+mongodb+srv://golioth:<password>@outputstreams.zasw4oh.mongodb.net
+```
+
+![Connection string](./assets/atlas-connection-string.png)
 
 ### 5. Create an MongoDB Output Stream in the Golioth console
 
@@ -69,7 +130,7 @@ In the `Create a new Output Stream` form, enter the following:
   to send your events
 * **Collection**: The time series collection to store your events
 * **Timefield**: the name of the field containing the date in your time series document
-* **Metafield**: the name of the field containing metadata in your timeseries document (your deviceId and projectId will be populated here) 
+* **Metafield**: the name of the field containing metadata in your timeseries document (your deviceId and projectId will be populated here)
 
 ![Complete create Output Stream form](./assets/create-outputstream-form.png)
 
