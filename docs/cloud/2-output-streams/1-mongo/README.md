@@ -1,7 +1,7 @@
 ---
 id: overview
 title: MongoDB Overview
-slug: /cloud/output-streams/mongo
+slug: /cloud/output-streams/mongodb-timeseries
 ---
 
 [MongoDB Cloud](https://www.mongodb.com/) is a document database and has
