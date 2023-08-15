@@ -100,7 +100,7 @@ Finally, click the `Create` button.
 
 #### Local deployment
 
-If you're using a local deployment, then connection string will be of the form
+If you're using a local deployment, the connection string will be of the form
 `mongodb://<username>:<password>@localhost:[port]` where the port is 27017 by
 default.
 
@@ -114,14 +114,19 @@ button.
 
 Next, under `Access your data through tools`, select `Compass`.
 
-Finally, copy the connection string. NOTE: do not copy the trailing slash. What
-you copy should look similar to this:
+Finally, copy the connection string without a trailing slash.
+
+![Connection string](./assets/atlas-connection-string.png)
+
+:::caution
+
+Do not copy the trailing slash. What you copy should look similar to this:
 
 ```
 mongodb+srv://golioth:<password>@outputstreams.zasw4oh.mongodb.net
 ```
 
-![Connection string](./assets/atlas-connection-string.png)
+:::
 
 ### 5. Whitelist the Golioth IP Address (MongoDB Atlas)
 In order for Golioth to send your events to your MongoDB timeseries collection,
