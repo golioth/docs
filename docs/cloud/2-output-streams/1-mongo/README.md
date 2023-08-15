@@ -114,7 +114,25 @@ mongodb+srv://golioth:<password>@outputstreams.zasw4oh.mongodb.net
 
 ![Connection string](./assets/atlas-connection-string.png)
 
-### 5. Create an MongoDB Output Stream in the Golioth console
+### 5. Whitelist the Golioth IP Address (MongoDB Atlas)
+In order for Golioth to send your events to your MongoDB timeseries collection,
+you will need to whitelist Golioth's IP address.
+
+From the left-hand navigation in the Atlas console, click the `Network Access`
+link.
+
+![Network access in Atlas](./assets/atlas-network-access.png)
+
+From the `Network Access` screen, click the `ADD IP ADDRESS` button.
+
+![Add ip address](./assets/add-ip-address.png)
+
+Add `34.136.157.127/32` to the `Access List Entry` field, and optionally add a
+comment, e.g. "Golioth". Then click `Confirm`.
+
+![IP access list entry](./assets/ip-access-list-entry.png)
+
+### 6. Create an MongoDB Output Stream in the Golioth console
 
 From the `Select an Output Stream Type` page, select `MongoDB`.
 
