@@ -64,12 +64,12 @@ In the `Create a new Output Stream` form, enter the following:
 * **Name**: The name you want to give to your Output Stream
 * **Event Type Filter**: select `DEVICE_STREAM_TYPE` from the list of types (the
   MongoDB Output Stream is currently limited to stream events only)
-* **MongoDB URL**: Paste the `Cluster URL` you copied from your MongoDB Cloud org
-  settings
-* **MongoDB token**: Paste the MongoDB Cloud API token
-* **MongoDB bucket**: the name of an existing MongoDB Cloud bucket where you want
+* **Connection String**: Paste the `Connection String` you copied for your MongoDB cluster
+* **Database**: the name of an existing MongoDB database where you want
   to send your events
-* **MongoDB measurement name**: The name of the MongoDB measurement
+* **Collection**: The time series collection to store your events
+* **Timefield**: the name of the field containing the date in your time series document
+* **Metafield**: the name of the field containing metadata in your timeseries document (your deviceId and projectId will be populated here) 
 
 ![Complete create Output Stream form](./assets/create-outputstream-form.png)
 
