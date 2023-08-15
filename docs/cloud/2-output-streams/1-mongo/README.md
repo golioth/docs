@@ -137,7 +137,6 @@ In the `Create a new Output Stream` form, enter the following:
 ## Example Data
 
 Golioth Output Streams utilize the [Cloud Events](https://cloudevents.io/) format. Therefore, it is necessary to transform events from the CloudEvents format into a MongoDB BSON (Binary JSON) document.
-format.
 
 Here is an example of a CloudEvent on the Golioth platform:
 ```json
