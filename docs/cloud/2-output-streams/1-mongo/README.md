@@ -33,7 +33,7 @@ To use this integration, you need to:
   managed service)
 - Create a MongoDB user that has a username and password
 - Create a timeseries collection in your MongoDB database
-- (Optional) Whitelist Golioth's IP address in your Atlas deployment
+- (Optional) Add Golioth's IP address to your Atlas IP Access List
 - Create an instance of the MongoDB Output Stream in your Golioth account
 
 ## Setup the MongoDB Output Stream
@@ -128,9 +128,9 @@ mongodb+srv://golioth:<password>@outputstreams.zasw4oh.mongodb.net
 
 :::
 
-### 5. Whitelist the Golioth IP Address (MongoDB Atlas)
+### 5. Add Golioth IP Address to Access List (MongoDB Atlas)
 In order for Golioth to send your events to your MongoDB timeseries collection,
-you will need to whitelist Golioth's IP address.
+you will need to add Golioth's IP address to your MongoDB Atlas IP Access List.
 
 From the left-hand navigation in the Atlas console, click the `Network Access`
 link.
