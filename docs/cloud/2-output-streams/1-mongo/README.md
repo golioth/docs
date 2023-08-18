@@ -118,16 +118,6 @@ Finally, copy the connection string without a trailing slash.
 
 ![Connection string](./assets/atlas-connection-string.png)
 
-:::caution
-
-Do not copy the trailing slash. What you copy should look similar to this:
-
-```
-mongodb+srv://golioth:<password>@outputstreams.zasw4oh.mongodb.net
-```
-
-:::
-
 ### 5. Add Golioth IP Address to Access List (MongoDB Atlas)
 In order for Golioth to send your events to your MongoDB timeseries collection,
 you will need to add Golioth's IP address to your MongoDB Atlas IP Access List.
