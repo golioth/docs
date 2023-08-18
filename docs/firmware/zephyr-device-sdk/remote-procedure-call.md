@@ -91,13 +91,13 @@ information.
 
 ## Summary
 
-![Send an RPC request from the Golioth Console](assets/golioth-remote-procedure-call.jpg)
+![Send an RPC request from the Golioth Console](../assets/golioth-remote-procedure-call.jpg)
 
 Once the firmware is running, an RPC request can be sent from the device-level
 "Remote Procedure Call" tab in [the Golioth Console](https://console.golioth.io)
 (shown above) or via a call to our REST API.
 
-![RPC response received from the device](assets/golioth-remote-procedure-call-response.jpg)
+![RPC response received from the device](../assets/golioth-remote-procedure-call-response.jpg)
 
 The status of the RPC request is shown in the same tab. The response can be
 viewed by clicking the three-dot button in the "Recent calls" list.
