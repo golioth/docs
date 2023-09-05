@@ -167,7 +167,7 @@ will be used to authenticate each device.
 3. Click `Add a Client Certificate Authority` and upload your `golioth.crt.pem`
    file.
 
-![Uploading the public root certificate](./assets/cert-auth-upload-public-key.jpg)
+![Uploading the public root certificate](../../assets/cert-auth-upload-public-key.jpg)
 
 :::caution
 
@@ -185,4 +185,4 @@ Console](https://console.golioth.io) to verify a device matching the
 `PRIMARY_HARDWARE_ID` you supplied when creating device credentials is now
 present:
 
-![New device added using Certificate Authentication](./assets/cert-auth-new-device-added.jpg)
+![New device added using Certificate Authentication](../../assets/cert-auth-new-device-added.jpg)
