@@ -26,7 +26,9 @@ sidebar_class_name: hide-item
 ## Supported features
 
 * arduino_gpio
+* arduino_i2c
 * arduino_serial
+* arduino_spi
 * counter
 * display
 * dma
@@ -36,7 +38,6 @@ sidebar_class_name: hide-item
 * sdhc
 * spi
 * usb_device
-* kscan:touch
 * dma
 * can
 * watchdog

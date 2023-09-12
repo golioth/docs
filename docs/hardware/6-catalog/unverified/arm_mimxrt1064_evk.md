@@ -39,7 +39,6 @@ sidebar_class_name: hide-item
 * spi
 * usb_device
 * video
-* kscan:touch
 * can
 * watchdog
 * adc

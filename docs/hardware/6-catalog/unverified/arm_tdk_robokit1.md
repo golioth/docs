@@ -25,6 +25,7 @@ sidebar_class_name: hide-item
 
 ## Supported features
 
+* dma
 * i2c
 * gpio
 * spi
@@ -32,7 +33,6 @@ sidebar_class_name: hide-item
 * usb_device
 * pwm
 * can
-* canfd
 * hwinfo
 
 ## Supported toolchains

@@ -25,7 +25,7 @@ sidebar_class_name: hide-item
 
 ## Supported features
 
-* kscan:touch
+List of supported features is not available.
 
 ## Supported toolchains
 

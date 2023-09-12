@@ -26,6 +26,7 @@ sidebar_class_name: hide-item
 ## Supported features
 
 * dma
+* dac
 * gpio
 * hwinfo
 * spi

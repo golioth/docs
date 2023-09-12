@@ -38,6 +38,7 @@ sidebar_class_name: hide-item
 * dac
 * dma
 * pwm
+* can
 
 ## Supported toolchains
 

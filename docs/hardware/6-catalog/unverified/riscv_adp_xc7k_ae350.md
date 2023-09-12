@@ -30,6 +30,9 @@ sidebar_class_name: hide-item
 * i2c
 * spi
 * eeprom
+* watchdog
+* mbox
+* flash
 
 ## Supported toolchains
 

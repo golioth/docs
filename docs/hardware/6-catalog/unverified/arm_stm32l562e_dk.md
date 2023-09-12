@@ -29,6 +29,7 @@ sidebar_class_name: hide-item
 * i2c
 * lptim
 * pwm
+* counter
 * watchdog
 * dac
 * adc
@@ -38,6 +39,7 @@ sidebar_class_name: hide-item
 * arduino_spi
 * sdhc
 * usb
+* usb_device
 * nvs
 
 ## Supported toolchains

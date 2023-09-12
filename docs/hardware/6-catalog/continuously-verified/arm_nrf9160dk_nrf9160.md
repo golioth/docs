@@ -17,7 +17,7 @@ image: /img/boards/arm/nrf9160dk_nrf9160.jpg
 | Golioth Level  | [Continuously verified](/hardware#continuously-verified-boards) |
 | Golioth Quickstart | [nrf9160dk_nrf9160 quickstart](/hardware/nrf91/zephyr-quickstart) || Architecture   | ARM |
 | RAM*           | 88 kB |
-| Flash*         | 256 kB |
+| Flash*         | 1024 kB |
 
 \* values are as reported by Zephyr `.yaml` board files, which don't represent the overall available resources
 

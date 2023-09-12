@@ -29,6 +29,8 @@ sidebar_class_name: hide-item
 * gpio
 * netif:eth
 * memc
+* adc
+* counter
 
 ## Supported toolchains
 

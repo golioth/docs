@@ -27,8 +27,10 @@ sidebar_class_name: hide-item
 
 * arduino_gpio
 * arduino_i2c
+* arduino_spi
 * eeprom
 * gpio
+* spi
 * i2c
 * uart
 * watchdog

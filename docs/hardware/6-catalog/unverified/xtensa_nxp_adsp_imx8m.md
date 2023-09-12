@@ -1,8 +1,8 @@
 ---
 id: xtensa_nxp_adsp_imx8m
-title: i.MX8M DSP
+title: NXP i.MX8M Plus EVK Audio DSP
 slug: /hardware/catalog/boards/unverified/xtensa_nxp_adsp_imx8m
-description: IoT board i.MX8M DSP, compatible with Golioth at unverified level.
+description: IoT board NXP i.MX8M Plus EVK Audio DSP, compatible with Golioth at unverified level.
 image: /img/boards/xtensa/null
 sidebar_class_name: hide-item
 ---
@@ -25,7 +25,7 @@ sidebar_class_name: hide-item
 
 ## Supported features
 
-List of supported features is not available.
+* uart
 
 ## Supported toolchains
 
@@ -33,4 +33,4 @@ List of supported features is not available.
 
 ## Official Zephyr docs
 
-[i.MX8M DSP (nxp_adsp_imx8m)](https://docs.zephyrproject.org/latest/boards/xtensa/nxp_adsp_imx8m/doc/index.html)
+[NXP i.MX8M Plus EVK Audio DSP (nxp_adsp_imx8m)](https://docs.zephyrproject.org/latest/boards/xtensa/nxp_adsp_imx8m/doc/index.html)

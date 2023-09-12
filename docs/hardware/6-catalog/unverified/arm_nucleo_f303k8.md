@@ -1,15 +1,15 @@
 ---
 id: arm_nucleo_f303k8
-title: ST Nucleo F303k8
+title: ST Nucleo F303K8
 slug: /hardware/catalog/boards/unverified/arm_nucleo_f303k8
-description: IoT board ST Nucleo F303k8, compatible with Golioth at unverified level.
+description: IoT board ST Nucleo F303K8, compatible with Golioth at unverified level.
 image: /img/boards/arm/nucleo_f303k8.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![ST Nucleo F303k8!](/img/boards/arm/nucleo_f303k8.jpg "ST Nucleo F303k8")
+![ST Nucleo F303K8!](/img/boards/arm/nucleo_f303k8.jpg "ST Nucleo F303K8")
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -25,6 +25,7 @@ sidebar_class_name: hide-item
 
 ## Supported features
 
+* adc
 * i2c
 * spi
 * gpio
@@ -39,4 +40,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[ST Nucleo F303k8 (nucleo_f303k8)](https://docs.zephyrproject.org/latest/boards/arm/nucleo_f303k8/doc/index.html)
+[ST Nucleo F303K8 (nucleo_f303k8)](https://docs.zephyrproject.org/latest/boards/arm/nucleo_f303k8/doc/index.html)

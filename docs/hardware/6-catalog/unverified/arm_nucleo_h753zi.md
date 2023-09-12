@@ -37,7 +37,6 @@ sidebar_class_name: hide-item
 * spi
 * usb_device
 * can
-* canfd
 
 ## Supported toolchains
 

@@ -1,15 +1,15 @@
 ---
 id: xtensa_esp32
-title: ESP-32
+title: esp32
 slug: /hardware/catalog/boards/continuously-verified/xtensa_esp32
-description: IoT board ESP-32, compatible with Golioth at continuously-verified level.
+description: IoT board esp32, compatible with Golioth at continuously-verified level.
 image: /img/boards/xtensa/esp32.jpg
 
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![ESP-32!](/img/boards/xtensa/esp32.jpg "ESP-32")
+![esp32!](/img/boards/xtensa/esp32.jpg "esp32")
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -23,23 +23,17 @@ image: /img/boards/xtensa/esp32.jpg
 
 ## Getting started
 
-See our [quickstart guide for ESP-32](/hardware/esp32/zephyr-quickstart).
+See our [quickstart guide for esp32](/hardware/esp32/zephyr-quickstart).
 
 
 ## Supported features
 
-* gpio
-* i2c
-* watchdog
-* uart
-* pinmux
-* nvs
-* pwm
+List of supported features is not available.
 
 ## Supported toolchains
 
-* zephyr
+List of supported toolchains is not available.
 
 ## Official Zephyr docs
 
-[ESP-32 (esp32)](https://docs.zephyrproject.org/latest/boards/xtensa/esp32/doc/index.html)
+[esp32 (esp32)](https://docs.zephyrproject.org/latest/boards/xtensa/esp32/doc/index.html)

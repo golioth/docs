@@ -1,8 +1,8 @@
 ---
 id: arm_blackpill_f401ce
-title: WeAct Studio Black Pill V3.0
+title: WeAct Studio Black Pill V3.0 (F401CE)
 slug: /hardware/catalog/boards/unverified/arm_blackpill_f401ce
-description: IoT board WeAct Studio Black Pill V3.0, compatible with Golioth at unverified level.
+description: IoT board WeAct Studio Black Pill V3.0 (F401CE), compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
 ---
@@ -41,4 +41,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[WeAct Studio Black Pill V3.0 (blackpill_f401ce)](https://docs.zephyrproject.org/latest/boards/arm/blackpill_f401ce/doc/index.html)
+[WeAct Studio Black Pill V3.0 (F401CE) (blackpill_f401ce)](https://docs.zephyrproject.org/latest/boards/arm/blackpill_f401ce/doc/index.html)

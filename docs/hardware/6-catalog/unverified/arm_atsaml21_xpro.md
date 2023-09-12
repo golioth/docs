@@ -32,6 +32,7 @@ sidebar_class_name: hide-item
 * i2c
 * pwm
 * spi
+* uart
 * usb_cdc
 * usb_device
 * watchdog

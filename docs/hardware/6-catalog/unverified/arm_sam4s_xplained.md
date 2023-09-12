@@ -25,8 +25,10 @@ sidebar_class_name: hide-item
 
 ## Supported features
 
+* adc
 * gpio
 * memc
+* pwm
 * spi
 * watchdog
 * xplained_gpio

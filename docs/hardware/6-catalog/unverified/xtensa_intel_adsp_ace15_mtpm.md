@@ -31,6 +31,7 @@ sidebar_class_name: hide-item
 
 * zephyr
 * xcc
+* xt-clang
 
 ## Official Zephyr docs
 

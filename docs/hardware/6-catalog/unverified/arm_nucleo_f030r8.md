@@ -32,6 +32,7 @@ sidebar_class_name: hide-item
 * spi
 * gpio
 * watchdog
+* adc
 
 ## Supported toolchains
 

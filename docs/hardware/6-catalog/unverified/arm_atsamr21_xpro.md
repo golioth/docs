@@ -31,6 +31,7 @@ sidebar_class_name: hide-item
 * netif
 * pwm
 * spi
+* uart
 * usb_device
 * xpro_gpio
 * xpro_i2c

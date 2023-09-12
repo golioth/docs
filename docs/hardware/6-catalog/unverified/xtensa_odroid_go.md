@@ -30,7 +30,6 @@ sidebar_class_name: hide-item
 * spi
 * watchdog
 * uart
-* pinmux
 * nvs
 
 ## Supported toolchains

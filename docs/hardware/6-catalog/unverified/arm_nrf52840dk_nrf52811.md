@@ -27,6 +27,8 @@ sidebar_class_name: hide-item
 
 * counter
 * pwm
+* netif:openthread
+* gpio
 
 ## Supported toolchains
 

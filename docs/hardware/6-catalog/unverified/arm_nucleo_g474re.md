@@ -40,7 +40,6 @@ sidebar_class_name: hide-item
 * dac
 * dma
 * can
-* canfd
 
 ## Supported toolchains
 

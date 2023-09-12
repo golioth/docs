@@ -30,6 +30,7 @@ sidebar_class_name: hide-item
 * gpio
 * watchdog
 * counter
+* netif:openthread
 
 ## Supported toolchains
 

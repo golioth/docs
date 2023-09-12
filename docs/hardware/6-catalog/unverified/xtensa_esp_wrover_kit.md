@@ -25,14 +25,17 @@ sidebar_class_name: hide-item
 
 ## Supported features
 
+* adc
+* dac
 * gpio
 * i2c
-* spi
 * watchdog
 * uart
-* pinmux
 * nvs
 * pwm
+* spi
+* counter
+* entropy
 
 ## Supported toolchains
 

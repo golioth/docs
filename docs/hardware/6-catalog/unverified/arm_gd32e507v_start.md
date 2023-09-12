@@ -27,6 +27,9 @@ sidebar_class_name: hide-item
 
 * pwm
 * gpio
+* watchdog
+* counter
+* dma
 
 ## Supported toolchains
 

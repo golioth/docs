@@ -30,6 +30,7 @@ sidebar_class_name: hide-item
 * pwm
 * spi
 * i2c
+* uart
 * usb_device
 * netif:eth
 

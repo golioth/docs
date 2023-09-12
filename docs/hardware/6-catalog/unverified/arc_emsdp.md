@@ -25,11 +25,12 @@ sidebar_class_name: hide-item
 
 ## Supported features
 
-List of supported features is not available.
+* spi
 
 ## Supported toolchains
 
 * zephyr
+* cross-compile
 * xtools
 
 ## Official Zephyr docs

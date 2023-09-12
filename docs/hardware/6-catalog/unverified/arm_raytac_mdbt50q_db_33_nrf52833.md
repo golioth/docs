@@ -1,0 +1,50 @@
+---
+id: arm_raytac_mdbt50q_db_33_nrf52833
+title: Raytac MDBT50Q-DB-33 nRF52833
+slug: /hardware/catalog/boards/unverified/arm_raytac_mdbt50q_db_33_nrf52833
+description: IoT board Raytac MDBT50Q-DB-33 nRF52833, compatible with Golioth at unverified level.
+image: /img/boards/arm/null
+sidebar_class_name: hide-item
+---
+
+[//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
+
+
+
+|                | Board properties     |
+| -------------  | -------------------- |
+| Board ID       | `raytac_mdbt50q_db_33_nrf52833` |
+| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Architecture   | ARM |
+| RAM*           | 128 kB |
+| Flash*         | 512 kB |
+
+\* values are as reported by Zephyr `.yaml` board files, which don't represent the overall available resources
+
+
+
+## Supported features
+
+* adc
+* ble
+* counter
+* gpio
+* i2c
+* i2s
+* ieee802154
+* pwm
+* spi
+* usb_cdc
+* usb_device
+* watchdog
+* netif:openthread
+
+## Supported toolchains
+
+* zephyr
+* gnuarmemb
+* xtools
+
+## Official Zephyr docs
+
+[Raytac MDBT50Q-DB-33 nRF52833 (raytac_mdbt50q_db_33_nrf52833)](https://docs.zephyrproject.org/latest/boards/arm/raytac_mdbt50q_db_33_nrf52833/doc/index.html)

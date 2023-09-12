@@ -32,6 +32,7 @@ sidebar_class_name: hide-item
 ## Supported toolchains
 
 * zephyr
+* cross-compile
 * xtools
 
 ## Official Zephyr docs

@@ -25,6 +25,7 @@ sidebar_class_name: hide-item
 
 ## Supported features
 
+* adc
 * arduino_i2c
 * arduino_gpio
 * arduino_spi

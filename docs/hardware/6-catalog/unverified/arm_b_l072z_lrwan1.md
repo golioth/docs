@@ -29,10 +29,10 @@ sidebar_class_name: hide-item
 * spi
 * i2c
 * gpio
-* pinmux
 * counter
 * eeprom
 * nvs
+* lora
 
 ## Supported toolchains
 

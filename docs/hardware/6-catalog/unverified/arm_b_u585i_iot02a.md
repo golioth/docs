@@ -35,7 +35,9 @@ sidebar_class_name: hide-item
 * adc
 * watchdog
 * nvs
+* backup_sram
 * pwm
+* counter
 
 ## Supported toolchains
 

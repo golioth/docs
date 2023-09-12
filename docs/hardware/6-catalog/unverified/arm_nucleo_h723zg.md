@@ -36,6 +36,7 @@ sidebar_class_name: hide-item
 * spi
 * netif:eth
 * backup_sram
+* usb_device
 
 ## Supported toolchains
 

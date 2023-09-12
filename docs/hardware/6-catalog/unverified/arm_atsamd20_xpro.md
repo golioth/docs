@@ -25,7 +25,12 @@ sidebar_class_name: hide-item
 
 ## Supported features
 
-List of supported features is not available.
+* adc
+* gpio
+* i2c
+* spi
+* uart
+* watchdog
 
 ## Supported toolchains
 

@@ -39,8 +39,8 @@ sidebar_class_name: hide-item
 * watchdog
 * usb_device
 * can
-* canfd
 * dac
+* dma
 
 ## Supported toolchains
 
