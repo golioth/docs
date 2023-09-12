@@ -27,7 +27,6 @@ sidebar_class_name: hide-item
 
 * arduino_serial
 * clock_controller
-* pinmux
 * gpio
 * i2c
 * serial

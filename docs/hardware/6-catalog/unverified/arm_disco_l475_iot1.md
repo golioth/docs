@@ -32,6 +32,7 @@ sidebar_class_name: hide-item
 * lps22hb
 * lsm6dsl
 * pwm
+* counter
 * gpio
 * ble
 * spi
@@ -40,6 +41,7 @@ sidebar_class_name: hide-item
 * watchdog
 * adc
 * dac
+* qspi
 * dma
 
 ## Supported toolchains

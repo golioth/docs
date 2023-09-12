@@ -25,7 +25,12 @@ sidebar_class_name: hide-item
 
 ## Supported features
 
+* dac
 * pwm
+* watchdog
+* counter
+* dma
+* spi
 
 ## Supported toolchains
 

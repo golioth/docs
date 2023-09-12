@@ -31,6 +31,7 @@ sidebar_class_name: hide-item
 * gpio
 * i2c
 * spi
+* usb_device
 * watchdog
 
 ## Supported toolchains

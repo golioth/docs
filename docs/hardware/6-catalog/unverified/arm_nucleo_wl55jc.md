@@ -34,9 +34,11 @@ sidebar_class_name: hide-item
 * adc
 * dac
 * pwm
+* counter
 * dma
 * watchdog
 * nvs
+* lora
 
 ## Supported toolchains
 

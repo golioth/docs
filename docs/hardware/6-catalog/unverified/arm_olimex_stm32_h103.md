@@ -25,11 +25,7 @@ sidebar_class_name: hide-item
 
 ## Supported features
 
-* adc
 * gpio
-* i2c
-* pwm
-* spi
 * uart
 * watchdog
 

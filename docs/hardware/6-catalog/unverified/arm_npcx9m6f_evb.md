@@ -29,7 +29,6 @@ sidebar_class_name: hide-item
 * clock
 * gpio
 * i2c
-* pinmux
 * pm
 * pwm
 * psl

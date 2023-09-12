@@ -26,7 +26,6 @@ sidebar_class_name: hide-item
 ## Supported features
 
 * gpio
-* pinmux
 * i2c
 * adc
 * pwm

@@ -26,7 +26,12 @@ sidebar_class_name: hide-item
 ## Supported features
 
 * arduino_gpio
+* counter
 * gpio
+* watchdog
+* i2c
+* spi
+* usb_device
 
 ## Supported toolchains
 

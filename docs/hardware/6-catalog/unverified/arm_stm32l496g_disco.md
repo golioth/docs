@@ -33,6 +33,7 @@ sidebar_class_name: hide-item
 * counter
 * sdhc
 * adc
+* qspi
 
 ## Supported toolchains
 

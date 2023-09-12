@@ -29,12 +29,10 @@ sidebar_class_name: hide-item
 * uart
 * gpio
 * i2c
-* kscan:touch
 * memc
 * backup_sram
 * display
 * can
-* canfd
 
 ## Supported toolchains
 

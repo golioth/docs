@@ -30,7 +30,6 @@ sidebar_class_name: hide-item
 * espi
 * gpio
 * i2c
-* pinmux
 * pwm
 * watchdog
 * kscan

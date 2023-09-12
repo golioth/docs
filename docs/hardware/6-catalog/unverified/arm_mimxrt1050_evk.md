@@ -36,7 +36,6 @@ sidebar_class_name: hide-item
 * sdhc
 * spi
 * usb_device
-* kscan:touch
 * watchdog
 * adc
 

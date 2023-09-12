@@ -33,6 +33,8 @@ sidebar_class_name: hide-item
 * hwinfo
 * watchdog
 * pwm
+* flash
+* dma
 
 ## Supported toolchains
 

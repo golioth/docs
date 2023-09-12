@@ -30,6 +30,7 @@ List of supported features is not available.
 ## Supported toolchains
 
 * zephyr
+* cross-compile
 * xtools
 
 ## Official Zephyr docs

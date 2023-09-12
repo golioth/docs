@@ -29,7 +29,6 @@ sidebar_class_name: hide-item
 * eeprom
 * gpio
 * i2c
-* pinmux
 * serial
 
 ## Supported toolchains

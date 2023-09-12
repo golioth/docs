@@ -29,7 +29,6 @@ sidebar_class_name: hide-item
 * i2c
 * watchdog
 * uart
-* pinmux
 * nvs
 
 ## Supported toolchains

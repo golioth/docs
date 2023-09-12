@@ -25,7 +25,10 @@ sidebar_class_name: hide-item
 
 ## Supported features
 
+* can
 * gpio
+* pwm
+* dac
 
 ## Supported toolchains
 

@@ -35,7 +35,9 @@ sidebar_class_name: hide-item
 * adc
 * dac
 * pwm
+* counter
 * rng
+* eeprom
 
 ## Supported toolchains
 

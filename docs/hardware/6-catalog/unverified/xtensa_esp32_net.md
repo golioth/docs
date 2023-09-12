@@ -28,7 +28,6 @@ sidebar_class_name: hide-item
 * gpio
 * i2c
 * uart
-* pinmux
 
 ## Supported toolchains
 

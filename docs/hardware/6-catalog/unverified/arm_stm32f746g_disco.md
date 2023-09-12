@@ -34,7 +34,6 @@ sidebar_class_name: hide-item
 * counter
 * sdhc
 * usb_device
-* kscan:touch
 * display
 * memc
 

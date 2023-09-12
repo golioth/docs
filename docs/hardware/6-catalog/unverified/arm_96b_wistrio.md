@@ -28,6 +28,7 @@ sidebar_class_name: hide-item
 * gpio
 * i2c
 * eeprom
+* lora
 
 ## Supported toolchains
 

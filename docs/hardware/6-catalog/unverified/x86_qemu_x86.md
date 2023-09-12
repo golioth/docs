@@ -16,7 +16,7 @@ sidebar_class_name: hide-item
 | Board ID       | `qemu_x86` |
 | Golioth Level  | [Unverified](/hardware#unverified-boards) |
 | Architecture   | X86 |
-| RAM*           | N/A |
+| RAM*           | 3000 kB |
 | Flash*         | N/A |
 
 \* values are as reported by Zephyr `.yaml` board files, which don't represent the overall available resources
@@ -29,6 +29,8 @@ sidebar_class_name: hide-item
 * nvs
 * netif:serial-net
 * eeprom
+* can
+* rtc
 
 ## Supported toolchains
 

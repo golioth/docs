@@ -33,6 +33,8 @@ sidebar_class_name: hide-item
 * spi
 * watchdog
 * counter
+* netif:openthread
+* gpio
 
 ## Supported toolchains
 

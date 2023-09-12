@@ -1,8 +1,8 @@
 ---
 id: xtensa_esp32s2_saola
-title: ESP32-S2
+title: ESP32-S2 Saola
 slug: /hardware/catalog/boards/unverified/xtensa_esp32s2_saola
-description: IoT board ESP32-S2, compatible with Golioth at unverified level.
+description: IoT board ESP32-S2 Saola, compatible with Golioth at unverified level.
 image: /img/boards/xtensa/null
 sidebar_class_name: hide-item
 ---
@@ -25,7 +25,17 @@ sidebar_class_name: hide-item
 
 ## Supported features
 
-List of supported features is not available.
+* adc
+* dac
+* gpio
+* i2c
+* watchdog
+* uart
+* nvs
+* pwm
+* spi
+* counter
+* entropy
 
 ## Supported toolchains
 
@@ -33,4 +43,4 @@ List of supported features is not available.
 
 ## Official Zephyr docs
 
-[ESP32-S2 (esp32s2_saola)](https://docs.zephyrproject.org/latest/boards/xtensa/esp32s2_saola/doc/index.html)
+[ESP32-S2 Saola (esp32s2_saola)](https://docs.zephyrproject.org/latest/boards/xtensa/esp32s2_saola/doc/index.html)

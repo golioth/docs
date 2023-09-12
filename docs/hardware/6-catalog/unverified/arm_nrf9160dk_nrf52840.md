@@ -26,6 +26,8 @@ sidebar_class_name: hide-item
 ## Supported features
 
 * ble
+* netif:openthread
+* gpio
 
 ## Supported toolchains
 

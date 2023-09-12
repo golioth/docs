@@ -26,7 +26,6 @@ sidebar_class_name: hide-item
 ## Supported features
 
 * can
-* canfd
 * eeprom
 * netif:eth
 * usb_device
@@ -34,6 +33,7 @@ sidebar_class_name: hide-item
 * i2c
 * spi
 * gpio
+* rtc
 
 ## Supported toolchains
 

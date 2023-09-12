@@ -16,8 +16,8 @@ sidebar_class_name: hide-item
 | Board ID       | `mps3_an547` |
 | Golioth Level  | [Unverified](/hardware#unverified-boards) |
 | Architecture   | ARM |
-| RAM*           | N/A |
-| Flash*         | N/A |
+| RAM*           | 512 kB |
+| Flash*         | 512 kB |
 
 \* values are as reported by Zephyr `.yaml` board files, which don't represent the overall available resources
 

@@ -25,6 +25,7 @@ sidebar_class_name: hide-item
 
 ## Supported features
 
+* dma
 * netif:eth
 * adc
 * arduino_gpio
@@ -40,7 +41,6 @@ sidebar_class_name: hide-item
 * xpro_serial
 * xpro_spi
 * can
-* canfd
 * hwinfo
 
 ## Supported toolchains
