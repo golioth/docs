@@ -47,7 +47,7 @@ A continuously verified board:
 * is tested on every release of the [Golioth Zephyr SDK](https://github.com/golioth/golioth-zephyr-sdk).
 * is regularly tested and used by the Golioth development team.
 * has first class support and maintenance from Golioth. If you encounter a problem
-    with one of these boards, you can reach out to us on [Discord](https://golioth.io/discord) or
+    with one of these boards, you can reach out to us on [the Golioth Forum](https://forum.golioth.io) or
     [file a bug report](https://github.com/golioth/golioth-zephyr-sdk/issues),
     and we will address it quickly.
 
@@ -64,7 +64,7 @@ A verified board:
     was tested on an older version of the Golioth Zephyr SDK, but may not
     have been tested on the most recent commits.
 * is supported and maintained by the Golioth development team. You can reach
-    out to us on [Discord](https://golioth.io/discord) for help and troubleshooting.
+    out to us on [the Golioth Forum](https://forum.golioth.io) for help and troubleshooting.
 
 Boards in this category cover a wider range of MCUs and peripherals.
 
@@ -82,5 +82,5 @@ If it's in the list, there's a good chance it will work with Golioth with
 low development effort.
 
 If you're interested in using a board from this category, you can reach out to us on
-[Discord](https://golioth.io/discord), and we can help you with next steps to
+[the Golioth Forum](https://forum.golioth.io), and we can help you with next steps to
 get the board connected to Golioth.
