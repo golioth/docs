@@ -104,7 +104,7 @@ function getBoardMetadata(arch, boardId, suffix) {
 
     const yamlPath = `${zephyrRoot}/boards/${arch}/${boardId}/${boardId}.yaml`;
     if (fs.existsSync(yamlPath)) {
-        const yaml = YAML.parse(fs.readFileSync(`${zephyrRoot}/boards/${arch}/${boardId}/${boardId}.yaml`, 'ascii'));
+        const yaml = YAML.parse(fs.readFileSync(`${zephyrRoot}/boards/${arch}/${boardId}/${boardId}.yaml`, 'utf8'));
 
         board.name = yaml.name;
         board.arch = arch; // could be yaml.arch, but riscv has some arch mismatches
