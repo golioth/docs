@@ -15,6 +15,8 @@ Golioth offers two device SDKs that support a wide range of hardware. Here is
 some guidance on what to use when setting up a development environment for your
 hardware.
 
+### Platform Support
+
 | Vendor     | SDK                  | Quickstart | Note |
 | ---------- | -------------------- | ---------- | ---- |
 | Espressif  | [Golioth Firmware SDK](https://github.com/golioth/golioth-firmware-sdk) | [ESP32 ESP-IDF Quickstart](/hardware/esp32/espidf-quickstart/set-up-espidf) | Use for ESP32 MCUs |
@@ -33,6 +35,12 @@ Golioth adding new platform support, please [contact
 us](mailto:hello@golioth.io).
 
 :::
+
+### Beta Platform Support
+
+| Vendor     | SDK                  | Quickstart | Note |
+| ---------- | -------------------- | ---------- | ---- |
+| Zephyr | [Golioth Firmware SDK](https://github.com/golioth/golioth-firmware-sdk) | Golioth Firmware SDK: [Zephyr Beta Support Readme](https://github.com/golioth/golioth-firmware-sdk/tree/main/examples/zephyr)  | The [Golioth Zephyr SDK](https://github.com/golioth/golioth-zephyr-sdk) already delivers support for Zephyr RTOS. We are actively working on Zephyr support in the Golioth Firmware SDK. The beta is currently open for testing. |
 
 ## Board Support Tiers
 
