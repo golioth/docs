@@ -65,9 +65,9 @@ converted to the `DER` binary format for use with the Golioth Zephyr SDK.
 
 ```shell
 PROJECT_SLUG='your-golioth-projectID'
-PRIMARY_HARDWARE_ID='choose-hardware-id-for-this-device'
+DEVICE_NAME='choose-a-unique-name-for-this-device'
 SERVER_NAME='golioth'
-CLIENT_NAME="${PROJECT_SLUG}-${PRIMARY_HARDWARE_ID}"
+CLIENT_NAME="${PROJECT_SLUG}-${DEVICE_NAME}"
 
 # Generate an elliptic curve private key
 openssl ecparam -name prime256v1 -genkey -noout -out "${CLIENT_NAME}.key.pem"
@@ -76,7 +76,7 @@ openssl ecparam -name prime256v1 -genkey -noout -out "${CLIENT_NAME}.key.pem"
 # (this is what you would normally give to your CA / PKI to sign)
 openssl req -new \
     -key "${CLIENT_NAME}.key.pem" \
-    -subj "/C=BR/O=${PROJECT_SLUG}/CN=${PRIMARY_HARDWARE_ID}" \
+    -subj "/C=BR/O=${PROJECT_SLUG}/CN=${DEVICE_NAME}" \
     -out "${CLIENT_NAME}.csr.pem"
 
 # Sign the certificate (CSR) using the previously generated self-signed root certificate
