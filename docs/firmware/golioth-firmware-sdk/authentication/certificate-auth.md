@@ -65,7 +65,7 @@ converted to the `DER` binary format for use with the Golioth Zephyr SDK.
 
 ```shell
 PROJECT_SLUG='your-golioth-projectID'
-DEVICE_NAME='choose-hardware-id-for-this-device'
+DEVICE_NAME='choose-a-unique-name-for-this-device'
 SERVER_NAME='golioth'
 CLIENT_NAME="${PROJECT_SLUG}-${DEVICE_NAME}"
 
