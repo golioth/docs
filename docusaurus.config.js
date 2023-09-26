@@ -15,9 +15,10 @@ module.exports = {
       respectPrefersColorScheme: false,
     },
     navbar: {
+      title: "Golioth",
       logo: {
         alt: "Golioth",
-        src: "img/white_logo.svg",
+        src: "img/coral-logo.png",
       },
       items: [
         {
@@ -133,12 +134,12 @@ module.exports = {
     },
     algolia: {
       // The application ID provided by Algolia
-      appId: '42Q13YI9MY',
+      appId: "42Q13YI9MY",
 
       // Public API key: it is safe to commit it
-      apiKey: '174525da827993e07fc87b28736000f1',
+      apiKey: "174525da827993e07fc87b28736000f1",
 
-      indexName: 'golioth',
+      indexName: "golioth",
 
       // Optional: see doc section below
       contextualSearch: true,
@@ -153,7 +154,7 @@ module.exports = {
       searchParameters: {},
 
       // Optional: path for search page that enabled by default (`false` to disable it)
-      searchPagePath: 'search',
+      searchPagePath: "search",
 
       //... other Algolia params
     },

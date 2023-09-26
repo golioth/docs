@@ -5,7 +5,7 @@ import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import styles from "./styles.module.css";
-import LogoImageUrl from "@site/static/img/logo_gradient_white.svg";
+import LogoImageUrl from "@site/static/img/coral-logo+golioth.png";
 
 const features = [
   {
@@ -13,7 +13,9 @@ const features = [
     //imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        Golioth makes it easy to get started with IoT projects. The Golioth SDK is built on top of popular RTOSes like Zephyr. Include Golioth features at compile time and your device gets advanced communiation capabilities.
+        Golioth makes it easy to get started with IoT projects. The Golioth SDK
+        is built on top of popular RTOSes like Zephyr. Include Golioth features
+        at compile time and your device gets advanced communiation capabilities.
       </>
     ),
   },
@@ -22,8 +24,9 @@ const features = [
     //imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        The Golioth SDK includes services like Over the Air Updates, Logging, Data
-        Fowarding and Device Management. Now that cloud communications are taken care of, you can just on the unique features of your product.
+        The Golioth SDK includes services like Over the Air Updates, Logging,
+        Data Fowarding and Device Management. Now that cloud communications are
+        taken care of, you can just on the unique features of your product.
       </>
     ),
   },
@@ -32,7 +35,9 @@ const features = [
     //imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
-        We use IoT protocols that you already know and love like CoAP, MQTT and LWM2M. The resulting devices are more robust, reliable, and reach production sooner.
+        We use IoT protocols that you already know and love like CoAP, MQTT and
+        LWM2M. The resulting devices are more robust, reliable, and reach
+        production sooner.
       </>
     ),
   },
@@ -63,7 +68,7 @@ function Home() {
     >
       <header className={clsx("hero hero--primary", styles.heroBanner)}>
         <div className="container">
-          <LogoImageUrl title="Golioth" className="heroLogo" />
+          <img title="Golioth" className="heroLogo" src={LogoImageUrl} />
           <p className="hero__subtitle">{siteConfig.tagline}</p>
           <div className={styles.buttons}>
             <Link

@@ -1,4 +1,4 @@
-.hide-menu .menu__link:not(.menu__link--active){
+.hide-menu .menu__link:not(.menu__link--active) {
   display: none !important;
 }
 .hide-item .menu__link:not(.menu__link--active) {
@@ -38,7 +38,13 @@
 }
 
 .board-card.gradient:hover {
-  border-image: linear-gradient(to right, #2fe077, #61d2c9, #6470db) 1;
+  border-image: linear-gradient(
+      to right,
+      var(--ifm-color-primary-lightest) 0%,
+      var(--ifm-color-primary-light) 50%,
+      var(--ifm-color-primary-lightest) 100%
+    )
+    1;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -93,7 +99,7 @@ html[data-theme="dark"] .board-card {
 }
 
 .board-status-badge.gradient {
-  background: linear-gradient(to right, #2fe077, #61d2c9, #6470db);
+  background: var(--ifm-color-primary);
 }
 
 .board-status-badge.green {
