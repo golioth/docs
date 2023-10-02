@@ -41,7 +41,7 @@ For testing we will use `openssl` to generate a self-signed root certificate.
 ```shell
 SERVER_NAME='golioth'
 
-# Generate an elliptic curve private key 
+# Generate an elliptic curve private key
 # Run `openssl ecparam -list_curves` to list all available algorithms
 # Keep this key safe! Anyone who has it can sign authentic-looking device certificates
 openssl ecparam -name prime256v1 -genkey -noout -out "${SERVER_NAME}.key.pem"
@@ -61,7 +61,7 @@ This will generate the following files:
 ### Create and sign device certificates
 
 Now generate and sign a device certificate. The resulting key/crt will be
-converted to the `DER` binary format for use with the Golioth Zephyr SDK.
+converted to the `DER` binary format for use with the Golioth Firmware SDK.
 
 ```shell
 PROJECT_SLUG='your-golioth-projectID'
