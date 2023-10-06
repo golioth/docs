@@ -20,8 +20,8 @@ updated firmware version and report the results to the Golioth Console.
 
 ### OTA Update Sample Workflow
 
-1. Build and flash the initial DFU sample application
-2. Use the serial shell to set the device credentials
+1. Set credentials for the device
+2. Build and flash the initial DFU sample application
 3. Rebuild the firmware with new version number (the update)
 4. Upload the signed/versioned firmware as an artifact
 5. Create a release from the artifact and roll it out to the device
@@ -29,58 +29,28 @@ updated firmware version and report the results to the Golioth Console.
 
 ## Running the OTA Sample
 
-### 1. Initial build and flash
+### 1. Set credentials for the device
 
-Navigate to the Golioth module in your zephyr install. If you followed [our
-nRF9160 Zephyr Quickstart](/hardware/nrf91/zephyr-quickstart) this will be in
-the `golioth-ncs-workspace/module/lib/golioth` directory. Build and flash the
-sample code.
+:::note Credential Storage
 
-```bash
-west build -b nrf9160dk_nrf9160_ns samples/dfu -p
-west flash
-```
-
-This will build and run `v0.0.0` firmware on the Nordic nRF9160 development kit.
-
-:::note Building and flashing MCUboot to other devices
-
-Images for Nordic targets are automatically signed during the build process and
-do not require an extra manual step for signing.
-
-<details><summary>Click to reveal details on MCUboot and signing binaries</summary>
-
-The README in the Golioth DFU sample discusses [building MCUBoot for other architectures](https://github.com/golioth/golioth-zephyr-sdk/tree/main/samples/dfu#using-with-zephyr).
-
-Signing application code is also discussed in the sample's README. It should
-follow a process similar to the following:
-
-```bash
-# After building your app image, sign the binary:
-west sign -t imgtool -- --key WEST_ROOT/bootloader/mcuboot/root-rsa-2048.pem
-# Flash a signed app to a device already running the MCUboot bootloader:
-west flash --bin-file build/zephyr/zephyr.signed.bin --hex-file build/zephyr/zephyr.signed.hex
-```
-
-</details>
+By default, the Golioth DFU sample hardcodes PSK device credentials in the
+compiled binary. However, hardcoded certificate credentials and runtime PSK
+credentials are also supported. View the [readme for this
+sample](https://github.com/golioth/golioth-zephyr-sdk/tree/main/samples/dfu#authentication-specific-configuration)
+for details.
 
 :::
 
-### 2. Pass credentials to the device
+Navigate to the Golioth module in your zephyr install. If you followed [our
+nRF9160 Zephyr Quickstart](/hardware/nrf91/zephyr-quickstart) this will be in
+the `golioth-ncs-workspace/module/lib/golioth` directory.
 
-The Golioth DFU sample stores the device credentials in the settings partition
-of device. Use a serial terminal to connect to the nRF9160dk. The `settings set` command should be used to set `golioth/psk-id` and `golioth/psk`.
+Update the sample project `samples/dfu/prj.conf` file with you device
+credentials:
 
-You will receive confirmation after setting each of these values:
-
-```bash
-uart:~$ settings set golioth/psk-id my-device@my-project
-Setting golioth/psk-id to my-device@my-project
-Setting golioth/psk-id saved as my-device@my-project
-uart:~$ settings set golioth/psk my_strong_password
-Setting golioth/psk to my_strong_password
-Setting golioth/psk saved as my_strong_password
-uart:~$
+```cfg
+CONFIG_GOLIOTH_SAMPLE_HARDCODED_PSK_ID="my-psk-id"
+CONFIG_GOLIOTH_SAMPLE_HARDCODED_PSK="my-psk"
 ```
 
 :::tip Where do I find my device credentials?
@@ -88,14 +58,42 @@ Credentials can be copied from the Device details page in the [Golioth
 Console](https://console.golioth.io).
 :::
 
-### 3. Rebuild firmware with new version number
+### 2. Initial build and flash
 
-Now build the application a second time. Adding the
-`-DCONFIG_MCUBOOT_IMAGE_VERSION` flag incorporates a new version number in the
-firmware.
+Build and flash the sample code.
 
 ```bash
-west build -p -b nrf9160dk_nrf9160_ns samples/dfu -- -DCONFIG_MCUBOOT_IMAGE_VERSION=\"1.2.3\"
+west build -b nrf9160dk_nrf9160_ns samples/dfu -p
+west flash
+```
+
+This will build and run `v1.2.3` firmware on the Nordic nRF9160 development kit.
+
+:::info Building and flashing MCUboot to other devices
+
+The nRF9160 build tools handle the bootloader and image signing in a different
+way from other boards. In most other cases, you should use the `--sysbuild`
+command when building the DFU sample:
+
+```bash
+$ west build -b <board> --sysbuild samples/dfu
+$ west flash
+```
+
+:::
+
+### 3. Rebuild firmware with new version number
+
+Now give your firmware a new version number by editing `samples/dfu/prj.conf` and updating the version as follow:
+
+```cfg
+CONFIG_GOLIOTH_SAMPLE_FW_VERSION="1.2.4"
+```
+
+Build the application a second time.
+
+```bash
+west build -p -b nrf9160dk_nrf9160_ns samples/dfu --
 ```
 
 :::note
@@ -115,6 +113,13 @@ to create an artifact on the Golioth Console.
    box
 4. Click the upload icon and choose your app_update.bin file
 5. Click `Upload Artifact`
+
+:::info Binary Location for other Boards
+
+When building for a board that is not the nRF9160, the new binary will be
+located at `build/dfu/zephyr/zephyr.signed.bin`
+
+:::
 
 ### 5. Create a release and rollout the firmware update
 
