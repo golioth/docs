@@ -5,6 +5,18 @@ title: Registration & Wizard
 
 To begin using Golioth please register for an account at [console.golioth.io](https://console.golioth.io/).
 
+import Image from '@theme/IdealImage';
+import FlexImage from '@site/src/components/FlexImage';
+import GoliothConsoleOnboarding from '../assets/console-onboarding.jpg';
+import GoliothConsoleEmpty from '../assets/console-click-quickstart.jpg';
+import GoliothConsoleQuickstart from '../assets/console-quickstart-lets-go.jpg';
+
+<FlexImage column_count="3">
+  <Image img={GoliothConsoleOnboarding} alt="Golioth console without a project"/>
+  <Image img={GoliothConsoleEmpty} alt="Golioth console without a project"/>
+  <Image img={GoliothConsoleQuickstart} alt="Golioth console quickstart launch screen"/>
+</FlexImage>
+
 Once registered, you can review our terms of service and continue to the wizard that guides you through provisioning your first device.
 
 ![Golioth Console hardware provisioning wizard](../assets/gettingstarted-console-wizard.png)

@@ -111,3 +111,29 @@ html[data-theme="dark"] {
   --ifm-footer-title-color: #0d0f19;
   --ifm-footer-link-color: #0d0f19;
 }
+
+.image-flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-between;
+  gap: 0.3em;
+}
+
+.flex-twocol-item {
+  flex: 1;
+  flex-basis: 48%;
+}
+
+.flex-threecol-item {
+  flex: 1;
+  flex-basis: 30%;
+}
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 996px) {
+  .image-flex-container {
+    flex-direction: column;
+  }
+}
