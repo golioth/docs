@@ -28,6 +28,7 @@ sidebar_class_name: hide-item
 * netif:eth
 * gpio
 * spi
+* sdhc
 * watchdog
 * xpro_gpio
 * xpro_i2c

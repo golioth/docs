@@ -1,8 +1,8 @@
 ---
-id: arm_da1469x_dk_pro
-title: DA1469X_DK_PRO
-slug: /hardware/catalog/boards/unverified/arm_da1469x_dk_pro
-description: IoT board DA1469X_DK_PRO, compatible with Golioth at unverified level.
+id: arm_nucleo_u5a5zj_q
+title: ST Nucleo U5A5ZJ Q
+slug: /hardware/catalog/boards/unverified/arm_nucleo_u5a5zj_q
+description: IoT board ST Nucleo U5A5ZJ Q, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
 ---
@@ -13,11 +13,11 @@ sidebar_class_name: hide-item
 
 |                | Board properties     |
 | -------------  | -------------------- |
-| Board ID       | `da1469x_dk_pro` |
+| Board ID       | `nucleo_u5a5zj_q` |
 | Golioth Level  | [Unverified](/hardware#unverified-boards) |
 | Architecture   | ARM |
-| RAM*           | 512 kB |
-| Flash*         | N/A |
+| RAM*           | 2450 kB |
+| Flash*         | 4096 kB |
 
 \* values are as reported by Zephyr `.yaml` board files, which don't represent the overall available resources
 
@@ -26,20 +26,25 @@ sidebar_class_name: hide-item
 ## Supported features
 
 * arduino_gpio
-* counter
+* arduino_i2c
+* arduino_serial
+* arduino_spi
+* can
+* adc
+* dac
 * gpio
-* watchdog
 * i2c
 * spi
-* usb_device
-* rtc
+* usart
+* watchdog
+* backup_sram
+* dma
 
 ## Supported toolchains
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 
-[DA1469X_DK_PRO (da1469x_dk_pro)](https://docs.zephyrproject.org/latest/boards/arm/da1469x_dk_pro/doc/index.html)
+[ST Nucleo U5A5ZJ Q (nucleo_u5a5zj_q)](https://docs.zephyrproject.org/latest/boards/arm/nucleo_u5a5zj_q/doc/index.html)

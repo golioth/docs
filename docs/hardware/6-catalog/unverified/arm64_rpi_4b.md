@@ -1,9 +1,9 @@
 ---
-id: posix_nrf52_bsim
-title: NRF52 BabbleSim board
-slug: /hardware/catalog/boards/unverified/posix_nrf52_bsim
-description: IoT board NRF52 BabbleSim board, compatible with Golioth at unverified level.
-image: /img/boards/posix/null
+id: arm64_rpi_4b
+title: Raspberry Pi 4 Model B
+slug: /hardware/catalog/boards/unverified/arm64_rpi_4b
+description: IoT board Raspberry Pi 4 Model B, compatible with Golioth at unverified level.
+image: /img/boards/arm64/null
 sidebar_class_name: hide-item
 ---
 
@@ -13,9 +13,9 @@ sidebar_class_name: hide-item
 
 |                | Board properties     |
 | -------------  | -------------------- |
-| Board ID       | `nrf52_bsim` |
+| Board ID       | `rpi_4b` |
 | Golioth Level  | [Unverified](/hardware#unverified-boards) |
-| Architecture   | POSIX |
+| Architecture   | ARM64 |
 | RAM*           | N/A |
 | Flash*         | N/A |
 
@@ -25,12 +25,13 @@ sidebar_class_name: hide-item
 
 ## Supported features
 
-* gpio
+List of supported features is not available.
 
 ## Supported toolchains
 
 * zephyr
+* cross-compile
 
 ## Official Zephyr docs
 
-[NRF52 BabbleSim board (nrf52_bsim)](https://docs.zephyrproject.org/latest/boards/posix/nrf52_bsim/doc/index.html)
+[Raspberry Pi 4 Model B (rpi_4b)](https://docs.zephyrproject.org/latest/boards/arm64/rpi_4b/doc/index.html)

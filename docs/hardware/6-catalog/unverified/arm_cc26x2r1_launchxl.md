@@ -30,6 +30,7 @@ sidebar_class_name: hide-item
 * spi
 * watchdog
 * adc
+* hwinfo
 
 ## Supported toolchains
 

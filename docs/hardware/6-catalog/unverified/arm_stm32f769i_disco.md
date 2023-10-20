@@ -33,6 +33,7 @@ sidebar_class_name: hide-item
 * arduino_gpio
 * netif:eth
 * memc
+* kscan:touch
 
 ## Supported toolchains
 

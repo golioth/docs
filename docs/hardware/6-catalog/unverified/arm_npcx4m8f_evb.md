@@ -1,23 +1,23 @@
 ---
-id: arm_atsamd20_xpro
-title: SAM D20 Xplained Pro
-slug: /hardware/catalog/boards/unverified/arm_atsamd20_xpro
-description: IoT board SAM D20 Xplained Pro, compatible with Golioth at unverified level.
-image: /img/boards/arm/atsamd20_xpro.jpg
+id: arm_npcx4m8f_evb
+title: Nuvoton NPCX4M8F EVB
+slug: /hardware/catalog/boards/unverified/arm_npcx4m8f_evb
+description: IoT board Nuvoton NPCX4M8F EVB, compatible with Golioth at unverified level.
+image: /img/boards/arm/npcx4m8f_evb.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![SAM D20 Xplained Pro!](/img/boards/arm/atsamd20_xpro.jpg "SAM D20 Xplained Pro")
+![Nuvoton NPCX4M8F EVB!](/img/boards/arm/npcx4m8f_evb.jpg "Nuvoton NPCX4M8F EVB")
 
 |                | Board properties     |
 | -------------  | -------------------- |
-| Board ID       | `atsamd20_xpro` |
+| Board ID       | `npcx4m8f_evb` |
 | Golioth Level  | [Unverified](/hardware#unverified-boards) |
 | Architecture   | ARM |
-| RAM*           | 32 kB |
-| Flash*         | 256 kB |
+| RAM*           | 114 kB |
+| Flash*         | 384 kB |
 
 \* values are as reported by Zephyr `.yaml` board files, which don't represent the overall available resources
 
@@ -26,10 +26,13 @@ sidebar_class_name: hide-item
 ## Supported features
 
 * adc
-* flash
+* clock
 * gpio
 * i2c
-* spi
+* pm
+* pwm
+* psl
+* tach
 * uart
 * watchdog
 
@@ -37,8 +40,7 @@ sidebar_class_name: hide-item
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 
-[SAM D20 Xplained Pro (atsamd20_xpro)](https://docs.zephyrproject.org/latest/boards/arm/atsamd20_xpro/doc/index.html)
+[Nuvoton NPCX4M8F EVB (npcx4m8f_evb)](https://docs.zephyrproject.org/latest/boards/arm/npcx4m8f_evb/doc/index.html)

@@ -34,6 +34,7 @@ sidebar_class_name: hide-item
 * watchdog
 * netif:eth
 * pwm
+* dma
 
 ## Supported toolchains
 

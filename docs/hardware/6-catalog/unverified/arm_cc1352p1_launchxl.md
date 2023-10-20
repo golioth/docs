@@ -29,6 +29,7 @@ sidebar_class_name: hide-item
 * i2c
 * spi
 * watchdog
+* hwinfo
 
 ## Supported toolchains
 
