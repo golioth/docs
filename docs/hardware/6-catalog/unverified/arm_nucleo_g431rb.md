@@ -35,6 +35,7 @@ sidebar_class_name: hide-item
 * usb device
 * counter
 * spi
+* rng
 * dac
 * watchdog
 

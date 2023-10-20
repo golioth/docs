@@ -1,8 +1,8 @@
 ---
-id: arm_da1469x_dk_pro
-title: DA1469X_DK_PRO
-slug: /hardware/catalog/boards/unverified/arm_da1469x_dk_pro
-description: IoT board DA1469X_DK_PRO, compatible with Golioth at unverified level.
+id: arm_apollo4p_blue_kxr_evb
+title: Apollo4 Blue Plus KXR EVB
+slug: /hardware/catalog/boards/unverified/arm_apollo4p_blue_kxr_evb
+description: IoT board Apollo4 Blue Plus KXR EVB, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
 ---
@@ -13,11 +13,11 @@ sidebar_class_name: hide-item
 
 |                | Board properties     |
 | -------------  | -------------------- |
-| Board ID       | `da1469x_dk_pro` |
+| Board ID       | `apollo4p_blue_kxr_evb` |
 | Golioth Level  | [Unverified](/hardware#unverified-boards) |
 | Architecture   | ARM |
-| RAM*           | 512 kB |
-| Flash*         | N/A |
+| RAM*           | 2816 kB |
+| Flash*         | 1952 kB |
 
 \* values are as reported by Zephyr `.yaml` board files, which don't represent the overall available resources
 
@@ -25,21 +25,13 @@ sidebar_class_name: hide-item
 
 ## Supported features
 
-* arduino_gpio
-* counter
-* gpio
-* watchdog
-* i2c
-* spi
-* usb_device
-* rtc
+* uart
 
 ## Supported toolchains
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 
-[DA1469X_DK_PRO (da1469x_dk_pro)](https://docs.zephyrproject.org/latest/boards/arm/da1469x_dk_pro/doc/index.html)
+[Apollo4 Blue Plus KXR EVB (apollo4p_blue_kxr_evb)](https://docs.zephyrproject.org/latest/boards/arm/apollo4p_blue_kxr_evb/doc/index.html)

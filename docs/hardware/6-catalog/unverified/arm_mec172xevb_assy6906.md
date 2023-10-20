@@ -30,6 +30,7 @@ sidebar_class_name: hide-item
 * adc
 * pwm
 * counter
+* spi
 
 ## Supported toolchains
 

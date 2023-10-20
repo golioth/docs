@@ -26,6 +26,7 @@ sidebar_class_name: hide-item
 ## Supported features
 
 * adc
+* flash
 * gpio
 * pwm
 * spi

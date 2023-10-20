@@ -35,6 +35,7 @@ sidebar_class_name: hide-item
 * pwm
 * flash
 * dma
+* counter
 
 ## Supported toolchains
 
