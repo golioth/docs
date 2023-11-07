@@ -16,41 +16,48 @@ To load completions:
 
 Bash:
 
-  $ source <(goliothctl completion bash)
+```
+$ source <(goliothctl completion bash)
 
-  # To load completions for each session, execute once:
-  # Linux:
-  $ goliothctl completion bash > /etc/bash_completion.d/goliothctl
-  # macOS:
-  $ goliothctl completion bash > /usr/local/etc/bash_completion.d/goliothctl
+# To load completions for each session, execute once:
+# Linux:
+$ goliothctl completion bash > /etc/bash_completion.d/goliothctl
+# macOS:
+$ goliothctl completion bash > /usr/local/etc/bash_completion.d/goliothctl
+```
 
 Zsh:
 
-  # If shell completion is not already enabled in your environment,
-  # you will need to enable it.  You can execute the following once:
+```
+# If shell completion is not already enabled in your environment,
+# you will need to enable it.  You can execute the following once:
 
-  $ echo "autoload -U compinit; compinit" >> ~/.zshrc
+$ echo "autoload -U compinit; compinit" >> ~/.zshrc
 
-  # To load completions for each session, execute once:
-  $ goliothctl completion zsh > "${fpath[1]}/_goliothctl"
+# To load completions for each session, execute once:
+$ goliothctl completion zsh > "${fpath[1]}/_goliothctl"
 
-  # You will need to start a new shell for this setup to take effect.
+# You will need to start a new shell for this setup to take effect.
+```
 
 fish:
 
-  $ goliothctl completion fish | source
+```
+$ goliothctl completion fish | source
 
-  # To load completions for each session, execute once:
-  $ goliothctl completion fish > ~/.config/fish/completions/goliothctl.fish
+# To load completions for each session, execute once:
+$ goliothctl completion fish > ~/.config/fish/completions/goliothctl.fish
+```
 
 PowerShell:
 
-  PS> goliothctl completion powershell | Out-String | Invoke-Expression
+```
+PS> goliothctl completion powershell | Out-String | Invoke-Expression
 
-  # To load completions for every new session, run:
-  PS> goliothctl completion powershell > goliothctl.ps1
-  # and source this file from your PowerShell profile.
-
+# To load completions for every new session, run:
+PS> goliothctl completion powershell > goliothctl.ps1
+# and source this file from your PowerShell profile.
+```
 
 ```
 goliothctl completion [bash|zsh|fish|powershell]
