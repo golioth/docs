@@ -11,8 +11,8 @@ Real-time endpoint to listen to a device's data stream as it arrives at the Goli
 
 | Method    | Description                        | Complete Endpoint                                                                                                                     | Content Format |
 | --------- | ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | -------------- |
-| WebSocket | Listening to Device Logs           | wss://api.golioth.io/v1/ws/projects/{projectId}/logs?{x-api-key\|jwt}={API_KEY\|JWT}&module={module}&level={level}                    | JSON           |
-| WebSocket | Listening to Device Logs by Device | wss://api.golioth.io/v1/ws/projects/{projectId}/devices/{deviceId}/logs?{x-api-key\|jwt}={API_KEY\|JWT}&module={module}&level={level} | JSON           |
+| WebSocket | Listening to Device Logs           | `wss://api.golioth.io/v1/ws/projects/{projectId}/logs?{x-api-key\|jwt}={API_KEY\|JWT}&module={module}&level={level}`                    | JSON           |
+| WebSocket | Listening to Device Logs by Device | `wss://api.golioth.io/v1/ws/projects/{projectId}/devices/{deviceId}/logs?{x-api-key\|jwt}={API_KEY\|JWT}&module={module}&level={level}` | JSON           |
 
 To open the WebSocket connection, you will make an HTTP Request for a websocket endpoint, passing the following `path` and `query` parameters:
 

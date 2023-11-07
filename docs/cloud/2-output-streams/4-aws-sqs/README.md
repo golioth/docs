@@ -29,7 +29,7 @@ To use this integration, you need to create an SQS Queue and and a user with per
 - Create a policy with access for SQS and the following actions:
   - sqs:Write:SendMessage
 - Restrict the policy to the following resources:
-  - arn:aws:sqs:{your-region}:{your-account-id}:{your-queue-name}
+  - `arn:aws:sqs:{your-region}:{your-account-id}:{your-queue-name}`
 - Go back to the IAM console home
 - On the navigation menu, choose Users
 - Click on "Add users"

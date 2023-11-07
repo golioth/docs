@@ -4,10 +4,10 @@ sidebar_position: 2
 ---
 
 If you have already worked through the [Getting Started
-Guide](/getting-started/1-overview.md), you are familiar with creating
-Pre-Shared Key (PSK) device credentials using the Golioth Console (or the
-`goliothctl` command line tool). PSK credentials are passed as members of the
-Golioth Client configuration.
+Guide](/getting-started), you are familiar with creating Pre-Shared Key (PSK)
+device credentials using the Golioth Console (or the `goliothctl` command line
+tool). PSK credentials are passed as members of the Golioth Client
+configuration.
 
 ```c
 uint8_t* client_psk_id = pointer_to_your_psk_id_array;

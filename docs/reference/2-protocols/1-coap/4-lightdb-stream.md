@@ -11,10 +11,10 @@ How to use guides:
 
 ### Interface
 
-| Method | Description     | Path            | Content Format |
-| ------ | --------------- | --------------- | -------------- |
-| POST   | Send data       | /.s/{path=\*\*} | JSON/CBOR      |
-| GET    | Get latest data | /.s/{path=\*\*} | JSON/CBOR      |
+| Method | Description     | Path              | Content Format |
+| ------ | --------------- | ----------------- | -------------- |
+| POST   | Send data       | `/.s/{path=\*\*}` | JSON/CBOR      |
+| GET    | Get latest data | `/.s/{path=\*\*}` | JSON/CBOR      |
 
 > `path` can be any valid URI sub path. Ex:
 >

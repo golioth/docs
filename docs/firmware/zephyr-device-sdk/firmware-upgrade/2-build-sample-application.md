@@ -48,7 +48,8 @@ This will build and run `v0.0.0` firmware on the Nordic nRF9160 development kit.
 Images for Nordic targets are automatically signed during the build process and
 do not require an extra manual step for signing.
 
-<details><summary>Click to reveal details on MCUboot and signing binaries</summary>
+<details>
+<summary>Click to reveal details on MCUboot and signing binaries</summary>
 
 The README in the Golioth DFU sample discusses [building MCUBoot for other architectures](https://github.com/golioth/golioth-zephyr-sdk/tree/main/samples/dfu#using-with-zephyr).
 
