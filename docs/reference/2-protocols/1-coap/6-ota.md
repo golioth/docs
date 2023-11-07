@@ -11,12 +11,12 @@ How to use guides:
 
 ### Interface
 
-| Method      | Description                                                                                                       | Path                      |
-| ----------- | ----------------------------------------------------------------------------------------------------------------- | ------------------------- |
-| GET/Observe | Get desired release version in Manifest Format                                                                    | /.u/desired               |
-| GET/Observe | Get desired release version in [SUIT Manifest](https://datatracker.ietf.org/doc/draft-ietf-suit-manifest/) Format | /.u/desired/suit          |
-| GET         | Download binary of a given component and version                                                                  | /.u/c/{package}@{version} |
-| POST/PUT    | Report firmware state for a given package                                                                         | /.u/c/{package}           |
+| Method      | Description                                                                                                       | Path                        |
+| ----------- | ----------------------------------------------------------------------------------------------------------------- | --------------------------- |
+| GET/Observe | Get desired release version in Manifest Format                                                                    | `/.u/desired`               |
+| GET/Observe | Get desired release version in [SUIT Manifest](https://datatracker.ietf.org/doc/draft-ietf-suit-manifest/) Format | `/.u/desired/suit`          |
+| GET         | Download binary of a given component and version                                                                  | `/.u/c/{package}@{version}` |
+| POST/PUT    | Report firmware state for a given package                                                                         | `/.u/c/{package}`           |
 
 :::note
 The desired release version returned in the manifest will be the most recently created release that is enabled.

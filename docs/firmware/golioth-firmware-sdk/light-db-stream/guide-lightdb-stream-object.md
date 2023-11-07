@@ -73,7 +73,8 @@ uint8_t cbor_buf[] = { 0xA3, 0x64, 0x6E, 0x61, 0x6D, 0x65, 0x67, 0x47, 0x6F, 0x6
 While CBOR is not human readable, there are online tools like
 [cbor.me](https://cbor.me/) that are useful for debugging.
 
-<details><summary>Click to reveal a zcbor encoding example</summary>
+<details>
+<summary>Click to reveal a zcbor encoding example</summary>
 
 Here is an example of using zcbor in canonical mode (`ZCBOR_CANONICAL` or in
 Zephyr: `CONFIG_ZCBOR_CANONICAL`)to encode a CBOR payload.

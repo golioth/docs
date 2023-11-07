@@ -4,10 +4,9 @@ sidebar_position: 1
 ---
 
 If you have already worked through the [Getting Started
-Guide](/getting-started/1-overview.md), you are familiar with creating device
-credentials using the Golioth Console (or the `goliothctl` command line tool).
-Credentials are passed to the device by adding them via the `prj.conf` file
-(see the [Hello
+Guide](/getting-started), you are familiar with creating device credentials
+using the Golioth Console (or the `goliothctl` command line tool). Credentials
+are passed to the device by adding them via the `prj.conf` file (see the [Hello
 sample](https://github.com/golioth/golioth-zephyr-sdk/tree/main/samples/hello))
 or via serial using the shell (see [the Settings
 sample](https://github.com/golioth/golioth-zephyr-sdk/tree/main/samples/settings)).
