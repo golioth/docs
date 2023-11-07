@@ -11,7 +11,7 @@ Real-time endpoint to listen to any changes in a device state path.
 
 | Method    | Description                       | Complete Endpoint                                               | Content Format |
 | --------- | --------------------------------- | --------------------------------------------------------------- | -------------- |
-| WebSocket | Listening to LightDB Device State | wss://api.golioth.io/v1/ws/projects/{projectId}/devices/{deviceId}/data{/path=\*\*}?{x-api-key\|jwt}={API_KEY\|JWT} | JSON |
+| WebSocket | Listening to LightDB Device State | `wss://api.golioth.io/v1/ws/projects/{projectId}/devices/{deviceId}/data{/path=\*\*}?{x-api-key\|jwt}={API_KEY\|JWT}` | JSON |
 
 To open the WebSocket connection, you will make an HTTP Request for a websocket endpoint, passing the following parameters:
 

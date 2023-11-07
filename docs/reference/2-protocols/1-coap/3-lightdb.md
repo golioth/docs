@@ -11,11 +11,11 @@ How to use guides:
 
 ### Interface
 
-| Method      | Description         | Path            | Content Format |
-| ----------- | ------------------- | --------------- | -------------- |
-| GET/Observe | Read persisted data | /.d/{path=\*\*} | JSON/CBOR      |
-| POST/PUT    | Create/Update data  | /.d/{path=\*\*} | JSON/CBOR      |
-| DELETE      | Delete Data         | /.d/{path=\*\*} | JSON/CBOR      |
+| Method      | Description         | Path              | Content Format |
+| ----------- | ------------------- | ----------------- | -------------- |
+| GET/Observe | Read persisted data | `/.d/{path=\*\*}` | JSON/CBOR      |
+| POST/PUT    | Create/Update data  | `/.d/{path=\*\*}` | JSON/CBOR      |
+| DELETE      | Delete Data         | `/.d/{path=\*\*}` | JSON/CBOR      |
 
 > `path` can be any valid URI sub path. Ex:
 >

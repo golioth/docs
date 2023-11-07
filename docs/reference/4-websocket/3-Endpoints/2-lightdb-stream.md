@@ -11,8 +11,8 @@ Real-time endpoint to listen to a device's data stream as it arrives at the Goli
 
 | Method    | Description                           | Complete Endpoint                                                                                         | Content Format |
 | --------- | ------------------------------------- | --------------------------------------------------------------------------------------------------------- | -------------- |
-| WebSocket | Listening to LightDB Stream           | wss://api.golioth.io/v1/ws/projects/{projectId}/stream?{x-api-key\|jwt}={API_KEY\|JWT}                    | JSON           |
-| WebSocket | Listening to LightDB Stream by Device | wss://api.golioth.io/v1/ws/projects/{projectId}/devices/{deviceId}/stream?{x-api-key\|jwt}={API_KEY\|JWT} | JSON           |
+| WebSocket | Listening to LightDB Stream           | `wss://api.golioth.io/v1/ws/projects/{projectId}/stream?{x-api-key\|jwt}={API_KEY\|JWT}`                    | JSON           |
+| WebSocket | Listening to LightDB Stream by Device | `wss://api.golioth.io/v1/ws/projects/{projectId}/devices/{deviceId}/stream?{x-api-key\|jwt}={API_KEY\|JWT}` | JSON           |
 
 To open the WebSocket connection, you will make an HTTP Request for a websocket endpoint, passing the following `path` and `query` parameters:
 

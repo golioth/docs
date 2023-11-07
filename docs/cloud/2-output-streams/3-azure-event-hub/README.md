@@ -12,7 +12,7 @@ For each Output Stream type, there is a set of specify attributes. Here are the 
 
 | Attribute        | Type   | Required | Description                                                                                                                                                                                    |
 | ---------------- | ------ | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| connectionString | string | ✅       | Full connection string to reach Azure Event Hub topic: <br/><code>Endpoint=sb://{eventBus}.servicebus.windows.net/;SharedAccessKeyName={accessKeyName};SharedAccessKey={accessKey}</code> |
+| connectionString | string | ✅       | Full connection string to reach Azure Event Hub topic: <br/>`Endpoint=sb://{eventBus}.servicebus.windows.net/;SharedAccessKeyName={accessKeyName};SharedAccessKey={accessKey}` |
 | topic            | string | ✅       | Azure Event Hub topic name                                                                                                                                                                     |
 
 ### Setup
