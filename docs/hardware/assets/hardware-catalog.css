@@ -81,7 +81,7 @@ html[data-theme="dark"] .board-card {
 .board-card .board-card-badge-container {
   position: absolute;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: flex-end;
   width: 100%;
   height: 100%;
