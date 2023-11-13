@@ -4,9 +4,9 @@ title: Platform Overview
 slug: /getting-started
 ---
 
-This guide will prepare your Golioth account to communicate directly with your hardware devices. 
+This guide will prepare your Golioth account to communicate directly with your hardware devices.
 
-* Register for your account on Golioth
+* [Register for your account on Golioth](https://console.golioth.io/login/)
 * Add a project and provision your first device
 
 Once completed, you can to move on to [the Hardware section](../hardware/1-home.md) to get a device (or emulated device) communicating with the Golioth Cloud.
