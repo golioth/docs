@@ -22,5 +22,6 @@ jobs:
           channelId: live
           projectId: golioth
           target: docs-dev
+          expires: 30d
         env:
           FIREBASE_CLI_PREVIEWS: hostingchannels
