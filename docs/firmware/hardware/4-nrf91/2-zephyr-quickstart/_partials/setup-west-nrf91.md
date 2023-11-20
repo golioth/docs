@@ -44,7 +44,7 @@ brew install cmake ninja gperf python3 ccache qemu dtc
 </TabItem>
 <TabItem value="windows">
 
-import SetupWestNRF91Windows from '/docs/hardware/4-nrf91/2-zephyr-quickstart/\_partials/setup-west-nrf91-windows.md'
+import SetupWestNRF91Windows from '/docs/firmware/hardware/4-nrf91/2-zephyr-quickstart/\_partials/setup-west-nrf91-windows.md'
 
 <SetupWestNRF91Windows />
 

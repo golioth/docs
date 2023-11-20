@@ -1,6 +1,6 @@
 ---
 id: overview
-title: Hardware Overview
+title: Hardware
 hide_title: false
 slug: /hardware
 ---
