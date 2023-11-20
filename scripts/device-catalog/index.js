@@ -4,9 +4,9 @@ const boardsToJsonFile = require('./boardsToJsonFile');
 const boardToMdx = require('./boardToMdx');
 
 const zephyrRoot = './vendor/zephyr';
-const docsRoot = './docs/hardware/6-catalog';
+const docsRoot = './docs/firmware/hardware/6-catalog';
 const imgRoot = './static/img/boards';
-const boardsFile = './docs/hardware/assets/boards.json';
+const boardsFile = './docs/firmware/hardware/assets/boards.json';
 
 const verifications = JSON.parse(fs.readFileSync('./scripts/device-catalog/support.json'));
 
