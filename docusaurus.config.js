@@ -28,12 +28,6 @@ module.exports = {
           position: "left",
         },
         {
-          to: "hardware",
-          activeBasePath: "hardware",
-          label: "Hardware",
-          position: "left",
-        },
-        {
           to: "firmware",
           activeBasePath: "firmware",
           label: "Firmware",

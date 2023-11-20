@@ -10,8 +10,8 @@ values={[
 {label: 'Windows', value: 'windows'},
 ]}>
 
-import InstallEspressifToolchainUnix from '/docs/hardware/2-esp32/2-zephyr-quickstart/\_partials/install-espressif-toolchain-unix.md'
-import InstallEspressifToolchainWindows from '/docs/hardware/2-esp32/2-zephyr-quickstart/\_partials/install-espressif-toolchain-windows.md'
+import InstallEspressifToolchainUnix from '/docs/firmware/hardware/2-esp32/2-zephyr-quickstart/\_partials/install-espressif-toolchain-unix.md'
+import InstallEspressifToolchainWindows from '/docs/firmware/hardware/2-esp32/2-zephyr-quickstart/\_partials/install-espressif-toolchain-windows.md'
 
 <TabItem value="linux">
 <InstallEspressifToolchainUnix />

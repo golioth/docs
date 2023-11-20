@@ -28,7 +28,7 @@ import InstallZephyrSDKtoolchain from '/docs/partials-common/install-zephyr-sdk-
 
 ### Install Espressif (ESP32) Binary Blobs
 
-import InstallEspressifToolchain from '/docs/hardware/2-esp32/2-zephyr-quickstart/\_partials/install-espressif-toolchain.md'
+import InstallEspressifToolchain from '/docs/firmware/hardware/2-esp32/2-zephyr-quickstart/\_partials/install-espressif-toolchain.md'
 
 <InstallEspressifToolchain />
 
