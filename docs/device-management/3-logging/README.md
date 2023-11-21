@@ -1,7 +1,7 @@
 ---
 id: overview
 title: Logging Overview
-slug: /device-management/services/logging
+slug: /device-management/logging
 ---
 
 ## What is Logging
