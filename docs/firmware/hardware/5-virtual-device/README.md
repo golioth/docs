@@ -21,6 +21,6 @@ There are two paths for testing using virtual devices:
 This guide assumes you have already completed the [Golioth Platform Quickstart](/getting-started).
 
 - The `coap` virtual device section requires [the Golioth Command Line Tools](/commandline)
-- The QEMU section requires a provisioned device as outlined in [the Golioth Console getting started guide](/golioth-console)
+- The QEMU section requires a provisioned device as outlined in [the Golioth Console getting started guide](/getting-started/golioth-console)
 
 :::

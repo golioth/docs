@@ -1,6 +1,6 @@
 ---
 id: manage-devices
-title: Manage Devices
+title: Manage Devices and Credentials
 ---
 
 Let's use the Golioth Console to create a new device.
@@ -39,9 +39,28 @@ menu.
 
 ## New device summary
 
-After clicking save, your device is created and a new device summary is displayed.
-
 ![New device summary window](../assets/gettingstarted-console-createdevice-confirmation.png)
 
-Click the Go to Device Management button and continue to the next page of this
-guide.
+After clicking save, your device is created and a new device summary is displayed.
+
+## Retrieving Device Credentials
+
+![Device details now includes device credentials](../assets/gettingstarted-console-deviceview-credentialspanel.png)
+
+To access device credentials, select the Credentials tab from the device view
+in the Golioth Console. The PSK-ID and PSK (the Identity and the Pre Shared
+Key) are what your device needs to authenticate and connect to the Golioth
+Cloud. You can always return to this panel in the device details to retrieve
+these values.
+
+:::tip Golioth Supports Certificate Authentication
+When getting to know Golioth, Pre-Shared Key (PSK) authentication is
+demonstrated as a happy path to get a demo device running right away. However,
+Golioth supports and recommends using X509 certificate (ECDSA) for your
+production devices.
+
+* Firmware Section: [Certificate
+  Authentication](/firmware/golioth-firmware-sdk/authentication/certificate-auth)
+:::
+
+Congratulations, you're ready to move on to selecting hardware!

@@ -32,8 +32,9 @@ This can be as simple as generating a pre-shared key on the Golioth console, and
 
 See the getting started guide:
 
-* Golioth Console: [authorize PSK devices](/getting-started/console/authorize-devices).
-* Command line Tools: [authorize PSK devices](/getting-started/3-commandline/6-authorize-devices.md).
+* Golioth Console: [authorize PSK
+  devices](/getting-started/console/manage-devices).
+* Command line Tools: [authorize PSK devices](/getting-started/commandline/authorize-devices).
 
 
 ## Client Certificate Authentication
