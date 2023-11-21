@@ -2,6 +2,7 @@
 id: overview
 title: Golioth Console Overview
 slug: /golioth-console
+sidebar_position: 1
 ---
 
 The Golioth Console provides a web-based configuration tool for managing your devices. In this section we will walk through the provisioning process for a device. However, for a wholistic understanding it's good to know that the console is a powerful tool you can use to:
