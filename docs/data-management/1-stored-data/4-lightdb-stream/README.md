@@ -1,7 +1,7 @@
 ---
 id: overview
 title: LightDB Stream Overview
-slug: /device-management/services/lightdb-stream
+slug: /data-management/stored-data/lightdb-stream
 ---
 
 ## What is LightDB Stream?
