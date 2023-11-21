@@ -1,7 +1,7 @@
 ---
 id: overview
 title: Datacake Overview
-slug: /device-management/output-streams/datacake
+slug: /data-management/output-streams/datacake
 ---
 
 [Datacake](https://datacake.co/) is a multi-purpose, low-code IoT platform that requires no programming skills and minimal time to create custom IoT applications that can be brought into a white label IoT solution at the push of a button.
@@ -40,7 +40,7 @@ In this tutorial you will see how to:
 
 Golioth Output Streams use the [Cloud Events](https://cloudevents.io) format. For Datacake, this means some metadata of the event are sent as HTTP headers.
 
-Here is an example of an event arriving on Datcake. Headers prefixed with `Ce-` are related to Cloud Events and the message body is the event payload (see event payloads on [Output Streams Event Types](/device-management/output-streams/event-types/events)).
+Here is an example of an event arriving on Datcake. Headers prefixed with `Ce-` are related to Cloud Events and the message body is the event payload (see event payloads on [Output Streams Event Types](/data-management/output-streams/event-types/events)).
 
 
 ```
