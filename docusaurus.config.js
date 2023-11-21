@@ -74,7 +74,7 @@ module.exports = {
             },
             {
               label: "Over the Air Updates",
-              to: "/device-management/services/ota",
+              to: "/device-management/ota",
             },
           ],
         },

@@ -3,11 +3,11 @@ id: ota
 title: Over The Air (OTA) Updates
 ---
 
-[Over The Air (OTA) Updates Service](/device-management/services/ota) definitions over CoAP.
+[Over The Air (OTA) Updates Service](/device-management/ota) definitions over CoAP.
 
 How to use guides:
 
-- [OTA Overview](/device-management/services/ota)
+- [OTA Overview](/device-management/ota)
 
 ### Interface
 

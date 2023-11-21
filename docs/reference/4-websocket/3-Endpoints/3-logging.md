@@ -3,7 +3,7 @@ id: logging
 title: Logging
 ---
 
-[Logging Device Service](/device-management/services/logging) definitions.
+[Logging Device Service](/device-management/logging) definitions.
 
 Real-time endpoint to listen to a device's data stream as it arrives at the Golioth Cloud.
 
