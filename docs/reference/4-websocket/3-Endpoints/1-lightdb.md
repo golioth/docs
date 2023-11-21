@@ -3,7 +3,7 @@ id: lightdb
 title: LightDB
 ---
 
-[LightDB Device Service](/cloud/services/lightdb) definitions.
+[LightDB Device Service](/device-management/services/lightdb) definitions.
 
 Real-time endpoint to listen to any changes in a device state path.
 

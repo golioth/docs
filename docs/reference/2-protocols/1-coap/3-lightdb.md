@@ -3,11 +3,11 @@ id: lightdb
 title: LightDB
 ---
 
-[LightDB Device Service](/cloud/services/lightdb) definitions over CoAP.
+[LightDB Device Service](/device-management/services/lightdb) definitions over CoAP.
 
 How to use guides:
 
-- [Read Write Data](/cloud/services/lightdb/read-write-data)
+- [Read Write Data](/device-management/services/lightdb/read-write-data)
 
 ### Interface
 
