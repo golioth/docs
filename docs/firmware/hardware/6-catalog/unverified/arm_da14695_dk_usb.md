@@ -1,7 +1,7 @@
 ---
 id: arm_da14695_dk_usb
 title: DA14695_DK_USB
-slug: /hardware/catalog/boards/unverified/arm_da14695_dk_usb
+slug: /firmware/hardware/catalog/boards/unverified/arm_da14695_dk_usb
 description: IoT board DA14695_DK_USB, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `da14695_dk_usb` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 512 kB |
 | Flash*         | N/A |

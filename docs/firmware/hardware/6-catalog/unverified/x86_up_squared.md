@@ -1,7 +1,7 @@
 ---
 id: x86_up_squared
 title: UP Squared (x86_64)
-slug: /hardware/catalog/boards/unverified/x86_up_squared
+slug: /firmware/hardware/catalog/boards/unverified/x86_up_squared
 description: IoT board UP Squared (x86_64), compatible with Golioth at unverified level.
 image: /img/boards/x86/up_squared.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `up_squared` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | X86 |
 | RAM*           | 256 kB |
 | Flash*         | N/A |
@@ -25,6 +25,7 @@ sidebar_class_name: hide-item
 
 ## Supported features
 
+* acpi
 * smp
 
 ## Supported toolchains

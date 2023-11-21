@@ -1,7 +1,7 @@
 ---
 id: posix_native_sim
 title: Native Simulation port - 32-bit
-slug: /hardware/catalog/boards/unverified/posix_native_sim
+slug: /firmware/hardware/catalog/boards/unverified/posix_native_sim
 description: IoT board Native Simulation port - 32-bit, compatible with Golioth at unverified level.
 image: /img/boards/posix/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `native_sim` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | POSIX |
 | RAM*           | 65536 kB |
 | Flash*         | 65536 kB |
@@ -26,6 +26,7 @@ sidebar_class_name: hide-item
 ## Supported features
 
 * can
+* counter
 * eeprom
 * netif:eth
 * usb_device

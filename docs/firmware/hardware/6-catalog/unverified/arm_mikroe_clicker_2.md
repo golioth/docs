@@ -1,7 +1,7 @@
 ---
 id: arm_mikroe_clicker_2
 title: MikroE Clicker 2 for STM32
-slug: /hardware/catalog/boards/unverified/arm_mikroe_clicker_2
+slug: /firmware/hardware/catalog/boards/unverified/arm_mikroe_clicker_2
 description: IoT board MikroE Clicker 2 for STM32, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `mikroe_clicker_2` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 192 kB |
 | Flash*         | 1024 kB |

@@ -1,7 +1,7 @@
 ---
 id: overview
 title: NXP i.MX RT1060 Overview
-slug: /hardware/mimxrt1060_evkb
+slug: /firmware/hardware/mimxrt1060_evkb
 ---
 
 ## What is the i.MX RT1060?

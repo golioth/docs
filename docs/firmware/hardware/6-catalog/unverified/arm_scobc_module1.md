@@ -1,7 +1,7 @@
 ---
 id: arm_scobc_module1
 title: Space Cubics OBC module 1
-slug: /hardware/catalog/boards/unverified/arm_scobc_module1
+slug: /firmware/hardware/catalog/boards/unverified/arm_scobc_module1
 description: IoT board Space Cubics OBC module 1, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `scobc_module1` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | N/A |
 | Flash*         | N/A |

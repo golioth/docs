@@ -1,7 +1,7 @@
 ---
 id: arm_adafruit_itsybitsy_m4_express
 title: Adafruit ItsyBitsy M4 Express
-slug: /hardware/catalog/boards/unverified/arm_adafruit_itsybitsy_m4_express
+slug: /firmware/hardware/catalog/boards/unverified/arm_adafruit_itsybitsy_m4_express
 description: IoT board Adafruit ItsyBitsy M4 Express, compatible with Golioth at unverified level.
 image: /img/boards/arm/adafruit_itsybitsy_m4_express.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `adafruit_itsybitsy_m4_express` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 192 kB |
 | Flash*         | 512 kB |

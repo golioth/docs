@@ -1,7 +1,7 @@
 ---
 id: arm_gd32e507z_eval
 title: GigaDevice GD32E507Z-EVAL
-slug: /hardware/catalog/boards/unverified/arm_gd32e507z_eval
+slug: /firmware/hardware/catalog/boards/unverified/arm_gd32e507z_eval
 description: IoT board GigaDevice GD32E507Z-EVAL, compatible with Golioth at unverified level.
 image: /img/boards/arm/gd32e507z_eval.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `gd32e507z_eval` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 128 kB |
 | Flash*         | 512 kB |

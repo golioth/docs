@@ -1,7 +1,7 @@
 ---
 id: arm_efr32_radio
 title: efr32_radio
-slug: /hardware/catalog/boards/unverified/arm_efr32_radio
+slug: /firmware/hardware/catalog/boards/unverified/arm_efr32_radio
 description: IoT board efr32_radio, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `efr32_radio` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | N/A |
 | Flash*         | N/A |

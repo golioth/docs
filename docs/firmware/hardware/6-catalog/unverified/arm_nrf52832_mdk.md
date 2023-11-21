@@ -1,7 +1,7 @@
 ---
 id: arm_nrf52832_mdk
 title: nRF52832-MDK
-slug: /hardware/catalog/boards/unverified/arm_nrf52832_mdk
+slug: /firmware/hardware/catalog/boards/unverified/arm_nrf52832_mdk
 description: IoT board nRF52832-MDK, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `nrf52832_mdk` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 64 kB |
 | Flash*         | 512 kB |

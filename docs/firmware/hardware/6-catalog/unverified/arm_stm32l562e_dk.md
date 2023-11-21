@@ -1,7 +1,7 @@
 ---
 id: arm_stm32l562e_dk
 title: ST STM32L562E-DK Discovery
-slug: /hardware/catalog/boards/unverified/arm_stm32l562e_dk
+slug: /firmware/hardware/catalog/boards/unverified/arm_stm32l562e_dk
 description: IoT board ST STM32L562E-DK Discovery, compatible with Golioth at unverified level.
 image: /img/boards/arm/stm32l562e_dk.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `stm32l562e_dk` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 192 kB |
 | Flash*         | 512 kB |
@@ -34,6 +34,7 @@ sidebar_class_name: hide-item
 * dac
 * adc
 * spi
+* ble
 * dma
 * usart
 * arduino_spi

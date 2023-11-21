@@ -1,7 +1,7 @@
 ---
 id: arm_az3166_iotdevkit
 title: MXChip AZ3166 IoT Devkit
-slug: /hardware/catalog/boards/unverified/arm_az3166_iotdevkit
+slug: /firmware/hardware/catalog/boards/unverified/arm_az3166_iotdevkit
 description: IoT board MXChip AZ3166 IoT Devkit, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `az3166_iotdevkit` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | N/A |
 | Flash*         | N/A |

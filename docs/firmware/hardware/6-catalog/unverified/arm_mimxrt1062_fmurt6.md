@@ -1,7 +1,7 @@
 ---
 id: arm_mimxrt1062_fmurt6
 title: NXP MIMXRT1062-FMURT6
-slug: /hardware/catalog/boards/unverified/arm_mimxrt1062_fmurt6
+slug: /firmware/hardware/catalog/boards/unverified/arm_mimxrt1062_fmurt6
 description: IoT board NXP MIMXRT1062-FMURT6, compatible with Golioth at unverified level.
 image: /img/boards/arm/mimxrt1062_fmurt6.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `mimxrt1062_fmurt6` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 768 kB |
 | Flash*         | 65536 kB |

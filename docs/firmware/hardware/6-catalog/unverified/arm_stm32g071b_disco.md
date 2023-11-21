@@ -1,7 +1,7 @@
 ---
 id: arm_stm32g071b_disco
 title: ST STM32G071B Discovery
-slug: /hardware/catalog/boards/unverified/arm_stm32g071b_disco
+slug: /firmware/hardware/catalog/boards/unverified/arm_stm32g071b_disco
 description: IoT board ST STM32G071B Discovery, compatible with Golioth at unverified level.
 image: /img/boards/arm/stm32g071b_disco.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `stm32g071b_disco` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 36 kB |
 | Flash*         | 128 kB |

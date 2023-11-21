@@ -1,7 +1,7 @@
 ---
 id: arm_mr_canhubk3
 title: NXP MR-CANHUBK3
-slug: /hardware/catalog/boards/unverified/arm_mr_canhubk3
+slug: /firmware/hardware/catalog/boards/unverified/arm_mr_canhubk3
 description: IoT board NXP MR-CANHUBK3, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `mr_canhubk3` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 1024 kB |
 | Flash*         | 1024 kB |

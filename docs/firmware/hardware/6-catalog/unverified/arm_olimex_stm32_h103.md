@@ -1,7 +1,7 @@
 ---
 id: arm_olimex_stm32_h103
 title: OLIMEX-STM32-H103
-slug: /hardware/catalog/boards/unverified/arm_olimex_stm32_h103
+slug: /firmware/hardware/catalog/boards/unverified/arm_olimex_stm32_h103
 description: IoT board OLIMEX-STM32-H103, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `olimex_stm32_h103` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 20 kB |
 | Flash*         | 128 kB |

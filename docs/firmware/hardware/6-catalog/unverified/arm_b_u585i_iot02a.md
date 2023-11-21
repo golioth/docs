@@ -1,7 +1,7 @@
 ---
 id: arm_b_u585i_iot02a
 title: ST B_U585I_IOT02A Discovery kit
-slug: /hardware/catalog/boards/unverified/arm_b_u585i_iot02a
+slug: /firmware/hardware/catalog/boards/unverified/arm_b_u585i_iot02a
 description: IoT board ST B_U585I_IOT02A Discovery kit, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `b_u585i_iot02a` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 786 kB |
 | Flash*         | 2048 kB |
@@ -38,6 +38,7 @@ sidebar_class_name: hide-item
 * backup_sram
 * pwm
 * counter
+* i2c
 
 ## Supported toolchains
 

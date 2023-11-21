@@ -1,7 +1,7 @@
 ---
 id: riscv_it8xxx2_evb
 title: it8xxx2_evb
-slug: /hardware/catalog/boards/unverified/riscv_it8xxx2_evb
+slug: /firmware/hardware/catalog/boards/unverified/riscv_it8xxx2_evb
 description: IoT board it8xxx2_evb, compatible with Golioth at unverified level.
 image: /img/boards/riscv/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `it8xxx2_evb` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | RISCV |
 | RAM*           | 60 kB |
 | Flash*         | N/A |

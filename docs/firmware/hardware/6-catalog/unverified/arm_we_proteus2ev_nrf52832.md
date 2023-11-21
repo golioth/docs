@@ -1,7 +1,7 @@
 ---
 id: arm_we_proteus2ev_nrf52832
 title: we_proteus2ev_nrf52832
-slug: /hardware/catalog/boards/unverified/arm_we_proteus2ev_nrf52832
+slug: /firmware/hardware/catalog/boards/unverified/arm_we_proteus2ev_nrf52832
 description: IoT board we_proteus2ev_nrf52832, compatible with Golioth at unverified level.
 image: /img/boards/arm/we_proteus2ev_nrf52832.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `we_proteus2ev_nrf52832` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 64 kB |
 | Flash*         | 512 kB |

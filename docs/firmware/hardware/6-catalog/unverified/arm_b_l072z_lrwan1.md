@@ -1,7 +1,7 @@
 ---
 id: arm_b_l072z_lrwan1
 title: B_L072Z_LRWAN1
-slug: /hardware/catalog/boards/unverified/arm_b_l072z_lrwan1
+slug: /firmware/hardware/catalog/boards/unverified/arm_b_l072z_lrwan1
 description: IoT board B_L072Z_LRWAN1, compatible with Golioth at unverified level.
 image: /img/boards/arm/b_l072z_lrwan1.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `b_l072z_lrwan1` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 20 kB |
 | Flash*         | 192 kB |

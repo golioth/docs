@@ -1,7 +1,7 @@
 ---
 id: arm_ubx_bmd345eval_nrf52840
 title: BMD-345-EVAL
-slug: /hardware/catalog/boards/unverified/arm_ubx_bmd345eval_nrf52840
+slug: /firmware/hardware/catalog/boards/unverified/arm_ubx_bmd345eval_nrf52840
 description: IoT board BMD-345-EVAL, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `ubx_bmd345eval_nrf52840` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 256 kB |
 | Flash*         | 1024 kB |

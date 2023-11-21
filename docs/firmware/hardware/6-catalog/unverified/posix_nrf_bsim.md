@@ -1,7 +1,7 @@
 ---
 id: posix_nrf_bsim
 title: nrf_bsim
-slug: /hardware/catalog/boards/unverified/posix_nrf_bsim
+slug: /firmware/hardware/catalog/boards/unverified/posix_nrf_bsim
 description: IoT board nrf_bsim, compatible with Golioth at unverified level.
 image: /img/boards/posix/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `nrf_bsim` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | POSIX |
 | RAM*           | N/A |
 | Flash*         | N/A |

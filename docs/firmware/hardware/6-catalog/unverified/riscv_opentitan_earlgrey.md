@@ -1,7 +1,7 @@
 ---
 id: riscv_opentitan_earlgrey
 title: OpenTitan Earl Grey
-slug: /hardware/catalog/boards/unverified/riscv_opentitan_earlgrey
+slug: /firmware/hardware/catalog/boards/unverified/riscv_opentitan_earlgrey
 description: IoT board OpenTitan Earl Grey, compatible with Golioth at unverified level.
 image: /img/boards/riscv/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `opentitan_earlgrey` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | RISCV |
 | RAM*           | 128 kB |
 | Flash*         | N/A |

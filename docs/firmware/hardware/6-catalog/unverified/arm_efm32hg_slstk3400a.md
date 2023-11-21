@@ -1,7 +1,7 @@
 ---
 id: arm_efm32hg_slstk3400a
 title: EFM32HG-SLSTK3400A
-slug: /hardware/catalog/boards/unverified/arm_efm32hg_slstk3400a
+slug: /firmware/hardware/catalog/boards/unverified/arm_efm32hg_slstk3400a
 description: IoT board EFM32HG-SLSTK3400A, compatible with Golioth at unverified level.
 image: /img/boards/arm/efm32hg_slstk3400a.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `efm32hg_slstk3400a` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 8 kB |
 | Flash*         | 64 kB |

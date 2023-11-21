@@ -1,7 +1,7 @@
 ---
 id: arm64_fvp_base_revc_2xaemv8a
 title: FVP Emulation FVP_Base_RevC-2xAEMvA
-slug: /hardware/catalog/boards/unverified/arm64_fvp_base_revc_2xaemv8a
+slug: /firmware/hardware/catalog/boards/unverified/arm64_fvp_base_revc_2xaemv8a
 description: IoT board FVP Emulation FVP_Base_RevC-2xAEMvA, compatible with Golioth at unverified level.
 image: /img/boards/arm64/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `fvp_base_revc_2xaemv8a` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM64 |
 | RAM*           | 2048 kB |
 | Flash*         | 64 kB |

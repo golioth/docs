@@ -1,7 +1,7 @@
 ---
 id: arm_nucleo_h723zg
 title: ST Nucleo H723ZG
-slug: /hardware/catalog/boards/unverified/arm_nucleo_h723zg
+slug: /firmware/hardware/catalog/boards/unverified/arm_nucleo_h723zg
 description: IoT board ST Nucleo H723ZG, compatible with Golioth at unverified level.
 image: /img/boards/arm/nucleo_h723zg.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `nucleo_h723zg` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 372 kB |
 | Flash*         | 1024 kB |

@@ -1,7 +1,7 @@
 ---
 id: arm_black_f407zg_pro
 title: Black STM32 F407ZG Pro Development Board
-slug: /hardware/catalog/boards/unverified/arm_black_f407zg_pro
+slug: /firmware/hardware/catalog/boards/unverified/arm_black_f407zg_pro
 description: IoT board Black STM32 F407ZG Pro Development Board, compatible with Golioth at unverified level.
 image: /img/boards/arm/black_f407zg_pro.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `black_f407zg_pro` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 192 kB |
 | Flash*         | 1024 kB |

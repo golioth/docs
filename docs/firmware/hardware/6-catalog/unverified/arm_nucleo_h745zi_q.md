@@ -1,7 +1,7 @@
 ---
 id: arm_nucleo_h745zi_q
 title: nucleo_h745zi_q
-slug: /hardware/catalog/boards/unverified/arm_nucleo_h745zi_q
+slug: /firmware/hardware/catalog/boards/unverified/arm_nucleo_h745zi_q
 description: IoT board nucleo_h745zi_q, compatible with Golioth at unverified level.
 image: /img/boards/arm/nucleo_h745zi_q.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `nucleo_h745zi_q` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | N/A |
 | Flash*         | N/A |

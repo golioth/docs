@@ -1,7 +1,7 @@
 ---
 id: arm_cy8cproto_063_ble
 title: CY8CPROTO-063-BLE PSoC™ 6 BLE Prototyping Kit
-slug: /hardware/catalog/boards/unverified/arm_cy8cproto_063_ble
+slug: /firmware/hardware/catalog/boards/unverified/arm_cy8cproto_063_ble
 description: IoT board CY8CPROTO-063-BLE PSoC™ 6 BLE Prototyping Kit, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `cy8cproto_063_ble` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 288 kB |
 | Flash*         | 1024 kB |

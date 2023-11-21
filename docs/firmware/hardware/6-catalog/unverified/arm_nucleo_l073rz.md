@@ -1,7 +1,7 @@
 ---
 id: arm_nucleo_l073rz
 title: ST Nucleo L073RZ
-slug: /hardware/catalog/boards/unverified/arm_nucleo_l073rz
+slug: /firmware/hardware/catalog/boards/unverified/arm_nucleo_l073rz
 description: IoT board ST Nucleo L073RZ, compatible with Golioth at unverified level.
 image: /img/boards/arm/nucleo_l073rz.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `nucleo_l073rz` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 20 kB |
 | Flash*         | 192 kB |

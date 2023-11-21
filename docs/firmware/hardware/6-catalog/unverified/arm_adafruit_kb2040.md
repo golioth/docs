@@ -1,7 +1,7 @@
 ---
 id: arm_adafruit_kb2040
 title: Adafruit KB2040
-slug: /hardware/catalog/boards/unverified/arm_adafruit_kb2040
+slug: /firmware/hardware/catalog/boards/unverified/arm_adafruit_kb2040
 description: IoT board Adafruit KB2040, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `adafruit_kb2040` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 264 kB |
 | Flash*         | 8192 kB |

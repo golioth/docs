@@ -1,7 +1,7 @@
 ---
 id: arm_cy8ckit_062s4
 title: cy8ckit_062s4
-slug: /hardware/catalog/boards/unverified/arm_cy8ckit_062s4
+slug: /firmware/hardware/catalog/boards/unverified/arm_cy8ckit_062s4
 description: IoT board cy8ckit_062s4, compatible with Golioth at unverified level.
 image: /img/boards/arm/cy8ckit_062s4.png
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `cy8ckit_062s4` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | N/A |
 | Flash*         | N/A |

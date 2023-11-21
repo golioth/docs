@@ -1,7 +1,7 @@
 ---
 id: arm_bl653_dvk
 title: BL653_DVK
-slug: /hardware/catalog/boards/unverified/arm_bl653_dvk
+slug: /firmware/hardware/catalog/boards/unverified/arm_bl653_dvk
 description: IoT board BL653_DVK, compatible with Golioth at unverified level.
 image: /img/boards/arm/bl653_dvk.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `bl653_dvk` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | N/A |
 | Flash*         | N/A |

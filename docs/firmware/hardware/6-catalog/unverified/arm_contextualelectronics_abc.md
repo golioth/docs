@@ -1,7 +1,7 @@
 ---
 id: arm_contextualelectronics_abc
 title: contextualelectronics_abc
-slug: /hardware/catalog/boards/unverified/arm_contextualelectronics_abc
+slug: /firmware/hardware/catalog/boards/unverified/arm_contextualelectronics_abc
 description: IoT board contextualelectronics_abc, compatible with Golioth at unverified level.
 image: /img/boards/arm/contextualelectronics_abc.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `contextualelectronics_abc` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 256 kB |
 | Flash*         | 1024 kB |

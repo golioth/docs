@@ -1,7 +1,7 @@
 ---
 id: arm_qemu_cortex_m3
 title: QEMU Emulation for Cortex-M3
-slug: /hardware/catalog/boards/continuously-verified/arm_qemu_cortex_m3
+slug: /firmware/hardware/catalog/boards/continuously-verified/arm_qemu_cortex_m3
 description: IoT board QEMU Emulation for Cortex-M3, compatible with Golioth at continuously-verified level.
 image: /img/boards/arm/qemu_cortex_m3.jpg
 
@@ -14,8 +14,8 @@ image: /img/boards/arm/qemu_cortex_m3.jpg
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `qemu_cortex_m3` |
-| Golioth Level  | [Continuously verified](/hardware#continuously-verified-boards) |
-| Golioth Quickstart | [qemu_cortex_m3 quickstart](/hardware/virtual-devices/zephyr-quickstart) || Architecture   | ARM |
+| Golioth Level  | [Continuously verified](/firmware/hardware#continuously-verified-boards) |
+| Golioth Quickstart | [qemu_cortex_m3 quickstart](/firmware/hardware/virtual-devices/zephyr-quickstart) || Architecture   | ARM |
 | RAM*           | 64 kB |
 | Flash*         | 256 kB |
 
@@ -23,7 +23,7 @@ image: /img/boards/arm/qemu_cortex_m3.jpg
 
 ## Getting started
 
-See our [quickstart guide for QEMU Emulation for Cortex-M3](/hardware/virtual-devices/zephyr-quickstart).
+See our [quickstart guide for QEMU Emulation for Cortex-M3](/firmware/hardware/virtual-devices/zephyr-quickstart).
 
 
 ## Supported features

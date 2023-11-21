@@ -1,7 +1,7 @@
 ---
 id: arm_stm32l476g_disco
 title: ST STM32L476G Discovery
-slug: /hardware/catalog/boards/unverified/arm_stm32l476g_disco
+slug: /firmware/hardware/catalog/boards/unverified/arm_stm32l476g_disco
 description: IoT board ST STM32L476G Discovery, compatible with Golioth at unverified level.
 image: /img/boards/arm/stm32l476g_disco.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `stm32l476g_disco` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 96 kB |
 | Flash*         | 1024 kB |

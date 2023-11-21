@@ -1,7 +1,7 @@
 ---
 id: riscv_esp32c3_luatos_core
 title: ESP32C3 LuatOS Core
-slug: /hardware/catalog/boards/unverified/riscv_esp32c3_luatos_core
+slug: /firmware/hardware/catalog/boards/unverified/riscv_esp32c3_luatos_core
 description: IoT board ESP32C3 LuatOS Core, compatible with Golioth at unverified level.
 image: /img/boards/riscv/esp32c3_luatos_core.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `esp32c3_luatos_core` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | RISCV |
 | RAM*           | N/A |
 | Flash*         | N/A |

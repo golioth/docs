@@ -1,7 +1,7 @@
 ---
 id: arm_colibri_imx7d_m4
 title: TORADEX Colibri IMX7D
-slug: /hardware/catalog/boards/unverified/arm_colibri_imx7d_m4
+slug: /firmware/hardware/catalog/boards/unverified/arm_colibri_imx7d_m4
 description: IoT board TORADEX Colibri IMX7D, compatible with Golioth at unverified level.
 image: /img/boards/arm/colibri_imx7d_m4.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `colibri_imx7d_m4` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 32 kB |
 | Flash*         | 32 kB |

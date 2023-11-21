@@ -1,7 +1,7 @@
 ---
 id: arm_nucleo_c031c6
 title: ST Nucleo C031C6
-slug: /hardware/catalog/boards/unverified/arm_nucleo_c031c6
+slug: /firmware/hardware/catalog/boards/unverified/arm_nucleo_c031c6
 description: IoT board ST Nucleo C031C6, compatible with Golioth at unverified level.
 image: /img/boards/arm/nucleo_c031c6.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `nucleo_c031c6` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 12 kB |
 | Flash*         | 32 kB |

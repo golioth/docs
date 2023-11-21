@@ -1,7 +1,7 @@
 ---
 id: arm64_mimx93_evk
 title: mimx93_evk
-slug: /hardware/catalog/boards/unverified/arm64_mimx93_evk
+slug: /firmware/hardware/catalog/boards/unverified/arm64_mimx93_evk
 description: IoT board mimx93_evk, compatible with Golioth at unverified level.
 image: /img/boards/arm64/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `mimx93_evk` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM64 |
 | RAM*           | N/A |
 | Flash*         | N/A |

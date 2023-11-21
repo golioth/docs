@@ -1,7 +1,7 @@
 ---
 id: arm_ruuvi_ruuvitag
 title: Ruuvi-RuuviTag
-slug: /hardware/catalog/boards/unverified/arm_ruuvi_ruuvitag
+slug: /firmware/hardware/catalog/boards/unverified/arm_ruuvi_ruuvitag
 description: IoT board Ruuvi-RuuviTag, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `ruuvi_ruuvitag` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 64 kB |
 | Flash*         | 512 kB |

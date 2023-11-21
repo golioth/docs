@@ -1,7 +1,7 @@
 ---
 id: arm_rm1xx_dvk
 title: RM1xx_DVK
-slug: /hardware/catalog/boards/unverified/arm_rm1xx_dvk
+slug: /firmware/hardware/catalog/boards/unverified/arm_rm1xx_dvk
 description: IoT board RM1xx_DVK, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `rm1xx_dvk` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 32 kB |
 | Flash*         | N/A |

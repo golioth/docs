@@ -1,7 +1,7 @@
 ---
 id: arm_waveshare_open103z
 title: Waveshare Open103Z
-slug: /hardware/catalog/boards/unverified/arm_waveshare_open103z
+slug: /firmware/hardware/catalog/boards/unverified/arm_waveshare_open103z
 description: IoT board Waveshare Open103Z, compatible with Golioth at unverified level.
 image: /img/boards/arm/waveshare_open103z.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `waveshare_open103z` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 64 kB |
 | Flash*         | 512 kB |

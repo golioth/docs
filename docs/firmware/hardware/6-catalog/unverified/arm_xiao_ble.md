@@ -1,7 +1,7 @@
 ---
 id: arm_xiao_ble
 title: XIAO BLE
-slug: /hardware/catalog/boards/unverified/arm_xiao_ble
+slug: /firmware/hardware/catalog/boards/unverified/arm_xiao_ble
 description: IoT board XIAO BLE, compatible with Golioth at unverified level.
 image: /img/boards/arm/xiao_ble.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `xiao_ble` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 256 kB |
 | Flash*         | 1024 kB |

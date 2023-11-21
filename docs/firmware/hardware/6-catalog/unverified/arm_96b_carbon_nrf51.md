@@ -1,7 +1,7 @@
 ---
 id: arm_96b_carbon_nrf51
 title: 96Boards Carbon (nRF51)
-slug: /hardware/catalog/boards/unverified/arm_96b_carbon_nrf51
+slug: /firmware/hardware/catalog/boards/unverified/arm_96b_carbon_nrf51
 description: IoT board 96Boards Carbon (nRF51), compatible with Golioth at unverified level.
 image: /img/boards/arm/96b_carbon_nrf51.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `96b_carbon_nrf51` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 32 kB |
 | Flash*         | 256 kB |

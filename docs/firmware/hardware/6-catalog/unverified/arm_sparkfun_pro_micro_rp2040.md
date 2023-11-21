@@ -1,7 +1,7 @@
 ---
 id: arm_sparkfun_pro_micro_rp2040
 title: Sparkfun Pro Micro RP2040
-slug: /hardware/catalog/boards/unverified/arm_sparkfun_pro_micro_rp2040
+slug: /firmware/hardware/catalog/boards/unverified/arm_sparkfun_pro_micro_rp2040
 description: IoT board Sparkfun Pro Micro RP2040, compatible with Golioth at unverified level.
 image: /img/boards/arm/sparkfun_pro_micro_rp2040.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `sparkfun_pro_micro_rp2040` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 264 kB |
 | Flash*         | 16384 kB |

@@ -1,7 +1,7 @@
 ---
 id: arm_nrf51_ble400
 title: BLE400
-slug: /hardware/catalog/boards/unverified/arm_nrf51_ble400
+slug: /firmware/hardware/catalog/boards/unverified/arm_nrf51_ble400
 description: IoT board BLE400, compatible with Golioth at unverified level.
 image: /img/boards/arm/nrf51_ble400.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `nrf51_ble400` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 32 kB |
 | Flash*         | N/A |

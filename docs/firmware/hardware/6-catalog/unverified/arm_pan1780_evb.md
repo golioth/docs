@@ -1,7 +1,7 @@
 ---
 id: arm_pan1780_evb
 title: pan1780-evb
-slug: /hardware/catalog/boards/unverified/arm_pan1780_evb
+slug: /firmware/hardware/catalog/boards/unverified/arm_pan1780_evb
 description: IoT board pan1780-evb, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `pan1780_evb` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 256 kB |
 | Flash*         | 1024 kB |

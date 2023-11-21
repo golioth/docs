@@ -1,7 +1,7 @@
 ---
 id: arm_we_ophelia1ev_nrf52805
 title: we_ophelia1ev_nrf52805
-slug: /hardware/catalog/boards/unverified/arm_we_ophelia1ev_nrf52805
+slug: /firmware/hardware/catalog/boards/unverified/arm_we_ophelia1ev_nrf52805
 description: IoT board we_ophelia1ev_nrf52805, compatible with Golioth at unverified level.
 image: /img/boards/arm/we_ophelia1ev_nrf52805.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `we_ophelia1ev_nrf52805` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 24 kB |
 | Flash*         | 192 kB |

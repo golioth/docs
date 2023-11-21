@@ -1,7 +1,7 @@
 ---
 id: posix_native_posix
 title: Native 32-bit POSIX port
-slug: /hardware/catalog/boards/unverified/posix_native_posix
+slug: /firmware/hardware/catalog/boards/unverified/posix_native_posix
 description: IoT board Native 32-bit POSIX port, compatible with Golioth at unverified level.
 image: /img/boards/posix/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `native_posix` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | POSIX |
 | RAM*           | 65536 kB |
 | Flash*         | 65536 kB |
@@ -26,6 +26,7 @@ sidebar_class_name: hide-item
 ## Supported features
 
 * can
+* counter
 * eeprom
 * netif:eth
 * usb_device

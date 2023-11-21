@@ -1,7 +1,7 @@
 ---
 id: arm_sam4l_ek
 title: SAM4L-EK
-slug: /hardware/catalog/boards/unverified/arm_sam4l_ek
+slug: /firmware/hardware/catalog/boards/unverified/arm_sam4l_ek
 description: IoT board SAM4L-EK, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `sam4l_ek` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 32 kB |
 | Flash*         | 256 kB |

@@ -1,7 +1,7 @@
 ---
 id: riscv_icev_wireless
 title: ICE-V Wireless
-slug: /hardware/catalog/boards/unverified/riscv_icev_wireless
+slug: /firmware/hardware/catalog/boards/unverified/riscv_icev_wireless
 description: IoT board ICE-V Wireless, compatible with Golioth at unverified level.
 image: /img/boards/riscv/icev_wireless.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `icev_wireless` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | RISCV |
 | RAM*           | N/A |
 | Flash*         | N/A |

@@ -1,7 +1,7 @@
 ---
 id: sparc_qemu_leon3
 title: QEMU Emulation for LEON3
-slug: /hardware/catalog/boards/unverified/sparc_qemu_leon3
+slug: /firmware/hardware/catalog/boards/unverified/sparc_qemu_leon3
 description: IoT board QEMU Emulation for LEON3, compatible with Golioth at unverified level.
 image: /img/boards/sparc/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `qemu_leon3` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | SPARC |
 | RAM*           | 1048576 kB |
 | Flash*         | 524288 kB |

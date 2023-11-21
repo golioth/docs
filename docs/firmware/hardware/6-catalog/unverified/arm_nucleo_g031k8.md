@@ -1,7 +1,7 @@
 ---
 id: arm_nucleo_g031k8
 title: ST Nucleo G031K8
-slug: /hardware/catalog/boards/unverified/arm_nucleo_g031k8
+slug: /firmware/hardware/catalog/boards/unverified/arm_nucleo_g031k8
 description: IoT board ST Nucleo G031K8, compatible with Golioth at unverified level.
 image: /img/boards/arm/nucleo_g031k8.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `nucleo_g031k8` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 8 kB |
 | Flash*         | 64 kB |

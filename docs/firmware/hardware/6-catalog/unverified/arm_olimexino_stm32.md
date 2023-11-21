@@ -1,7 +1,7 @@
 ---
 id: arm_olimexino_stm32
 title: OLIMEXINO-STM32
-slug: /hardware/catalog/boards/unverified/arm_olimexino_stm32
+slug: /firmware/hardware/catalog/boards/unverified/arm_olimexino_stm32
 description: IoT board OLIMEXINO-STM32, compatible with Golioth at unverified level.
 image: /img/boards/arm/olimexino_stm32.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `olimexino_stm32` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 20 kB |
 | Flash*         | N/A |

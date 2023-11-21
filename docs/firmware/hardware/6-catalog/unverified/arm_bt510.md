@@ -1,7 +1,7 @@
 ---
 id: arm_bt510
 title: BT510
-slug: /hardware/catalog/boards/unverified/arm_bt510
+slug: /firmware/hardware/catalog/boards/unverified/arm_bt510
 description: IoT board BT510, compatible with Golioth at unverified level.
 image: /img/boards/arm/bt510.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `bt510` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | N/A |
 | Flash*         | N/A |
