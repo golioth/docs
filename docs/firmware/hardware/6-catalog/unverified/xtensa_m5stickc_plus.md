@@ -1,7 +1,7 @@
 ---
 id: xtensa_m5stickc_plus
 title: M5StickC PLUS
-slug: /hardware/catalog/boards/unverified/xtensa_m5stickc_plus
+slug: /firmware/hardware/catalog/boards/unverified/xtensa_m5stickc_plus
 description: IoT board M5StickC PLUS, compatible with Golioth at unverified level.
 image: /img/boards/xtensa/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `m5stickc_plus` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | XTENSA |
 | RAM*           | N/A |
 | Flash*         | N/A |

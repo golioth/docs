@@ -1,7 +1,7 @@
 ---
 id: arm_kv260_r5
 title: Xilinx KV260 Development board for Cortex-R5
-slug: /hardware/catalog/boards/unverified/arm_kv260_r5
+slug: /firmware/hardware/catalog/boards/unverified/arm_kv260_r5
 description: IoT board Xilinx KV260 Development board for Cortex-R5, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `kv260_r5` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 65536 kB |
 | Flash*         | 32768 kB |

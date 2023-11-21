@@ -1,7 +1,7 @@
 ---
 id: riscv_xiao_esp32c3
 title: XIAO ESP32C3
-slug: /hardware/catalog/boards/unverified/riscv_xiao_esp32c3
+slug: /firmware/hardware/catalog/boards/unverified/riscv_xiao_esp32c3
 description: IoT board XIAO ESP32C3, compatible with Golioth at unverified level.
 image: /img/boards/riscv/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `xiao_esp32c3` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | RISCV |
 | RAM*           | N/A |
 | Flash*         | N/A |

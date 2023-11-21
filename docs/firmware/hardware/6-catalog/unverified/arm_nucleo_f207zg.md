@@ -1,7 +1,7 @@
 ---
 id: arm_nucleo_f207zg
 title: ST Nucleo F207ZG
-slug: /hardware/catalog/boards/unverified/arm_nucleo_f207zg
+slug: /firmware/hardware/catalog/boards/unverified/arm_nucleo_f207zg
 description: IoT board ST Nucleo F207ZG, compatible with Golioth at unverified level.
 image: /img/boards/arm/nucleo_f207zg.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `nucleo_f207zg` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 128 kB |
 | Flash*         | 1024 kB |

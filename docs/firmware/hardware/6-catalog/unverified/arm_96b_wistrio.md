@@ -1,7 +1,7 @@
 ---
 id: arm_96b_wistrio
 title: 96boards WisTrio
-slug: /hardware/catalog/boards/unverified/arm_96b_wistrio
+slug: /firmware/hardware/catalog/boards/unverified/arm_96b_wistrio
 description: IoT board 96boards WisTrio, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `96b_wistrio` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 16 kB |
 | Flash*         | 128 kB |

@@ -1,7 +1,7 @@
 ---
 id: arm64_rcar_h3ulcb_ca57
 title: Renesas H3ULCB based on r8a77951
-slug: /hardware/catalog/boards/unverified/arm64_rcar_h3ulcb_ca57
+slug: /firmware/hardware/catalog/boards/unverified/arm64_rcar_h3ulcb_ca57
 description: IoT board Renesas H3ULCB based on r8a77951, compatible with Golioth at unverified level.
 image: /img/boards/arm64/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `rcar_h3ulcb_ca57` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM64 |
 | RAM*           | 512 kB |
 | Flash*         | N/A |

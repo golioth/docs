@@ -1,7 +1,7 @@
 ---
 id: arm_nucleo_h753zi
 title: ST Nucleo H753ZI
-slug: /hardware/catalog/boards/unverified/arm_nucleo_h753zi
+slug: /firmware/hardware/catalog/boards/unverified/arm_nucleo_h753zi
 description: IoT board ST Nucleo H753ZI, compatible with Golioth at unverified level.
 image: /img/boards/arm/nucleo_h753zi.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `nucleo_h753zi` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 512 kB |
 | Flash*         | 2048 kB |

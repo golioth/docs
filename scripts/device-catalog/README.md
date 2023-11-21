@@ -7,7 +7,7 @@ Currently, it uses the Zephyr repository as the only source.
 
 It outputs files into
 * `vendor/zephyr`
-* `docs/hardware`
+* `docs/firmware/hardware`
 * `static/img`
 
 which can then be re-used by Docusaurus pages and in the future other Golioth systems, too.
@@ -38,7 +38,7 @@ You'll need Linux shell to execute the `.sh` script.
 
 ### Generating files
 
-The `index.js` script will process and transform the available data sources into a folder structure in the `docs/hardware` and `static/img`.
+The `index.js` script will process and transform the available data sources into a folder structure in the `docs/firmware/hardware` and `static/img`.
 
 
 ## Golioth Board Support Levels

@@ -1,7 +1,7 @@
 ---
 id: arm_hexiwear_k64
 title: Hexiwear
-slug: /hardware/catalog/boards/unverified/arm_hexiwear_k64
+slug: /firmware/hardware/catalog/boards/unverified/arm_hexiwear_k64
 description: IoT board Hexiwear, compatible with Golioth at unverified level.
 image: /img/boards/arm/hexiwear_k64.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `hexiwear_k64` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | N/A |
 | Flash*         | N/A |

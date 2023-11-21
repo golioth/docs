@@ -1,7 +1,7 @@
 ---
 id: arm_v2m_beetle
 title: V2M Beetle
-slug: /hardware/catalog/boards/unverified/arm_v2m_beetle
+slug: /firmware/hardware/catalog/boards/unverified/arm_v2m_beetle
 description: IoT board V2M Beetle, compatible with Golioth at unverified level.
 image: /img/boards/arm/v2m_beetle.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `v2m_beetle` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | N/A |
 | Flash*         | N/A |

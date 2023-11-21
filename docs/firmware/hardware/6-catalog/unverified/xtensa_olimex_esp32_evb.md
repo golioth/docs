@@ -1,7 +1,7 @@
 ---
 id: xtensa_olimex_esp32_evb
 title: Olimex ESP32-EVB
-slug: /hardware/catalog/boards/unverified/xtensa_olimex_esp32_evb
+slug: /firmware/hardware/catalog/boards/unverified/xtensa_olimex_esp32_evb
 description: IoT board Olimex ESP32-EVB, compatible with Golioth at unverified level.
 image: /img/boards/xtensa/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `olimex_esp32_evb` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | XTENSA |
 | RAM*           | N/A |
 | Flash*         | N/A |

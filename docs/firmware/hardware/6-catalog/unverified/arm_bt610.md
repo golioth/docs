@@ -1,7 +1,7 @@
 ---
 id: arm_bt610
 title: BT610
-slug: /hardware/catalog/boards/unverified/arm_bt610
+slug: /firmware/hardware/catalog/boards/unverified/arm_bt610
 description: IoT board BT610, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `bt610` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 256 kB |
 | Flash*         | 1024 kB |

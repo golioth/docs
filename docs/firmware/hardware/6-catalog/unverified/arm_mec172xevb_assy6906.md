@@ -1,7 +1,7 @@
 ---
 id: arm_mec172xevb_assy6906
 title: MEC172X EVB ASSY 6906
-slug: /hardware/catalog/boards/unverified/arm_mec172xevb_assy6906
+slug: /firmware/hardware/catalog/boards/unverified/arm_mec172xevb_assy6906
 description: IoT board MEC172X EVB ASSY 6906, compatible with Golioth at unverified level.
 image: /img/boards/arm/mec172xevb_assy6906.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `mec172xevb_assy6906` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 64 kB |
 | Flash*         | 352 kB |

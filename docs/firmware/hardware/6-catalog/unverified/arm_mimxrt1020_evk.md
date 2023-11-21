@@ -1,7 +1,7 @@
 ---
 id: arm_mimxrt1020_evk
 title: NXP MIMXRT1020-EVK
-slug: /hardware/catalog/boards/unverified/arm_mimxrt1020_evk
+slug: /firmware/hardware/catalog/boards/unverified/arm_mimxrt1020_evk
 description: IoT board NXP MIMXRT1020-EVK, compatible with Golioth at unverified level.
 image: /img/boards/arm/mimxrt1020_evk.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `mimxrt1020_evk` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 32768 kB |
 | Flash*         | 8192 kB |

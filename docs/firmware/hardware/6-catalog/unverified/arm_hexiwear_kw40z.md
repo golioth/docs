@@ -1,7 +1,7 @@
 ---
 id: arm_hexiwear_kw40z
 title: Hexiwear KW40Z
-slug: /hardware/catalog/boards/unverified/arm_hexiwear_kw40z
+slug: /firmware/hardware/catalog/boards/unverified/arm_hexiwear_kw40z
 description: IoT board Hexiwear KW40Z, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `hexiwear_kw40z` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 16 kB |
 | Flash*         | 512 kB |

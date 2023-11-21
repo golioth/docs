@@ -49,7 +49,7 @@ CONFIG_GOLIOTH_SAMPLE_HARDCODED_PSK_ID="DEVICE_CRED_ID"
 CONFIG_GOLIOTH_SAMPLE_HARDCODED_PSK="DEVICE_PSK"
 ```
 
-Set the PSK & PSK ID to match what was used during the provisioning step. Networking validation is taken care of by your SIM card, which was tested in the [carrier setup section](/hardware/nrf91/zephyr-quickstart/carrier-setup)
+Set the PSK & PSK ID to match what was used during the provisioning step. Networking validation is taken care of by your SIM card, which was tested in the [carrier setup section](/firmware/hardware/nrf91/zephyr-quickstart/carrier-setup)
 
 After saving, build the sample (for the [nRF9160 DK](https://www.nordicsemi.com/Products/Development-hardware/nRF9160-DK/GetStarted)) with the new settings applied.
 

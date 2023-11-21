@@ -1,7 +1,7 @@
 ---
 id: arm_stm32mp157c_dk2
 title: ST STM32MP157C-DK2 Discovery
-slug: /hardware/catalog/boards/unverified/arm_stm32mp157c_dk2
+slug: /firmware/hardware/catalog/boards/unverified/arm_stm32mp157c_dk2
 description: IoT board ST STM32MP157C-DK2 Discovery, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `stm32mp157c_dk2` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 256 kB |
 | Flash*         | 64 kB |

@@ -1,7 +1,7 @@
 ---
 id: arm_atsamr34_xpro
 title: SAM R34 Xplained Pro
-slug: /hardware/catalog/boards/unverified/arm_atsamr34_xpro
+slug: /firmware/hardware/catalog/boards/unverified/arm_atsamr34_xpro
 description: IoT board SAM R34 Xplained Pro, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `atsamr34_xpro` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 32 kB |
 | Flash*         | 256 kB |

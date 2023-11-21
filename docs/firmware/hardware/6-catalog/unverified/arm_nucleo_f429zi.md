@@ -1,7 +1,7 @@
 ---
 id: arm_nucleo_f429zi
 title: ST Nucleo F429ZI
-slug: /hardware/catalog/boards/unverified/arm_nucleo_f429zi
+slug: /firmware/hardware/catalog/boards/unverified/arm_nucleo_f429zi
 description: IoT board ST Nucleo F429ZI, compatible with Golioth at unverified level.
 image: /img/boards/arm/nucleo_f429zi.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `nucleo_f429zi` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 192 kB |
 | Flash*         | 2048 kB |

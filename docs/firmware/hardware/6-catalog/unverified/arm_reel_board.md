@@ -1,7 +1,7 @@
 ---
 id: arm_reel_board
 title: reel-board
-slug: /hardware/catalog/boards/unverified/arm_reel_board
+slug: /firmware/hardware/catalog/boards/unverified/arm_reel_board
 description: IoT board reel-board, compatible with Golioth at unverified level.
 image: /img/boards/arm/reel_board.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `reel_board` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 512 kB |
 | Flash*         | 1024 kB |

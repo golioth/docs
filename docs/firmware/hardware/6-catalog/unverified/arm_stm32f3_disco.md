@@ -1,7 +1,7 @@
 ---
 id: arm_stm32f3_disco
 title: ST STM32F3 Discovery
-slug: /hardware/catalog/boards/unverified/arm_stm32f3_disco
+slug: /firmware/hardware/catalog/boards/unverified/arm_stm32f3_disco
 description: IoT board ST STM32F3 Discovery, compatible with Golioth at unverified level.
 image: /img/boards/arm/stm32f3_disco.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `stm32f3_disco` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 40 kB |
 | Flash*         | N/A |

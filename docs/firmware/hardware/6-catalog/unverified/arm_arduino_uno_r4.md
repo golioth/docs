@@ -1,0 +1,36 @@
+---
+id: arm_arduino_uno_r4
+title: arduino_uno_r4
+slug: /firmware/hardware/catalog/boards/unverified/arm_arduino_uno_r4
+description: IoT board arduino_uno_r4, compatible with Golioth at unverified level.
+image: /img/boards/arm/null
+sidebar_class_name: hide-item
+---
+
+[//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
+
+
+
+|                | Board properties     |
+| -------------  | -------------------- |
+| Board ID       | `arduino_uno_r4` |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
+| Architecture   | ARM |
+| RAM*           | N/A |
+| Flash*         | N/A |
+
+\* values are as reported by Zephyr `.yaml` board files, which don't represent the overall available resources
+
+
+
+## Supported features
+
+List of supported features is not available.
+
+## Supported toolchains
+
+List of supported toolchains is not available.
+
+## Official Zephyr docs
+
+[arduino_uno_r4 (arduino_uno_r4)](https://docs.zephyrproject.org/latest/boards/arm/arduino_uno_r4/doc/index.html)

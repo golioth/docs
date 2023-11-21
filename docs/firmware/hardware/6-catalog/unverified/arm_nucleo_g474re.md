@@ -1,7 +1,7 @@
 ---
 id: arm_nucleo_g474re
 title: ST Nucleo G474RE
-slug: /hardware/catalog/boards/unverified/arm_nucleo_g474re
+slug: /firmware/hardware/catalog/boards/unverified/arm_nucleo_g474re
 description: IoT board ST Nucleo G474RE, compatible with Golioth at unverified level.
 image: /img/boards/arm/nucleo_g474re.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `nucleo_g474re` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 128 kB |
 | Flash*         | 512 kB |

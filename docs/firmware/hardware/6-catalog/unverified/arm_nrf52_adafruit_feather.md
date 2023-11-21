@@ -1,7 +1,7 @@
 ---
 id: arm_nrf52_adafruit_feather
 title: nRF52 Adafruit Feather
-slug: /hardware/catalog/boards/unverified/arm_nrf52_adafruit_feather
+slug: /firmware/hardware/catalog/boards/unverified/arm_nrf52_adafruit_feather
 description: IoT board nRF52 Adafruit Feather, compatible with Golioth at unverified level.
 image: /img/boards/arm/nrf52_adafruit_feather.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `nrf52_adafruit_feather` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 64 kB |
 | Flash*         | 512 kB |

@@ -1,7 +1,7 @@
 ---
 id: arm_stm32h573i_dk
 title: ST STM32H573I Discovery Kit
-slug: /hardware/catalog/boards/unverified/arm_stm32h573i_dk
+slug: /firmware/hardware/catalog/boards/unverified/arm_stm32h573i_dk
 description: IoT board ST STM32H573I Discovery Kit, compatible with Golioth at unverified level.
 image: /img/boards/arm/stm32h573i_dk.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `stm32h573i_dk` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 640 kB |
 | Flash*         | 2048 kB |

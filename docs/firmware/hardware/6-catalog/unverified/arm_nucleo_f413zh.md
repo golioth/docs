@@ -1,7 +1,7 @@
 ---
 id: arm_nucleo_f413zh
 title: ST Nucleo F413ZH
-slug: /hardware/catalog/boards/unverified/arm_nucleo_f413zh
+slug: /firmware/hardware/catalog/boards/unverified/arm_nucleo_f413zh
 description: IoT board ST Nucleo F413ZH, compatible with Golioth at unverified level.
 image: /img/boards/arm/nucleo_f413zh.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `nucleo_f413zh` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 320 kB |
 | Flash*         | 1536 kB |

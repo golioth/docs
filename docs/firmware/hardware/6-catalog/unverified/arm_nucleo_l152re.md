@@ -1,7 +1,7 @@
 ---
 id: arm_nucleo_l152re
 title: ST Nucleo L152RE
-slug: /hardware/catalog/boards/unverified/arm_nucleo_l152re
+slug: /firmware/hardware/catalog/boards/unverified/arm_nucleo_l152re
 description: IoT board ST Nucleo L152RE, compatible with Golioth at unverified level.
 image: /img/boards/arm/nucleo_l152re.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `nucleo_l152re` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 80 kB |
 | Flash*         | 512 kB |

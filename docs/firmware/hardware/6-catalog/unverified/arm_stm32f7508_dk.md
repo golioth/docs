@@ -1,7 +1,7 @@
 ---
 id: arm_stm32f7508_dk
 title: ST STM32F7508 DK
-slug: /hardware/catalog/boards/unverified/arm_stm32f7508_dk
+slug: /firmware/hardware/catalog/boards/unverified/arm_stm32f7508_dk
 description: IoT board ST STM32F7508 DK, compatible with Golioth at unverified level.
 image: /img/boards/arm/stm32f7508_dk.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `stm32f7508_dk` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 320 kB |
 | Flash*         | 64 kB |

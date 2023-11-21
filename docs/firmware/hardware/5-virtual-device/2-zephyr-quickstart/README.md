@@ -1,7 +1,7 @@
 ---
 id: overview
 title: Virtual Device Zephyr Quickstart
-slug: /hardware/virtual-devices/zephyr-quickstart
+slug: /firmware/hardware/virtual-devices/zephyr-quickstart
 ---
 
 :::caution

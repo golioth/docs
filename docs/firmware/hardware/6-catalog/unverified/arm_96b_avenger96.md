@@ -1,7 +1,7 @@
 ---
 id: arm_96b_avenger96
 title: 96Boards Avenger96
-slug: /hardware/catalog/boards/unverified/arm_96b_avenger96
+slug: /firmware/hardware/catalog/boards/unverified/arm_96b_avenger96
 description: IoT board 96Boards Avenger96, compatible with Golioth at unverified level.
 image: /img/boards/arm/96b_avenger96.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `96b_avenger96` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 256 kB |
 | Flash*         | 64 kB |

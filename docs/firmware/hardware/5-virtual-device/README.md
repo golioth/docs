@@ -1,7 +1,7 @@
 ---
 id: overview
 title: Virtual Devices Overview
-slug: /hardware/virtual-devices
+slug: /firmware/hardware/virtual-devices
 ---
 
 The virtual device guide shows you how to build and test your system _without

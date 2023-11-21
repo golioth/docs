@@ -1,7 +1,7 @@
 ---
 id: arm_96b_neonkey
 title: 96Boards Neonkey
-slug: /hardware/catalog/boards/unverified/arm_96b_neonkey
+slug: /firmware/hardware/catalog/boards/unverified/arm_96b_neonkey
 description: IoT board 96Boards Neonkey, compatible with Golioth at unverified level.
 image: /img/boards/arm/96b_neonkey.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `96b_neonkey` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 128 kB |
 | Flash*         | 512 kB |

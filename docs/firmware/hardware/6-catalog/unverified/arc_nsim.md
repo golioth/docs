@@ -1,7 +1,7 @@
 ---
 id: arc_nsim
 title: nsim
-slug: /hardware/catalog/boards/unverified/arc_nsim
+slug: /firmware/hardware/catalog/boards/unverified/arc_nsim
 description: IoT board nsim, compatible with Golioth at unverified level.
 image: /img/boards/arc/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `nsim` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARC |
 | RAM*           | N/A |
 | Flash*         | N/A |

@@ -1,7 +1,7 @@
 ---
 id: arm_mps3_an547
 title: Arm MPS3-AN547
-slug: /hardware/catalog/boards/unverified/arm_mps3_an547
+slug: /firmware/hardware/catalog/boards/unverified/arm_mps3_an547
 description: IoT board Arm MPS3-AN547, compatible with Golioth at unverified level.
 image: /img/boards/arm/mps3_an547.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `mps3_an547` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 512 kB |
 | Flash*         | 512 kB |

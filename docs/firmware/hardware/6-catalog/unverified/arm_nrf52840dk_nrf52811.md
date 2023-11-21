@@ -1,7 +1,7 @@
 ---
 id: arm_nrf52840dk_nrf52811
 title: nRF52840-DK-NRF52811
-slug: /hardware/catalog/boards/unverified/arm_nrf52840dk_nrf52811
+slug: /firmware/hardware/catalog/boards/unverified/arm_nrf52840dk_nrf52811
 description: IoT board nRF52840-DK-NRF52811, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `nrf52840dk_nrf52811` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 24 kB |
 | Flash*         | 192 kB |

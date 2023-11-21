@@ -1,7 +1,7 @@
 ---
 id: sparc_gr716a_mini
 title: GR716-MINI Development Board
-slug: /hardware/catalog/boards/unverified/sparc_gr716a_mini
+slug: /firmware/hardware/catalog/boards/unverified/sparc_gr716a_mini
 description: IoT board GR716-MINI Development Board, compatible with Golioth at unverified level.
 image: /img/boards/sparc/gr716a_mini.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `gr716a_mini` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | SPARC |
 | RAM*           | N/A |
 | Flash*         | N/A |

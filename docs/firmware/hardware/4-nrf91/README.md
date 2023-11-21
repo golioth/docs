@@ -1,7 +1,7 @@
 ---
 id: overview
 title: nRF91 Overview
-slug: /hardware/nrf91
+slug: /firmware/hardware/nrf91
 ---
 
 ## What is the nRF91?

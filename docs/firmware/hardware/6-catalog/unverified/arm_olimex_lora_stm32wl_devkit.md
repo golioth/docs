@@ -1,7 +1,7 @@
 ---
 id: arm_olimex_lora_stm32wl_devkit
 title: Olimex LoRa STM32WL DevKit
-slug: /hardware/catalog/boards/unverified/arm_olimex_lora_stm32wl_devkit
+slug: /firmware/hardware/catalog/boards/unverified/arm_olimex_lora_stm32wl_devkit
 description: IoT board Olimex LoRa STM32WL DevKit, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `olimex_lora_stm32wl_devkit` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 64 kB |
 | Flash*         | 256 kB |

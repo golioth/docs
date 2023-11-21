@@ -1,7 +1,7 @@
 ---
 id: xtensa_m5stack_core2
 title: M5Stack Core2
-slug: /hardware/catalog/boards/unverified/xtensa_m5stack_core2
+slug: /firmware/hardware/catalog/boards/unverified/xtensa_m5stack_core2
 description: IoT board M5Stack Core2, compatible with Golioth at unverified level.
 image: /img/boards/xtensa/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `m5stack_core2` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | XTENSA |
 | RAM*           | N/A |
 | Flash*         | N/A |

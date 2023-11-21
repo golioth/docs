@@ -1,7 +1,7 @@
 ---
 id: arm_sensortile_box
 title: ST SensorTile.box
-slug: /hardware/catalog/boards/unverified/arm_sensortile_box
+slug: /firmware/hardware/catalog/boards/unverified/arm_sensortile_box
 description: IoT board ST SensorTile.box, compatible with Golioth at unverified level.
 image: /img/boards/arm/sensortile_box.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `sensortile_box` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 640 kB |
 | Flash*         | 2048 kB |

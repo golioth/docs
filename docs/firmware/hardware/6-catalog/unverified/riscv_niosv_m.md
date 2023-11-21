@@ -1,7 +1,7 @@
 ---
 id: riscv_niosv_m
 title: INTEL FPGA niosv_m
-slug: /hardware/catalog/boards/unverified/riscv_niosv_m
+slug: /firmware/hardware/catalog/boards/unverified/riscv_niosv_m
 description: IoT board INTEL FPGA niosv_m, compatible with Golioth at unverified level.
 image: /img/boards/riscv/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `niosv_m` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | RISCV |
 | RAM*           | 256 kB |
 | Flash*         | N/A |

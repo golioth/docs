@@ -1,7 +1,7 @@
 ---
 id: riscv_m2gl025_miv
 title: Microchip M2GL025 with MiV target
-slug: /hardware/catalog/boards/unverified/riscv_m2gl025_miv
+slug: /firmware/hardware/catalog/boards/unverified/riscv_m2gl025_miv
 description: IoT board Microchip M2GL025 with MiV target, compatible with Golioth at unverified level.
 image: /img/boards/riscv/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `m2gl025_miv` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | RISCV |
 | RAM*           | 64 kB |
 | Flash*         | N/A |

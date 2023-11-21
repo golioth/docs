@@ -1,7 +1,7 @@
 ---
 id: arm_nucleo_g0b1re
 title: ST Nucleo G0B1RE
-slug: /hardware/catalog/boards/unverified/arm_nucleo_g0b1re
+slug: /firmware/hardware/catalog/boards/unverified/arm_nucleo_g0b1re
 description: IoT board ST Nucleo G0B1RE, compatible with Golioth at unverified level.
 image: /img/boards/arm/nucleo_g0b1re.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `nucleo_g0b1re` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 144 kB |
 | Flash*         | 512 kB |

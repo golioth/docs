@@ -1,7 +1,7 @@
 ---
 id: riscv_niosv_g
 title: INTEL FPGA Nios V/g general purpose processor
-slug: /hardware/catalog/boards/unverified/riscv_niosv_g
+slug: /firmware/hardware/catalog/boards/unverified/riscv_niosv_g
 description: IoT board INTEL FPGA Nios V/g general purpose processor, compatible with Golioth at unverified level.
 image: /img/boards/riscv/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `niosv_g` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | RISCV |
 | RAM*           | 256 kB |
 | Flash*         | N/A |

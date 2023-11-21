@@ -1,7 +1,7 @@
 ---
 id: arm64_intel_socfpga_agilex5_socdk
 title: Intel SoC FPGA Agilex5
-slug: /hardware/catalog/boards/unverified/arm64_intel_socfpga_agilex5_socdk
+slug: /firmware/hardware/catalog/boards/unverified/arm64_intel_socfpga_agilex5_socdk
 description: IoT board Intel SoC FPGA Agilex5, compatible with Golioth at unverified level.
 image: /img/boards/arm64/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `intel_socfpga_agilex5_socdk` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM64 |
 | RAM*           | N/A |
 | Flash*         | N/A |

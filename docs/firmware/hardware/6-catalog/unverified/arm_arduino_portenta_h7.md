@@ -1,7 +1,7 @@
 ---
 id: arm_arduino_portenta_h7
 title: arduino_portenta_h7
-slug: /hardware/catalog/boards/unverified/arm_arduino_portenta_h7
+slug: /firmware/hardware/catalog/boards/unverified/arm_arduino_portenta_h7
 description: IoT board arduino_portenta_h7, compatible with Golioth at unverified level.
 image: /img/boards/arm/arduino_portenta_h7.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `arduino_portenta_h7` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | N/A |
 | Flash*         | N/A |

@@ -1,7 +1,7 @@
 ---
 id: arm_mimx8mq_evk
 title: mimx8mq_evk
-slug: /hardware/catalog/boards/unverified/arm_mimx8mq_evk
+slug: /firmware/hardware/catalog/boards/unverified/arm_mimx8mq_evk
 description: IoT board mimx8mq_evk, compatible with Golioth at unverified level.
 image: /img/boards/arm/mimx8mq_evk.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `mimx8mq_evk` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | N/A |
 | Flash*         | N/A |

@@ -1,7 +1,7 @@
 ---
 id: overview
 title: NXP i.MX RT1060 Zephyr Quickstart
-slug: /hardware/mimxrt1060_evkb/zephyr-quickstart
+slug: /firmware/hardware/mimxrt1060_evkb/zephyr-quickstart
 ---
 
 This walk-through will demonstrate how to quickly connect an NXP [MIMXRT1060_EVKB Evaluation Kit](https://www.nxp.com/design/development-boards/i-mx-evaluation-and-development-boards/i-mx-rt1060-evaluation-kit:MIMXRT1060-EVKB) with [Zephyr](https://www.zephyrproject.org) & [`west`](https://docs.zephyrproject.org/latest/guides/west/index.html).

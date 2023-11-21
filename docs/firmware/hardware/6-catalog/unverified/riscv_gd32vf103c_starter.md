@@ -1,7 +1,7 @@
 ---
 id: riscv_gd32vf103c_starter
 title: GigaDevice GD32VF103C-STARTER
-slug: /hardware/catalog/boards/unverified/riscv_gd32vf103c_starter
+slug: /firmware/hardware/catalog/boards/unverified/riscv_gd32vf103c_starter
 description: IoT board GigaDevice GD32VF103C-STARTER, compatible with Golioth at unverified level.
 image: /img/boards/riscv/gd32vf103c_starter.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `gd32vf103c_starter` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | RISCV |
 | RAM*           | 32 kB |
 | Flash*         | 128 kB |

@@ -1,7 +1,7 @@
 ---
 id: riscv_gd32vf103v_eval
 title: GigaDevice GD32VF103V-EVAL
-slug: /hardware/catalog/boards/unverified/riscv_gd32vf103v_eval
+slug: /firmware/hardware/catalog/boards/unverified/riscv_gd32vf103v_eval
 description: IoT board GigaDevice GD32VF103V-EVAL, compatible with Golioth at unverified level.
 image: /img/boards/riscv/gd32vf103v_eval.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `gd32vf103v_eval` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | RISCV |
 | RAM*           | 32 kB |
 | Flash*         | 128 kB |

@@ -1,7 +1,7 @@
 ---
 id: arm_blackpill_f401ce
 title: WeAct Studio Black Pill V3.0 (F401CE)
-slug: /hardware/catalog/boards/unverified/arm_blackpill_f401ce
+slug: /firmware/hardware/catalog/boards/unverified/arm_blackpill_f401ce
 description: IoT board WeAct Studio Black Pill V3.0 (F401CE), compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `blackpill_f401ce` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | N/A |
 | Flash*         | N/A |

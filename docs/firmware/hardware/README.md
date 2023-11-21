@@ -2,7 +2,7 @@
 id: overview
 title: Hardware
 hide_title: false
-slug: /hardware
+slug: /firmware/hardware
 ---
 
 The Hardware section includes a catalog of supported boards for the Golioth
@@ -19,12 +19,12 @@ hardware.
 
 | Vendor     | SDK                  | Quickstart | Note |
 | ---------- | -------------------- | ---------- | ---- |
-| Espressif  | [Golioth Firmware SDK](https://github.com/golioth/golioth-firmware-sdk) | [ESP32 ESP-IDF Quickstart](/hardware/esp32/espidf-quickstart/set-up-espidf) | Use for ESP32 MCUs |
-| Espressif  | [Golioth Zephyr SDK](https://github.com/golioth/golioth-zephyr-sdk)   | [ESP32 Zephyr Quickstart](/hardware/esp32/zephyr-quickstart/set-up-zephyr) | Use for ESP32 MCUs |
+| Espressif  | [Golioth Firmware SDK](https://github.com/golioth/golioth-firmware-sdk) | [ESP32 ESP-IDF Quickstart](/firmware/hardware/esp32/espidf-quickstart/set-up-espidf) | Use for ESP32 MCUs |
+| Espressif  | [Golioth Zephyr SDK](https://github.com/golioth/golioth-zephyr-sdk)   | [ESP32 Zephyr Quickstart](/firmware/hardware/esp32/zephyr-quickstart/set-up-zephyr) | Use for ESP32 MCUs |
 | Infineon   | [Golioth Firmware SDK](https://github.com/golioth/golioth-firmware-sdk) | ModusToolbox&trade; [Readme](https://github.com/golioth/golioth-firmware-sdk/tree/main/examples/modus_toolbox) / [Webinar](https://blog.golioth.io/a-recap-of-how-to-collect-data-from-iot-sensors-using-golioth-and-the-infineon-modustoolbox/) | Use for Infineon MCUs like PSoC6 |
-| Nordic     | [Golioth Zephyr SDK](https://github.com/golioth/golioth-zephyr-sdk)   | [nRF9160 Zephyr Quickstart](/hardware/nrf91/zephyr-quickstart/set-up-zephyr) | Use for Nordic MCUs like nRF9160 and nRF7002 |
-| NXP        | [Golioth Zephyr SDK](https://github.com/golioth/golioth-zephyr-sdk)   | [mimxrt1060evkb Zephyr Quickstart](/hardware/mimxrt1060_evkb/zephyr-quickstart/set-up-zephyr) | Use for NXP MCUs like i.MX RT1062 and i.MX RT1024 |
-| Other Vendors | [Golioth Zephyr SDK](https://github.com/golioth/golioth-zephyr-sdk) | [mimxrt1060evkb Zephyr Quickstart](/hardware/mimxrt1060_evkb/zephyr-quickstart/set-up-zephyr) | Many other MCUs are supported by Zephyr will work with Golioth! Follow this quickstart and substitute your board name in the build examples. |
+| Nordic     | [Golioth Zephyr SDK](https://github.com/golioth/golioth-zephyr-sdk)   | [nRF9160 Zephyr Quickstart](/firmware/hardware/nrf91/zephyr-quickstart/set-up-zephyr) | Use for Nordic MCUs like nRF9160 and nRF7002 |
+| NXP        | [Golioth Zephyr SDK](https://github.com/golioth/golioth-zephyr-sdk)   | [mimxrt1060evkb Zephyr Quickstart](/firmware/hardware/mimxrt1060_evkb/zephyr-quickstart/set-up-zephyr) | Use for NXP MCUs like i.MX RT1062 and i.MX RT1024 |
+| Other Vendors | [Golioth Zephyr SDK](https://github.com/golioth/golioth-zephyr-sdk) | [mimxrt1060evkb Zephyr Quickstart](/firmware/hardware/mimxrt1060_evkb/zephyr-quickstart/set-up-zephyr) | Many other MCUs are supported by Zephyr will work with Golioth! Follow this quickstart and substitute your board name in the build examples. |
 
 :::info Don't see your hardware listed?
 

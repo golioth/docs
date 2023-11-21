@@ -1,7 +1,7 @@
 ---
 id: x86_intel_adl
 title: intel_adl
-slug: /hardware/catalog/boards/unverified/x86_intel_adl
+slug: /firmware/hardware/catalog/boards/unverified/x86_intel_adl
 description: IoT board intel_adl, compatible with Golioth at unverified level.
 image: /img/boards/x86/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `intel_adl` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | X86 |
 | RAM*           | N/A |
 | Flash*         | N/A |

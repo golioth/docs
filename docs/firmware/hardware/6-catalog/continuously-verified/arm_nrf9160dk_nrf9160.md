@@ -1,7 +1,7 @@
 ---
 id: arm_nrf9160dk_nrf9160
 title: nRF9160-DK-NRF9160
-slug: /hardware/catalog/boards/continuously-verified/arm_nrf9160dk_nrf9160
+slug: /firmware/hardware/catalog/boards/continuously-verified/arm_nrf9160dk_nrf9160
 description: IoT board nRF9160-DK-NRF9160, compatible with Golioth at continuously-verified level.
 image: /img/boards/arm/nrf9160dk_nrf9160.jpg
 
@@ -14,8 +14,8 @@ image: /img/boards/arm/nrf9160dk_nrf9160.jpg
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `nrf9160dk_nrf9160` |
-| Golioth Level  | [Continuously verified](/hardware#continuously-verified-boards) |
-| Golioth Quickstart | [nrf9160dk_nrf9160 quickstart](/hardware/nrf91/zephyr-quickstart) || Architecture   | ARM |
+| Golioth Level  | [Continuously verified](/firmware/hardware#continuously-verified-boards) |
+| Golioth Quickstart | [nrf9160dk_nrf9160 quickstart](/firmware/hardware/nrf91/zephyr-quickstart) || Architecture   | ARM |
 | RAM*           | 88 kB |
 | Flash*         | 1024 kB |
 
@@ -23,7 +23,7 @@ image: /img/boards/arm/nrf9160dk_nrf9160.jpg
 
 ## Getting started
 
-See our [quickstart guide for nRF9160-DK-NRF9160](/hardware/nrf91/zephyr-quickstart).
+See our [quickstart guide for nRF9160-DK-NRF9160](/firmware/hardware/nrf91/zephyr-quickstart).
 
 
 ## Supported features

@@ -1,7 +1,7 @@
 ---
 id: arm_efr32mg_sltb004a
 title: EFR32MG-SLTB004A
-slug: /hardware/catalog/boards/unverified/arm_efr32mg_sltb004a
+slug: /firmware/hardware/catalog/boards/unverified/arm_efr32mg_sltb004a
 description: IoT board EFR32MG-SLTB004A, compatible with Golioth at unverified level.
 image: /img/boards/arm/efr32mg_sltb004a.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `efr32mg_sltb004a` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 256 kB |
 | Flash*         | 1024 kB |

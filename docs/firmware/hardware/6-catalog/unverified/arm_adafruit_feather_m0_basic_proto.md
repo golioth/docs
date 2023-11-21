@@ -1,7 +1,7 @@
 ---
 id: arm_adafruit_feather_m0_basic_proto
 title: Adafruit Feather M0 Basic Proto
-slug: /hardware/catalog/boards/unverified/arm_adafruit_feather_m0_basic_proto
+slug: /firmware/hardware/catalog/boards/unverified/arm_adafruit_feather_m0_basic_proto
 description: IoT board Adafruit Feather M0 Basic Proto, compatible with Golioth at unverified level.
 image: /img/boards/arm/adafruit_feather_m0_basic_proto.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `adafruit_feather_m0_basic_proto` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 32 kB |
 | Flash*         | 232 kB |

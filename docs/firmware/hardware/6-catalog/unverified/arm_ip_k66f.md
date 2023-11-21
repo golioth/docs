@@ -1,7 +1,7 @@
 ---
 id: arm_ip_k66f
 title: SEGGER IP-K66F
-slug: /hardware/catalog/boards/unverified/arm_ip_k66f
+slug: /firmware/hardware/catalog/boards/unverified/arm_ip_k66f
 description: IoT board SEGGER IP-K66F, compatible with Golioth at unverified level.
 image: /img/boards/arm/ip_k66f.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `ip_k66f` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 256 kB |
 | Flash*         | 2048 kB |

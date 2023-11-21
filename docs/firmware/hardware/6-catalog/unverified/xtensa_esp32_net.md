@@ -1,7 +1,7 @@
 ---
 id: xtensa_esp32_net
 title: ESP32_NET
-slug: /hardware/catalog/boards/unverified/xtensa_esp32_net
+slug: /firmware/hardware/catalog/boards/unverified/xtensa_esp32_net
 description: IoT board ESP32_NET, compatible with Golioth at unverified level.
 image: /img/boards/xtensa/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `esp32_net` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | XTENSA |
 | RAM*           | N/A |
 | Flash*         | N/A |

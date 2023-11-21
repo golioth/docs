@@ -1,7 +1,7 @@
 ---
 id: arm_frdm_k22f
 title: NXP FRDM-K22F
-slug: /hardware/catalog/boards/unverified/arm_frdm_k22f
+slug: /firmware/hardware/catalog/boards/unverified/arm_frdm_k22f
 description: IoT board NXP FRDM-K22F, compatible with Golioth at unverified level.
 image: /img/boards/arm/frdm_k22f.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `frdm_k22f` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 64 kB |
 | Flash*         | N/A |

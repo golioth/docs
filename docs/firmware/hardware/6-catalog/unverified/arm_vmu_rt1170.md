@@ -1,7 +1,7 @@
 ---
 id: arm_vmu_rt1170
 title: NXP VMU RT1170
-slug: /hardware/catalog/boards/unverified/arm_vmu_rt1170
+slug: /firmware/hardware/catalog/boards/unverified/arm_vmu_rt1170
 description: IoT board NXP VMU RT1170, compatible with Golioth at unverified level.
 image: /img/boards/arm/vmu_rt1170.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `vmu_rt1170` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 256 kB |
 | Flash*         | 65536 kB |

@@ -1,7 +1,7 @@
 ---
 id: arm_pinnacle_100_dvk
 title: pinnacle-100-dvk
-slug: /hardware/catalog/boards/unverified/arm_pinnacle_100_dvk
+slug: /firmware/hardware/catalog/boards/unverified/arm_pinnacle_100_dvk
 description: IoT board pinnacle-100-dvk, compatible with Golioth at unverified level.
 image: /img/boards/arm/pinnacle_100_dvk.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `pinnacle_100_dvk` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 256 kB |
 | Flash*         | 1024 kB |

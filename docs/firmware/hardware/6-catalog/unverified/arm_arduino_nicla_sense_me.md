@@ -1,7 +1,7 @@
 ---
 id: arm_arduino_nicla_sense_me
 title: Arduino Nicla Sense ME
-slug: /hardware/catalog/boards/unverified/arm_arduino_nicla_sense_me
+slug: /firmware/hardware/catalog/boards/unverified/arm_arduino_nicla_sense_me
 description: IoT board Arduino Nicla Sense ME, compatible with Golioth at unverified level.
 image: /img/boards/arm/arduino_nicla_sense_me.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `arduino_nicla_sense_me` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 64 kB |
 | Flash*         | 512 kB |

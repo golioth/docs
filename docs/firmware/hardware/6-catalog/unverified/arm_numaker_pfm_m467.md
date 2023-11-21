@@ -1,7 +1,7 @@
 ---
 id: arm_numaker_pfm_m467
 title: NUVOTON NUMAKER-PFM-M467 Kit
-slug: /hardware/catalog/boards/unverified/arm_numaker_pfm_m467
+slug: /firmware/hardware/catalog/boards/unverified/arm_numaker_pfm_m467
 description: IoT board NUVOTON NUMAKER-PFM-M467 Kit, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `numaker_pfm_m467` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 512 kB |
 | Flash*         | 1024 kB |

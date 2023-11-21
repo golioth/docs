@@ -1,7 +1,7 @@
 ---
 id: arm_acn52832
 title: aconno acn52832
-slug: /hardware/catalog/boards/unverified/arm_acn52832
+slug: /firmware/hardware/catalog/boards/unverified/arm_acn52832
 description: IoT board aconno acn52832, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `acn52832` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 64 kB |
 | Flash*         | 512 kB |

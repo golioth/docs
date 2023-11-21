@@ -1,7 +1,7 @@
 ---
 id: xtensa_xiao_esp32s3
 title: XIAO ESP32S3
-slug: /hardware/catalog/boards/unverified/xtensa_xiao_esp32s3
+slug: /firmware/hardware/catalog/boards/unverified/xtensa_xiao_esp32s3
 description: IoT board XIAO ESP32S3, compatible with Golioth at unverified level.
 image: /img/boards/xtensa/xiao_esp32s3.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `xiao_esp32s3` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | XTENSA |
 | RAM*           | N/A |
 | Flash*         | N/A |
