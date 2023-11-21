@@ -1,7 +1,7 @@
 ---
 id: arm_particle_boron
 title: Particle Boron
-slug: /hardware/catalog/boards/unverified/arm_particle_boron
+slug: /firmware/hardware/catalog/boards/unverified/arm_particle_boron
 description: IoT board Particle Boron, compatible with Golioth at unverified level.
 image: /img/boards/arm/particle_boron.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `particle_boron` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 512 kB |
 | Flash*         | 1024 kB |

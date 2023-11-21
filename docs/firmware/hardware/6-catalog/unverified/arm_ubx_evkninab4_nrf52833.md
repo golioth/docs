@@ -1,7 +1,7 @@
 ---
 id: arm_ubx_evkninab4_nrf52833
 title: EVK-NINA-B4-NRF52833
-slug: /hardware/catalog/boards/unverified/arm_ubx_evkninab4_nrf52833
+slug: /firmware/hardware/catalog/boards/unverified/arm_ubx_evkninab4_nrf52833
 description: IoT board EVK-NINA-B4-NRF52833, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `ubx_evkninab4_nrf52833` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | N/A |
 | Flash*         | N/A |

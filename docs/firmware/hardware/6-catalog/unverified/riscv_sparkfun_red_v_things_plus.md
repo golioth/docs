@@ -1,7 +1,7 @@
 ---
 id: riscv_sparkfun_red_v_things_plus
 title: SparkFun RED-V Things Plus
-slug: /hardware/catalog/boards/unverified/riscv_sparkfun_red_v_things_plus
+slug: /firmware/hardware/catalog/boards/unverified/riscv_sparkfun_red_v_things_plus
 description: IoT board SparkFun RED-V Things Plus, compatible with Golioth at unverified level.
 image: /img/boards/riscv/sparkfun_red_v_things_plus.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `sparkfun_red_v_things_plus` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | RISCV |
 | RAM*           | 16 kB |
 | Flash*         | N/A |

@@ -1,7 +1,7 @@
 ---
 id: arm64_rpi_4b
 title: Raspberry Pi 4 Model B
-slug: /hardware/catalog/boards/unverified/arm64_rpi_4b
+slug: /firmware/hardware/catalog/boards/unverified/arm64_rpi_4b
 description: IoT board Raspberry Pi 4 Model B, compatible with Golioth at unverified level.
 image: /img/boards/arm64/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `rpi_4b` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM64 |
 | RAM*           | N/A |
 | Flash*         | N/A |

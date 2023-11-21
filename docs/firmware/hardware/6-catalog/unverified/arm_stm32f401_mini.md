@@ -1,7 +1,7 @@
 ---
 id: arm_stm32f401_mini
 title: STM32 Mini F401
-slug: /hardware/catalog/boards/unverified/arm_stm32f401_mini
+slug: /firmware/hardware/catalog/boards/unverified/arm_stm32f401_mini
 description: IoT board STM32 Mini F401, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `stm32f401_mini` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | N/A |
 | Flash*         | N/A |

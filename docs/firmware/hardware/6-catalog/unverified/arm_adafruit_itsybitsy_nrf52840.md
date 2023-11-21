@@ -1,7 +1,7 @@
 ---
 id: arm_adafruit_itsybitsy_nrf52840
 title: Adafruit ItsyBitsy nRF52840 Express
-slug: /hardware/catalog/boards/unverified/arm_adafruit_itsybitsy_nrf52840
+slug: /firmware/hardware/catalog/boards/unverified/arm_adafruit_itsybitsy_nrf52840
 description: IoT board Adafruit ItsyBitsy nRF52840 Express, compatible with Golioth at unverified level.
 image: /img/boards/arm/adafruit_itsybitsy_nrf52840.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `adafruit_itsybitsy_nrf52840` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 256 kB |
 | Flash*         | 1024 kB |

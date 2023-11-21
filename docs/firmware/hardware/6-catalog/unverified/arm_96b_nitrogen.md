@@ -1,7 +1,7 @@
 ---
 id: arm_96b_nitrogen
 title: 96Boards Nitrogen
-slug: /hardware/catalog/boards/unverified/arm_96b_nitrogen
+slug: /firmware/hardware/catalog/boards/unverified/arm_96b_nitrogen
 description: IoT board 96Boards Nitrogen, compatible with Golioth at unverified level.
 image: /img/boards/arm/96b_nitrogen.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `96b_nitrogen` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 64 kB |
 | Flash*         | 512 kB |

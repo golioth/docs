@@ -1,7 +1,7 @@
 ---
 id: arm_rcar_h3ulcb
 title: rcar_h3ulcb
-slug: /hardware/catalog/boards/unverified/arm_rcar_h3ulcb
+slug: /firmware/hardware/catalog/boards/unverified/arm_rcar_h3ulcb
 description: IoT board rcar_h3ulcb, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `rcar_h3ulcb` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | N/A |
 | Flash*         | N/A |

@@ -1,7 +1,7 @@
 ---
 id: arm_ebyte_e73_tbb_nrf52832
 title: EBYTE-E73-TBB-NRF52832
-slug: /hardware/catalog/boards/unverified/arm_ebyte_e73_tbb_nrf52832
+slug: /firmware/hardware/catalog/boards/unverified/arm_ebyte_e73_tbb_nrf52832
 description: IoT board EBYTE-E73-TBB-NRF52832, compatible with Golioth at unverified level.
 image: /img/boards/arm/ebyte_e73_tbb_nrf52832.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `ebyte_e73_tbb_nrf52832` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 64 kB |
 | Flash*         | 512 kB |

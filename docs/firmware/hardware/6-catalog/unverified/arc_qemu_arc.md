@@ -1,7 +1,7 @@
 ---
 id: arc_qemu_arc
 title: qemu_arc
-slug: /hardware/catalog/boards/unverified/arc_qemu_arc
+slug: /firmware/hardware/catalog/boards/unverified/arc_qemu_arc
 description: IoT board qemu_arc, compatible with Golioth at unverified level.
 image: /img/boards/arc/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `qemu_arc` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARC |
 | RAM*           | N/A |
 | Flash*         | N/A |

@@ -1,7 +1,7 @@
 ---
 id: arm_nucleo_f446ze
 title: ST Nucleo F446ZE
-slug: /hardware/catalog/boards/unverified/arm_nucleo_f446ze
+slug: /firmware/hardware/catalog/boards/unverified/arm_nucleo_f446ze
 description: IoT board ST Nucleo F446ZE, compatible with Golioth at unverified level.
 image: /img/boards/arm/nucleo_f446ze.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `nucleo_f446ze` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 128 kB |
 | Flash*         | 512 kB |

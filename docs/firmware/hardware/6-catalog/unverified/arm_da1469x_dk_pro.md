@@ -1,7 +1,7 @@
 ---
 id: arm_da1469x_dk_pro
 title: DA1469X_DK_PRO
-slug: /hardware/catalog/boards/unverified/arm_da1469x_dk_pro
+slug: /firmware/hardware/catalog/boards/unverified/arm_da1469x_dk_pro
 description: IoT board DA1469X_DK_PRO, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `da1469x_dk_pro` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 512 kB |
 | Flash*         | N/A |
@@ -33,6 +33,8 @@ sidebar_class_name: hide-item
 * spi
 * usb_device
 * rtc
+* crypto
+* dma
 
 ## Supported toolchains
 

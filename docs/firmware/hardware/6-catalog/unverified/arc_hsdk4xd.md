@@ -1,7 +1,7 @@
 ---
 id: arc_hsdk4xd
 title: HS4xD Development Kit
-slug: /hardware/catalog/boards/unverified/arc_hsdk4xd
+slug: /firmware/hardware/catalog/boards/unverified/arc_hsdk4xd
 description: IoT board HS4xD Development Kit, compatible with Golioth at unverified level.
 image: /img/boards/arc/hsdk4xd.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `hsdk4xd` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARC |
 | RAM*           | N/A |
 | Flash*         | N/A |

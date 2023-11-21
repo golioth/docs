@@ -1,7 +1,7 @@
 ---
 id: arm_rpi_pico
 title: RaspberryPi-Pico
-slug: /hardware/catalog/boards/unverified/arm_rpi_pico
+slug: /firmware/hardware/catalog/boards/unverified/arm_rpi_pico
 description: IoT board RaspberryPi-Pico, compatible with Golioth at unverified level.
 image: /img/boards/arm/rpi_pico.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `rpi_pico` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 264 kB |
 | Flash*         | 2048 kB |

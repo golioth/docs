@@ -1,7 +1,7 @@
 ---
 id: arm_efr32xg24_dk2601b
 title: BRD4601B
-slug: /hardware/catalog/boards/unverified/arm_efr32xg24_dk2601b
+slug: /firmware/hardware/catalog/boards/unverified/arm_efr32xg24_dk2601b
 description: IoT board BRD4601B, compatible with Golioth at unverified level.
 image: /img/boards/arm/efr32xg24_dk2601b.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `efr32xg24_dk2601b` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 256 kB |
 | Flash*         | 1536 kB |

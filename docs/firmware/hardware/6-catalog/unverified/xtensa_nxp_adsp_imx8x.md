@@ -1,7 +1,7 @@
 ---
 id: xtensa_nxp_adsp_imx8x
 title: i.MX8X DSP
-slug: /hardware/catalog/boards/unverified/xtensa_nxp_adsp_imx8x
+slug: /firmware/hardware/catalog/boards/unverified/xtensa_nxp_adsp_imx8x
 description: IoT board i.MX8X DSP, compatible with Golioth at unverified level.
 image: /img/boards/xtensa/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `nxp_adsp_imx8x` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | XTENSA |
 | RAM*           | N/A |
 | Flash*         | N/A |

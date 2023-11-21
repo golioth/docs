@@ -1,7 +1,7 @@
 ---
 id: arm_nucleo_f091rc
 title: ST Nucleo F091RC
-slug: /hardware/catalog/boards/unverified/arm_nucleo_f091rc
+slug: /firmware/hardware/catalog/boards/unverified/arm_nucleo_f091rc
 description: IoT board ST Nucleo F091RC, compatible with Golioth at unverified level.
 image: /img/boards/arm/nucleo_f091rc.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `nucleo_f091rc` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 32 kB |
 | Flash*         | 256 kB |

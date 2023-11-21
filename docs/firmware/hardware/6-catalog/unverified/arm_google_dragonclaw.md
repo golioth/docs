@@ -1,7 +1,7 @@
 ---
 id: arm_google_dragonclaw
 title: Google Dragonclaw Development Board
-slug: /hardware/catalog/boards/unverified/arm_google_dragonclaw
+slug: /firmware/hardware/catalog/boards/unverified/arm_google_dragonclaw
 description: IoT board Google Dragonclaw Development Board, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `google_dragonclaw` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 256 kB |
 | Flash*         | 1024 kB |

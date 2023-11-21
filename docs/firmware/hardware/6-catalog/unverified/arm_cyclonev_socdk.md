@@ -1,7 +1,7 @@
 ---
 id: arm_cyclonev_socdk
 title: Intel Cyclone V SoC FPGA
-slug: /hardware/catalog/boards/unverified/arm_cyclonev_socdk
+slug: /firmware/hardware/catalog/boards/unverified/arm_cyclonev_socdk
 description: IoT board Intel Cyclone V SoC FPGA, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `cyclonev_socdk` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | N/A |
 | Flash*         | N/A |

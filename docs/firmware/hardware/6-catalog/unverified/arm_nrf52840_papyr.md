@@ -1,7 +1,7 @@
 ---
 id: arm_nrf52840_papyr
 title: Electronut Labs Papyr
-slug: /hardware/catalog/boards/unverified/arm_nrf52840_papyr
+slug: /firmware/hardware/catalog/boards/unverified/arm_nrf52840_papyr
 description: IoT board Electronut Labs Papyr, compatible with Golioth at unverified level.
 image: /img/boards/arm/nrf52840_papyr.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `nrf52840_papyr` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | N/A |
 | Flash*         | N/A |

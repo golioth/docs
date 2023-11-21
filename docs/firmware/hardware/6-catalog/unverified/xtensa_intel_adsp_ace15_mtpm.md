@@ -1,7 +1,7 @@
 ---
 id: xtensa_intel_adsp_ace15_mtpm
 title: ACE 1.5 MTL M Audio DSP
-slug: /hardware/catalog/boards/unverified/xtensa_intel_adsp_ace15_mtpm
+slug: /firmware/hardware/catalog/boards/unverified/xtensa_intel_adsp_ace15_mtpm
 description: IoT board ACE 1.5 MTL M Audio DSP, compatible with Golioth at unverified level.
 image: /img/boards/xtensa/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `intel_adsp_ace15_mtpm` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | XTENSA |
 | RAM*           | N/A |
 | Flash*         | N/A |

@@ -1,7 +1,7 @@
 ---
 id: arm_xmc47_relax_kit
 title: XMC47-RELAX-KIT
-slug: /hardware/catalog/boards/unverified/arm_xmc47_relax_kit
+slug: /firmware/hardware/catalog/boards/unverified/arm_xmc47_relax_kit
 description: IoT board XMC47-RELAX-KIT, compatible with Golioth at unverified level.
 image: /img/boards/arm/xmc47_relax_kit.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `xmc47_relax_kit` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 352 kB |
 | Flash*         | 2048 kB |
@@ -33,6 +33,7 @@ sidebar_class_name: hide-item
 * uart
 * arduino_spi
 * arduino_serial
+* watchdog
 
 ## Supported toolchains
 

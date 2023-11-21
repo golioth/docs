@@ -1,7 +1,7 @@
 ---
 id: arm_circuitdojo_feather_nrf9160
 title: CircuitDojo-Feather-nRF9160
-slug: /hardware/catalog/boards/verified/arm_circuitdojo_feather_nrf9160
+slug: /firmware/hardware/catalog/boards/verified/arm_circuitdojo_feather_nrf9160
 description: IoT board CircuitDojo-Feather-nRF9160, compatible with Golioth at verified level.
 image: /img/boards/arm/circuitdojo_feather_nrf9160.jpg
 
@@ -14,7 +14,7 @@ image: /img/boards/arm/circuitdojo_feather_nrf9160.jpg
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `circuitdojo_feather_nrf9160` |
-| Golioth Level  | [Verified](/hardware#verified-boards) |
+| Golioth Level  | [Verified](/firmware/hardware#verified-boards) |
 | Architecture   | ARM |
 | RAM*           | 64 kB |
 | Flash*         | 256 kB |

@@ -1,7 +1,7 @@
 ---
 id: arm_beagle_bcf
 title: beagle_bcf
-slug: /hardware/catalog/boards/unverified/arm_beagle_bcf
+slug: /firmware/hardware/catalog/boards/unverified/arm_beagle_bcf
 description: IoT board beagle_bcf, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `beagle_bcf` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | N/A |
 | Flash*         | N/A |

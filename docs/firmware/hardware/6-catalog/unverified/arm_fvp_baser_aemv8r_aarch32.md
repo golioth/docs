@@ -1,7 +1,7 @@
 ---
 id: arm_fvp_baser_aemv8r_aarch32
 title: FVP Emulation FVP_BaseR_AEMv8R AArch32
-slug: /hardware/catalog/boards/unverified/arm_fvp_baser_aemv8r_aarch32
+slug: /firmware/hardware/catalog/boards/unverified/arm_fvp_baser_aemv8r_aarch32
 description: IoT board FVP Emulation FVP_BaseR_AEMv8R AArch32, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `fvp_baser_aemv8r_aarch32` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 2048 kB |
 | Flash*         | 64 kB |

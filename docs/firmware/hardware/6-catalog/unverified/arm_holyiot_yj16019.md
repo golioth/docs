@@ -1,7 +1,7 @@
 ---
 id: arm_holyiot_yj16019
 title: Holyiot YJ-16019
-slug: /hardware/catalog/boards/unverified/arm_holyiot_yj16019
+slug: /firmware/hardware/catalog/boards/unverified/arm_holyiot_yj16019
 description: IoT board Holyiot YJ-16019, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `holyiot_yj16019` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 64 kB |
 | Flash*         | 512 kB |

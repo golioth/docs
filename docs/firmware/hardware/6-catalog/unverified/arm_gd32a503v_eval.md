@@ -1,7 +1,7 @@
 ---
 id: arm_gd32a503v_eval
 title: GigaDevice GD32A503V-EVAL
-slug: /hardware/catalog/boards/unverified/arm_gd32a503v_eval
+slug: /firmware/hardware/catalog/boards/unverified/arm_gd32a503v_eval
 description: IoT board GigaDevice GD32A503V-EVAL, compatible with Golioth at unverified level.
 image: /img/boards/arm/gd32a503v_eval.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `gd32a503v_eval` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 48 kB |
 | Flash*         | 384 kB |

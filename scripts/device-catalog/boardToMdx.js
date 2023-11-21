@@ -13,16 +13,16 @@ function boardToMdx(board) {
         'unverified': 'Unverified',
     };
     const levelLinks = {
-        'continuously-verified': '/hardware#continuously-verified-boards',
-        'verified': '/hardware#verified-boards',
-        'unverified': '/hardware#unverified-boards',
+        'continuously-verified': '/firmware/hardware#continuously-verified-boards',
+        'verified': '/firmware/hardware#verified-boards',
+        'unverified': '/firmware/hardware#unverified-boards',
     };
 
     return `\
 ---
 id: ${arch}_${boardId}
 title: ${name}
-slug: /hardware/catalog/boards/${level}/${arch}_${boardId}
+slug: /firmware/hardware/catalog/boards/${level}/${arch}_${boardId}
 description: IoT board ${name}, compatible with Golioth at ${level} level.
 image: /img/boards/${arch}/${img}
 ${level === 'unverified' ? 'sidebar_class_name: hide-item' : ''}

@@ -1,7 +1,7 @@
 ---
 id: arm_mercury_xu
 title: MERCURY-XU
-slug: /hardware/catalog/boards/unverified/arm_mercury_xu
+slug: /firmware/hardware/catalog/boards/unverified/arm_mercury_xu
 description: IoT board MERCURY-XU, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `mercury_xu` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | N/A |
 | Flash*         | N/A |

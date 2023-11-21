@@ -1,7 +1,7 @@
 ---
 id: arm_nucleo_l552ze_q
 title: ST Nucleo L552ZE Q
-slug: /hardware/catalog/boards/unverified/arm_nucleo_l552ze_q
+slug: /firmware/hardware/catalog/boards/unverified/arm_nucleo_l552ze_q
 description: IoT board ST Nucleo L552ZE Q, compatible with Golioth at unverified level.
 image: /img/boards/arm/nucleo_l552ze_q.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `nucleo_l552ze_q` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 192 kB |
 | Flash*         | 512 kB |

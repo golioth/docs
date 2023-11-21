@@ -1,7 +1,7 @@
 ---
 id: arm_qemu_cortex_a9
 title: QEMU Emulation for Cortex-A9
-slug: /hardware/catalog/boards/unverified/arm_qemu_cortex_a9
+slug: /firmware/hardware/catalog/boards/unverified/arm_qemu_cortex_a9
 description: IoT board QEMU Emulation for Cortex-A9, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `qemu_cortex_a9` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 524288 kB |
 | Flash*         | 262144 kB |

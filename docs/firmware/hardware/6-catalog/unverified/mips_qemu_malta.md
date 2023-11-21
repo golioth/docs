@@ -1,7 +1,7 @@
 ---
 id: mips_qemu_malta
 title: QEMU emulation for MIPS
-slug: /hardware/catalog/boards/unverified/mips_qemu_malta
+slug: /firmware/hardware/catalog/boards/unverified/mips_qemu_malta
 description: IoT board QEMU emulation for MIPS, compatible with Golioth at unverified level.
 image: /img/boards/mips/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `qemu_malta` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | MIPS |
 | RAM*           | 1024 kB |
 | Flash*         | 512 kB |

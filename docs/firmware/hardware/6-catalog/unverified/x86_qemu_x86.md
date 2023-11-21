@@ -1,7 +1,7 @@
 ---
 id: x86_qemu_x86
 title: QEMU Emulation for X86
-slug: /hardware/catalog/boards/unverified/x86_qemu_x86
+slug: /firmware/hardware/catalog/boards/unverified/x86_qemu_x86
 description: IoT board QEMU Emulation for X86, compatible with Golioth at unverified level.
 image: /img/boards/x86/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `qemu_x86` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | X86 |
 | RAM*           | 3000 kB |
 | Flash*         | N/A |

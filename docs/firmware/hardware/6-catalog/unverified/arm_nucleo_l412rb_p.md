@@ -1,7 +1,7 @@
 ---
 id: arm_nucleo_l412rb_p
 title: ST Nucleo L412RP-P
-slug: /hardware/catalog/boards/unverified/arm_nucleo_l412rb_p
+slug: /firmware/hardware/catalog/boards/unverified/arm_nucleo_l412rb_p
 description: IoT board ST Nucleo L412RP-P, compatible with Golioth at unverified level.
 image: /img/boards/arm/nucleo_l412rb_p.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `nucleo_l412rb_p` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 40 kB |
 | Flash*         | 64 kB |

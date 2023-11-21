@@ -1,7 +1,7 @@
 ---
 id: arm_mimxrt685_evk
 title: mimxrt685_evk
-slug: /hardware/catalog/boards/unverified/arm_mimxrt685_evk
+slug: /firmware/hardware/catalog/boards/unverified/arm_mimxrt685_evk
 description: IoT board mimxrt685_evk, compatible with Golioth at unverified level.
 image: /img/boards/arm/mimxrt685_evk.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `mimxrt685_evk` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | N/A |
 | Flash*         | N/A |

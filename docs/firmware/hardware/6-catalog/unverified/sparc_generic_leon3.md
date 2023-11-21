@@ -1,7 +1,7 @@
 ---
 id: sparc_generic_leon3
 title: Generic LEON3 system
-slug: /hardware/catalog/boards/unverified/sparc_generic_leon3
+slug: /firmware/hardware/catalog/boards/unverified/sparc_generic_leon3
 description: IoT board Generic LEON3 system, compatible with Golioth at unverified level.
 image: /img/boards/sparc/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `generic_leon3` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | SPARC |
 | RAM*           | 4096 kB |
 | Flash*         | 2048 kB |

@@ -1,7 +1,7 @@
 ---
 id: arm_ronoth_lodev
 title: Ronoth LoDev
-slug: /hardware/catalog/boards/unverified/arm_ronoth_lodev
+slug: /firmware/hardware/catalog/boards/unverified/arm_ronoth_lodev
 description: IoT board Ronoth LoDev, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `ronoth_lodev` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 20 kB |
 | Flash*         | 192 kB |

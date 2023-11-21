@@ -1,7 +1,7 @@
 ---
 id: arm_pandora_stm32l475
 title: STM32L475 Pandora
-slug: /hardware/catalog/boards/unverified/arm_pandora_stm32l475
+slug: /firmware/hardware/catalog/boards/unverified/arm_pandora_stm32l475
 description: IoT board STM32L475 Pandora, compatible with Golioth at unverified level.
 image: /img/boards/arm/pandora_stm32l475.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `pandora_stm32l475` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 128 kB |
 | Flash*         | 512 kB |

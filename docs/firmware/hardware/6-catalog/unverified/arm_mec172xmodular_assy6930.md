@@ -1,7 +1,7 @@
 ---
 id: arm_mec172xmodular_assy6930
 title: MEC172X MODULAR ASSY 6930
-slug: /hardware/catalog/boards/unverified/arm_mec172xmodular_assy6930
+slug: /firmware/hardware/catalog/boards/unverified/arm_mec172xmodular_assy6930
 description: IoT board MEC172X MODULAR ASSY 6930, compatible with Golioth at unverified level.
 image: /img/boards/arm/mec172xmodular_assy6930.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `mec172xmodular_assy6930` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 64 kB |
 | Flash*         | 352 kB |

@@ -1,7 +1,7 @@
 ---
 id: arm_adafruit_feather_m0_lora
 title: Adafruit Feather M0 LoRa
-slug: /hardware/catalog/boards/unverified/arm_adafruit_feather_m0_lora
+slug: /firmware/hardware/catalog/boards/unverified/arm_adafruit_feather_m0_lora
 description: IoT board Adafruit Feather M0 LoRa, compatible with Golioth at unverified level.
 image: /img/boards/arm/adafruit_feather_m0_lora.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `adafruit_feather_m0_lora` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 32 kB |
 | Flash*         | 232 kB |

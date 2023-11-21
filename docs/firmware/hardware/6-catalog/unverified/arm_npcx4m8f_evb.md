@@ -1,7 +1,7 @@
 ---
 id: arm_npcx4m8f_evb
 title: Nuvoton NPCX4M8F EVB
-slug: /hardware/catalog/boards/unverified/arm_npcx4m8f_evb
+slug: /firmware/hardware/catalog/boards/unverified/arm_npcx4m8f_evb
 description: IoT board Nuvoton NPCX4M8F EVB, compatible with Golioth at unverified level.
 image: /img/boards/arm/npcx4m8f_evb.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `npcx4m8f_evb` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 114 kB |
 | Flash*         | 384 kB |

@@ -1,7 +1,7 @@
 ---
 id: arm_raytac_mdbt50q_db_40_nrf52840
 title: Raytac MDBT50Q_DB_40_NRF52840
-slug: /hardware/catalog/boards/unverified/arm_raytac_mdbt50q_db_40_nrf52840
+slug: /firmware/hardware/catalog/boards/unverified/arm_raytac_mdbt50q_db_40_nrf52840
 description: IoT board Raytac MDBT50Q_DB_40_NRF52840, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `raytac_mdbt50q_db_40_nrf52840` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 256 kB |
 | Flash*         | 1024 kB |

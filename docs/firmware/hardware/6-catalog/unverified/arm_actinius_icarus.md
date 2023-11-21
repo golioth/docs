@@ -1,7 +1,7 @@
 ---
 id: arm_actinius_icarus
 title: Actinius Icarus
-slug: /hardware/catalog/boards/unverified/arm_actinius_icarus
+slug: /firmware/hardware/catalog/boards/unverified/arm_actinius_icarus
 description: IoT board Actinius Icarus, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `actinius_icarus` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 88 kB |
 | Flash*         | 256 kB |

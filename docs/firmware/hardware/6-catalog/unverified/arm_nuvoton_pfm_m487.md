@@ -1,7 +1,7 @@
 ---
 id: arm_nuvoton_pfm_m487
 title: NUVOTON-PFM-M487
-slug: /hardware/catalog/boards/unverified/arm_nuvoton_pfm_m487
+slug: /firmware/hardware/catalog/boards/unverified/arm_nuvoton_pfm_m487
 description: IoT board NUVOTON-PFM-M487, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `nuvoton_pfm_m487` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 160 kB |
 | Flash*         | 512 kB |

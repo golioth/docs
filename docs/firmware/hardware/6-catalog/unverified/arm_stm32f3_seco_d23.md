@@ -1,7 +1,7 @@
 ---
 id: arm_stm32f3_seco_d23
 title: SECO JUNO SBC-D23 (STM32F302)
-slug: /hardware/catalog/boards/unverified/arm_stm32f3_seco_d23
+slug: /firmware/hardware/catalog/boards/unverified/arm_stm32f3_seco_d23
 description: IoT board SECO JUNO SBC-D23 (STM32F302), compatible with Golioth at unverified level.
 image: /img/boards/arm/stm32f3_seco_d23.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `stm32f3_seco_d23` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 40 kB |
 | Flash*         | N/A |

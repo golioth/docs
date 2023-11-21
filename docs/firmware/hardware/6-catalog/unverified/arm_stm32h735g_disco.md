@@ -1,7 +1,7 @@
 ---
 id: arm_stm32h735g_disco
 title: ST STM32H735G Discovery
-slug: /hardware/catalog/boards/unverified/arm_stm32h735g_disco
+slug: /firmware/hardware/catalog/boards/unverified/arm_stm32h735g_disco
 description: IoT board ST STM32H735G Discovery, compatible with Golioth at unverified level.
 image: /img/boards/arm/stm32h735g_disco.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `stm32h735g_disco` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 368 kB |
 | Flash*         | 1024 kB |

@@ -1,7 +1,7 @@
 ---
 id: riscv_tlsr9518adk80d
 title: Telink TLSR9518ADK80D
-slug: /hardware/catalog/boards/unverified/riscv_tlsr9518adk80d
+slug: /firmware/hardware/catalog/boards/unverified/riscv_tlsr9518adk80d
 description: IoT board Telink TLSR9518ADK80D, compatible with Golioth at unverified level.
 image: /img/boards/riscv/tlsr9518adk80d.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `tlsr9518adk80d` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | RISCV |
 | RAM*           | 128 kB |
 | Flash*         | 1024 kB |

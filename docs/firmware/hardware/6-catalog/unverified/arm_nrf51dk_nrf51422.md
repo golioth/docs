@@ -1,7 +1,7 @@
 ---
 id: arm_nrf51dk_nrf51422
 title: nRF51-DK-NRF51422
-slug: /hardware/catalog/boards/unverified/arm_nrf51dk_nrf51422
+slug: /firmware/hardware/catalog/boards/unverified/arm_nrf51dk_nrf51422
 description: IoT board nRF51-DK-NRF51422, compatible with Golioth at unverified level.
 image: /img/boards/arm/nrf51dk_nrf51422.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `nrf51dk_nrf51422` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 32 kB |
 | Flash*         | 256 kB |

@@ -1,7 +1,7 @@
 ---
 id: arm_cc1352r_sensortag
 title: TI SimpleLink CC1352R SensorTag
-slug: /hardware/catalog/boards/unverified/arm_cc1352r_sensortag
+slug: /firmware/hardware/catalog/boards/unverified/arm_cc1352r_sensortag
 description: IoT board TI SimpleLink CC1352R SensorTag, compatible with Golioth at unverified level.
 image: /img/boards/arm/cc1352r_sensortag.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `cc1352r_sensortag` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 80 kB |
 | Flash*         | 352 kB |

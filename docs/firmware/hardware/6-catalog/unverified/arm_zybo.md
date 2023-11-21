@@ -1,7 +1,7 @@
 ---
 id: arm_zybo
 title: Digilent Zybo
-slug: /hardware/catalog/boards/unverified/arm_zybo
+slug: /firmware/hardware/catalog/boards/unverified/arm_zybo
 description: IoT board Digilent Zybo, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `zybo` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 524288 kB |
 | Flash*         | N/A |

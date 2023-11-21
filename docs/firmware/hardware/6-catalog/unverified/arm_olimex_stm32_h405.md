@@ -1,7 +1,7 @@
 ---
 id: arm_olimex_stm32_h405
 title: OLIMEX-STM32-H405
-slug: /hardware/catalog/boards/unverified/arm_olimex_stm32_h405
+slug: /firmware/hardware/catalog/boards/unverified/arm_olimex_stm32_h405
 description: IoT board OLIMEX-STM32-H405, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `olimex_stm32_h405` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 128 kB |
 | Flash*         | 1024 kB |

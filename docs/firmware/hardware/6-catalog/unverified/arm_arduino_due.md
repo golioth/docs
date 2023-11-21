@@ -1,7 +1,7 @@
 ---
 id: arm_arduino_due
 title: Arduino Due
-slug: /hardware/catalog/boards/unverified/arm_arduino_due
+slug: /firmware/hardware/catalog/boards/unverified/arm_arduino_due
 description: IoT board Arduino Due, compatible with Golioth at unverified level.
 image: /img/boards/arm/arduino_due.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `arduino_due` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 96 kB |
 | Flash*         | 512 kB |

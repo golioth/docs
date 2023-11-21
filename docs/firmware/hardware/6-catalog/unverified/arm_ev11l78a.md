@@ -1,7 +1,7 @@
 ---
 id: arm_ev11l78a
 title: UPD301C Basic Sink Application Example
-slug: /hardware/catalog/boards/unverified/arm_ev11l78a
+slug: /firmware/hardware/catalog/boards/unverified/arm_ev11l78a
 description: IoT board UPD301C Basic Sink Application Example, compatible with Golioth at unverified level.
 image: /img/boards/arm/ev11l78a.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `ev11l78a` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 32 kB |
 | Flash*         | 64 kB |

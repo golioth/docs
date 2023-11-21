@@ -1,7 +1,7 @@
 ---
 id: arm_96b_aerocore2
 title: 96Boards AeroCore 2
-slug: /hardware/catalog/boards/unverified/arm_96b_aerocore2
+slug: /firmware/hardware/catalog/boards/unverified/arm_96b_aerocore2
 description: IoT board 96Boards AeroCore 2, compatible with Golioth at unverified level.
 image: /img/boards/arm/96b_aerocore2.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `96b_aerocore2` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 256 kB |
 | Flash*         | 2048 kB |

@@ -1,7 +1,7 @@
 ---
 id: arm_cy8ckit_062_wifi_bt
 title: cy8ckit_062_wifi_bt
-slug: /hardware/catalog/boards/unverified/arm_cy8ckit_062_wifi_bt
+slug: /firmware/hardware/catalog/boards/unverified/arm_cy8ckit_062_wifi_bt
 description: IoT board cy8ckit_062_wifi_bt, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `cy8ckit_062_wifi_bt` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | N/A |
 | Flash*         | N/A |

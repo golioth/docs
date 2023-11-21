@@ -1,7 +1,7 @@
 ---
 id: arm_gd32f470i_eval
 title: GigaDevice GD32F470I-EVAL
-slug: /hardware/catalog/boards/unverified/arm_gd32f470i_eval
+slug: /firmware/hardware/catalog/boards/unverified/arm_gd32f470i_eval
 description: IoT board GigaDevice GD32F470I-EVAL, compatible with Golioth at unverified level.
 image: /img/boards/arm/gd32f470i_eval.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `gd32f470i_eval` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 112 kB |
 | Flash*         | 3072 kB |

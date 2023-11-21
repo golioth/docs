@@ -1,7 +1,7 @@
 ---
 id: arm_stm32h747i_disco
 title: stm32h747i_disco
-slug: /hardware/catalog/boards/unverified/arm_stm32h747i_disco
+slug: /firmware/hardware/catalog/boards/unverified/arm_stm32h747i_disco
 description: IoT board stm32h747i_disco, compatible with Golioth at unverified level.
 image: /img/boards/arm/stm32h747i_disco.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `stm32h747i_disco` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | N/A |
 | Flash*         | N/A |

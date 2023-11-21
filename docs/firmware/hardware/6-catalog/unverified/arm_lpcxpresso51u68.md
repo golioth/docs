@@ -1,7 +1,7 @@
 ---
 id: arm_lpcxpresso51u68
 title: NXP LPCXpresso51u68
-slug: /hardware/catalog/boards/unverified/arm_lpcxpresso51u68
+slug: /firmware/hardware/catalog/boards/unverified/arm_lpcxpresso51u68
 description: IoT board NXP LPCXpresso51u68, compatible with Golioth at unverified level.
 image: /img/boards/arm/lpcxpresso51u68.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `lpcxpresso51u68` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 64 kB |
 | Flash*         | 256 kB |

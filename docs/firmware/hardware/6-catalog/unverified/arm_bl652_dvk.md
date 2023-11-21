@@ -1,7 +1,7 @@
 ---
 id: arm_bl652_dvk
 title: bl652_dvk
-slug: /hardware/catalog/boards/unverified/arm_bl652_dvk
+slug: /firmware/hardware/catalog/boards/unverified/arm_bl652_dvk
 description: IoT board bl652_dvk, compatible with Golioth at unverified level.
 image: /img/boards/arm/bl652_dvk.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `bl652_dvk` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 64 kB |
 | Flash*         | 512 kB |

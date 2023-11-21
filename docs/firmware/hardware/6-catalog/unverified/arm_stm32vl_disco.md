@@ -1,7 +1,7 @@
 ---
 id: arm_stm32vl_disco
 title: ST STM32VL Discovery
-slug: /hardware/catalog/boards/unverified/arm_stm32vl_disco
+slug: /firmware/hardware/catalog/boards/unverified/arm_stm32vl_disco
 description: IoT board ST STM32VL Discovery, compatible with Golioth at unverified level.
 image: /img/boards/arm/stm32vl_disco.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `stm32vl_disco` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 8 kB |
 | Flash*         | 128 kB |

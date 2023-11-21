@@ -1,7 +1,7 @@
 ---
 id: arm_udoo_neo_full_m4
 title: UDOO Neo Full
-slug: /hardware/catalog/boards/unverified/arm_udoo_neo_full_m4
+slug: /firmware/hardware/catalog/boards/unverified/arm_udoo_neo_full_m4
 description: IoT board UDOO Neo Full, compatible with Golioth at unverified level.
 image: /img/boards/arm/udoo_neo_full_m4.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `udoo_neo_full_m4` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 32 kB |
 | Flash*         | 512 kB |

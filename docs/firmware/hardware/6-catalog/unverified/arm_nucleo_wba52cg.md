@@ -1,7 +1,7 @@
 ---
 id: arm_nucleo_wba52cg
 title: ST Nucleo WBA52CG
-slug: /hardware/catalog/boards/unverified/arm_nucleo_wba52cg
+slug: /firmware/hardware/catalog/boards/unverified/arm_nucleo_wba52cg
 description: IoT board ST Nucleo WBA52CG, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `nucleo_wba52cg` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 128 kB |
 | Flash*         | 1024 kB |
@@ -34,6 +34,7 @@ sidebar_class_name: hide-item
 * arduino_gpio
 * arduino_i2c
 * arduino_spi
+* counter
 
 ## Supported toolchains
 

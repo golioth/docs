@@ -1,7 +1,7 @@
 ---
 id: arm_b_l4s5i_iot01a
 title: ST B_L4S5I_IOT01A Discovery kit
-slug: /hardware/catalog/boards/unverified/arm_b_l4s5i_iot01a
+slug: /firmware/hardware/catalog/boards/unverified/arm_b_l4s5i_iot01a
 description: IoT board ST B_L4S5I_IOT01A Discovery kit, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `b_l4s5i_iot01a` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 640 kB |
 | Flash*         | 2048 kB |

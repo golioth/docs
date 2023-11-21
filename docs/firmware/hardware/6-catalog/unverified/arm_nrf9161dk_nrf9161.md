@@ -1,7 +1,7 @@
 ---
 id: arm_nrf9161dk_nrf9161
 title: nRF9161-DK-NRF9161
-slug: /hardware/catalog/boards/unverified/arm_nrf9161dk_nrf9161
+slug: /firmware/hardware/catalog/boards/unverified/arm_nrf9161dk_nrf9161
 description: IoT board nRF9161-DK-NRF9161, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `nrf9161dk_nrf9161` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 88 kB |
 | Flash*         | 1024 kB |

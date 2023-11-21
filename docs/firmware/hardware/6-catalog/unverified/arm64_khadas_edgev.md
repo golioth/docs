@@ -1,7 +1,7 @@
 ---
 id: arm64_khadas_edgev
 title: Khadas Edge-V (single core, non SMP)
-slug: /hardware/catalog/boards/unverified/arm64_khadas_edgev
+slug: /firmware/hardware/catalog/boards/unverified/arm64_khadas_edgev
 description: IoT board Khadas Edge-V (single core, non SMP), compatible with Golioth at unverified level.
 image: /img/boards/arm64/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `khadas_edgev` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM64 |
 | RAM*           | 8192 kB |
 | Flash*         | N/A |

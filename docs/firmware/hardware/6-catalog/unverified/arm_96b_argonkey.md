@@ -1,7 +1,7 @@
 ---
 id: arm_96b_argonkey
 title: 96Boards Argonkey
-slug: /hardware/catalog/boards/unverified/arm_96b_argonkey
+slug: /firmware/hardware/catalog/boards/unverified/arm_96b_argonkey
 description: IoT board 96Boards Argonkey, compatible with Golioth at unverified level.
 image: /img/boards/arm/96b_argonkey.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `96b_argonkey` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 256 kB |
 | Flash*         | 1024 kB |
