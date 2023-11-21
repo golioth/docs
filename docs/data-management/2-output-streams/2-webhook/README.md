@@ -1,7 +1,7 @@
 ---
 id: overview
 title: Webhooks Overview
-slug: /device-management/output-streams/webhook
+slug: /data-management/output-streams/webhook
 ---
 
 Webhooks are a simple and flexible way to receive events from the Golioth platform using HTTP. It is really easy to build a web server to receive these events and you can write you own logic to process them.
@@ -17,9 +17,9 @@ For each Output Stream type, there is a set of specify attributes. Here are the 
 
 ### Example
 
-As mentioned on [Output Streams Overview](/device-management/output-streams), events are sent using the [Cloud Events](https://cloudevents.io) format. For Webhooks specifically, some metadata of the event are sent as HTTP headers.
+As mentioned on [Output Streams Overview](/data-management/output-streams), events are sent using the [Cloud Events](https://cloudevents.io) format. For Webhooks specifically, some metadata of the event are sent as HTTP headers.
 
-Here is an example of an event arriving on a webhook. Headers prefixed with `Ce-` are related to Cloud Events and the message body is the event payload (see event payloads on [Output Streams Event Types](/device-management/output-streams/event-types/events)).
+Here is an example of an event arriving on a webhook. Headers prefixed with `Ce-` are related to Cloud Events and the message body is the event payload (see event payloads on [Output Streams Event Types](/data-management/output-streams/event-types/events)).
 
 ```
 POST {your-uri-path} HTTP/1.1
