@@ -1,7 +1,7 @@
 ---
 id: overview
 title: Ubidots Overview
-slug: /device-management/output-streams/ubidots
+slug: /data-management/output-streams/ubidots
 ---
 
 [Ubidots](https://ubidots.com/) makes it easy to white-label visualizations to produce a
@@ -46,7 +46,7 @@ In this tutorial you will see how to:
 
 Golioth Output Streams use the [Cloud Events](https://cloudevents.io) format. For Ubidots, this means some metadata of the event are sent as HTTP headers.
 
-Here is an example of an event arriving on Ubidots. Headers prefixed with `Ce-` are related to Cloud Events and the message body is the event payload (see event payloads on [Output Streams Event Types](/device-management/output-streams/event-types/events)).
+Here is an example of an event arriving on Ubidots. Headers prefixed with `Ce-` are related to Cloud Events and the message body is the event payload (see event payloads on [Output Streams Event Types](/data-management/output-streams/event-types/events)).
 
 ```
 POST {your-uri-path} HTTP/1.1

@@ -1,7 +1,7 @@
 ---
 id: overview
 title: Azure Event Hub Overview
-slug: /device-management/output-streams/azure-event-hub
+slug: /data-management/output-streams/azure-event-hub
 ---
 
 Azure Event Hub is a fully managed, real-time data ingestion service that can be used to consume Golioth events in a simple, trusted, and scalable way. You can ingest data in multiple ways inside Azure with support for popular protocols, including AMQP, HTTPS, and Apache Kafka. You can also consume Azure Event Hub in a serverless manner using Azure Functions.
@@ -33,9 +33,9 @@ To use this integration, you need to create an Event Hub on Azure and get the co
 
 ### Example
 
-As mentioned on [Output Streams Overview](/device-management/output-streams), events are sent using [Cloud Events](https://cloudevents.io) format. For Azure Event Hub, some metadata of the event are sent together with the message body.
+As mentioned on [Output Streams Overview](/data-management/output-streams), events are sent using [Cloud Events](https://cloudevents.io) format. For Azure Event Hub, some metadata of the event are sent together with the message body.
 
-Here is an example of an event arriving on Event Hub. The payload will be inside a `data` attribute (see event payloads on [Output Streams Event Types](/device-management/output-streams/event-types/events)). The other attributes are metadata related to Cloud Events.
+Here is an example of an event arriving on Event Hub. The payload will be inside a `data` attribute (see event payloads on [Output Streams Event Types](/data-management/output-streams/event-types/events)). The other attributes are metadata related to Cloud Events.
 
 ```json
 {
