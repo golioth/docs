@@ -7,4 +7,4 @@ The Logging sample demonstrates how logging can be executed using the Zephyr log
 
 ![Console](../assets/logging-svg-a4.svg)
 
-Checkout the [Logging guide](https://docs.golioth.io/cloud/services/logging/) for a walkthrough of the sample demonstrating the firmware calls used to interact with the Golioth Logging service.
+Checkout the [Logging guide](https://docs.golioth.io/device-management/services/logging/) for a walkthrough of the sample demonstrating the firmware calls used to interact with the Golioth Logging service.

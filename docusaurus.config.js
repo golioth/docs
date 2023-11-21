@@ -34,9 +34,9 @@ module.exports = {
           position: "left",
         },
         {
-          to: "cloud",
-          activeBasePath: "cloud",
-          label: "Cloud",
+          to: "device-management",
+          activeBasePath: "device-management",
+          label: "Device Management",
           position: "left",
         },
         {
@@ -68,7 +68,7 @@ module.exports = {
             },
             {
               label: "Over the Air Updates",
-              to: "/cloud/services/ota",
+              to: "/device-management/services/ota",
             },
           ],
         },
