@@ -1,7 +1,7 @@
 ---
 id: arm_adafruit_feather_stm32f405
 title: Adafruit Feather STM32F405 Express
-slug: /hardware/catalog/boards/unverified/arm_adafruit_feather_stm32f405
+slug: /firmware/hardware/catalog/boards/unverified/arm_adafruit_feather_stm32f405
 description: IoT board Adafruit Feather STM32F405 Express, compatible with Golioth at unverified level.
 image: /img/boards/arm/adafruit_feather_stm32f405.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `adafruit_feather_stm32f405` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 128 kB |
 | Flash*         | 1024 kB |

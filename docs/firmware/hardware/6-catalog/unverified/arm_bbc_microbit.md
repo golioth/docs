@@ -1,7 +1,7 @@
 ---
 id: arm_bbc_microbit
 title: BBC Micro:Bit
-slug: /hardware/catalog/boards/unverified/arm_bbc_microbit
+slug: /firmware/hardware/catalog/boards/unverified/arm_bbc_microbit
 description: IoT board BBC Micro:Bit, compatible with Golioth at unverified level.
 image: /img/boards/arm/bbc_microbit.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `bbc_microbit` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 16 kB |
 | Flash*         | N/A |

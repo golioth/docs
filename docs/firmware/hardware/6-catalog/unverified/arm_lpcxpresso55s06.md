@@ -1,7 +1,7 @@
 ---
 id: arm_lpcxpresso55s06
 title: NXP LPCXpresso55S06
-slug: /hardware/catalog/boards/unverified/arm_lpcxpresso55s06
+slug: /firmware/hardware/catalog/boards/unverified/arm_lpcxpresso55s06
 description: IoT board NXP LPCXpresso55S06, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `lpcxpresso55s06` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 96 kB |
 | Flash*         | 256 kB |

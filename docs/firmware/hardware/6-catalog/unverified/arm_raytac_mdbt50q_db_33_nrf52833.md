@@ -1,7 +1,7 @@
 ---
 id: arm_raytac_mdbt50q_db_33_nrf52833
 title: Raytac MDBT50Q-DB-33 nRF52833
-slug: /hardware/catalog/boards/unverified/arm_raytac_mdbt50q_db_33_nrf52833
+slug: /firmware/hardware/catalog/boards/unverified/arm_raytac_mdbt50q_db_33_nrf52833
 description: IoT board Raytac MDBT50Q-DB-33 nRF52833, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `raytac_mdbt50q_db_33_nrf52833` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 128 kB |
 | Flash*         | 512 kB |

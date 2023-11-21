@@ -1,7 +1,7 @@
 ---
 id: arm_decawave_dwm1001_dev
 title: Decawave-DWM1001-DEV
-slug: /hardware/catalog/boards/unverified/arm_decawave_dwm1001_dev
+slug: /firmware/hardware/catalog/boards/unverified/arm_decawave_dwm1001_dev
 description: IoT board Decawave-DWM1001-DEV, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `decawave_dwm1001_dev` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 64 kB |
 | Flash*         | 512 kB |

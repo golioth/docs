@@ -1,7 +1,7 @@
 ---
 id: riscv_it82xx2_evb
 title: ITE IT82XX2 EVB
-slug: /hardware/catalog/boards/unverified/riscv_it82xx2_evb
+slug: /firmware/hardware/catalog/boards/unverified/riscv_it82xx2_evb
 description: IoT board ITE IT82XX2 EVB, compatible with Golioth at unverified level.
 image: /img/boards/riscv/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `it82xx2_evb` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | RISCV |
 | RAM*           | 256 kB |
 | Flash*         | N/A |

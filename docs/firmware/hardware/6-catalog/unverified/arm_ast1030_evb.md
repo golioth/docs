@@ -1,7 +1,7 @@
 ---
 id: arm_ast1030_evb
 title: Aspeed AST1030-EVB
-slug: /hardware/catalog/boards/unverified/arm_ast1030_evb
+slug: /firmware/hardware/catalog/boards/unverified/arm_ast1030_evb
 description: IoT board Aspeed AST1030-EVB, compatible with Golioth at unverified level.
 image: /img/boards/arm/ast1030_evb.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `ast1030_evb` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 768 kB |
 | Flash*         | 1024 kB |

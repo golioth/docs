@@ -1,7 +1,7 @@
 ---
 id: arm_msp_exp432p401r_launchxl
 title: MSP-EXP432P401R-LAUNCHXL
-slug: /hardware/catalog/boards/unverified/arm_msp_exp432p401r_launchxl
+slug: /firmware/hardware/catalog/boards/unverified/arm_msp_exp432p401r_launchxl
 description: IoT board MSP-EXP432P401R-LAUNCHXL, compatible with Golioth at unverified level.
 image: /img/boards/arm/msp_exp432p401r_launchxl.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `msp_exp432p401r_launchxl` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 64 kB |
 | Flash*         | 256 kB |

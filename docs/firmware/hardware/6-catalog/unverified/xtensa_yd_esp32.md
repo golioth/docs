@@ -1,7 +1,7 @@
 ---
 id: xtensa_yd_esp32
 title: YD-ESP32
-slug: /hardware/catalog/boards/unverified/xtensa_yd_esp32
+slug: /firmware/hardware/catalog/boards/unverified/xtensa_yd_esp32
 description: IoT board YD-ESP32, compatible with Golioth at unverified level.
 image: /img/boards/xtensa/yd_esp32.png
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `yd_esp32` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | XTENSA |
 | RAM*           | N/A |
 | Flash*         | N/A |

@@ -1,7 +1,7 @@
 ---
 id: arc_hsdk
 title: HS Development Kit
-slug: /hardware/catalog/boards/unverified/arc_hsdk
+slug: /firmware/hardware/catalog/boards/unverified/arc_hsdk
 description: IoT board HS Development Kit, compatible with Golioth at unverified level.
 image: /img/boards/arc/hsdk.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `hsdk` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARC |
 | RAM*           | N/A |
 | Flash*         | N/A |

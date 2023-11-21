@@ -1,7 +1,7 @@
 ---
 id: xtensa_heltec_wifi_lora32_v2
 title: HELTEC WiFi LoRa 32 (V2) Board
-slug: /hardware/catalog/boards/unverified/xtensa_heltec_wifi_lora32_v2
+slug: /firmware/hardware/catalog/boards/unverified/xtensa_heltec_wifi_lora32_v2
 description: IoT board HELTEC WiFi LoRa 32 (V2) Board, compatible with Golioth at unverified level.
 image: /img/boards/xtensa/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `heltec_wifi_lora32_v2` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | XTENSA |
 | RAM*           | N/A |
 | Flash*         | N/A |

@@ -1,7 +1,7 @@
 ---
 id: arm_nucleo_wb55rg
 title: ST Nucleo WB55RG
-slug: /hardware/catalog/boards/unverified/arm_nucleo_wb55rg
+slug: /firmware/hardware/catalog/boards/unverified/arm_nucleo_wb55rg
 description: IoT board ST Nucleo WB55RG, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `nucleo_wb55rg` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 192 kB |
 | Flash*         | 808 kB |

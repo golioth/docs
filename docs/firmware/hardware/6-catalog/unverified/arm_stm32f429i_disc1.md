@@ -1,7 +1,7 @@
 ---
 id: arm_stm32f429i_disc1
 title: ST STM32F429I Discovery
-slug: /hardware/catalog/boards/unverified/arm_stm32f429i_disc1
+slug: /firmware/hardware/catalog/boards/unverified/arm_stm32f429i_disc1
 description: IoT board ST STM32F429I Discovery, compatible with Golioth at unverified level.
 image: /img/boards/arm/stm32f429i_disc1.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `stm32f429i_disc1` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 192 kB |
 | Flash*         | 2048 kB |

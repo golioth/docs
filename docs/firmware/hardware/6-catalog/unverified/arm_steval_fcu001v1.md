@@ -1,7 +1,7 @@
 ---
 id: arm_steval_fcu001v1
 title: ST STM32 Flight Controller Unit
-slug: /hardware/catalog/boards/unverified/arm_steval_fcu001v1
+slug: /firmware/hardware/catalog/boards/unverified/arm_steval_fcu001v1
 description: IoT board ST STM32 Flight Controller Unit, compatible with Golioth at unverified level.
 image: /img/boards/arm/steval_fcu001v1.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `steval_fcu001v1` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 64 kB |
 | Flash*         | 256 kB |

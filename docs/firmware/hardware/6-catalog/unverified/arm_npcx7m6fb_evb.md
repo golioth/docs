@@ -1,7 +1,7 @@
 ---
 id: arm_npcx7m6fb_evb
 title: Nuvoton NPCX7M6FB EVB
-slug: /hardware/catalog/boards/unverified/arm_npcx7m6fb_evb
+slug: /firmware/hardware/catalog/boards/unverified/arm_npcx7m6fb_evb
 description: IoT board Nuvoton NPCX7M6FB EVB, compatible with Golioth at unverified level.
 image: /img/boards/arm/npcx7m6fb_evb.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `npcx7m6fb_evb` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 64 kB |
 | Flash*         | 192 kB |

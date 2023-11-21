@@ -1,7 +1,7 @@
 ---
 id: overview
 title: ESP32 ESP-IDF Quickstart
-slug: /hardware/esp32/espidf-quickstart
+slug: /firmware/hardware/esp32/espidf-quickstart
 ---
 
 :::caution

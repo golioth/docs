@@ -1,7 +1,7 @@
 ---
 id: arm_nrf51_blenano
 title: BLE Nano
-slug: /hardware/catalog/boards/unverified/arm_nrf51_blenano
+slug: /firmware/hardware/catalog/boards/unverified/arm_nrf51_blenano
 description: IoT board BLE Nano, compatible with Golioth at unverified level.
 image: /img/boards/arm/nrf51_blenano.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `nrf51_blenano` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 16 kB |
 | Flash*         | N/A |

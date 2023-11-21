@@ -1,7 +1,7 @@
 ---
 id: arm_seeeduino_xiao
 title: Seeeduino XIAO
-slug: /hardware/catalog/boards/unverified/arm_seeeduino_xiao
+slug: /firmware/hardware/catalog/boards/unverified/arm_seeeduino_xiao
 description: IoT board Seeeduino XIAO, compatible with Golioth at unverified level.
 image: /img/boards/arm/seeeduino_xiao.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `seeeduino_xiao` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 32 kB |
 | Flash*         | 256 kB |

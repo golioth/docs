@@ -1,7 +1,7 @@
 ---
 id: arm_ubx_bmd330eval_nrf52810
 title: UBX_BMD330EVAL_NRF52810
-slug: /hardware/catalog/boards/unverified/arm_ubx_bmd330eval_nrf52810
+slug: /firmware/hardware/catalog/boards/unverified/arm_ubx_bmd330eval_nrf52810
 description: IoT board UBX_BMD330EVAL_NRF52810, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `ubx_bmd330eval_nrf52810` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 24 kB |
 | Flash*         | 192 kB |

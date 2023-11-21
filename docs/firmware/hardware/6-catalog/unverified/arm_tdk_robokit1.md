@@ -1,7 +1,7 @@
 ---
 id: arm_tdk_robokit1
 title: TDK RoboKit1
-slug: /hardware/catalog/boards/unverified/arm_tdk_robokit1
+slug: /firmware/hardware/catalog/boards/unverified/arm_tdk_robokit1
 description: IoT board TDK RoboKit1, compatible with Golioth at unverified level.
 image: /img/boards/arm/tdk_robokit1.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `tdk_robokit1` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 384 kB |
 | Flash*         | 2048 kB |

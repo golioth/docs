@@ -1,7 +1,7 @@
 ---
 id: xtensa_esp32s2_franzininho
 title: ESP32-S2 Franzininho
-slug: /hardware/catalog/boards/unverified/xtensa_esp32s2_franzininho
+slug: /firmware/hardware/catalog/boards/unverified/xtensa_esp32s2_franzininho
 description: IoT board ESP32-S2 Franzininho, compatible with Golioth at unverified level.
 image: /img/boards/xtensa/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `esp32s2_franzininho` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | XTENSA |
 | RAM*           | N/A |
 | Flash*         | N/A |

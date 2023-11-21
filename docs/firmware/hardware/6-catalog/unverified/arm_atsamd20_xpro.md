@@ -1,7 +1,7 @@
 ---
 id: arm_atsamd20_xpro
 title: SAM D20 Xplained Pro
-slug: /hardware/catalog/boards/unverified/arm_atsamd20_xpro
+slug: /firmware/hardware/catalog/boards/unverified/arm_atsamd20_xpro
 description: IoT board SAM D20 Xplained Pro, compatible with Golioth at unverified level.
 image: /img/boards/arm/atsamd20_xpro.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `atsamd20_xpro` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 32 kB |
 | Flash*         | 256 kB |

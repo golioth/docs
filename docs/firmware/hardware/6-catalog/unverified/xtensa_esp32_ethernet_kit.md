@@ -1,7 +1,7 @@
 ---
 id: xtensa_esp32_ethernet_kit
 title: ESP32 ETHERNET KIT
-slug: /hardware/catalog/boards/unverified/xtensa_esp32_ethernet_kit
+slug: /firmware/hardware/catalog/boards/unverified/xtensa_esp32_ethernet_kit
 description: IoT board ESP32 ETHERNET KIT, compatible with Golioth at unverified level.
 image: /img/boards/xtensa/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `esp32_ethernet_kit` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | XTENSA |
 | RAM*           | N/A |
 | Flash*         | N/A |

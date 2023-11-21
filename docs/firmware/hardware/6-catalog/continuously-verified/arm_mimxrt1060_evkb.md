@@ -1,7 +1,7 @@
 ---
 id: arm_mimxrt1060_evkb
 title: NXP MIMXRT1060-EVKB
-slug: /hardware/catalog/boards/continuously-verified/arm_mimxrt1060_evkb
+slug: /firmware/hardware/catalog/boards/continuously-verified/arm_mimxrt1060_evkb
 description: IoT board NXP MIMXRT1060-EVKB, compatible with Golioth at continuously-verified level.
 image: /img/boards/arm/mimxrt1060_evkb.jpg
 
@@ -14,8 +14,8 @@ image: /img/boards/arm/mimxrt1060_evkb.jpg
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `mimxrt1060_evkb` |
-| Golioth Level  | [Continuously verified](/hardware#continuously-verified-boards) |
-| Golioth Quickstart | [mimxrt1060_evkb quickstart](/hardware/mimxrt1060_evkb/zephyr-quickstart) || Architecture   | ARM |
+| Golioth Level  | [Continuously verified](/firmware/hardware#continuously-verified-boards) |
+| Golioth Quickstart | [mimxrt1060_evkb quickstart](/firmware/hardware/mimxrt1060_evkb/zephyr-quickstart) || Architecture   | ARM |
 | RAM*           | 32768 kB |
 | Flash*         | 8192 kB |
 
@@ -23,7 +23,7 @@ image: /img/boards/arm/mimxrt1060_evkb.jpg
 
 ## Getting started
 
-See our [quickstart guide for NXP MIMXRT1060-EVKB](/hardware/mimxrt1060_evkb/zephyr-quickstart).
+See our [quickstart guide for NXP MIMXRT1060-EVKB](/firmware/hardware/mimxrt1060_evkb/zephyr-quickstart).
 
 
 ## Supported features

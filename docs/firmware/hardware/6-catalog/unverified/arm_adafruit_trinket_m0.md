@@ -1,7 +1,7 @@
 ---
 id: arm_adafruit_trinket_m0
 title: Adafruit Trinket M0
-slug: /hardware/catalog/boards/unverified/arm_adafruit_trinket_m0
+slug: /firmware/hardware/catalog/boards/unverified/arm_adafruit_trinket_m0
 description: IoT board Adafruit Trinket M0, compatible with Golioth at unverified level.
 image: /img/boards/arm/adafruit_trinket_m0.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `adafruit_trinket_m0` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 32 kB |
 | Flash*         | 256 kB |

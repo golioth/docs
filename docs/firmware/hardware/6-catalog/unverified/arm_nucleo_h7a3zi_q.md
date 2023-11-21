@@ -1,7 +1,7 @@
 ---
 id: arm_nucleo_h7a3zi_q
 title: ST Nucleo H7A3ZI-Q
-slug: /hardware/catalog/boards/unverified/arm_nucleo_h7a3zi_q
+slug: /firmware/hardware/catalog/boards/unverified/arm_nucleo_h7a3zi_q
 description: IoT board ST Nucleo H7A3ZI-Q, compatible with Golioth at unverified level.
 image: /img/boards/arm/nucleo_h7a3zi_q.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `nucleo_h7a3zi_q` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 1280 kB |
 | Flash*         | 2048 kB |

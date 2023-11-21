@@ -1,7 +1,7 @@
 ---
 id: arm_nucleo_f411re
 title: ST Nucleo F411RE
-slug: /hardware/catalog/boards/unverified/arm_nucleo_f411re
+slug: /firmware/hardware/catalog/boards/unverified/arm_nucleo_f411re
 description: IoT board ST Nucleo F411RE, compatible with Golioth at unverified level.
 image: /img/boards/arm/nucleo_f411re.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `nucleo_f411re` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 96 kB |
 | Flash*         | 512 kB |

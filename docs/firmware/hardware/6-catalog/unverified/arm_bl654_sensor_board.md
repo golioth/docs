@@ -1,7 +1,7 @@
 ---
 id: arm_bl654_sensor_board
 title: BL654_Sensor_Board
-slug: /hardware/catalog/boards/unverified/arm_bl654_sensor_board
+slug: /firmware/hardware/catalog/boards/unverified/arm_bl654_sensor_board
 description: IoT board BL654_Sensor_Board, compatible with Golioth at unverified level.
 image: /img/boards/arm/bl654_sensor_board.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `bl654_sensor_board` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 256 kB |
 | Flash*         | 1024 kB |

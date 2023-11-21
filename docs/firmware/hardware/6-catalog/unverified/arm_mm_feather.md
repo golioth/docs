@@ -1,7 +1,7 @@
 ---
 id: arm_mm_feather
 title: MM MM-FEATHER
-slug: /hardware/catalog/boards/unverified/arm_mm_feather
+slug: /firmware/hardware/catalog/boards/unverified/arm_mm_feather
 description: IoT board MM MM-FEATHER, compatible with Golioth at unverified level.
 image: /img/boards/arm/mm_feather.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `mm_feather` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 32768 kB |
 | Flash*         | 8192 kB |

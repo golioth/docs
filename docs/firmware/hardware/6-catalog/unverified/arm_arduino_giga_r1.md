@@ -1,7 +1,7 @@
 ---
 id: arm_arduino_giga_r1
 title: arduino_giga_r1
-slug: /hardware/catalog/boards/unverified/arm_arduino_giga_r1
+slug: /firmware/hardware/catalog/boards/unverified/arm_arduino_giga_r1
 description: IoT board arduino_giga_r1, compatible with Golioth at unverified level.
 image: /img/boards/arm/arduino_giga_r1.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `arduino_giga_r1` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | N/A |
 | Flash*         | N/A |

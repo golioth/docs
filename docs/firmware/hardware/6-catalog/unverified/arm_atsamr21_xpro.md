@@ -1,7 +1,7 @@
 ---
 id: arm_atsamr21_xpro
 title: SAM R21 Xplained Pro
-slug: /hardware/catalog/boards/unverified/arm_atsamr21_xpro
+slug: /firmware/hardware/catalog/boards/unverified/arm_atsamr21_xpro
 description: IoT board SAM R21 Xplained Pro, compatible with Golioth at unverified level.
 image: /img/boards/arm/atsamr21_xpro.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `atsamr21_xpro` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 32 kB |
 | Flash*         | 256 kB |

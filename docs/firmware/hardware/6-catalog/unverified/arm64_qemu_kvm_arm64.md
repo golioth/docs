@@ -1,7 +1,7 @@
 ---
 id: arm64_qemu_kvm_arm64
 title: QEMU Virt Emulation for AArch64 KVM
-slug: /hardware/catalog/boards/unverified/arm64_qemu_kvm_arm64
+slug: /firmware/hardware/catalog/boards/unverified/arm64_qemu_kvm_arm64
 description: IoT board QEMU Virt Emulation for AArch64 KVM, compatible with Golioth at unverified level.
 image: /img/boards/arm64/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `qemu_kvm_arm64` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM64 |
 | RAM*           | 128 kB |
 | Flash*         | N/A |

@@ -1,7 +1,7 @@
 ---
 id: arm_gd32f403z_eval
 title: GigaDevice GD32F403Z Evaluation Kit
-slug: /hardware/catalog/boards/unverified/arm_gd32f403z_eval
+slug: /firmware/hardware/catalog/boards/unverified/arm_gd32f403z_eval
 description: IoT board GigaDevice GD32F403Z Evaluation Kit, compatible with Golioth at unverified level.
 image: /img/boards/arm/gd32f403z_eval.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `gd32f403z_eval` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 96 kB |
 | Flash*         | 512 kB |

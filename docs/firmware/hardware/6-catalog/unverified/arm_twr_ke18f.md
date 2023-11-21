@@ -1,7 +1,7 @@
 ---
 id: arm_twr_ke18f
 title: NXP TWR-KE18F
-slug: /hardware/catalog/boards/unverified/arm_twr_ke18f
+slug: /firmware/hardware/catalog/boards/unverified/arm_twr_ke18f
 description: IoT board NXP TWR-KE18F, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `twr_ke18f` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 32 kB |
 | Flash*         | 512 kB |

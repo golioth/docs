@@ -1,7 +1,7 @@
 ---
 id: arm_mimx8mp_phyboard_pollux
 title: PhyBOARD Pollux (i.MX8MP)
-slug: /hardware/catalog/boards/unverified/arm_mimx8mp_phyboard_pollux
+slug: /firmware/hardware/catalog/boards/unverified/arm_mimx8mp_phyboard_pollux
 description: IoT board PhyBOARD Pollux (i.MX8MP), compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `mimx8mp_phyboard_pollux` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 128 kB |
 | Flash*         | 128 kB |

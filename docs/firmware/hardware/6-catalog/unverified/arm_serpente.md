@@ -1,7 +1,7 @@
 ---
 id: arm_serpente
 title: SERPENTE
-slug: /hardware/catalog/boards/unverified/arm_serpente
+slug: /firmware/hardware/catalog/boards/unverified/arm_serpente
 description: IoT board SERPENTE, compatible with Golioth at unverified level.
 image: /img/boards/arm/serpente.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `serpente` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 32 kB |
 | Flash*         | 256 kB |

@@ -1,7 +1,7 @@
 ---
 id: arm64_phycore_am62x_a53
 title: PHYTEC phyCORE-AM62x A53
-slug: /hardware/catalog/boards/unverified/arm64_phycore_am62x_a53
+slug: /firmware/hardware/catalog/boards/unverified/arm64_phycore_am62x_a53
 description: IoT board PHYTEC phyCORE-AM62x A53, compatible with Golioth at unverified level.
 image: /img/boards/arm64/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `phycore_am62x_a53` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM64 |
 | RAM*           | 1024 kB |
 | Flash*         | N/A |

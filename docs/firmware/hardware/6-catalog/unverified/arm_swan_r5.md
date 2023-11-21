@@ -1,7 +1,7 @@
 ---
 id: arm_swan_r5
 title: Blues Wireless Swan
-slug: /hardware/catalog/boards/unverified/arm_swan_r5
+slug: /firmware/hardware/catalog/boards/unverified/arm_swan_r5
 description: IoT board Blues Wireless Swan, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `swan_r5` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 640 kB |
 | Flash*         | 2048 kB |

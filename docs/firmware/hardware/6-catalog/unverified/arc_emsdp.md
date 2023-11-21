@@ -1,7 +1,7 @@
 ---
 id: arc_emsdp
 title: EM Software Development Platform
-slug: /hardware/catalog/boards/unverified/arc_emsdp
+slug: /firmware/hardware/catalog/boards/unverified/arc_emsdp
 description: IoT board EM Software Development Platform, compatible with Golioth at unverified level.
 image: /img/boards/arc/emsdp.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `emsdp` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARC |
 | RAM*           | 128 kB |
 | Flash*         | N/A |

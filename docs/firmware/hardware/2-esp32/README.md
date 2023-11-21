@@ -1,7 +1,7 @@
 ---
 id: overview
 title: ESP32 Overview
-slug: /hardware/esp32
+slug: /firmware/hardware/esp32
 ---
 
 ## What is the ESP32?

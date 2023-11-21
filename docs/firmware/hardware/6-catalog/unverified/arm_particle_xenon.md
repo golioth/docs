@@ -1,7 +1,7 @@
 ---
 id: arm_particle_xenon
 title: particle-xenon
-slug: /hardware/catalog/boards/unverified/arm_particle_xenon
+slug: /firmware/hardware/catalog/boards/unverified/arm_particle_xenon
 description: IoT board particle-xenon, compatible with Golioth at unverified level.
 image: /img/boards/arm/particle_xenon.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `particle_xenon` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 512 kB |
 | Flash*         | 1024 kB |

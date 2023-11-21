@@ -1,7 +1,7 @@
 ---
 id: arm_bl654_usb
 title: BL654_USB
-slug: /hardware/catalog/boards/unverified/arm_bl654_usb
+slug: /firmware/hardware/catalog/boards/unverified/arm_bl654_usb
 description: IoT board BL654_USB, compatible with Golioth at unverified level.
 image: /img/boards/arm/bl654_usb.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `bl654_usb` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | N/A |
 | Flash*         | N/A |

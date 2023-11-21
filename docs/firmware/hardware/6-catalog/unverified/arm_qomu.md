@@ -1,7 +1,7 @@
 ---
 id: arm_qomu
 title: QuickLogic Qomu
-slug: /hardware/catalog/boards/unverified/arm_qomu
+slug: /firmware/hardware/catalog/boards/unverified/arm_qomu
 description: IoT board QuickLogic Qomu, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `qomu` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | N/A |
 | Flash*         | N/A |

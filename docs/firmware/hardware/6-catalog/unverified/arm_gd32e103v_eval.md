@@ -1,7 +1,7 @@
 ---
 id: arm_gd32e103v_eval
 title: GigaDevice GD32E103V Evaluation Kit
-slug: /hardware/catalog/boards/unverified/arm_gd32e103v_eval
+slug: /firmware/hardware/catalog/boards/unverified/arm_gd32e103v_eval
 description: IoT board GigaDevice GD32E103V Evaluation Kit, compatible with Golioth at unverified level.
 image: /img/boards/arm/gd32e103v_eval.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `gd32e103v_eval` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 32 kB |
 | Flash*         | 128 kB |

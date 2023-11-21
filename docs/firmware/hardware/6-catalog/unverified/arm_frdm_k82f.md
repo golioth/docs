@@ -1,7 +1,7 @@
 ---
 id: arm_frdm_k82f
 title: NXP FRDM-K82F
-slug: /hardware/catalog/boards/unverified/arm_frdm_k82f
+slug: /firmware/hardware/catalog/boards/unverified/arm_frdm_k82f
 description: IoT board NXP FRDM-K82F, compatible with Golioth at unverified level.
 image: /img/boards/arm/frdm_k82f.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `frdm_k82f` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 192 kB |
 | Flash*         | 256 kB |

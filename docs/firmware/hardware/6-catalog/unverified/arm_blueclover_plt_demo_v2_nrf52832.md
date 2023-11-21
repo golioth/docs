@@ -1,7 +1,7 @@
 ---
 id: arm_blueclover_plt_demo_v2_nrf52832
 title: Blue Clover PLT Demo Board V2
-slug: /hardware/catalog/boards/unverified/arm_blueclover_plt_demo_v2_nrf52832
+slug: /firmware/hardware/catalog/boards/unverified/arm_blueclover_plt_demo_v2_nrf52832
 description: IoT board Blue Clover PLT Demo Board V2, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `blueclover_plt_demo_v2_nrf52832` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 64 kB |
 | Flash*         | 512 kB |

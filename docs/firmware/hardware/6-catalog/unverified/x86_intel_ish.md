@@ -1,7 +1,7 @@
 ---
 id: x86_intel_ish
 title: intel_ish
-slug: /hardware/catalog/boards/unverified/x86_intel_ish
+slug: /firmware/hardware/catalog/boards/unverified/x86_intel_ish
 description: IoT board intel_ish, compatible with Golioth at unverified level.
 image: /img/boards/x86/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `intel_ish` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | X86 |
 | RAM*           | N/A |
 | Flash*         | N/A |

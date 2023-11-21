@@ -1,7 +1,7 @@
 ---
 id: arm_google_twinkie_v2
 title: Google Twinkie V2
-slug: /hardware/catalog/boards/unverified/arm_google_twinkie_v2
+slug: /firmware/hardware/catalog/boards/unverified/arm_google_twinkie_v2
 description: IoT board Google Twinkie V2, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `google_twinkie_v2` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 144 kB |
 | Flash*         | 512 kB |

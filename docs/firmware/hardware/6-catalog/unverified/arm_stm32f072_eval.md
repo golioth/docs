@@ -1,7 +1,7 @@
 ---
 id: arm_stm32f072_eval
 title: ST STM32F072 Evaluation
-slug: /hardware/catalog/boards/unverified/arm_stm32f072_eval
+slug: /firmware/hardware/catalog/boards/unverified/arm_stm32f072_eval
 description: IoT board ST STM32F072 Evaluation, compatible with Golioth at unverified level.
 image: /img/boards/arm/stm32f072_eval.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `stm32f072_eval` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 16 kB |
 | Flash*         | 128 kB |

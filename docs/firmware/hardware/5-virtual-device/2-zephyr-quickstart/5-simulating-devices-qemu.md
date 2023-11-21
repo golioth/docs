@@ -58,6 +58,6 @@ and run it:
 west build -t run
 ```
 
-This should have the same effect as running on a piece of hardware, as in the [ESP32](/hardware/esp32/zephyr-quickstart) or [nRF91](/hardware/nrf91/zephyr-quickstart) quickstart guides
+This should have the same effect as running on a piece of hardware, as in the [ESP32](/firmware/hardware/esp32/zephyr-quickstart) or [nRF91](/firmware/hardware/nrf91/zephyr-quickstart) quickstart guides
 
 For more on networking, see [the QEMU page on the Zephyr Docs](https://docs.zephyrproject.org/latest/guides/networking/qemu_setup.html)

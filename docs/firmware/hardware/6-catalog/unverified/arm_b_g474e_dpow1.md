@@ -1,7 +1,7 @@
 ---
 id: arm_b_g474e_dpow1
 title: ST B-G474E-DPOW1 Discovery
-slug: /hardware/catalog/boards/unverified/arm_b_g474e_dpow1
+slug: /firmware/hardware/catalog/boards/unverified/arm_b_g474e_dpow1
 description: IoT board ST B-G474E-DPOW1 Discovery, compatible with Golioth at unverified level.
 image: /img/boards/arm/b_g474e_dpow1.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `b_g474e_dpow1` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 128 kB |
 | Flash*         | 512 kB |

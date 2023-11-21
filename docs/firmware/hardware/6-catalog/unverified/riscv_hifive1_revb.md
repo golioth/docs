@@ -1,7 +1,7 @@
 ---
 id: riscv_hifive1_revb
 title: SiFive HiFive1 Rev B
-slug: /hardware/catalog/boards/unverified/riscv_hifive1_revb
+slug: /firmware/hardware/catalog/boards/unverified/riscv_hifive1_revb
 description: IoT board SiFive HiFive1 Rev B, compatible with Golioth at unverified level.
 image: /img/boards/riscv/hifive1_revb.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `hifive1_revb` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | RISCV |
 | RAM*           | 16 kB |
 | Flash*         | N/A |

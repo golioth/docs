@@ -1,7 +1,7 @@
 ---
 id: arm_wio_terminal
 title: Wio Terminal
-slug: /hardware/catalog/boards/unverified/arm_wio_terminal
+slug: /firmware/hardware/catalog/boards/unverified/arm_wio_terminal
 description: IoT board Wio Terminal, compatible with Golioth at unverified level.
 image: /img/boards/arm/wio_terminal.png
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `wio_terminal` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 192 kB |
 | Flash*         | 512 kB |

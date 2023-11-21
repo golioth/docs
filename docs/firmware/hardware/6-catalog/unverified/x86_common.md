@@ -1,7 +1,7 @@
 ---
 id: x86_common
 title: common
-slug: /hardware/catalog/boards/unverified/x86_common
+slug: /firmware/hardware/catalog/boards/unverified/x86_common
 description: IoT board common, compatible with Golioth at unverified level.
 image: /img/boards/x86/null
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `common` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | X86 |
 | RAM*           | N/A |
 | Flash*         | N/A |

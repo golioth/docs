@@ -1,7 +1,7 @@
 ---
 id: arm_frdm_k64f
 title: NXP FRDM-K64F
-slug: /hardware/catalog/boards/unverified/arm_frdm_k64f
+slug: /firmware/hardware/catalog/boards/unverified/arm_frdm_k64f
 description: IoT board NXP FRDM-K64F, compatible with Golioth at unverified level.
 image: /img/boards/arm/frdm_k64f.jpg
 sidebar_class_name: hide-item
@@ -14,7 +14,7 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `frdm_k64f` |
-| Golioth Level  | [Unverified](/hardware#unverified-boards) |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | 256 kB |
 | Flash*         | 1024 kB |
