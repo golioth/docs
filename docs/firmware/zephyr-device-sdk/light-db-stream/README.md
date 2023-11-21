@@ -7,4 +7,4 @@ LightDB Stream is a persistent database service hosted by Golioth. The LightDB S
 
 ![Console](../assets/lightDB-stream-svg-a4.svg)
 
-Checkout the [LightDB Stream](https://docs.golioth.io/device-management/services/lightdb-stream/) guide for a walkthrough of the sample demonstrating the firmware calls used to interact with the Golioth LightDB Stream service.
+Checkout the [LightDB Stream](https://docs.golioth.io/data-management/lightdb-stream/) guide for a walkthrough of the sample demonstrating the firmware calls used to interact with the Golioth LightDB Stream service.

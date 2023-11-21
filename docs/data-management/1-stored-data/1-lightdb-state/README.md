@@ -1,7 +1,7 @@
 ---
 id: overview
-title: LightDB Overview
-slug: /device-management/services/lightdb
+title: LightDB State Overview
+slug: /data-management/stored-data/lightdb-state
 ---
 
 ## What is LightDB?
