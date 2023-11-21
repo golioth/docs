@@ -3,11 +3,11 @@ id: lightdb-stream
 title: LightDB Stream
 ---
 
-[LightDB Stream Device Service](/cloud/services/lightdb-stream) definitions over CoAP.
+[LightDB Stream Device Service](/device-management/services/lightdb-stream) definitions over CoAP.
 
 How to use guides:
 
-- [Sending Data](/cloud/services/lightdb-stream/sending-data)
+- [Sending Data](/device-management/services/lightdb-stream/sending-data)
 
 ### Interface
 

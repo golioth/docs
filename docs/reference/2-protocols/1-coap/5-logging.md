@@ -3,11 +3,11 @@ id: logging
 title: Logging
 ---
 
-[Logging Device Service](/cloud/services/logging) definitions over CoAP.
+[Logging Device Service](/device-management/services/logging) definitions over CoAP.
 
 How to use guides:
 
-- [Sending logs](/cloud/services/logging/sending-logs)
+- [Sending logs](/device-management/services/logging/sending-logs)
 
 ### Interface
 

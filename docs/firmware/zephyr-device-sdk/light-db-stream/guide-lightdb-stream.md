@@ -3,7 +3,7 @@ title: LightDB Stream Request
 sidebar_position: 2
 ---
 
-The LightDB Stream sample contains many of the same elements as the other LightDB samples. The primary difference between LightDB State and LightDB Stream is the persistence of data. LightDB State is useful for applications of state management. With LightDB Stream, timestamped datapoints can be uploaded using the LightDB Stream service to accumulate time-series databases. Check out the [Cloud](/cloud) section of the documentation for information regarding accessing the accumulated data.
+The LightDB Stream sample contains many of the same elements as the other LightDB samples. The primary difference between LightDB State and LightDB Stream is the persistence of data. LightDB State is useful for applications of state management. With LightDB Stream, timestamped datapoints can be uploaded using the LightDB Stream service to accumulate time-series databases. Check out the [Cloud](/device-management) section of the documentation for information regarding accessing the accumulated data.
 
 ## Includes
 
