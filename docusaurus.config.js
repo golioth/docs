@@ -40,6 +40,12 @@ module.exports = {
           position: "left",
         },
         {
+          to: "data-management",
+          activeBasePath: "data-management",
+          label: "Data Management",
+          position: "left",
+        },
+        {
           to: "reference",
           activeBasePath: "reference",
           label: "Reference",
