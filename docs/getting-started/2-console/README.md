@@ -1,7 +1,7 @@
 ---
 id: overview
 title: Golioth Console Overview
-slug: /golioth-console
+slug: /getting-started/golioth-console
 sidebar_position: 1
 ---
 
