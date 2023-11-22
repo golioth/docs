@@ -14,4 +14,7 @@ Once completed, you can to move on to [the Hardware section](/firmware/hardware/
 
 ![Console](./assets/console.png)
 
-If this your first time trying out Golioth we recommend using [the Golioth Console](https://ole.golioth.io/) which is a web-based tool. However, it is possible to accomplish everything in this guide by following [the Command Line Tools section](3-commandline/1-overview.md).
+If this your first time trying out Golioth we recommend using [the Golioth
+Console](https://console.golioth.io/) which is a web-based tool. However, it is
+possible to accomplish everything in this guide by following [the Command Line
+Tools section](/reference/command-line-tools/tutorial).

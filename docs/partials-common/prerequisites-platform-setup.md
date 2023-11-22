@@ -1,6 +1,9 @@
 ### Prerequisites
 
 - `goliothctl` and `west` installed
-- Authenticated with Golioth - see [Authentication](/getting-started/3-commandline/3-authentication.md)
-- Have a project - see [Create a Project](/getting-started/3-commandline/4-create-project.md)
-- Have a provisioned device and credential for it - see [Authorizing Devices](/getting-started/3-commandline/5-manage-devices.md)
+- Authenticated with Golioth - see
+  [Authentication](/reference/command-line-tools/tutorial/authentication)
+- Have a project - see [Create a
+  Project](/reference/command-line-tools/tutorial/create-project)
+- Have a provisioned device and credential for it - see [Authorizing
+  Devices](/reference/command-line-tools/tutorial/manage-devices)

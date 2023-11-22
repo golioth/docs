@@ -6,7 +6,11 @@ title: OS Packages
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-Golioth's command line interface (CLI) tools are available from a variety of package managers. If you OS is not supported by the options below, [binary downloads are available](/getting-started/commandline/installing/binaries) in the next docs page.
+Golioth's command line interface (CLI) tools are available from a variety of
+package managers. If you OS is not supported by the options below, [binary
+downloads are
+available](/reference/command-line-tools/tutorial/installing/binaries) in the
+next docs page.
 
 The available CLIs are:
 
