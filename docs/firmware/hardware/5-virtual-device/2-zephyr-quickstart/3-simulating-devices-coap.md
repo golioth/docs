@@ -6,7 +6,7 @@ title: Simulating devices with coap command line interface
 ## Prerequisites
 
 :::info
-This guide uses `goliothctl` and `coap` which are part of the [Golioth Command Line tools](/commandline) install.
+This guide uses `goliothctl` and `coap` which are part of the [Golioth Command Line tools](/reference/command-line-tools/tutorial) install.
 
 Checkout our reference section for comprehensive information on [the goliothctl tool](/reference/command-line-tools/goliothctl/goliothctl) and [the coap tool](/reference/command-line-tools/coap/coap).
 :::
