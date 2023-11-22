@@ -1,7 +1,7 @@
 ---
 id: overview
-title: Golioth Command Line Tools
-slug: /commandline
+title: CLI Tutorial
+sidebar_position: 3
 ---
 
 :::caution

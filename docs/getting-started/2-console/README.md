@@ -14,4 +14,6 @@ The Golioth Console provides a web-based configuration tool for managing your de
 * Manage Over-the-Air (OTA) updates for firmware and other assets
 * Manage API keys (REST, WebSockets, etc.)
 
-While everything you do in the Console can also be accomplished via [the Golioth Command Line Tools](../commandline), we recommend beginning with the console.
+While everything you do in the Console can also be accomplished via [the Golioth
+Command Line Tools](/reference/command-line-tools/tutorial), we recommend
+beginning with the console.
