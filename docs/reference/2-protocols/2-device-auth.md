@@ -34,7 +34,7 @@ See the getting started guide:
 
 * Golioth Console: [authorize PSK
   devices](/getting-started/console/manage-devices).
-* Command line Tools: [authorize PSK devices](/getting-started/commandline/authorize-devices).
+* Command line Tools: [authorize PSK devices](/reference/command-line-tools/tutorial/authorize-devices).
 
 
 ## Client Certificate Authentication
