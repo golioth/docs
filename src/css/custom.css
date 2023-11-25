@@ -8,7 +8,9 @@
 /* You can override the default Infima variables here. */
 
 :root {
-  --ifm-color-primary: #ff5760;
+  --golioth-color-coral: #ff5760;
+  --golioth-color-cod-gray: #1a1a1a;
+  --ifm-color-primary: var(--golioth-color-coral);
   --ifm-color-primary-dark: #d23c43;
   --ifm-color-primary-darker: #ae262d;
   --ifm-color-primary-darkest: #540c0f;
@@ -137,3 +139,13 @@ html[data-theme="dark"] {
     flex-direction: column;
   }
 }
+
+.alert--golioth {
+      --ifm-alert-background-color: var(--golioth-color-cod-gray);
+      --ifm-alert-background-color-highlight: rgba(250, 56, 62, 0.15);
+      --ifm-alert-foreground-color: var(
+        --ifm-color-danger-contrast-foreground
+      );
+      --ifm-alert-border-color: var(--ifm-color-primary);
+    }
+

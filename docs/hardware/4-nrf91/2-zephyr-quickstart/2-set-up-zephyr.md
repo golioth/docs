@@ -12,6 +12,25 @@ Golioth is implemented on IoT devices using [Device SDKs](/firmware). These are 
 
 The nRF9160 Feather and all Nordic Semiconductor devices utilizing Zephyr require the [nRF Connect SDK (NCS)](https://www.nordicsemi.com/Products/Development-software/nRF-Connect-SDK). Nordic Semiconductor maintains a fork of the Zephyr project that includes some distinct features and IP, including the firmware for the cellular modem on the nRF9160. We will install the nRF Connect SDK in a directory in your home location separate from other Zephyr projects shown for Golioth (in a directory called `golioth-ncs-workspace`).
 
+:::info This is info
+
+info admonition
+
+:::
+
+:::tip This is a tip
+
+tip admonition
+
+:::
+
+:::golioth Details about Golioth Feature
+
+This is a custom admonition that we can use to explain Golioth features a bit
+more deeply.
+
+:::
+
 ### Install West
 
 import SetupWestNRF91 from '/docs/hardware/4-nrf91/2-zephyr-quickstart/\_partials/setup-west-nrf91.md'
