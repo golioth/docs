@@ -8,7 +8,16 @@
 /* You can override the default Infima variables here. */
 
 :root {
-  --ifm-color-primary: #ff5760;
+  --golioth-color-lightning-yellow: #f8b918;
+  --golioth-color-mine-shaft: #232323;
+  --golioth-color-coral: #ff5760;
+  --golioth-color-cod-gray: #1a1a1a;
+  --golioth-color-charcoal: #353535;
+  --golioth-color-concrete: #f2f2f2;
+  --golioth-color-blac: #000000;
+  --golioth-color-white: #ffffff;
+
+  --ifm-color-primary: var(--golioth-color-coral);
   --ifm-color-primary-dark: #d23c43;
   --ifm-color-primary-darker: #ae262d;
   --ifm-color-primary-darkest: #540c0f;
@@ -16,14 +25,14 @@
   --ifm-color-primary-lighter: #ffaeb2;
   --ifm-color-primary-lightest: #ffd1d3;
   --ifm-code-font-size: 95%;
-  --ifm-navbar-background-color: #212529;
-  --ifm-navbar-link-color: #fff;
-  --ifm-menu-color: #fff;
-  --ifm-menu-color-background-active: #2f3031;
-  --ifm-menu-color-background-hover: #2f3031;
-  --ifm-footer-color: #0d0f19;
-  --ifm-footer-title-color: #0d0f19;
-  --ifm-footer-link-color: #0d0f19;
+  --ifm-navbar-background-color: var(--golioth-color-mine-shaft);
+  --ifm-navbar-link-color: var(--golioth-color-white);
+  --ifm-menu-color: var(--golioth-color-white);
+  --ifm-menu-color-background-active: var(--golioth-color-charcoal);
+  --ifm-menu-color-background-hover: var(--golioth-color-charcoal);
+  --ifm-footer-color: var(--golioth-color-cod-gray);
+  --ifm-footer-title-color: var(--golioth-color-cod-gray);
+  --ifm-footer-link-color: var(--golioth-color-cod-gray);
   --ifm-font-family-base: "MaisonNeue";
   --ifm-menu-link-sublist-icon-filter: invert(100%) sepia(94%) saturate(17%)
     hue-rotate(223deg) brightness(104%) contrast(98%);
@@ -35,7 +44,7 @@
 }
 
 .hero {
-  background-color: #0d0f19;
+  background-color: var(--golioth-color-cod-gray);
 }
 
 .heroLogo {
@@ -43,22 +52,22 @@
 }
 
 .footer {
-  background: #1a1a1a;
-  --ifm-footer-color: #fff;
-  --ifm-footer-title-color: #fff;
-  --ifm-footer-link-color: #fff;
+  background: var(--golioth-color-cod-gray);
+  --ifm-footer-color: var(--golioth-color-white);
+  --ifm-footer-title-color: var(--golioth-color-white);
+  --ifm-footer-link-color: var(--golioth-color-white);
   --ifm-footer-link-hover-color: var(--ifm-color-primary);
 }
 
 .footer--dark {
-  --ifm-footer-color: #fff;
-  --ifm-footer-title-color: #fff;
-  --ifm-footer-link-color: #fff;
+  --ifm-footer-color: var(--golioth-color-white);
+  --ifm-footer-title-color: var(--golioth-color-white);
+  --ifm-footer-link-color: var(--golioth-color-white);
 }
 
 .menu {
-  color: #fff;
-  background-color: #242526;
+  color: var(--golioth-color-white);
+  background-color: var(--golioth-color-mine-shaft);
   margin-bottom: 0 !important;
 }
 
@@ -99,17 +108,17 @@ button [class^="lightToggleIcon"]:not(:hover) {
 }
 
 html[data-theme="dark"] {
-  --ifm-color-primary: #ff5760;
+  --ifm-color-primary: var(--golioth-color-coral);
   --ifm-color-primary-dark: #d23c43;
   --ifm-color-primary-darker: #ae262d;
   --ifm-color-primary-darkest: #540c0f;
   --ifm-color-primary-light: #ff858b;
   --ifm-color-primary-lighter: #ffaeb2;
   --ifm-color-primary-lightest: #ffd1d3;
-  --ifm-background-color: #242526;
-  --ifm-footer-color: #0d0f19;
-  --ifm-footer-title-color: #0d0f19;
-  --ifm-footer-link-color: #0d0f19;
+  --ifm-background-color: var(--golioth-color-mine-shaft);
+  --ifm-footer-color: var(--golioth-color-cod-gray);
+  --ifm-footer-title-color: var(--golioth-color-cod-gray);
+  --ifm-footer-link-color: var(--golioth-color-cod-gray);
 }
 
 .image-flex-container {
