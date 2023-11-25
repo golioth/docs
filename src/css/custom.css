@@ -114,3 +114,18 @@ iframe.youtube-embed {
   width: 100%;
   aspect-ratio: 16 / 9;
 }
+
+/* Golioth admonition */
+.alert--golioth {
+  --ifm-alert-background-color: var(--golioth-color-concrete);
+  --ifm-alert-background-color-highlight: var(--golioth-color-white);
+  --ifm-alert-foreground-color:var(--golioth-color-black);
+  --ifm-alert-border-color: var(--golioth-color-coral);
+}
+
+html[data-theme='dark'] .alert--golioth {
+  --ifm-alert-background-color: var(--golioth-color-cod-gray);
+  --ifm-alert-background-color-highlight: var(--golioth-color-charcoal);
+  --ifm-alert-foreground-color: var(--golioth-color-white);
+  --ifm-alert-border-color: var(--golioth-color-coral);
+}
