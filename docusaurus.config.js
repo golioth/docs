@@ -150,6 +150,10 @@ module.exports = {
           routeBasePath: "/",
           sidebarPath: require.resolve("./sidebars.js"),
           // editUrl: 'https://github.com/golioth/golioth/edit/master/docs/',
+          admonitions: {
+            keywords: ['golioth'],
+            extendDefaults: true,
+          },
         },
         gtag: {
           trackingID: "G-C2MSLQD9D7",
