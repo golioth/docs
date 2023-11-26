@@ -14,7 +14,7 @@
   --golioth-color-cod-gray: #1a1a1a;
   --golioth-color-charcoal: #353535;
   --golioth-color-concrete: #f2f2f2;
-  --golioth-color-blac: #000000;
+  --golioth-color-black: #000000;
   --golioth-color-white: #ffffff;
 
   --ifm-color-primary: var(--golioth-color-coral);
@@ -97,10 +97,6 @@ button [class^="lightToggleIcon"]:not(:hover) {
   display: block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
-}
-
-.swagger-ui pre {
-  background-color: unset;
 }
 
 html[data-theme="dark"] {

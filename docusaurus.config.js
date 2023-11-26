@@ -178,8 +178,9 @@ module.exports = {
         // },
         theme: {
           customCss: [
-            require.resolve("./src/css/custom.css"),
             require.resolve("swagger-ui-react/swagger-ui.css"),
+            require.resolve("./src/css/custom.css"),
+            require.resolve("./src/css/custom-swagger-ui.css"),
           ],
         },
       },
