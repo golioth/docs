@@ -1,0 +1,105 @@
+.swagger-ui pre {
+  background-color: unset;
+}
+
+.swagger-ui .info a,
+html[data-theme="dark"] .swagger-ui .info a {
+  color: var(--ifm-color-primary);
+}
+
+html[data-theme="dark"] .swagger-ui .info .title,
+html[data-theme="dark"] .swagger-ui .info .base-url,
+html[data-theme="dark"] .swagger-ui a.nostyle,
+html[data-theme="dark"] .swagger-ui [class^="parameter__"],
+html[data-theme="dark"] .swagger-ui .prop-format,
+html[data-theme="dark"] .swagger-ui table,
+html[data-theme="dark"] .swagger-ui .tab,
+html[data-theme="dark"] .swagger-ui .tab li,
+html[data-theme="dark"] .swagger-ui table thead tr td,
+html[data-theme="dark"] .swagger-ui table thead tr th,
+html[data-theme="dark"] .swagger-ui .response-col_status,
+html[data-theme="dark"] .swagger-ui [class^="responses-"] h4,
+html[data-theme="dark"] .swagger-ui [class^="responses-"] h5,
+html[data-theme="dark"] .swagger-ui .opblock .opblock-section-header h4,
+html[data-theme="dark"] .swagger-ui .opblock .opblock-section-header > label,
+html[data-theme="dark"] .swagger-ui label,
+html[data-theme="dark"] .swagger-ui .scheme-container .schemes > label ,
+html[data-theme="dark"] .swagger-ui .scheme-container .schemes > .schemes-server-container > label,
+html[data-theme="dark"] .swagger-ui section.models h4,
+html[data-theme="dark"] .swagger-ui [class^="model"],
+html[data-theme="dark"] .swagger-ui .model .property.primitive,
+html[data-theme="dark"] .swagger-ui .model-toggle.collapsed,
+html[data-theme="dark"] .swagger-ui .dialog-ux .modal-ux-header h3,
+html[data-theme="dark"] .swagger-ui .dialog-ux .modal-ux-content h4,
+html[data-theme="dark"] .swagger-ui .dialog-ux .modal-ux-content p,
+html[data-theme="dark"] .swagger-ui .errors-wrapper {
+  color: var(--golioth-color-white);
+}
+
+html[data-theme="dark"] .swagger-ui .scheme-container {
+  box-shadow: 0 1px 2px 0 rgba(255, 255, 255, .3);
+}
+
+html[data-theme="dark"] .swagger-ui .opblock-tag,
+html[data-theme="dark"] .swagger-ui section.models.is-open h4 {
+  border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+
+html[data-theme="dark"] .swagger-ui section.models {
+  border: 1px solid rgba(255, 255, 255, .3);
+}
+
+html[data-theme="dark"] .swagger-ui .dialog-ux .modal-ux {
+  background-color: var(--golioth-color-cod-gray);
+}
+
+html[data-theme="dark"] .swagger-ui .btn {
+  color: var(--golioth-color-white);
+}
+
+html[data-theme="dark"] .swagger-ui .parameter__name.required span,
+html[data-theme="dark"] .swagger-ui .parameter__name.required::after,
+html[data-theme="dark"] .swagger-ui .prop-type {
+  color: var(--golioth-color-lightning-yellow);
+}
+
+html[data-theme="dark"] .swagger-ui section.models .model-container {
+  background: rgba(80,227,194,.1);
+  border: 1px solid #50e3c2;
+}
+
+html[data-theme="dark"] .swagger-ui .opblock-tag svg ,
+html[data-theme="dark"] .swagger-ui .opblock .opblock-summary svg,
+html[data-theme="dark"] .swagger-ui section.models h4 svg,
+html[data-theme="dark"] .swagger-ui .model-toggle,
+html[data-theme="dark"] .swagger-ui .model-toggle.collapsed {
+  filter: invert(100%);
+}
+
+/* Don't invert the clipboard icon in dark */
+html[data-theme="dark"] .swagger-ui .opblock .opblock-summary .view-line-link.copy-to-clipboard svg {
+  filter: unset;
+}
+
+html[data-theme="dark"] .swagger-ui .scheme-container,
+html[data-theme="dark"] .swagger-ui .opblock .opblock-section-header {
+  background-color: unset;
+}
+
+html[data-theme="dark"] .swagger-ui input[type],
+html[data-theme="dark"] .swagger-ui textarea .swagger-ui .opblock .opblock-section-header {
+  color: var(--golioth-color-white);
+  background-color: var(--golioth-color-cod-gray);
+}
+
+html[data-theme="dark"] .swagger-ui .opblock-body pre.microlight {
+  background-color: var(--golioth-color-cod-gray) !important;
+}
+
+html[data-theme="dark"] .swagger-ui .loading-container .loading {
+  filter: invert(100%);
+}
+
+html[data-theme="dark"] .swagger-ui .markdown code, .swagger-ui .renderedMarkdown code {
+  color: var(--golioth-color-lightning-yellow);
+}
