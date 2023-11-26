@@ -103,10 +103,6 @@ button [class^="lightToggleIcon"]:not(:hover) {
   background-color: unset;
 }
 
-.swagger-ui code {
-  color: white;
-}
-
 html[data-theme="dark"] {
   --ifm-color-primary: var(--golioth-color-coral);
   --ifm-color-primary-dark: #d23c43;
