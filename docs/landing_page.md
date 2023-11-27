@@ -16,6 +16,8 @@ need from the cloud, from establishing secure connections and providing
 over-the-air updates, to managing data to/from your fleet and connecting that to
 any cloud service you may need.
 
+<iframe class="youtube-embed" src="https://www.youtube.com/embed/CgQg6ifrWfU?si=9MKtgs4jlCvQLWfz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## Get started today
 
 Our [Quickstart Guide](/getting-started/) gets you set up with a Golioth account
