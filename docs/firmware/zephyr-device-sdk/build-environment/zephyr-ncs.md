@@ -21,13 +21,13 @@ separate from other Zephyr projects shown for Golioth (in a directory called
 
 ### Install West
 
-import SetupWestNRF91 from '/docs/firmware/hardware/4-nrf91/2-zephyr-quickstart/\_partials/setup-west-nrf91.md'
+import SetupWestNRF91 from '/docs/partials-common/setup-west-nrf91.md'
 
 <SetupWestNRF91/>
 
 ### Installing the Golioth Zephyr SDK for NCS
 
-import InstallNRFSDK from '/docs/firmware/hardware/4-nrf91/2-zephyr-quickstart/\_partials/install-nrf-connect-sdk.md'
+import InstallNRFSDK from '/docs/partials-common/install-nrf-connect-sdk.md'
 
 <InstallNRFSDK/>
 
@@ -65,7 +65,7 @@ Zephyr uses `nrfjprog` to flash Nordic targets using a hardware programmer like 
 
 Your system is all set up and ready to start building & flashing with Zephyr. Verify by building a minimal sample for the nRF9160 DK:
 
-import BuildFirmwareFor9160 from '/docs/firmware/hardware/4-nrf91/2-zephyr-quickstart/\_partials/build-fw-nrf91.md'
+import BuildFirmwareFor9160 from '/docs/partials-common/build-fw-nrf91.md'
 
 <BuildFirmwareFor9160/>
 
