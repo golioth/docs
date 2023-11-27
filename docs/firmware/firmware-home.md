@@ -1,7 +1,7 @@
 ---
 title: Firmware
 slug: /firmware
-sidebar_position: 1
+sidebar_position: 0
 ---
 
 ## Introduction
