@@ -1,6 +1,6 @@
 ---
-title: Golioth Data Management
-slug: /data-management
+title: Golioth Data Handling
+slug: /data-handling
 sidebar_position: 0
 ---
 

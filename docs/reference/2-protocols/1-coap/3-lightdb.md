@@ -3,11 +3,11 @@ id: lightdb
 title: LightDB
 ---
 
-[LightDB Device Service](/data-management/stored-data/lightdb-state) definitions over CoAP.
+[LightDB Device Service](/data-handling/stored-data/lightdb-state) definitions over CoAP.
 
 How to use guides:
 
-- [Read Write Data](/data-management/stored-data/lightdb-state/read-write-data)
+- [Read Write Data](/data-handling/stored-data/lightdb-state/read-write-data)
 
 ### Interface
 
