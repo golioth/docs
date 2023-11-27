@@ -31,10 +31,10 @@ updated firmware version and report the results to the Golioth Console.
 
 ### 1. Initial build and flash
 
-Navigate to the Golioth module in your zephyr install. If you followed [our
-nRF9160 Zephyr Quickstart](/firmware/hardware/nrf91/zephyr-quickstart) this will be in
-the `golioth-ncs-workspace/module/lib/golioth` directory. Build and flash the
-sample code.
+Navigate to the Golioth module in your zephyr install. If you followed [Golioth
+NCS Build Environment](/firmware/zephyr-device-sdk/build-environment/zephyr-ncs)
+this will be in the `golioth-ncs-workspace/module/lib/golioth` directory. Build
+and flash the sample code.
 
 ```bash
 west build -b nrf9160dk_nrf9160_ns samples/dfu -p
