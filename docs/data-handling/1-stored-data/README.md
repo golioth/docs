@@ -1,7 +1,5 @@
 ---
-id: overview
 title: Data Storage on Golioth
-slug: /data-management/stored-data
 ---
 
 This is page describes two types of device data stored on Golioth:
