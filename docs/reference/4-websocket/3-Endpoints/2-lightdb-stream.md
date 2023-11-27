@@ -3,7 +3,7 @@ id: lightdb-stream
 title: LightDB Stream
 ---
 
-[LightDB Stream Device Service](/data-management/stored-data/lightdb-stream) definitions.
+[LightDB Stream Device Service](/data-handling/stored-data/lightdb-stream) definitions.
 
 Real-time endpoint to listen to a device's data stream as it arrives at the Golioth Cloud.
 

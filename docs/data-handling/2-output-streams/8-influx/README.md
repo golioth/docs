@@ -1,7 +1,5 @@
 ---
-id: overview
 title: InfluxDB Overview
-slug: /data-management/output-streams/influxdb
 ---
 
 [InfluxDB Cloud](https://www.influxdata.com/products/influxdb-cloud/) is a

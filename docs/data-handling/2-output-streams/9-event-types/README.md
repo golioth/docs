@@ -1,7 +1,7 @@
 ---
 id: overview
 title: Event Types Overview
-slug: /data-management/output-streams/event-types
+slug: event-types
 ---
 
 The Golioth platform uses Cloud Events to communicate between services internally. With the Output Stream feature, we are making some of those events available for users to consume for use in their own applications.
