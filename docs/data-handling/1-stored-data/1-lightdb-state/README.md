@@ -1,7 +1,5 @@
 ---
-id: overview
 title: LightDB State Overview
-slug: /data-management/stored-data/lightdb-state
 ---
 
 ## What is LightDB?
