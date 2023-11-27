@@ -1,5 +1,4 @@
 ---
-id: overview
 title: Platform Overview
 slug: /getting-started
 ---
