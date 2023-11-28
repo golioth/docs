@@ -35,7 +35,7 @@ hardware.
 
 | Vendor     | SDK                  | Quickstart | Note |
 | ---------- | -------------------- | ---------- | ---- |
-| Espressif  | [Golioth Firmware SDK](https://github.com/golioth/golioth-firmware-sdk) | [ESP32 ESP-IDF Quickstart](/firmware/hardware/esp32/espidf-quickstart/set-up-espidf) | Use for ESP32 MCUs |
+| Espressif  | [Golioth Firmware SDK](https://github.com/golioth/golioth-firmware-sdk) | [Golioth ESP-IDF Build Environment](/firmware/golioth-firmware-sdk/build-environment/esp-idf) | Use for ESP32 MCUs |
 | Espressif  | [Golioth Zephyr SDK](https://github.com/golioth/golioth-zephyr-sdk)   | [Golioth Zephyr Build Environment](/firmware/zephyr-device-sdk/build-environment/zephyr) | Use for ESP32 MCUs |
 | Infineon   | [Golioth Firmware SDK](https://github.com/golioth/golioth-firmware-sdk) | ModusToolbox&trade; [Readme](https://github.com/golioth/golioth-firmware-sdk/tree/main/examples/modus_toolbox) / [Webinar](https://blog.golioth.io/a-recap-of-how-to-collect-data-from-iot-sensors-using-golioth-and-the-infineon-modustoolbox/) | Use for Infineon MCUs like PSoC6 |
 | Nordic     | [Golioth Zephyr SDK](https://github.com/golioth/golioth-zephyr-sdk)   | [Golioth NCS Build Environment](/firmware/zephyr-device-sdk/build-environment/zephyr-ncs) | Use for Nordic MCUs like nRF9160 and nRF7002 |
