@@ -14,7 +14,10 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 20.9.0
-      - run: npm install && npm run build:dev
+      - name: Build Docusaurus
+        run: npm install && npm run build:dev
+      - name: Add robots.txt for Dev site only
+        run: echo -e ${{ format('User-agent{0} *\\nDisallow{1} /', ':', ':') }} > build/robots.txt
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
