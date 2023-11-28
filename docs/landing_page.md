@@ -72,7 +72,7 @@ us](mailto:hello@golioth.io).
   Here you will find details about rolling out over-the-air (OTA) firmware
   updates, accessing device logs, changing device settings for your fleet, and
   issuing remote procedure calls (RPC).
-- [Data Handling](/data-management) - These are "server side" features of the
+- [Data Handling](/data-handling) - These are "server side" features of the
   Golioth platform that deal with data moving to and from our IoT fleet. Here
   you will find details about accessing stored data from your devices, and
   options for routing that data to other platforms, whether that's your own
