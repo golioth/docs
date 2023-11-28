@@ -16,7 +16,7 @@
           "type": 301
         },
         {
-          "source": "/cloud/tiers",
+          "source": "/cloud/tiers{,/**}",
           "destination": "https://golioth.io/pricing",
           "type": 301
         }
@@ -41,6 +41,11 @@
         {
           "source": "/hardware/:arch/quickstart{,/**}",
           "destination": "/hardware/:arch/zephyr-quickstart",
+          "type": 301
+        },
+        {
+          "source": "/cloud/tiers{,/**}",
+          "destination": "https://golioth.io/pricing",
           "type": 301
         }
       ],
