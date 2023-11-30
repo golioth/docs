@@ -53,9 +53,9 @@ To use this integration, you need to create an SQS Queue and and a user with per
 
 ### Example
 
-As mentioned on the [Output Streams Overview](/data-handling/output-streams), events are sent using the [Cloud Events](https://cloudevents.io) format. For AWS SQS, some metadata of the event are sent together with the message body.
+As mentioned on the [Output Streams Overview](/data-routing/output-streams), events are sent using the [Cloud Events](https://cloudevents.io) format. For AWS SQS, some metadata of the event are sent together with the message body.
 
-Here is an example of an event arriving on SQS. The payload is going to be inside of a `data` attribute (see event payloads on [Output Streams Event Types](/data-handling/output-streams/event-types/events)). The other attributes are metadata related to Cloud Events.
+Here is an example of an event arriving on SQS. The payload is going to be inside of a `data` attribute (see event payloads on [Output Streams Event Types](/data-routing/output-streams/event-types/events)). The other attributes are metadata related to Cloud Events.
 
 ```json
 {
