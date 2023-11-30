@@ -40,9 +40,9 @@ module.exports = {
           position: "left",
         },
         {
-          to: "data-handling",
-          activeBasePath: "data-handling",
-          label: "Data Handling",
+          to: "data-routing",
+          activeBasePath: "data-routing",
+          label: "Data Routing",
           position: "left",
         },
         {

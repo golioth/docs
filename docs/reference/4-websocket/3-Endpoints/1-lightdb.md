@@ -3,7 +3,7 @@ id: lightdb
 title: LightDB
 ---
 
-[LightDB Device Service](/data-handling/stored-data/lightdb-state) definitions.
+[LightDB Device Service](/data-routing/stored-data/lightdb-state) definitions.
 
 Real-time endpoint to listen to any changes in a device state path.
 

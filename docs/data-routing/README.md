@@ -1,6 +1,6 @@
 ---
-title: Golioth Data Handling
-slug: /data-handling
+title: Golioth Data Routing
+slug: /data-routing
 sidebar_position: 0
 ---
 
