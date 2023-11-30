@@ -15,7 +15,7 @@ image: /img/boards/xtensa/esp32.jpg
 | -------------  | -------------------- |
 | Board ID       | `esp32` |
 | Golioth Level  | [Continuously verified](/firmware/hardware#continuously-verified-boards) |
-| Golioth Quickstart | [Golioth Zephyr Build Environment](/firmware/zephyr-device-sdk/build-environment/zephyr) || Architecture   | XTENSA |
+| Golioth Quickstart | [Golioth Zephyr Build Environment](/getting-started/device-examples/compile-example-code/zephyr) || Architecture   | XTENSA |
 | RAM*           | N/A |
 | Flash*         | N/A |
 
@@ -23,7 +23,7 @@ image: /img/boards/xtensa/esp32.jpg
 
 ## Getting started
 
-See our [Golioth Zephyr Build Environment](/firmware/zephyr-device-sdk/build-environment/zephyr) guide.
+See our [Golioth Zephyr Build Environment](/getting-started/device-examples/compile-example-code/zephyr) guide.
 
 
 ## Supported features
