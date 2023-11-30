@@ -57,14 +57,6 @@ html[data-theme="dark"] {
   src: url("/fonts/AkkuratLLWeb-Regular.woff2");
 }
 
-.hero {
-  background-color: var(--golioth-color-cod-gray);
-}
-
-.heroLogo {
-  width: 300px;
-}
-
 .footer {
   background: var(--golioth-color-cod-gray);
   --ifm-footer-color: var(--golioth-color-white);
@@ -100,10 +92,6 @@ html[data-theme="dark"] {
 .button.button--secondary.button--outline:not(.button--active):not(:hover),
 button [class^="lightToggleIcon"]:not(:hover) {
   color: white;
-}
-
-.hero--primary {
-  --ifm-hero-text-color: white;
 }
 
 pre code {
