@@ -205,7 +205,7 @@ This will set the `$ZEPHYR_BASE` environment variable, as well as make sure
 :::note
 The exact paths may not match up with what is shown here. Look at [Set
 up Zephyr (on
-ESP32)](https://docs.golioth.io/hardware/esp32/quickstart/set-up-zephyr) page
+ESP32)](/getting-started/device-examples/compile-example-code/zephyr) page
 for more information about setting up the toolchain. environment variables.
 :::
 

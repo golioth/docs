@@ -15,7 +15,7 @@ image: /img/boards/arm/mimxrt1060_evkb.jpg
 | -------------  | -------------------- |
 | Board ID       | `mimxrt1060_evkb` |
 | Golioth Level  | [Continuously verified](/firmware/hardware#continuously-verified-boards) |
-| Golioth Quickstart | [Golioth Zephyr Build Environment](/firmware/zephyr-device-sdk/build-environment/zephyr) || Architecture   | ARM |
+| Golioth Quickstart | [Golioth Zephyr Build Environment](/getting-started/device-examples/compile-example-code/zephyr) || Architecture   | ARM |
 | RAM*           | 32768 kB |
 | Flash*         | 8192 kB |
 
@@ -23,7 +23,7 @@ image: /img/boards/arm/mimxrt1060_evkb.jpg
 
 ## Getting started
 
-See our [Golioth Zephyr Build Environment](/firmware/zephyr-device-sdk/build-environment/zephyr) guide.
+See our [Golioth Zephyr Build Environment](/getting-started/device-examples/compile-example-code/zephyr) guide.
 
 
 ## Supported features
