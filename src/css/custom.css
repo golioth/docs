@@ -38,6 +38,20 @@
     hue-rotate(223deg) brightness(104%) contrast(98%);
 }
 
+html[data-theme="dark"] {
+  --ifm-color-primary: var(--golioth-color-coral);
+  --ifm-color-primary-dark: #d23c43;
+  --ifm-color-primary-darker: #ae262d;
+  --ifm-color-primary-darkest: #540c0f;
+  --ifm-color-primary-light: #ff858b;
+  --ifm-color-primary-lighter: #ffaeb2;
+  --ifm-color-primary-lightest: #ffd1d3;
+  --ifm-background-color: var(--golioth-color-mine-shaft);
+  --ifm-footer-color: var(--golioth-color-cod-gray);
+  --ifm-footer-title-color: var(--golioth-color-cod-gray);
+  --ifm-footer-link-color: var(--golioth-color-cod-gray);
+}
+
 @font-face {
   font-family: "Akkurat";
   src: url("/fonts/AkkuratLLWeb-Regular.woff2");
@@ -101,20 +115,6 @@ pre code {
   display: block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
-}
-
-html[data-theme="dark"] {
-  --ifm-color-primary: var(--golioth-color-coral);
-  --ifm-color-primary-dark: #d23c43;
-  --ifm-color-primary-darker: #ae262d;
-  --ifm-color-primary-darkest: #540c0f;
-  --ifm-color-primary-light: #ff858b;
-  --ifm-color-primary-lighter: #ffaeb2;
-  --ifm-color-primary-lightest: #ffd1d3;
-  --ifm-background-color: var(--golioth-color-mine-shaft);
-  --ifm-footer-color: var(--golioth-color-cod-gray);
-  --ifm-footer-title-color: var(--golioth-color-cod-gray);
-  --ifm-footer-link-color: var(--golioth-color-cod-gray);
 }
 
 .image-flex-container {
