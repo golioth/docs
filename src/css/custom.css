@@ -78,15 +78,9 @@ html[data-theme="dark"] {
 }
 
 .navbar {
+  border-color: var(--ifm-color-primary);
   border-style: solid;
-  border-image: linear-gradient(
-      to right,
-      var(--ifm-color-primary) 0%,
-      var(--ifm-color-primary) 100%
-    )
-    1;
   border-width: 0px 0px 2px 0px;
-  border-image-width: 2;
 }
 
 .button.button--secondary.button--outline:not(.button--active):not(:hover),
