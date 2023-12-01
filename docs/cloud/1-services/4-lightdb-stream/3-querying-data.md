@@ -70,11 +70,11 @@ Let's define our first query to get just the raw data on the last 8h and where t
     { "path": "time" },
     { "path": "deviceId" },
     { "path": "env" },
-    { "path": "env.temperature", "alias" : "temperature" }
+    { "path": "env.temperature", "alias" : "temperature" },
     { "path": "env.type", "alias" : "sensorType" }
   ],
   "filters": [
-    { "path": "env", "op" : "<>", "value" : null },
+    { "path": "env", "op" : "<>", "value" : null }
   ]
 }
 ```
@@ -133,7 +133,7 @@ As you can see, we can query more specific fields on a given path like on `env.t
 {
   "fields" : [
     { "path": "time" },
-    { "path": "env.type", "alias" : "sensorType" }
+    { "path": "env.type", "alias" : "sensorType" },
     { "path": "env.temperature", "alias" : "temperature", "agg" : "avg", "type": "float" }
   ],
   "timeBucket": "15m",
@@ -173,7 +173,7 @@ Maybe now we just want to calculate the average daily temperature from `inside` 
   "filters": [
     { "op" : "and", "filters" : [
       { "path": "env", "op" : "<>", "value" : null },
-      { "path": "env.type", "op" : "=", "value" : "inside" },
+      { "path": "env.type", "op" : "=", "value" : "inside" }
     ]}
   ]
 }
