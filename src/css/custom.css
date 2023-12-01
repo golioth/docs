@@ -25,11 +25,7 @@
   --ifm-color-primary-lighter: #ffaeb2;
   --ifm-color-primary-lightest: #ffd1d3;
   --ifm-code-font-size: 95%;
-  --ifm-navbar-background-color: var(--golioth-color-mine-shaft);
-  --ifm-navbar-link-color: var(--golioth-color-white);
-  --ifm-menu-color: var(--golioth-color-white);
-  --ifm-menu-color-background-active: var(--golioth-color-charcoal);
-  --ifm-menu-color-background-hover: var(--golioth-color-charcoal);
+  --ifm-menu-color: var(--ifm-font-color-base);
   --ifm-footer-color: var(--golioth-color-cod-gray);
   --ifm-footer-title-color: var(--golioth-color-cod-gray);
   --ifm-footer-link-color: var(--golioth-color-cod-gray);
@@ -71,21 +67,10 @@ html[data-theme="dark"] {
   --ifm-footer-link-color: var(--golioth-color-white);
 }
 
-.menu {
-  color: var(--golioth-color-white);
-  background-color: var(--golioth-color-mine-shaft);
-  margin-bottom: 0 !important;
-}
-
 .navbar {
   border-color: var(--ifm-color-primary);
   border-style: solid;
   border-width: 0px 0px 2px 0px;
-}
-
-.button.button--secondary.button--outline:not(.button--active):not(:hover),
-button [class^="lightToggleIcon"]:not(:hover) {
-  color: white;
 }
 
 pre code {
