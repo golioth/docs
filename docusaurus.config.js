@@ -172,10 +172,8 @@ module.exports = {
           trackingID: "G-C2MSLQD9D7",
           anonymizeIP: true,
         },
-        // blog: {
-        //   showReadingTime: true,
-        //   //editUrl: 'https://github.com/golioth/golioth/edit/master/docs/blog/',
-        // },
+        blog: false,
+        pages: false,
         theme: {
           customCss: [
             require.resolve("swagger-ui-react/swagger-ui.css"),
