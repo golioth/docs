@@ -9,7 +9,7 @@ import TabItem from '@theme/TabItem';
 ## Zephyr Setup Overview
 
 [Zephyr RTOS](https://docs.zephyrproject.org/) supports a vast number of
-microcontrollers from a many different vendors. There's a very good chance your
+microcontrollers from many different vendors. There's a very good chance your
 preferred chip will work with Zephyr using Golioth as a module.
 
 We will install the Zephyr tree in a directory in your home location
