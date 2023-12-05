@@ -19,6 +19,16 @@
           "source": "/cloud/tiers{,/**}",
           "destination": "https://golioth.io/pricing",
           "type": 301
+        },
+        {
+          "source": "/hardware/catalog/search{,/**}",
+          "destination": "/firmware/hardware/catalog/search",
+          "type": 301
+        },
+        {
+          "source": "/hardware/catalog/:board*",
+          "destination": "/firmware/hardware/catalog/:board",
+          "type": 301
         }
       ],
       "rewrites": [
