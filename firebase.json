@@ -14,6 +14,16 @@
           "source": "/hardware/:arch/quickstart{,/**}",
           "destination": "/hardware/:arch/zephyr-quickstart",
           "type": 301
+        },
+        {
+          "source": "/hardware/catalog/search{,/**}",
+          "destination": "/firmware/hardware/catalog/search",
+          "type": 301
+        },
+        {
+          "source": "/hardware/catalog/:board*",
+          "destination": "/firmware/hardware/catalog/:board",
+          "type": 301
         }
       ],
       "rewrites": [
