@@ -48,31 +48,48 @@ def check_missing():
     print("Total missing:", total)
 
 def match_url(in_url, source_url):
-    in_t = in_url.split('/')
-    source_t = source_url.split('/')
-
-    if len(source_t) > len(in_t) + 1 and source_t[-1].endswith != '*':
-        return None
-
     wildcards = dict()
 
+    in_t = in_url.split('/')
+
+    if source_url.endswith("{,/**}"):
+        wildcards["closehash"] = True
+        source_url = source_url.rstrip("{,/**}")
+        if in_t[-1] == "":
+            # Remove the trailing empty string which indicates a slash
+            # This makes it easier to match since we know we have the wildcard
+            in_t.pop()
+
+    source_t = source_url.split('/')
+
     for i, t in enumerate(in_t):
-        if source_t[i].startswith(":"):
+        if i >= len(source_t):
+            return None
+
+        elif source_t[i].startswith(":"):
             if source_t[i].endswith("*"):
                 wildcards[source_t[i][:-1]] = '/'.join(in_t[i:])
                 return wildcards
             else:
                 wildcards[source_t[i]] = t
-        elif source_t[i] == "{,/**}":
-            if t == '':
-                wildcards["closehash"] = True
-                return wildcards
-            else:
-                return None
         elif source_t[i] != t:
             return None
 
-    return wildcards
+    if len(source_t) == len(in_t):
+        return wildcards
+    else:
+        return None
+
+def check_link_trailing_slash(link, url_list):
+    """
+    Check link with and without a trailing slash, returning true if it is found
+    in the url_list
+    """
+    if link in url_list:
+        return True
+
+    link += "/"
+    return link in url_list
 
 def process_redirect(wildcards, dest_url):
     dest_t = dest_url.split('/')
@@ -87,9 +104,10 @@ def process_redirect(wildcards, dest_url):
         elif t == "":
             if i == 0:
                 #Empty member for leading slash
+                #This is expected; the first join op will generate leading slash
                 continue
             elif i == len(dest_t) - 1 and "closehash" in wildcards:
-                return out_url
+                return out_url + "/"
             else:
                 return None
         else:
@@ -119,7 +137,7 @@ def test_redirect_rules(redirect='../../firebase.json', orig_sitemap=main_urls,
                 if newlink == None:
                     continue
 
-                if newlink in dev_sitemap:
+                if check_link_trailing_slash(newlink, dev_sitemap):
                     if print_redirects == True:
                         print("Redirect:", t, "->", newlink)
                     break
