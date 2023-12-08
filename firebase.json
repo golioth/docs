@@ -69,6 +69,41 @@
           "source": "/cloud/services/lightdb-stream{,/**}",
           "destination": "/data-routing/application-services/lightdb-stream/",
           "type": 301
+        },
+        {
+          "source": "/cloud/services/logging/:logs*",
+          "destination": "/device-management/logging/:logs",
+          "type": 301
+        },
+        {
+          "source": "/cloud/services/logging{,/**}",
+          "destination": "/device-management/logging",
+          "type": 301
+        },
+        {
+          "source": "/cloud/services/ota/:ota*",
+          "destination": "/device-management/ota/:ota",
+          "type": 301
+        },
+        {
+          "source": "/cloud/services/ota{,/**}",
+          "destination": "/device-management/ota",
+          "type": 301
+        },
+        {
+          "source": "/cloud/services/settings/:sets*",
+          "destination": "/device-management/settings/:sets",
+          "type": 301
+        },
+        {
+          "source": "/cloud/services/settings{,/**}",
+          "destination": "/device-management/settings",
+          "type": 301
+        },
+        {
+          "source": "/cloud{,/**}",
+          "destination": "/data-routing",
+          "type": 301
         }
       ],
       "rewrites": [
