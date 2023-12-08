@@ -24,6 +24,11 @@
           "source": "/hardware/catalog/:board*",
           "destination": "/firmware/hardware/catalog/:board",
           "type": 301
+        },
+        {
+          "source": "/hardware{,/**}",
+          "destination": "/firmware/hardware",
+          "type": 301
         }
       ],
       "rewrites": [
