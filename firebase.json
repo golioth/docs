@@ -34,6 +34,16 @@
           "source": "/hardware{,/**}",
           "destination": "/firmware/hardware",
           "type": 301
+        },
+        {
+          "source": "/cloud/output-streams/:streams*",
+          "destination": "/data-routing/output-streams/:streams",
+          "type": 301
+        },
+        {
+          "source": "/cloud/output-streams{,/**}",
+          "destination": "/data-routing/output-streams/",
+          "type": 301
         }
       ],
       "rewrites": [
