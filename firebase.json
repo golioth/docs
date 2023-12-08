@@ -31,6 +31,26 @@
           "type": 301
         },
         {
+          "source": "/hardware/esp32/espidf-quickstart/:espidf*",
+          "destination": "/getting-started/device-examples/compile-example-code/esp-idf/:espidf",
+          "type": 301
+        },
+        {
+          "source": "/hardware/esp32/espidf-quickstart{,/**}",
+          "destination": "/getting-started/device-examples/compile-example-code/esp-idf/",
+          "type": 301
+        },
+        {
+          "source": "/hardware/esp32/zephyr-quickstart{,/**}",
+          "destination": "/getting-started/device-examples/compile-example-code/zephyr",
+          "type": 301
+        },
+        {
+          "source": "/hardware/esp32{,/**}",
+          "destination": "/getting-started/device-examples/compile-example-code/",
+          "type": 301
+        },
+        {
           "source": "/hardware{,/**}",
           "destination": "/firmware/hardware",
           "type": 301
