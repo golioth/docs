@@ -39,6 +39,31 @@
           "source": "/cloud/output-streams{,/**}",
           "destination": "/data-routing/output-streams/",
           "type": 301
+        },
+        {
+          "source": "/cloud/services{,/**}",
+          "destination": "/data-routing/application-services/",
+          "type": 301
+        },
+        {
+          "source": "/cloud/services/lightdb/:state*",
+          "destination": "/data-routing/application-services/lightdb-state/:state",
+          "type": 301
+        },
+        {
+          "source": "/services/lightdb{,/**}",
+          "destination": "/data-routing/application-services/lightdb-state/",
+          "type": 301
+        },
+        {
+          "source": "/cloud/services/lightdb-stream/:stream*",
+          "destination": "/data-routing/application-services/lightdb-stream/:stream",
+          "type": 301
+        },
+        {
+          "source": "/cloud/services/lightdb-stream{,/**}",
+          "destination": "/data-routing/application-services/lightdb-stream/",
+          "type": 301
         }
       ],
       "rewrites": [
