@@ -54,17 +54,27 @@ def match_url(in_url, source_url):
 
     if source_url.endswith("{,/**}"):
         wildcards["closehash"] = True
-        source_url = source_url.rstrip("{,/**}")
-        if in_t[-1] == "":
-            # Remove the trailing empty string which indicates a slash
-            # This makes it easier to match since we know we have the wildcard
-            in_t.pop()
 
-    source_t = source_url.split('/')
+        # Workaround for splitting by forward slash
+        temp_url = source_url.replace("{,/**}", "{****}")
+        source_t = temp_url.split('/')
+        source_t[-1] = source_t[-1].replace("{****}",  "{,/**}")
+
+    else:
+        source_t = source_url.split('/')
 
     for i, t in enumerate(in_t):
         if i >= len(source_t):
             return None
+
+        elif source_t[i].endswith("{,/**}"):
+            leading_t = source_t[i].split("{,/**}")[0]
+
+            if t.startswith(leading_t):
+                wildcards["closehash"] = t.lstrip(leading_t)
+                return wildcards
+            else:
+                return None
 
         elif source_t[i].startswith(":"):
             if source_t[i].endswith("*"):
@@ -72,6 +82,7 @@ def match_url(in_url, source_url):
                 return wildcards
             else:
                 wildcards[source_t[i]] = t
+
         elif source_t[i] != t:
             return None
 
@@ -107,7 +118,7 @@ def process_redirect(wildcards, dest_url):
                 #This is expected; the first join op will generate leading slash
                 continue
             elif i == len(dest_t) - 1 and "closehash" in wildcards:
-                return out_url + "/"
+                return '/'.join([out_url.rstrip('/'), wildcards["closehash"]])
             else:
                 return None
         else:
@@ -123,6 +134,9 @@ def test_redirect_rules(redirect='../../firebase.json', orig_sitemap=main_urls,
     total = 0
 
     for t in orig_sitemap:
+        debug = False
+        if t.endswith("set-up-espidf"):
+            debug = False
         newlink = None
         if t in dev_sitemap:
             if (print_existing):
@@ -130,10 +144,14 @@ def test_redirect_rules(redirect='../../firebase.json', orig_sitemap=main_urls,
         else:
             for r in ruleset:
                 wild = match_url(t, r['source'])
+                if debug == True:
+                    print(wild)
                 if wild == None:
                     continue
 
                 newlink = process_redirect(wild, r['destination'])
+                if debug == True:
+                    print(newlink)
                 if newlink == None:
                     continue
 

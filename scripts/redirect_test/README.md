@@ -32,11 +32,6 @@ what is supported, and how fully it is supported:
 * Slash wildcard: `{,/**}`
     * Firebase will match with or without a closing slash **and everything in
       the path afterwards**
-    * **This script does not copy the full path.** It behaves differently
-      because we generally don't want to redirect all pages in all
-      subdirectories to a single destination. Instead, the script will match
-      with or without a trailing slash, leaving the subpages as unmatched so we
-      realize we need more redirects to catch those page moves.
 
 ## Usage
 
