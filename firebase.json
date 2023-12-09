@@ -126,6 +126,16 @@
           "type": 301
         },
         {
+          "source": "/getting-started/commandline/:cli*",
+          "destination": "/reference/command-line-tools/tutorial/:cli",
+          "type": 301
+        },
+        {
+          "source": "/commandline{,/**}",
+          "destination": "/reference/command-line-tools/tutorial/",
+          "type": 301
+        },
+        {
           "source": "/blog{,/**}",
           "destination": "https://blog.golioth.io/",
           "type": 301
