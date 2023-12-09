@@ -119,6 +119,11 @@
           "source": "/cloud{,/**}",
           "destination": "/data-routing",
           "type": 301
+        },
+        {
+          "source": "/blog{,/**}",
+          "destination": "https://blog.golioth.io/",
+          "type": 301
         }
       ],
       "rewrites": [
