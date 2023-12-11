@@ -30,8 +30,6 @@
   --ifm-footer-title-color: var(--golioth-color-cod-gray);
   --ifm-footer-link-color: var(--golioth-color-cod-gray);
   --ifm-font-family-base: "Akkurat";
-  --ifm-menu-link-sublist-icon-filter: invert(100%) sepia(94%) saturate(17%)
-    hue-rotate(223deg) brightness(104%) contrast(98%);
 }
 
 html[data-theme="dark"] {
@@ -46,6 +44,8 @@ html[data-theme="dark"] {
   --ifm-footer-color: var(--golioth-color-cod-gray);
   --ifm-footer-title-color: var(--golioth-color-cod-gray);
   --ifm-footer-link-color: var(--golioth-color-cod-gray);
+  --ifm-menu-link-sublist-icon-filter: invert(100%) sepia(94%) saturate(17%)
+    hue-rotate(223deg) brightness(104%) contrast(98%);
 }
 
 @font-face {
