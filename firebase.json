@@ -136,6 +136,21 @@
           "type": 301
         },
         {
+          "source": "/golioth-console{,/**}",
+          "destination": "/getting-started/golioth-console",
+          "type": 301
+        },
+        {
+          "source": "/getting-started/console/authorize-devices{,/**}",
+          "destination": "/getting-started/console/manage-devices",
+          "type": 301
+        },
+        {
+          "source": "https://docs.golioth.io/getting-started/console/choose-device{,/**}",
+          "destination": "/#using-golioth-with-your-iot-hardware",
+          "type": 301
+        },
+        {
           "source": "/blog{,/**}",
           "destination": "https://blog.golioth.io/",
           "type": 301
