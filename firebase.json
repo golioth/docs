@@ -154,6 +154,11 @@
           "source": "/blog{,/**}",
           "destination": "https://blog.golioth.io/",
           "type": 301
+        },
+        {
+          "source": "/old_index{,/**}",
+          "destination": "/",
+          "type": 301
         }
       ],
       "rewrites": [
