@@ -89,10 +89,6 @@ module.exports = {
               label: "API Docs",
               to: "/reference/rest-api/overview",
             },
-            /*{
-              label: 'Zephyr SDK',
-              to: 'docs/advanced/running-locally',
-            },*/
             {
               label: "goliothctl",
               to: "/reference/command-line-tools/goliothctl/goliothctl/",
@@ -103,26 +99,13 @@ module.exports = {
             },
           ],
         },
-        /*{
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-          ],
-        },*/
         {
           title: "More",
           items: [
+            {
+              label: "Ask a Question: Golioth Forum",
+              href: "https://forum.golioth.io",
+            },
             {
               label: "GitHub",
               href: "https://github.com/golioth",
