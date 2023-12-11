@@ -146,6 +146,36 @@
           "type": 301
         },
         {
+          "source": "/concepts/device-sdks{,/**}",
+          "destination": "/firmware",
+          "type": 301
+        },
+        {
+          "source": "/concepts/cli{,/**}",
+          "destination": "/reference/command-line-tools/tutorial/",
+          "type": 301
+        },
+        {
+          "source": "/concepts/lightdb{,/**}",
+          "destination": "/data-routing/application-services/",
+          "type": 301
+        },
+        {
+          "source": "/concepts{,/**}",
+          "destination": "/",
+          "type": 301
+        },
+        {
+          "source": "/partials-common/unused/install-device-toolchain{,/**}",
+          "destination": "/",
+          "type": 301
+        },
+        {
+          "source": "/concepts/console{,/**}",
+          "destination": "/getting-started/device-examples/compile-example-code/",
+          "type": 301
+        },
+        {
           "source": "/blog{,/**}",
           "destination": "https://blog.golioth.io/",
           "type": 301
