@@ -18,11 +18,11 @@
     "build-device-catalog": "./scripts/get_zephyr_boards.sh && node ./scripts/device-catalog/index.js"
   },
   "dependencies": {
-    "@docusaurus/core": "^3.0.0",
-    "@docusaurus/mdx-loader": "^3.0.0",
-    "@docusaurus/plugin-ideal-image": "^3.0.0",
-    "@docusaurus/preset-classic": "^3.0.0",
-    "@docusaurus/theme-live-codeblock": "^3.0.0",
+    "@docusaurus/core": "^3.0.1",
+    "@docusaurus/mdx-loader": "^3.0.1",
+    "@docusaurus/plugin-ideal-image": "^3.0.1",
+    "@docusaurus/preset-classic": "^3.0.1",
+    "@docusaurus/theme-live-codeblock": "^3.0.1",
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
     "@fortawesome/free-solid-svg-icons": "^6.4.2",
     "@fortawesome/react-fontawesome": "^0.2.0",
@@ -32,12 +32,12 @@
     "clsx": "^2.0.0",
     "docusaurus2-dotenv": "^1.4.0",
     "env-cmd": "^10.1.0",
+    "formdata-node": "^6.0.3",
     "posthog-docusaurus": "^2.0.0",
     "protobufjs": "^7.2.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "swagger-ui-react": "^5.9.1",
-    "formdata-node": "^6.0.3",
     "yaml": "^2.3.4"
   },
   "browserslist": {
