@@ -17,7 +17,7 @@ values={[
 ```
 sudo apt update
 sudo apt-get install git wget flex bison gperf python3 python3-venv \
-  python3-pip python3-setuptools cmake ninja-build ccache libffi-dev 
+  python3-pip python3-setuptools cmake ninja-build ccache libffi-dev \
   libssl-dev dfu-util libusb-1.0-0
 ```
 
@@ -26,10 +26,8 @@ sudo apt-get install git wget flex bison gperf python3 python3-venv \
 ```console
 mkdir -p ~/esp
 cd ~/esp
-git clone --recursive https://github.com/espressif/esp-idf.git
+git clone --recursive https://github.com/espressif/esp-idf.git -b v5.1.1
 cd esp-idf
-git checkout v4.4.1
-git submodule update --init --recursive
 ./install.sh all
 ```
 
@@ -51,10 +49,8 @@ sudo easy_install pip
 ```console
 mkdir -p ~/esp
 cd ~/esp
-git clone --recursive https://github.com/espressif/esp-idf.git
+git clone --recursive https://github.com/espressif/esp-idf.git -b v5.1.1
 cd esp-idf
-git checkout v4.4.1
-git submodule update --init --recursive
 ./install.sh all
 ```
 
