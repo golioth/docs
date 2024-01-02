@@ -17,7 +17,7 @@ updates the "iteration" endpoint every 10 seconds; what is shown is the most
 recent value of that counter. The example app also sets the "my_string" and
 "my_data" endpoints once at run time.
 
-```code
+```c
 golioth_lightdb_set_int_async(client, "iteration", iteration, NULL, NULL);
 golioth_lightdb_set_string_sync(client, "my_string", "asdf", 4, 5);
 golioth_lightdb_set_int_async(client, "my_int", 42, NULL, NULL);
@@ -35,7 +35,7 @@ result of restarting the device multiple times. Notice that the timestamp
 automatically applied to this data can be used to indiate the time of each
 reboot.
 
-```code
+```c
 golioth_lightdb_stream_set_int_async(client, "my_stream_int", 15, NULL, NULL);
 ```
 
