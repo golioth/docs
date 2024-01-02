@@ -13,11 +13,10 @@ These test apps send and receive data, listen for fleetwide settings,
 demonstrate remote procedure calls (RPC), and more. We'll walk you through it
 all so that you get a solid hands-on experience.
 
-Golioth currently offers pre-compiled binaries for three different devices:
+Golioth currently offers pre-compiled binaries for these devices:
 
-* Nordic Thingy:91
-* Nordic nRF9160 DK
-* Nordic nRF7002 DK
+* [Nordic
+  Thingy:91](/getting-started/device-examples/precompiled-binaries/thingy91)
 
 :::tip There are many other options
 
