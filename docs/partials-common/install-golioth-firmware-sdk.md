@@ -12,13 +12,11 @@ values={[
 
 <TabItem value="linux">
 
-#### 1. Clone the Golioth Firmware SDK repository and update submodules
+#### Clone the Golioth Firmware SDK repository and update submodules recursively
 
 ```console
 cd ~
-git clone --recursive https://github.com/golioth/golioth-firmware-sdk.git
-cd golioth-firmware-sdk
-git submodule update --init --recursive
+git clone --recursive https://github.com/golioth/golioth-firmware-sdk.git -b v0.9.0
 ```
 
 </TabItem>
@@ -29,9 +27,7 @@ git submodule update --init --recursive
 
 ```console
 cd ~
-git clone --recursive https://github.com/golioth/golioth-firmware-sdk.git
-cd golioth-firmware-sdk
-git submodule update --init --recursive
+git clone --recursive https://github.com/golioth/golioth-firmware-sdk.git -b v0.9.0
 ```
 
 </TabItem>
@@ -42,9 +38,7 @@ git submodule update --init --recursive
 
 ```console
 cd %HOMEPATH%
-git clone --recursive https://github.com/golioth/golioth-firmware-sdk.git
-cd golioth-firmware-sdk
-git submodule update --init --recursive
+git clone --recursive https://github.com/golioth/golioth-firmware-sdk.git -b v0.9.0
 ```
 
 </TabItem>
