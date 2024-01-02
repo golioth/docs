@@ -1,20 +1,16 @@
 ---
-title: Zephyr RTOS
-hide_title: true
+title: Set up Zephyr RTOS
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-## Zephyr Setup Overview
-
 [Zephyr RTOS](https://docs.zephyrproject.org/) supports a vast number of
 microcontrollers from many different vendors. There's a very good chance your
 preferred chip will work with Zephyr using Golioth as a module.
 
-We will install the Zephyr tree in a directory in your home location
-separate from other Zephyr projects shown for Golioth (in a directory called
-`golioth-zephyr-workspace`).
+This section will guide you through installing the Zephyr tree (including the
+Golioth SDK) in a directory called `golioth-zephyr-workspace`.
 
 ### Install West
 
@@ -61,26 +57,19 @@ Review your vendor's board support in the [Zephyr Board Index](https://docs.zeph
 Your system is all set up and ready to start building & flashing with Zephyr.
 Verify by building a minimal sample:
 
-### Build firmware for the mimxrt1060_evkb
+### Build Firmware
 
 Your system is all set up and ready to start building & flashing with Zephyr.
-Verify by building a minimal sample for the NXP mimxrt1060_evkb
+Verify by building a minimal sample from the Zephyr tree.
 
 import BuildSample from '/docs/partials-common/sample-build.mdx'
 
-<BuildSample board="mimxrt1060_evk"/>
+<BuildSample board="your_board_name"/>
 
 ### Flash firmware to the device
 
-If you are using [the J-Link debug probe with the
-mimxrt1060_evkb](https://community.nxp.com/t5/i-MX-RT-Knowledge-Base/Using-J-Link-with-MIMXRT1060-EVK-or-MIMXRT1064-EVK/ta-p/1281149)
-and already have the software for that tool set up on your system, flashing
-firmware is as simple as running:
+Most boards supported by Zephyr can by flashed using a simple command:
 
 ```bash
 west flash
 ```
-
-The mimxrt1060_evkb can act as a J-Link hardware programmer. `west` will
-automatically work with J-Link as long as the supporting software is installed
-on your system. The next section will walk through installing that software.
