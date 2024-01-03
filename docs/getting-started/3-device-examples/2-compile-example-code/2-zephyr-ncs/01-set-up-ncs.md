@@ -1,12 +1,9 @@
 ---
-title: Nordic nRF Connect SDK (NCS)
-hide_title: true
+title: Set up Nordic nRF Connect SDK (NCS)
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
-
-## NCS Setup Overview
 
 Nordic Semiconductor devices require the [nRF Connect SDK
 (NCS)](https://www.nordicsemi.com/Products/Development-software/nRF-Connect-SDK).
@@ -15,9 +12,8 @@ includes some distinct features and IP. For instance, NCS includes the firmware
 for the cellular modem on the nRF9160, which is unavailable in the upstream
 Zephyr project.
 
-We will install the nRF Connect SDK in a directory in your home location
-separate from other Zephyr projects shown for Golioth (in a directory called
-`golioth-ncs-workspace`).
+This section will guide you through installing NCS and the Zephyr tree
+(including the Golioth SDK) in a directory called `golioth-ncs-workspace`.
 
 ### Install West
 
@@ -25,15 +21,15 @@ import SetupWestNRF91 from '/docs/partials-common/setup-west-nrf91.md'
 
 <SetupWestNRF91/>
 
-### Installing the Golioth Zephyr SDK for NCS
+### Installing the Golioth Firmware SDK for NCS
 
-import InstallNRFSDK from '/docs/partials-common/install-nrf-connect-sdk.md'
+import InstallNRFSDK from '/docs/partials-common/ncs-install-golioth-firmware-sdk.md'
 
 <InstallNRFSDK/>
 
 ### Installing the Zephyr SDK Toolchain
 
-Nordic chips are ARM-based device, so we will use the ARM toolchains (gcc, gdb, etc) included in the Zephyr SDK
+Nordic chips are ARM-based device, so we will use the ARM toolchains (gcc, gdb, etc) included in the Zephyr SDK.
 
 import InstallZephyrSDKtoolchain from '/docs/partials-common/install-zephyr-sdk-toolchain.md'
 
@@ -61,9 +57,9 @@ Zephyr uses `nrfjprog` to flash Nordic targets using a hardware programmer like 
 
 ## Build Sample Firmware
 
-### Build firmware for the nRF9160
+### Build firmware
 
-Your system is all set up and ready to start building & flashing with Zephyr. Verify by building a minimal sample for the nRF9160 DK:
+Your system is all set up and ready to start building & flashing with Zephyr. Verify by building a minimal sample from the Zephyr tree. Here we are using the nRF9160 DK as an example:
 
 import BuildFirmwareFor9160 from '/docs/partials-common/build-fw-nrf91.md'
 
@@ -71,10 +67,8 @@ import BuildFirmwareFor9160 from '/docs/partials-common/build-fw-nrf91.md'
 
 ### Flash firmware to the device
 
-If you are using a J-Link hardware programmer and already have the software for that tool set up on your system, flashing firmware is as simple as running:
+Most boards supported by Zephyr can by flashed using a simple command:
 
 ```bash
 west flash
 ```
-
-The nRF9160 DK acts as a J-Link hardware programmer. `west` will automatically work with J-Link as long as the supporting software is installed on your system. The next section will walk through installing that software.
