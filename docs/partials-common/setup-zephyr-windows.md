@@ -34,13 +34,13 @@ values={[
 
     ```shell
     cd c:\
-    python -m venv golioth-zephyr-workspace\.venv
+    python -m venv {props.workspace_directory}\.venv
     ```
 
 2. Activate the virtual environment:
 
     ```shell
-    c:\golioth-zephyr-workspace\.venv\Scripts\activate.bat
+    c:\{props.workspace_directory}\.venv\Scripts\activate.bat
     ```
 
     Once activated your shell will be prefixed with `(.venv)`. The virtual environment can be deactivated at any time by running `deactivate`.

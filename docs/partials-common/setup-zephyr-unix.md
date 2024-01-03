@@ -1,9 +1,9 @@
+import CodeBlock from '@theme/CodeBlock';
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 We recommend creating a `python3` virtual environment to avoid running into
 tooling incompatibilities.
-
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
 
 <Tabs
 groupId="west-installation"
@@ -19,15 +19,15 @@ Create a new version environment:
 Even though we haven't pulled down Zephyr yet, we can create the virtual environment in the place where we _will_ pull
 down Zephyr.
 
-```
-python3 -m venv ~/golioth-zephyr-workspace/.venv
-```
+<CodeBlock>
+python3 -m venv ~/{props.workspace_directory}/.venv
+</CodeBlock>
 
 Activate the virtual environment:
 
-```
-source ~/golioth-zephyr-workspace/.venv/bin/activate
-```
+<CodeBlock>
+source ~/{props.workspace_directory}/.venv/bin/activate
+</CodeBlock>
 
 Whenever the virtual environment is active, your shell's prompt will be prefixed with `(.venv)`.
 
