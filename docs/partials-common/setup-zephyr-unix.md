@@ -27,8 +27,6 @@ Activate the virtual environment:
 
 ```
 source ~/golioth-zephyr-workspace/.venv/bin/activate
-# OR, if you're using the fish shell, run
-source ~/golioth-zephyr-workspace/.venv/bin/activate.fish
 ```
 
 Whenever the virtual environment is active, your shell's prompt will be prefixed with `(.venv)`.
