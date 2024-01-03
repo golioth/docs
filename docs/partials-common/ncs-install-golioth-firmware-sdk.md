@@ -1,10 +1,6 @@
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-:::note
-These directions are mirroring [the Zephyr and Python dependency install instructions](https://docs.zephyrproject.org/latest/getting_started/index.html#get-zephyr-and-install-python-dependencies). Some directions may be slightly modified to fit your nRF91 / Golioth install.
-:::
-
 With `west` installed, grab the Golioth NCS SDK:
 
 <Tabs
@@ -16,8 +12,8 @@ values={[
 {label: 'Windows', value: 'windows'},
 ]}>
 
-import InstallNRFSDKUnix from '/docs/partials-common/install-nrf-connect-sdk-unix.md'
-import InstallNRFSDKWindows from '/docs/partials-common/install-nrf-connect-sdk-windows.md'
+import InstallNRFSDKUnix from '/docs/partials-common/ncs-install-golioth-firmware-sdk-for-unix.md'
+import InstallNRFSDKWindows from '/docs/partials-common/ncs-install-golioth-firmware-sdk-for-windows.md'
 
 <TabItem value="linux">
 <InstallNRFSDKUnix/>
