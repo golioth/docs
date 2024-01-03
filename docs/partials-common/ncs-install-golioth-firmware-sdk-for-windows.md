@@ -3,7 +3,7 @@ import TabItem from '@theme/TabItem';
 
 ```
 cd %HOMEPATH%
-west init -m https://github.com/golioth/golioth-zephyr-sdk.git --mf west-ncs.yml %HOMEPATH%/golioth-ncs-workspace
+west init -m https://github.com/golioth/golioth-zephyr-sdk.git --mr v0.9.0 --mf west-ncs.yml %HOMEPATH%/golioth-ncs-workspace
 cd golioth-ncs-workspace
 west update
 ```
