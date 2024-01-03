@@ -10,18 +10,18 @@ values={[
 {label: 'Windows', value: 'windows'},
 ]}>
 
-import InstallZephyrSDKUnix from './install-zephyr-sdk-unix.md'
-import InstallZephyrSDKWindows from './install-zephyr-sdk-windows.md'
+import InstallGoliothSDKUnix from './zephyr-install-golioth-firmware-sdk-for-unix.md'
+import InstallGoliothSDKWindows from './zephyr-install-golioth-firmware-sdk-for-windows.md'
 
 <TabItem value="linux">
-<InstallZephyrSDKUnix/>
+<InstallGoliothSDKUnix/>
 </TabItem>
 
 <TabItem value="macos">
-<InstallZephyrSDKUnix/>
+<InstallGoliothSDKUnix/>
 </TabItem>
 
 <TabItem value="windows">
-<InstallZephyrSDKWindows/>
+<InstallGoliothSDKWindows/>
 </TabItem>
 </Tabs>
