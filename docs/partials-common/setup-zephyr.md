@@ -47,7 +47,7 @@ cmake --version
 
 If the Kitware repository doesn't work for you (ie: your system is not running Ubuntu 20.04), you can [build the stable version of CMake from source](https://cmake.org/install/).
 
-<SetupZephyrUnix />
+<SetupZephyrUnix workspace_directory="golioth-zephyr-workspace" />
 
 </TabItem>
 <TabItem value="macos">
@@ -58,7 +58,7 @@ Start by installing dependencies with `brew`:
 brew install cmake ninja gperf python3 ccache qemu dtc
 ```
 
-<SetupZephyrUnix />
+<SetupZephyrUnix workspace_directory="golioth-zephyr-workspace" />
 
 </TabItem>
 <TabItem value="windows">
@@ -99,7 +99,7 @@ The [chocolatey](https://chocolatey.org/) package manager needs to be installed 
 
 import SetupZephyrWindows from './setup-zephyr-windows.md'
 
-<SetupZephyrWindows />
+<SetupZephyrWindows workspace_directory="golioth-zephyr-workspace" />
 
 </TabItem>
 </Tabs>

@@ -28,7 +28,7 @@ sudo apt install --no-install-recommends git cmake ninja-build gperf \
   make gcc gcc-multilib g++-multilib libsdl2-dev
 ```
 
-<SetupZephyrUnix />
+<SetupZephyrUnix workspace_directory="golioth-ncs-workspace" />
 
 </TabItem>
 <TabItem value="macos">
@@ -39,14 +39,14 @@ Start by installing dependencies with `brew`:
 brew install cmake ninja gperf python3 ccache qemu dtc
 ```
 
-<SetupZephyrUnix />
+<SetupZephyrUnix workspace_directory="golioth-ncs-workspace" />
 
 </TabItem>
 <TabItem value="windows">
 
 import SetupWestNRF91Windows from '/docs/partials-common/setup-west-nrf91-windows.md'
 
-<SetupWestNRF91Windows />
+<SetupWestNRF91Windows workspace_directory="golioth-ncs-workspace" />
 
 </TabItem>
 </Tabs>
