@@ -5,8 +5,7 @@ import TabItem from '@theme/TabItem';
 
     ```shell
     cd c:\
-    west init -m https://github.com/golioth/golioth-zephyr-sdk.git --mf west-zephyr.yml golioth-zephyr-workspace
-    cd golioth-zephyr-workspace
+    west init -m https://github.com/golioth/golioth-firmware-sdk.git --mr v0.9.0 --mf west-zephyr.yml golioth-zephyr-workspace
     west update
     ```
 
