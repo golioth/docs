@@ -9,9 +9,9 @@ import SetupZephyr from '/docs/partials-common/setup-zephyr.md'
 
 <SetupZephyr/>
 
-### Install Zephyr SDK
+### Install Golioth Firmware SDK
 
-import InstallZephyrSDK from '/docs/partials-common/install-zephyr-sdk.md'
+import InstallZephyrSDK from '/docs/partials-common/zephyr-install-golioth-firmware-sdk.md'
 
 <InstallZephyrSDK/>
 

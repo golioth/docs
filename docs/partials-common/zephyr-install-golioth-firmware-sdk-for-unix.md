@@ -9,7 +9,7 @@ Depending on your internet and I/O speed, `west update` can take upwards of 5 or
 
 ```
 cd ~
-west init -m https://github.com/golioth/golioth-zephyr-sdk.git --mf west-zephyr.yml ~/golioth-zephyr-workspace
+west init -m https://github.com/golioth/golioth-zephyr-sdk.git --mr v0.9.0 --mf west-zephyr.yml ~/golioth-zephyr-workspace
 cd golioth-zephyr-workspace
 west update
 ```
