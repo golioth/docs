@@ -1,13 +1,15 @@
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import CodeBlock from '@theme/CodeBlock';
+import GoliothFirmwareSdkVer from '!!raw-loader!./golioth-firmware-sdk-release-ver.md'
 
 1. With `west` installed, download the Zephyr SDK:
 
-    ```shell
-    cd c:\
-    west init -m https://github.com/golioth/golioth-firmware-sdk.git --mf west-zephyr.yml golioth-zephyr-workspace
-    west update
-    ```
+    <CodeBlock language="console">
+        cd c:\\
+        west init -m https://github.com/golioth/golioth-firmware-sdk.git --mr ${GoliothFirmwareSdkVer.replace(/(\n)/gm, "")} --mf west-zephyr.yml golioth-zephyr-workspace
+        west update
+    </CodeBlock>
 
     :::info
     Depending on your internet and I/O speed, `west update` can take upwards of 5 or 10 minutes.

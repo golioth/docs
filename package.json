@@ -35,6 +35,7 @@
     "formdata-node": "^6.0.3",
     "posthog-docusaurus": "^2.0.0",
     "protobufjs": "^7.2.5",
+    "raw-loader": "^4.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "swagger-ui-react": "^5.9.1",
