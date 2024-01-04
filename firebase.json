@@ -46,6 +46,16 @@
           "type": 301
         },
         {
+          "source": "/hardware/mimxrt1060_evkb{,/**}",
+          "destination": "/getting-started/device-examples/compile-example-code/zephyr/",
+          "type": 301
+        },
+        {
+          "source": "/hardware/nrf91{,/**}",
+          "destination": "/getting-started/device-examples/compile-example-code/zephyr-ncs/",
+          "type": 301
+        },
+        {
           "source": "/hardware{,/**}",
           "destination": "/firmware/hardware",
           "type": 301
@@ -231,6 +241,16 @@
         {
           "source": "/hardware/esp32{,/**}",
           "destination": "/getting-started/device-examples/compile-example-code/",
+          "type": 301
+        },
+        {
+          "source": "/hardware/mimxrt1060_evkb{,/**}",
+          "destination": "/getting-started/device-examples/compile-example-code/zephyr/",
+          "type": 301
+        },
+        {
+          "source": "/hardware/nrf91{,/**}",
+          "destination": "/getting-started/device-examples/compile-example-code/zephyr-ncs/",
           "type": 301
         },
         {
