@@ -51,6 +51,16 @@
           "type": 301
         },
         {
+          "source": "/hardware/virtual-device/:virt*",
+          "destination": "/firmware/hardware/virtual-devices/:virt",
+          "type": 301
+        },
+        {
+          "source": "/hardware/virtual-devices{,/**}",
+          "destination": "/firmware/hardware/virtual-devices/",
+          "type": 301
+        },
+        {
           "source": "/hardware{,/**}",
           "destination": "/firmware/hardware",
           "type": 301
@@ -246,6 +256,16 @@
         {
           "source": "/hardware/nrf91{,/**}",
           "destination": "/getting-started/device-examples/compile-example-code/zephyr-ncs/",
+          "type": 301
+        },
+        {
+          "source": "/hardware/virtual-device/:virt*",
+          "destination": "/firmware/hardware/virtual-devices/:virt",
+          "type": 301
+        },
+        {
+          "source": "/hardware/virtual-devices{,/**}",
+          "destination": "/firmware/hardware/virtual-devices/",
           "type": 301
         },
         {
