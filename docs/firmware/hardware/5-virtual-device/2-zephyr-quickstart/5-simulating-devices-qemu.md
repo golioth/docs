@@ -5,13 +5,13 @@ title: Simulating devices with QEMU
 
 ### Install West
 
-import SetupZephyr from '/docs/partials-common/setup-zephyr.md'
+import SetupZephyr from '/docs/_partials-common/setup-zephyr.md'
 
 <SetupZephyr/>
 
 ### Install Golioth Firmware SDK
 
-import InstallZephyrSDK from '/docs/partials-common/zephyr-install-golioth-firmware-sdk.md'
+import InstallZephyrSDK from '/docs/_partials-common/zephyr-install-golioth-firmware-sdk.md'
 
 <InstallZephyrSDK/>
 

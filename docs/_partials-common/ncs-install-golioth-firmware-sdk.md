@@ -12,8 +12,8 @@ values={[
 {label: 'Windows', value: 'windows'},
 ]}>
 
-import InstallNRFSDKUnix from '/docs/partials-common/ncs-install-golioth-firmware-sdk-for-unix.md'
-import InstallNRFSDKWindows from '/docs/partials-common/ncs-install-golioth-firmware-sdk-for-windows.md'
+import InstallNRFSDKUnix from '/docs/_partials-common/ncs-install-golioth-firmware-sdk-for-unix.md'
+import InstallNRFSDKWindows from '/docs/_partials-common/ncs-install-golioth-firmware-sdk-for-windows.md'
 
 <TabItem value="linux">
 <InstallNRFSDKUnix/>
