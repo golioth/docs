@@ -166,7 +166,7 @@
           "type": 301
         },
         {
-          "source": "/partials-common/unused/install-device-toolchain{,/**}",
+          "source": "/partials-common{,/**}",
           "destination": "/",
           "type": 301
         },
@@ -354,7 +354,7 @@
           "type": 301
         },
         {
-          "source": "/partials-common/unused/install-device-toolchain{,/**}",
+          "source": "/partials-common{,/**}",
           "destination": "/",
           "type": 301
         },
