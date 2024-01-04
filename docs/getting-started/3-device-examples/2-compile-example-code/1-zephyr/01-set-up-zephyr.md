@@ -14,19 +14,19 @@ Golioth SDK) in a directory called `golioth-zephyr-workspace`.
 
 ### Install West
 
-import SetupZephyr from '/docs/partials-common/setup-zephyr.md'
+import SetupZephyr from '/docs/_partials-common/setup-zephyr.md'
 
 <SetupZephyr/>
 
 ### Install Golioth Firmware SDK
 
-import InstallGoliothSDK from '/docs/partials-common/zephyr-install-golioth-firmware-sdk.md'
+import InstallGoliothSDK from '/docs/_partials-common/zephyr-install-golioth-firmware-sdk.md'
 
 <InstallGoliothSDK/>
 
 ### Installing the Zephyr SDK Toolchain
 
-import InstallZephyrSDKtoolchain from '/docs/partials-common/install-zephyr-sdk-toolchain.md'
+import InstallZephyrSDKtoolchain from '/docs/_partials-common/install-zephyr-sdk-toolchain.md'
 
 <InstallZephyrSDKtoolchain/>
 
@@ -62,7 +62,7 @@ Verify by building a minimal sample:
 Your system is all set up and ready to start building & flashing with Zephyr.
 Verify by building a minimal sample from the Zephyr tree.
 
-import BuildSample from '/docs/partials-common/sample-build.mdx'
+import BuildSample from '/docs/_partials-common/sample-build.mdx'
 
 <BuildSample board="your_board_name"/>
 

@@ -7,9 +7,9 @@ title: Pre-built Binaries
 
 ### Download Pre-built CLIs
 
-We recommend working with the binaries to start with, as this will be the most up to date, and lowest complexity way to get started quickly. 
+We recommend working with the binaries to start with, as this will be the most up to date, and lowest complexity way to get started quickly.
 
-import InstallTools from '/docs/partials-common/install-tools.mdx'
+import InstallTools from '/docs/_partials-common/install-tools.mdx'
 
 <InstallTools/>
 
