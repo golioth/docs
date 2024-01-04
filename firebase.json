@@ -136,7 +136,7 @@
           "type": 301
         },
         {
-          "source": "https://docs.golioth.io/getting-started/console/choose-device{,/**}",
+          "source": "/getting-started/console/choose-device{,/**}",
           "destination": "/#using-golioth-with-your-iot-hardware",
           "type": 301
         },
@@ -324,7 +324,7 @@
           "type": 301
         },
         {
-          "source": "https://docs.golioth.io/getting-started/console/choose-device{,/**}",
+          "source": "/getting-started/console/choose-device{,/**}",
           "destination": "/#using-golioth-with-your-iot-hardware",
           "type": 301
         },
