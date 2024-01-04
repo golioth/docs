@@ -17,13 +17,13 @@ This section will guide you through installing NCS and the Zephyr tree
 
 ### Install West
 
-import SetupWestNRF91 from '/docs/partials-common/setup-west-nrf91.md'
+import SetupWestNRF91 from '/docs/_partials-common/setup-west-nrf91.md'
 
 <SetupWestNRF91/>
 
 ### Installing the Golioth Firmware SDK for NCS
 
-import InstallNRFSDK from '/docs/partials-common/ncs-install-golioth-firmware-sdk.md'
+import InstallNRFSDK from '/docs/_partials-common/ncs-install-golioth-firmware-sdk.md'
 
 <InstallNRFSDK/>
 
@@ -32,7 +32,7 @@ import InstallNRFSDK from '/docs/partials-common/ncs-install-golioth-firmware-sd
 Nordic chips are ARM-based device, so we will use the ARM toolchains (gcc, gdb,
 etc) included in the Zephyr SDK
 
-import InstallZephyrSDKtoolchain from '/docs/partials-common/install-zephyr-sdk-toolchain.md'
+import InstallZephyrSDKtoolchain from '/docs/_partials-common/install-zephyr-sdk-toolchain.md'
 
 <InstallZephyrSDKtoolchain/>
 
@@ -71,7 +71,7 @@ Your system is all set up and ready to start building & flashing with Zephyr.
 Verify by building a minimal sample from the Zephyr tree. Here we are using the
 nRF9160 DK as an example:
 
-import BuildFirmwareFor9160 from '/docs/partials-common/build-fw-nrf91.md'
+import BuildFirmwareFor9160 from '/docs/_partials-common/build-fw-nrf91.md'
 
 <BuildFirmwareFor9160/>
 
