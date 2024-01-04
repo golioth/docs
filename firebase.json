@@ -6,13 +6,8 @@
       "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
       "redirects": [
         {
-          "source": "/hardware/:arch/quickstart/:page*",
-          "destination": "/hardware/:arch/zephyr-quickstart/:page",
-          "type": 301
-        },
-        {
-          "source": "/hardware/:arch/quickstart{,/**}",
-          "destination": "/hardware/:arch/zephyr-quickstart",
+          "source": "/cloud/tiers{,/**}",
+          "destination": "https://golioth.io/pricing",
           "type": 301
         },
         {
