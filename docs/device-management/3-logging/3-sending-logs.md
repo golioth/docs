@@ -3,8 +3,8 @@ id: sending-logs
 title: Sending Logs
 ---
 
-import Prerequisites from '/docs/partials-common/prerequisites-platform-setup.md'
-import { ProtocolPublishSample } from '/docs/partials-common/protocol.mdx'
+import Prerequisites from '/docs/_partials-common/prerequisites-platform-setup.md'
+import { ProtocolPublishSample } from '/docs/_partials-common/protocol.mdx'
 
 <Prerequisites />
 

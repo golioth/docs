@@ -14,7 +14,7 @@ values={[
 {label: 'Windows', value: 'windows'},
 ]}>
 
-import SetupZephyrUnix from '/docs/partials-common/setup-zephyr-unix.md'
+import SetupZephyrUnix from '/docs/_partials-common/setup-zephyr-unix.md'
 
 <TabItem value="linux">
 
@@ -44,7 +44,7 @@ brew install cmake ninja gperf python3 ccache qemu dtc
 </TabItem>
 <TabItem value="windows">
 
-import SetupWestNRF91Windows from '/docs/partials-common/setup-west-nrf91-windows.md'
+import SetupWestNRF91Windows from '/docs/_partials-common/setup-west-nrf91-windows.md'
 
 <SetupWestNRF91Windows workspace_directory="golioth-ncs-workspace" />
 

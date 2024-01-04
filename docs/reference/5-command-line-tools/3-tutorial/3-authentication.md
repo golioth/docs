@@ -3,7 +3,7 @@ id: authentication
 title: Authentication
 ---
 
-import LoginFlow from '/docs/partials-common/login-flow.md'
+import LoginFlow from '/docs/_partials-common/login-flow.md'
 
 <LoginFlow/>
 
