@@ -17,7 +17,7 @@ import InstallZephyrSDK from '/docs/_partials-common/zephyr-install-golioth-firm
 
 ### Toolchain check
 
-import CheckToolchain from '/docs/firmware/hardware/5-virtual-device/2-zephyr-quickstart/\_partials/check-toolchain.md'
+import CheckToolchain from './\_partials/check-toolchain.md'
 
 <CheckToolchain/>
 
