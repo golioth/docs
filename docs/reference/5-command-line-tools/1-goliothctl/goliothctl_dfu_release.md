@@ -38,7 +38,7 @@ goliothctl dfu release [flags]
 ### SEE ALSO
 
 * [goliothctl dfu](/reference/command-line-tools/goliothctl/goliothctl_dfu/)	 - Firmware management command.
-* [goliothctl dfu release create](/reference/command-line-tools/goliothctl/goliothctl_dfu_release_create/)	 - Upload a device firmare release.
+* [goliothctl dfu release create](/reference/command-line-tools/goliothctl/goliothctl_dfu_release_create/)	 - Upload a device firmware release.
 * [goliothctl dfu release delete](/reference/command-line-tools/goliothctl/goliothctl_dfu_release_delete/)	 - Delete a release from Golioth.
 * [goliothctl dfu release list](/reference/command-line-tools/goliothctl/goliothctl_dfu_release_list/)	 - List all releases that have been registered with Golioth
 * [goliothctl dfu release update](/reference/command-line-tools/goliothctl/goliothctl_dfu_release_update/)	 - Update a given release.

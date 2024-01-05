@@ -12,7 +12,7 @@ single control plane for all of your devices.
 
 ### Cloud Side
 
-From over-the-air (OTA) firmare updates, to remote procedure calls (RPC) and
+From over-the-air (OTA) firmware updates, to remote procedure calls (RPC) and
 device fleet settings, to device-to-cloud time series data and bidirectional
 state data, we've already built the management tools you need. Our data-routing
 features ensure your data can go where you need it, whether that's AWS, Azure,
