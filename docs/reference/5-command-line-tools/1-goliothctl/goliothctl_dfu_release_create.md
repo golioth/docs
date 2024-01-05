@@ -8,7 +8,7 @@ hide_title: true
 ---
 ## goliothctl dfu release create
 
-Upload a device firmare release.
+Upload a device firmware release.
 
 ```
 goliothctl dfu release create [flags]
