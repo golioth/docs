@@ -16,8 +16,8 @@ sidebar_class_name: hide-item
 | Board ID       | `lpcxpresso11u68` |
 | Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
-| RAM*           | N/A |
-| Flash*         | N/A |
+| RAM*           | 32 kB |
+| Flash*         | 256 kB |
 
 \* values are as reported by Zephyr `.yaml` board files, which don't represent the overall available resources
 

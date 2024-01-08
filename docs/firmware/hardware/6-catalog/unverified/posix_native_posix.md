@@ -27,6 +27,7 @@ sidebar_class_name: hide-item
 
 * can
 * counter
+* dma
 * eeprom
 * netif:eth
 * usb_device

@@ -1,22 +1,22 @@
 ---
-id: arm_frdm_kw41z
-title: NXP FRDM-KW41Z
-slug: /firmware/hardware/catalog/boards/unverified/arm_frdm_kw41z
-description: IoT board NXP FRDM-KW41Z, compatible with Golioth at unverified level.
-image: /img/boards/arm/frdm_kw41z.jpg
+id: arm_nucleo_f722ze
+title: ST Nucleo F722ZE
+slug: /firmware/hardware/catalog/boards/unverified/arm_nucleo_f722ze
+description: IoT board ST Nucleo F722ZE, compatible with Golioth at unverified level.
+image: /img/boards/arm/nucleo_f722ze.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![NXP FRDM-KW41Z!](/img/boards/arm/frdm_kw41z.jpg "NXP FRDM-KW41Z")
+![ST Nucleo F722ZE!](/img/boards/arm/nucleo_f722ze.jpg "ST Nucleo F722ZE")
 
 |                | Board properties     |
 | -------------  | -------------------- |
-| Board ID       | `frdm_kw41z` |
+| Board ID       | `nucleo_f722ze` |
 | Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
-| RAM*           | 96 kB |
+| RAM*           | 256 kB |
 | Flash*         | 512 kB |
 
 \* values are as reported by Zephyr `.yaml` board files, which don't represent the overall available resources
@@ -27,11 +27,17 @@ sidebar_class_name: hide-item
 
 * adc
 * arduino_gpio
+* arduino_i2c
+* arduino_spi
+* backup_sram
+* can
 * counter
+* dac
 * gpio
 * i2c
+* quadspi
 * spi
-* pwm
+* usb_device
 
 ## Supported toolchains
 
@@ -41,4 +47,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[NXP FRDM-KW41Z (frdm_kw41z)](https://docs.zephyrproject.org/latest/boards/arm/frdm_kw41z/doc/index.html)
+[ST Nucleo F722ZE (nucleo_f722ze)](https://docs.zephyrproject.org/latest/boards/arm/nucleo_f722ze/doc/index.html)

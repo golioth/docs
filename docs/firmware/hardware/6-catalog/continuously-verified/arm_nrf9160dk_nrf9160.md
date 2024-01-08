@@ -15,7 +15,7 @@ image: /img/boards/arm/nrf9160dk_nrf9160.jpg
 | -------------  | -------------------- |
 | Board ID       | `nrf9160dk_nrf9160` |
 | Golioth Level  | [Continuously verified](/firmware/hardware#continuously-verified-boards) |
-| Golioth Quickstart | [Golioth NCS Build Environment](/getting-started/device-examples/compile-example-code/zephyr-ncs) || Architecture   | ARM |
+| Golioth Quickstart | [nrf9160dk_nrf9160 quickstart](/getting-started/device-examples/compile-example-code/zephyr-ncs/) || Architecture   | ARM |
 | RAM*           | 88 kB |
 | Flash*         | 1024 kB |
 
@@ -23,7 +23,7 @@ image: /img/boards/arm/nrf9160dk_nrf9160.jpg
 
 ## Getting started
 
-See our [Golioth NCS Build Environment](/getting-started/device-examples/compile-example-code/zephyr-ncs) guide.
+See our [quickstart guide for nRF9160-DK-NRF9160](/getting-started/device-examples/compile-example-code/zephyr-ncs/).
 
 
 ## Supported features

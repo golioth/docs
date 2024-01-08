@@ -1,9 +1,9 @@
 ---
-id: arm_da14695_dk_usb
-title: DA14695_DK_USB
-slug: /firmware/hardware/catalog/boards/unverified/arm_da14695_dk_usb
-description: IoT board DA14695_DK_USB, compatible with Golioth at unverified level.
-image: /img/boards/arm/null
+id: riscv_beaglev_fire
+title: Beagleboard BeagleV-Fire
+slug: /firmware/hardware/catalog/boards/unverified/riscv_beaglev_fire
+description: IoT board Beagleboard BeagleV-Fire, compatible with Golioth at unverified level.
+image: /img/boards/riscv/null
 sidebar_class_name: hide-item
 ---
 
@@ -13,10 +13,10 @@ sidebar_class_name: hide-item
 
 |                | Board properties     |
 | -------------  | -------------------- |
-| Board ID       | `da14695_dk_usb` |
+| Board ID       | `beaglev_fire` |
 | Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
-| Architecture   | ARM |
-| RAM*           | 512 kB |
+| Architecture   | RISCV |
+| RAM*           | 3840 kB |
 | Flash*         | N/A |
 
 \* values are as reported by Zephyr `.yaml` board files, which don't represent the overall available resources
@@ -25,20 +25,12 @@ sidebar_class_name: hide-item
 
 ## Supported features
 
-* arduino_gpio
-* gpio
-* hwinfo
-* watchdog
-* i2c
-* spi
-* usb_device
+List of supported features is not available.
 
 ## Supported toolchains
 
 * zephyr
-* gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 
-[DA14695_DK_USB (da14695_dk_usb)](https://docs.zephyrproject.org/latest/boards/arm/da14695_dk_usb/doc/index.html)
+[Beagleboard BeagleV-Fire (beaglev_fire)](https://docs.zephyrproject.org/latest/boards/riscv/beaglev_fire/doc/index.html)

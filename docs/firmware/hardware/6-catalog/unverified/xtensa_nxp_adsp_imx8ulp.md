@@ -1,8 +1,8 @@
 ---
-id: xtensa_esp32s3_devkitm
-title: ESP32-S3 DevKitM
-slug: /firmware/hardware/catalog/boards/unverified/xtensa_esp32s3_devkitm
-description: IoT board ESP32-S3 DevKitM, compatible with Golioth at unverified level.
+id: xtensa_nxp_adsp_imx8ulp
+title: i.MX8ULP DSP
+slug: /firmware/hardware/catalog/boards/unverified/xtensa_nxp_adsp_imx8ulp
+description: IoT board i.MX8ULP DSP, compatible with Golioth at unverified level.
 image: /img/boards/xtensa/null
 sidebar_class_name: hide-item
 ---
@@ -13,7 +13,7 @@ sidebar_class_name: hide-item
 
 |                | Board properties     |
 | -------------  | -------------------- |
-| Board ID       | `esp32s3_devkitm` |
+| Board ID       | `nxp_adsp_imx8ulp` |
 | Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | XTENSA |
 | RAM*           | N/A |
@@ -25,17 +25,7 @@ sidebar_class_name: hide-item
 
 ## Supported features
 
-* gpio
-* uart
-* i2c
-* spi
-* can
-* counter
-* watchdog
-* entropy
-* pwm
-* dma
-* input
+List of supported features is not available.
 
 ## Supported toolchains
 
@@ -43,4 +33,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[ESP32-S3 DevKitM (esp32s3_devkitm)](https://docs.zephyrproject.org/latest/boards/xtensa/esp32s3_devkitm/doc/index.html)
+[i.MX8ULP DSP (nxp_adsp_imx8ulp)](https://docs.zephyrproject.org/latest/boards/xtensa/nxp_adsp_imx8ulp/doc/index.html)

@@ -16,7 +16,7 @@ sidebar_class_name: hide-item
 | Board ID       | `cy8cproto_062_4343w` |
 | Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
-| RAM*           | 288 kB |
+| RAM*           | 1024 kB |
 | Flash*         | 2048 kB |
 
 \* values are as reported by Zephyr `.yaml` board files, which don't represent the overall available resources

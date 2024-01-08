@@ -16,8 +16,8 @@ sidebar_class_name: hide-item
 | Board ID       | `mimx8mm_phyboard_polis` |
 | Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
-| RAM*           | 32 kB |
-| Flash*         | 32 kB |
+| RAM*           | 128 kB |
+| Flash*         | 128 kB |
 
 \* values are as reported by Zephyr `.yaml` board files, which don't represent the overall available resources
 

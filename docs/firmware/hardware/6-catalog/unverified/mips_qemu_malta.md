@@ -1,8 +1,8 @@
 ---
 id: mips_qemu_malta
-title: QEMU emulation for MIPS
+title: QEMU emulation for MIPS (little endian)
 slug: /firmware/hardware/catalog/boards/unverified/mips_qemu_malta
-description: IoT board QEMU emulation for MIPS, compatible with Golioth at unverified level.
+description: IoT board QEMU emulation for MIPS (little endian), compatible with Golioth at unverified level.
 image: /img/boards/mips/null
 sidebar_class_name: hide-item
 ---
@@ -34,4 +34,4 @@ List of supported features is not available.
 
 ## Official Zephyr docs
 
-[QEMU emulation for MIPS (qemu_malta)](https://docs.zephyrproject.org/latest/boards/mips/qemu_malta/doc/index.html)
+[QEMU emulation for MIPS (little endian) (qemu_malta)](https://docs.zephyrproject.org/latest/boards/mips/qemu_malta/doc/index.html)

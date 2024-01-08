@@ -1,15 +1,15 @@
 ---
 id: arc_emsdp
-title: EM Software Development Platform
+title: EM Software Development Platform (EM11D)
 slug: /firmware/hardware/catalog/boards/unverified/arc_emsdp
-description: IoT board EM Software Development Platform, compatible with Golioth at unverified level.
+description: IoT board EM Software Development Platform (EM11D), compatible with Golioth at unverified level.
 image: /img/boards/arc/emsdp.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![EM Software Development Platform!](/img/boards/arc/emsdp.jpg "EM Software Development Platform")
+![EM Software Development Platform (EM11D)!](/img/boards/arc/emsdp.jpg "EM Software Development Platform (EM11D)")
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -35,4 +35,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[EM Software Development Platform (emsdp)](https://docs.zephyrproject.org/latest/boards/arc/emsdp/doc/index.html)
+[EM Software Development Platform (EM11D) (emsdp)](https://docs.zephyrproject.org/latest/boards/arc/emsdp/doc/index.html)

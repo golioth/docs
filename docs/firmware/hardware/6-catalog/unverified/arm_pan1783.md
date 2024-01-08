@@ -1,9 +1,9 @@
 ---
-id: xtensa_esp32s3_devkitm
-title: ESP32-S3 DevKitM
-slug: /firmware/hardware/catalog/boards/unverified/xtensa_esp32s3_devkitm
-description: IoT board ESP32-S3 DevKitM, compatible with Golioth at unverified level.
-image: /img/boards/xtensa/null
+id: arm_pan1783
+title: pan1783
+slug: /firmware/hardware/catalog/boards/unverified/arm_pan1783
+description: IoT board pan1783, compatible with Golioth at unverified level.
+image: /img/boards/arm/null
 sidebar_class_name: hide-item
 ---
 
@@ -13,9 +13,9 @@ sidebar_class_name: hide-item
 
 |                | Board properties     |
 | -------------  | -------------------- |
-| Board ID       | `esp32s3_devkitm` |
+| Board ID       | `pan1783` |
 | Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
-| Architecture   | XTENSA |
+| Architecture   | ARM |
 | RAM*           | N/A |
 | Flash*         | N/A |
 
@@ -25,22 +25,12 @@ sidebar_class_name: hide-item
 
 ## Supported features
 
-* gpio
-* uart
-* i2c
-* spi
-* can
-* counter
-* watchdog
-* entropy
-* pwm
-* dma
-* input
+List of supported features is not available.
 
 ## Supported toolchains
 
-* zephyr
+List of supported toolchains is not available.
 
 ## Official Zephyr docs
 
-[ESP32-S3 DevKitM (esp32s3_devkitm)](https://docs.zephyrproject.org/latest/boards/xtensa/esp32s3_devkitm/doc/index.html)
+[pan1783 (pan1783)](https://docs.zephyrproject.org/latest/boards/arm/pan1783/doc/index.html)

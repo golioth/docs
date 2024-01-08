@@ -1,8 +1,8 @@
 ---
-id: arm_da14695_dk_usb
-title: DA14695_DK_USB
-slug: /firmware/hardware/catalog/boards/unverified/arm_da14695_dk_usb
-description: IoT board DA14695_DK_USB, compatible with Golioth at unverified level.
+id: arm_nrf9151dk_nrf9151
+title: nRF9151-DK-NRF9151
+slug: /firmware/hardware/catalog/boards/unverified/arm_nrf9151dk_nrf9151
+description: IoT board nRF9151-DK-NRF9151, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
 ---
@@ -13,11 +13,11 @@ sidebar_class_name: hide-item
 
 |                | Board properties     |
 | -------------  | -------------------- |
-| Board ID       | `da14695_dk_usb` |
+| Board ID       | `nrf9151dk_nrf9151` |
 | Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
-| RAM*           | 512 kB |
-| Flash*         | N/A |
+| RAM*           | 88 kB |
+| Flash*         | 1024 kB |
 
 \* values are as reported by Zephyr `.yaml` board files, which don't represent the overall available resources
 
@@ -26,19 +26,22 @@ sidebar_class_name: hide-item
 ## Supported features
 
 * arduino_gpio
+* arduino_i2c
+* arduino_serial
+* arduino_spi
 * gpio
-* hwinfo
-* watchdog
 * i2c
+* pwm
 * spi
-* usb_device
+* watchdog
+* counter
 
 ## Supported toolchains
 
-* zephyr
 * gnuarmemb
 * xtools
+* zephyr
 
 ## Official Zephyr docs
 
-[DA14695_DK_USB (da14695_dk_usb)](https://docs.zephyrproject.org/latest/boards/arm/da14695_dk_usb/doc/index.html)
+[nRF9151-DK-NRF9151 (nrf9151dk_nrf9151)](https://docs.zephyrproject.org/latest/boards/arm/nrf9151dk_nrf9151/doc/index.html)

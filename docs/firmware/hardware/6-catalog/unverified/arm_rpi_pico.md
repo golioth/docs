@@ -36,6 +36,7 @@ sidebar_class_name: hide-item
 * flash
 * dma
 * counter
+* clock
 
 ## Supported toolchains
 

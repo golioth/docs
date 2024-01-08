@@ -1,8 +1,8 @@
 ---
-id: arm_da14695_dk_usb
-title: DA14695_DK_USB
-slug: /firmware/hardware/catalog/boards/unverified/arm_da14695_dk_usb
-description: IoT board DA14695_DK_USB, compatible with Golioth at unverified level.
+id: arm_w5500_evb_pico
+title: Wiznet W5500 Evaluation Board
+slug: /firmware/hardware/catalog/boards/unverified/arm_w5500_evb_pico
+description: IoT board Wiznet W5500 Evaluation Board, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
 ---
@@ -13,11 +13,11 @@ sidebar_class_name: hide-item
 
 |                | Board properties     |
 | -------------  | -------------------- |
-| Board ID       | `da14695_dk_usb` |
+| Board ID       | `w5500_evb_pico` |
 | Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
-| RAM*           | 512 kB |
-| Flash*         | N/A |
+| RAM*           | 264 kB |
+| Flash*         | 16384 kB |
 
 \* values are as reported by Zephyr `.yaml` board files, which don't represent the overall available resources
 
@@ -25,13 +25,18 @@ sidebar_class_name: hide-item
 
 ## Supported features
 
-* arduino_gpio
+* uart
 * gpio
-* hwinfo
-* watchdog
+* adc
 * i2c
 * spi
-* usb_device
+* hwinfo
+* watchdog
+* pwm
+* flash
+* dma
+* counter
+* clock
 
 ## Supported toolchains
 
@@ -41,4 +46,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[DA14695_DK_USB (da14695_dk_usb)](https://docs.zephyrproject.org/latest/boards/arm/da14695_dk_usb/doc/index.html)
+[Wiznet W5500 Evaluation Board (w5500_evb_pico)](https://docs.zephyrproject.org/latest/boards/arm/w5500_evb_pico/doc/index.html)

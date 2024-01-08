@@ -28,6 +28,7 @@ sidebar_class_name: hide-item
 * arduino_gpio
 * counter
 * gpio
+* hwinfo
 * watchdog
 * i2c
 * spi

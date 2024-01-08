@@ -1,8 +1,8 @@
 ---
-id: arm_da14695_dk_usb
-title: DA14695_DK_USB
-slug: /firmware/hardware/catalog/boards/unverified/arm_da14695_dk_usb
-description: IoT board DA14695_DK_USB, compatible with Golioth at unverified level.
+id: arm_nucleo_wba55cg
+title: ST Nucleo WBA55CG
+slug: /firmware/hardware/catalog/boards/unverified/arm_nucleo_wba55cg
+description: IoT board ST Nucleo WBA55CG, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
 ---
@@ -13,11 +13,11 @@ sidebar_class_name: hide-item
 
 |                | Board properties     |
 | -------------  | -------------------- |
-| Board ID       | `da14695_dk_usb` |
+| Board ID       | `nucleo_wba55cg` |
 | Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
-| RAM*           | 512 kB |
-| Flash*         | N/A |
+| RAM*           | 128 kB |
+| Flash*         | 1024 kB |
 
 \* values are as reported by Zephyr `.yaml` board files, which don't represent the overall available resources
 
@@ -25,20 +25,22 @@ sidebar_class_name: hide-item
 
 ## Supported features
 
-* arduino_gpio
 * gpio
-* hwinfo
-* watchdog
 * i2c
 * spi
-* usb_device
+* adc
+* watchdog
+* rng
+* arduino_gpio
+* arduino_i2c
+* arduino_spi
+* counter
 
 ## Supported toolchains
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 
-[DA14695_DK_USB (da14695_dk_usb)](https://docs.zephyrproject.org/latest/boards/arm/da14695_dk_usb/doc/index.html)
+[ST Nucleo WBA55CG (nucleo_wba55cg)](https://docs.zephyrproject.org/latest/boards/arm/nucleo_wba55cg/doc/index.html)

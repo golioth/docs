@@ -29,6 +29,7 @@ sidebar_class_name: hide-item
 * counter
 * dac
 * dma
+* flash
 * gpio
 * pwm
 * spi

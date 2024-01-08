@@ -1,8 +1,8 @@
 ---
-id: arm_da14695_dk_usb
-title: DA14695_DK_USB
-slug: /firmware/hardware/catalog/boards/unverified/arm_da14695_dk_usb
-description: IoT board DA14695_DK_USB, compatible with Golioth at unverified level.
+id: arm_adafruit_qt_py_rp2040
+title: Adafruit QT Py RP2040
+slug: /firmware/hardware/catalog/boards/unverified/arm_adafruit_qt_py_rp2040
+description: IoT board Adafruit QT Py RP2040, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
 ---
@@ -13,11 +13,11 @@ sidebar_class_name: hide-item
 
 |                | Board properties     |
 | -------------  | -------------------- |
-| Board ID       | `da14695_dk_usb` |
+| Board ID       | `adafruit_qt_py_rp2040` |
 | Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
-| RAM*           | 512 kB |
-| Flash*         | N/A |
+| RAM*           | 264 kB |
+| Flash*         | 8192 kB |
 
 \* values are as reported by Zephyr `.yaml` board files, which don't represent the overall available resources
 
@@ -25,13 +25,18 @@ sidebar_class_name: hide-item
 
 ## Supported features
 
-* arduino_gpio
+* uart
 * gpio
-* hwinfo
-* watchdog
+* adc
 * i2c
 * spi
-* usb_device
+* hwinfo
+* watchdog
+* pwm
+* flash
+* dma
+* counter
+* clock
 
 ## Supported toolchains
 
@@ -41,4 +46,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[DA14695_DK_USB (da14695_dk_usb)](https://docs.zephyrproject.org/latest/boards/arm/da14695_dk_usb/doc/index.html)
+[Adafruit QT Py RP2040 (adafruit_qt_py_rp2040)](https://docs.zephyrproject.org/latest/boards/arm/adafruit_qt_py_rp2040/doc/index.html)
