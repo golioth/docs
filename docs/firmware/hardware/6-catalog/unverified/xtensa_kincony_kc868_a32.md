@@ -1,19 +1,19 @@
 ---
-id: xtensa_esp32s3_devkitm
-title: ESP32-S3 DevKitM
-slug: /firmware/hardware/catalog/boards/unverified/xtensa_esp32s3_devkitm
-description: IoT board ESP32-S3 DevKitM, compatible with Golioth at unverified level.
-image: /img/boards/xtensa/null
+id: xtensa_kincony_kc868_a32
+title: KINCONY-KC868-A32
+slug: /firmware/hardware/catalog/boards/unverified/xtensa_kincony_kc868_a32
+description: IoT board KINCONY-KC868-A32, compatible with Golioth at unverified level.
+image: /img/boards/xtensa/kincony_kc868_a32.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![KINCONY-KC868-A32!](/img/boards/xtensa/kincony_kc868_a32.jpg "KINCONY-KC868-A32")
 
 |                | Board properties     |
 | -------------  | -------------------- |
-| Board ID       | `esp32s3_devkitm` |
+| Board ID       | `kincony_kc868_a32` |
 | Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | XTENSA |
 | RAM*           | N/A |
@@ -26,16 +26,12 @@ sidebar_class_name: hide-item
 ## Supported features
 
 * gpio
-* uart
 * i2c
-* spi
-* can
-* counter
 * watchdog
+* uart
+* nvs
+* counter
 * entropy
-* pwm
-* dma
-* input
 
 ## Supported toolchains
 
@@ -43,4 +39,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[ESP32-S3 DevKitM (esp32s3_devkitm)](https://docs.zephyrproject.org/latest/boards/xtensa/esp32s3_devkitm/doc/index.html)
+[KINCONY-KC868-A32 (kincony_kc868_a32)](https://docs.zephyrproject.org/latest/boards/xtensa/kincony_kc868_a32/doc/index.html)

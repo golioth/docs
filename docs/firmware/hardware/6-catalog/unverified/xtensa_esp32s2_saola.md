@@ -36,6 +36,7 @@ sidebar_class_name: hide-item
 * spi
 * counter
 * entropy
+* input
 
 ## Supported toolchains
 

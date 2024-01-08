@@ -16,7 +16,7 @@ sidebar_class_name: hide-item
 | Board ID       | `mimxrt1010_evk` |
 | Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
-| RAM*           | 32 kB |
+| RAM*           | 64 kB |
 | Flash*         | 16384 kB |
 
 \* values are as reported by Zephyr `.yaml` board files, which don't represent the overall available resources

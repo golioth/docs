@@ -16,7 +16,7 @@ sidebar_class_name: hide-item
 | Board ID       | `frdm_k64f` |
 | Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
-| RAM*           | 256 kB |
+| RAM*           | 192 kB |
 | Flash*         | 1024 kB |
 
 \* values are as reported by Zephyr `.yaml` board files, which don't represent the overall available resources

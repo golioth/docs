@@ -16,7 +16,7 @@ sidebar_class_name: hide-item
 | Board ID       | `twr_kv58f220m` |
 | Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
-| RAM*           | 256 kB |
+| RAM*           | 128 kB |
 | Flash*         | 1024 kB |
 
 \* values are as reported by Zephyr `.yaml` board files, which don't represent the overall available resources

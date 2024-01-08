@@ -25,12 +25,13 @@ sidebar_class_name: hide-item
 
 ## Supported features
 
-* uart
+* dma
+* flash
 * gpio
 * pwm
-* watchdog
-* dma
 * spi
+* uart
+* watchdog
 
 ## Supported toolchains
 

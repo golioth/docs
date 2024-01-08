@@ -26,6 +26,13 @@ sidebar_class_name: hide-item
 ## Supported features
 
 * uart
+* watchdog
+* counter
+* gpio
+* spi
+* i2c
+* clock_control
+* ble
 
 ## Supported toolchains
 

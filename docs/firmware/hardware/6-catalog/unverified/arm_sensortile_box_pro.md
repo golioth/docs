@@ -27,6 +27,7 @@ sidebar_class_name: hide-item
 
 * pwm
 * spi
+* ble
 * i2c
 * gpio
 * usb device
