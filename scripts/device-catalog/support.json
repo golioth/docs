@@ -3,16 +3,16 @@
   "arm": {
     "circuitdojo_feather_nrf9160": {
       "level": "verified",
-      "quickstart": "/firmware/hardware/nrf91/zephyr-quickstart"
+      "quickstart": "/getting-started/device-examples/compile-example-code/zephyr-ncs/"
     },
     "mimxrt1060_evkb": {
       "level": "continuously-verified",
-      "quickstart": "/firmware/hardware/mimxrt1060_evkb/zephyr-quickstart",
+      "quickstart": "/getting-started/device-examples/compile-example-code/zephyr/",
       "customDocMD": "The EVKB version of this board does not have its own documentation in the Zephyr tree, but it is closely related to the [mimxrt1060_evkb](https://docs.zephyrproject.org/latest/boards/arm/mimxrt1060_evk/doc/index.html)."
     },
     "nrf9160dk_nrf9160": {
       "level": "continuously-verified",
-      "quickstart": "/firmware/hardware/nrf91/zephyr-quickstart"
+      "quickstart": "/getting-started/device-examples/compile-example-code/zephyr-ncs/"
     },
     "qemu_cortex_m3": {
       "level": "continuously-verified",
@@ -32,7 +32,7 @@
   "xtensa": {
     "esp32": {
       "level": "continuously-verified",
-      "quickstart": "/firmware/hardware/esp32/zephyr-quickstart"
+      "quickstart": "/getting-started/device-examples/compile-example-code/"
     }
   }
 }
