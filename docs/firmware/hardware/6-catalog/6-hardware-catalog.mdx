@@ -23,7 +23,7 @@ import {
   faUserCheck,
   faCheckDouble,
   faSearchMinus,
-  faQuestion,
+  faU,
 } from "@fortawesome/free-solid-svg-icons";
 
 export const SearchInput = ({ filters, setFilters }) => {
@@ -116,7 +116,7 @@ export const Legend = ({ filters, setFilters }) => {
         className={className("unverified")}
         onClick={() => handleBadgeClick("unverified")}
       >
-        <FontAwesomeIcon icon={faQuestion} className="board-status-badge" />
+        <FontAwesomeIcon icon={faU} className="board-status-badge" />
         <span>Unverified</span>
       </div>
     </div>
@@ -161,7 +161,7 @@ export const BoardStatusBadge = ({ level }) => {
     default:
       return (
         <FontAwesomeIcon
-          icon={faQuestion}
+          icon={faU}
           className="board-status-badge" />
       );
   }
