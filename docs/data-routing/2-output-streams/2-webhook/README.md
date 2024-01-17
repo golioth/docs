@@ -17,7 +17,7 @@ For each Output Stream type, there is a set of specify attributes. Here are the 
 
 As mentioned on [Output Streams Overview](/data-routing/output-streams), events are sent using the [Cloud Events](https://cloudevents.io) format. For Webhooks specifically, some metadata of the event are sent as HTTP headers.
 
-Here is an example of an event arriving on a webhook. Headers prefixed with `Ce-` are related to Cloud Events and the message body is the event payload (see event payloads on [Output Streams Event Types](/data-routing/output-streams/event-types/events)).
+Here is an example of an event arriving on a webhook. Headers prefixed with `Ce-` are related to Cloud Events and the message body is the event payload.
 
 ```
 POST {your-uri-path} HTTP/1.1

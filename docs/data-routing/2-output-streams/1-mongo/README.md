@@ -18,7 +18,6 @@ the ones for MongoDB:
 | Attribute          | Type   | Required | Description |
 | ------------------ | ------ |:--------:| ----------- |
 | Name               | string | ✅       | Name to identify the Output Stream |
-| Event Type Filter  | string | ✅       | Select `DEVICE_STREAM_TYPE` |
 | Connection String  | string | ✅       | Connection string containing username and password |
 | Database           | string | ✅       | Name of the MongoDB database |
 | Collection         | string | ✅       | Name of the MongoDB collection |

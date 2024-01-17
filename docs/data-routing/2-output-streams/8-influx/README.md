@@ -16,7 +16,6 @@ the ones for InfluxDB:
 | Attribute          | Type   | Required | Description |
 | ------------------ | ------ |:--------:| ----------- |
 | Name | string | ✅        | Name to identify the Output Stream |
-| Event Type Filter | string | ✅        | Select `DEVICE_STREAM_TYPE` |
 | InfluxDB URL| string | ✅        | URL for the InfluxDB Cloud API |
 | InfluxDB token| string | ✅        | InfluxDB API token |
 | InfluxDB bucket| string | ✅        | Name of the InfluxDB bucket |
