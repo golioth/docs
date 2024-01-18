@@ -106,7 +106,7 @@ Go the [Golioth Platform](https://console.golioth.io), log in and select your Pr
 
 Golioth Output Streams use the [Cloud Events](https://cloudevents.io) format. For GCP PubSub, this means some metadata of the event are sent together with the message body.
 
-Here is an example of an event arriving on PubSub. The payload will be inside a `data` attribute (see event payloads on [Output Streams Event Types](/data-routing/output-streams/event-types/events)). The other attributes are metadata related to Cloud Events.
+Here is an example of an event arriving on PubSub. The payload will be inside a `data` attribute. The other attributes are metadata related to Cloud Events.
 
 ```json
 {

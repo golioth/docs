@@ -38,7 +38,7 @@ In this tutorial you will see how to:
 
 Golioth Output Streams use the [Cloud Events](https://cloudevents.io) format. For Datacake, this means some metadata of the event are sent as HTTP headers.
 
-Here is an example of an event arriving on Datcake. Headers prefixed with `Ce-` are related to Cloud Events and the message body is the event payload (see event payloads on [Output Streams Event Types](/data-routing/output-streams/event-types/events)).
+Here is an example of an event arriving on Datcake. Headers prefixed with `Ce-` are related to Cloud Events and the message body is the event payload.
 
 
 ```
