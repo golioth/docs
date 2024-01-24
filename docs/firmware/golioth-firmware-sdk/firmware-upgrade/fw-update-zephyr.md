@@ -1,12 +1,13 @@
 ---
-title: Zephyr DFU Example Walkthrough
+title: Zephyr Firmware Update Example Walkthrough
 sidebar_position: 2
 ---
 
-Over-the-Air (OTA) updates are a type of Device Firmware Upgrade (DFU); for this
-sample let's consider the two terms synonymous. In this page we'll walk through
-the DFU sample found in [the Zephyr port of the Golioth Firmware
-SDK](https://github.com/golioth/golioth-zephyr-sdk/tree/main/samples/dfu).
+Over-the-Air (OTA) updates are a type of Device Firmware Upgrade (DFU). In this
+page we'll walk through the FW Update sample found in [the Zephyr
+port of the Golioth Firmware
+SDK](https://github.com/golioth/golioth-zephyr-sdk/tree/main/samples/fw_update),
+which shows how to use the Golioth OTA update service.
 
 We will target the Nordic nRF9160dk (Using the NCS version of Zephyr), however
 these step are portable to all other supported boards.
@@ -21,7 +22,7 @@ updated firmware version and report the results to the Golioth Console.
 ### OTA Update Sample Workflow
 
 1. Add hardcoded credentials
-2. Build and flash the initial DFU sample application
+2. Build and flash the initial FW Update sample application
 3. Upload the signed/versioned firmware as an artifact
 4. Create a release from the artifact and roll it out to the device
 5. Observe the device reporting the update version number
@@ -50,7 +51,7 @@ Console](https://console.golioth.io).
 ### 2. Initial build and flash
 
 ```console
-west build -b nrf9160dk_nrf9160_ns examples/zephyr/dfu
+west build -b nrf9160dk_nrf9160_ns examples/zephyr/fw_update
 west flash
 ```
 
@@ -64,7 +65,8 @@ upstream Zephyr. For non-Nordic boards the build command should also use the
 `--sysbuild` flag:
 
 ```console
-west build -b nrf52840dk_nrf52840 --sysbuild examples/zephyr/dfu
+# Example build command for NXP i.MX RT1024 Evaluation Kit
+west build -b mimxrt1024_evk --sysbuild examples/zephyr/fw_update
 west flash
 ```
 
@@ -75,13 +77,13 @@ west flash
 Now update the firmware version in the project `prj.conf` file:
 
 ```cfg
-CONFIG_GOLIOTH_SAMPLE_FW_VERSION="1.2.4"
+CONFIG_MCUBOOT_IMGTOOL_SIGN_VERSION="1.2.4"
 ```
 
 Then build the application a second time.
 
 ```console
-west build -b nrf9160dk_nrf9160_ns examples/zephyr/dfu
+west build -b nrf9160dk_nrf9160_ns examples/zephyr/fw_update
 ```
 
 :::note
@@ -107,7 +109,7 @@ to create an artifact on the Golioth Console.
 :::tip Different update files for other builds
 
 Builds that use Zephyr (and not NCS) have a different update file. In those
-cases, upload the `build/dfu/zephyr/zephyr.signed.bin` file to Golioth.
+cases, upload the `build/fw_update/zephyr/zephyr.signed.bin` file to Golioth.
 
 :::
 
@@ -140,18 +142,18 @@ Firmware tab of the Golioth Console.
 ## Summary
 
 Over-the-Air updates are one of the most powerful tools in IoT. Running the
-Golioth DFU sample application has demonstrated how the firmware updates are
-compiled and versioned, the process for creating the artifact and rollout on the
-Golioth Console, and the device reporting back a new version number after a
+Golioth FW Update sample application has demonstrated how the firmware updates
+are compiled and versioned, the process for creating the artifact and rollout on
+the Golioth Console, and the device reporting back a new version number after a
 successful update.
 
 :::note Do not use hardcoded credential in practice
 
-The Golioth DFU sample uses hardcoded PSK credentials to simplify the example
-code. An alternate option must be used when more than one device is receiving an
-update (e.g. device certificate authentication stored in persistent memory).
-This will ensure that credentials specific to each device are not overwritten by
-hardcoded values present in the update.
+The Golioth FW Update sample uses hardcoded PSK credentials to simplify the
+example code. An alternate option must be used when more than one device is
+receiving an update (e.g. device certificate authentication stored in persistent
+memory). This will ensure that credentials specific to each device are not
+overwritten by hardcoded values present in the update.
 
 :::
 
@@ -161,4 +163,3 @@ This sample uses the default MCUboot key for signing. For production devices,
 you must generate your own key to sign the binary files.
 
 :::
-
