@@ -417,7 +417,13 @@
           "source": "/cloud/tiers{,/**}",
           "destination": "https://golioth.io/pricing",
           "type": 301
+        },
+        {
+          "source": "/firmware/golioth-firmware-sdk/firmware-upgrade/dfu-sample-zephyr{,/**}",
+          "destination": "/firmware/golioth-firmware-sdk/firmware-upgrade/fw-update-zephyr",
+          "type": 301
         }
+
       ],
       "rewrites": [
         {
