@@ -32,11 +32,11 @@ All of these calls are well-documented in the comments of the example app's
 
 Streaming data is sent just one time in this app. The view shown here is the
 result of restarting the device multiple times. Notice that the timestamp
-automatically applied to this data can be used to indiate the time of each
+automatically applied to this data can be used to indicate the time of each
 reboot.
 
 ```c
-golioth_lightdb_stream_set_int_async(client, "my_stream_int", 15, NULL, NULL);
+golioth_stream_set_int_async(client, "my_stream_int", 15, NULL, NULL);
 ```
 
 ### Viewing Logs on the Golioth Web Console
