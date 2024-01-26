@@ -32,20 +32,20 @@ int my_int = 42;
 char *my_str[] = "Golioth";
 
 // Stream a bool value
-err = golioth_lightdb_stream_set_bool_sync(client, "sensor/active", my_bool, 1);
+err = golioth_stream_set_bool_sync(client, "sensor/active", my_bool, 1);
 
 // Stream a float value
-err = golioth_lightdb_stream_set_float_sync(client, "sensor/reading", my_float, 1);
+err = golioth_stream_set_float_sync(client, "sensor/reading", my_float, 1);
 
 // Stream an int value
-err = golioth_lightdb_stream_set_int_sync(client, "sensor/calib", my_int, 1);
+err = golioth_stream_set_int_sync(client, "sensor/calib", my_int, 1);
 
 // Stream a string
-err = golioth_lightdb_stream_set_string_sync(client,
-                                             "sensor/name",
-                                             my_str,
-                                             strlen(my_str),
-                                             1);
+err = golioth_stream_set_string_sync(client,
+                                     "sensor/name",
+                                     my_str,
+                                     strlen(my_str),
+                                     1);
 ```
 
 The simplest way to send LightDB Stream data to Golioth is using a synchronous
@@ -82,7 +82,7 @@ run to process the result of the async operation.
 ### Calling the async LightDB stream set function
 
 ```c
-int err = golioth_lightdb_stream_set_int_async(client,
+int err = golioth_stream_set_int_async(client,
                                                "sensor/calib",
                                                my_int,
                                                async_set_handler,
@@ -130,7 +130,7 @@ the `arg` variable.
 
 ## Example in the Golioth Basics Application
 
-An example of the `golioth_lightdb_stream_set_int_async()` API call is
+An example of the `golioth_stream_set_int_async()` API call is
 demonstrated [in the Golioth Basics example
 application](https://github.com/golioth/golioth-firmware-sdk/blob/develop/examples/common/golioth_basics.c).
 
