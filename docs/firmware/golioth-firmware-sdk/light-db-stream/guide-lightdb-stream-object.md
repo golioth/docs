@@ -124,18 +124,18 @@ devices in a fleet over large time periods becomes substantial.
 
 ```c
 /* Send JSON object */
-err = golioth_lightdb_stream_set_json_sync(client,
-                                           "sensor",
-                                           json_buf,
-                                           strlen(json_buf),
-                                           1);
+err = golioth_stream_set_json_sync(client,
+                                   "sensor",
+                                   json_buf,
+                                   strlen(json_buf),
+                                   1);
 
 /* Send CBOR object */
-err = golioth_lightdb_stream_set_cbor_sync(client,
-                                           "sensor",
-                                           cbor_buf,
-                                           sizeof(cbor_buf),
-                                           1);
+err = golioth_stream_set_cbor_sync(client,
+                                   "sensor",
+                                   cbor_buf,
+                                   sizeof(cbor_buf),
+                                   1);
 ```
 
 
@@ -184,19 +184,19 @@ enum obj_type {
     CBOR_ASYNC
 };
 
-err = golioth_lightdb_stream_set_json_async(client,
-                                            "sensor",
-                                            json_buf,
-                                            strlen(json_buf),
-                                            obj_async_handler,
-                                            (void *)JSON_ASYNC);
+err = golioth_stream_set_json_async(client,
+                                    "sensor",
+                                    json_buf,
+                                    strlen(json_buf),
+                                    obj_async_handler,
+                                    (void *)JSON_ASYNC);
 
-err = golioth_lightdb_stream_set_cbor_async(client,
-                                            "sensor",
-                                            cbor_buf,
-                                            sizeof(cbor_buf),
-                                            obj_async_handler,
-                                            (void *)CBOR_ASYNC);
+err = golioth_stream_set_cbor_async(client,
+                                    "sensor",
+                                    cbor_buf,
+                                    sizeof(cbor_buf),
+                                    obj_async_handler,
+                                    (void *)CBOR_ASYNC);
 ```
 
 The async set functions send data to a given path, but the request is enqueued

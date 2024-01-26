@@ -39,9 +39,3 @@ into four categories:
 These categories are described in-depth in the pages to follow. Please review
 the Golioth Firmware SDK Doxygen site for [a comprehensive LightDB API
 reference](https://firmware-sdk-docs.golioth.io/group__golioth__lightdb.html).
-
-:::tip
-LightDB API calls that have `stream` in the name&mdash;e.g.,
-`golioth_lightdb_stream_set_int_async()`&mdash;are used for the time-series
-LightDB Stream service. All others relate to the LightDB State service.
-:::
