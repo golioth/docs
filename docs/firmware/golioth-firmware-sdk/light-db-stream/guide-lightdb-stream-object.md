@@ -124,18 +124,20 @@ devices in a fleet over large time periods becomes substantial.
 
 ```c
 /* Send JSON object */
-err = golioth_stream_set_json_sync(client,
-                                   "sensor",
-                                   json_buf,
-                                   strlen(json_buf),
-                                   1);
+err = golioth_stream_set_sync(client,
+                              "sensor",
+                              GOLIOTH_CONTENT_TYPE_JSON,
+                              json_buf,
+                              strlen(json_buf),
+                              1);
 
 /* Send CBOR object */
-err = golioth_stream_set_cbor_sync(client,
-                                   "sensor",
-                                   cbor_buf,
-                                   sizeof(cbor_buf),
-                                   1);
+err = golioth_stream_set_sync(client,
+                              "sensor",
+                              GOLIOTH_CONTENT_TYPE_CBOR,
+                              cbor_buf,
+                              sizeof(cbor_buf),
+                              1);
 ```
 
 
@@ -144,10 +146,11 @@ function call. This blocking function will send data to the given path and wait
 for a response (or error) from the server. If a response is not received within
 the given timeout, a `GOLIOTH_ERR_TIMEOUT` error code will be returned.
 
-In the above examples, we tell Golioth to set the `"sensor"` path using
-`json_buf`/`cbor_buf` and the length of that array. The final argument is a
-timeout value (in seconds). When Golioth receives this data, the server will
-automatically add a timestamp based on when it was received.
+In the above examples, we tell Golioth to set the `"sensor"` path using the enum
+for our desired content type, along with the `json_buf`/`cbor_buf` pointer and
+the length of that array. The final argument is a timeout value (in seconds).
+When Golioth receives this data, the server will automatically add a timestamp
+based on when it was received.
 
 :::tip Multiple Data Points and Nested Data
 
@@ -184,19 +187,21 @@ enum obj_type {
     CBOR_ASYNC
 };
 
-err = golioth_stream_set_json_async(client,
-                                    "sensor",
-                                    json_buf,
-                                    strlen(json_buf),
-                                    obj_async_handler,
-                                    (void *)JSON_ASYNC);
+err = golioth_stream_set_async(client,
+                               "sensor",
+                               GOLIOTH_CONTENT_TYPE_JSON,
+                               json_buf,
+                               strlen(json_buf),
+                               obj_async_handler,
+                               (void *)JSON_ASYNC);
 
-err = golioth_stream_set_cbor_async(client,
-                                    "sensor",
-                                    cbor_buf,
-                                    sizeof(cbor_buf),
-                                    obj_async_handler,
-                                    (void *)CBOR_ASYNC);
+err = golioth_stream_set_async(client,
+                               "sensor",
+                               GOLIOTH_CONTENT_TYPE_CBOR,
+                               cbor_buf,
+                               sizeof(cbor_buf),
+                               obj_async_handler,
+                               (void *)CBOR_ASYNC);
 ```
 
 The async set functions send data to a given path, but the request is enqueued
@@ -205,10 +210,11 @@ function is supplied, it will be called by the Golioth Client when the set
 operation is completed. An optional callback argument can be specified, this
 data will be available in the callback function.
 
-In the above example, we tell Golioth to set the `"sensor"` path to the values
-stores in the `json_buf`/`cbor_buf` array. The length of that array is supplied,
-along with  with `async_set_handler` as the callback function. An enum value is
-used as the callback argument.
+In the above examples, we tell Golioth to set the `"sensor"` path using the enum
+for our desired content type, along with the pointer to the
+`json_buf`/`cbor_buf` array. The length of that array is supplied, along with
+with `async_set_handler` as the callback function. An enum value is used as the
+callback argument.
 
 ### Callback Function
 

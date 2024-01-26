@@ -111,18 +111,19 @@ several paths in one operation. To do so, the API supports JSON objects.
 uint8_t json_buf[128];
 
 /* Get root of LightDB State, but JSON can be returned for any path */
-int err = golioth_lightdb_get_json_sync(client,
-                                        "",
-                                        json_buf,
-                                        sizeof(json_buf),
-                                        1);
+int err = golioth_lightdb_get_sync(client,
+                                   "",
+                                   GOLIOTH_CONTENT_TYPE_JSON,
+                                   json_buf,
+                                   sizeof(json_buf),
+                                   1);
 ```
 
 In the example above, the `json_buf[128]` character array of an arbitrary length
 is created to store the returned JSON object. The API call instructs Golioth to
-get the `""` (root) path data and store it in `json_buf` which has a length
-limit of `sizeof(json_buf)`. This is a synchronous function, so a timeout of `1`
-second has been specified.
+get the `""` (root) path using content type `GOLIOTH_CONTENT_TYPE_JSON`. We pass
+in the `json_buf` pointer which has a length limit of `sizeof(json_buf)`. This
+is a synchronous function, so a timeout of `1` second has been specified.
 
 The async example shown earlier in this page receives JSON formatted payloads by
 default and may be used to get complex objects from Golioth.
