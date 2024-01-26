@@ -97,20 +97,22 @@ CBOR objects.
 
 ```c
 /* Create a valid JSON string */
-char *json_buf[] = "{\"name\":\"seconds\",\"data\":{\"val\":42,\"inc\":1}}"
+char json_buf[] = "{\"name\":\"seconds\",\"data\":{\"val\":42,\"inc\":1}}"
 
-int err = golioth_lightdb_set_json_async(client,
-                                         "counter",
-                                         json_buf,
-                                         strlen(json_buf),
-                                         counter_set_handler,
-                                         NULL);
+int err = golioth_lightdb_set_async(client,
+                                    "counter",
+                                    GOLIOTH_CONTENT_TYPE_JSON,
+                                    json_buf,
+                                    strlen(json_buf),
+                                    counter_set_handler,
+                                    NULL);
 ```
 
 In the example above, a JSON object is first prepared as a character array. The
-API call instructs Golioth to set the `"counter"` path using the `json_buf`
-which is `strlen(json_buf)` long (the null terminator is not counted). This is
-an async function (although a sync version is also available) so the
+API call instructs Golioth to set the `"counter"` path using content type
+`GOLIOTH_CONTENT_TYPE_JSON`. We pass the function the `json_buf` pointer to the
+data which is `strlen(json_buf)` long (the null terminator is not counted). This
+is an async function (although a sync version is also available) so the
 `counter_set_handler` function is registered as a callback with no callback
 argument (`NULL`) specified.
 
