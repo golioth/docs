@@ -35,7 +35,7 @@ hardware.
 
 | Vendor           | SDK                  | Quickstart | Note |
 | ---------------- | -------------------- | ---------- | ---- |
-| Multiple Vendors | [Golioth Zephyr SDK](https://github.com/golioth/golioth-zephyr-sdk)     | [Golioth Zephyr Build Environment](/getting-started/device-examples/compile-example-code/zephyr) | Golioth supports a multitude of MCUs thanks to the cross-vendor support of Zephyr! Follow this quickstart and substitute your board name in the build examples. |
+| Multiple Vendors | [Golioth Firmware SDK](https://github.com/golioth/golioth-firmware-sdk) | [Golioth Zephyr Build Environment](/getting-started/device-examples/compile-example-code/zephyr) | Full support for the Zephyr real-time operating system (RTOS) which delivers extensive cross-vendor support |
 | Espressif        | [Golioth Firmware SDK](https://github.com/golioth/golioth-firmware-sdk) | [Golioth ESP-IDF Build Environment](/getting-started/device-examples/compile-example-code/esp-idf) | Use for ESP32 MCUs |
 | Espressif        | [Golioth Zephyr SDK](https://github.com/golioth/golioth-zephyr-sdk)     | [Golioth Zephyr Build Environment](/getting-started/device-examples/compile-example-code/zephyr) | Use for ESP32 MCUs |
 | Infineon         | [Golioth Firmware SDK](https://github.com/golioth/golioth-firmware-sdk) | ModusToolbox&trade; [Readme](https://github.com/golioth/golioth-firmware-sdk/tree/main/examples/modus_toolbox) / [Webinar](https://blog.golioth.io/a-recap-of-how-to-collect-data-from-iot-sensors-using-golioth-and-the-infineon-modustoolbox/) | Use for Infineon MCUs like PSoC6 |
@@ -52,11 +52,11 @@ us](mailto:hello@golioth.io).
 
 :::
 
-### Beta Platform Support
+### Deprecated Platform Support
 
 | Vendor     | SDK                  | Quickstart | Note |
 | ---------- | -------------------- | ---------- | ---- |
-| Zephyr | [Golioth Firmware SDK](https://github.com/golioth/golioth-firmware-sdk) | Golioth Firmware SDK: [Zephyr Beta Support Readme](https://github.com/golioth/golioth-firmware-sdk/tree/main/examples/zephyr)  | The [Golioth Zephyr SDK](https://github.com/golioth/golioth-zephyr-sdk) already delivers support for Zephyr RTOS. We are actively working on Zephyr support in the Golioth Firmware SDK. The beta is currently open for testing. |
+| Multiple Vendors | [Golioth Zephyr SDK](https://github.com/golioth/golioth-zephyr-sdk)     | [Golioth Zephyr Build Environment](/getting-started/device-examples/compile-example-code/zephyr) | Zephyr support is now included in the [Golioth Firmware SDK](https://github.com/golioth/golioth-firmware-sdk/tree/main/examples/zephyr).<br /><ul><li>All new projects should utilize that SDK.</li><li>Existing projects should migrate to the Golioth Firmware SDK.  A [Migration Guide](https://github.com/golioth/golioth-firmware-sdk/blob/main/docs/Migration_Guide_Zephyr.md) Guide is available to assist in the process.</li></ul> |
 
 ## Navigation
 
