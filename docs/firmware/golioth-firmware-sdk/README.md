@@ -1,5 +1,7 @@
 ---
 title: Golioth Firmware SDK
+sidebar_position: 2
+collapsed: false
 ---
 
 The [Golioth Firmware SDK (Software Development
@@ -12,14 +14,16 @@ embedded operating systems.
 The Golioth Firmware SDK has built-in support for the following operating
 systems:
 
+* [Zephyr RTOS](https://github.com/zephyrproject-rtos/zephyr)
 * [Espressif IoT Development Framework](https://idf.espressif.com/) (ESP-IDF)
 * [Infineon ModusToolbox&trade;](https://www.infineon.com/cms/en/design-support/tools/sdk/modustoolbox-software/)
 * Linux
 
-:::tip Zephyr Support
+:::tip Zephyr Support Included!
 
-Golioth currently provides top-tier support for Zephyr RTOS through our [Golioth
-Zephyr SDK](/firmware/zephyr-device-sdk/).
+Golioth now includes our top-tier Zephyr RTOS support alongside all other
+platforms using a single [Golioth
+Firmware SDK](https://github.com/golioth/golioth-firmware-sdk).
 
 :::
 
