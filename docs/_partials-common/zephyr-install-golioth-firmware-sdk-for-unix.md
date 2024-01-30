@@ -1,5 +1,7 @@
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import CodeBlock from '@theme/CodeBlock';
+import FirmwareSdkVer from '!!raw-loader!/docs/_versions/golioth-firmware-sdk.md';
 
 With `west` installed, grab the Zephyr SDK:
 
@@ -7,12 +9,14 @@ With `west` installed, grab the Zephyr SDK:
 Depending on your internet and I/O speed, `west update` can take upwards of 5 or 10 minutes.
 :::
 
-```
-cd ~
-west init -m https://github.com/golioth/golioth-firmware-sdk.git --mr v0.9.0 --mf west-zephyr.yml ~/golioth-zephyr-workspace
+<CodeBlock language="console">
+{
+`cd ~
+west init -m https://github.com/golioth/golioth-firmware-sdk.git --mr ${FirmwareSdkVer.replace(/(\n)/gm, "")} --mf west-zephyr.yml ~/golioth-zephyr-workspace
 cd golioth-zephyr-workspace
-west update
-```
+west update`
+}
+</CodeBlock>
 
 Tell `west` to automatically configure CMake:
 
