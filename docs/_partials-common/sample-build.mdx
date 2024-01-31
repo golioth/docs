@@ -15,24 +15,30 @@ values={[
 <TabItem value="linux">
 
 <CodeBlock language="bash">
-cd ~/golioth-zephyr-workspace/zephyr
-west build -b {props.board} samples/basic/minimal -p
+{
+`cd ~/golioth-zephyr-workspace/zephyr
+west build -b ${props.board} samples/basic/minimal -p`
+}
 </CodeBlock>
 
 </TabItem>
 <TabItem value="macos">
 
 <CodeBlock language="bash">
-cd ~/golioth-zephyr-workspace/zephyr
-west build -b {props.board} samples/basic/minimal -p
+{
+`cd ~/golioth-zephyr-workspace/zephyr
+west build -b ${props.board} samples/basic/minimal -p`
+}
 </CodeBlock>
 
 </TabItem>
 <TabItem value="windows">
 
 <CodeBlock language="bash">
-cd C:\golioth-zephyr-workspace\zephyr
-west build -b {props.board} samples\basic\minimal -p
+{
+`cd C:\\golioth-zephyr-workspace\\zephyr
+west build -b ${props.board} samples\\basic\\minimal -p`
+}
 </CodeBlock>
 
 </TabItem>
