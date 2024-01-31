@@ -20,13 +20,17 @@ Even though we haven't pulled down Zephyr yet, we can create the virtual environ
 down Zephyr.
 
 <CodeBlock>
-python3 -m venv ~/{props.workspace_directory}/.venv
+{
+`python3 -m venv ~/${props.workspace_directory}/.venv`
+}
 </CodeBlock>
 
 Activate the virtual environment:
 
 <CodeBlock>
-source ~/{props.workspace_directory}/.venv/bin/activate
+{
+`source ~/${props.workspace_directory}/.venv/bin/activate`
+}
 </CodeBlock>
 
 Whenever the virtual environment is active, your shell's prompt will be prefixed with `(.venv)`.
