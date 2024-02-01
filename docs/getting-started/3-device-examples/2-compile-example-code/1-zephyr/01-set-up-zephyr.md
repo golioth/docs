@@ -12,30 +12,30 @@ preferred chip will work with Zephyr using Golioth as a module.
 This section will guide you through installing the Zephyr tree (including the
 Golioth SDK) in a directory called `golioth-zephyr-workspace`.
 
-### Install West
+## Install Dependencies and West
 
-import SetupZephyr from '/docs/_partials-common/setup-zephyr.md'
+import SetupWest from '/docs/_partials-common/zephyr-setup-dependencies.md'
 
-<SetupZephyr/>
+<SetupWest workspace_directory="golioth-zephyr-workspace"/>
 
-### Install Golioth Firmware SDK
+## Install Golioth Firmware SDK
 
 import InstallGoliothSDK from '/docs/_partials-common/zephyr-install-golioth-firmware-sdk.md'
 
 <InstallGoliothSDK/>
 
-### Installing the Zephyr SDK Toolchain
+## Installing the Zephyr SDK Toolchain
 
 import InstallZephyrSDKtoolchain from '/docs/_partials-common/install-zephyr-sdk-toolchain.md'
 
 <InstallZephyrSDKtoolchain/>
 
-### Install Device Specific Packages and Programming Tools
+## Install Device Specific Packages and Programming Tools
 
 Zephyr is a cross-vendor operating system and may require additional packages
 and tools based on your specific hardware.
 
-#### Device Specific Examples:
+### Device Specific Examples:
 
 - Espressif support in Zephyr requires binary blob installation:
 

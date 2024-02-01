@@ -15,11 +15,11 @@ Zephyr project.
 This section will guide you through installing NCS and the Zephyr tree
 (including the Golioth SDK) in a directory called `golioth-ncs-workspace`.
 
-### Install West
+### Install Dependencies and West
 
-import SetupWestNRF91 from '/docs/_partials-common/setup-west-nrf91.md'
+import SetupWest from '/docs/_partials-common/zephyr-setup-dependencies.md'
 
-<SetupWestNRF91/>
+<SetupWest workspace_directory="golioth-ncs-workspace"/>
 
 ### Installing the Golioth Firmware SDK for NCS
 
