@@ -18,7 +18,7 @@ import SetupEspIdf from '/docs/_partials-common/install-espidf.md'
 
 ### Install Golioth Firmware SDK
 
-import InstallFirmwareSDK from '/docs/_partials-common/install-golioth-firmware-sdk.md'
+import InstallFirmwareSDK from '/docs/_partials-common/espidf-install-golioth-firmware-sdk.md'
 
 <InstallFirmwareSDK/>
 
