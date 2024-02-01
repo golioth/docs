@@ -33,10 +33,10 @@ values={[
 
     <CodeBlock>
     { `## cmd.exe` + "\n" }
-    { `${props.workspace_directory}\.venv\Scripts\activate.bat` + "\n" }
+    { `${props.workspace_directory}\\.venv\\Scripts\\activate.bat` + "\n" }
     { "\n" }
     { `## PowerShell` + "\n" }
-    { `${props.workspace_directory}\.venv\Scripts\Activate.ps1` + "\n" }
+    { `${props.workspace_directory}\\.venv\\Scripts\\Activate.ps1` + "\n" }
     </CodeBlock>
 
     Once activated your shell will be prefixed with `(.venv)`. The virtual
@@ -75,13 +75,3 @@ values={[
 
 </TabItem>
 </Tabs>
-
-:::note
-
-Using the VS Code extension in conjunction with the nRF Connect for Desktop
-tools may move you outside many of the other recommended methods of compiling
-your firmware, described on this docs page and elsewhere on Golioth. If you're
-having problems with your Windows install, please contact us on [the Golioth
-Forum](https://forum.golioth.io).
-
-:::

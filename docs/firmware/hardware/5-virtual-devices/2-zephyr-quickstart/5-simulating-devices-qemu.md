@@ -5,7 +5,7 @@ title: Simulating devices with QEMU
 
 ### Install West
 
-import SetupZephyr from '/docs/_partials-common/setup-zephyr.md'
+import SetupZephyr from '/docs/_partials-common/zephyr-setup-dependencies.md'
 
 <SetupZephyr/>
 
