@@ -38,63 +38,6 @@ These instructions must be run in a `cmd.exe` command prompt. The required comma
 
 ### Install West
 
-`west` is the Zephyr "meta tool" that will allow you to build firmware, install packages, and flash firmware. There are various dependencies required, depending upon your operating system (OS), because `west` is Python based.
+import SetupZephyrWindows from './setup-zephyr-windows.md'
 
-<Tabs
-groupId="west-installation"
-defaultValue="virtualenv"
-values={[
-{label: 'Install within a virtualenv', value: 'virtualenv'},
-{label: 'Install globally', value: 'global'},
-]}>
-
-
-<TabItem value="virtualenv">
-
-1. Create a new virtual environment:
-    ```
-    cd %HOMEPATH%
-    python -m venv golioth-ncs-workspace\.venv
-    ```
-
-2. Activate the virtual environment:
-    ```
-    :: cmd.exe
-    golioth-ncs-workspace\.venv\Scripts\activate.bat
-
-    :: PowerShell
-    golioth-ncs-workspace\.venv\Scripts\Activate.ps1
-
-    ```
-
-    Once activated your shell will be prefixed with `(.venv)`. The virtual environment can be deactivated at any time by running `deactivate`.
-
-    :::tip Reactivate for each new session
-    Remember to activate the virtual environment every time you start working.
-    :::
-
-
-3. Install west:
-
-    ```shell
-    pip install west
-    ```
-
-</TabItem>
-<TabItem value="global">
-
-1. Install west:
-
-    ```shell
-    pip3 install -U west
-    ```
-
-</TabItem>
-</Tabs>
-
-
-:::note
-
-Using the VS Code extension in conjuction with the nRF Connect for Desktop tools may move you outside many of the other recommended methods of compiling your firmware, described on this docs page and elsewhere on Golioth. If you're having problems with your Windows install, please contact us on [the Golioth Forum](https://forum.golioth.io).
-
-:::
+<SetupZephyrWindows workspace_directory="golioth-ncs-workspace" />
