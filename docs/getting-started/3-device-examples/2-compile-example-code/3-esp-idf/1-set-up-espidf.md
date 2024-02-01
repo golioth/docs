@@ -12,7 +12,7 @@ the process of installing both the ESP-IDF and the Golioth Firmware SDK.
 
 ### Install ESP-IDF
 
-import SetupEspIdf from '/docs/_partials-common/install-espidf.md'
+import SetupEspIdf from '/docs/_partials-common/espidf-install.md'
 
 <SetupEspIdf/>
 
@@ -24,12 +24,12 @@ import InstallFirmwareSDK from '/docs/_partials-common/espidf-install-golioth-fi
 
 ### Set the ESP IDF environment variables
 
-import InstallEspIdfEnv from '/docs/_partials-common/install-espidf-environment.md'
+import InstallEspIdfEnv from '/docs/_partials-common/espidf-install-environment.md'
 
 <InstallEspIdfEnv/>
 
 ### Sample build
 
-import SampleBuild from '/docs/_partials-common/install-sample-build.md'
+import SampleBuild from '/docs/_partials-common/espidf-install-sample-build.md'
 
 <SampleBuild />
