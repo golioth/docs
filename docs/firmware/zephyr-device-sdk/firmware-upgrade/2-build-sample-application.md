@@ -3,6 +3,10 @@ title: Over-the-Air (OTA) Update Walkthrough
 sidebar_position: 2
 ---
 
+import Deprecated from '/docs/_partials-common/deprecation-warning-zephyr-sdk.md'
+
+<Deprecated/>
+
 Over-the-Air (OTA) updates are a type of Device Firmware Upgrade (DFU); for this
 sample let's consider the two terms synonymous. In this page we'll walk through
 the DFU sample found in [the Golioth Zephyr (and NCS)

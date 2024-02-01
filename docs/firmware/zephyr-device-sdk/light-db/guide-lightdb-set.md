@@ -3,6 +3,10 @@ title: LightDB Set Request
 sidebar_position: 4
 ---
 
+import Deprecated from '/docs/_partials-common/deprecation-warning-zephyr-sdk.md'
+
+<Deprecated/>
+
 The [LightDB Set sample
 application](https://github.com/golioth/golioth-zephyr-sdk/tree/main/samples/lightdb/set)
 demonstrates how to send resources to LightDB State using the Golioth SDK. Data

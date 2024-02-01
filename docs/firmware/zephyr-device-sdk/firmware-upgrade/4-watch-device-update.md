@@ -3,6 +3,10 @@ title: Monitor A Device Update
 sidebar_position: 2
 ---
 
+import Deprecated from '/docs/_partials-common/deprecation-warning-zephyr-sdk.md'
+
+<Deprecated/>
+
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 

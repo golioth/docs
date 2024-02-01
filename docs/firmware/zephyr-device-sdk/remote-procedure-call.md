@@ -3,6 +3,10 @@ title: Remote Procedure Call (RPC)
 sidebar_position: 7
 ---
 
+import Deprecated from '/docs/_partials-common/deprecation-warning-zephyr-sdk.md'
+
+<Deprecated/>
+
 The Golioth Remote Procedure Call (RPC) allows a server-side command to execute
 a function on the remote device, including supplying input parameters and
 receiving output data from the function. RPC is handy for things like executing

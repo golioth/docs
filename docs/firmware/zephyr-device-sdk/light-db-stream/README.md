@@ -3,6 +3,10 @@ title: LightDB Stream Client Overview
 sidebar_position: 1
 ---
 
+import Deprecated from '/docs/_partials-common/deprecation-warning-zephyr-sdk.md'
+
+<Deprecated/>
+
 LightDB Stream is a persistent database service hosted by Golioth. The LightDB
 Stream service can be used to create time series data that can be extracted
 using utilities described in the [Command Line

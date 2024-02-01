@@ -5,6 +5,10 @@ sidebar_position: 1
 
 # Certificate Authentication with Golioth
 
+import Deprecated from '/docs/_partials-common/deprecation-warning-zephyr-sdk.md'
+
+<Deprecated/>
+
 Golioth uses the X.509 standard with the Elliptic Curve Digital Signature
 Algorithm (ECDSA) for certificate authentication. This delivers much more
 robust security compared to Pre-Shared Key (PSK) authentication.
@@ -41,7 +45,7 @@ For testing we will use `openssl` to generate a self-signed root certificate.
 ```shell
 SERVER_NAME='golioth'
 
-# Generate an elliptic curve private key 
+# Generate an elliptic curve private key
 # Run `openssl ecparam -list_curves` to list all available algorithms
 # Keep this key safe! Anyone who has it can sign authentic-looking device certificates
 openssl ecparam -name prime256v1 -genkey -noout -out "${SERVER_NAME}.key.pem"

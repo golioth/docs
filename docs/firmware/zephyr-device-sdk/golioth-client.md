@@ -3,6 +3,10 @@ title: Golioth Client
 sidebar_position: 1.5
 ---
 
+import Deprecated from '/docs/_partials-common/deprecation-warning-zephyr-sdk.md'
+
+<Deprecated/>
+
 The Golioth Client runs in its own thread and handles all communications with
 the Golioth Cloud. Your program must instantiate and start a Golioth Client,
 registering callbacks as needed.

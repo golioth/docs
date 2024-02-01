@@ -3,6 +3,10 @@ title: LightDB State Client Overview
 sidebar_position: 1
 ---
 
+import Deprecated from '/docs/_partials-common/deprecation-warning-zephyr-sdk.md'
+
+<Deprecated/>
+
 LightDB is a state-based database service hosted by Golioth. It can be used to
 create applications involving resource state. Device state such as LED on/off,
 door lock position, or thermostat settings are easy to manage using the Golioth

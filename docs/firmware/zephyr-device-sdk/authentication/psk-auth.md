@@ -3,6 +3,10 @@ title: PSK Authentication
 sidebar_position: 1
 ---
 
+import Deprecated from '/docs/_partials-common/deprecation-warning-zephyr-sdk.md'
+
+<Deprecated/>
+
 If you have already worked through the [Getting Started
 Guide](/getting-started), you are familiar with creating device credentials
 using the Golioth Console (or the `goliothctl` command line tool). Credentials
