@@ -28,8 +28,8 @@ west build -p auto -b  nrf9160dk_nrf9160_ns samples/basic/minimal
 <TabItem value="windows">
 
 ```console
-cd %HOMEPATH%/golioth-ncs-workspace/zephyr
-west build -p auto -b  nrf9160dk_nrf9160_ns samples/basic/minimal
+cd %HOMEPATH%\golioth-ncs-workspace\zephyr
+west build -p auto -b  nrf9160dk_nrf9160_ns samples\basic\minimal
 ```
 
 </TabItem>

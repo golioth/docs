@@ -33,14 +33,14 @@ import FirmwareSdkVer from '!!raw-loader!/docs/_versions/golioth-firmware-sdk.md
     <TabItem value="virtualenv">
 
     ```
-    pip install -r C:\golioth-zephyr-workspace\zephyr\scripts\requirements.txt
+    pip install -r %HOMEPATH%\golioth-zephyr-workspace\zephyr\scripts\requirements.txt
     ```
 
     </TabItem>
     <TabItem value="global">
 
     ```
-    pip3 install -r C:\golioth-zephyr-workspace\zephyr\scripts\requirements.txt
+    pip3 install -r %HOMEPATH%\golioth-zephyr-workspace\zephyr\scripts\requirements.txt
     ```
 
     </TabItem>

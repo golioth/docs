@@ -3,7 +3,7 @@ import TabItem from '@theme/TabItem';
 
 ```
 cd %HOMEPATH%
-west init -m https://github.com/golioth/golioth-firmware-sdk.git --mr v0.9.0 --mf west-ncs.yml %HOMEPATH%/golioth-ncs-workspace
+west init -m https://github.com/golioth/golioth-firmware-sdk.git --mr v0.9.0 --mf west-ncs.yml %HOMEPATH%\golioth-ncs-workspace
 cd golioth-ncs-workspace
 west update
 ```
@@ -26,14 +26,14 @@ values={[
 <TabItem value="virtualenv">
 
 ```
-pip install -r %HOMEPATH%/golioth-ncs-workspace/zephyr/scripts/requirements.txt
+pip install -r %HOMEPATH%\golioth-ncs-workspace\zephyr\scripts\requirements.txt
 ```
 
 </TabItem>
 <TabItem value="global">
 
 ```
-pip3 install -r %HOMEPATH%/golioth-ncs-workspace/zephyr/scripts/requirements.txt
+pip3 install -r %HOMEPATH%\golioth-ncs-workspace\zephyr\scripts\requirements.txt
 ```
 
 </TabItem>
