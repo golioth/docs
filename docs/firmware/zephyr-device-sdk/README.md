@@ -7,8 +7,10 @@ title: Golioth Zephyr SDK
 This section documents the deprecated "Golioth Zephyr SDK". All support for
 Zephyr RTOS has been moved to the [Golioth Firmware
 SDK](https://github.com/golioth/golioth-firmware-sdk). Please use that for all
-new projects and follow the Migration Guide to update existing projects. There
-will be no further support or updates to this repository after July 31, 2024.
+new projects and follow [the Migration
+Guide](https://github.com/golioth/golioth-firmware-sdk/blob/main/docs/Migration_Guide_Zephyr.md)
+to update existing projects. There will be no further support or updates to this
+repository after July 31, 2024.
 
 - Documentation for the [Golioth Firmware SDK](/firmware/golioth-firmware-sdk/)
   (includes Zephyr support)
