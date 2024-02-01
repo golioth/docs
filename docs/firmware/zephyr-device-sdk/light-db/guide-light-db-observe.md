@@ -3,6 +3,10 @@ title: LightDB Observe Request
 sidebar_position: 3
 ---
 
+import Deprecated from '/docs/_partials-common/deprecation-warning-zephyr-sdk.md'
+
+<Deprecated/>
+
 The [LightDB Observe sample
 application](https://github.com/golioth/golioth-zephyr-sdk/tree/main/samples/lightdb/observe)
 demonstrates how to use the Golioth Zephyr SDK to register a LightDB State

@@ -3,6 +3,10 @@ title: Device Settings Service
 sidebar_position: 1.7
 ---
 
+import Deprecated from '/docs/_partials-common/deprecation-warning-zephyr-sdk.md'
+
+<Deprecated/>
+
 The Golioth Device Settings Service enables you to update settings for all
 devices in your fleet at the same time. The service can also target device
 groups by hardware blueprint, and individual devices. This is ideal for common

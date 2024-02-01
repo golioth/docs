@@ -4,6 +4,10 @@ sidebar_position: 1
 slug: /firmware/device-sdk/firmware-upgrade
 ---
 
+import Deprecated from '/docs/_partials-common/deprecation-warning-zephyr-sdk.md'
+
+<Deprecated/>
+
 This section will guide you through Over-The-Air (OTA) firmware updates for
 embedded devices using the Golioth Device Firmware Update (DFU) service. The
 Golioth Zephyr SDK includes DFU sample code which runs on all Continuously

@@ -3,6 +3,10 @@ title: Device Authentication
 sidebar_position: 1
 ---
 
+import Deprecated from '/docs/_partials-common/deprecation-warning-zephyr-sdk.md'
+
+<Deprecated/>
+
 TLS & DTLS are the basis for our device authentication service as well as how
 the device authenticates a Golioth instance. The diagram below illustrates how
 the device's credentials (either an X.509 Certificate or a Pre-Shared Key pair)

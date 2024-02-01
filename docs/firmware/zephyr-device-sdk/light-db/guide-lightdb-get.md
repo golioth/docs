@@ -3,6 +3,10 @@ title: LightDB Get Request
 sidebar_position: 2
 ---
 
+import Deprecated from '/docs/_partials-common/deprecation-warning-zephyr-sdk.md'
+
+<Deprecated/>
+
 The [LightDB Get sample
 application](https://github.com/golioth/golioth-zephyr-sdk/tree/main/samples/lightdb/get)
 demonstrates how to retrieve resources from LightDB State using the Golioth

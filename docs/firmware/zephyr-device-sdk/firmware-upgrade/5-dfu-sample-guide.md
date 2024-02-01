@@ -2,6 +2,10 @@
 title: DFU Sample Code Review
 ---
 
+import Deprecated from '/docs/_partials-common/deprecation-warning-zephyr-sdk.md'
+
+<Deprecated/>
+
 Golioth has [a Device Firmware Update (DFU) sample
 application](https://github.com/golioth/golioth-zephyr-sdk/tree/main/samples/dfu)
 that demonstrates how to connect with Golioth for an Over-the-Air (OTA) update.
