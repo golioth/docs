@@ -3,48 +3,49 @@ import TabItem from '@theme/TabItem';
 import CodeBlock from '@theme/CodeBlock';
 import FirmwareSdkVer from '!!raw-loader!/docs/_versions/golioth-firmware-sdk.md';
 
-With `west` installed, grab the Zephyr SDK:
+1. With `west` installed, grab the Zephyr SDK:
 
-:::info
-Depending on your internet and I/O speed, `west update` can take upwards of 5 or 10 minutes.
-:::
+    <CodeBlock language="console">
+        { `cd ~` + "\n" }
+        { `west init -m https://github.com/golioth/golioth-firmware-sdk.git --mr ${FirmwareSdkVer.replace(/(\n)/gm, "")} --mf west-zephyr.yml ~/golioth-zephyr-workspace` + "\n" }
+        { `cd golioth-zephyr-workspace` + "\n" }
+        { `west update` }
+    </CodeBlock>
 
-<CodeBlock language="console">
-{
-`cd ~
-west init -m https://github.com/golioth/golioth-firmware-sdk.git --mr ${FirmwareSdkVer.replace(/(\n)/gm, "")} --mf west-zephyr.yml ~/golioth-zephyr-workspace
-cd golioth-zephyr-workspace
-west update`
-}
-</CodeBlock>
+    :::info
 
-Tell `west` to automatically configure CMake:
+    Depending on your internet and I/O speed, `west update` can take upwards of
+    5 or 10 minutes.
 
-```
-west zephyr-export
-```
+    :::
 
-Install the remaining dependencies:
+2. Tell `west` to automatically configure CMake:
 
-<Tabs
-groupId="west-installation"
-defaultValue="virtualenv"
-values={[
-{label: 'Install within a virtualenv', value: 'virtualenv'},
-{label: 'Install globally', value: 'global'},
-]}>
-<TabItem value="virtualenv">
+    ```
+    west zephyr-export
+    ```
 
-```
-pip install -r ~/golioth-zephyr-workspace/zephyr/scripts/requirements.txt
-```
+3. Install the remaining dependencies:
 
-</TabItem>
-<TabItem value="global">
+    <Tabs
+    groupId="west-installation"
+    defaultValue="virtualenv"
+    values={[
+    {label: 'Install within a virtualenv', value: 'virtualenv'},
+    {label: 'Install globally', value: 'global'},
+    ]}>
+    <TabItem value="virtualenv">
 
-```
-pip3 install -r ~/golioth-zephyr-workspace/zephyr/scripts/requirements.txt
-```
+    ```
+    pip install -r ~/golioth-zephyr-workspace/zephyr/scripts/requirements.txt
+    ```
 
-</TabItem>
-</Tabs>
+    </TabItem>
+    <TabItem value="global">
+
+    ```
+    pip3 install -r ~/golioth-zephyr-workspace/zephyr/scripts/requirements.txt
+    ```
+
+    </TabItem>
+    </Tabs>
