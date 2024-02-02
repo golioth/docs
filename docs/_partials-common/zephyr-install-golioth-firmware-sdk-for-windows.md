@@ -9,6 +9,7 @@ import FirmwareSdkVer from '!!raw-loader!/docs/_versions/golioth-firmware-sdk.md
         { `cd c:\\` + "\n" }
         { `west init -m https://github.com/golioth/golioth-firmware-sdk.git --mr ${FirmwareSdkVer.replace(/(\n)/gm, "")} --mf west-zephyr.yml golioth-zephyr-workspace` + "\n" }
         { `cd golioth-zephyr-workspace` + "\n" }
+        { `git submodule update --init --recursive` + "\n" }
         { `west update` }
     </CodeBlock>
 
