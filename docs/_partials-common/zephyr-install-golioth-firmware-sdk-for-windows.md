@@ -6,13 +6,17 @@ import FirmwareSdkVer from '!!raw-loader!/docs/_versions/golioth-firmware-sdk.md
 1. With `west` installed, download the Zephyr SDK:
 
     <CodeBlock language="console">
-        {`cd c:\\` + "\n"}
-        {`west init -m https://github.com/golioth/golioth-firmware-sdk.git --mr ${FirmwareSdkVer.replace(/(\n)/gm, "")} --mf west-zephyr.yml golioth-zephyr-workspace` + "\n"}
-        {`west update`}
+        { `cd c:\\` + "\n" }
+        { `west init -m https://github.com/golioth/golioth-firmware-sdk.git --mr ${FirmwareSdkVer.replace(/(\n)/gm, "")} --mf west-zephyr.yml golioth-zephyr-workspace` + "\n" }
+        { `cd golioth-zephyr-workspace` + "\n" }
+        { `west update` }
     </CodeBlock>
 
     :::info
-    Depending on your internet and I/O speed, `west update` can take upwards of 5 or 10 minutes.
+
+    Depending on your internet and I/O speed, `west update` can take upwards of
+    5 or 10 minutes.
+
     :::
 
 2. Tell `west` to automatically configure CMake:
