@@ -1,8 +1,6 @@
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-With `west` installed, grab the Golioth NCS SDK:
-
 <Tabs
 groupId="os"
 defaultValue="linux"

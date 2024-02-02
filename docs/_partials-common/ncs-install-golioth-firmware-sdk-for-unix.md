@@ -1,40 +1,44 @@
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import CodeBlock from '@theme/CodeBlock';
+import FirmwareSdkVer from '!!raw-loader!/docs/_versions/golioth-firmware-sdk.md';
 
-```
-cd ~
-west init -m https://github.com/golioth/golioth-firmware-sdk.git --mr v0.9.0 --mf west-ncs.yml ~/golioth-ncs-workspace
-cd golioth-ncs-workspace
-west update
-```
+1. With `west` installed, grab the Golioth NCS SDK:
 
-Tell `west` to automatically configure CMake:
+    <CodeBlock language="console">
+        { `cd ~` + "\n" }
+        { `west init -m https://github.com/golioth/golioth-firmware-sdk.git --mr ${FirmwareSdkVer.replace(/(\n)/gm, "")} --mf west-ncs.yml ~/golioth-ncs-workspace` + "\n" }
+        { `cd golioth-ncs-workspace` + "\n" }
+        { `west update` }
+    </CodeBlock>
 
-```
-west zephyr-export
-```
+2. Tell `west` to automatically configure CMake:
 
-Lastly, install the remaining dependencies:
+    ```
+    west zephyr-export
+    ```
 
-<Tabs
-groupId="west-installation"
-defaultValue="global"
-values={[
-{label: 'Install within a virtualenv', value: 'virtualenv'},
-{label: 'Install globally', value: 'global'},
-]}>
-<TabItem value="virtualenv">
+3. Lastly, install the remaining dependencies:
 
-```
-pip install -r ~/golioth-ncs-workspace/zephyr/scripts/requirements.txt
-```
+    <Tabs
+    groupId="west-installation"
+    defaultValue="global"
+    values={[
+    {label: 'Install within a virtualenv', value: 'virtualenv'},
+    {label: 'Install globally', value: 'global'},
+    ]}>
+    <TabItem value="virtualenv">
 
-</TabItem>
-<TabItem value="global">
+    ```
+    pip install -r ~/golioth-ncs-workspace/zephyr/scripts/requirements.txt
+    ```
 
-```
-pip3 install -r ~/golioth-ncs-workspace/zephyr/scripts/requirements.txt
-```
+    </TabItem>
+    <TabItem value="global">
 
-</TabItem>
-</Tabs>
+    ```
+    pip3 install -r ~/golioth-ncs-workspace/zephyr/scripts/requirements.txt
+    ```
+
+    </TabItem>
+    </Tabs>
