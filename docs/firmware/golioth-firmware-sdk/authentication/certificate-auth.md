@@ -65,9 +65,9 @@ converted to the `DER` binary format for use with the Golioth Firmware SDK.
 
 ```shell
 PROJECT_SLUG='your-golioth-projectID'
-DEVICE_NAME='choose-a-unique-name-for-this-device'
+CERTIFICATE_ID='choose-a-unique-identifier-for-this-device'
 SERVER_NAME='golioth'
-CLIENT_NAME="${PROJECT_SLUG}-${DEVICE_NAME}"
+CLIENT_NAME="${PROJECT_SLUG}-${CERTIFICATE_ID}"
 
 # Generate an elliptic curve private key
 openssl ecparam -name prime256v1 -genkey -noout -out "${CLIENT_NAME}.key.pem"
@@ -76,7 +76,7 @@ openssl ecparam -name prime256v1 -genkey -noout -out "${CLIENT_NAME}.key.pem"
 # (this is what you would normally give to your CA / PKI to sign)
 openssl req -new \
     -key "${CLIENT_NAME}.key.pem" \
-    -subj "/C=BR/O=${PROJECT_SLUG}/CN=${DEVICE_NAME}" \
+    -subj "/C=BR/O=${PROJECT_SLUG}/CN=${CERTIFICATE_ID}" \
     -out "${CLIENT_NAME}.csr.pem"
 
 # Sign the certificate (CSR) using the previously generated self-signed root certificate
@@ -95,11 +95,11 @@ openssl ec -in ${CLIENT_NAME}.key.pem -outform DER -out ${CLIENT_NAME}.key.der
 
 This will generate the following files:
 
-* **Signed device certificate:** `<projectID>-<device-name>.crt.pem`
-* **Signed device certificate (DER):** `<projectID>-<primary-hardware-ID>.crt.der`
-* **Certificate Signing Request:** `<projectID>-<primary-hardware-ID>.csr.pem`
-* **Private device key:** `<projectID>-<primary-hardware-ID>.key.pem`
-* **Private device key (DER):** `<projectID>-<primary-hardware-ID>.key.der`
+* **Signed device certificate:** `<projectID>-<certificate-ID>.crt.pem`
+* **Signed device certificate (DER):** `<projectID>-<certificate-ID>.crt.der`
+* **Certificate Signing Request:** `<projectID>-<certificate-ID>.csr.pem`
+* **Private device key:** `<projectID>-<certificate-ID>.key.pem`
+* **Private device key (DER):** `<projectID>-<certificate-ID>.key.der`
 
 ## Position the certificates
 
@@ -179,8 +179,12 @@ new device credentials and you are the only one who should have access to it.
 With the public root certificate uploaded to Golioth, and the device
 certificate/key in use in your firmware, your device will automatically connect
 and authenticate to your project. Look in the [Golioth Web
-Console](https://console.golioth.io) to verify a device matching the
-`DEVICE_NAME` you supplied when creating device credentials is now
-present:
+Console](https://console.golioth.io) to verify a device with a name that either matches or is prefixed by the `CERTIFICATE_ID` you supplied when creating the device credential:
 
 ![New device added using Certificate Authentication](../../assets/cert-auth-new-device-added.jpg)
+
+But note that the Device Name attribute is mutable and you can change it to another name at any time. The important field to correctly associate your device to that certificate is the **immutable** Certificate ID field shown in the Summary Page of the device. Click on the device name link to see the summary page as follows:
+
+![Device Certificate ID on summary page](../../assets/device-summary-certificate-id.jpg)
+
+This Certificate ID field is unique across an entire project and is used to associate a device with a certificate during authentication.

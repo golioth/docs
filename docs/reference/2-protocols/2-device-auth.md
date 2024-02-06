@@ -59,13 +59,13 @@ To verify the *Valid From* and *Valid Until* timestamps, your device will need t
 
 ### Client Authentication
 
-Before you can use client authentication, you will need to upload one or more trusted root or intermediate certificates to your Golioth project.
+Before you can use device authentication based on certificates, you will need to upload one or more trusted root or intermediate certificates to your Golioth project.
 
 To successfully authenticate a device, your device will need to present a certificate signed by one of the root or intermediate certificates.
 
 The device's client certificate will need to have the following values configured properly:
 
 * Subject Organization (O) needs to match your Project ID (project slug).
-* Subject Common Name (CN) needs to be a unique string identifying the device, and will be used as a Primary Device ID
+* Subject Common Name (CN) needs to be a unique string identifying the device, and will be used as a Device Certificate ID property.
 
-If the prerequisites above are met, your device will be automatically provisioned upon first connection to Golioth, and will be allowed to connect.
+If the prerequisites above are met, when your device first connects to Golioth it will either be authenticated and authorized to interact with the platform, or automatically provisioned if it does not exist yet in the Project.
