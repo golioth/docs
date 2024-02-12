@@ -8,7 +8,7 @@ import FirmwareSdkVer from '!!raw-loader!/docs/_versions/golioth-firmware-sdk.md
     <CodeBlock language="console">
         { `cd ~` + "\n" }
         { `west init -m https://github.com/golioth/golioth-firmware-sdk.git --mr ${FirmwareSdkVer.replace(/(\n)/gm, "")} --mf west-ncs.yml ~/golioth-ncs-workspace` + "\n" }
-        { `cd golioth-ncs-workspace` + "\n" }
+        { `cd golioth-ncs-workspace/modules/lib/golioth-firmware-sdk` + "\n" }
         { `git submodule update --init --recursive` + "\n" }
         { `west update` }
     </CodeBlock>
