@@ -191,6 +191,6 @@ Console](https://console.golioth.io) to verify a device with a name that either 
 
 But note that the Device Name attribute is mutable and you can change it to another name at any time. The important field to correctly associate your device to that certificate is the **immutable** Certificate ID field shown in the Summary Page of the device. Click on the device name link to see the summary page as follows:
 
-![Device Certificate ID on summary page]](../../assets/device-summary-certificate-id.jpg)
+![Device Certificate ID on summary page](../../assets/device-summary-certificate-id.jpg)
 
 This Certificate ID field is unique across an entire project and it's used to retrieve a device in a project whenever a certificate is used to authenticate a real device.
