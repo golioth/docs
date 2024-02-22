@@ -12,7 +12,7 @@ Our platform provides functionality for tracking your devices logs, so you can h
 
 An endpoint is provided on our gateways on the `/logs` path where the device can send log data. Right now only the CoAP gateway is available to use this service.
 
-Data can be sent using query parameters and also on the message body. The message body can be send in CBOR or JSON format and is going to be parsed and we will try to identify the known attributes as presented bellow. If the body is sent as plain text, it will be saved as the log entry message.
+Data can be sent using query parameters and also on the message body. The message body can be send in CBOR or JSON format and is going to be parsed and we will try to identify the known attributes as presented below. If the body is sent as plain text, it will be saved as the log entry message.
 
 > See [CoAP Gateway Interface](/reference/protocols/coap/logging)
 
