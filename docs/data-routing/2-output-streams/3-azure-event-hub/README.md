@@ -17,17 +17,14 @@ For each Output Stream type, there is a set of specify attributes. Here are the 
 
 To use this integration, you need to create an Event Hub on Azure and get the connection string and topic.
 
-1. **Create and Event Hub:** Follow [Microsoft's Azure Quickstart](https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-create) to get started and create an event hub. Golioth uses the event hub topic name to connect
-
-  ![Creating an Azure Event Hub](../../assets/output-streams_azure-event-hub-connect.png)
-
-2. **Create a send policy:** Click the **+ Add** button. Enter a policy name, select Send, and click Create
-
-    ![Creating an Azure Event Hub](../../assets/output-streams_azure-event-hub-shared-access.png)
-
-3. **Get the connection string:** Click on the send policy you created. Copy the "Connection string–primary key" to use on Golioth
-
-  ![Creating an Azure Event Hub](../../assets/output-streams_azure-event-hub-send-policy.png)
+1. **Create and Event Hub:** Follow [Microsoft's Azure
+   Quickstart](https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-create)
+   to get started and create an event hub. Golioth uses the event hub topic name
+   to connect
+2. **Create a send policy:** Click the **+ Add** button. Enter a policy name,
+   select Send, and click Create
+3. **Get the connection string:** Click on the send policy you created. Copy the
+   "Connection string–primary key" to use on Golioth
 
 ### Example
 

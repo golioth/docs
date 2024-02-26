@@ -74,6 +74,3 @@ Here is an example of an event arriving on SQS. The payload is going to be insid
   }
 }
 ```
-
-![Message on AWS SQS](./assets/msg-header.png)
-![Message on AWS SQS](./assets/msg-body.png)
