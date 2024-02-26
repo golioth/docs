@@ -43,62 +43,39 @@ to get started if you don't already have an InfluxDB Cloud account.
 
 ### 2. Get your API token from your InfluxDB Cloud account
 
-From the navigation in the InfluxDB Cloud console, click the `API Token` link.
+From the navigation in the InfluxDB Cloud console:
 
-![Navigating to tokens](./assets/load-data-menu.png)
+1. Click the `API Token` link.
+2. Click the `Generate GENERATE API TOKEN` button.
+3. From the drop down menu after clicking the button, select `Custom API Token`.
+4. Complete the form by giving the new token a description and giving it
+   read/write permissions for the bucket where you're measurements are going.
 
-Next, click the `Generate GENERATE API TOKEN` button.
-
-![Generate token button](./assets/generate-token.png)
-
-From the drop down menu after clicking the button, select `Custom API Token`.
-
-![Select custom API token](./assets/generate-token-button.png)
-
-Finally, complete the form by giving the new token a description and giving it
-read/write permissions for the bucket where you're measurements are going.
-
-![Create token form](./assets/token-create-form.png)
 
 ### 3. Get your bucket name from your InfluxDB Cloud account
 
-Go to your list of buckets by clicking the `Buckets` link in the navigation.
-
-![Navigating to bucket](./assets/buckets.png)
-
-Identify the bucket to use for your InfluxDB Output Stream.
+Go to your list of buckets by clicking the `Buckets` link in the navigation and
+identify the bucket to use for your InfluxDB Output Stream.
 
 ### 4. Get the InfluxDB URL for your InfluxDB Cloud organization
 
 From the InfluxDB Cloud console, click your organization and from the drop-down
-menu select `Settings`.
-
-![Navigating to org settings](./assets/org-settings-menu.png)
-
-From the organization settings page, find the `Cluster URL` field and click the
-`COPY TO CLIPBOARD` button.
-
-![Copying cluster URL](./assets/cluster-url.png)
+menu select `Settings`. From the organization settings page, find the `Cluster
+URL` field and click the `COPY TO CLIPBOARD` button.
 
 ### 5. Create an InfluxDB Output Stream in the Golioth console
 
 From the `Select an Output Stream Type` page, select `InfluxDB`.
 
-![Select InfluxDB Output Stream](./assets/select-outputstream.png)
-
 In the `Create a new Output Stream` form, enter the following:
 
 * **Name**: The name you want to give to your Output Stream
-* **Event Type Filter**: select `DEVICE_STREAM_TYPE` from the list of types (the
-  InfluxDB Output Stream is currently limited to stream events only)
-* **InfluxDB URL**: Paste the `Cluster URL` you copied from your InfluxDB Cloud org
-  settings
+* **InfluxDB URL**: Paste the `Cluster URL` you copied from your InfluxDB Cloud
+  org settings
 * **InfluxDB token**: Paste the InfluxDB Cloud API token
-* **InfluxDB bucket**: the name of an existing InfluxDB Cloud bucket where you want
-  to send your events
+* **InfluxDB bucket**: the name of an existing InfluxDB Cloud bucket where you
+  want to send your events
 * **InfluxDB measurement name**: The name of the InfluxDB measurement
-
-![Complete create Output Stream form](./assets/create-outputstream-form.png)
 
 ## Example Data
 

@@ -75,25 +75,14 @@ db.createCollection(
 
 You can create your timeseries collection from the Atlas console.
 
-From the collections pages, click the `plus` sign next to the database name.
+From the collections page:
 
-![Click plus next to database](./assets/create-collection-button.png)
-
-Next, you will see the `Create Collection` form.
-
-![Create collection form](./assets/create-collection-form.png)
-
-In the `Collection name` field, give your collection a name (e.g. `events`).
-Then, in the `Additional Preferences` dropdown, select `Time Series Collection`.
-
-![Select timeseries as collection type](./assets/choosing-timeseries-additional-prefs.png)
-
-Provide names for the `timeField` and `metaField` form fields. You will use
-these fields when you create the outputstream in the Golioth console.
-
-![Specifying timeField and MetaField](./assets/timefield-metafield-form.png)
-
-Finally, click the `Create` button.
+1. Click the `plus` icon next to the database name.
+2. In the `Collection name` field, give your collection a name (e.g. `events`).
+3. In the `Additional Preferences` dropdown, select `Time Series Collection`.
+4. Provide names for the `timeField` and `metaField` form fields. You will use
+   these fields when you create the outputstream in the Golioth console.
+5. Click `Create`.
 
 ### 4. Get the MongoDB connection string
 
@@ -106,46 +95,34 @@ default.
 #### Atlas deployment
 
 If you're using an Atlas deployment, you can get the connection string from the
-Atlas console. From the `Database Deployments` screen, click the `Connect`
-button.
+Atlas console.
 
-![Connect button](./assets/atlas-connect-button.png)
+From the `Database Deployments` screen:
 
-Next, under `Access your data through tools`, select `Compass`.
-
-Finally, copy the connection string without a trailing slash.
-
-![Connection string](./assets/atlas-connection-string.png)
+1. Click the `Connect` button.
+2. Under `Access your data through tools`, select `Compass`.
+3. Copy the connection string without a trailing slash.
 
 ### 5. Add Golioth IP Address to Access List (MongoDB Atlas)
+
 In order for Golioth to send your events to your MongoDB timeseries collection,
 you will need to add Golioth's IP address to your MongoDB Atlas IP Access List.
 
-From the left-hand navigation in the Atlas console, click the `Network Access`
-link.
+From the left-hand navigation in the Atlas console:
 
-![Network access in Atlas](./assets/atlas-network-access.png)
-
-From the `Network Access` screen, click the `ADD IP ADDRESS` button.
-
-![Add ip address](./assets/add-ip-address.png)
-
-Add `34.136.157.127/32` to the `Access List Entry` field, and optionally add a
-comment, e.g. "Golioth". Then click `Confirm`.
-
-![IP access list entry](./assets/ip-access-list-entry.png)
+1. Click the `Network Access` link.
+2. Click the `ADD IP ADDRESS` button.
+3. Add `34.136.157.127/32` to the `Access List Entry` field, and optionally add
+   a comment, e.g. "Golioth".
+4. Click `Confirm`.
 
 ### 6. Create an MongoDB Output Stream in the Golioth console
 
 From the `Select an Output Stream Type` page, select `MongoDB`.
 
-![Select MongoDB Output Stream](./assets/select-outputstream.png)
-
 In the `Create a new Output Stream` form, enter the following:
 
 * **Name**: The name you want to give to your Output Stream
-* **Event Type Filter**: select `DEVICE_STREAM_TYPE` from the list of types (the
-  MongoDB Output Stream is currently limited to stream events only)
 * **Connection String**: Paste the `Connection String` you copied for your
   MongoDB cluster
 * **Database**: the name of an existing MongoDB database where you want to send
@@ -156,7 +133,7 @@ In the `Create a new Output Stream` form, enter the following:
 * **Metafield**: the name of the field containing metadata in your timeseries
   document (your deviceId and projectId will be populated here)
 
-![Complete create Output Stream form](./assets/create-outputstream-form.png)
+After entering the necessary information, click `Save`.
 
 ## Example Data
 

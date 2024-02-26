@@ -33,31 +33,25 @@ Follow [GCP's PubSub using the console](https://cloud.google.com/pubsub/docs/cre
 
 In the Google Cloud Console, go to the Create service account page.
 
-![Finding GCP service account page](./assets/gcp-iam-create-service-acc.png)
-
-- Select your project.
-- In the Service account name field, enter a name. The Cloud Console fills in the Service account ID field based on this name.
-- In the Service account description field, enter a description. (e.g. Service account for quickstart)
-- Click Create and continue.
+1. Select your project.
+2. In the Service account name field, enter a name. The Cloud Console fills in the Service account ID field based on this name.
+3. In the Service account description field, enter a description. (e.g. Service account for quickstart)
+4. Click Create and continue.
 
 To provide access to your project, grant the following role(s) to your service account: Pub/Sub > Pub/Sub Admin
 
-- Click the Select a role field, then select the first (or only) role.
-- For additional roles, click Add another role and add each additional role.
-- Click Done and check your new service account in the list
-
-  [![Created GCP service account](./assets/gcp-created-service-acc.png)](./assets/gcp-created-service-acc.png)
+1. Click the Select a role field, then select the first (or only) role.
+2. For additional roles, click Add another role and add each additional role.
+3. Click Done and check your new service account in the list.
 
 ### 3. Create a Key to the service account
 
 Open the details of the service account you just created by clicking the Email field.
 
-![Detailing GCP service account](./assets/gcp-detailing-service-acc.png)
-
-- Click the Keys tab.
-- Click Add key, then click Create new key.
-- Select JSON option and click Create. A JSON key file is downloaded to your computer.
-- Click Close
+1. Click the Keys tab.
+2. Click Add key, then click Create new key.
+3. Select JSON option and click Create. A JSON key file is downloaded to your computer.
+4. Click Close.
 
 An example of a Service Account Key content:
 
@@ -78,29 +72,20 @@ An example of a Service Account Key content:
 
 ### 4. Get the full topic name
 
-In the Cloud Console, go to the PubSub entry in the left sidebar and select Topics.
-
-![Getting the pubsub topic name](./assets/gcp-pubsub-topic-name.png)
-
-Copy the full topic name which will be used in the Golioth configuration.
+In the Cloud Console, go to the PubSub entry in the left sidebar and select
+Topics. Copy the full topic name which will be used in the Golioth
+configuration.
 
 ### 5. In the Golioth Console, create a GCP PubSub output stream
 
 Go the [Golioth Platform](https://console.golioth.io), log in and select your Project.
 
-- Go to the Output Streams Page and click Create an Output Stream
-
-  ![Selecting the pubsub output stream option](./assets/golioth-gcp-output-stream.png)
-
-- Select the GCP PubSub option
-
-  ![Creating the pubsub output stream option](./assets/golioth-creating-pubsub-output-stream.png)
-
-- Enter a name for the output stream
-- Select the Event Types you want to send to GCP PubSub
-- Copy all the JSON content from the service account key created and paste into the Service Account Field (It's a secret field so you'll see as an encrypted data after pasting)
-- Finally, copy the full topic name and paste into Topic Name field
-- Click Save
+1. Go to the Output Streams Page and click Create an Output Stream.
+2. Select the GCP PubSub option.
+3. Enter a name for the output stream.
+4. Copy all the JSON content from the service account key created and paste into the Service Account Field.
+5. Finally, copy the full topic name and paste into Topic Name field.
+6. Click Save.
 
 ## Example Data
 
@@ -111,20 +96,17 @@ Here is an example of an event arriving on PubSub. The payload will be inside a 
 ```json
 {
   "specversion": "1.0",
-  "id": "69eb4038-bd7d-46c6-885a-cc05152591f4",
+  "id": "aa12dc4c-c5ed-4b46-92e5-5a726f4daa81",
   "source": "golioth/app/gateway/coap",
-  "type": "DEVICE_LOG_ENTRY_TYPE",
-  "subject": "logs",
+  "type": "DEVICE_STREAM_TYPE",
+  "subject": "stream",
   "datacontenttype": "application/json",
-  "time": "2022-03-04T21:59:15.474642199Z",
+  "time": "2022-01-27T16:17:06.458868Z",
   "data": {
-    "device_id": "61b0b02e95fd466888055ca4",
-    "level": 1,
-    "message": "Testing Output Stream - GCP PubSub",
-    "metadata": { },
-    "module": "wired",
-    "project_id": "test",
-    "timestamp": { "nanos": 832993323, "seconds": 1646431154 }
+    "data": { "temp": 32 },
+    "device_id": "612d3cecf3ee17d321adbec6",
+    "project_id": "my-first-project",
+    "timestamp": { "nanos": 174295000, "seconds": 1643300226 }
   }
 }
 ```
