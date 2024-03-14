@@ -43,8 +43,7 @@ later](by-object#custom-timestamps).
 
 JSON payloads may be formatted using simple `snprintf()` style string
 substitution or a library like [cJSON](https://github.com/DaveGamble/cJSON).
-Here is a properly-formatted JSON example using all of the key-value pair
-examples from [the type-based stream examples](by-type#synchronous):
+Here is a properly-formatted JSON example:
 
 ```c
 /* Create a valid JSON string */
