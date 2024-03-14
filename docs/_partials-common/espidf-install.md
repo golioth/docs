@@ -26,7 +26,7 @@ sudo apt-get install git wget flex bison gperf python3 python3-venv \
 ```console
 mkdir -p ~/esp
 cd ~/esp
-git clone --recursive https://github.com/espressif/esp-idf.git -b v5.1.1
+git clone --recursive https://github.com/espressif/esp-idf.git -b v5.2.1
 cd esp-idf
 ./install.sh all
 ```
@@ -49,7 +49,7 @@ sudo easy_install pip
 ```console
 mkdir -p ~/esp
 cd ~/esp
-git clone --recursive https://github.com/espressif/esp-idf.git -b v5.1.1
+git clone --recursive https://github.com/espressif/esp-idf.git -b v5.2.1
 cd esp-idf
 ./install.sh all
 ```
