@@ -29,12 +29,5 @@ offered by Golioth:
 ## LightDB API
 
 The [Golioth Firmware SDK](https://github.com/golioth/golioth-firmware-sdk)
-includes numerous functions for working with stream data. They can be grouped
-into two categories:
-
-* Type-based functions that send one data point at a time
-* Object-based functions that send data structures
-
-These categories are described in-depth in the pages to follow. Please review
-the Golioth Firmware SDK Doxygen site for [a comprehensive LightDB API
-reference](https://firmware-sdk-docs.golioth.io/group__golioth__lightdb.html).
+includes functions for working with stream data. These are described in depth
+in the next page.
