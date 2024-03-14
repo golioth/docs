@@ -27,20 +27,19 @@ you will have an IoT test fleet connected and sending data to the cloud today.
 
 ## Using Golioth with your IoT Hardware
 
-Golioth offers two device SDKs that support a wide range of hardware. Here is
-some guidance on what to use when setting up a development environment for your
-hardware.
+Golioth offers a [Firmware SDK](https://github.com/golioth/golioth-firmware-sdk)
+that supports a variety of popular RTOSes and development frameworks. For each of
+these platforms we continously (via CI) test our SDK against a representative
+sample of boards that each platform supports.
 
 ### Platform Support
 
-| Vendor           | SDK                  | Quickstart | Note |
-| ---------------- | -------------------- | ---------- | ---- |
-| Multiple Vendors | [Golioth Firmware SDK](https://github.com/golioth/golioth-firmware-sdk) | [Golioth Zephyr Build Environment](/getting-started/device-examples/compile-example-code/zephyr) | Full support for the Zephyr real-time operating system (RTOS) which delivers extensive cross-vendor support |
-| Espressif        | [Golioth Firmware SDK](https://github.com/golioth/golioth-firmware-sdk) | [Golioth ESP-IDF Build Environment](/getting-started/device-examples/compile-example-code/esp-idf) | Use for ESP32 MCUs |
-| Espressif        | [Golioth Zephyr SDK](https://github.com/golioth/golioth-zephyr-sdk)     | [Golioth Zephyr Build Environment](/getting-started/device-examples/compile-example-code/zephyr) | Use for ESP32 MCUs |
-| Infineon         | [Golioth Firmware SDK](https://github.com/golioth/golioth-firmware-sdk) | ModusToolbox&trade; [Readme](https://github.com/golioth/golioth-firmware-sdk/tree/main/examples/modus_toolbox) / [Webinar](https://blog.golioth.io/a-recap-of-how-to-collect-data-from-iot-sensors-using-golioth-and-the-infineon-modustoolbox/) | Use for Infineon MCUs like PSoC6 |
-| Nordic           | [Golioth Zephyr SDK](https://github.com/golioth/golioth-zephyr-sdk)     | [Golioth NCS Build Environment](/getting-started/device-examples/compile-example-code/zephyr-ncs) | Use for Nordic MCUs like nRF9160 and nRF7002 |
-| NXP              | [Golioth Zephyr SDK](https://github.com/golioth/golioth-zephyr-sdk)     | [Golioth Zephyr Build Environment](/getting-started/device-examples/compile-example-code/zephyr) | Use for NXP MCUs like i.MX RT1062 and i.MX RT1024 |
+| Platform            | Quickstart | Note |
+| ------------------- | ---------- | ---- |
+| Zephyr RTOS         | [Golioth Zephyr Build Environment](/getting-started/device-examples/compile-example-code/zephyr) | Full support for the Zephyr real-time operating system (RTOS) which delivers extensive cross-vendor support. We test against boards from Nordic, NXP, and Espressif |
+| nRF Connect SDK     | [Golioth NCS Build Environment](/getting-started/device-examples/compile-example-code/zephyr-ncs) | Nordic's fork of Zephyr that includes proprietary features and functionality built on top of the upstream Zephyr project |
+| ESP-IDF             | [Golioth ESP-IDF Build Environment](/getting-started/device-examples/compile-example-code/esp-idf) | Espressif's IoT Development Framework for use with their ESP32 line of microcontrollers |
+| ModusToolbox&trade; | [Readme](https://github.com/golioth/golioth-firmware-sdk/tree/main/examples/modus_toolbox) / [Webinar](https://blog.golioth.io/a-recap-of-how-to-collect-data-from-iot-sensors-using-golioth-and-the-infineon-modustoolbox/) | Infineon's IDE that also provides a FreeRTOS based development framework for use with their microcontrollers, including the PSoC series |
 
 :::info Don't see your hardware listed?
 
@@ -54,9 +53,11 @@ us](mailto:hello@golioth.io).
 
 ### Deprecated Platform Support
 
-| Vendor     | SDK                  | Quickstart | Note |
-| ---------- | -------------------- | ---------- | ---- |
-| Multiple Vendors | [Golioth Zephyr SDK](https://github.com/golioth/golioth-zephyr-sdk)     | [Golioth Zephyr Build Environment](/getting-started/device-examples/compile-example-code/zephyr) | Zephyr support is now included in the [Golioth Firmware SDK](https://github.com/golioth/golioth-firmware-sdk/tree/main/examples/zephyr).<br /><ul><li>All new projects should utilize that SDK.</li><li>Existing projects should migrate to the Golioth Firmware SDK.  A [Migration Guide](https://github.com/golioth/golioth-firmware-sdk/blob/main/docs/Migration_Guide_Zephyr.md) Guide is available to assist in the process.</li></ul> |
+Golioth previously provided a standalone SDK specifically for the Zephyr RTOS.
+Our best and latest support for Zephyr is now found in the Firmware SDK. All
+new projects should utilize that SDK. Existing projects should migrate to the
+Golioth Firmware SDK. A [Migration Guide](https://github.com/golioth/golioth-firmware-sdk/blob/main/docs/Migration_Guide_Zephyr.md)
+is available to assist you in the process.
 
 ## Navigation
 
