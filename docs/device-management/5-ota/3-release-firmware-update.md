@@ -3,7 +3,10 @@ id: release-firmware-update
 title: Releasing Firmware Updates
 ---
 
-To make a firmware update available to your devices, you must first create a Release. A release is a set of artifact versions that are available. Here is an example of a command to create a release with the artifact that we created earlier:
+To make a firmware update available to your devices, you must first create a
+Release. A release is a set of artifact versions that are available. Here is an
+example of a command to create a release with the artifact that we created
+earlier:
 
 ```
 # Filtering artifacts with nrf91 blueprint
@@ -12,7 +15,8 @@ $ goliothctl dfu release create --release-tags v1 --components main@1.0.1 --roll
 $ goliothctl dfu release create --release-tags v1 --components main@1.0.1 --rollout true
 ```
 
-Now you can check on our Web Console for the created releases and see the releases `1.0.0` in the list.
+Now you can check on our Web Console for the created releases and see the
+releases `1.0.0` in the list.
 
 ![Releases](./assets/release-no-tags.png)
 
