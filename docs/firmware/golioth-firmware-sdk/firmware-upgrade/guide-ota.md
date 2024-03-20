@@ -63,7 +63,7 @@ uploading the binary update to Golioth.
   Basics](https://github.com/golioth/golioth-firmware-sdk/blob/main/examples/common/golioth_basics.c)
   demonstrates the OTA update process.
 * The Zephyr port includes [a standalone DFU
-  sample](https://github.com/golioth/golioth-firmware-sdk/tree/main/examples/zephyr/dfu).
+  sample](https://github.com/golioth/golioth-firmware-sdk/tree/main/examples/zephyr/fw_update).
 
 ## Resources
 
