@@ -1,8 +1,4 @@
----
-id: overview
-title: Over-the-Air (OTA) Updates Overview
-slug: /device-management/ota
----
+# Over-the-Air (OTA) Updates
 
 The Golioth Over-the-Air (OTA) firmware update service enables quick, secure
 deployment of firmware packages to IoT devices throughout the world. The Golioth

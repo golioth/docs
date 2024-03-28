@@ -1,8 +1,4 @@
----
-id: overview
-title: Settings Overview
-slug: /device-management/settings
----
+# Settings
 
 ## What is the Settings Service?
 
