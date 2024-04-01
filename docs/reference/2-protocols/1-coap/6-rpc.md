@@ -74,4 +74,3 @@ the RPC and any data returned by the function:
     - `float`
     - `integer`
     - `string`
-
