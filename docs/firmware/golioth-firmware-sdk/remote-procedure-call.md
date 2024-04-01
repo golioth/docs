@@ -76,7 +76,7 @@ the Golioth servers indicating that the RPC was successful, or an error status
 indicating why it was not. There are a number of different error status messages
 that can be returned. View the `golioth_rpc_status` enumeration [in the Golioth
 Firmware SDK
-reference](https://zephyr-sdk-docs.golioth.io/group__golioth__rpc.html) for
+reference](https://firmware-sdk-docs.golioth.io/group__golioth__rpc.html) for
 more information.
 
 ## Summary
