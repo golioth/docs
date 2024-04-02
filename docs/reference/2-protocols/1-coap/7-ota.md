@@ -9,7 +9,7 @@ How to use guides:
 
 - [OTA Overview](/device-management/ota)
 
-### Interface
+## Interface
 
 | Method      | Description                                                                                                       | Path                        |
 | ----------- | ----------------------------------------------------------------------------------------------------------------- | --------------------------- |
@@ -22,7 +22,7 @@ How to use guides:
 The desired release version returned in the manifest will be the most recently created release that is enabled.
 :::
 
-### Release Manifest Format
+## Release Manifest Format
 
 Here is an example of a release manifest in JSON format:
 
@@ -57,9 +57,22 @@ When data is CBOR encoded, the keys are sent as numbers to reduce the size of th
 | `components.$.uri`     | 5               | Relative URI to download binary                          |
 | `components.$.type`    | 6               | Binary Detected Type - "mcuboot" or "default"            |
 
-### Firmware/Artifact State Reporting parameters and attributes
+## Firmware/Artifact State Reporting parameters and attributes
 
-These are the query/body parameters that can be sent when reporting a given firmware/artifact state. When the device reports states for it's components, we will use these parameters to determine the current state of the device in regards to DFU and also save the historical information on our Device Logs feature, so you can query information for your fleet of device. Data is saved on the `golioth_dfu` module.
+A number of parameters are available when the device reports its firmware state
+to the Golioth server. Here is an example payload that indicates the device is
+currently downloading an update of the `main` package; going from the current
+`version` to the `target` version:
+
+```json
+{
+  "state": 3,
+  "reason": 0,
+  "package": "main",
+  "version": "1.2.3",
+  "target": "1.2.4"
+}
+```
 
 | Attribute          | Description                                                                     | Default         |
 | ------------------ | ------------------------------------------------------------------------------- | --------------- |
@@ -69,7 +82,7 @@ These are the query/body parameters that can be sent when reporting a given firm
 | `version` or `v`   | Running firmware/artifact version                                               |                 |
 | `target` or `t`    | Target firmware/artifact version                                                |                 |
 
-#### Firmware States
+### Firmware States
 
 | Code | Description |
 | ---- | ----------- |
@@ -78,17 +91,12 @@ These are the query/body parameters that can be sent when reporting a given firm
 | 2    | Downloaded  |
 | 3    | Updated     |
 
-#### Firmware Report Reason
+- The list of `state` codes, can be viewed in the
+  [golioth_ota_state](https://firmware-sdk-docs.golioth.io/group__golioth__ota.html)
+  enum on the Golioth Firmware SDK doxygen reference.
 
-| Code | Description                                          |
-| ---- | ---------------------------------------------------- |
-| 0    | ready state                                          |
-| 1    | firmware updated successfully                        |
-| 2    | not enough flash memory for the new firmware package |
-| 3    | out of RAM during downloading process                |
-| 4    | connection lost during downloading process           |
-| 5    | integrity check failure for new downloaded package   |
-| 6    | unsupported package type                             |
-| 7    | invalid URI                                          |
-| 8    | firmware update failed                               |
-| 9    | unsupported protocol                                 |
+### Firmware Report Reason
+
+- For a full list of `state` codes, please see the
+  [golioth_ota_reason](https://firmware-sdk-docs.golioth.io/group__golioth__ota.html)
+  enum on the Golioth Firmware SDK doxygen reference.
