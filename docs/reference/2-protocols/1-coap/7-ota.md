@@ -97,6 +97,6 @@ currently downloading an update of the `main` package; going from the current
 
 ### Firmware Report Reason
 
-- For a full list of `state` codes, please see the
+- For a full list of `reason` codes, please see the
   [golioth_ota_reason](https://firmware-sdk-docs.golioth.io/group__golioth__ota.html)
   enum on the Golioth Firmware SDK doxygen reference.
