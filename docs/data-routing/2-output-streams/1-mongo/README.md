@@ -157,8 +157,7 @@ Data,
       "seconds": 1682614592,
       "nanos": 987338334
     },
-    "project_id": "64230895aff1018f3aacabab",
-    "integration_id": "644aa93df9021bf366e0a255",
+    "project_id": "my-first-project",
     "data": {
       "hello": "world"
     }
@@ -171,8 +170,7 @@ We transform the above CloudEvent to the following BSON document:
 {
     timestamp: 2023-08-15T21:27:06.219+00:00,
     metadata: {
-        device_id: "62def0a5316b32515f36fe2e",
-        project_id: "64230895aff1018f3aacabab",
+        project_id: "my-first-project",
     },
     _id: ObjectId('64dbedaa2ee9615b83f21576'),
     data: {
