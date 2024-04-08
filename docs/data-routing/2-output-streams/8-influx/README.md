@@ -99,8 +99,7 @@ Data,
       "seconds": 1682614592,
       "nanos": 987338334
     },
-    "project_id": "64230895aff1018f3aacabab",
-    "integration_id": "644aa93df9021bf366e0a255",
+    "project_id": "my-first-project",
     "data": {
       "hello": "world"
     }
@@ -110,5 +109,5 @@ Data,
 We transform the above CloudEvent to the following line protocol:
 
 ```
-GoliothEvent,{"project_id"="64230895aff1018f3aacabab","integration_id"="644aa93df9021bf366e0a255"} "hello=world" 1682614592
+GoliothEvent,{"project_id"="my-first-project"} "hello=world" 1682614592
 ```
