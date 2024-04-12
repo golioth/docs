@@ -1,10 +1,10 @@
 ---
 id: xtensa_esp32_devkitc_wrover
 title: ESP32-DevkitC-WROVER-E
-slug: /firmware/hardware/catalog/boards/unverified/xtensa_esp32_devkitc_wrover
-description: IoT board ESP32-DevkitC-WROVER-E, compatible with Golioth at unverified level.
+slug: /firmware/hardware/catalog/boards/continuously-verified/xtensa_esp32_devkitc_wrover
+description: IoT board ESP32-DevkitC-WROVER-E, compatible with Golioth at continuously-verified level.
 image: /img/boards/xtensa/esp32_devkitc_wrover.jpg
-sidebar_class_name: hide-item
+
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
@@ -14,13 +14,16 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `esp32_devkitc_wrover` |
-| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
-| Architecture   | XTENSA |
+| Golioth Level  | [Continuously verified](/firmware/hardware#continuously-verified-boards) |
+| Golioth Quickstart | [esp32_devkitc_wrover quickstart](/getting-started/device-examples/compile-example-code/) || Architecture   | XTENSA |
 | RAM*           | N/A |
 | Flash*         | N/A |
 
 \* values are as reported by Zephyr `.yaml` board files, which don't represent the overall available resources
 
+## Getting started
+
+See our [quickstart guide for ESP32-DevkitC-WROVER-E](/getting-started/device-examples/compile-example-code/).
 
 
 ## Supported features
