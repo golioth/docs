@@ -18,6 +18,10 @@
       "level": "continuously-verified",
       "quickstart": "/getting-started/device-examples/compile-example-code/zephyr-ncs/"
     },
+    "rak5010_nrf52840": {
+      "level": "continuously-verified",
+      "quickstart": "/getting-started/device-examples/compile-example-code/zephyr/"
+    },
     "qemu_cortex_m3": {
       "level": "continuously-verified",
       "quickstart": "/firmware/hardware/virtual-devices/zephyr-quickstart"
