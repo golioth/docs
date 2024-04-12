@@ -59,7 +59,7 @@ ${toolchain.map((tc) => `* ${tc}`).join('\n') || 'List of supported toolchains i
 
 ## Official Zephyr docs
 
-${customDocMD === null ? `[${name} (${boardId})](https://docs.zephyrproject.org/latest/boards/${arch}/${boardId}/doc/index.html)` : `${customDocMD}`}
+${customDocMD === null ? `[${name} (${boardId})](https://docs.zephyrproject.org/3.6.0/boards/${arch}/${boardId}/doc/index.html)` : `${customDocMD}`}
 `;
 }
 
