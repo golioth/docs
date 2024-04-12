@@ -34,7 +34,7 @@
   "sparc": {},
   "x86": {},
   "xtensa": {
-    "esp32": {
+    "esp32_devkitc_wrover": {
       "level": "continuously-verified",
       "quickstart": "/getting-started/device-examples/compile-example-code/"
     }
