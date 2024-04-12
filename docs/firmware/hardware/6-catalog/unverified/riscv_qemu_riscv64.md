@@ -33,4 +33,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[QEMU Emulation for RISC-V 64-bit (qemu_riscv64)](https://docs.zephyrproject.org/latest/boards/riscv/qemu_riscv64/doc/index.html)
+[QEMU Emulation for RISC-V 64-bit (qemu_riscv64)](https://docs.zephyrproject.org/3.6.0/boards/riscv/qemu_riscv64/doc/index.html)

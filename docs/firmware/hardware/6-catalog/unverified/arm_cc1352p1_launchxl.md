@@ -39,4 +39,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[TI SimpleLink CC1352P LaunchPad (cc1352p1_launchxl)](https://docs.zephyrproject.org/latest/boards/arm/cc1352p1_launchxl/doc/index.html)
+[TI SimpleLink CC1352P LaunchPad (cc1352p1_launchxl)](https://docs.zephyrproject.org/3.6.0/boards/arm/cc1352p1_launchxl/doc/index.html)

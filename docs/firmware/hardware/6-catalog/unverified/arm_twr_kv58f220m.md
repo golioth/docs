@@ -35,4 +35,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[NXP TWR-KV58F220M (twr_kv58f220m)](https://docs.zephyrproject.org/latest/boards/arm/twr_kv58f220m/doc/index.html)
+[NXP TWR-KV58F220M (twr_kv58f220m)](https://docs.zephyrproject.org/3.6.0/boards/arm/twr_kv58f220m/doc/index.html)

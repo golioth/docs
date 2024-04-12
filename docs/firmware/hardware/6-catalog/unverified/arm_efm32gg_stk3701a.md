@@ -38,4 +38,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[EFM32GG-STK3701A (efm32gg_stk3701a)](https://docs.zephyrproject.org/latest/boards/arm/efm32gg_stk3701a/doc/index.html)
+[EFM32GG-STK3701A (efm32gg_stk3701a)](https://docs.zephyrproject.org/3.6.0/boards/arm/efm32gg_stk3701a/doc/index.html)

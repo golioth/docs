@@ -37,4 +37,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[STM32F030 DEMO BOARD (stm32f030_demo)](https://docs.zephyrproject.org/latest/boards/arm/stm32f030_demo/doc/index.html)
+[STM32F030 DEMO BOARD (stm32f030_demo)](https://docs.zephyrproject.org/3.6.0/boards/arm/stm32f030_demo/doc/index.html)

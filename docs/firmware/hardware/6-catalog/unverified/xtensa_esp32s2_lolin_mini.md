@@ -35,4 +35,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[Lolin ESP32-S2 Mini (esp32s2_lolin_mini)](https://docs.zephyrproject.org/latest/boards/xtensa/esp32s2_lolin_mini/doc/index.html)
+[Lolin ESP32-S2 Mini (esp32s2_lolin_mini)](https://docs.zephyrproject.org/3.6.0/boards/xtensa/esp32s2_lolin_mini/doc/index.html)

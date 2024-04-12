@@ -33,4 +33,4 @@ List of supported toolchains is not available.
 
 ## Official Zephyr docs
 
-[arty (arty)](https://docs.zephyrproject.org/latest/boards/arm/arty/doc/index.html)
+[arty (arty)](https://docs.zephyrproject.org/3.6.0/boards/arm/arty/doc/index.html)

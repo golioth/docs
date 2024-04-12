@@ -47,4 +47,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[Raytac MDBT50Q_DB_40_NRF52840 (raytac_mdbt50q_db_40_nrf52840)](https://docs.zephyrproject.org/latest/boards/arm/raytac_mdbt50q_db_40_nrf52840/doc/index.html)
+[Raytac MDBT50Q_DB_40_NRF52840 (raytac_mdbt50q_db_40_nrf52840)](https://docs.zephyrproject.org/3.6.0/boards/arm/raytac_mdbt50q_db_40_nrf52840/doc/index.html)

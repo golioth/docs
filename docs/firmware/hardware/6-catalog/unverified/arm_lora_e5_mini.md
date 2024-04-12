@@ -41,4 +41,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[Seeedstudio LoRa-E5 mini (lora_e5_mini)](https://docs.zephyrproject.org/latest/boards/arm/lora_e5_mini/doc/index.html)
+[Seeedstudio LoRa-E5 mini (lora_e5_mini)](https://docs.zephyrproject.org/3.6.0/boards/arm/lora_e5_mini/doc/index.html)

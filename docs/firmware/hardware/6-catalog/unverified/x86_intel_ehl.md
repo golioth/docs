@@ -33,4 +33,4 @@ List of supported toolchains is not available.
 
 ## Official Zephyr docs
 
-[intel_ehl (intel_ehl)](https://docs.zephyrproject.org/latest/boards/x86/intel_ehl/doc/index.html)
+[intel_ehl (intel_ehl)](https://docs.zephyrproject.org/3.6.0/boards/x86/intel_ehl/doc/index.html)

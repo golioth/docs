@@ -36,4 +36,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[HS4xD Development Kit (hsdk4xd)](https://docs.zephyrproject.org/latest/boards/arc/hsdk4xd/doc/index.html)
+[HS4xD Development Kit (hsdk4xd)](https://docs.zephyrproject.org/3.6.0/boards/arc/hsdk4xd/doc/index.html)

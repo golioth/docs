@@ -38,4 +38,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[MXChip AZ3166 IoT Devkit (az3166_iotdevkit)](https://docs.zephyrproject.org/latest/boards/arm/az3166_iotdevkit/doc/index.html)
+[MXChip AZ3166 IoT Devkit (az3166_iotdevkit)](https://docs.zephyrproject.org/3.6.0/boards/arm/az3166_iotdevkit/doc/index.html)

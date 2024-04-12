@@ -40,4 +40,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[QEMU Emulation for X86 (qemu_x86)](https://docs.zephyrproject.org/latest/boards/x86/qemu_x86/doc/index.html)
+[QEMU Emulation for X86 (qemu_x86)](https://docs.zephyrproject.org/3.6.0/boards/x86/qemu_x86/doc/index.html)

@@ -33,4 +33,4 @@ List of supported toolchains is not available.
 
 ## Official Zephyr docs
 
-[intel_rpl (intel_rpl)](https://docs.zephyrproject.org/latest/boards/x86/intel_rpl/doc/index.html)
+[intel_rpl (intel_rpl)](https://docs.zephyrproject.org/3.6.0/boards/x86/intel_rpl/doc/index.html)

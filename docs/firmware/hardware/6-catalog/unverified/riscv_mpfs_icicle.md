@@ -33,4 +33,4 @@ List of supported features is not available.
 
 ## Official Zephyr docs
 
-[Microchip PolarFire ICICLE kit (mpfs_icicle)](https://docs.zephyrproject.org/latest/boards/riscv/mpfs_icicle/doc/index.html)
+[Microchip PolarFire ICICLE kit (mpfs_icicle)](https://docs.zephyrproject.org/3.6.0/boards/riscv/mpfs_icicle/doc/index.html)

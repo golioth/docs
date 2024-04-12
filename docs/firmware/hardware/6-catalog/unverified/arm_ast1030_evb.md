@@ -33,4 +33,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[Aspeed AST1030-EVB (ast1030_evb)](https://docs.zephyrproject.org/latest/boards/arm/ast1030_evb/doc/index.html)
+[Aspeed AST1030-EVB (ast1030_evb)](https://docs.zephyrproject.org/3.6.0/boards/arm/ast1030_evb/doc/index.html)

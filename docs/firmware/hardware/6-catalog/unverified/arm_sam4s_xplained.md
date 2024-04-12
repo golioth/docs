@@ -45,4 +45,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[SAM4S Xplained (sam4s_xplained)](https://docs.zephyrproject.org/latest/boards/arm/sam4s_xplained/doc/index.html)
+[SAM4S Xplained (sam4s_xplained)](https://docs.zephyrproject.org/3.6.0/boards/arm/sam4s_xplained/doc/index.html)

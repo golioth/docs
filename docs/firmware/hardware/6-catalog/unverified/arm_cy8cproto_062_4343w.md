@@ -42,4 +42,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[CY8CPROTO-062-4343W PSoC 6 Wi-Fi BT Prototyping Kit (cy8cproto_062_4343w)](https://docs.zephyrproject.org/latest/boards/arm/cy8cproto_062_4343w/doc/index.html)
+[CY8CPROTO-062-4343W PSoC 6 Wi-Fi BT Prototyping Kit (cy8cproto_062_4343w)](https://docs.zephyrproject.org/3.6.0/boards/arm/cy8cproto_062_4343w/doc/index.html)

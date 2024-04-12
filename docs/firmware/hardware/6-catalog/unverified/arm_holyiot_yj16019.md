@@ -37,4 +37,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[Holyiot YJ-16019 (holyiot_yj16019)](https://docs.zephyrproject.org/latest/boards/arm/holyiot_yj16019/doc/index.html)
+[Holyiot YJ-16019 (holyiot_yj16019)](https://docs.zephyrproject.org/3.6.0/boards/arm/holyiot_yj16019/doc/index.html)

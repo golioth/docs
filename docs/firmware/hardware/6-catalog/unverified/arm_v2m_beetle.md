@@ -35,4 +35,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[V2M Beetle (v2m_beetle)](https://docs.zephyrproject.org/latest/boards/arm/v2m_beetle/doc/index.html)
+[V2M Beetle (v2m_beetle)](https://docs.zephyrproject.org/3.6.0/boards/arm/v2m_beetle/doc/index.html)

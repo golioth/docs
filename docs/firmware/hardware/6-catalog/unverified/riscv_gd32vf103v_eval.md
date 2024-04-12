@@ -39,4 +39,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[GigaDevice GD32VF103V-EVAL (gd32vf103v_eval)](https://docs.zephyrproject.org/latest/boards/riscv/gd32vf103v_eval/doc/index.html)
+[GigaDevice GD32VF103V-EVAL (gd32vf103v_eval)](https://docs.zephyrproject.org/3.6.0/boards/riscv/gd32vf103v_eval/doc/index.html)

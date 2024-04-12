@@ -36,4 +36,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[Decawave-DWM1001-DEV (decawave_dwm1001_dev)](https://docs.zephyrproject.org/latest/boards/arm/decawave_dwm1001_dev/doc/index.html)
+[Decawave-DWM1001-DEV (decawave_dwm1001_dev)](https://docs.zephyrproject.org/3.6.0/boards/arm/decawave_dwm1001_dev/doc/index.html)

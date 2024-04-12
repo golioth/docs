@@ -40,4 +40,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[GigaDevice GD32F450I-EVAL (gd32f450i_eval)](https://docs.zephyrproject.org/latest/boards/arm/gd32f450i_eval/doc/index.html)
+[GigaDevice GD32F450I-EVAL (gd32f450i_eval)](https://docs.zephyrproject.org/3.6.0/boards/arm/gd32f450i_eval/doc/index.html)

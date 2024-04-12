@@ -40,4 +40,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[contextualelectronics_abc (contextualelectronics_abc)](https://docs.zephyrproject.org/latest/boards/arm/contextualelectronics_abc/doc/index.html)
+[contextualelectronics_abc (contextualelectronics_abc)](https://docs.zephyrproject.org/3.6.0/boards/arm/contextualelectronics_abc/doc/index.html)

@@ -35,4 +35,4 @@ List of supported features is not available.
 
 ## Official Zephyr docs
 
-[NXP i.MX8M Mini EVK (mimx8mm_evk)](https://docs.zephyrproject.org/latest/boards/arm/mimx8mm_evk/doc/index.html)
+[NXP i.MX8M Mini EVK (mimx8mm_evk)](https://docs.zephyrproject.org/3.6.0/boards/arm/mimx8mm_evk/doc/index.html)

@@ -39,4 +39,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[GigaDevice GD32F450V-START (gd32f450v_start)](https://docs.zephyrproject.org/latest/boards/arm/gd32f450v_start/doc/index.html)
+[GigaDevice GD32F450V-START (gd32f450v_start)](https://docs.zephyrproject.org/3.6.0/boards/arm/gd32f450v_start/doc/index.html)

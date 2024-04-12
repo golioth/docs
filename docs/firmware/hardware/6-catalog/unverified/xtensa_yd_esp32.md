@@ -44,4 +44,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[YD-ESP32 (yd_esp32)](https://docs.zephyrproject.org/latest/boards/xtensa/yd_esp32/doc/index.html)
+[YD-ESP32 (yd_esp32)](https://docs.zephyrproject.org/3.6.0/boards/xtensa/yd_esp32/doc/index.html)

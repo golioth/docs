@@ -37,4 +37,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[SiFive HiFive1 (hifive1)](https://docs.zephyrproject.org/latest/boards/riscv/hifive1/doc/index.html)
+[SiFive HiFive1 (hifive1)](https://docs.zephyrproject.org/3.6.0/boards/riscv/hifive1/doc/index.html)

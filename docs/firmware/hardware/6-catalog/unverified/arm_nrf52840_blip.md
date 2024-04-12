@@ -38,4 +38,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[Electronut Labs Blip (nrf52840_blip)](https://docs.zephyrproject.org/latest/boards/arm/nrf52840_blip/doc/index.html)
+[Electronut Labs Blip (nrf52840_blip)](https://docs.zephyrproject.org/3.6.0/boards/arm/nrf52840_blip/doc/index.html)

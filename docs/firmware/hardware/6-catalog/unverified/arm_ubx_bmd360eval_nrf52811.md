@@ -45,4 +45,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[UBX_BMD360EVAL_NRF52811 (ubx_bmd360eval_nrf52811)](https://docs.zephyrproject.org/latest/boards/arm/ubx_bmd360eval_nrf52811/doc/index.html)
+[UBX_BMD360EVAL_NRF52811 (ubx_bmd360eval_nrf52811)](https://docs.zephyrproject.org/3.6.0/boards/arm/ubx_bmd360eval_nrf52811/doc/index.html)

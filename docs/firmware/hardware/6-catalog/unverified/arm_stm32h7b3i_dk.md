@@ -42,4 +42,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[ST STM32H7B3I Discovery Kit (stm32h7b3i_dk)](https://docs.zephyrproject.org/latest/boards/arm/stm32h7b3i_dk/doc/index.html)
+[ST STM32H7B3I Discovery Kit (stm32h7b3i_dk)](https://docs.zephyrproject.org/3.6.0/boards/arm/stm32h7b3i_dk/doc/index.html)

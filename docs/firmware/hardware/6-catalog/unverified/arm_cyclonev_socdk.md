@@ -34,4 +34,4 @@ List of supported features is not available.
 
 ## Official Zephyr docs
 
-[Intel Cyclone V SoC FPGA (cyclonev_socdk)](https://docs.zephyrproject.org/latest/boards/arm/cyclonev_socdk/doc/index.html)
+[Intel Cyclone V SoC FPGA (cyclonev_socdk)](https://docs.zephyrproject.org/3.6.0/boards/arm/cyclonev_socdk/doc/index.html)

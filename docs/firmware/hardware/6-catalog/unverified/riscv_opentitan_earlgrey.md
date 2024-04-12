@@ -33,4 +33,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[OpenTitan Earl Grey (opentitan_earlgrey)](https://docs.zephyrproject.org/latest/boards/riscv/opentitan_earlgrey/doc/index.html)
+[OpenTitan Earl Grey (opentitan_earlgrey)](https://docs.zephyrproject.org/3.6.0/boards/riscv/opentitan_earlgrey/doc/index.html)

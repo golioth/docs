@@ -40,4 +40,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[Black STM32 F407VE Development Board (black_f407ve)](https://docs.zephyrproject.org/latest/boards/arm/black_f407ve/doc/index.html)
+[Black STM32 F407VE Development Board (black_f407ve)](https://docs.zephyrproject.org/3.6.0/boards/arm/black_f407ve/doc/index.html)

@@ -46,4 +46,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[NXP VMU RT1170 (vmu_rt1170)](https://docs.zephyrproject.org/latest/boards/arm/vmu_rt1170/doc/index.html)
+[NXP VMU RT1170 (vmu_rt1170)](https://docs.zephyrproject.org/3.6.0/boards/arm/vmu_rt1170/doc/index.html)

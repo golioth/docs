@@ -34,4 +34,4 @@ List of supported features is not available.
 
 ## Official Zephyr docs
 
-[QEMU Emulation for Cortex-A53 (qemu_cortex_a53)](https://docs.zephyrproject.org/latest/boards/arm64/qemu_cortex_a53/doc/index.html)
+[QEMU Emulation for Cortex-A53 (qemu_cortex_a53)](https://docs.zephyrproject.org/3.6.0/boards/arm64/qemu_cortex_a53/doc/index.html)

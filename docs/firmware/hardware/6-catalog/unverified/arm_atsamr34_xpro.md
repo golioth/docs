@@ -45,4 +45,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[SAM R34 Xplained Pro (atsamr34_xpro)](https://docs.zephyrproject.org/latest/boards/arm/atsamr34_xpro/doc/index.html)
+[SAM R34 Xplained Pro (atsamr34_xpro)](https://docs.zephyrproject.org/3.6.0/boards/arm/atsamr34_xpro/doc/index.html)

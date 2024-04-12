@@ -46,4 +46,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[Wiznet W5500 Evaluation Board (w5500_evb_pico)](https://docs.zephyrproject.org/latest/boards/arm/w5500_evb_pico/doc/index.html)
+[Wiznet W5500 Evaluation Board (w5500_evb_pico)](https://docs.zephyrproject.org/3.6.0/boards/arm/w5500_evb_pico/doc/index.html)

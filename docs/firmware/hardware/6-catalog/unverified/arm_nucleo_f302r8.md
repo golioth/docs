@@ -43,4 +43,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[ST Nucleo F302R8 (nucleo_f302r8)](https://docs.zephyrproject.org/latest/boards/arm/nucleo_f302r8/doc/index.html)
+[ST Nucleo F302R8 (nucleo_f302r8)](https://docs.zephyrproject.org/3.6.0/boards/arm/nucleo_f302r8/doc/index.html)

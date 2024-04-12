@@ -38,4 +38,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[Telink TLSR9518ADK80D (tlsr9518adk80d)](https://docs.zephyrproject.org/latest/boards/riscv/tlsr9518adk80d/doc/index.html)
+[Telink TLSR9518ADK80D (tlsr9518adk80d)](https://docs.zephyrproject.org/3.6.0/boards/riscv/tlsr9518adk80d/doc/index.html)

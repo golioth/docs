@@ -36,4 +36,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[Sipeed Longan Nano (longan_nano)](https://docs.zephyrproject.org/latest/boards/riscv/longan_nano/doc/index.html)
+[Sipeed Longan Nano (longan_nano)](https://docs.zephyrproject.org/3.6.0/boards/riscv/longan_nano/doc/index.html)

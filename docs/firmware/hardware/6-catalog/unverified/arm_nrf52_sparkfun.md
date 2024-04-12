@@ -35,4 +35,4 @@ List of supported features is not available.
 
 ## Official Zephyr docs
 
-[Sparkfun nRF52832 breakout (nrf52_sparkfun)](https://docs.zephyrproject.org/latest/boards/arm/nrf52_sparkfun/doc/index.html)
+[Sparkfun nRF52832 breakout (nrf52_sparkfun)](https://docs.zephyrproject.org/3.6.0/boards/arm/nrf52_sparkfun/doc/index.html)

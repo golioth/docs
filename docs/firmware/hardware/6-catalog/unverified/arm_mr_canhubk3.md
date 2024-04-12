@@ -42,4 +42,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[NXP MR-CANHUBK3 (mr_canhubk3)](https://docs.zephyrproject.org/latest/boards/arm/mr_canhubk3/doc/index.html)
+[NXP MR-CANHUBK3 (mr_canhubk3)](https://docs.zephyrproject.org/3.6.0/boards/arm/mr_canhubk3/doc/index.html)

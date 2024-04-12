@@ -42,4 +42,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[Particle Boron (particle_boron)](https://docs.zephyrproject.org/latest/boards/arm/particle_boron/doc/index.html)
+[Particle Boron (particle_boron)](https://docs.zephyrproject.org/3.6.0/boards/arm/particle_boron/doc/index.html)

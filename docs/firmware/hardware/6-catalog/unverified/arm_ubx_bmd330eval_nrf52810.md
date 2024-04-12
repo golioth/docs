@@ -45,4 +45,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[UBX_BMD330EVAL_NRF52810 (ubx_bmd330eval_nrf52810)](https://docs.zephyrproject.org/latest/boards/arm/ubx_bmd330eval_nrf52810/doc/index.html)
+[UBX_BMD330EVAL_NRF52810 (ubx_bmd330eval_nrf52810)](https://docs.zephyrproject.org/3.6.0/boards/arm/ubx_bmd330eval_nrf52810/doc/index.html)

@@ -41,4 +41,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[DA14695_DK_USB (da14695_dk_usb)](https://docs.zephyrproject.org/latest/boards/arm/da14695_dk_usb/doc/index.html)
+[DA14695_DK_USB (da14695_dk_usb)](https://docs.zephyrproject.org/3.6.0/boards/arm/da14695_dk_usb/doc/index.html)

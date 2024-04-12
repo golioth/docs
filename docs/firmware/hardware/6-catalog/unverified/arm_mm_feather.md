@@ -42,4 +42,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[MM MM-FEATHER (mm_feather)](https://docs.zephyrproject.org/latest/boards/arm/mm_feather/doc/index.html)
+[MM MM-FEATHER (mm_feather)](https://docs.zephyrproject.org/3.6.0/boards/arm/mm_feather/doc/index.html)

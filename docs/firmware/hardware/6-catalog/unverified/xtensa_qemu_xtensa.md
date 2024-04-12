@@ -34,4 +34,4 @@ List of supported features is not available.
 
 ## Official Zephyr docs
 
-[QEMU Emulation for Xtensa (qemu_xtensa)](https://docs.zephyrproject.org/latest/boards/xtensa/qemu_xtensa/doc/index.html)
+[QEMU Emulation for Xtensa (qemu_xtensa)](https://docs.zephyrproject.org/3.6.0/boards/xtensa/qemu_xtensa/doc/index.html)

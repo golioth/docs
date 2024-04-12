@@ -33,4 +33,4 @@ List of supported features is not available.
 
 ## Official Zephyr docs
 
-[ACRN (acrn)](https://docs.zephyrproject.org/latest/boards/x86/acrn/doc/index.html)
+[ACRN (acrn)](https://docs.zephyrproject.org/3.6.0/boards/x86/acrn/doc/index.html)

@@ -48,4 +48,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[ST Nucleo F091RC (nucleo_f091rc)](https://docs.zephyrproject.org/latest/boards/arm/nucleo_f091rc/doc/index.html)
+[ST Nucleo F091RC (nucleo_f091rc)](https://docs.zephyrproject.org/3.6.0/boards/arm/nucleo_f091rc/doc/index.html)

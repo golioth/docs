@@ -43,4 +43,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[Native Simulation port - 32-bit (native_sim)](https://docs.zephyrproject.org/latest/boards/posix/native_sim/doc/index.html)
+[Native Simulation port - 32-bit (native_sim)](https://docs.zephyrproject.org/3.6.0/boards/posix/native_sim/doc/index.html)

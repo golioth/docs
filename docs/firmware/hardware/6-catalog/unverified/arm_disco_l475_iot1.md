@@ -52,4 +52,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[ST Disco L475 IOT01 (B-L475E-IOT01A) (disco_l475_iot1)](https://docs.zephyrproject.org/latest/boards/arm/disco_l475_iot1/doc/index.html)
+[ST Disco L475 IOT01 (B-L475E-IOT01A) (disco_l475_iot1)](https://docs.zephyrproject.org/3.6.0/boards/arm/disco_l475_iot1/doc/index.html)

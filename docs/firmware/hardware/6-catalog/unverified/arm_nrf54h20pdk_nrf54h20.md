@@ -33,4 +33,4 @@ List of supported toolchains is not available.
 
 ## Official Zephyr docs
 
-[nrf54h20pdk_nrf54h20 (nrf54h20pdk_nrf54h20)](https://docs.zephyrproject.org/latest/boards/arm/nrf54h20pdk_nrf54h20/doc/index.html)
+[nrf54h20pdk_nrf54h20 (nrf54h20pdk_nrf54h20)](https://docs.zephyrproject.org/3.6.0/boards/arm/nrf54h20pdk_nrf54h20/doc/index.html)

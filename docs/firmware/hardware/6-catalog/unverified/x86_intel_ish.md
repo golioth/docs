@@ -33,4 +33,4 @@ List of supported toolchains is not available.
 
 ## Official Zephyr docs
 
-[intel_ish (intel_ish)](https://docs.zephyrproject.org/latest/boards/x86/intel_ish/doc/index.html)
+[intel_ish (intel_ish)](https://docs.zephyrproject.org/3.6.0/boards/x86/intel_ish/doc/index.html)

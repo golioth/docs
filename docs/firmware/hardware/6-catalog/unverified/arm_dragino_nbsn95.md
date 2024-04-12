@@ -35,4 +35,4 @@ List of supported features is not available.
 
 ## Official Zephyr docs
 
-[Dragino NBSN95 NB-IoT Sensor Node (dragino_nbsn95)](https://docs.zephyrproject.org/latest/boards/arm/dragino_nbsn95/doc/index.html)
+[Dragino NBSN95 NB-IoT Sensor Node (dragino_nbsn95)](https://docs.zephyrproject.org/3.6.0/boards/arm/dragino_nbsn95/doc/index.html)

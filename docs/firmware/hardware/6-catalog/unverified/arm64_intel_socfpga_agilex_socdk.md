@@ -34,4 +34,4 @@ List of supported features is not available.
 
 ## Official Zephyr docs
 
-[Intel SoC FPGA Agilex (intel_socfpga_agilex_socdk)](https://docs.zephyrproject.org/latest/boards/arm64/intel_socfpga_agilex_socdk/doc/index.html)
+[Intel SoC FPGA Agilex (intel_socfpga_agilex_socdk)](https://docs.zephyrproject.org/3.6.0/boards/arm64/intel_socfpga_agilex_socdk/doc/index.html)

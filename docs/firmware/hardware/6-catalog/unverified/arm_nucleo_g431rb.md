@@ -47,4 +47,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[ST Nucleo G431RB (nucleo_g431rb)](https://docs.zephyrproject.org/latest/boards/arm/nucleo_g431rb/doc/index.html)
+[ST Nucleo G431RB (nucleo_g431rb)](https://docs.zephyrproject.org/3.6.0/boards/arm/nucleo_g431rb/doc/index.html)

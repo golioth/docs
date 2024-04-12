@@ -33,4 +33,4 @@ List of supported toolchains is not available.
 
 ## Official Zephyr docs
 
-[lpcxpresso55s69 (lpcxpresso55s69)](https://docs.zephyrproject.org/latest/boards/arm/lpcxpresso55s69/doc/index.html)
+[lpcxpresso55s69 (lpcxpresso55s69)](https://docs.zephyrproject.org/3.6.0/boards/arm/lpcxpresso55s69/doc/index.html)

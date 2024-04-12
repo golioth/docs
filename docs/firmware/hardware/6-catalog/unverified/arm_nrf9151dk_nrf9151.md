@@ -44,4 +44,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[nRF9151-DK-NRF9151 (nrf9151dk_nrf9151)](https://docs.zephyrproject.org/latest/boards/arm/nrf9151dk_nrf9151/doc/index.html)
+[nRF9151-DK-NRF9151 (nrf9151dk_nrf9151)](https://docs.zephyrproject.org/3.6.0/boards/arm/nrf9151dk_nrf9151/doc/index.html)

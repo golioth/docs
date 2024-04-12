@@ -35,4 +35,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[NXP i.MX8M Plus EVK Audio DSP (nxp_adsp_imx8m)](https://docs.zephyrproject.org/latest/boards/xtensa/nxp_adsp_imx8m/doc/index.html)
+[NXP i.MX8M Plus EVK Audio DSP (nxp_adsp_imx8m)](https://docs.zephyrproject.org/3.6.0/boards/xtensa/nxp_adsp_imx8m/doc/index.html)

@@ -34,4 +34,4 @@ List of supported features is not available.
 
 ## Official Zephyr docs
 
-[NXP LS1046ARDB on single CPU Core (NON-SMP) (nxp_ls1046ardb)](https://docs.zephyrproject.org/latest/boards/arm64/nxp_ls1046ardb/doc/index.html)
+[NXP LS1046ARDB on single CPU Core (NON-SMP) (nxp_ls1046ardb)](https://docs.zephyrproject.org/3.6.0/boards/arm64/nxp_ls1046ardb/doc/index.html)

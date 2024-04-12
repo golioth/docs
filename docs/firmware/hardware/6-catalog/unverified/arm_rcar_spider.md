@@ -33,4 +33,4 @@ List of supported toolchains is not available.
 
 ## Official Zephyr docs
 
-[rcar_spider (rcar_spider)](https://docs.zephyrproject.org/latest/boards/arm/rcar_spider/doc/index.html)
+[rcar_spider (rcar_spider)](https://docs.zephyrproject.org/3.6.0/boards/arm/rcar_spider/doc/index.html)

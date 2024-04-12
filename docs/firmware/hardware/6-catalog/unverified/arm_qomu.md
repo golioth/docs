@@ -35,4 +35,4 @@ List of supported features is not available.
 
 ## Official Zephyr docs
 
-[QuickLogic Qomu (qomu)](https://docs.zephyrproject.org/latest/boards/arm/qomu/doc/index.html)
+[QuickLogic Qomu (qomu)](https://docs.zephyrproject.org/3.6.0/boards/arm/qomu/doc/index.html)

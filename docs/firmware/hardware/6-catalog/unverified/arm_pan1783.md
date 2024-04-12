@@ -33,4 +33,4 @@ List of supported toolchains is not available.
 
 ## Official Zephyr docs
 
-[pan1783 (pan1783)](https://docs.zephyrproject.org/latest/boards/arm/pan1783/doc/index.html)
+[pan1783 (pan1783)](https://docs.zephyrproject.org/3.6.0/boards/arm/pan1783/doc/index.html)

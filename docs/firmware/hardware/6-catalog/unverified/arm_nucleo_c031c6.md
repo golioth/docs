@@ -41,4 +41,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[ST Nucleo C031C6 (nucleo_c031c6)](https://docs.zephyrproject.org/latest/boards/arm/nucleo_c031c6/doc/index.html)
+[ST Nucleo C031C6 (nucleo_c031c6)](https://docs.zephyrproject.org/3.6.0/boards/arm/nucleo_c031c6/doc/index.html)

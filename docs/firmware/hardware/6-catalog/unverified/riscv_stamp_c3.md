@@ -37,4 +37,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[M5Stack STAMP-C3 (stamp_c3)](https://docs.zephyrproject.org/latest/boards/riscv/stamp_c3/doc/index.html)
+[M5Stack STAMP-C3 (stamp_c3)](https://docs.zephyrproject.org/3.6.0/boards/riscv/stamp_c3/doc/index.html)

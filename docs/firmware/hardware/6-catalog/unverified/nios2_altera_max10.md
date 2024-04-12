@@ -33,4 +33,4 @@ List of supported features is not available.
 
 ## Official Zephyr docs
 
-[Altera MAX10 (altera_max10)](https://docs.zephyrproject.org/latest/boards/nios2/altera_max10/doc/index.html)
+[Altera MAX10 (altera_max10)](https://docs.zephyrproject.org/3.6.0/boards/nios2/altera_max10/doc/index.html)

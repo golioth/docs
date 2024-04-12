@@ -33,4 +33,4 @@ List of supported toolchains is not available.
 
 ## Official Zephyr docs
 
-[rv32m1_vega (rv32m1_vega)](https://docs.zephyrproject.org/latest/boards/riscv/rv32m1_vega/doc/index.html)
+[rv32m1_vega (rv32m1_vega)](https://docs.zephyrproject.org/3.6.0/boards/riscv/rv32m1_vega/doc/index.html)

@@ -35,4 +35,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[ACE 1.5 MTL M Audio DSP (intel_adsp_ace15_mtpm)](https://docs.zephyrproject.org/latest/boards/xtensa/intel_adsp_ace15_mtpm/doc/index.html)
+[ACE 1.5 MTL M Audio DSP (intel_adsp_ace15_mtpm)](https://docs.zephyrproject.org/3.6.0/boards/xtensa/intel_adsp_ace15_mtpm/doc/index.html)

@@ -36,4 +36,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[HS Development Kit (hsdk)](https://docs.zephyrproject.org/latest/boards/arc/hsdk/doc/index.html)
+[HS Development Kit (hsdk)](https://docs.zephyrproject.org/3.6.0/boards/arc/hsdk/doc/index.html)

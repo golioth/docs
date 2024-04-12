@@ -41,4 +41,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[Waveshare Open103Z (waveshare_open103z)](https://docs.zephyrproject.org/latest/boards/arm/waveshare_open103z/doc/index.html)
+[Waveshare Open103Z (waveshare_open103z)](https://docs.zephyrproject.org/3.6.0/boards/arm/waveshare_open103z/doc/index.html)

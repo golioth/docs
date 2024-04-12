@@ -45,4 +45,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[ST STM32U5A9J-DK Discovery Kit (stm32u5a9j_dk)](https://docs.zephyrproject.org/latest/boards/arm/stm32u5a9j_dk/doc/index.html)
+[ST STM32U5A9J-DK Discovery Kit (stm32u5a9j_dk)](https://docs.zephyrproject.org/3.6.0/boards/arm/stm32u5a9j_dk/doc/index.html)

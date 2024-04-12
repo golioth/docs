@@ -35,4 +35,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[ST STM3210C Evaluation (stm3210c_eval)](https://docs.zephyrproject.org/latest/boards/arm/stm3210c_eval/doc/index.html)
+[ST STM3210C Evaluation (stm3210c_eval)](https://docs.zephyrproject.org/3.6.0/boards/arm/stm3210c_eval/doc/index.html)

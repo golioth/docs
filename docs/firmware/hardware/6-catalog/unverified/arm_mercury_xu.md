@@ -34,4 +34,4 @@ List of supported features is not available.
 
 ## Official Zephyr docs
 
-[MERCURY-XU (mercury_xu)](https://docs.zephyrproject.org/latest/boards/arm/mercury_xu/doc/index.html)
+[MERCURY-XU (mercury_xu)](https://docs.zephyrproject.org/3.6.0/boards/arm/mercury_xu/doc/index.html)

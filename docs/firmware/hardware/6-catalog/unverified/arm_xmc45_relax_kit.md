@@ -41,4 +41,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[XMC45-RELAX-KIT (xmc45_relax_kit)](https://docs.zephyrproject.org/latest/boards/arm/xmc45_relax_kit/doc/index.html)
+[XMC45-RELAX-KIT (xmc45_relax_kit)](https://docs.zephyrproject.org/3.6.0/boards/arm/xmc45_relax_kit/doc/index.html)

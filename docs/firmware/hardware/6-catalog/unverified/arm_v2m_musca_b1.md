@@ -35,4 +35,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[ARM V2M MUSCA B1 (v2m_musca_b1)](https://docs.zephyrproject.org/latest/boards/arm/v2m_musca_b1/doc/index.html)
+[ARM V2M MUSCA B1 (v2m_musca_b1)](https://docs.zephyrproject.org/3.6.0/boards/arm/v2m_musca_b1/doc/index.html)

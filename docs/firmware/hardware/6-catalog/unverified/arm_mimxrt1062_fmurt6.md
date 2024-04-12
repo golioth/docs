@@ -47,4 +47,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[NXP MIMXRT1062-FMURT6 (mimxrt1062_fmurt6)](https://docs.zephyrproject.org/latest/boards/arm/mimxrt1062_fmurt6/doc/index.html)
+[NXP MIMXRT1062-FMURT6 (mimxrt1062_fmurt6)](https://docs.zephyrproject.org/3.6.0/boards/arm/mimxrt1062_fmurt6/doc/index.html)

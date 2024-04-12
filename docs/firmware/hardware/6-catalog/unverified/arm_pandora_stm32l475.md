@@ -36,4 +36,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[STM32L475 Pandora (pandora_stm32l475)](https://docs.zephyrproject.org/latest/boards/arm/pandora_stm32l475/doc/index.html)
+[STM32L475 Pandora (pandora_stm32l475)](https://docs.zephyrproject.org/3.6.0/boards/arm/pandora_stm32l475/doc/index.html)

@@ -40,4 +40,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[Adafruit Feather STM32F405 Express (adafruit_feather_stm32f405)](https://docs.zephyrproject.org/latest/boards/arm/adafruit_feather_stm32f405/doc/index.html)
+[Adafruit Feather STM32F405 Express (adafruit_feather_stm32f405)](https://docs.zephyrproject.org/3.6.0/boards/arm/adafruit_feather_stm32f405/doc/index.html)

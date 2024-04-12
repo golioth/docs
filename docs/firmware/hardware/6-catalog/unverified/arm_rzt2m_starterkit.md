@@ -33,4 +33,4 @@ List of supported toolchains is not available.
 
 ## Official Zephyr docs
 
-[rzt2m_starterkit (rzt2m_starterkit)](https://docs.zephyrproject.org/latest/boards/arm/rzt2m_starterkit/doc/index.html)
+[rzt2m_starterkit (rzt2m_starterkit)](https://docs.zephyrproject.org/3.6.0/boards/arm/rzt2m_starterkit/doc/index.html)

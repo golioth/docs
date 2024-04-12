@@ -34,4 +34,4 @@ List of supported features is not available.
 
 ## Official Zephyr docs
 
-[QEMU Emulation for NIOS II (qemu_nios2)](https://docs.zephyrproject.org/latest/boards/nios2/qemu_nios2/doc/index.html)
+[QEMU Emulation for NIOS II (qemu_nios2)](https://docs.zephyrproject.org/3.6.0/boards/nios2/qemu_nios2/doc/index.html)

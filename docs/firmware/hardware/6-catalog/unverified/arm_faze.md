@@ -37,4 +37,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[Seagate FireCuda Gaming SSD (FaZe) (faze)](https://docs.zephyrproject.org/latest/boards/arm/faze/doc/index.html)
+[Seagate FireCuda Gaming SSD (FaZe) (faze)](https://docs.zephyrproject.org/3.6.0/boards/arm/faze/doc/index.html)

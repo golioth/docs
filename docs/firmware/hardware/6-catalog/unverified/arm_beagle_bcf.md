@@ -33,4 +33,4 @@ List of supported toolchains is not available.
 
 ## Official Zephyr docs
 
-[beagle_bcf (beagle_bcf)](https://docs.zephyrproject.org/latest/boards/arm/beagle_bcf/doc/index.html)
+[beagle_bcf (beagle_bcf)](https://docs.zephyrproject.org/3.6.0/boards/arm/beagle_bcf/doc/index.html)

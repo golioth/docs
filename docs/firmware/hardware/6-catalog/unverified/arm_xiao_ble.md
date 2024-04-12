@@ -46,4 +46,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[XIAO BLE (xiao_ble)](https://docs.zephyrproject.org/latest/boards/arm/xiao_ble/doc/index.html)
+[XIAO BLE (xiao_ble)](https://docs.zephyrproject.org/3.6.0/boards/arm/xiao_ble/doc/index.html)

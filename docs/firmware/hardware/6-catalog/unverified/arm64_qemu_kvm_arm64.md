@@ -34,4 +34,4 @@ List of supported features is not available.
 
 ## Official Zephyr docs
 
-[QEMU Virt Emulation for AArch64 KVM (qemu_kvm_arm64)](https://docs.zephyrproject.org/latest/boards/arm64/qemu_kvm_arm64/doc/index.html)
+[QEMU Virt Emulation for AArch64 KVM (qemu_kvm_arm64)](https://docs.zephyrproject.org/3.6.0/boards/arm64/qemu_kvm_arm64/doc/index.html)

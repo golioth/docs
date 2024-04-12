@@ -37,4 +37,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[Arduino Due (arduino_due)](https://docs.zephyrproject.org/latest/boards/arm/arduino_due/doc/index.html)
+[Arduino Due (arduino_due)](https://docs.zephyrproject.org/3.6.0/boards/arm/arduino_due/doc/index.html)

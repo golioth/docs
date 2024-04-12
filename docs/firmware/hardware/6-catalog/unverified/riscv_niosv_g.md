@@ -33,4 +33,4 @@ List of supported features is not available.
 
 ## Official Zephyr docs
 
-[INTEL FPGA Nios V/g general purpose processor (niosv_g)](https://docs.zephyrproject.org/latest/boards/riscv/niosv_g/doc/index.html)
+[INTEL FPGA Nios V/g general purpose processor (niosv_g)](https://docs.zephyrproject.org/3.6.0/boards/riscv/niosv_g/doc/index.html)

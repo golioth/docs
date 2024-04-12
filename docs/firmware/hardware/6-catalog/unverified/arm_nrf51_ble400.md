@@ -37,4 +37,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[BLE400 (nrf51_ble400)](https://docs.zephyrproject.org/latest/boards/arm/nrf51_ble400/doc/index.html)
+[BLE400 (nrf51_ble400)](https://docs.zephyrproject.org/3.6.0/boards/arm/nrf51_ble400/doc/index.html)

@@ -43,4 +43,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[Seeeduino XIAO (seeeduino_xiao)](https://docs.zephyrproject.org/latest/boards/arm/seeeduino_xiao/doc/index.html)
+[Seeeduino XIAO (seeeduino_xiao)](https://docs.zephyrproject.org/3.6.0/boards/arm/seeeduino_xiao/doc/index.html)

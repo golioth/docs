@@ -35,4 +35,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[Pine64 PineTime DevKit0 (pinetime_devkit0)](https://docs.zephyrproject.org/latest/boards/arm/pinetime_devkit0/doc/index.html)
+[Pine64 PineTime DevKit0 (pinetime_devkit0)](https://docs.zephyrproject.org/3.6.0/boards/arm/pinetime_devkit0/doc/index.html)

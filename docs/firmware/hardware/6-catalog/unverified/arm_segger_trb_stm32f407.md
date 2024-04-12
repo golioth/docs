@@ -37,4 +37,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[Cortex-M Trace Reference Board V1.2 (segger_trb_stm32f407)](https://docs.zephyrproject.org/latest/boards/arm/segger_trb_stm32f407/doc/index.html)
+[Cortex-M Trace Reference Board V1.2 (segger_trb_stm32f407)](https://docs.zephyrproject.org/3.6.0/boards/arm/segger_trb_stm32f407/doc/index.html)

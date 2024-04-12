@@ -33,4 +33,4 @@ List of supported toolchains is not available.
 
 ## Official Zephyr docs
 
-[teensy4 (teensy4)](https://docs.zephyrproject.org/latest/boards/arm/teensy4/doc/index.html)
+[teensy4 (teensy4)](https://docs.zephyrproject.org/3.6.0/boards/arm/teensy4/doc/index.html)

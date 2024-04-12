@@ -47,4 +47,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[NXP MIMXRT1050-EVK (mimxrt1050_evk)](https://docs.zephyrproject.org/latest/boards/arm/mimxrt1050_evk/doc/index.html)
+[NXP MIMXRT1050-EVK (mimxrt1050_evk)](https://docs.zephyrproject.org/3.6.0/boards/arm/mimxrt1050_evk/doc/index.html)

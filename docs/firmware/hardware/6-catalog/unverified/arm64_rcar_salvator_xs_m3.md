@@ -35,4 +35,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[Renesas Salvator XS M3 based on r8a77961 (rcar_salvator_xs_m3)](https://docs.zephyrproject.org/latest/boards/arm64/rcar_salvator_xs_m3/doc/index.html)
+[Renesas Salvator XS M3 based on r8a77961 (rcar_salvator_xs_m3)](https://docs.zephyrproject.org/3.6.0/boards/arm64/rcar_salvator_xs_m3/doc/index.html)

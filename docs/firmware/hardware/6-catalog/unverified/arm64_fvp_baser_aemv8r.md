@@ -34,4 +34,4 @@ List of supported features is not available.
 
 ## Official Zephyr docs
 
-[FVP Emulation FVP_BaseR_AEMv8R (fvp_baser_aemv8r)](https://docs.zephyrproject.org/latest/boards/arm64/fvp_baser_aemv8r/doc/index.html)
+[FVP Emulation FVP_BaseR_AEMv8R (fvp_baser_aemv8r)](https://docs.zephyrproject.org/3.6.0/boards/arm64/fvp_baser_aemv8r/doc/index.html)

@@ -40,4 +40,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[Adafruit Grand Central M4 Express (adafruit_grand_central_m4_express)](https://docs.zephyrproject.org/latest/boards/arm/adafruit_grand_central_m4_express/doc/index.html)
+[Adafruit Grand Central M4 Express (adafruit_grand_central_m4_express)](https://docs.zephyrproject.org/3.6.0/boards/arm/adafruit_grand_central_m4_express/doc/index.html)

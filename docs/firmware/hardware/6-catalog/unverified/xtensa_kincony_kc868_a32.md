@@ -39,4 +39,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[KINCONY-KC868-A32 (kincony_kc868_a32)](https://docs.zephyrproject.org/latest/boards/xtensa/kincony_kc868_a32/doc/index.html)
+[KINCONY-KC868-A32 (kincony_kc868_a32)](https://docs.zephyrproject.org/3.6.0/boards/xtensa/kincony_kc868_a32/doc/index.html)

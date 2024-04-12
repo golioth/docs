@@ -42,4 +42,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[Adafruit ItsyBitsy M4 Express (adafruit_itsybitsy_m4_express)](https://docs.zephyrproject.org/latest/boards/arm/adafruit_itsybitsy_m4_express/doc/index.html)
+[Adafruit ItsyBitsy M4 Express (adafruit_itsybitsy_m4_express)](https://docs.zephyrproject.org/3.6.0/boards/arm/adafruit_itsybitsy_m4_express/doc/index.html)

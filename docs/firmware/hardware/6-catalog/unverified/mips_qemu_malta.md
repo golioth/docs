@@ -34,4 +34,4 @@ List of supported features is not available.
 
 ## Official Zephyr docs
 
-[QEMU emulation for MIPS (little endian) (qemu_malta)](https://docs.zephyrproject.org/latest/boards/mips/qemu_malta/doc/index.html)
+[QEMU emulation for MIPS (little endian) (qemu_malta)](https://docs.zephyrproject.org/3.6.0/boards/mips/qemu_malta/doc/index.html)

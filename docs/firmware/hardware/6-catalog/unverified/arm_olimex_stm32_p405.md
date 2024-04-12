@@ -36,4 +36,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[OLIMEX-STM32-P405 (olimex_stm32_p405)](https://docs.zephyrproject.org/latest/boards/arm/olimex_stm32_p405/doc/index.html)
+[OLIMEX-STM32-P405 (olimex_stm32_p405)](https://docs.zephyrproject.org/3.6.0/boards/arm/olimex_stm32_p405/doc/index.html)

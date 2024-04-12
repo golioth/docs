@@ -42,4 +42,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[OLIMEXINO-STM32 (olimexino_stm32)](https://docs.zephyrproject.org/latest/boards/arm/olimexino_stm32/doc/index.html)
+[OLIMEXINO-STM32 (olimexino_stm32)](https://docs.zephyrproject.org/3.6.0/boards/arm/olimexino_stm32/doc/index.html)

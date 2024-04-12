@@ -36,4 +36,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[WaRP7 IMX7S (warp7_m4)](https://docs.zephyrproject.org/latest/boards/arm/warp7_m4/doc/index.html)
+[WaRP7 IMX7S (warp7_m4)](https://docs.zephyrproject.org/3.6.0/boards/arm/warp7_m4/doc/index.html)

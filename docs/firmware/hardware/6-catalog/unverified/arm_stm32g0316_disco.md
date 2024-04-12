@@ -38,4 +38,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[ST STM32G0316 Discovery (stm32g0316_disco)](https://docs.zephyrproject.org/latest/boards/arm/stm32g0316_disco/doc/index.html)
+[ST STM32G0316 Discovery (stm32g0316_disco)](https://docs.zephyrproject.org/3.6.0/boards/arm/stm32g0316_disco/doc/index.html)

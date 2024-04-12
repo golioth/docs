@@ -36,4 +36,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[ST STM32L476G Discovery (stm32l476g_disco)](https://docs.zephyrproject.org/latest/boards/arm/stm32l476g_disco/doc/index.html)
+[ST STM32L476G Discovery (stm32l476g_disco)](https://docs.zephyrproject.org/3.6.0/boards/arm/stm32l476g_disco/doc/index.html)

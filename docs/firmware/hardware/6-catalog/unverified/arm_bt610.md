@@ -44,4 +44,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[BT610 (bt610)](https://docs.zephyrproject.org/latest/boards/arm/bt610/doc/index.html)
+[BT610 (bt610)](https://docs.zephyrproject.org/3.6.0/boards/arm/bt610/doc/index.html)

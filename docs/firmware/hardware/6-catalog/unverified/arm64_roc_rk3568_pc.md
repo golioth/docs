@@ -34,4 +34,4 @@ List of supported features is not available.
 
 ## Official Zephyr docs
 
-[Rockchip ROC RK3568 PC (roc_rk3568_pc)](https://docs.zephyrproject.org/latest/boards/arm64/roc_rk3568_pc/doc/index.html)
+[Rockchip ROC RK3568 PC (roc_rk3568_pc)](https://docs.zephyrproject.org/3.6.0/boards/arm64/roc_rk3568_pc/doc/index.html)

@@ -33,4 +33,4 @@ List of supported toolchains is not available.
 
 ## Official Zephyr docs
 
-[stm32h747i_disco (stm32h747i_disco)](https://docs.zephyrproject.org/latest/boards/arm/stm32h747i_disco/doc/index.html)
+[stm32h747i_disco (stm32h747i_disco)](https://docs.zephyrproject.org/3.6.0/boards/arm/stm32h747i_disco/doc/index.html)

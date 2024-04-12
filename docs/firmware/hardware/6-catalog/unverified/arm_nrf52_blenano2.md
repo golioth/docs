@@ -35,4 +35,4 @@ List of supported features is not available.
 
 ## Official Zephyr docs
 
-[BLE Nano 2 (nrf52_blenano2)](https://docs.zephyrproject.org/latest/boards/arm/nrf52_blenano2/doc/index.html)
+[BLE Nano 2 (nrf52_blenano2)](https://docs.zephyrproject.org/3.6.0/boards/arm/nrf52_blenano2/doc/index.html)

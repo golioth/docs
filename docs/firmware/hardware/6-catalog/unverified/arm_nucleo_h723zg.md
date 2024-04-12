@@ -46,4 +46,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[ST Nucleo H723ZG (nucleo_h723zg)](https://docs.zephyrproject.org/latest/boards/arm/nucleo_h723zg/doc/index.html)
+[ST Nucleo H723ZG (nucleo_h723zg)](https://docs.zephyrproject.org/3.6.0/boards/arm/nucleo_h723zg/doc/index.html)

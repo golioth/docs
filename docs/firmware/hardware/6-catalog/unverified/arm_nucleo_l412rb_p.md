@@ -43,4 +43,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[ST Nucleo L412RP-P (nucleo_l412rb_p)](https://docs.zephyrproject.org/latest/boards/arm/nucleo_l412rb_p/doc/index.html)
+[ST Nucleo L412RP-P (nucleo_l412rb_p)](https://docs.zephyrproject.org/3.6.0/boards/arm/nucleo_l412rb_p/doc/index.html)

@@ -37,4 +37,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[GigaDevice GD32E507Z-EVAL (gd32e507z_eval)](https://docs.zephyrproject.org/latest/boards/arm/gd32e507z_eval/doc/index.html)
+[GigaDevice GD32E507Z-EVAL (gd32e507z_eval)](https://docs.zephyrproject.org/3.6.0/boards/arm/gd32e507z_eval/doc/index.html)

@@ -38,4 +38,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[ST STM32F429I Discovery (stm32f429i_disc1)](https://docs.zephyrproject.org/latest/boards/arm/stm32f429i_disc1/doc/index.html)
+[ST STM32F429I Discovery (stm32f429i_disc1)](https://docs.zephyrproject.org/3.6.0/boards/arm/stm32f429i_disc1/doc/index.html)

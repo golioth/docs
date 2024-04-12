@@ -33,4 +33,4 @@ List of supported features is not available.
 
 ## Official Zephyr docs
 
-[INTEL FPGA niosv_m (niosv_m)](https://docs.zephyrproject.org/latest/boards/riscv/niosv_m/doc/index.html)
+[INTEL FPGA niosv_m (niosv_m)](https://docs.zephyrproject.org/3.6.0/boards/riscv/niosv_m/doc/index.html)

@@ -36,4 +36,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[EFM32WG-STK3800 (efm32wg_stk3800)](https://docs.zephyrproject.org/latest/boards/arm/efm32wg_stk3800/doc/index.html)
+[EFM32WG-STK3800 (efm32wg_stk3800)](https://docs.zephyrproject.org/3.6.0/boards/arm/efm32wg_stk3800/doc/index.html)

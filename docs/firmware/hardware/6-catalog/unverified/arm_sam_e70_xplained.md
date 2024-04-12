@@ -45,4 +45,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[SAM E70 Xplained (sam_e70_xplained)](https://docs.zephyrproject.org/latest/boards/arm/sam_e70_xplained/doc/index.html)
+[SAM E70 Xplained (sam_e70_xplained)](https://docs.zephyrproject.org/3.6.0/boards/arm/sam_e70_xplained/doc/index.html)

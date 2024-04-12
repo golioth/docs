@@ -37,4 +37,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[ST STM32VL Discovery (stm32vl_disco)](https://docs.zephyrproject.org/latest/boards/arm/stm32vl_disco/doc/index.html)
+[ST STM32VL Discovery (stm32vl_disco)](https://docs.zephyrproject.org/3.6.0/boards/arm/stm32vl_disco/doc/index.html)

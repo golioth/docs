@@ -33,4 +33,4 @@ List of supported toolchains is not available.
 
 ## Official Zephyr docs
 
-[nrf_bsim (nrf_bsim)](https://docs.zephyrproject.org/latest/boards/posix/nrf_bsim/doc/index.html)
+[nrf_bsim (nrf_bsim)](https://docs.zephyrproject.org/3.6.0/boards/posix/nrf_bsim/doc/index.html)

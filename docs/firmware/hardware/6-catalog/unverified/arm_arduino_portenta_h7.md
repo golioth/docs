@@ -33,4 +33,4 @@ List of supported toolchains is not available.
 
 ## Official Zephyr docs
 
-[arduino_portenta_h7 (arduino_portenta_h7)](https://docs.zephyrproject.org/latest/boards/arm/arduino_portenta_h7/doc/index.html)
+[arduino_portenta_h7 (arduino_portenta_h7)](https://docs.zephyrproject.org/3.6.0/boards/arm/arduino_portenta_h7/doc/index.html)

@@ -40,4 +40,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[TI SimpleLink CC1352R SensorTag (cc1352r_sensortag)](https://docs.zephyrproject.org/latest/boards/arm/cc1352r_sensortag/doc/index.html)
+[TI SimpleLink CC1352R SensorTag (cc1352r_sensortag)](https://docs.zephyrproject.org/3.6.0/boards/arm/cc1352r_sensortag/doc/index.html)

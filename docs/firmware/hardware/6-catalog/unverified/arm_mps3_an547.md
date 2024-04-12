@@ -35,4 +35,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[Arm MPS3-AN547 (mps3_an547)](https://docs.zephyrproject.org/latest/boards/arm/mps3_an547/doc/index.html)
+[Arm MPS3-AN547 (mps3_an547)](https://docs.zephyrproject.org/3.6.0/boards/arm/mps3_an547/doc/index.html)

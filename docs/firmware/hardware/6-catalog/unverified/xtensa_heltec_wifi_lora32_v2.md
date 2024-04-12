@@ -37,4 +37,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[HELTEC WiFi LoRa 32 (V2) Board (heltec_wifi_lora32_v2)](https://docs.zephyrproject.org/latest/boards/xtensa/heltec_wifi_lora32_v2/doc/index.html)
+[HELTEC WiFi LoRa 32 (V2) Board (heltec_wifi_lora32_v2)](https://docs.zephyrproject.org/3.6.0/boards/xtensa/heltec_wifi_lora32_v2/doc/index.html)

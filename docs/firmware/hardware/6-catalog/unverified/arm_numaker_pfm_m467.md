@@ -35,4 +35,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[NUVOTON NUMAKER-PFM-M467 Kit (numaker_pfm_m467)](https://docs.zephyrproject.org/latest/boards/arm/numaker_pfm_m467/doc/index.html)
+[NUVOTON NUMAKER-PFM-M467 Kit (numaker_pfm_m467)](https://docs.zephyrproject.org/3.6.0/boards/arm/numaker_pfm_m467/doc/index.html)

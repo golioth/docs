@@ -33,4 +33,4 @@ List of supported toolchains is not available.
 
 ## Official Zephyr docs
 
-[mimx8mm_evk (mimx8mm_evk)](https://docs.zephyrproject.org/latest/boards/arm64/mimx8mm_evk/doc/index.html)
+[mimx8mm_evk (mimx8mm_evk)](https://docs.zephyrproject.org/3.6.0/boards/arm64/mimx8mm_evk/doc/index.html)

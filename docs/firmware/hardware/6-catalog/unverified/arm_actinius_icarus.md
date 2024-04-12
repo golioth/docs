@@ -45,4 +45,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[Actinius Icarus (actinius_icarus)](https://docs.zephyrproject.org/latest/boards/arm/actinius_icarus/doc/index.html)
+[Actinius Icarus (actinius_icarus)](https://docs.zephyrproject.org/3.6.0/boards/arm/actinius_icarus/doc/index.html)

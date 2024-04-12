@@ -33,4 +33,4 @@ List of supported features is not available.
 
 ## Official Zephyr docs
 
-[Beagleboard BeagleV-Fire (beaglev_fire)](https://docs.zephyrproject.org/latest/boards/riscv/beaglev_fire/doc/index.html)
+[Beagleboard BeagleV-Fire (beaglev_fire)](https://docs.zephyrproject.org/3.6.0/boards/riscv/beaglev_fire/doc/index.html)

@@ -42,4 +42,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[EBYTE-E73-TBB-NRF52832 (ebyte_e73_tbb_nrf52832)](https://docs.zephyrproject.org/latest/boards/arm/ebyte_e73_tbb_nrf52832/doc/index.html)
+[EBYTE-E73-TBB-NRF52832 (ebyte_e73_tbb_nrf52832)](https://docs.zephyrproject.org/3.6.0/boards/arm/ebyte_e73_tbb_nrf52832/doc/index.html)

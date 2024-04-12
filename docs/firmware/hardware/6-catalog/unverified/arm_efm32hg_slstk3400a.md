@@ -36,4 +36,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[EFM32HG-SLSTK3400A (efm32hg_slstk3400a)](https://docs.zephyrproject.org/latest/boards/arm/efm32hg_slstk3400a/doc/index.html)
+[EFM32HG-SLSTK3400A (efm32hg_slstk3400a)](https://docs.zephyrproject.org/3.6.0/boards/arm/efm32hg_slstk3400a/doc/index.html)

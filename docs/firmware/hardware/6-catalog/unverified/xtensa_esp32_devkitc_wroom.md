@@ -45,4 +45,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[ESP32-DevkitC-WROOM-32D (esp32_devkitc_wroom)](https://docs.zephyrproject.org/latest/boards/xtensa/esp32_devkitc_wroom/doc/index.html)
+[ESP32-DevkitC-WROOM-32D (esp32_devkitc_wroom)](https://docs.zephyrproject.org/3.6.0/boards/xtensa/esp32_devkitc_wroom/doc/index.html)

@@ -34,4 +34,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[QEMU Emulation for RISC-V (RV32E) 32-bit (qemu_riscv32e)](https://docs.zephyrproject.org/latest/boards/riscv/qemu_riscv32e/doc/index.html)
+[QEMU Emulation for RISC-V (RV32E) 32-bit (qemu_riscv32e)](https://docs.zephyrproject.org/3.6.0/boards/riscv/qemu_riscv32e/doc/index.html)

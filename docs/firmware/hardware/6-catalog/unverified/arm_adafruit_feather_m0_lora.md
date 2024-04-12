@@ -35,4 +35,4 @@ List of supported features is not available.
 
 ## Official Zephyr docs
 
-[Adafruit Feather M0 LoRa (adafruit_feather_m0_lora)](https://docs.zephyrproject.org/latest/boards/arm/adafruit_feather_m0_lora/doc/index.html)
+[Adafruit Feather M0 LoRa (adafruit_feather_m0_lora)](https://docs.zephyrproject.org/3.6.0/boards/arm/adafruit_feather_m0_lora/doc/index.html)

@@ -33,4 +33,4 @@ List of supported features is not available.
 
 ## Official Zephyr docs
 
-[Xilinx KV260 Development board for Cortex-R5 (kv260_r5)](https://docs.zephyrproject.org/latest/boards/arm/kv260_r5/doc/index.html)
+[Xilinx KV260 Development board for Cortex-R5 (kv260_r5)](https://docs.zephyrproject.org/3.6.0/boards/arm/kv260_r5/doc/index.html)

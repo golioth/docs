@@ -39,4 +39,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[we_proteus2ev_nrf52832 (we_proteus2ev_nrf52832)](https://docs.zephyrproject.org/latest/boards/arm/we_proteus2ev_nrf52832/doc/index.html)
+[we_proteus2ev_nrf52832 (we_proteus2ev_nrf52832)](https://docs.zephyrproject.org/3.6.0/boards/arm/we_proteus2ev_nrf52832/doc/index.html)

@@ -39,4 +39,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[ST STM32 Flight Controller Unit (steval_fcu001v1)](https://docs.zephyrproject.org/latest/boards/arm/steval_fcu001v1/doc/index.html)
+[ST STM32 Flight Controller Unit (steval_fcu001v1)](https://docs.zephyrproject.org/3.6.0/boards/arm/steval_fcu001v1/doc/index.html)

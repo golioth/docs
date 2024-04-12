@@ -41,4 +41,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[ST STM32F723E Discovery (stm32f723e_disco)](https://docs.zephyrproject.org/latest/boards/arm/stm32f723e_disco/doc/index.html)
+[ST STM32F723E Discovery (stm32f723e_disco)](https://docs.zephyrproject.org/3.6.0/boards/arm/stm32f723e_disco/doc/index.html)

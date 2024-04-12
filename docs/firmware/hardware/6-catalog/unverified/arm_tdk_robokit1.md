@@ -43,4 +43,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[TDK RoboKit1 (tdk_robokit1)](https://docs.zephyrproject.org/latest/boards/arm/tdk_robokit1/doc/index.html)
+[TDK RoboKit1 (tdk_robokit1)](https://docs.zephyrproject.org/3.6.0/boards/arm/tdk_robokit1/doc/index.html)

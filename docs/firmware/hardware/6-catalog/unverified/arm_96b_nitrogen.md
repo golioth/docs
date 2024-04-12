@@ -38,4 +38,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[96Boards Nitrogen (96b_nitrogen)](https://docs.zephyrproject.org/latest/boards/arm/96b_nitrogen/doc/index.html)
+[96Boards Nitrogen (96b_nitrogen)](https://docs.zephyrproject.org/3.6.0/boards/arm/96b_nitrogen/doc/index.html)

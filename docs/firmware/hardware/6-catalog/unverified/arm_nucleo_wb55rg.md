@@ -47,4 +47,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[ST Nucleo WB55RG (nucleo_wb55rg)](https://docs.zephyrproject.org/latest/boards/arm/nucleo_wb55rg/doc/index.html)
+[ST Nucleo WB55RG (nucleo_wb55rg)](https://docs.zephyrproject.org/3.6.0/boards/arm/nucleo_wb55rg/doc/index.html)

@@ -43,4 +43,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[ADI EVAL-ADIN1110EBZ evaulation board (adi_eval_adin1110ebz)](https://docs.zephyrproject.org/latest/boards/arm/adi_eval_adin1110ebz/doc/index.html)
+[ADI EVAL-ADIN1110EBZ evaulation board (adi_eval_adin1110ebz)](https://docs.zephyrproject.org/3.6.0/boards/arm/adi_eval_adin1110ebz/doc/index.html)

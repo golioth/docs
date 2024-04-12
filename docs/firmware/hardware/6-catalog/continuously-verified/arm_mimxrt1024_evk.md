@@ -47,4 +47,4 @@ See our [quickstart guide for NXP MIMXRT1024-EVK](/getting-started/device-exampl
 
 ## Official Zephyr docs
 
-[NXP MIMXRT1024-EVK (mimxrt1024_evk)](https://docs.zephyrproject.org/latest/boards/arm/mimxrt1024_evk/doc/index.html)
+[NXP MIMXRT1024-EVK (mimxrt1024_evk)](https://docs.zephyrproject.org/3.6.0/boards/arm/mimxrt1024_evk/doc/index.html)

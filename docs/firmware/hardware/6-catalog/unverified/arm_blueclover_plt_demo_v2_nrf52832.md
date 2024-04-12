@@ -41,4 +41,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[Blue Clover PLT Demo Board V2 (blueclover_plt_demo_v2_nrf52832)](https://docs.zephyrproject.org/latest/boards/arm/blueclover_plt_demo_v2_nrf52832/doc/index.html)
+[Blue Clover PLT Demo Board V2 (blueclover_plt_demo_v2_nrf52832)](https://docs.zephyrproject.org/3.6.0/boards/arm/blueclover_plt_demo_v2_nrf52832/doc/index.html)

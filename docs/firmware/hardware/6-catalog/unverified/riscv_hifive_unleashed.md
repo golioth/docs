@@ -34,4 +34,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[SiFive HiFive Unleashed (hifive_unleashed)](https://docs.zephyrproject.org/latest/boards/riscv/hifive_unleashed/doc/index.html)
+[SiFive HiFive Unleashed (hifive_unleashed)](https://docs.zephyrproject.org/3.6.0/boards/riscv/hifive_unleashed/doc/index.html)

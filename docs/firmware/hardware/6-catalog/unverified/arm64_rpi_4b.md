@@ -34,4 +34,4 @@ List of supported features is not available.
 
 ## Official Zephyr docs
 
-[Raspberry Pi 4 Model B (rpi_4b)](https://docs.zephyrproject.org/latest/boards/arm64/rpi_4b/doc/index.html)
+[Raspberry Pi 4 Model B (rpi_4b)](https://docs.zephyrproject.org/3.6.0/boards/arm64/rpi_4b/doc/index.html)

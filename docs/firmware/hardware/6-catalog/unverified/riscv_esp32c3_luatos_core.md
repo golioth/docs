@@ -42,4 +42,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[ESP32C3 LuatOS Core (esp32c3_luatos_core)](https://docs.zephyrproject.org/latest/boards/riscv/esp32c3_luatos_core/doc/index.html)
+[ESP32C3 LuatOS Core (esp32c3_luatos_core)](https://docs.zephyrproject.org/3.6.0/boards/riscv/esp32c3_luatos_core/doc/index.html)

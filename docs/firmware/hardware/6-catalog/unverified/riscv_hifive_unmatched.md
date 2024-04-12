@@ -34,4 +34,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[SiFive HiFive Unmatched (hifive_unmatched)](https://docs.zephyrproject.org/latest/boards/riscv/hifive_unmatched/doc/index.html)
+[SiFive HiFive Unmatched (hifive_unmatched)](https://docs.zephyrproject.org/3.6.0/boards/riscv/hifive_unmatched/doc/index.html)

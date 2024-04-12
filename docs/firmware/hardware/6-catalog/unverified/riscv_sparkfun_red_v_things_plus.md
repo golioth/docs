@@ -38,4 +38,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[SparkFun RED-V Things Plus (sparkfun_red_v_things_plus)](https://docs.zephyrproject.org/latest/boards/riscv/sparkfun_red_v_things_plus/doc/index.html)
+[SparkFun RED-V Things Plus (sparkfun_red_v_things_plus)](https://docs.zephyrproject.org/3.6.0/boards/riscv/sparkfun_red_v_things_plus/doc/index.html)

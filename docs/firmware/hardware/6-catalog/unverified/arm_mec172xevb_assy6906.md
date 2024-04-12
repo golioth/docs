@@ -39,4 +39,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[MEC172X EVB ASSY 6906 (mec172xevb_assy6906)](https://docs.zephyrproject.org/latest/boards/arm/mec172xevb_assy6906/doc/index.html)
+[MEC172X EVB ASSY 6906 (mec172xevb_assy6906)](https://docs.zephyrproject.org/3.6.0/boards/arm/mec172xevb_assy6906/doc/index.html)

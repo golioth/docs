@@ -38,4 +38,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[ITE IT8XXX2 EVB (it8xxx2_evb)](https://docs.zephyrproject.org/latest/boards/riscv/it8xxx2_evb/doc/index.html)
+[ITE IT8XXX2 EVB (it8xxx2_evb)](https://docs.zephyrproject.org/3.6.0/boards/riscv/it8xxx2_evb/doc/index.html)

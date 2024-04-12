@@ -38,4 +38,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[BBC Micro:Bit (bbc_microbit)](https://docs.zephyrproject.org/latest/boards/arm/bbc_microbit/doc/index.html)
+[BBC Micro:Bit (bbc_microbit)](https://docs.zephyrproject.org/3.6.0/boards/arm/bbc_microbit/doc/index.html)

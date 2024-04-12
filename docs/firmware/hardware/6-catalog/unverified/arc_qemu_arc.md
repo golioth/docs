@@ -33,4 +33,4 @@ List of supported toolchains is not available.
 
 ## Official Zephyr docs
 
-[qemu_arc (qemu_arc)](https://docs.zephyrproject.org/latest/boards/arc/qemu_arc/doc/index.html)
+[qemu_arc (qemu_arc)](https://docs.zephyrproject.org/3.6.0/boards/arc/qemu_arc/doc/index.html)

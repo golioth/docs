@@ -36,4 +36,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[MEC172X MODULAR ASSY 6930 (mec172xmodular_assy6930)](https://docs.zephyrproject.org/latest/boards/arm/mec172xmodular_assy6930/doc/index.html)
+[MEC172X MODULAR ASSY 6930 (mec172xmodular_assy6930)](https://docs.zephyrproject.org/3.6.0/boards/arm/mec172xmodular_assy6930/doc/index.html)

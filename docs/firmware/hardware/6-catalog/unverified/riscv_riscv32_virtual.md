@@ -33,4 +33,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[Renode RISC-V 32-bit Virtual Board (riscv32_virtual)](https://docs.zephyrproject.org/latest/boards/riscv/riscv32_virtual/doc/index.html)
+[Renode RISC-V 32-bit Virtual Board (riscv32_virtual)](https://docs.zephyrproject.org/3.6.0/boards/riscv/riscv32_virtual/doc/index.html)

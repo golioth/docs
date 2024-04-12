@@ -45,4 +45,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[SAM L21 Xplained Pro (atsaml21_xpro)](https://docs.zephyrproject.org/latest/boards/arm/atsaml21_xpro/doc/index.html)
+[SAM L21 Xplained Pro (atsaml21_xpro)](https://docs.zephyrproject.org/3.6.0/boards/arm/atsaml21_xpro/doc/index.html)

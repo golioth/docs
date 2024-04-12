@@ -40,4 +40,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[M5Stack StampS3 (m5stack_stamps3)](https://docs.zephyrproject.org/latest/boards/xtensa/m5stack_stamps3/doc/index.html)
+[M5Stack StampS3 (m5stack_stamps3)](https://docs.zephyrproject.org/3.6.0/boards/xtensa/m5stack_stamps3/doc/index.html)

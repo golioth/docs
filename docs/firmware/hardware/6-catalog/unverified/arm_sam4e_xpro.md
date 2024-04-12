@@ -43,4 +43,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[SAM4E Xplained Pro (sam4e_xpro)](https://docs.zephyrproject.org/latest/boards/arm/sam4e_xpro/doc/index.html)
+[SAM4E Xplained Pro (sam4e_xpro)](https://docs.zephyrproject.org/3.6.0/boards/arm/sam4e_xpro/doc/index.html)

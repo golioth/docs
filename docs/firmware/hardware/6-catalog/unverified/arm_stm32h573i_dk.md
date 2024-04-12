@@ -47,4 +47,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[ST STM32H573I Discovery Kit (stm32h573i_dk)](https://docs.zephyrproject.org/latest/boards/arm/stm32h573i_dk/doc/index.html)
+[ST STM32H573I Discovery Kit (stm32h573i_dk)](https://docs.zephyrproject.org/3.6.0/boards/arm/stm32h573i_dk/doc/index.html)

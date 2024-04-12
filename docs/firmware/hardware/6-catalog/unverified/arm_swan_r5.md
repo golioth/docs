@@ -42,4 +42,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[Blues Wireless Swan (swan_r5)](https://docs.zephyrproject.org/latest/boards/arm/swan_r5/doc/index.html)
+[Blues Wireless Swan (swan_r5)](https://docs.zephyrproject.org/3.6.0/boards/arm/swan_r5/doc/index.html)

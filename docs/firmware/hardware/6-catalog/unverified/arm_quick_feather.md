@@ -35,4 +35,4 @@ List of supported features is not available.
 
 ## Official Zephyr docs
 
-[QuickLogic Quick Feather (quick_feather)](https://docs.zephyrproject.org/latest/boards/arm/quick_feather/doc/index.html)
+[QuickLogic Quick Feather (quick_feather)](https://docs.zephyrproject.org/3.6.0/boards/arm/quick_feather/doc/index.html)

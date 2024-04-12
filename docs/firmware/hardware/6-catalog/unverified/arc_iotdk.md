@@ -35,4 +35,4 @@ List of supported features is not available.
 
 ## Official Zephyr docs
 
-[IoT Development Kit (iotdk)](https://docs.zephyrproject.org/latest/boards/arc/iotdk/doc/index.html)
+[IoT Development Kit (iotdk)](https://docs.zephyrproject.org/3.6.0/boards/arc/iotdk/doc/index.html)

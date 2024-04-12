@@ -34,4 +34,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[NEORV32 Processor (SoC) (neorv32)](https://docs.zephyrproject.org/latest/boards/riscv/neorv32/doc/index.html)
+[NEORV32 Processor (SoC) (neorv32)](https://docs.zephyrproject.org/3.6.0/boards/riscv/neorv32/doc/index.html)

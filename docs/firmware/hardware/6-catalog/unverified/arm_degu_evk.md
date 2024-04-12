@@ -35,4 +35,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[Degu Evaluation Kit (degu_evk)](https://docs.zephyrproject.org/latest/boards/arm/degu_evk/doc/index.html)
+[Degu Evaluation Kit (degu_evk)](https://docs.zephyrproject.org/3.6.0/boards/arm/degu_evk/doc/index.html)

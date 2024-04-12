@@ -40,4 +40,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[M5Stack Core2 (m5stack_core2)](https://docs.zephyrproject.org/latest/boards/xtensa/m5stack_core2/doc/index.html)
+[M5Stack Core2 (m5stack_core2)](https://docs.zephyrproject.org/3.6.0/boards/xtensa/m5stack_core2/doc/index.html)

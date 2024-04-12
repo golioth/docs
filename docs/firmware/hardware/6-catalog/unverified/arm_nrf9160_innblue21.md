@@ -37,4 +37,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[nRF9160-INNBLUE21 (nrf9160_innblue21)](https://docs.zephyrproject.org/latest/boards/arm/nrf9160_innblue21/doc/index.html)
+[nRF9160-INNBLUE21 (nrf9160_innblue21)](https://docs.zephyrproject.org/3.6.0/boards/arm/nrf9160_innblue21/doc/index.html)

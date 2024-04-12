@@ -36,4 +36,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[MM MM-SWIFTIO (mm_swiftio)](https://docs.zephyrproject.org/latest/boards/arm/mm_swiftio/doc/index.html)
+[MM MM-SWIFTIO (mm_swiftio)](https://docs.zephyrproject.org/3.6.0/boards/arm/mm_swiftio/doc/index.html)

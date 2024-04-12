@@ -40,4 +40,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[SEGGER IP-K66F (ip_k66f)](https://docs.zephyrproject.org/latest/boards/arm/ip_k66f/doc/index.html)
+[SEGGER IP-K66F (ip_k66f)](https://docs.zephyrproject.org/3.6.0/boards/arm/ip_k66f/doc/index.html)

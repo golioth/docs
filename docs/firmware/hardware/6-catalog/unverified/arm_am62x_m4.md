@@ -33,4 +33,4 @@ List of supported toolchains is not available.
 
 ## Official Zephyr docs
 
-[am62x_m4 (am62x_m4)](https://docs.zephyrproject.org/latest/boards/arm/am62x_m4/doc/index.html)
+[am62x_m4 (am62x_m4)](https://docs.zephyrproject.org/3.6.0/boards/arm/am62x_m4/doc/index.html)

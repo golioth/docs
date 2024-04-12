@@ -42,4 +42,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[MEC1501 MODULAR ASSY 6885 (mec1501modular_assy6885)](https://docs.zephyrproject.org/latest/boards/arm/mec1501modular_assy6885/doc/index.html)
+[MEC1501 MODULAR ASSY 6885 (mec1501modular_assy6885)](https://docs.zephyrproject.org/3.6.0/boards/arm/mec1501modular_assy6885/doc/index.html)

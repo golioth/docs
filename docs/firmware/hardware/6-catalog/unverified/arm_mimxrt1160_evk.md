@@ -33,4 +33,4 @@ List of supported toolchains is not available.
 
 ## Official Zephyr docs
 
-[mimxrt1160_evk (mimxrt1160_evk)](https://docs.zephyrproject.org/latest/boards/arm/mimxrt1160_evk/doc/index.html)
+[mimxrt1160_evk (mimxrt1160_evk)](https://docs.zephyrproject.org/3.6.0/boards/arm/mimxrt1160_evk/doc/index.html)

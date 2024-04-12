@@ -35,4 +35,4 @@ List of supported features is not available.
 
 ## Official Zephyr docs
 
-[Hexiwear KW40Z (hexiwear_kw40z)](https://docs.zephyrproject.org/latest/boards/arm/hexiwear_kw40z/doc/index.html)
+[Hexiwear KW40Z (hexiwear_kw40z)](https://docs.zephyrproject.org/3.6.0/boards/arm/hexiwear_kw40z/doc/index.html)

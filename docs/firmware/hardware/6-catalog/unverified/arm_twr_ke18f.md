@@ -43,4 +43,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[NXP TWR-KE18F (twr_ke18f)](https://docs.zephyrproject.org/latest/boards/arm/twr_ke18f/doc/index.html)
+[NXP TWR-KE18F (twr_ke18f)](https://docs.zephyrproject.org/3.6.0/boards/arm/twr_ke18f/doc/index.html)

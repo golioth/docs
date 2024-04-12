@@ -42,4 +42,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[NXP RDDRONE-FMUK66 (rddrone_fmuk66)](https://docs.zephyrproject.org/latest/boards/arm/rddrone_fmuk66/doc/index.html)
+[NXP RDDRONE-FMUK66 (rddrone_fmuk66)](https://docs.zephyrproject.org/3.6.0/boards/arm/rddrone_fmuk66/doc/index.html)

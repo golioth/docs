@@ -33,4 +33,4 @@ List of supported toolchains is not available.
 
 ## Official Zephyr docs
 
-[intel_adl (intel_adl)](https://docs.zephyrproject.org/latest/boards/x86/intel_adl/doc/index.html)
+[intel_adl (intel_adl)](https://docs.zephyrproject.org/3.6.0/boards/x86/intel_adl/doc/index.html)

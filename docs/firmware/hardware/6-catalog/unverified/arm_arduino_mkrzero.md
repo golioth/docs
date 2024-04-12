@@ -45,4 +45,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[Arduino MKRZERO (arduino_mkrzero)](https://docs.zephyrproject.org/latest/boards/arm/arduino_mkrzero/doc/index.html)
+[Arduino MKRZERO (arduino_mkrzero)](https://docs.zephyrproject.org/3.6.0/boards/arm/arduino_mkrzero/doc/index.html)
