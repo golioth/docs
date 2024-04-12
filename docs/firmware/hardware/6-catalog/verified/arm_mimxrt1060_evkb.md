@@ -49,4 +49,4 @@ image: /img/boards/arm/mimxrt1060_evkb.jpg
 
 ## Official Zephyr docs
 
-The EVKB version of this board does not have its own documentation in the Zephyr tree, but it is closely related to the [mimxrt1060_evkb](https://docs.zephyrproject.org/latest/boards/arm/mimxrt1060_evk/doc/index.html).
+The EVKB version of this board does not have its own documentation in the Zephyr tree, but it is closely related to the [mimxrt1060_evk](https://docs.zephyrproject.org/3.6.0/boards/arm/mimxrt1060_evk/doc/index.html).
