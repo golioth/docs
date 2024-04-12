@@ -7,6 +7,8 @@ then
     cd vendor/zephyr
     git reset --hard origin/main
     git pull origin main
+    git checkout v3.6.0
+    git pull
 else
     mkdir -p vendor/zephyr
     cd vendor/zephyr
