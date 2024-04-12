@@ -31,6 +31,7 @@ sidebar_class_name: hide-item
 * memc
 * adc
 * counter
+* can
 
 ## Supported toolchains
 

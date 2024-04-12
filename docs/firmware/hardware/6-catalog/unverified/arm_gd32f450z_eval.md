@@ -3,13 +3,13 @@ id: arm_gd32f450z_eval
 title: GigaDevice GD32F450Z-EVAL
 slug: /firmware/hardware/catalog/boards/unverified/arm_gd32f450z_eval
 description: IoT board GigaDevice GD32F450Z-EVAL, compatible with Golioth at unverified level.
-image: /img/boards/arm/gd32f450z_eval.jpg
+image: /img/boards/arm/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![GigaDevice GD32F450Z-EVAL!](/img/boards/arm/gd32f450z_eval.jpg "GigaDevice GD32F450Z-EVAL")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |

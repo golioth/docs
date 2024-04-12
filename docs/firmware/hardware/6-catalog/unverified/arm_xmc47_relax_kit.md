@@ -34,6 +34,7 @@ sidebar_class_name: hide-item
 * arduino_spi
 * arduino_serial
 * watchdog
+* netif:eth
 
 ## Supported toolchains
 

@@ -1,19 +1,19 @@
 ---
-id: arm_pan1783_evb
-title: pan1783_evb
-slug: /firmware/hardware/catalog/boards/unverified/arm_pan1783_evb
-description: IoT board pan1783_evb, compatible with Golioth at unverified level.
-image: /img/boards/arm/pan1783_evb.jpg
+id: arm_nrf54l15pdk_nrf54l15
+title: nrf54l15pdk_nrf54l15
+slug: /firmware/hardware/catalog/boards/unverified/arm_nrf54l15pdk_nrf54l15
+description: IoT board nrf54l15pdk_nrf54l15, compatible with Golioth at unverified level.
+image: /img/boards/arm/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![pan1783_evb!](/img/boards/arm/pan1783_evb.jpg "pan1783_evb")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
-| Board ID       | `pan1783_evb` |
+| Board ID       | `nrf54l15pdk_nrf54l15` |
 | Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
 | RAM*           | N/A |
@@ -33,4 +33,4 @@ List of supported toolchains is not available.
 
 ## Official Zephyr docs
 
-[pan1783_evb (pan1783_evb)](https://docs.zephyrproject.org/latest/boards/arm/pan1783_evb/doc/index.html)
+[nrf54l15pdk_nrf54l15 (nrf54l15pdk_nrf54l15)](https://docs.zephyrproject.org/latest/boards/arm/nrf54l15pdk_nrf54l15/doc/index.html)

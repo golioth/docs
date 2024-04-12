@@ -30,6 +30,7 @@ sidebar_class_name: hide-item
 * arduino_i2c
 * arduino_spi
 * arduino_serial
+* can
 * uart
 * gpio
 * i2c

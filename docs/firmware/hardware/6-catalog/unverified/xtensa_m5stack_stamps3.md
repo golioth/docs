@@ -1,9 +1,9 @@
 ---
-id: arm_ucans32k1sic
-title: NXP UCANS32K1SIC
-slug: /firmware/hardware/catalog/boards/unverified/arm_ucans32k1sic
-description: IoT board NXP UCANS32K1SIC, compatible with Golioth at unverified level.
-image: /img/boards/arm/null
+id: xtensa_m5stack_stamps3
+title: M5Stack StampS3
+slug: /firmware/hardware/catalog/boards/unverified/xtensa_m5stack_stamps3
+description: IoT board M5Stack StampS3, compatible with Golioth at unverified level.
+image: /img/boards/xtensa/null
 sidebar_class_name: hide-item
 ---
 
@@ -13,11 +13,11 @@ sidebar_class_name: hide-item
 
 |                | Board properties     |
 | -------------  | -------------------- |
-| Board ID       | `ucans32k1sic` |
+| Board ID       | `m5stack_stamps3` |
 | Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
-| Architecture   | ARM |
-| RAM*           | 124 kB |
-| Flash*         | 1024 kB |
+| Architecture   | XTENSA |
+| RAM*           | N/A |
+| Flash*         | N/A |
 
 \* values are as reported by Zephyr `.yaml` board files, which don't represent the overall available resources
 
@@ -25,16 +25,14 @@ sidebar_class_name: hide-item
 
 ## Supported features
 
-* mpu
 * gpio
-* uart
-* pinctrl
 * i2c
 * spi
-* pwm
-* can
 * watchdog
-* counter
+* uart
+* pwm
+* pinmux
+* nvs
 
 ## Supported toolchains
 
@@ -42,4 +40,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[NXP UCANS32K1SIC (ucans32k1sic)](https://docs.zephyrproject.org/latest/boards/arm/ucans32k1sic/doc/index.html)
+[M5Stack StampS3 (m5stack_stamps3)](https://docs.zephyrproject.org/latest/boards/xtensa/m5stack_stamps3/doc/index.html)

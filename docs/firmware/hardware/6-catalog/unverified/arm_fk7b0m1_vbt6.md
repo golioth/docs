@@ -1,8 +1,8 @@
 ---
-id: arm_gd32f407v_start
-title: GigaDevice GD32F407V-START
-slug: /firmware/hardware/catalog/boards/unverified/arm_gd32f407v_start
-description: IoT board GigaDevice GD32F407V-START, compatible with Golioth at unverified level.
+id: arm_fk7b0m1_vbt6
+title: FANKE FK7B0M1-VBT6 board
+slug: /firmware/hardware/catalog/boards/unverified/arm_fk7b0m1_vbt6
+description: IoT board FANKE FK7B0M1-VBT6 board, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
 ---
@@ -13,11 +13,11 @@ sidebar_class_name: hide-item
 
 |                | Board properties     |
 | -------------  | -------------------- |
-| Board ID       | `gd32f407v_start` |
+| Board ID       | `fk7b0m1_vbt6` |
 | Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
-| RAM*           | 192 kB |
-| Flash*         | 3072 kB |
+| RAM*           | 1376 kB |
+| Flash*         | 128 kB |
 
 \* values are as reported by Zephyr `.yaml` board files, which don't represent the overall available resources
 
@@ -25,11 +25,8 @@ sidebar_class_name: hide-item
 
 ## Supported features
 
-* pwm
+* uart
 * gpio
-* counter
-* dma
-* spi
 
 ## Supported toolchains
 
@@ -39,4 +36,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[GigaDevice GD32F407V-START (gd32f407v_start)](https://docs.zephyrproject.org/latest/boards/arm/gd32f407v_start/doc/index.html)
+[FANKE FK7B0M1-VBT6 board (fk7b0m1_vbt6)](https://docs.zephyrproject.org/latest/boards/arm/fk7b0m1_vbt6/doc/index.html)

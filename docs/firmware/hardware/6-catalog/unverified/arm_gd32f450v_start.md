@@ -3,13 +3,13 @@ id: arm_gd32f450v_start
 title: GigaDevice GD32F450V-START
 slug: /firmware/hardware/catalog/boards/unverified/arm_gd32f450v_start
 description: IoT board GigaDevice GD32F450V-START, compatible with Golioth at unverified level.
-image: /img/boards/arm/gd32f450v_start.jpg
+image: /img/boards/arm/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![GigaDevice GD32F450V-START!](/img/boards/arm/gd32f450v_start.jpg "GigaDevice GD32F450V-START")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
