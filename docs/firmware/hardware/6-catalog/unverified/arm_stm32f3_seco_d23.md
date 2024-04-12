@@ -1,15 +1,15 @@
 ---
 id: arm_stm32f3_seco_d23
-title: SECO JUNO SBC-D23 (STM32F302)
+title: SECO SBC-3.5-PX30 (STM32F302)
 slug: /firmware/hardware/catalog/boards/unverified/arm_stm32f3_seco_d23
-description: IoT board SECO JUNO SBC-D23 (STM32F302), compatible with Golioth at unverified level.
+description: IoT board SECO SBC-3.5-PX30 (STM32F302), compatible with Golioth at unverified level.
 image: /img/boards/arm/stm32f3_seco_d23.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![SECO JUNO SBC-D23 (STM32F302)!](/img/boards/arm/stm32f3_seco_d23.jpg "SECO JUNO SBC-D23 (STM32F302)")
+![SECO SBC-3.5-PX30 (STM32F302)!](/img/boards/arm/stm32f3_seco_d23.jpg "SECO SBC-3.5-PX30 (STM32F302)")
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -42,4 +42,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[SECO JUNO SBC-D23 (STM32F302) (stm32f3_seco_d23)](https://docs.zephyrproject.org/latest/boards/arm/stm32f3_seco_d23/doc/index.html)
+[SECO SBC-3.5-PX30 (STM32F302) (stm32f3_seco_d23)](https://docs.zephyrproject.org/latest/boards/arm/stm32f3_seco_d23/doc/index.html)

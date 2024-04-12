@@ -1,8 +1,8 @@
 ---
-id: arm_gd32f407v_start
-title: GigaDevice GD32F407V-START
-slug: /firmware/hardware/catalog/boards/unverified/arm_gd32f407v_start
-description: IoT board GigaDevice GD32F407V-START, compatible with Golioth at unverified level.
+id: arm_adi_sdp_k1
+title: ADI SDP-K1
+slug: /firmware/hardware/catalog/boards/unverified/arm_adi_sdp_k1
+description: IoT board ADI SDP-K1, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
 ---
@@ -13,11 +13,11 @@ sidebar_class_name: hide-item
 
 |                | Board properties     |
 | -------------  | -------------------- |
-| Board ID       | `gd32f407v_start` |
+| Board ID       | `adi_sdp_k1` |
 | Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
-| RAM*           | 192 kB |
-| Flash*         | 3072 kB |
+| RAM*           | 384 kB |
+| Flash*         | 2048 kB |
 
 \* values are as reported by Zephyr `.yaml` board files, which don't represent the overall available resources
 
@@ -25,11 +25,7 @@ sidebar_class_name: hide-item
 
 ## Supported features
 
-* pwm
 * gpio
-* counter
-* dma
-* spi
 
 ## Supported toolchains
 
@@ -39,4 +35,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[GigaDevice GD32F407V-START (gd32f407v_start)](https://docs.zephyrproject.org/latest/boards/arm/gd32f407v_start/doc/index.html)
+[ADI SDP-K1 (adi_sdp_k1)](https://docs.zephyrproject.org/latest/boards/arm/adi_sdp_k1/doc/index.html)

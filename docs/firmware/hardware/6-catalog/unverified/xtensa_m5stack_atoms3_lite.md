@@ -1,8 +1,8 @@
 ---
-id: xtensa_esp32_net
-title: ESP32_NET
-slug: /firmware/hardware/catalog/boards/unverified/xtensa_esp32_net
-description: IoT board ESP32_NET, compatible with Golioth at unverified level.
+id: xtensa_m5stack_atoms3_lite
+title: M5Stack AtomS3-Lite
+slug: /firmware/hardware/catalog/boards/unverified/xtensa_m5stack_atoms3_lite
+description: IoT board M5Stack AtomS3-Lite, compatible with Golioth at unverified level.
 image: /img/boards/xtensa/null
 sidebar_class_name: hide-item
 ---
@@ -13,7 +13,7 @@ sidebar_class_name: hide-item
 
 |                | Board properties     |
 | -------------  | -------------------- |
-| Board ID       | `esp32_net` |
+| Board ID       | `m5stack_atoms3_lite` |
 | Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | XTENSA |
 | RAM*           | N/A |
@@ -26,8 +26,16 @@ sidebar_class_name: hide-item
 ## Supported features
 
 * gpio
-* i2c
 * uart
+* i2c
+* spi
+* counter
+* watchdog
+* entropy
+* pwm
+* pinmux
+* nvs
+* dma
 
 ## Supported toolchains
 
@@ -35,4 +43,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[ESP32_NET (esp32_net)](https://docs.zephyrproject.org/latest/boards/xtensa/esp32_net/doc/index.html)
+[M5Stack AtomS3-Lite (m5stack_atoms3_lite)](https://docs.zephyrproject.org/latest/boards/xtensa/m5stack_atoms3_lite/doc/index.html)

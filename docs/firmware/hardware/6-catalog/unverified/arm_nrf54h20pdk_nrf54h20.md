@@ -1,8 +1,8 @@
 ---
-id: arm_gd32f407v_start
-title: GigaDevice GD32F407V-START
-slug: /firmware/hardware/catalog/boards/unverified/arm_gd32f407v_start
-description: IoT board GigaDevice GD32F407V-START, compatible with Golioth at unverified level.
+id: arm_nrf54h20pdk_nrf54h20
+title: nrf54h20pdk_nrf54h20
+slug: /firmware/hardware/catalog/boards/unverified/arm_nrf54h20pdk_nrf54h20
+description: IoT board nrf54h20pdk_nrf54h20, compatible with Golioth at unverified level.
 image: /img/boards/arm/null
 sidebar_class_name: hide-item
 ---
@@ -13,11 +13,11 @@ sidebar_class_name: hide-item
 
 |                | Board properties     |
 | -------------  | -------------------- |
-| Board ID       | `gd32f407v_start` |
+| Board ID       | `nrf54h20pdk_nrf54h20` |
 | Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | ARM |
-| RAM*           | 192 kB |
-| Flash*         | 3072 kB |
+| RAM*           | N/A |
+| Flash*         | N/A |
 
 \* values are as reported by Zephyr `.yaml` board files, which don't represent the overall available resources
 
@@ -25,18 +25,12 @@ sidebar_class_name: hide-item
 
 ## Supported features
 
-* pwm
-* gpio
-* counter
-* dma
-* spi
+List of supported features is not available.
 
 ## Supported toolchains
 
-* zephyr
-* gnuarmemb
-* xtools
+List of supported toolchains is not available.
 
 ## Official Zephyr docs
 
-[GigaDevice GD32F407V-START (gd32f407v_start)](https://docs.zephyrproject.org/latest/boards/arm/gd32f407v_start/doc/index.html)
+[nrf54h20pdk_nrf54h20 (nrf54h20pdk_nrf54h20)](https://docs.zephyrproject.org/latest/boards/arm/nrf54h20pdk_nrf54h20/doc/index.html)

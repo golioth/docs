@@ -31,6 +31,7 @@ sidebar_class_name: hide-item
 * spi
 * uart
 * watchdog
+* netif:eth
 
 ## Supported toolchains
 

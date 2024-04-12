@@ -1,8 +1,8 @@
 ---
-id: riscv_it8xxx2_evb
-title: ITE IT8XXX2 EVB
-slug: /firmware/hardware/catalog/boards/unverified/riscv_it8xxx2_evb
-description: IoT board ITE IT8XXX2 EVB, compatible with Golioth at unverified level.
+id: riscv_nrf54h20pdk_nrf54h20
+title: nrf54h20pdk_nrf54h20
+slug: /firmware/hardware/catalog/boards/unverified/riscv_nrf54h20pdk_nrf54h20
+description: IoT board nrf54h20pdk_nrf54h20, compatible with Golioth at unverified level.
 image: /img/boards/riscv/null
 sidebar_class_name: hide-item
 ---
@@ -13,10 +13,10 @@ sidebar_class_name: hide-item
 
 |                | Board properties     |
 | -------------  | -------------------- |
-| Board ID       | `it8xxx2_evb` |
+| Board ID       | `nrf54h20pdk_nrf54h20` |
 | Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
 | Architecture   | RISCV |
-| RAM*           | 60 kB |
+| RAM*           | N/A |
 | Flash*         | N/A |
 
 \* values are as reported by Zephyr `.yaml` board files, which don't represent the overall available resources
@@ -25,17 +25,12 @@ sidebar_class_name: hide-item
 
 ## Supported features
 
-* gpio
-* adc
-* i2c
-* kscan
-* pwm
-* watchdog
+List of supported features is not available.
 
 ## Supported toolchains
 
-* zephyr
+List of supported toolchains is not available.
 
 ## Official Zephyr docs
 
-[ITE IT8XXX2 EVB (it8xxx2_evb)](https://docs.zephyrproject.org/latest/boards/riscv/it8xxx2_evb/doc/index.html)
+[nrf54h20pdk_nrf54h20 (nrf54h20pdk_nrf54h20)](https://docs.zephyrproject.org/latest/boards/riscv/nrf54h20pdk_nrf54h20/doc/index.html)
