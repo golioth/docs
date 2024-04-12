@@ -34,4 +34,4 @@ List of supported features is not available.
 
 ## Official Zephyr docs
 
-[FVP Emulation FVP_Base_RevC-2xAEMvA (fvp_base_revc_2xaemv8a)](https://docs.zephyrproject.org/latest/boards/arm64/fvp_base_revc_2xaemv8a/doc/index.html)
+[FVP Emulation FVP_Base_RevC-2xAEMvA (fvp_base_revc_2xaemv8a)](https://docs.zephyrproject.org/3.6.0/boards/arm64/fvp_base_revc_2xaemv8a/doc/index.html)

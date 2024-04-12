@@ -41,4 +41,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[WeAct Studio Black Pill V3.0 (F401CE) (blackpill_f401ce)](https://docs.zephyrproject.org/latest/boards/arm/blackpill_f401ce/doc/index.html)
+[WeAct Studio Black Pill V3.0 (F401CE) (blackpill_f401ce)](https://docs.zephyrproject.org/3.6.0/boards/arm/blackpill_f401ce/doc/index.html)

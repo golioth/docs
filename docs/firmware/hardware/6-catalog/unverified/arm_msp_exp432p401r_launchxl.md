@@ -35,4 +35,4 @@ List of supported features is not available.
 
 ## Official Zephyr docs
 
-[MSP-EXP432P401R-LAUNCHXL (msp_exp432p401r_launchxl)](https://docs.zephyrproject.org/latest/boards/arm/msp_exp432p401r_launchxl/doc/index.html)
+[MSP-EXP432P401R-LAUNCHXL (msp_exp432p401r_launchxl)](https://docs.zephyrproject.org/3.6.0/boards/arm/msp_exp432p401r_launchxl/doc/index.html)

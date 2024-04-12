@@ -40,4 +40,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[bl652_dvk (bl652_dvk)](https://docs.zephyrproject.org/latest/boards/arm/bl652_dvk/doc/index.html)
+[bl652_dvk (bl652_dvk)](https://docs.zephyrproject.org/3.6.0/boards/arm/bl652_dvk/doc/index.html)

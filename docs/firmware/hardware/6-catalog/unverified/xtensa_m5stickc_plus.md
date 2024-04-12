@@ -39,4 +39,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[M5StickC PLUS (m5stickc_plus)](https://docs.zephyrproject.org/latest/boards/xtensa/m5stickc_plus/doc/index.html)
+[M5StickC PLUS (m5stickc_plus)](https://docs.zephyrproject.org/3.6.0/boards/xtensa/m5stickc_plus/doc/index.html)

@@ -38,4 +38,4 @@ image: /img/boards/arm/circuitdojo_feather_nrf9160.jpg
 
 ## Official Zephyr docs
 
-[CircuitDojo-Feather-nRF9160 (circuitdojo_feather_nrf9160)](https://docs.zephyrproject.org/latest/boards/arm/circuitdojo_feather_nrf9160/doc/index.html)
+[CircuitDojo-Feather-nRF9160 (circuitdojo_feather_nrf9160)](https://docs.zephyrproject.org/3.6.0/boards/arm/circuitdojo_feather_nrf9160/doc/index.html)

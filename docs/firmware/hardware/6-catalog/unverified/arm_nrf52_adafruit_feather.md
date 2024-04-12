@@ -36,4 +36,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[nRF52 Adafruit Feather (nrf52_adafruit_feather)](https://docs.zephyrproject.org/latest/boards/arm/nrf52_adafruit_feather/doc/index.html)
+[nRF52 Adafruit Feather (nrf52_adafruit_feather)](https://docs.zephyrproject.org/3.6.0/boards/arm/nrf52_adafruit_feather/doc/index.html)

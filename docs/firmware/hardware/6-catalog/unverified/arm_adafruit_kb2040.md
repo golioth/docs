@@ -46,4 +46,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[Adafruit KB2040 (adafruit_kb2040)](https://docs.zephyrproject.org/latest/boards/arm/adafruit_kb2040/doc/index.html)
+[Adafruit KB2040 (adafruit_kb2040)](https://docs.zephyrproject.org/3.6.0/boards/arm/adafruit_kb2040/doc/index.html)

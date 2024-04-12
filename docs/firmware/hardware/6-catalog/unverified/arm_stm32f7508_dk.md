@@ -45,4 +45,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[ST STM32F7508 DK (stm32f7508_dk)](https://docs.zephyrproject.org/latest/boards/arm/stm32f7508_dk/doc/index.html)
+[ST STM32F7508 DK (stm32f7508_dk)](https://docs.zephyrproject.org/3.6.0/boards/arm/stm32f7508_dk/doc/index.html)

@@ -44,4 +44,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[reel-board (reel_board)](https://docs.zephyrproject.org/latest/boards/arm/reel_board/doc/index.html)
+[reel-board (reel_board)](https://docs.zephyrproject.org/3.6.0/boards/arm/reel_board/doc/index.html)

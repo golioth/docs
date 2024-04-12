@@ -33,4 +33,4 @@ List of supported toolchains is not available.
 
 ## Official Zephyr docs
 
-[arduino_uno_r4 (arduino_uno_r4)](https://docs.zephyrproject.org/latest/boards/arm/arduino_uno_r4/doc/index.html)
+[arduino_uno_r4 (arduino_uno_r4)](https://docs.zephyrproject.org/3.6.0/boards/arm/arduino_uno_r4/doc/index.html)

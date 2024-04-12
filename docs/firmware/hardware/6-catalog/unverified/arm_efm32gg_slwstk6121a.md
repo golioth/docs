@@ -40,4 +40,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[EFM32GG-SLWSTK6121A (efm32gg_slwstk6121a)](https://docs.zephyrproject.org/latest/boards/arm/efm32gg_slwstk6121a/doc/index.html)
+[EFM32GG-SLWSTK6121A (efm32gg_slwstk6121a)](https://docs.zephyrproject.org/3.6.0/boards/arm/efm32gg_slwstk6121a/doc/index.html)

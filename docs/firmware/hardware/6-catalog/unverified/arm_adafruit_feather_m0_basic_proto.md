@@ -35,4 +35,4 @@ List of supported features is not available.
 
 ## Official Zephyr docs
 
-[Adafruit Feather M0 Basic Proto (adafruit_feather_m0_basic_proto)](https://docs.zephyrproject.org/latest/boards/arm/adafruit_feather_m0_basic_proto/doc/index.html)
+[Adafruit Feather M0 Basic Proto (adafruit_feather_m0_basic_proto)](https://docs.zephyrproject.org/3.6.0/boards/arm/adafruit_feather_m0_basic_proto/doc/index.html)

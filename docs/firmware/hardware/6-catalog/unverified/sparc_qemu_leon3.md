@@ -34,4 +34,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[QEMU Emulation for LEON3 (qemu_leon3)](https://docs.zephyrproject.org/latest/boards/sparc/qemu_leon3/doc/index.html)
+[QEMU Emulation for LEON3 (qemu_leon3)](https://docs.zephyrproject.org/3.6.0/boards/sparc/qemu_leon3/doc/index.html)

@@ -33,4 +33,4 @@ List of supported toolchains is not available.
 
 ## Official Zephyr docs
 
-[nucleo_h745zi_q (nucleo_h745zi_q)](https://docs.zephyrproject.org/latest/boards/arm/nucleo_h745zi_q/doc/index.html)
+[nucleo_h745zi_q (nucleo_h745zi_q)](https://docs.zephyrproject.org/3.6.0/boards/arm/nucleo_h745zi_q/doc/index.html)

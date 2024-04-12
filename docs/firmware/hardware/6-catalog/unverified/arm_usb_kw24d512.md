@@ -36,4 +36,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[NXP USB-KW24D512 (usb_kw24d512)](https://docs.zephyrproject.org/latest/boards/arm/usb_kw24d512/doc/index.html)
+[NXP USB-KW24D512 (usb_kw24d512)](https://docs.zephyrproject.org/3.6.0/boards/arm/usb_kw24d512/doc/index.html)

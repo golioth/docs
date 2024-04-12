@@ -34,4 +34,4 @@ List of supported features is not available.
 
 ## Official Zephyr docs
 
-[Khadas Edge-V (single core, non SMP) (khadas_edgev)](https://docs.zephyrproject.org/latest/boards/arm64/khadas_edgev/doc/index.html)
+[Khadas Edge-V (single core, non SMP) (khadas_edgev)](https://docs.zephyrproject.org/3.6.0/boards/arm64/khadas_edgev/doc/index.html)

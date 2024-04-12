@@ -33,4 +33,4 @@ List of supported features is not available.
 
 ## Official Zephyr docs
 
-[i.MX8ULP DSP (nxp_adsp_imx8ulp)](https://docs.zephyrproject.org/latest/boards/xtensa/nxp_adsp_imx8ulp/doc/index.html)
+[i.MX8ULP DSP (nxp_adsp_imx8ulp)](https://docs.zephyrproject.org/3.6.0/boards/xtensa/nxp_adsp_imx8ulp/doc/index.html)

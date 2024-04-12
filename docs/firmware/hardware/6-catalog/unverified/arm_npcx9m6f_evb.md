@@ -43,4 +43,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[Nuvoton NPCX9M6F EVB (npcx9m6f_evb)](https://docs.zephyrproject.org/latest/boards/arm/npcx9m6f_evb/doc/index.html)
+[Nuvoton NPCX9M6F EVB (npcx9m6f_evb)](https://docs.zephyrproject.org/3.6.0/boards/arm/npcx9m6f_evb/doc/index.html)

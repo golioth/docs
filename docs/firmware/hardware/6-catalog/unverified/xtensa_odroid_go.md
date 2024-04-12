@@ -38,4 +38,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[ODROID-GO (odroid_go)](https://docs.zephyrproject.org/latest/boards/xtensa/odroid_go/doc/index.html)
+[ODROID-GO (odroid_go)](https://docs.zephyrproject.org/3.6.0/boards/xtensa/odroid_go/doc/index.html)

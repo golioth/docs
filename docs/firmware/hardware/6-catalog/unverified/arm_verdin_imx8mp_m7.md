@@ -33,4 +33,4 @@ List of supported toolchains is not available.
 
 ## Official Zephyr docs
 
-[verdin_imx8mp_m7 (verdin_imx8mp_m7)](https://docs.zephyrproject.org/latest/boards/arm/verdin_imx8mp_m7/doc/index.html)
+[verdin_imx8mp_m7 (verdin_imx8mp_m7)](https://docs.zephyrproject.org/3.6.0/boards/arm/verdin_imx8mp_m7/doc/index.html)

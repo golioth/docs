@@ -44,4 +44,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[nRF52840-Dongle-NRF52840 (nrf52840dongle_nrf52840)](https://docs.zephyrproject.org/latest/boards/arm/nrf52840dongle_nrf52840/doc/index.html)
+[nRF52840-Dongle-NRF52840 (nrf52840dongle_nrf52840)](https://docs.zephyrproject.org/3.6.0/boards/arm/nrf52840dongle_nrf52840/doc/index.html)

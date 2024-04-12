@@ -47,4 +47,4 @@ See our [quickstart guide for nRF9160-DK-NRF9160](/getting-started/device-exampl
 
 ## Official Zephyr docs
 
-[nRF9160-DK-NRF9160 (nrf9160dk_nrf9160)](https://docs.zephyrproject.org/latest/boards/arm/nrf9160dk_nrf9160/doc/index.html)
+[nRF9160-DK-NRF9160 (nrf9160dk_nrf9160)](https://docs.zephyrproject.org/3.6.0/boards/arm/nrf9160dk_nrf9160/doc/index.html)

@@ -51,4 +51,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[SAM V71 Xplained Ultra (sam_v71_xult)](https://docs.zephyrproject.org/latest/boards/arm/sam_v71_xult/doc/index.html)
+[SAM V71 Xplained Ultra (sam_v71_xult)](https://docs.zephyrproject.org/3.6.0/boards/arm/sam_v71_xult/doc/index.html)

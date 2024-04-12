@@ -42,4 +42,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[XIAO ESP32S3 (xiao_esp32s3)](https://docs.zephyrproject.org/latest/boards/xtensa/xiao_esp32s3/doc/index.html)
+[XIAO ESP32S3 (xiao_esp32s3)](https://docs.zephyrproject.org/3.6.0/boards/xtensa/xiao_esp32s3/doc/index.html)

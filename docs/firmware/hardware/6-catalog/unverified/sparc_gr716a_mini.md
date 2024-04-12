@@ -35,4 +35,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[GR716-MINI Development Board (gr716a_mini)](https://docs.zephyrproject.org/latest/boards/sparc/gr716a_mini/doc/index.html)
+[GR716-MINI Development Board (gr716a_mini)](https://docs.zephyrproject.org/3.6.0/boards/sparc/gr716a_mini/doc/index.html)

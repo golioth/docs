@@ -36,4 +36,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[PhyBOARD Pollux (i.MX8MP) (mimx8mp_phyboard_pollux)](https://docs.zephyrproject.org/latest/boards/arm/mimx8mp_phyboard_pollux/doc/index.html)
+[PhyBOARD Pollux (i.MX8MP) (mimx8mp_phyboard_pollux)](https://docs.zephyrproject.org/3.6.0/boards/arm/mimx8mp_phyboard_pollux/doc/index.html)

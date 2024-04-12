@@ -35,4 +35,4 @@ List of supported features is not available.
 
 ## Official Zephyr docs
 
-[nRF52-VBLUno52 (nrf52_vbluno52)](https://docs.zephyrproject.org/latest/boards/arm/nrf52_vbluno52/doc/index.html)
+[nRF52-VBLUno52 (nrf52_vbluno52)](https://docs.zephyrproject.org/3.6.0/boards/arm/nrf52_vbluno52/doc/index.html)

@@ -33,4 +33,4 @@ List of supported toolchains is not available.
 
 ## Official Zephyr docs
 
-[cy8ckit_062s4 (cy8ckit_062s4)](https://docs.zephyrproject.org/latest/boards/arm/cy8ckit_062s4/doc/index.html)
+[cy8ckit_062s4 (cy8ckit_062s4)](https://docs.zephyrproject.org/3.6.0/boards/arm/cy8ckit_062s4/doc/index.html)

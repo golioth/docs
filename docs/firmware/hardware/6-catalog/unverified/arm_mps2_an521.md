@@ -35,4 +35,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[ARM V2M MPS2-AN521 (mps2_an521)](https://docs.zephyrproject.org/latest/boards/arm/mps2_an521/doc/index.html)
+[ARM V2M MPS2-AN521 (mps2_an521)](https://docs.zephyrproject.org/3.6.0/boards/arm/mps2_an521/doc/index.html)

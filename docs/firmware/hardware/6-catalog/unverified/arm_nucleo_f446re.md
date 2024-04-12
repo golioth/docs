@@ -43,4 +43,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[ST Nucleo F446RE (nucleo_f446re)](https://docs.zephyrproject.org/latest/boards/arm/nucleo_f446re/doc/index.html)
+[ST Nucleo F446RE (nucleo_f446re)](https://docs.zephyrproject.org/3.6.0/boards/arm/nucleo_f446re/doc/index.html)

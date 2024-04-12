@@ -45,4 +45,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[pinnacle-100-dvk (pinnacle_100_dvk)](https://docs.zephyrproject.org/latest/boards/arm/pinnacle_100_dvk/doc/index.html)
+[pinnacle-100-dvk (pinnacle_100_dvk)](https://docs.zephyrproject.org/3.6.0/boards/arm/pinnacle_100_dvk/doc/index.html)

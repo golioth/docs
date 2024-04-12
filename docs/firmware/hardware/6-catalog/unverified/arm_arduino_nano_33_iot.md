@@ -44,4 +44,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[Arduino Nano 33 IOT (arduino_nano_33_iot)](https://docs.zephyrproject.org/latest/boards/arm/arduino_nano_33_iot/doc/index.html)
+[Arduino Nano 33 IOT (arduino_nano_33_iot)](https://docs.zephyrproject.org/3.6.0/boards/arm/arduino_nano_33_iot/doc/index.html)

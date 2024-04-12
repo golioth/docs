@@ -42,4 +42,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[Arduino Nicla Sense ME (arduino_nicla_sense_me)](https://docs.zephyrproject.org/latest/boards/arm/arduino_nicla_sense_me/doc/index.html)
+[Arduino Nicla Sense ME (arduino_nicla_sense_me)](https://docs.zephyrproject.org/3.6.0/boards/arm/arduino_nicla_sense_me/doc/index.html)

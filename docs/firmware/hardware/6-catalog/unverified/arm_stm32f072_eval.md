@@ -35,4 +35,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[ST STM32F072 Evaluation (stm32f072_eval)](https://docs.zephyrproject.org/latest/boards/arm/stm32f072_eval/doc/index.html)
+[ST STM32F072 Evaluation (stm32f072_eval)](https://docs.zephyrproject.org/3.6.0/boards/arm/stm32f072_eval/doc/index.html)

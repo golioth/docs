@@ -34,4 +34,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[Generic LEON3 system (generic_leon3)](https://docs.zephyrproject.org/latest/boards/sparc/generic_leon3/doc/index.html)
+[Generic LEON3 system (generic_leon3)](https://docs.zephyrproject.org/3.6.0/boards/sparc/generic_leon3/doc/index.html)

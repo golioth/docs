@@ -33,4 +33,4 @@ List of supported toolchains is not available.
 
 ## Official Zephyr docs
 
-[rcar_h3ulcb (rcar_h3ulcb)](https://docs.zephyrproject.org/latest/boards/arm/rcar_h3ulcb/doc/index.html)
+[rcar_h3ulcb (rcar_h3ulcb)](https://docs.zephyrproject.org/3.6.0/boards/arm/rcar_h3ulcb/doc/index.html)

@@ -43,4 +43,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[Heltec Wireless Stick Lite (V3) (heltec_wireless_stick_lite_v3)](https://docs.zephyrproject.org/latest/boards/xtensa/heltec_wireless_stick_lite_v3/doc/index.html)
+[Heltec Wireless Stick Lite (V3) (heltec_wireless_stick_lite_v3)](https://docs.zephyrproject.org/3.6.0/boards/xtensa/heltec_wireless_stick_lite_v3/doc/index.html)

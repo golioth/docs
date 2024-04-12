@@ -33,4 +33,4 @@ List of supported toolchains is not available.
 
 ## Official Zephyr docs
 
-[common (common)](https://docs.zephyrproject.org/latest/boards/x86/common/doc/index.html)
+[common (common)](https://docs.zephyrproject.org/3.6.0/boards/x86/common/doc/index.html)

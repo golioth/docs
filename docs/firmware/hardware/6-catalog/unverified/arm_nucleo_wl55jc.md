@@ -48,4 +48,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[ST Nucleo WL55JC (nucleo_wl55jc)](https://docs.zephyrproject.org/latest/boards/arm/nucleo_wl55jc/doc/index.html)
+[ST Nucleo WL55JC (nucleo_wl55jc)](https://docs.zephyrproject.org/3.6.0/boards/arm/nucleo_wl55jc/doc/index.html)

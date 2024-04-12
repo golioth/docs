@@ -42,4 +42,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[ESP32-C3 (esp32c3_devkitm)](https://docs.zephyrproject.org/latest/boards/riscv/esp32c3_devkitm/doc/index.html)
+[ESP32-C3 (esp32c3_devkitm)](https://docs.zephyrproject.org/3.6.0/boards/riscv/esp32c3_devkitm/doc/index.html)

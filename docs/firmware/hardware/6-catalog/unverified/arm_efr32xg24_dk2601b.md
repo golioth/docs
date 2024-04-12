@@ -35,4 +35,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[BRD4601B (efr32xg24_dk2601b)](https://docs.zephyrproject.org/latest/boards/arm/efr32xg24_dk2601b/doc/index.html)
+[BRD4601B (efr32xg24_dk2601b)](https://docs.zephyrproject.org/3.6.0/boards/arm/efr32xg24_dk2601b/doc/index.html)

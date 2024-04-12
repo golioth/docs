@@ -34,4 +34,4 @@ List of supported features is not available.
 
 ## Official Zephyr docs
 
-[PHYTEC phyCORE-AM62x A53 (phycore_am62x_a53)](https://docs.zephyrproject.org/latest/boards/arm64/phycore_am62x_a53/doc/index.html)
+[PHYTEC phyCORE-AM62x A53 (phycore_am62x_a53)](https://docs.zephyrproject.org/3.6.0/boards/arm64/phycore_am62x_a53/doc/index.html)

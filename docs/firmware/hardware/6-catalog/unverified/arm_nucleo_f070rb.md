@@ -43,4 +43,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[ST Nucleo F070RB (nucleo_f070rb)](https://docs.zephyrproject.org/latest/boards/arm/nucleo_f070rb/doc/index.html)
+[ST Nucleo F070RB (nucleo_f070rb)](https://docs.zephyrproject.org/3.6.0/boards/arm/nucleo_f070rb/doc/index.html)

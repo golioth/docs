@@ -38,4 +38,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[nRF52840-DK-NRF52811 (nrf52840dk_nrf52811)](https://docs.zephyrproject.org/latest/boards/arm/nrf52840dk_nrf52811/doc/index.html)
+[nRF52840-DK-NRF52811 (nrf52840dk_nrf52811)](https://docs.zephyrproject.org/3.6.0/boards/arm/nrf52840dk_nrf52811/doc/index.html)

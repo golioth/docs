@@ -35,4 +35,4 @@ List of supported features is not available.
 
 ## Official Zephyr docs
 
-[Dragino LSN50 LoRA Sensor Node (dragino_lsn50)](https://docs.zephyrproject.org/latest/boards/arm/dragino_lsn50/doc/index.html)
+[Dragino LSN50 LoRA Sensor Node (dragino_lsn50)](https://docs.zephyrproject.org/3.6.0/boards/arm/dragino_lsn50/doc/index.html)

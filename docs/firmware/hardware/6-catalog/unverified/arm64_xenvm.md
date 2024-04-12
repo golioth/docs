@@ -34,4 +34,4 @@ List of supported features is not available.
 
 ## Official Zephyr docs
 
-[ARMv8 Xen Virtual Machine (xenvm)](https://docs.zephyrproject.org/latest/boards/arm64/xenvm/doc/index.html)
+[ARMv8 Xen Virtual Machine (xenvm)](https://docs.zephyrproject.org/3.6.0/boards/arm64/xenvm/doc/index.html)

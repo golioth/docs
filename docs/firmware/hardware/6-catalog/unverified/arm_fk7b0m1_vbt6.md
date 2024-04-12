@@ -36,4 +36,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[FANKE FK7B0M1-VBT6 board (fk7b0m1_vbt6)](https://docs.zephyrproject.org/latest/boards/arm/fk7b0m1_vbt6/doc/index.html)
+[FANKE FK7B0M1-VBT6 board (fk7b0m1_vbt6)](https://docs.zephyrproject.org/3.6.0/boards/arm/fk7b0m1_vbt6/doc/index.html)

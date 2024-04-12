@@ -33,4 +33,4 @@ List of supported toolchains is not available.
 
 ## Official Zephyr docs
 
-[raytac_mdbt53v_db_40_nrf5340 (raytac_mdbt53v_db_40_nrf5340)](https://docs.zephyrproject.org/latest/boards/arm/raytac_mdbt53v_db_40_nrf5340/doc/index.html)
+[raytac_mdbt53v_db_40_nrf5340 (raytac_mdbt53v_db_40_nrf5340)](https://docs.zephyrproject.org/3.6.0/boards/arm/raytac_mdbt53v_db_40_nrf5340/doc/index.html)

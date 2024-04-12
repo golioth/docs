@@ -42,4 +42,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[NXP UCANS32K1SIC (ucans32k1sic)](https://docs.zephyrproject.org/latest/boards/arm/ucans32k1sic/doc/index.html)
+[NXP UCANS32K1SIC (ucans32k1sic)](https://docs.zephyrproject.org/3.6.0/boards/arm/ucans32k1sic/doc/index.html)

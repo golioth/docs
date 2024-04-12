@@ -33,4 +33,4 @@ List of supported toolchains is not available.
 
 ## Official Zephyr docs
 
-[nsim (nsim)](https://docs.zephyrproject.org/latest/boards/arc/nsim/doc/index.html)
+[nsim (nsim)](https://docs.zephyrproject.org/3.6.0/boards/arc/nsim/doc/index.html)

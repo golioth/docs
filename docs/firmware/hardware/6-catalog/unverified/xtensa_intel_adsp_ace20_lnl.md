@@ -35,4 +35,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[ACE 2.0 LNL Audio DSP (intel_adsp_ace20_lnl)](https://docs.zephyrproject.org/latest/boards/xtensa/intel_adsp_ace20_lnl/doc/index.html)
+[ACE 2.0 LNL Audio DSP (intel_adsp_ace20_lnl)](https://docs.zephyrproject.org/3.6.0/boards/xtensa/intel_adsp_ace20_lnl/doc/index.html)

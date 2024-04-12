@@ -35,4 +35,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[cAVS 2.5 Audio DSP (converged Audio Voice and Speech) (intel_adsp_cavs25)](https://docs.zephyrproject.org/latest/boards/xtensa/intel_adsp_cavs25/doc/index.html)
+[cAVS 2.5 Audio DSP (converged Audio Voice and Speech) (intel_adsp_cavs25)](https://docs.zephyrproject.org/3.6.0/boards/xtensa/intel_adsp_cavs25/doc/index.html)

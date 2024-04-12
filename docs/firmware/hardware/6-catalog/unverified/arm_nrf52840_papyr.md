@@ -39,4 +39,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[Electronut Labs Papyr (nrf52840_papyr)](https://docs.zephyrproject.org/latest/boards/arm/nrf52840_papyr/doc/index.html)
+[Electronut Labs Papyr (nrf52840_papyr)](https://docs.zephyrproject.org/3.6.0/boards/arm/nrf52840_papyr/doc/index.html)

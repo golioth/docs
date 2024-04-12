@@ -36,4 +36,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[96Boards Avenger96 (96b_avenger96)](https://docs.zephyrproject.org/latest/boards/arm/96b_avenger96/doc/index.html)
+[96Boards Avenger96 (96b_avenger96)](https://docs.zephyrproject.org/3.6.0/boards/arm/96b_avenger96/doc/index.html)

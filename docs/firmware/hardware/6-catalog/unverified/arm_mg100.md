@@ -43,4 +43,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[mg100 (mg100)](https://docs.zephyrproject.org/latest/boards/arm/mg100/doc/index.html)
+[mg100 (mg100)](https://docs.zephyrproject.org/3.6.0/boards/arm/mg100/doc/index.html)

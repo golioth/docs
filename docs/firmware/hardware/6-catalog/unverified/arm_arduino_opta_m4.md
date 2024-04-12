@@ -35,4 +35,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[ARDUINO OPTA (M4) (arduino_opta_m4)](https://docs.zephyrproject.org/latest/boards/arm/arduino_opta_m4/doc/index.html)
+[ARDUINO OPTA (M4) (arduino_opta_m4)](https://docs.zephyrproject.org/3.6.0/boards/arm/arduino_opta_m4/doc/index.html)

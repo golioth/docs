@@ -45,4 +45,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[UBX-EVKANNAB1-NRF52832 (ubx_evkannab1_nrf52832)](https://docs.zephyrproject.org/latest/boards/arm/ubx_evkannab1_nrf52832/doc/index.html)
+[UBX-EVKANNAB1-NRF52832 (ubx_evkannab1_nrf52832)](https://docs.zephyrproject.org/3.6.0/boards/arm/ubx_evkannab1_nrf52832/doc/index.html)

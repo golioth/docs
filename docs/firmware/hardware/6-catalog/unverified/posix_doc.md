@@ -33,4 +33,4 @@ List of supported toolchains is not available.
 
 ## Official Zephyr docs
 
-[doc (doc)](https://docs.zephyrproject.org/latest/boards/posix/doc/doc/index.html)
+[doc (doc)](https://docs.zephyrproject.org/3.6.0/boards/posix/doc/doc/index.html)

@@ -36,4 +36,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[ST STM32373C Evaluation (stm32373c_eval)](https://docs.zephyrproject.org/latest/boards/arm/stm32373c_eval/doc/index.html)
+[ST STM32373C Evaluation (stm32373c_eval)](https://docs.zephyrproject.org/3.6.0/boards/arm/stm32373c_eval/doc/index.html)

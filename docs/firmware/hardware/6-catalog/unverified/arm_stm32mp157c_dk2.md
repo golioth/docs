@@ -40,4 +40,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[ST STM32MP157C-DK2 Discovery (stm32mp157c_dk2)](https://docs.zephyrproject.org/latest/boards/arm/stm32mp157c_dk2/doc/index.html)
+[ST STM32MP157C-DK2 Discovery (stm32mp157c_dk2)](https://docs.zephyrproject.org/3.6.0/boards/arm/stm32mp157c_dk2/doc/index.html)

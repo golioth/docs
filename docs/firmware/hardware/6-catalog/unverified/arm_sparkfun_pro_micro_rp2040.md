@@ -46,4 +46,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[Sparkfun Pro Micro RP2040 (sparkfun_pro_micro_rp2040)](https://docs.zephyrproject.org/latest/boards/arm/sparkfun_pro_micro_rp2040/doc/index.html)
+[Sparkfun Pro Micro RP2040 (sparkfun_pro_micro_rp2040)](https://docs.zephyrproject.org/3.6.0/boards/arm/sparkfun_pro_micro_rp2040/doc/index.html)

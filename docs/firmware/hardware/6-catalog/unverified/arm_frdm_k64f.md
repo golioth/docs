@@ -51,4 +51,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[NXP FRDM-K64F (frdm_k64f)](https://docs.zephyrproject.org/latest/boards/arm/frdm_k64f/doc/index.html)
+[NXP FRDM-K64F (frdm_k64f)](https://docs.zephyrproject.org/3.6.0/boards/arm/frdm_k64f/doc/index.html)

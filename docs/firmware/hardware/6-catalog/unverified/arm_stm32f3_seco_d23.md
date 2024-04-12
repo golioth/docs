@@ -42,4 +42,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[SECO SBC-3.5-PX30 (STM32F302) (stm32f3_seco_d23)](https://docs.zephyrproject.org/latest/boards/arm/stm32f3_seco_d23/doc/index.html)
+[SECO SBC-3.5-PX30 (STM32F302) (stm32f3_seco_d23)](https://docs.zephyrproject.org/3.6.0/boards/arm/stm32f3_seco_d23/doc/index.html)

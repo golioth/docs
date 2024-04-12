@@ -43,4 +43,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[M5Stack AtomS3-Lite (m5stack_atoms3_lite)](https://docs.zephyrproject.org/latest/boards/xtensa/m5stack_atoms3_lite/doc/index.html)
+[M5Stack AtomS3-Lite (m5stack_atoms3_lite)](https://docs.zephyrproject.org/3.6.0/boards/xtensa/m5stack_atoms3_lite/doc/index.html)

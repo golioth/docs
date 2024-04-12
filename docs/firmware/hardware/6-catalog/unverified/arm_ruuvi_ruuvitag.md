@@ -41,4 +41,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[Ruuvi-RuuviTag (ruuvi_ruuvitag)](https://docs.zephyrproject.org/latest/boards/arm/ruuvi_ruuvitag/doc/index.html)
+[Ruuvi-RuuviTag (ruuvi_ruuvitag)](https://docs.zephyrproject.org/3.6.0/boards/arm/ruuvi_ruuvitag/doc/index.html)

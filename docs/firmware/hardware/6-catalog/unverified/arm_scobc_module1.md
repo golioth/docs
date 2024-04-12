@@ -33,4 +33,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[Space Cubics OBC module 1 (scobc_module1)](https://docs.zephyrproject.org/latest/boards/arm/scobc_module1/doc/index.html)
+[Space Cubics OBC module 1 (scobc_module1)](https://docs.zephyrproject.org/3.6.0/boards/arm/scobc_module1/doc/index.html)

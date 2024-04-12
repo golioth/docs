@@ -37,4 +37,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[UDOO Neo Full (udoo_neo_full_m4)](https://docs.zephyrproject.org/latest/boards/arm/udoo_neo_full_m4/doc/index.html)
+[UDOO Neo Full (udoo_neo_full_m4)](https://docs.zephyrproject.org/3.6.0/boards/arm/udoo_neo_full_m4/doc/index.html)

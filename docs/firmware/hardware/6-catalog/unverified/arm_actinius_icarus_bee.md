@@ -40,4 +40,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[Actinius Icarus Bee (actinius_icarus_bee)](https://docs.zephyrproject.org/latest/boards/arm/actinius_icarus_bee/doc/index.html)
+[Actinius Icarus Bee (actinius_icarus_bee)](https://docs.zephyrproject.org/3.6.0/boards/arm/actinius_icarus_bee/doc/index.html)

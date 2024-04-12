@@ -35,4 +35,4 @@ List of supported features is not available.
 
 ## Official Zephyr docs
 
-[Google Twinkie V2 (google_twinkie_v2)](https://docs.zephyrproject.org/latest/boards/arm/google_twinkie_v2/doc/index.html)
+[Google Twinkie V2 (google_twinkie_v2)](https://docs.zephyrproject.org/3.6.0/boards/arm/google_twinkie_v2/doc/index.html)

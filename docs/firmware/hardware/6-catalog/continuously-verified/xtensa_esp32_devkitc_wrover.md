@@ -48,4 +48,4 @@ See our [quickstart guide for ESP32-DevkitC-WROVER-E](/getting-started/device-ex
 
 ## Official Zephyr docs
 
-[ESP32-DevkitC-WROVER-E (esp32_devkitc_wrover)](https://docs.zephyrproject.org/latest/boards/xtensa/esp32_devkitc_wrover/doc/index.html)
+[ESP32-DevkitC-WROVER-E (esp32_devkitc_wrover)](https://docs.zephyrproject.org/3.6.0/boards/xtensa/esp32_devkitc_wrover/doc/index.html)

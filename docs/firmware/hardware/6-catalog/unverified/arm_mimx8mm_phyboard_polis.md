@@ -35,4 +35,4 @@ List of supported features is not available.
 
 ## Official Zephyr docs
 
-[Phyboard Polis i.MX8M Mini (mimx8mm_phyboard_polis)](https://docs.zephyrproject.org/latest/boards/arm/mimx8mm_phyboard_polis/doc/index.html)
+[Phyboard Polis i.MX8M Mini (mimx8mm_phyboard_polis)](https://docs.zephyrproject.org/3.6.0/boards/arm/mimx8mm_phyboard_polis/doc/index.html)

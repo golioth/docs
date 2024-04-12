@@ -35,4 +35,4 @@ List of supported features is not available.
 
 ## Official Zephyr docs
 
-[aconno acn52832 (acn52832)](https://docs.zephyrproject.org/latest/boards/arm/acn52832/doc/index.html)
+[aconno acn52832 (acn52832)](https://docs.zephyrproject.org/3.6.0/boards/arm/acn52832/doc/index.html)

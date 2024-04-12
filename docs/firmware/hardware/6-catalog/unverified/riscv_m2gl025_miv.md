@@ -33,4 +33,4 @@ List of supported features is not available.
 
 ## Official Zephyr docs
 
-[Microchip M2GL025 with MiV target (m2gl025_miv)](https://docs.zephyrproject.org/latest/boards/riscv/m2gl025_miv/doc/index.html)
+[Microchip M2GL025 with MiV target (m2gl025_miv)](https://docs.zephyrproject.org/3.6.0/boards/riscv/m2gl025_miv/doc/index.html)

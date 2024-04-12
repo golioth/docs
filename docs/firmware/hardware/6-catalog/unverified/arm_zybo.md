@@ -35,4 +35,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[Digilent Zybo (zybo)](https://docs.zephyrproject.org/latest/boards/arm/zybo/doc/index.html)
+[Digilent Zybo (zybo)](https://docs.zephyrproject.org/3.6.0/boards/arm/zybo/doc/index.html)

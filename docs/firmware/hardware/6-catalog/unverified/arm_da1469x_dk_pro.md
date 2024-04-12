@@ -45,4 +45,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[DA1469X_DK_PRO (da1469x_dk_pro)](https://docs.zephyrproject.org/latest/boards/arm/da1469x_dk_pro/doc/index.html)
+[DA1469X_DK_PRO (da1469x_dk_pro)](https://docs.zephyrproject.org/3.6.0/boards/arm/da1469x_dk_pro/doc/index.html)

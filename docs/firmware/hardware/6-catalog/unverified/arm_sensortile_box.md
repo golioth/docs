@@ -42,4 +42,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[ST SensorTile.box (sensortile_box)](https://docs.zephyrproject.org/latest/boards/arm/sensortile_box/doc/index.html)
+[ST SensorTile.box (sensortile_box)](https://docs.zephyrproject.org/3.6.0/boards/arm/sensortile_box/doc/index.html)

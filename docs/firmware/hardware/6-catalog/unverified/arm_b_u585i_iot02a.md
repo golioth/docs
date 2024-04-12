@@ -48,4 +48,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[ST B_U585I_IOT02A Discovery kit (b_u585i_iot02a)](https://docs.zephyrproject.org/latest/boards/arm/b_u585i_iot02a/doc/index.html)
+[ST B_U585I_IOT02A Discovery kit (b_u585i_iot02a)](https://docs.zephyrproject.org/3.6.0/boards/arm/b_u585i_iot02a/doc/index.html)

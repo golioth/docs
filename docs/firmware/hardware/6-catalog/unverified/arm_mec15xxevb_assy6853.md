@@ -41,4 +41,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[MEC15XX EVB ASSY 6853 (mec15xxevb_assy6853)](https://docs.zephyrproject.org/latest/boards/arm/mec15xxevb_assy6853/doc/index.html)
+[MEC15XX EVB ASSY 6853 (mec15xxevb_assy6853)](https://docs.zephyrproject.org/3.6.0/boards/arm/mec15xxevb_assy6853/doc/index.html)

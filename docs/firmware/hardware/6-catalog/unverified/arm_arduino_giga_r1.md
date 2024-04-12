@@ -33,4 +33,4 @@ List of supported toolchains is not available.
 
 ## Official Zephyr docs
 
-[arduino_giga_r1 (arduino_giga_r1)](https://docs.zephyrproject.org/latest/boards/arm/arduino_giga_r1/doc/index.html)
+[arduino_giga_r1 (arduino_giga_r1)](https://docs.zephyrproject.org/3.6.0/boards/arm/arduino_giga_r1/doc/index.html)

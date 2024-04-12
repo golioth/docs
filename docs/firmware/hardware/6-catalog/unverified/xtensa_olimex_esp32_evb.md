@@ -40,4 +40,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[Olimex ESP32-EVB (olimex_esp32_evb)](https://docs.zephyrproject.org/latest/boards/xtensa/olimex_esp32_evb/doc/index.html)
+[Olimex ESP32-EVB (olimex_esp32_evb)](https://docs.zephyrproject.org/3.6.0/boards/xtensa/olimex_esp32_evb/doc/index.html)

@@ -40,4 +40,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[96Boards Carbon (96b_carbon)](https://docs.zephyrproject.org/latest/boards/arm/96b_carbon/doc/index.html)
+[96Boards Carbon (96b_carbon)](https://docs.zephyrproject.org/3.6.0/boards/arm/96b_carbon/doc/index.html)

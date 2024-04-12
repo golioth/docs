@@ -44,4 +44,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[Adafruit Trinket M0 (adafruit_trinket_m0)](https://docs.zephyrproject.org/latest/boards/arm/adafruit_trinket_m0/doc/index.html)
+[Adafruit Trinket M0 (adafruit_trinket_m0)](https://docs.zephyrproject.org/3.6.0/boards/arm/adafruit_trinket_m0/doc/index.html)

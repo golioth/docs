@@ -44,4 +44,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[Native 32-bit POSIX port (native_posix)](https://docs.zephyrproject.org/latest/boards/posix/native_posix/doc/index.html)
+[Native 32-bit POSIX port (native_posix)](https://docs.zephyrproject.org/3.6.0/boards/posix/native_posix/doc/index.html)

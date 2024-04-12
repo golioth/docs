@@ -44,4 +44,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[Wio Terminal (wio_terminal)](https://docs.zephyrproject.org/latest/boards/arm/wio_terminal/doc/index.html)
+[Wio Terminal (wio_terminal)](https://docs.zephyrproject.org/3.6.0/boards/arm/wio_terminal/doc/index.html)

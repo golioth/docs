@@ -43,4 +43,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[96Boards Argonkey (96b_argonkey)](https://docs.zephyrproject.org/latest/boards/arm/96b_argonkey/doc/index.html)
+[96Boards Argonkey (96b_argonkey)](https://docs.zephyrproject.org/3.6.0/boards/arm/96b_argonkey/doc/index.html)

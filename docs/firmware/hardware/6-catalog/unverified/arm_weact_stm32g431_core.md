@@ -42,4 +42,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[WeAct Studio STM32G431 Core Board (weact_stm32g431_core)](https://docs.zephyrproject.org/latest/boards/arm/weact_stm32g431_core/doc/index.html)
+[WeAct Studio STM32G431 Core Board (weact_stm32g431_core)](https://docs.zephyrproject.org/3.6.0/boards/arm/weact_stm32g431_core/doc/index.html)

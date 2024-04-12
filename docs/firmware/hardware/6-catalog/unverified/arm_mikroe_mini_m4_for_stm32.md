@@ -40,4 +40,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[Mikroe MINI-M4 for STM32 (mikroe_mini_m4_for_stm32)](https://docs.zephyrproject.org/latest/boards/arm/mikroe_mini_m4_for_stm32/doc/index.html)
+[Mikroe MINI-M4 for STM32 (mikroe_mini_m4_for_stm32)](https://docs.zephyrproject.org/3.6.0/boards/arm/mikroe_mini_m4_for_stm32/doc/index.html)

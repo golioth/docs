@@ -38,4 +38,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[ESP32-S2 Franzininho (esp32s2_franzininho)](https://docs.zephyrproject.org/latest/boards/xtensa/esp32s2_franzininho/doc/index.html)
+[ESP32-S2 Franzininho (esp32s2_franzininho)](https://docs.zephyrproject.org/3.6.0/boards/xtensa/esp32s2_franzininho/doc/index.html)

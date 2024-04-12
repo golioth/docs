@@ -34,4 +34,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[LiteX SoC with VexRiscV softcore CPU (litex_vexriscv)](https://docs.zephyrproject.org/latest/boards/riscv/litex_vexriscv/doc/index.html)
+[LiteX SoC with VexRiscV softcore CPU (litex_vexriscv)](https://docs.zephyrproject.org/3.6.0/boards/riscv/litex_vexriscv/doc/index.html)

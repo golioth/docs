@@ -38,4 +38,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[ST Nucleo L011K4 (nucleo_l011k4)](https://docs.zephyrproject.org/latest/boards/arm/nucleo_l011k4/doc/index.html)
+[ST Nucleo L011K4 (nucleo_l011k4)](https://docs.zephyrproject.org/3.6.0/boards/arm/nucleo_l011k4/doc/index.html)

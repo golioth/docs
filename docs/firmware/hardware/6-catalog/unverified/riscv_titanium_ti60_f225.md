@@ -34,4 +34,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[titanium_ti60_f225 FPGA development kit with Efinix Sapphire riscv SoC (titanium_ti60_f225)](https://docs.zephyrproject.org/latest/boards/riscv/titanium_ti60_f225/doc/index.html)
+[titanium_ti60_f225 FPGA development kit with Efinix Sapphire riscv SoC (titanium_ti60_f225)](https://docs.zephyrproject.org/3.6.0/boards/riscv/titanium_ti60_f225/doc/index.html)

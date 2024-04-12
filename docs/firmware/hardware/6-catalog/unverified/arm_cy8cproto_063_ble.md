@@ -39,4 +39,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[CY8CPROTO-063-BLE PSoC™ 6 BLE Prototyping Kit (cy8cproto_063_ble)](https://docs.zephyrproject.org/latest/boards/arm/cy8cproto_063_ble/doc/index.html)
+[CY8CPROTO-063-BLE PSoC™ 6 BLE Prototyping Kit (cy8cproto_063_ble)](https://docs.zephyrproject.org/3.6.0/boards/arm/cy8cproto_063_ble/doc/index.html)

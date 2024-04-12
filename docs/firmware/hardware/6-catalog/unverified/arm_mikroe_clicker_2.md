@@ -37,4 +37,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[MikroE Clicker 2 for STM32 (mikroe_clicker_2)](https://docs.zephyrproject.org/latest/boards/arm/mikroe_clicker_2/doc/index.html)
+[MikroE Clicker 2 for STM32 (mikroe_clicker_2)](https://docs.zephyrproject.org/3.6.0/boards/arm/mikroe_clicker_2/doc/index.html)

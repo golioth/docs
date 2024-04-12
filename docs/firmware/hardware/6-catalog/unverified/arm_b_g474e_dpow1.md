@@ -39,4 +39,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[ST B-G474E-DPOW1 Discovery (b_g474e_dpow1)](https://docs.zephyrproject.org/latest/boards/arm/b_g474e_dpow1/doc/index.html)
+[ST B-G474E-DPOW1 Discovery (b_g474e_dpow1)](https://docs.zephyrproject.org/3.6.0/boards/arm/b_g474e_dpow1/doc/index.html)

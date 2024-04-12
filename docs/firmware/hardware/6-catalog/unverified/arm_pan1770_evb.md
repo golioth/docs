@@ -49,4 +49,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[pan1770-evb (pan1770_evb)](https://docs.zephyrproject.org/latest/boards/arm/pan1770_evb/doc/index.html)
+[pan1770-evb (pan1770_evb)](https://docs.zephyrproject.org/3.6.0/boards/arm/pan1770_evb/doc/index.html)

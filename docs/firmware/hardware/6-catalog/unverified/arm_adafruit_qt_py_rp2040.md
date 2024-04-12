@@ -46,4 +46,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[Adafruit QT Py RP2040 (adafruit_qt_py_rp2040)](https://docs.zephyrproject.org/latest/boards/arm/adafruit_qt_py_rp2040/doc/index.html)
+[Adafruit QT Py RP2040 (adafruit_qt_py_rp2040)](https://docs.zephyrproject.org/3.6.0/boards/arm/adafruit_qt_py_rp2040/doc/index.html)

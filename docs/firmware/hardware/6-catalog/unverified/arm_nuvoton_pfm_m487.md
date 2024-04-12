@@ -35,4 +35,4 @@ List of supported features is not available.
 
 ## Official Zephyr docs
 
-[NUVOTON-PFM-M487 (nuvoton_pfm_m487)](https://docs.zephyrproject.org/latest/boards/arm/nuvoton_pfm_m487/doc/index.html)
+[NUVOTON-PFM-M487 (nuvoton_pfm_m487)](https://docs.zephyrproject.org/3.6.0/boards/arm/nuvoton_pfm_m487/doc/index.html)

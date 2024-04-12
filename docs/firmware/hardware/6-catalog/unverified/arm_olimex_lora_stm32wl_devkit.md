@@ -42,4 +42,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[Olimex LoRa STM32WL DevKit (olimex_lora_stm32wl_devkit)](https://docs.zephyrproject.org/latest/boards/arm/olimex_lora_stm32wl_devkit/doc/index.html)
+[Olimex LoRa STM32WL DevKit (olimex_lora_stm32wl_devkit)](https://docs.zephyrproject.org/3.6.0/boards/arm/olimex_lora_stm32wl_devkit/doc/index.html)

@@ -46,4 +46,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[ST Nucleo H753ZI (nucleo_h753zi)](https://docs.zephyrproject.org/latest/boards/arm/nucleo_h753zi/doc/index.html)
+[ST Nucleo H753ZI (nucleo_h753zi)](https://docs.zephyrproject.org/3.6.0/boards/arm/nucleo_h753zi/doc/index.html)

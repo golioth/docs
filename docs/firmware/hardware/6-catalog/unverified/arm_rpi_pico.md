@@ -46,4 +46,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[RaspberryPi-Pico (rpi_pico)](https://docs.zephyrproject.org/latest/boards/arm/rpi_pico/doc/index.html)
+[RaspberryPi-Pico (rpi_pico)](https://docs.zephyrproject.org/3.6.0/boards/arm/rpi_pico/doc/index.html)

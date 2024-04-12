@@ -37,4 +37,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[EM Starterkit (em_starterkit)](https://docs.zephyrproject.org/latest/boards/arc/em_starterkit/doc/index.html)
+[EM Starterkit (em_starterkit)](https://docs.zephyrproject.org/3.6.0/boards/arc/em_starterkit/doc/index.html)

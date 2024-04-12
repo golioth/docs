@@ -42,4 +42,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[B_L072Z_LRWAN1 (b_l072z_lrwan1)](https://docs.zephyrproject.org/latest/boards/arm/b_l072z_lrwan1/doc/index.html)
+[B_L072Z_LRWAN1 (b_l072z_lrwan1)](https://docs.zephyrproject.org/3.6.0/boards/arm/b_l072z_lrwan1/doc/index.html)

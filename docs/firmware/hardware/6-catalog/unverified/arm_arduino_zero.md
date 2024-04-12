@@ -45,4 +45,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[Arduino Zero (arduino_zero)](https://docs.zephyrproject.org/latest/boards/arm/arduino_zero/doc/index.html)
+[Arduino Zero (arduino_zero)](https://docs.zephyrproject.org/3.6.0/boards/arm/arduino_zero/doc/index.html)

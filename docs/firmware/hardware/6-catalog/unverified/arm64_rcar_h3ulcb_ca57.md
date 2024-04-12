@@ -35,4 +35,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[Renesas H3ULCB based on r8a77951 (rcar_h3ulcb_ca57)](https://docs.zephyrproject.org/latest/boards/arm64/rcar_h3ulcb_ca57/doc/index.html)
+[Renesas H3ULCB based on r8a77951 (rcar_h3ulcb_ca57)](https://docs.zephyrproject.org/3.6.0/boards/arm64/rcar_h3ulcb_ca57/doc/index.html)

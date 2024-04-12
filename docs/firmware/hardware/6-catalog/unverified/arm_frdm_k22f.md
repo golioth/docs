@@ -45,4 +45,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[NXP FRDM-K22F (frdm_k22f)](https://docs.zephyrproject.org/latest/boards/arm/frdm_k22f/doc/index.html)
+[NXP FRDM-K22F (frdm_k22f)](https://docs.zephyrproject.org/3.6.0/boards/arm/frdm_k22f/doc/index.html)

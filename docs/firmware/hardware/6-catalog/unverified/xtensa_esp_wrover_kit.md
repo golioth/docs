@@ -43,4 +43,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[ESP WROVER KIT (esp_wrover_kit)](https://docs.zephyrproject.org/latest/boards/xtensa/esp_wrover_kit/doc/index.html)
+[ESP WROVER KIT (esp_wrover_kit)](https://docs.zephyrproject.org/3.6.0/boards/xtensa/esp_wrover_kit/doc/index.html)

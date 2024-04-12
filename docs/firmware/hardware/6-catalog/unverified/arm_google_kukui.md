@@ -35,4 +35,4 @@ List of supported features is not available.
 
 ## Official Zephyr docs
 
-[Google Kukui EC (google_kukui)](https://docs.zephyrproject.org/latest/boards/arm/google_kukui/doc/index.html)
+[Google Kukui EC (google_kukui)](https://docs.zephyrproject.org/3.6.0/boards/arm/google_kukui/doc/index.html)

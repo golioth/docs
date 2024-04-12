@@ -33,4 +33,4 @@ List of supported toolchains is not available.
 
 ## Official Zephyr docs
 
-[efr32_thunderboard (efr32_thunderboard)](https://docs.zephyrproject.org/latest/boards/arm/efr32_thunderboard/doc/index.html)
+[efr32_thunderboard (efr32_thunderboard)](https://docs.zephyrproject.org/3.6.0/boards/arm/efr32_thunderboard/doc/index.html)

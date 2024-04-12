@@ -39,4 +39,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[nRF52840-MDK-USB-Dongle (nrf52840_mdk_usb_dongle)](https://docs.zephyrproject.org/latest/boards/arm/nrf52840_mdk_usb_dongle/doc/index.html)
+[nRF52840-MDK-USB-Dongle (nrf52840_mdk_usb_dongle)](https://docs.zephyrproject.org/3.6.0/boards/arm/nrf52840_mdk_usb_dongle/doc/index.html)

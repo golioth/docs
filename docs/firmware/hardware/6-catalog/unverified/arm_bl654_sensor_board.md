@@ -42,4 +42,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[BL654_Sensor_Board (bl654_sensor_board)](https://docs.zephyrproject.org/latest/boards/arm/bl654_sensor_board/doc/index.html)
+[BL654_Sensor_Board (bl654_sensor_board)](https://docs.zephyrproject.org/3.6.0/boards/arm/bl654_sensor_board/doc/index.html)

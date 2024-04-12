@@ -41,4 +41,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[STM32 Mini F401 (stm32f401_mini)](https://docs.zephyrproject.org/latest/boards/arm/stm32f401_mini/doc/index.html)
+[STM32 Mini F401 (stm32f401_mini)](https://docs.zephyrproject.org/3.6.0/boards/arm/stm32f401_mini/doc/index.html)

@@ -44,4 +44,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[Adafruit ItsyBitsy nRF52840 Express (adafruit_itsybitsy_nrf52840)](https://docs.zephyrproject.org/latest/boards/arm/adafruit_itsybitsy_nrf52840/doc/index.html)
+[Adafruit ItsyBitsy nRF52840 Express (adafruit_itsybitsy_nrf52840)](https://docs.zephyrproject.org/3.6.0/boards/arm/adafruit_itsybitsy_nrf52840/doc/index.html)

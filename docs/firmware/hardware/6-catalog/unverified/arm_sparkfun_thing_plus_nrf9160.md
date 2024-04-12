@@ -38,4 +38,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[Sparkfun-Thing-Plus-nRF9160 (sparkfun_thing_plus_nrf9160)](https://docs.zephyrproject.org/latest/boards/arm/sparkfun_thing_plus_nrf9160/doc/index.html)
+[Sparkfun-Thing-Plus-nRF9160 (sparkfun_thing_plus_nrf9160)](https://docs.zephyrproject.org/3.6.0/boards/arm/sparkfun_thing_plus_nrf9160/doc/index.html)

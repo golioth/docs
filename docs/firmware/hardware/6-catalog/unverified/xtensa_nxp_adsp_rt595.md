@@ -33,4 +33,4 @@ List of supported features is not available.
 
 ## Official Zephyr docs
 
-[i.MXRT595 DSP (nxp_adsp_rt595)](https://docs.zephyrproject.org/latest/boards/xtensa/nxp_adsp_rt595/doc/index.html)
+[i.MXRT595 DSP (nxp_adsp_rt595)](https://docs.zephyrproject.org/3.6.0/boards/xtensa/nxp_adsp_rt595/doc/index.html)

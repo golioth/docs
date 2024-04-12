@@ -33,4 +33,4 @@ List of supported toolchains is not available.
 
 ## Official Zephyr docs
 
-[mimxrt595_evk (mimxrt595_evk)](https://docs.zephyrproject.org/latest/boards/arm/mimxrt595_evk/doc/index.html)
+[mimxrt595_evk (mimxrt595_evk)](https://docs.zephyrproject.org/3.6.0/boards/arm/mimxrt595_evk/doc/index.html)

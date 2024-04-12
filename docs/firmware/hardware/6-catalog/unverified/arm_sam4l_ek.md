@@ -39,4 +39,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[SAM4L-EK (sam4l_ek)](https://docs.zephyrproject.org/latest/boards/arm/sam4l_ek/doc/index.html)
+[SAM4L-EK (sam4l_ek)](https://docs.zephyrproject.org/3.6.0/boards/arm/sam4l_ek/doc/index.html)

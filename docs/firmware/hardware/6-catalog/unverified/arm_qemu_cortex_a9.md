@@ -36,4 +36,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[QEMU Emulation for Cortex-A9 (qemu_cortex_a9)](https://docs.zephyrproject.org/latest/boards/arm/qemu_cortex_a9/doc/index.html)
+[QEMU Emulation for Cortex-A9 (qemu_cortex_a9)](https://docs.zephyrproject.org/3.6.0/boards/arm/qemu_cortex_a9/doc/index.html)

@@ -35,4 +35,4 @@ List of supported features is not available.
 
 ## Official Zephyr docs
 
-[Pico-Pi IMX7D (pico_pi_m4)](https://docs.zephyrproject.org/latest/boards/arm/pico_pi_m4/doc/index.html)
+[Pico-Pi IMX7D (pico_pi_m4)](https://docs.zephyrproject.org/3.6.0/boards/arm/pico_pi_m4/doc/index.html)

@@ -38,4 +38,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[GigaDevice GD32VF103C-STARTER (gd32vf103c_starter)](https://docs.zephyrproject.org/latest/boards/riscv/gd32vf103c_starter/doc/index.html)
+[GigaDevice GD32VF103C-STARTER (gd32vf103c_starter)](https://docs.zephyrproject.org/3.6.0/boards/riscv/gd32vf103c_starter/doc/index.html)

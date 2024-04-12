@@ -43,4 +43,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[ST Nucleo WBA52CG (nucleo_wba52cg)](https://docs.zephyrproject.org/latest/boards/arm/nucleo_wba52cg/doc/index.html)
+[ST Nucleo WBA52CG (nucleo_wba52cg)](https://docs.zephyrproject.org/3.6.0/boards/arm/nucleo_wba52cg/doc/index.html)

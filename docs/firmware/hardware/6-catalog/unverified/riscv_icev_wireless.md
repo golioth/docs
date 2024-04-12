@@ -33,4 +33,4 @@ List of supported features is not available.
 
 ## Official Zephyr docs
 
-[ICE-V Wireless (icev_wireless)](https://docs.zephyrproject.org/latest/boards/riscv/icev_wireless/doc/index.html)
+[ICE-V Wireless (icev_wireless)](https://docs.zephyrproject.org/3.6.0/boards/riscv/icev_wireless/doc/index.html)

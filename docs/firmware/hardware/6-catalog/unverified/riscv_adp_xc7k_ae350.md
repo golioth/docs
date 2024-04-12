@@ -42,4 +42,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[Andes ADP-XC7K AE350 (adp_xc7k_ae350)](https://docs.zephyrproject.org/latest/boards/riscv/adp_xc7k_ae350/doc/index.html)
+[Andes ADP-XC7K AE350 (adp_xc7k_ae350)](https://docs.zephyrproject.org/3.6.0/boards/riscv/adp_xc7k_ae350/doc/index.html)

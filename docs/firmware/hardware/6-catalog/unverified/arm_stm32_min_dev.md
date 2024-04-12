@@ -33,4 +33,4 @@ List of supported toolchains is not available.
 
 ## Official Zephyr docs
 
-[stm32_min_dev (stm32_min_dev)](https://docs.zephyrproject.org/latest/boards/arm/stm32_min_dev/doc/index.html)
+[stm32_min_dev (stm32_min_dev)](https://docs.zephyrproject.org/3.6.0/boards/arm/stm32_min_dev/doc/index.html)

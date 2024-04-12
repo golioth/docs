@@ -44,4 +44,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[SERPENTE (serpente)](https://docs.zephyrproject.org/latest/boards/arm/serpente/doc/index.html)
+[SERPENTE (serpente)](https://docs.zephyrproject.org/3.6.0/boards/arm/serpente/doc/index.html)

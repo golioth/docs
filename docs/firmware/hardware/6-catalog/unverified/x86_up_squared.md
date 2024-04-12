@@ -34,4 +34,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[UP Squared (x86_64) (up_squared)](https://docs.zephyrproject.org/latest/boards/x86/up_squared/doc/index.html)
+[UP Squared (x86_64) (up_squared)](https://docs.zephyrproject.org/3.6.0/boards/x86/up_squared/doc/index.html)

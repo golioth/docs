@@ -33,4 +33,4 @@ List of supported toolchains is not available.
 
 ## Official Zephyr docs
 
-[efr32_radio (efr32_radio)](https://docs.zephyrproject.org/latest/boards/arm/efr32_radio/doc/index.html)
+[efr32_radio (efr32_radio)](https://docs.zephyrproject.org/3.6.0/boards/arm/efr32_radio/doc/index.html)

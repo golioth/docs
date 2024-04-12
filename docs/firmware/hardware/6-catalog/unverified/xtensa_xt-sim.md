@@ -33,4 +33,4 @@ List of supported features is not available.
 
 ## Official Zephyr docs
 
-[XT Simulator (xt-sim)](https://docs.zephyrproject.org/latest/boards/xtensa/xt-sim/doc/index.html)
+[XT Simulator (xt-sim)](https://docs.zephyrproject.org/3.6.0/boards/xtensa/xt-sim/doc/index.html)

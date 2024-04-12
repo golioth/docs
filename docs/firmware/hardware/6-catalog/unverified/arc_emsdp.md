@@ -35,4 +35,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[EM Software Development Platform (EM11D) (emsdp)](https://docs.zephyrproject.org/latest/boards/arc/emsdp/doc/index.html)
+[EM Software Development Platform (EM11D) (emsdp)](https://docs.zephyrproject.org/3.6.0/boards/arc/emsdp/doc/index.html)

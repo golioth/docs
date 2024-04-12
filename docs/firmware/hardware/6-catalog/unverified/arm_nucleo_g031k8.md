@@ -37,4 +37,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[ST Nucleo G031K8 (nucleo_g031k8)](https://docs.zephyrproject.org/latest/boards/arm/nucleo_g031k8/doc/index.html)
+[ST Nucleo G031K8 (nucleo_g031k8)](https://docs.zephyrproject.org/3.6.0/boards/arm/nucleo_g031k8/doc/index.html)

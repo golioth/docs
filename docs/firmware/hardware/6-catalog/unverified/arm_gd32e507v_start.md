@@ -39,4 +39,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[GigaDevice GD32E507V-START (gd32e507v_start)](https://docs.zephyrproject.org/latest/boards/arm/gd32e507v_start/doc/index.html)
+[GigaDevice GD32E507V-START (gd32e507v_start)](https://docs.zephyrproject.org/3.6.0/boards/arm/gd32e507v_start/doc/index.html)

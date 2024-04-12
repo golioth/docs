@@ -33,4 +33,4 @@ List of supported toolchains is not available.
 
 ## Official Zephyr docs
 
-[bl5340_dvk (bl5340_dvk)](https://docs.zephyrproject.org/latest/boards/arm/bl5340_dvk/doc/index.html)
+[bl5340_dvk (bl5340_dvk)](https://docs.zephyrproject.org/3.6.0/boards/arm/bl5340_dvk/doc/index.html)

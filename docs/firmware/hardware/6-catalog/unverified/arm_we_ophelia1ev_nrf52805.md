@@ -38,4 +38,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[we_ophelia1ev_nrf52805 (we_ophelia1ev_nrf52805)](https://docs.zephyrproject.org/latest/boards/arm/we_ophelia1ev_nrf52805/doc/index.html)
+[we_ophelia1ev_nrf52805 (we_ophelia1ev_nrf52805)](https://docs.zephyrproject.org/3.6.0/boards/arm/we_ophelia1ev_nrf52805/doc/index.html)

@@ -50,4 +50,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[ST STM32L562E-DK Discovery (stm32l562e_dk)](https://docs.zephyrproject.org/latest/boards/arm/stm32l562e_dk/doc/index.html)
+[ST STM32L562E-DK Discovery (stm32l562e_dk)](https://docs.zephyrproject.org/3.6.0/boards/arm/stm32l562e_dk/doc/index.html)

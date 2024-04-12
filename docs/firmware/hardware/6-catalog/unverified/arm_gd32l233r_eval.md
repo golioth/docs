@@ -35,4 +35,4 @@ List of supported features is not available.
 
 ## Official Zephyr docs
 
-[GigaDevice GD32L233R Evaluation Kit (gd32l233r_eval)](https://docs.zephyrproject.org/latest/boards/arm/gd32l233r_eval/doc/index.html)
+[GigaDevice GD32L233R Evaluation Kit (gd32l233r_eval)](https://docs.zephyrproject.org/3.6.0/boards/arm/gd32l233r_eval/doc/index.html)

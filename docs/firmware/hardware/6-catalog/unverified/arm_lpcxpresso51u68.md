@@ -38,4 +38,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[NXP LPCXpresso51u68 (lpcxpresso51u68)](https://docs.zephyrproject.org/latest/boards/arm/lpcxpresso51u68/doc/index.html)
+[NXP LPCXpresso51u68 (lpcxpresso51u68)](https://docs.zephyrproject.org/3.6.0/boards/arm/lpcxpresso51u68/doc/index.html)

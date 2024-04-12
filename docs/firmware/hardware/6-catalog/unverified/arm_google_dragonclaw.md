@@ -35,4 +35,4 @@ List of supported features is not available.
 
 ## Official Zephyr docs
 
-[Google Dragonclaw Development Board (google_dragonclaw)](https://docs.zephyrproject.org/latest/boards/arm/google_dragonclaw/doc/index.html)
+[Google Dragonclaw Development Board (google_dragonclaw)](https://docs.zephyrproject.org/3.6.0/boards/arm/google_dragonclaw/doc/index.html)

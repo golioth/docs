@@ -44,4 +44,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[EVK-NINA-B4-NRF52833 (ubx_evkninab4_nrf52833)](https://docs.zephyrproject.org/latest/boards/arm/ubx_evkninab4_nrf52833/doc/index.html)
+[EVK-NINA-B4-NRF52833 (ubx_evkninab4_nrf52833)](https://docs.zephyrproject.org/3.6.0/boards/arm/ubx_evkninab4_nrf52833/doc/index.html)

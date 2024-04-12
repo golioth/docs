@@ -41,4 +41,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[NXP FRDM-KW41Z (frdm_kw41z)](https://docs.zephyrproject.org/latest/boards/arm/frdm_kw41z/doc/index.html)
+[NXP FRDM-KW41Z (frdm_kw41z)](https://docs.zephyrproject.org/3.6.0/boards/arm/frdm_kw41z/doc/index.html)

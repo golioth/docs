@@ -39,4 +39,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[96Boards STM32 Sensor Mezzanine (96b_stm32_sensor_mez)](https://docs.zephyrproject.org/latest/boards/arm/96b_stm32_sensor_mez/doc/index.html)
+[96Boards STM32 Sensor Mezzanine (96b_stm32_sensor_mez)](https://docs.zephyrproject.org/3.6.0/boards/arm/96b_stm32_sensor_mez/doc/index.html)

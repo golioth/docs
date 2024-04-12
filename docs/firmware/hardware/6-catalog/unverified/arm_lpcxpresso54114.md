@@ -33,4 +33,4 @@ List of supported toolchains is not available.
 
 ## Official Zephyr docs
 
-[lpcxpresso54114 (lpcxpresso54114)](https://docs.zephyrproject.org/latest/boards/arm/lpcxpresso54114/doc/index.html)
+[lpcxpresso54114 (lpcxpresso54114)](https://docs.zephyrproject.org/3.6.0/boards/arm/lpcxpresso54114/doc/index.html)

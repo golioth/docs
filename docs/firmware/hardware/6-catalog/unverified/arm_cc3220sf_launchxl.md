@@ -39,4 +39,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[SimpleLink Wi-Fi CC3220SF LaunchPad development kit (cc3220sf_launchxl)](https://docs.zephyrproject.org/latest/boards/arm/cc3220sf_launchxl/doc/index.html)
+[SimpleLink Wi-Fi CC3220SF LaunchPad development kit (cc3220sf_launchxl)](https://docs.zephyrproject.org/3.6.0/boards/arm/cc3220sf_launchxl/doc/index.html)

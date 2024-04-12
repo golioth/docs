@@ -40,4 +40,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[BL654_USB (bl654_usb)](https://docs.zephyrproject.org/latest/boards/arm/bl654_usb/doc/index.html)
+[BL654_USB (bl654_usb)](https://docs.zephyrproject.org/3.6.0/boards/arm/bl654_usb/doc/index.html)

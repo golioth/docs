@@ -46,4 +46,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[ST B_L4S5I_IOT01A Discovery kit (b_l4s5i_iot01a)](https://docs.zephyrproject.org/latest/boards/arm/b_l4s5i_iot01a/doc/index.html)
+[ST B_L4S5I_IOT01A Discovery kit (b_l4s5i_iot01a)](https://docs.zephyrproject.org/3.6.0/boards/arm/b_l4s5i_iot01a/doc/index.html)

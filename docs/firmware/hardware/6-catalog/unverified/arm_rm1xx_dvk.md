@@ -37,4 +37,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[RM1xx_DVK (rm1xx_dvk)](https://docs.zephyrproject.org/latest/boards/arm/rm1xx_dvk/doc/index.html)
+[RM1xx_DVK (rm1xx_dvk)](https://docs.zephyrproject.org/3.6.0/boards/arm/rm1xx_dvk/doc/index.html)
