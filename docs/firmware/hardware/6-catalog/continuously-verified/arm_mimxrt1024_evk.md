@@ -1,10 +1,10 @@
 ---
 id: arm_mimxrt1024_evk
 title: NXP MIMXRT1024-EVK
-slug: /firmware/hardware/catalog/boards/unverified/arm_mimxrt1024_evk
-description: IoT board NXP MIMXRT1024-EVK, compatible with Golioth at unverified level.
+slug: /firmware/hardware/catalog/boards/continuously-verified/arm_mimxrt1024_evk
+description: IoT board NXP MIMXRT1024-EVK, compatible with Golioth at continuously-verified level.
 image: /img/boards/arm/mimxrt1024_evk.jpg
-sidebar_class_name: hide-item
+
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
@@ -14,13 +14,16 @@ sidebar_class_name: hide-item
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `mimxrt1024_evk` |
-| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
-| Architecture   | ARM |
+| Golioth Level  | [Continuously verified](/firmware/hardware#continuously-verified-boards) |
+| Golioth Quickstart | [mimxrt1024_evk quickstart](/getting-started/device-examples/compile-example-code/zephyr/) || Architecture   | ARM |
 | RAM*           | 32768 kB |
 | Flash*         | 4096 kB |
 
 \* values are as reported by Zephyr `.yaml` board files, which don't represent the overall available resources
 
+## Getting started
+
+See our [quickstart guide for NXP MIMXRT1024-EVK](/getting-started/device-examples/compile-example-code/zephyr/).
 
 
 ## Supported features
