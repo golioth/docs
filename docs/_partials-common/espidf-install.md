@@ -1,5 +1,7 @@
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import CodeBlock from '@theme/CodeBlock';
+import EspIdfVer from '!!raw-loader!/docs/_versions/esp-idf.md';
 
 <Tabs
 groupId="os"
@@ -23,13 +25,13 @@ sudo apt-get install git wget flex bison gperf python3 python3-venv \
 
 #### 2. Clone the ESP-IDF Repository and set up the tools
 
-```console
-mkdir -p ~/esp
-cd ~/esp
-git clone --recursive https://github.com/espressif/esp-idf.git -b v5.2.1
-cd esp-idf
-./install.sh all
-```
+<CodeBlock language="console">
+    { `mkdir -p ~/esp` + "\n" }
+    { `cd ~/esp` + "\n" }
+    { `git clone --recursive https://github.com/espressif/esp-idf.git -b ${EspIdfVer.replace(/(\n)/gm, "")}` + "\n" }
+    { `cd esp-idf` + "\n" }
+    { `./install.sh all` }
+</CodeBlock>
 
 </TabItem>
 <TabItem value="macos">
@@ -46,13 +48,13 @@ sudo easy_install pip
 
 #### 2. Clone the ESP-IDF repository and set up the tools
 
-```console
-mkdir -p ~/esp
-cd ~/esp
-git clone --recursive https://github.com/espressif/esp-idf.git -b v5.2.1
-cd esp-idf
-./install.sh all
-```
+<CodeBlock language="console">
+    { `mkdir -p ~/esp` + "\n" }
+    { `cd ~/esp` + "\n" }
+    { `git clone --recursive https://github.com/espressif/esp-idf.git -b ${EspIdfVer.replace(/(\n)/gm, "")}` + "\n" }
+    { `cd esp-idf` + "\n" }
+    { `./install.sh all` }
+</CodeBlock>
 
 </TabItem>
 <TabItem value="windows">
