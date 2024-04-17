@@ -153,38 +153,9 @@ manufacturing process. We provide an example of one way to provision
 certificates in [the Zephyr-based `certificate_provisioning`
 sample](https://github.com/golioth/golioth-firmware-sdk/tree/main/examples/zephyr/certificate_provisioning).
 
-### Upload public root key
+### Upload the public root key
 
-Upload the signed root certificate (the public key) to your Golioth project. This
-will be used to authenticate each device.
-
-1. Log into the [Golioth Web Console](https://console.golioth.io) and select
-   your project
-2. Navigate to [`Project Settings` &rarr;
-   `Certificates`](https://console.golioth.io/project-settings/certificates)
-3. Click `Add a Client Certificate Authority` and upload your `golioth.crt.pem`
-   file.
-
-![Uploading the public root certificate](../../assets/cert-auth-upload-public-key.jpg)
-
-:::caution
-
-Do not upload the `golioth.key.pem` file. This is your private key used to sign
-new device credentials and you are the only one who should have access to it.
-
-:::
-
-## Connect your device
-
-With the public root certificate uploaded to Golioth, and the device
-certificate/key in use in your firmware, your device will automatically connect
-and authenticate to your project. Look in the [Golioth Web
-Console](https://console.golioth.io) to verify a device with a name that either matches or is prefixed by the `CERTIFICATE_ID` you supplied when creating the device credential:
-
-![New device added using Certificate Authentication](../../assets/cert-auth-new-device-added.jpg)
-
-But note that the Device Name attribute is mutable and you can change it to another name at any time. The important field to correctly associate your device to that certificate is the **immutable** Certificate ID field shown in the Summary Page of the device. Click on the device name link to see the summary page as follows:
-
-![Device Certificate ID on summary page](../../assets/device-summary-certificate-id.jpg)
-
-This Certificate ID field is unique across an entire project and is used to associate a device with a certificate during authentication.
+You need to upload the public root key to the Golioth server so it may be used
+to authenticate your device. This process, as well as an example of a device
+successfully completing authentication, is found on the [Device Management:
+Authentication page](/device-management/authentication/certificate-auth).
