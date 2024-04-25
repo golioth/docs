@@ -1,6 +1,6 @@
 ---
 id: home
-title: What is Golioth?
+title: Golioth Docs
 slug: /
 hide_title: true
 ---
