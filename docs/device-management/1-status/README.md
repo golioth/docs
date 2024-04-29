@@ -14,14 +14,14 @@ viewing a device summary in the Golioth console.
 ## Analyzing Device Status
 
 The three device status attributes can be used in concert to analyze different
-asepcts of a device's behavior. Examples for how to interpret various
+aspects of a device's behavior. Examples for how to interpret various
 permutations of device status attributes are provided below.
 
 ### Handshake Frequency
 
 It is typically optimal to maintain a session with the Golioth platform as long
 as possible, as re-establishing a session uses network bandwidth, power, and
-compute resources for a device. Approxmate session duration can be ascertained
+compute resources for a device. Approximate session duration can be ascertained
 by calculating the difference between the **Session Established** and **Last
 Report** attributes.
 
