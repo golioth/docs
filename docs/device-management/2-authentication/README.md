@@ -1,4 +1,4 @@
-# Device Authentication
+# Authentication
 
 Golioth believes that all IoT devices should be secure by default. We offer two
 approaches to authenticate your devices with Golioth:
