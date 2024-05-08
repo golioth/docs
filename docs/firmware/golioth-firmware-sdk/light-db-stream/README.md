@@ -1,13 +1,12 @@
 ---
-title: LightDB Stream Client Overview
+title: Stream Client Overview
 sidebar_position: 1
 ---
 
-LightDB is a set of database services hosted by Golioth. **LightDB Stream** is a
-uni-directional service that handles time-series data. Use it to accumulate
-sensor data received from devices in the field. Golioth will automatically add a
-timestamp to each set of received data, or you may optionally include your own
-timestamps for Golioth to use.
+Golioth **Stream** is a uni-directional service that handles time-series data.
+Use it to accumulate sensor data received from devices in the field. Golioth
+will automatically add a timestamp to each set of received data, or you may
+optionally include your own timestamps for Golioth to use.
 
 ## LightDB State vs. LightDB Stream
 
