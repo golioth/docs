@@ -69,7 +69,7 @@ is available to assist you in the process.
   set up a build environment, run sample firmware, and use Golioth services on
   your microcontroller-based IoT fleet.
 - [Device Management](/device-management) - These are "server side" features of
-  the Golioth platform that deal with controlling your devices in the filed.
+  the Golioth platform that deal with controlling your devices in the field.
   Here you will find details about rolling out over-the-air (OTA) firmware
   updates, accessing device logs, changing device settings for your fleet, and
   issuing remote procedure calls (RPC).
