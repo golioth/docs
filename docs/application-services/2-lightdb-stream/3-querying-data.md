@@ -3,13 +3,18 @@ id: querying-data
 title: Querying Stream Data
 ---
 
-To allow users to query data in a flexible way, we need to define some structures that can be used for building a query so we can shape the data and filter accordingly to that. For doing so, we defined 2 basic primitives: Fields and Filters. Here are the attributes that can be defined on each one of those primitives:
+LightDB Stream queries are composed using Fields and Filters.
 
-- Field - Users can define multiple fields that they want to be returned in their query. `time` and `deviceId` are special fields that represents the data point time and device that sent the data. All other fields represents a path inside the data blob that is stored.
+- Fields: Users can define multiple fields that they want to be returned in
+  their query. `time` and `deviceId` are special fields that represents the data
+  point time and device that sent the data. All other fields represents a path
+  inside the data blob that is stored.
   - `path` : Path inside the json blob, separated by `.`.
   - `alias`: Rename variable. By default it just uses the path name.
-  - `agg` : Aggregation to be applied on the field. Can be `avg`, `count`, `max`, `min` and `sum`.
-  - `type`: Type conversion to apply to data point on path. Important for aggregations.
+  - `agg` : Aggregation to be applied on the field. Can be `avg`, `count`,
+    `max`, `min` and `sum`.
+  - `type`: Type conversion to apply to data point on path. Important for
+    aggregations.
 
 Example of Fields on a query.
 
@@ -20,8 +25,9 @@ Example of Fields on a query.
 { "path": "env.hum", "alias": "humidity", "agg": "avg", "type": "float" }
 ```
 
-- Filter - Users can define a way to filter their data. We have 3 types currently.
-  - Equality filters will check if a value is equal, not equal, IN and not IN if a list is used.
+- Filters: Users can define a set of rules to filter their data.
+  - Equality filters will check if a value is equal, not equal, IN and not IN if
+    a list is used.
     - Operators: `=`, `<>`
   - Number Comparison filters will force a conversion to a float value. \
     - Operators: `<=`, `<`, `>=`, `>`
@@ -51,9 +57,14 @@ or
 
 ### Example of querying data on LightDB Stream
 
-Let's consider an application in which we want to plot temperature data that has been recorded by a device over time. In this case, the device has two sensors, one inside and one outside. We also want to calculate the 15 minute average temperature.
+Let's consider an application in which we want to plot temperature data that has
+been recorded by a device over time. In this case, the device has two sensors,
+one inside and one outside. We also want to calculate the 15 minute average
+temperature.
 
-The device can post data to the `/env` path so we can put together environment data under a group. An example of posting that kind of data using `coap` CLI can be seen bellow:
+The device can post data to the `/env` path so we can put together environment
+data under a group. An example of posting that kind of data using `coap` CLI can
+be seen bellow:
 
 import { ProtocolPublishSample } from '/docs/_partials-common/protocol.mdx'
 
@@ -62,7 +73,8 @@ import { ProtocolPublishSample } from '/docs/_partials-common/protocol.mdx'
 <ProtocolPublishSample path="/.s/env" method="POST" body={{"temperature": 20, "type" : "outside" }}/>
 <ProtocolPublishSample path="/.s/env" method="POST" body={{"temperature": 18, "type" : "outside" }}/>
 
-Let's define our first query to get just the raw data on the last 8h and where the field `env` is not null.
+Let's define our first query to get just the raw data on the last 8h and where
+the field `env` is not null.
 
 ```
 {
@@ -79,7 +91,9 @@ Let's define our first query to get just the raw data on the last 8h and where t
 }
 ```
 
-Let's save that into a file called query.json and use that to query the LightDB Stream. You can use the REST API, which is more configurable, but goliothctl works great for simple cases like this.
+Let's save that into a file called query.json and use that to query the LightDB
+Stream. You can use the REST API, which is more configurable, but goliothctl
+works great for simple cases like this.
 
 ```
 ❯ cat query.json | goliothctl stream query --interval 8h --in | jq .
@@ -127,7 +141,13 @@ Let's save that into a file called query.json and use that to query the LightDB 
 ]
 ```
 
-As you can see, we can query more specific fields on a given path like on `env.temperature`, or just return the whole object on a parent path like `env`. Now let's do some aggregations on the data. We can calculate the average temperature value, calculate on 15 minutes window and also, any field that is not being aggregated will be used as a grouping variable. In this case we can group by `time` and `sensorType` for example. Here is our modified `query.json` file:
+As you can see, we can query more specific fields on a given path like on
+`env.temperature`, or just return the whole object on a parent path like `env`.
+Now let's do some aggregations on the data. We can calculate the average
+temperature value, calculate on 15 minutes window and also, any field that is
+not being aggregated will be used as a grouping variable. In this case we can
+group by `time` and `sensorType` for example. Here is our modified `query.json`
+file:
 
 ```
 {
@@ -143,7 +163,8 @@ As you can see, we can query more specific fields on a given path like on `env.t
 }
 ```
 
-Executing that new query will give us this result. Notice that the time was rounded on 15 minutes chunks.
+Executing that new query will give us this result. Notice that the time was
+rounded on 15 minutes chunks.
 
 ```
 $ cat query.json | goliothctl stream query --interval 8h --in | jq .
@@ -161,7 +182,8 @@ $ cat query.json | goliothctl stream query --interval 8h --in | jq .
 ]
 ```
 
-Maybe now we just want to calculate the average daily temperature from `inside` temperature sensors. We can modify our `query.json` file to something like this:
+Maybe now we just want to calculate the average daily temperature from `inside`
+temperature sensors. We can modify our `query.json` file to something like this:
 
 ```
 {
@@ -189,5 +211,3 @@ Executing again our new query will give us this result:
   }
 ]
 ```
-
-Users are able to build powerful queries using this query interface, and the feature set is constantly being improved.
