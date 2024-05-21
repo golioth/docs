@@ -1,6 +1,6 @@
 ---
 id: querying-data
-title: Querying LightDB Stream Data
+title: Querying Stream Data
 ---
 
 To allow users to query data in a flexible way, we need to define some structures that can be used for building a query so we can shape the data and filter accordingly to that. For doing so, we defined 2 basic primitives: Fields and Filters. Here are the attributes that can be defined on each one of those primitives:

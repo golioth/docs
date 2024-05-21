@@ -1,6 +1,6 @@
 ---
 id: read-write-data
-title: Read and Write LightDB Data
+title: Read and Write Data
 ---
 
 Devices interact with LightDB using the gateways available on the platform. For now, only CoAP is available.

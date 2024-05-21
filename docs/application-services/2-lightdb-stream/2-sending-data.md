@@ -1,6 +1,6 @@
 ---
 id: sending-data
-title: Sending LightDB Stream Data
+title: Sending Stream Data
 ---
 
 Devices interact with LightDB Stream using the gateways available on the platform.
