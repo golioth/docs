@@ -7,6 +7,18 @@ import Deprecated from '/docs/_partials-common/deprecation-warning-zephyr-sdk.md
 
 <Deprecated/>
 
+:::note A Pipeline must be enabled to stream data to Golioth
+
+Streaming time-series data to Golioth now requires that you [enable a pipeline
+on your Golioth project](/data-routing) to handle routing and transformation of
+that data.
+
+The Golioth Zephyr SDK (which is deprecated) does not support streaming
+arbitrary binary data. Please migrate to [the Golioth Firmware
+SDK](/firmware/golioth-firmware-sdk/) to use this feature.
+
+:::
+
 The LightDB Stream sample contains many of the same elements as the other LightDB samples. The primary difference between LightDB State and LightDB Stream is the persistence of data. LightDB State is useful for applications of state management. With LightDB Stream, timestamped datapoints can be uploaded using the LightDB Stream service to accumulate time-series databases. Check out the [Cloud](/device-management) section of the documentation for information regarding accessing the accumulated data.
 
 ## Includes
