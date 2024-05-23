@@ -10,11 +10,9 @@ Golioth servers enforce the following limit on CoAP requests:
 * 20 requests per second per device
 
 When passing frequent readings from a single device to Golioth (greater than 1
-Hz) we recommend sending in batches. As noted for the [LightDB Stream
-service](/data-routing/application-services/lightdb-stream/sending-data), your device
-can add timestamps to data packets by using `t`, `ts`, or `time` as the key. The
-Golioth LightDB Stream service will use the timestamp for the database entry
-instead of the time received.
+Hz) we recommend sending in batches. Batch streaming data can be disaggregated
+during [Data Routing](/data-routing) using the [`batch`
+destination](/data-routing/destinations/batch).
 
 ## Payload length
 

@@ -46,6 +46,12 @@ module.exports = {
           position: "left",
         },
         {
+          to: "application-services",
+          activeBasePath: "application-services",
+          label: "Application Services",
+          position: "left",
+        },
+        {
           to: "reference",
           activeBasePath: "reference",
           label: "Reference",

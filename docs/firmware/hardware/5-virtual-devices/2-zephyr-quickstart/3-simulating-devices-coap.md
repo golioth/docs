@@ -119,4 +119,4 @@ testing. We recommend using `coap` when first working on LightDB data storage
 and retrieval. The interactive nature makes it easy to test your schema before
 moving to embedded devices.
 
-Examples of using `coap` with LightDB are [found in the Cloud documentation](/data-routing/application-services/lightdb-state/read-write-data).
+Examples of using `coap` with LightDB are [found in the Cloud documentation](/application-services/lightdb-state/read-write-data).

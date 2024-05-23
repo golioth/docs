@@ -15,6 +15,6 @@ documentation.
 
 ![Console](../assets/lightDB-stream-svg-a4.svg)
 
-Checkout the [LightDB Stream](/data-routing/application-services/lightdb-stream/) guide
+Checkout the [LightDB Stream](/application-services/lightdb-stream/) guide
 for a walkthrough of the sample demonstrating the firmware calls used to
 interact with the Golioth LightDB Stream service.
