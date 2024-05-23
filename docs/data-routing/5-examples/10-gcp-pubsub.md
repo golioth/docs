@@ -1,6 +1,7 @@
 ---
 title: GCP PubSub
 ---
+import UseThisPipeline from '/docs/_partials-common/usethispipeline.mdx'
 
 [Google Cloud Plaform Cloud Pub/Sub](https://cloud.google.com/pubsub) is an
 asynchronous and scalable messaging service that decouples services producing
@@ -17,7 +18,7 @@ Key](https://cloud.google.com/iam/docs/keys-create-delete) with proper PubSub
 permissions.
 :::
 
-<a href="https://console.golioth.io/pipeline?name=GCP%20PubSub&pipeline=ZmlsdGVyOgogIHBhdGg6ICIqIgpzdGVwczoKICAtIG5hbWU6IHN0ZXAtMAogICAgZGVzdGluYXRpb246CiAgICAgIHR5cGU6IGdjcC1wdWJzdWIKICAgICAgdmVyc2lvbjogdjEKICAgICAgcGFyYW1ldGVyczoKICAgICAgICBzZXJ2aWNlX2FjY291bnQ6ICRHQ1BfU0VSVklDRV9BQ0NPVU5UCiAgICAgICAgdG9waWM6IHByb2plY3RzL215LXByb2plY3QvdG9waWNzL215LXRvcGlj" target='_blank'>Use this Pipeline</a>
+<UseThisPipeline name="GCP PubSub" pipeline="ZmlsdGVyOgogIHBhdGg6ICIqIgpzdGVwczoKICAtIG5hbWU6IHN0ZXAtMAogICAgZGVzdGluYXRpb246CiAgICAgIHR5cGU6IGdjcC1wdWJzdWIKICAgICAgdmVyc2lvbjogdjEKICAgICAgcGFyYW1ldGVyczoKICAgICAgICBzZXJ2aWNlX2FjY291bnQ6ICRHQ1BfU0VSVklDRV9BQ0NPVU5UCiAgICAgICAgdG9waWM6IHByb2plY3RzL215LXByb2plY3QvdG9waWNzL215LXRvcGlj"/>
 
 ```yaml
 filter:
