@@ -1,6 +1,7 @@
 ---
 title: Datacake Webhook
 ---
+import UseThisPipeline from '/docs/_partials-common/usethispipeline.mdx'
 
 [Datacake](https://datacake.co/) is a multi-purpose, low-code IoT platform that
 requires no programming skills and minimal time to create custom IoT
@@ -13,7 +14,7 @@ it to JSON, then delivering it to Datacake via the
 Make sure to replace the `url` with the correct Datacake URL for your product.
 :::
 
-<a href="https://console.golioth.io/pipeline?name=Datacake%20Webhook&pipeline=ZmlsdGVyOgogIHBhdGg6ICIqIgogIGNvbnRlbnRfdHlwZTogYXBwbGljYXRpb24vY2JvcgpzdGVwczoKICAtIG5hbWU6IHN0ZXAtMAogICAgdHJhbnNmb3JtZXI6CiAgICAgIHR5cGU6IGNib3ItdG8tanNvbgogICAgICB2ZXJzaW9uOiB2MQogICAgZGVzdGluYXRpb246CiAgICAgIHR5cGU6IHdlYmhvb2sKICAgICAgdmVyc2lvbjogdjEKICAgICAgcGFyYW1ldGVyczoKICAgICAgICB1cmw6IGh0dHBzOi8vYXBpLmRhdGFjYWtlLmNvL2ludGVncmF0aW9ucy9hcGkvODVjODY3ZDctOWFkYy00NjEzLTk0NmMtYzY0ZmNlYmExZTdmLw==" target='_blank'>Use this Pipeline</a>
+<UseThisPipeline name="Datacake Webhook" pipeline="ZmlsdGVyOgogIHBhdGg6ICIqIgogIGNvbnRlbnRfdHlwZTogYXBwbGljYXRpb24vY2JvcgpzdGVwczoKICAtIG5hbWU6IHN0ZXAtMAogICAgdHJhbnNmb3JtZXI6CiAgICAgIHR5cGU6IGNib3ItdG8tanNvbgogICAgICB2ZXJzaW9uOiB2MQogICAgZGVzdGluYXRpb246CiAgICAgIHR5cGU6IHdlYmhvb2sKICAgICAgdmVyc2lvbjogdjEKICAgICAgcGFyYW1ldGVyczoKICAgICAgICB1cmw6IGh0dHBzOi8vYXBpLmRhdGFjYWtlLmNvL2ludGVncmF0aW9ucy9hcGkvODVjODY3ZDctOWFkYy00NjEzLTk0NmMtYzY0ZmNlYmExZTdmLw=="/>
 
 ```yaml
 filter:

@@ -1,6 +1,7 @@
 ---
 title: Binary Data
 ---
+import UseThisPipeline from '/docs/_partials-common/usethispipeline.mdx'
 
 While sending in a semi-structured format, whether text-based with JSON or
 binary with CBOR, can allow for parsing and transformation without any
@@ -23,7 +24,7 @@ to use this example, or replace with the appropriate authentication mechanism
 for your webhook target.
 :::
 
-<a href="https://console.golioth.io/pipeline?name=Simple%20Binary%20Webhook&pipeline=ZmlsdGVyOgogIHBhdGg6ICIqIgogIGNvbnRlbnRfdHlwZTogYXBwbGljYXRpb24vb2N0ZXQtc3RyZWFtCnN0ZXBzOgogIC0gbmFtZTogc3RlcC0wCiAgICBkZXN0aW5hdGlvbjoKICAgICAgdHlwZTogd2ViaG9vawogICAgICB2ZXJzaW9uOiB2MQogICAgICBwYXJhbWV0ZXJzOgogICAgICAgIHVybDogaHR0cHM6Ly93ZWJob29rLmV4YW1wbGUuY29tCiAgICAgICAgaGVhZGVyczoKICAgICAgICAgIHgtYXBpLXRva2VuOiAkRVhBTVBMRV9BUElfVE9LRU4=" target='_blank'>Use this Pipeline</a>
+<UseThisPipeline name="Simple Binary Webhook" pipeline="ZmlsdGVyOgogIHBhdGg6ICIqIgogIGNvbnRlbnRfdHlwZTogYXBwbGljYXRpb24vb2N0ZXQtc3RyZWFtCnN0ZXBzOgogIC0gbmFtZTogc3RlcC0wCiAgICBkZXN0aW5hdGlvbjoKICAgICAgdHlwZTogd2ViaG9vawogICAgICB2ZXJzaW9uOiB2MQogICAgICBwYXJhbWV0ZXJzOgogICAgICAgIHVybDogaHR0cHM6Ly93ZWJob29rLmV4YW1wbGUuY29tCiAgICAgICAgaGVhZGVyczoKICAgICAgICAgIHgtYXBpLXRva2VuOiAkRVhBTVBMRV9BUElfVE9LRU4="/>
 
 ```yaml
 filter:

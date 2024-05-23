@@ -1,6 +1,7 @@
 ---
 title: Azure Event Hubs
 ---
+import UseThisPipeline from '/docs/_partials-common/usethispipeline.mdx'
 
 [Azure Event Hubs](https://azure.microsoft.com/products/event-hubs) is a cloud
 native data streaming service that can stream millions of events per second,
@@ -20,7 +21,7 @@ Make sure to create a [secret](/data-routing/secrets) named
 string](https://learn.microsoft.com/azure/event-hubs/event-hubs-get-connection-string).
 :::
 
-<a href="https://console.golioth.io/pipeline?name=Azure%20Event%20Hubs&pipeline=ZmlsdGVyOgogIHBhdGg6ICIqIgpzdGVwczoKICAtIG5hbWU6IHN0ZXAtMAogICAgZGVzdGluYXRpb246CiAgICAgIHR5cGU6IGF6dXJlLWV2ZW50LWh1YnMKICAgICAgdmVyc2lvbjogdjEKICAgICAgcGFyYW1ldGVyczoKICAgICAgICBjb25uX3N0cjogJEFaVVJFX0NPTk5FQ1RJT05fU1RSSU5HCiAgICAgICAgdG9waWM6IGRldmljZS1kYXRh" target='_blank'>Use this Pipeline</a>
+<UseThisPipeline name="Azure Event Hubs" pipeline="ZmlsdGVyOgogIHBhdGg6ICIqIgpzdGVwczoKICAtIG5hbWU6IHN0ZXAtMAogICAgZGVzdGluYXRpb246CiAgICAgIHR5cGU6IGF6dXJlLWV2ZW50LWh1YnMKICAgICAgdmVyc2lvbjogdjEKICAgICAgcGFyYW1ldGVyczoKICAgICAgICBjb25uX3N0cjogJEFaVVJFX0NPTk5FQ1RJT05fU1RSSU5HCiAgICAgICAgdG9waWM6IGRldmljZS1kYXRh"/>
 
 ```yaml
 filter:
