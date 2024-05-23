@@ -1,17 +1,35 @@
 ---
-id: by-object
-title: LightDB Stream (by object)
-sidebar_position: 2
+title: Stream Client
+sidebar_position: 5
 ---
 
-Object-based LightDB functions can be used to send any number of time-series
-data values to the cloud with a single function call. A timestamp is
-automatically added to the data by the server and stored using a specific path
-that you provide. This data will accumulate along with all previously received
-values. If the chosen path does not already exist, it will be created.
+# Golioth Stream Client
+
+The Golioth platform supports time-series data streaming. The Golioth Firmware
+SDK includes functions for sending stream data, which will ultimately be routed
+to a destination based on the pipelines configured in the device's project.
+
+The [Golioth Firmware SDK](https://github.com/golioth/golioth-firmware-sdk)
+includes functions for working with stream data.
+
+## Using Stream
+
+Stream functions can be used to send any number of time-series data values to
+the cloud with a single function call. A timestamp is automatically added to the
+data by the server and stored using the configuration found in the Pipeline for
+this path. This data will accumulate along with all previously received values.
+
+:::info Stream data uses Pipelines
+
+Pipelines are used to route and optionally transform streaming data on the
+Golioth Platform. Please see the Pipelines section of the Golioth Docs for more
+information.
+
+:::
 
 Synchronous and asynchronous functions exist to set multiple data types and
-paths using your choice of these object types: `JSON` or `CBOR`.
+paths using your choice of these content types: `JSON`, `CBOR`, and
+`OCTET_STREAM` for arbitrary binary data.
 
 ## Includes
 
@@ -35,7 +53,7 @@ using an empty string `""`, or create `"any/path/you/like"`.
 You choose what keys to use with your key-value pairs, and you are free to use
 nested objects. The only reserved keys are `t`, `ts`, `time` and `timestamp`;
 each will be interpreted as a user-supplied timestamp. [More on that
-later](by-object#custom-timestamps).
+later](stream-client#custom-timestamps).
 
 :::
 
@@ -140,10 +158,18 @@ err = golioth_stream_set_sync(client,
 ```
 
 
-The simplest way to send LightDB Stream data to Golioth is using a synchronous
-function call. This blocking function will send data to the given path and wait
-for a response (or error) from the server. If a response is not received within
-the given timeout, a `GOLIOTH_ERR_TIMEOUT` error code will be returned.
+The simplest way to send Stream data to Golioth is using a synchronous function
+call. This blocking function will send data to the given path and wait for a
+response (or error) from the server. If a response is not received within the
+given timeout, a `GOLIOTH_ERR_TIMEOUT` error code will be returned.
+
+:::info Path Values and Pipelines
+
+Specifying a path allows for custom routing of streaming data to a destination
+using Pipelines. For more information, please see the Pipelines section of the
+Golioth Docs.
+
+:::
 
 In the above examples, we tell Golioth to set the `"sensor"` path using the enum
 for our desired content type, along with the `json_buf`/`cbor_buf` pointer and
@@ -174,11 +200,11 @@ Golioth servers will have a record of the data that looks like this:
 
 ## Asynchronous
 
-The asynchronous functions are a non-blocking approach to sending LightDB Stream
-data to Golioth. When the task completes, an optional callback function may be
-run to process the result of the async operation.
+The asynchronous functions are a non-blocking approach to sending Stream data to
+Golioth. When the task completes, an optional callback function may be run to
+process the result of the async operation.
 
-### Calling the Async LightDB Stream Set Function
+### Calling the Async Stream Set Function
 
 ```c
 enum obj_type {
@@ -256,9 +282,9 @@ different message may be printed.
 
 ## Custom Timestamps
 
-By default, the server will automatically assign a timestamp to all data
-received by the LightDB Stream service. However, in some cases you may want to
-assign your own timestamps.
+By default, the server will automatically assign a timestamp to all received
+streaming data. However, in some cases you may want to assign your own
+timestamps
 
 ```c
 /* Create a valid JSON string that includes a timestamp */
@@ -290,9 +316,17 @@ char json_batch[] = "[{\"temp\":21.5,\"time\":\"2023-08-09T08:27:49-05:00\"},"
 
 :::
 
+:::info Configure timestamps in Pipelines
+
+Pipelines may be used to instruct how and when the Golioth servers should use
+timestamps received in the Stream data payload. For more information, please see
+the Pipelines section of the Golioth Docs.
+
+:::
+
 ## Resources
 
 Further documentation of the device SDK is available in the [Golioth Firmware
 SDK
-Reference](https://firmware-sdk-docs.golioth.io/group__golioth__lightdb.html)
+Reference](https://firmware-sdk-docs.golioth.io/group__golioth__stream.html)
 (Doxygen).

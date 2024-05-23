@@ -11,8 +11,8 @@
           "type": 301
         },
         {
-          "source": "/cloud/tiers{,/**}",
-          "destination": "https://golioth.io/pricing",
+          "source": "/firmware/golioth-firmware-sdk/light-db-stream{,/**}",
+          "destination": "/firmware/golioth-firmware-sdk/stream-client",
           "type": 301
         },
         {
