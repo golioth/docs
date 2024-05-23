@@ -1,6 +1,7 @@
 ---
 title: Troubleshooting
 ---
+import UseThisPipeline from '/docs/_partials-common/usethispipeline.mdx'
 
 If a pipeline is misconfigured, the data flowing through it might not be
 delivered to the desired destination. When this happens, it is important to
@@ -23,8 +24,7 @@ If sending `application/json` data, or data that can be transformed into
 expected, is to create a minimal pipeline that sends data to [LightDB
 Stream](/application-services/lightdb-stream).
 
-<a href="https://console.golioth.io/pipeline?name=Validate%20Device%20Data&pipeline=ZmlsdGVyOgogIHBhdGg6ICIqIgogIGNvbnRlbnRfdHlwZTogYXBwbGljYXRpb24vanNvbgpzdGVwczoKICAtIG5hbWU6IHN0ZXAtMAogICAgZGVzdGluYXRpb246CiAgICAgIHR5cGU6IGxpZ2h0ZGItc3RyZWFtCiAgICAgIHZlcnNpb246IHYx" target='_blank'>Use this Pipeline</a>
-
+<UseThisPipeline name="Validate Device Data" pipeline="ZmlsdGVyOgogIHBhdGg6ICIqIgogIGNvbnRlbnRfdHlwZTogYXBwbGljYXRpb24vanNvbgpzdGVwczoKICAtIG5hbWU6IHN0ZXAtMAogICAgZGVzdGluYXRpb246CiAgICAgIHR5cGU6IGxpZ2h0ZGItc3RyZWFtCiAgICAgIHZlcnNpb246IHYx"/>
 
 ```yaml
 filter:
@@ -52,8 +52,7 @@ For example, the following pipeline could be used with the Simulator to verify
 that the [GCP PubSub](/data-routing/destinations/gcp-pubsub) destination is
 configured with valid credentials.
 
-<a href="https://console.golioth.dev/pipeline?name=Validate%20Pipeline%20Configuration&pipeline=ZmlsdGVyOgogIHBhdGg6ICIqIgogIGNvbnRlbnRfdHlwZTogYXBwbGljYXRpb24vanNvbgpzdGVwczoKICAtIG5hbWU6IHN0ZXAtMAogICAgZGVzdGluYXRpb246CiAgICAgIHR5cGU6IGdjcC1wdWJzdWIKICAgICAgdmVyc2lvbjogdjEKICAgICAgcGFyYW1ldGVyczoKICAgICAgICBzZXJ2aWNlX2FjY291bnQ6ICRHQ1BfU0VSVklDRV9BQ0NPVU5UCiAgICAgICAgdG9waWM6IG15LXRvcGlj" target='_blank'>Use this Pipeline</a>
-
+<UseThisPipeline name="Validate Pipeline Configuration" pipeline="ZmlsdGVyOgogIHBhdGg6ICIqIgogIGNvbnRlbnRfdHlwZTogYXBwbGljYXRpb24vanNvbgpzdGVwczoKICAtIG5hbWU6IHN0ZXAtMAogICAgZGVzdGluYXRpb246CiAgICAgIHR5cGU6IGdjcC1wdWJzdWIKICAgICAgdmVyc2lvbjogdjEKICAgICAgcGFyYW1ldGVyczoKICAgICAgICBzZXJ2aWNlX2FjY291bnQ6ICRHQ1BfU0VSVklDRV9BQ0NPVU5UCiAgICAgICAgdG9waWM6IG15LXRvcGlj"/>
 
 ```yaml
 filter:
