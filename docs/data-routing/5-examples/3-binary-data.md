@@ -1,7 +1,7 @@
 ---
 title: Binary Data
 ---
-import UseThisPipeline from '/docs/_partials-common/usethispipeline.mdx'
+import Pipeline from '@site/src/components/usethispipeline'
 
 While sending in a semi-structured format, whether text-based with JSON or
 binary with CBOR, can allow for parsing and transformation without any
@@ -24,19 +24,4 @@ to use this example, or replace with the appropriate authentication mechanism
 for your webhook target.
 :::
 
-<UseThisPipeline name="Simple Binary Webhook" pipeline="ZmlsdGVyOgogIHBhdGg6ICIqIgogIGNvbnRlbnRfdHlwZTogYXBwbGljYXRpb24vb2N0ZXQtc3RyZWFtCnN0ZXBzOgogIC0gbmFtZTogc3RlcC0wCiAgICBkZXN0aW5hdGlvbjoKICAgICAgdHlwZTogd2ViaG9vawogICAgICB2ZXJzaW9uOiB2MQogICAgICBwYXJhbWV0ZXJzOgogICAgICAgIHVybDogaHR0cHM6Ly93ZWJob29rLmV4YW1wbGUuY29tCiAgICAgICAgaGVhZGVyczoKICAgICAgICAgIHgtYXBpLXRva2VuOiAkRVhBTVBMRV9BUElfVE9LRU4="/>
-
-```yaml
-filter:
-  path: "*"
-  content_type: application/octet-stream
-steps:
-  - name: step-0
-    destination:
-      type: webhook
-      version: v1
-      parameters:
-        url: https://webhook.example.com
-        headers:
-          x-api-token: $EXAMPLE_API_TOKEN
-```
+<Pipeline link='https://console.golioth.io/pipeline?name=Simple%20Binary%20Webhook&pipeline=ZmlsdGVyOgogIHBhdGg6ICIqIgogIGNvbnRlbnRfdHlwZTogYXBwbGljYXRpb24vb2N0ZXQtc3RyZWFtCnN0ZXBzOgogIC0gbmFtZTogc3RlcC0wCiAgICBkZXN0aW5hdGlvbjoKICAgICAgdHlwZTogd2ViaG9vawogICAgICB2ZXJzaW9uOiB2MQogICAgICBwYXJhbWV0ZXJzOgogICAgICAgIHVybDogaHR0cHM6Ly93ZWJob29rLmV4YW1wbGUuY29tCiAgICAgICAgaGVhZGVyczoKICAgICAgICAgIHgtYXBpLXRva2VuOiAkRVhBTVBMRV9BUElfVE9LRU4=' />
