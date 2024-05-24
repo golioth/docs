@@ -1,5 +1,10 @@
 # Logging
 
+:::usage
+Sending log messages incurs usage costs after exceeding the free tier. See
+[Golioth pricing](https://golioth.io/pricing) for more information.
+:::
+
 ## What is Logging
 
 You should never need to physically access you IoT devices to begin
