@@ -1,7 +1,7 @@
 ---
 title: Troubleshooting
 ---
-import UseThisPipeline from '/docs/_partials-common/usethispipeline.mdx'
+import Pipeline from '@site/src/components/usethispipeline'
 
 If a pipeline is misconfigured, the data flowing through it might not be
 delivered to the desired destination. When this happens, it is important to
@@ -24,18 +24,7 @@ If sending `application/json` data, or data that can be transformed into
 expected, is to create a minimal pipeline that sends data to [LightDB
 Stream](/application-services/lightdb-stream).
 
-<UseThisPipeline name="Validate Device Data" pipeline="ZmlsdGVyOgogIHBhdGg6ICIqIgogIGNvbnRlbnRfdHlwZTogYXBwbGljYXRpb24vanNvbgpzdGVwczoKICAtIG5hbWU6IHN0ZXAtMAogICAgZGVzdGluYXRpb246CiAgICAgIHR5cGU6IGxpZ2h0ZGItc3RyZWFtCiAgICAgIHZlcnNpb246IHYx"/>
-
-```yaml
-filter:
-  path: "*"
-  content_type: application/json
-steps:
-  - name: step-0
-    destination:
-      type: lightdb-stream
-      version: v1
-```
+<Pipeline link='https://console.golioth.io/pipeline?name=Validate%20Device%20Data&pipeline=ZmlsdGVyOgogIHBhdGg6ICIqIgogIGNvbnRlbnRfdHlwZTogYXBwbGljYXRpb24vanNvbgpzdGVwczoKICAtIG5hbWU6IHN0ZXAtMAogICAgZGVzdGluYXRpb246CiAgICAgIHR5cGU6IGxpZ2h0ZGItc3RyZWFtCiAgICAgIHZlcnNpb246IHYx' />
 
 If data does not arrive at LightDB Stream using this pipeline, it is likely that
 the device is not communicating with Golioth, or it is sending data that is not
@@ -52,18 +41,4 @@ For example, the following pipeline could be used with the Simulator to verify
 that the [GCP PubSub](/data-routing/destinations/gcp-pubsub) destination is
 configured with valid credentials.
 
-<UseThisPipeline name="Validate Pipeline Configuration" pipeline="ZmlsdGVyOgogIHBhdGg6ICIqIgogIGNvbnRlbnRfdHlwZTogYXBwbGljYXRpb24vanNvbgpzdGVwczoKICAtIG5hbWU6IHN0ZXAtMAogICAgZGVzdGluYXRpb246CiAgICAgIHR5cGU6IGdjcC1wdWJzdWIKICAgICAgdmVyc2lvbjogdjEKICAgICAgcGFyYW1ldGVyczoKICAgICAgICBzZXJ2aWNlX2FjY291bnQ6ICRHQ1BfU0VSVklDRV9BQ0NPVU5UCiAgICAgICAgdG9waWM6IG15LXRvcGlj"/>
-
-```yaml
-filter:
-  path: "*"
-  content_type: application/json
-steps:
-  - name: step-0
-    destination:
-      type: gcp-pubsub
-      version: v1
-      parameters:
-        service_account: $GCP_SERVICE_ACCOUNT
-        topic: my-topic
-```
+<Pipeline link='https://console.golioth.io/pipeline?name=Validate%20Pipeline%20Configuration&pipeline=ZmlsdGVyOgogIHBhdGg6ICIqIgogIGNvbnRlbnRfdHlwZTogYXBwbGljYXRpb24vanNvbgpzdGVwczoKICAtIG5hbWU6IHN0ZXAtMAogICAgZGVzdGluYXRpb246CiAgICAgIHR5cGU6IGdjcC1wdWJzdWIKICAgICAgdmVyc2lvbjogdjEKICAgICAgcGFyYW1ldGVyczoKICAgICAgICBzZXJ2aWNlX2FjY291bnQ6ICRHQ1BfU0VSVklDRV9BQ0NPVU5UCiAgICAgICAgdG9waWM6IG15LXRvcGlj' />

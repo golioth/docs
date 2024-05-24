@@ -1,7 +1,7 @@
 ---
 title: Azure Event Hubs
 ---
-import UseThisPipeline from '/docs/_partials-common/usethispipeline.mdx'
+import Pipeline from '@site/src/components/usethispipeline'
 
 [Azure Event Hubs](https://azure.microsoft.com/products/event-hubs) is a cloud
 native data streaming service that can stream millions of events per second,
@@ -21,17 +21,4 @@ Make sure to create a [secret](/data-routing/secrets) named
 string](https://learn.microsoft.com/azure/event-hubs/event-hubs-get-connection-string).
 :::
 
-<UseThisPipeline name="Azure Event Hubs" pipeline="ZmlsdGVyOgogIHBhdGg6ICIqIgpzdGVwczoKICAtIG5hbWU6IHN0ZXAtMAogICAgZGVzdGluYXRpb246CiAgICAgIHR5cGU6IGF6dXJlLWV2ZW50LWh1YnMKICAgICAgdmVyc2lvbjogdjEKICAgICAgcGFyYW1ldGVyczoKICAgICAgICBjb25uX3N0cjogJEFaVVJFX0NPTk5FQ1RJT05fU1RSSU5HCiAgICAgICAgdG9waWM6IGRldmljZS1kYXRh"/>
-
-```yaml
-filter:
-  path: "*"
-steps:
-  - name: step-0
-    destination:
-      type: azure-event-hubs
-      version: v1
-      parameters:
-        conn_str: $AZURE_CONNECTION_STRING
-        topic: device-data
-```
+<Pipeline link='https://console.golioth.io/pipeline?name=Azure%20Event%20Hubs&pipeline=ZmlsdGVyOgogIHBhdGg6ICIqIgpzdGVwczoKICAtIG5hbWU6IHN0ZXAtMAogICAgZGVzdGluYXRpb246CiAgICAgIHR5cGU6IGF6dXJlLWV2ZW50LWh1YnMKICAgICAgdmVyc2lvbjogdjEKICAgICAgcGFyYW1ldGVyczoKICAgICAgICBjb25uX3N0cjogJEFaVVJFX0NPTk5FQ1RJT05fU1RSSU5HCiAgICAgICAgdG9waWM6IGRldmljZS1kYXRh' />
