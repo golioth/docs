@@ -157,7 +157,7 @@ module.exports = {
           sidebarPath: require.resolve("./sidebars.js"),
           // editUrl: 'https://github.com/golioth/golioth/edit/master/docs/',
           admonitions: {
-            keywords: ['golioth'],
+            keywords: ['golioth', 'usage'],
             extendDefaults: true,
           },
         },
