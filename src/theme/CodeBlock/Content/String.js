@@ -14,6 +14,7 @@ import CopyButton from '@theme/CodeBlock/CopyButton';
 import WordWrapButton from '@theme/CodeBlock/WordWrapButton';
 import Container from '@theme/CodeBlock/Container';
 import styles from './styles.module.css';
+import SvgUseThisPipeline from '@site/static/img/usethispipeline.svg';
 // Prism languages are always lowercase
 // We want to fail-safe and allow both "php" and "PHP"
 // See https://github.com/facebook/docusaurus/issues/9012
@@ -25,6 +26,7 @@ export default function CodeBlockString({
   className: blockClassName = '',
   metastring,
   title: titleProp,
+  pipeline_share_link: pipeline_share_linkProp,
   showLineNumbers: showLineNumbersProp,
   language: languageProp,
 }) {
@@ -40,6 +42,7 @@ export default function CodeBlockString({
   // future. Note that MDX doesn't strip quotes when parsing metastring:
   // "title=\"xyz\"" => title: "\"xyz\""
   const title = parseCodeBlockTitle(metastring) || titleProp;
+  const pipeline = pipeline_share_linkProp;
   const {lineClassNames, code} = parseLines(children, {
     metastring,
     language,
@@ -56,7 +59,16 @@ export default function CodeBlockString({
           !blockClassName.includes(`language-${language}`) &&
           `language-${language}`,
       )}>
-      {title && <div className={styles.codeBlockTitle}>{title}</div>}
+      {title &&
+        <div className={styles.codeBlockTitleBlock}>
+          <div className={styles.codeBlockTitle}>{title}</div>
+          {pipeline &&
+            <div className={styles.codeBlockTitleRight}>
+              <a href={pipeline} target="_blank">
+              <SvgUseThisPipeline className={styles.useThisPipelineSvg} />
+              </a>
+         </div>}
+        </div>}
       <div className={styles.codeBlockContent}>
         <Highlight theme={prismTheme} code={code} language={language ?? 'text'}>
           {({className, style, tokens, getLineProps, getTokenProps}) => (
