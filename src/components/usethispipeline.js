@@ -9,9 +9,7 @@ export default function Pipeline({link}) {
   var pipeline = params[1].split("pipeline=")[1];
   return (
   <>
-    <a href={link} target="_blank"><SvgUseThisPipeline /></a>
-
-    <CodeBlock language="yaml" title={"Pipeline: " + decodeURI(name)}>
+    <CodeBlock language="yaml" title={"Pipeline: " + decodeURI(name)} pipeline_share_link={link}>
       {atob(pipeline)}
     </CodeBlock>
   </> )
