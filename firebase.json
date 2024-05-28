@@ -204,6 +204,11 @@
           "source": "/old_index{,/**}",
           "destination": "/",
           "type": 301
+        },
+        {
+          "source": "/data-routing/pipelines",
+          "destination": "/data-routing",
+          "type": 301
         }
       ],
       "rewrites": [
@@ -422,8 +427,12 @@
           "source": "/firmware/golioth-firmware-sdk/firmware-upgrade/dfu-sample-zephyr{,/**}",
           "destination": "/firmware/golioth-firmware-sdk/firmware-upgrade/fw-update-zephyr",
           "type": 301
+        },
+        {
+          "source": "/data-routing/pipelines",
+          "destination": "/data-routing",
+          "type": 301
         }
-
       ],
       "rewrites": [
         {
