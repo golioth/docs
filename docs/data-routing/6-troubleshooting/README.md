@@ -13,7 +13,7 @@ expect, and that pipeline destination is configured correctly.
 Other than accessing the external data destination directly, the quickest way to
 validate that data is flowing through a pipeline is to check the real-time usage
 metrics for the project's organization on Golioth. Usage can be viewed by
-naviating to the organization's `Settings` page, then clicking on the `Usage`
+navigating to the organization's `Settings` page, then clicking on the `Usage`
 tab. Metrics will be broken down by `Project` and `Service`. Data destinations
 for Pipelines that incur usage are identified by `data_{destination-name}`.
 
