@@ -5,6 +5,11 @@ title: Destinations
 Destinations are used to deliver data to external locations. A single pipeline
 may deliver data to multiple destinations.
 
+:::usage
+Sending data to a destination incurs usage costs after exceeding the free tier.
+See [Golioth pricing](https://golioth.io/pricing) for more information.
+:::
+
 ## Versioning
 
 Every destination type is versioned. It is recommended to specify a version for

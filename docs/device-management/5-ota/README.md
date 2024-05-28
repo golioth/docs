@@ -1,5 +1,10 @@
 # Over-the-Air (OTA) Updates
 
+:::usage
+Deploying OTA updates incurs usage costs after exceeding the free tier. See
+[Golioth pricing](https://golioth.io/pricing) for more information.
+:::
+
 The Golioth Over-the-Air (OTA) firmware update service enables quick, secure
 deployment of firmware packages to IoT devices throughout the world. The Golioth
 API enables easy management of firmware releases, including multi-part binary
