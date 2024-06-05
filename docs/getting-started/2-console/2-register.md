@@ -3,45 +3,71 @@ id: register
 title: Registration & Wizard
 ---
 
+import FlexImage from '@site/src/components/FlexImage';
+import GoliothConsoleOnboarding from '../assets/console-onboarding.png';
+import GoliothConsoleVerifyEmail from '../assets/console-verify-email.png';
+
+import GoliothWizard1 from '../assets/console-quickstart-step1-wizard.png';
+import GoliothProjectCreate from '../assets/console-quickstart-step1-createproject.png';
+
+import GoliothWizard2 from '../assets/console-quickstart-step2-wizard.png';
+import GoliothCreateDevice from '../assets/console-quickstart-step2-createdevice.png';
+import GoliothDeviceCreateConfirm from '../assets/console-quickstart-step2-confirmation.png';
+
+## Creating your Golioth account
+
+<FlexImage column_count="2">
+  <img src={GoliothConsoleOnboarding} alt="Golioth console sign-up questions"/>
+  <img src={GoliothConsoleVerifyEmail} alt="Golioth console verify email"/>
+</FlexImage>
+
 To begin using Golioth please register for an account at
 [console.golioth.io](https://console.golioth.io/).
 
-import FlexImage from '@site/src/components/FlexImage';
-import GoliothConsoleOnboarding from '../assets/console-onboarding.jpg';
-import GoliothConsoleEmpty from '../assets/console-click-quickstart.jpg';
-import GoliothConsoleQuickstart from '../assets/console-quickstart-lets-go.jpg';
-import GoliothWizard1 from '../assets/console-quickstart-step1.jpg';
-import GoliothWizard2 from '../assets/console-quickstart-step2.jpg';
-import GoliothWizard3 from '../assets/console-quickstart-step3.jpg';
-
-<FlexImage column_count="3">
-  <img src={GoliothConsoleOnboarding} alt="Golioth console without a project"/>
-  <img src={GoliothConsoleEmpty} alt="Golioth console without a project"/>
-  <img src={GoliothConsoleQuickstart} alt="Golioth console quickstart launch screen"/>
-</FlexImage>
-
 Once registered, you will be asked some onboarding questions and to review our
-terms of service. The console will be quite empty, so select `Quick Start` from
-top of the screen and click `Let's Go!` to use the quickstart wizard. The wizard
-includes three steps:
+terms of service. You will need to verify your email address to continue.
 
-<FlexImage column_count="3">
-  <img src={GoliothWizard1} alt="Golioth console wizard create a project"/>
-  <img src={GoliothWizard2} alt="Golioth console wizard register a device"/>
-  <img src={GoliothWizard3} alt="Golioth console wizard setup your device"/>
+## Creating a new Project
+
+<FlexImage column_count="2">
+  <img src={GoliothWizard1} alt="Golioth console add project wizard"/>
+  <img src={GoliothProjectCreate} alt="Golioth console create a project"/>
 </FlexImage>
 
-### Step 1: Project name
+### Project name
 
-* Enter a Project Name of your choosing
+Golioth organizes fleets into "Projects". When first logging into Golioth you
+will be directed to create a project using the `Create` button in the upper
+right. You may use the auto-generated project name, or create your own. Project
+names cannot be changed after creation so pick a good one!
 
-### Step 2: Device name
+## Creating a new Device
 
-* Enter a human-readable Device Name
+<FlexImage column_count="3">
+  <img src={GoliothWizard2} alt="Golioth console wizard create a device"/>
+  <img src={GoliothCreateDevice} alt="Golioth console device creation dialog"/>
+  <img src={GoliothDeviceCreateConfirm} alt="Golioth console device created confirmation"/>
+</FlexImage>
 
-### Step 3: Device credentials
+### Device name
 
-* The Identity of this device is automatically populated from the device name with `-id` and `@project-name` appended
-* A Pre-Shared Key (PSK) is automatically generated. This is a password that will authenticate this device to the Golioth Cloud
+Each project is made up of a number of devices. The next step will direct you to
+create a device using the `Create` button in the upper right. Once again you may
+use the auto-generated device name or create your own. Device names may be
+changed at any time.
 
-It really is that simple, you have provisioned your first device! Let's provision a second device to get to know the console just a bit better.
+### Tags and Hardware IDs
+
+Tags and Hardware IDs are a great tool for organizing your growing fleet. For
+now we'll leave these blank.
+
+### Device credentials
+
+By default, a Pre-Shared Key (PSK) credential is automatically generated. This
+is a PSK-ID and PSK pair that will authenticate this device to the Golioth
+Cloud.
+
+## That's it!
+
+It really is that simple, you have provisioned your first device! Let's
+provision a second device to get to know the console just a bit better.
