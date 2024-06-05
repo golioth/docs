@@ -59,8 +59,10 @@ demonstrated as a happy path to get a demo device running right away. However,
 Golioth supports and recommends using X509 certificate (ECDSA) for your
 production devices.
 
+<!-- Use full URL here because this page gets imported to the Developer Training
+repo and we want the URL to work over there too -->
 * Firmware Section: [Certificate
-  Authentication](/firmware/golioth-firmware-sdk/authentication/certificate-auth)
+  Authentication](https://docs.golioth.io/firmware/golioth-firmware-sdk/authentication/certificate-auth)
 :::
 
 Congratulations, you're ready to move on to selecting hardware!
