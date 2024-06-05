@@ -196,7 +196,6 @@ module.exports = {
         appUrl: "https://app.posthog.com",
       },
     ],
-    "@docusaurus/plugin-ideal-image",
     // [
     //   '@docusaurus/plugin-client-redirects',
     //   {

@@ -6,7 +6,6 @@ title: Registration & Wizard
 To begin using Golioth please register for an account at
 [console.golioth.io](https://console.golioth.io/).
 
-import Image from '@theme/IdealImage';
 import FlexImage from '@site/src/components/FlexImage';
 import GoliothConsoleOnboarding from '../assets/console-onboarding.jpg';
 import GoliothConsoleEmpty from '../assets/console-click-quickstart.jpg';
@@ -16,9 +15,9 @@ import GoliothWizard2 from '../assets/console-quickstart-step2.jpg';
 import GoliothWizard3 from '../assets/console-quickstart-step3.jpg';
 
 <FlexImage column_count="3">
-  <Image img={GoliothConsoleOnboarding} alt="Golioth console without a project"/>
-  <Image img={GoliothConsoleEmpty} alt="Golioth console without a project"/>
-  <Image img={GoliothConsoleQuickstart} alt="Golioth console quickstart launch screen"/>
+  <img src={GoliothConsoleOnboarding} alt="Golioth console without a project"/>
+  <img src={GoliothConsoleEmpty} alt="Golioth console without a project"/>
+  <img src={GoliothConsoleQuickstart} alt="Golioth console quickstart launch screen"/>
 </FlexImage>
 
 Once registered, you will be asked some onboarding questions and to review our
@@ -27,9 +26,9 @@ top of the screen and click `Let's Go!` to use the quickstart wizard. The wizard
 includes three steps:
 
 <FlexImage column_count="3">
-  <Image img={GoliothWizard1} alt="Golioth console wizard create a project"/>
-  <Image img={GoliothWizard2} alt="Golioth console wizard register a device"/>
-  <Image img={GoliothWizard3} alt="Golioth console wizard setup your device"/>
+  <img src={GoliothWizard1} alt="Golioth console wizard create a project"/>
+  <img src={GoliothWizard2} alt="Golioth console wizard register a device"/>
+  <img src={GoliothWizard3} alt="Golioth console wizard setup your device"/>
 </FlexImage>
 
 ### Step 1: Project name
