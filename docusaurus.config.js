@@ -147,6 +147,16 @@ module.exports = {
 
       //... other Algolia params
     },
+    zoom: {
+      selector: '.markdown :not(em) > img',
+      config: {
+        // options you can specify via https://github.com/francoischalifour/medium-zoom#usage
+        background: {
+          light: 'rgb(255, 255, 255)',
+          dark: 'rgb(50, 50, 50)'
+        }
+      }
+    },
   },
   presets: [
     [
@@ -196,6 +206,7 @@ module.exports = {
         appUrl: "https://app.posthog.com",
       },
     ],
+    'docusaurus-plugin-image-zoom',
     // [
     //   '@docusaurus/plugin-client-redirects',
     //   {
