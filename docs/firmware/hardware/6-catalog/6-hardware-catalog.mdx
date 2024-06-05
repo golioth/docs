@@ -10,7 +10,6 @@ description: Catalog of IoT boards, development kits, and embedded hardware comp
 ---
 
 import boards from "../assets/boards.json";
-import Image from "@theme/IdealImage";
 import mag from "../assets/img/magnifier.svg";
 import "../assets/hardware-catalog.css";
 import { useState, useEffect } from "react";
@@ -181,7 +180,7 @@ export const Board = ({ board }) => {
         <div className="board-card-badge-container">
           <BoardStatusBadge level={level} title={level} />
         </div>
-        <Image img={imgPath} />
+        <img src={imgPath} />
       </div>
       <div className="board-card-footer" title={name}>
         {name}
