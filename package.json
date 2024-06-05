@@ -30,6 +30,7 @@
     "btoa": "^1.2.1",
     "buffer": "^6.0.3",
     "clsx": "^2.0.0",
+    "docusaurus-plugin-image-zoom": "^2.0.0",
     "docusaurus2-dotenv": "^1.4.0",
     "env-cmd": "^10.1.0",
     "formdata-node": "^6.0.3",
