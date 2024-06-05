@@ -1,6 +1,5 @@
 ---
-id: overview
-title: Golioth REST API
+title: Management API
 ---
 
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
@@ -14,18 +13,16 @@ export const OpenAPIUrl = () => {
   return <a href={openAPIUrl}>OpenAPI v3</a>;
 };
 
-You can use Golioth API for access all services available on the platform, like
-device management, provisioning, data resources and others services to be build
-in the future.
+All Golioth platform operations can be performed via the Management API.
 
-#### API Usage
+## API Usage
 
-Our API is documented using OpenAPI definitions. You can access the [API
-Reference Page](/reference/rest-api/openapi) to check all endpoints and methods
-that can be used. For more information on authentication check the
-[Authentication Guide](/reference/rest-api/auth).
+The API is documented using OpenAPI definitions. You can access the [API
+Reference Page](/reference/management-api/openapi) to check all endpoints and
+methods that can be used. For more information on authentication check the
+[Authentication Guide](/reference/management-api/auth).
 
-#### Importing OpenAPI/Swagger Definitions
+## Importing OpenAPI/Swagger Definitions
 
 You can test the Golioth API using a Graphical User Interface (GUI) like Postman
 or Insomnia. Both <OpenAPIUrl/> and <SwaggerUrl/> definitions are available.

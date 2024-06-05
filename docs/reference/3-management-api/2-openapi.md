@@ -1,5 +1,4 @@
 ---
-id: openapi
 title: Open API Docs
 hide_title: true
 ---
