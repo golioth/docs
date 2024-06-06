@@ -1,0 +1,19 @@
+---
+title: Conditional JSON Patch
+---
+import Pipeline from '@site/src/components/usethispipeline'
+
+Javascript Object Notation (JSON) Patch is a JSON document structure for
+expressing a sequence of operations to apply to a JSON document. In some cases,
+it is desirable to conditionally apply a patch to a JSON data message payload
+based on the value of a given field in the document. The `test` operation can be
+used to conditionally apply a patch to a data message payload.
+
+This example demonstrates using a `test` operation with the [`json-patch`
+transformer](/data-routing/transformers/json-patch) to only apply a patch to
+payloads for a specific device. The device identifier is accessed by injecting
+it into the data message payload using the [`inject-metadata`
+transformer](/data-routing/transformers/inject-metadata). A subsequent
+`json-patch` step removes the metadata from the payload.
+
+<Pipeline link='https://console.golioth.dev/pipeline?name=Conditional%20JSON%20Patch&pipeline=ZmlsdGVyOgogIHBhdGg6ICIqIgogIGNvbnRlbnRfdHlwZTogYXBwbGljYXRpb24vanNvbgpzdGVwczoKICAtIG5hbWU6IGdldC1tZXRhZGF0YQogICAgdHJhbnNmb3JtZXI6CiAgICAgIHR5cGU6IGluamVjdC1tZXRhZGF0YQogICAgICB2ZXJzaW9uOiB2MQogIC0gbmFtZTogY29uZGl0aW9uYWwtcGF0Y2gKICAgIHRyYW5zZm9ybWVyOgogICAgICB0eXBlOiBqc29uLXBhdGNoCiAgICAgIHZlcnNpb246IHYxCiAgICAgIHBhcmFtZXRlcnM6CiAgICAgICAgcGF0Y2g6IHwKICAgICAgICAgIFsKICAgICAgICAgICAgeyJvcCI6ICJ0ZXN0IiwgInBhdGgiOiAiL2RldmljZV9pZCIsICJ2YWx1ZSI6ICI2NDk5OTgyNjJmZWNiNDNlYjJkMzk4NTkifSwKICAgICAgICAgICAgeyJvcCI6ICJhZGQiLCAicGF0aCI6ICIvZGVtbyIsICJ2YWx1ZSI6IHRydWV9CiAgICAgICAgICBdCiAgLSBuYW1lOiByZW1vdmUtbWV0YWRhdGEKICAgIHRyYW5zZm9ybWVyOgogICAgICB0eXBlOiBqc29uLXBhdGNoCiAgICAgIHZlcnNpb246IHYxCiAgICAgIHBhcmFtZXRlcnM6CiAgICAgICAgcGF0Y2g6IHwKICAgICAgICAgIFsKICAgICAgICAgICAgeyJvcCI6ICJyZW1vdmUiLCAicGF0aCI6ICIvZGV2aWNlX2lkIn0sCiAgICAgICAgICAgIHsib3AiOiAicmVtb3ZlIiwgInBhdGgiOiAiL3Byb2plY3RfaWQifSwKICAgICAgICAgICAgeyJvcCI6ICJyZW1vdmUiLCAicGF0aCI6ICIvdGltZXN0YW1wIn0KICAgICAgICAgIF0KICAtIG5hbWU6IHNlbmQtbGlnaHRkYgogICAgZGVzdGluYXRpb246CiAgICAgIHR5cGU6IGxpZ2h0ZGItc3RyZWFtCiAgICAgIHZlcnNpb246IHYx' />
