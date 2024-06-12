@@ -1,0 +1,63 @@
+.notfound {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+@media (max-width: 576px) {
+  .notfound_container {
+    margin-top: 10px !important;
+  }
+
+  .notfound {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .notfound_videobox {
+    margin: 0 auto;
+  }
+  .notfound h1 {
+    font-size: var(--ifm-h1-font-size);
+  }
+}
+
+.notfound_search form {
+  display: flex;
+  flex-direction: row;
+}
+
+.notfound_search input {
+  border: none;
+  background-color: var(--golioth-color-concrete);
+  min-height: 3rem;
+  padding: .5rem 1rem;
+  font-size: var(--ifm-font-size-base);
+  width: 100%;
+}
+
+.notfound_search input[type="text"] {
+  flex-grow: 4;
+}
+
+.notfound_search input::placeholder {
+  font-weight: 100;
+  opacity: 0.7;
+}
+
+.notfound_search input[type="submit"] {
+  max-width: 3rem;
+  min-height: 3rem;
+}
+
+html[data-theme="dark"] .notfound_search input {
+  background-color: var(--golioth-color-charcoal);
+}
+
+.notfound_search input:focus {
+  outline: none;
+}
+
+.notfound_search form:focus-within {
+  outline: 1px solid var(--golioth-color-coral);
+}
