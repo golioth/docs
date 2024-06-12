@@ -18,7 +18,7 @@ device Machine Learning model or even sending custom binaries required for your
 application as part of a release.
 
 Artifacts and Releases can be accessed from Golioth Web Console, the [Golioth
-REST API](/reference/rest-api/openapi), or by using the [`goliothctl
+REST API](/reference/management-api/openapi), or by using the [`goliothctl
 dfu`](/reference/command-line-tools/goliothctl/goliothctl_dfu) subcommand.
 :::info Details for OTA manifest, path, and status
 
@@ -26,7 +26,7 @@ For more information on how the Golioth server and IoT devices communicate with
 each other about Over-the-Air updates, see the OTA section of our CoAP
 reference:
 
-- [**CoAP Gateway Interface**](/reference/protocols/coap/ota)
+- [**CoAP Gateway Interface**](/reference/device-api/api-docs/ota)
 
 :::
 

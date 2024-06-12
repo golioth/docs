@@ -14,7 +14,7 @@ aggregation, and multiple devices at once.
 
 A stream can be accessed through either the [`goliothctl
 stream`](/reference/command-line-tools/goliothctl/goliothctl_stream) subcommand
-or the [LightDB Stream REST API](/reference/rest-api/openapi).
+or the [LightDB Stream REST API](/reference/management-api/openapi).
 
 ### Use Cases
 

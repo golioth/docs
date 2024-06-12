@@ -1,4 +1,4 @@
-label: 'Protocols'
+label: 'Device API'
 position: 2.5 # float position is supported
 collapsible: true # make the category collapsible
 collapsed: true # keep the category open by default

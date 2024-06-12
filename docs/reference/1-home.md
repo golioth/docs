@@ -1,20 +1,18 @@
 ---
 id: home
-title: API and SDK Reference
-hide_title: true
+title: Golioth Platform Reference
 slug: /reference
 ---
 
-## Golioth API and SDK References
+Golioth reference documentation provides granular detail on APIs, SDKs, tools,
+and advanced platform features.
 
-The API and SDK reference documentation provides detailed information for each of the APIs, tools and libraries provided to integrate with our IoT platform.
-
-- [REST API](/reference/rest-api/overview)
-- [Protocols](/reference/protocols/overview)
-- [WebSocket API](/reference/websocket/overview)
+- [Device API](/reference/device-api)
+- [Management API](/reference/management-api)
 - Command Line Tools
   - [goliothctl](/reference/command-line-tools/goliothctl/goliothctl/)
   - [coap](/reference/command-line-tools/coap/coap/)
 - Device SDKs
   - [Golioth Firmware SDK Reference](/reference/device-sdks/golioth-firmware-sdk)
   - [Golioth Zephyr SDK Reference](/reference/device-sdks/golioth-zephyr-sdk)
+- [Billing](/reference/billing)

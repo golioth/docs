@@ -93,7 +93,7 @@ module.exports = {
             },
             {
               label: "API Docs",
-              to: "/reference/rest-api/overview",
+              to: "/reference/management-api/",
             },
             {
               label: "goliothctl",
