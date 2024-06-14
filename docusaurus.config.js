@@ -206,7 +206,13 @@ module.exports = {
         appUrl: "https://app.posthog.com",
       },
     ],
-    'docusaurus-plugin-image-zoom',
+    "docusaurus-plugin-image-zoom",
+    [
+      "@docusaurus/plugin-google-tag-manager",
+      {
+        containerId: "GTM-W6QN7FC",
+      },
+    ],
     // [
     //   '@docusaurus/plugin-client-redirects',
     //   {
