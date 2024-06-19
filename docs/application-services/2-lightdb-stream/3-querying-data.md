@@ -7,17 +7,17 @@ LightDB Stream queries are composed using Fields and Filters.
 
 ## Using Fields
 
-**Fields:** Users can define multiple fields that they want to be returned in
-their query. `time` and `deviceId` are special fields that represents the data
-point time and device that sent the data. All other fields represents a path
-inside the data blob that is stored.
+**Fields:** Users may define multiple fields to be returned by the query. The
+special fields `time` and `deviceId` represent the data point time and device
+that sent the data. All other fields represents a path inside the data blob that
+is stored.
 
-- `path` : Path inside the json blob, separated by `.`.
-- `alias`: Rename variable. By default it just uses the path name.
-- `agg` : Aggregation to be applied on the field. Can be `avg`, `count`,
-`max`, `min` and `sum`.
+- `path` : Path inside the JSON blob, separated by `.`.
+- `alias`: Rename variable. By default the path name is used.
+- `agg` : Aggregation to be applied on the field. Valid values include `avg`,
+  `count`, `max`, `min` and `sum`.
 - `type`: Type conversion to apply to data point on path. Important for
-aggregations.
+  aggregations.
 
 ```json
 { "path": "time" },
@@ -28,14 +28,14 @@ aggregations.
 
 ## Using Filters
 
-**Filters:** Users can define a set of rules to filter their data.
+**Filters:** Users may define a set of rules to filter their data.
 
-- Equality filters will check if a value is equal, not equal, IN and not IN if
-a list is used.
+- Equality filters will check if a value is equal, not equal, IN and not IN
+  (when a list is used).
     - Operators: `=`, `<>`
 - Number Comparison filters will force a conversion to a float value. \
     - Operators: `<=`, `<`, `>=`, `>`
-- Conditional filter allows for composing queries using AND and OR.
+- Conditional filters allow for composing queries using AND and OR.
     - Operators: `and`, `or`
 
 ```json
