@@ -26,7 +26,7 @@ The desired release version returned in the manifest will be the most recently c
 
 Here is an example of a release manifest in JSON format:
 
-```
+```json
 {
   "sequenceNumber":1631741642,
   "hash":"25e73431ac4a1a09392d51c8af14b611defdd877e8021803af4414ad470ad6fb",
