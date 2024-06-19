@@ -9,7 +9,7 @@ groups by hardware blueprint, and by individual device. This is ideal for common
 settings like the delay between sensor readings or adjusting the remote logging
 messages by turning them on/off and setting the device's logging level.
 
-| ![Use the Golioth Console to change device settings remotely](../assets/golioth-device-settings-menu.jpg) |
+| ![Use the Golioth Console to change device settings remotely](../assets/golioth-device-settings-menu.png) |
 | -- |
 | Once the firmware is running, device settings can be updated using [the Golioth Console](https://console.golioth.io) (shown above) or via calls to our REST API. |
 
