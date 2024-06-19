@@ -137,7 +137,7 @@ and ensure that it can be run before switching. Once the new release is running,
 the device will report the version to Golioth which can be viewed in the
 Firmware tab of the Golioth Console.
 
-![Golioth Console showing firmware version](../../zephyr-device-sdk/assets/golioth-console-firmware-version.jpg)
+![Golioth Console showing firmware version](../../assets/golioth-console-firmware-version.png)
 
 ## Summary
 
