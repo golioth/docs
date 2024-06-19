@@ -157,6 +157,9 @@ module.exports = {
         }
       }
     },
+    prism: {
+      additionalLanguages: ['json'],
+    },
   },
   presets: [
     [
