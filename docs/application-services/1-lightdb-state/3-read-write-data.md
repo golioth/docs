@@ -28,7 +28,7 @@ Here is a snippet of example code to save a temperature value of 30 Cº at path 
 
 After the above request and device data saves in LightDB, it will look like this:
 
-```
+```json
 {
   "env": {
     "temp": {
@@ -45,7 +45,7 @@ You can set any data on any path, which allows flexibility throughout the lifeti
 
 After this commend, the device state will look like this:
 
-```
+```json
 {
   "env": {
     "temp": {
@@ -72,7 +72,7 @@ This way the device can also read the `/config` path and calculate alerts. If an
 
 The current device state might look like this:
 
-```
+```json
 {
   "env": {
     "temp": {
@@ -102,7 +102,7 @@ So to read the device data, we can issue a GET request like this:
 
 And that will return the data like on the previous step:
 
-```
+```json
 {
   "temp": {
     "value" : 45.0,
@@ -131,7 +131,7 @@ $ goliothctl lightdb delete [device name] /alert/temp
 
 The final state of the device in this scenario would be like this:
 
-```
+```json
 {
   "env:" {
     "temp": {
