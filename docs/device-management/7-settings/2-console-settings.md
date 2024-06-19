@@ -47,11 +47,13 @@ all the settings applicable to that blueprint:
 
 ![Listing Blueprint-level settings](./assets/listing-blueprint-level-settings.png)
 
-In this view, the `Level` column indicates which level of the settings hierarchy
-is responsible for the settings value. We can see that the `SECOND_SETTING` has
-been updated at the `Blueprint` level. The garbage-can icon next to the setting
-can be used to remove this override, restoring the project-level value in the
-process.
+In this view, the `Active Scope` column indicates which level of the settings
+hierarchy is responsible for the settings value. We can see that the
+`SECOND_SETTING` has been updated at the `Blueprint` level.
+
+The garbage-can icon next to the active scope column can be used to remove this
+override, restoring the project-level value in the process. The pen and paper
+icon may be used to edit the value at the Blueprint scope.
 
 ## Device-level settings
 
@@ -59,16 +61,15 @@ Device-level settings are found on the details tab of a specific device. Click
 on `Devices` from the left sidebar menu. Choose the desired device, then click
 on the `Settings` tab:
 
-![Device Settings Tab](./assets/device-settings-tab.png)
-
 ![Listing Device-level settings](./assets/listing-device-level-settings.png)
 
-Once again, the `Level` column indicates which level of the settings hierarchy
-is responsible for the settings value. We can see that the `SECOND_SETTING` has
-been overridden at the `Device` level and this value will only affect the device
-you're currently viewing. The garbage-can icon next to the setting can be used
-to remove this override, restoring the project-level/blueprint-level
-inheritance.
+Once again, the `Active Scope` column indicates which level of the settings
+hierarchy is responsible for the settings value. We can see that a new
+`LOOP_DELAY_S` setting has been added and overridden at the `Device` level. This
+override value will only affect the device you're currently viewing.
+
+The garbage-can icon next to the active scope column can be used to remove this
+override, restoring the project-level/blueprint-level inheritance.
 
 ## Settings synch status and other information
 
@@ -87,7 +88,7 @@ reference](https://zephyr-sdk-docs.golioth.io/group__golioth__settings.html).
 ### Inheritance information on mouseover
 
 When viewing a setting that has been overridden, an information icon will be
-present in the `Level` column. Stop the mouse over the icon to reveal a modal
+present in the `Active Scope` column. Hover above the icon to reveal a modal
 containing a summary of the hierarchy of overrides:
 
 ![Hierarchy of overrides](./assets/overrides-hierarchy.png)
