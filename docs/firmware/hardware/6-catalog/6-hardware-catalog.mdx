@@ -167,14 +167,14 @@ export const BoardStatusBadge = ({ level }) => {
 };
 
 export const Board = ({ board }) => {
-  const { boardId, name, img, arch, level } = board;
+  const { boardId, name, img, level } = board;
   const imgPath = img
-    ? `/img/boards/${arch}/${img}`
+    ? `/img/boards/${img}`
     : "/img/img-placeholder.png";
   return (
     <Link
       className={"board-card " + getBadgeColor(level)}
-      href={`/firmware/hardware/catalog/boards/${level}/${arch}_${boardId}`}
+      href={`/firmware/hardware/catalog/boards/${level}/${boardId}`}
     >
       <div className="board-card-image">
         <div className="board-card-badge-container">
