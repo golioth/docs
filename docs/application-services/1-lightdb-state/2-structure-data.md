@@ -15,7 +15,7 @@ Let's consider an Asset Tracking application:
 
 The device will post data to the `gps` and `cell` paths. We will monitor its position and connectivity status. On the other side, an external party can set the geofence and the device can read that as a configuration. With the externally posted information, the device will calculate if it is `inside` or `outside` of the given geofence and report that data back to the network.
 
-```
+```json
 {
   "gps": { // Updated by the device
     "latitude": 12.34,
