@@ -5,38 +5,40 @@ title: Querying Stream Data
 
 LightDB Stream queries are composed using Fields and Filters.
 
-- Fields: Users can define multiple fields that they want to be returned in
-  their query. `time` and `deviceId` are special fields that represents the data
-  point time and device that sent the data. All other fields represents a path
-  inside the data blob that is stored.
-  - `path` : Path inside the json blob, separated by `.`.
-  - `alias`: Rename variable. By default it just uses the path name.
-  - `agg` : Aggregation to be applied on the field. Can be `avg`, `count`,
-    `max`, `min` and `sum`.
-  - `type`: Type conversion to apply to data point on path. Important for
-    aggregations.
+## Using Fields
 
-Example of Fields on a query.
+**Fields:** Users can define multiple fields that they want to be returned in
+their query. `time` and `deviceId` are special fields that represents the data
+point time and device that sent the data. All other fields represents a path
+inside the data blob that is stored.
 
-```
+- `path` : Path inside the json blob, separated by `.`.
+- `alias`: Rename variable. By default it just uses the path name.
+- `agg` : Aggregation to be applied on the field. Can be `avg`, `count`,
+`max`, `min` and `sum`.
+- `type`: Type conversion to apply to data point on path. Important for
+aggregations.
+
+```json
 { "path": "time" },
 { "path": "deviceId" },
 { "path": "env.temp", "alias": "temperature", "agg": "avg", "type": "float" },
 { "path": "env.hum", "alias": "humidity", "agg": "avg", "type": "float" }
 ```
 
-- Filters: Users can define a set of rules to filter their data.
-  - Equality filters will check if a value is equal, not equal, IN and not IN if
-    a list is used.
+## Using Filters
+
+**Filters:** Users can define a set of rules to filter their data.
+
+- Equality filters will check if a value is equal, not equal, IN and not IN if
+a list is used.
     - Operators: `=`, `<>`
-  - Number Comparison filters will force a conversion to a float value. \
+- Number Comparison filters will force a conversion to a float value. \
     - Operators: `<=`, `<`, `>=`, `>`
-  - Conditional filter allows for composing queries using AND and OR.
+- Conditional filter allows for composing queries using AND and OR.
     - Operators: `and`, `or`
 
-Example of filters.
-
-```
+```json
 // Equality Filters
 { "path": "light", "op" : "<>", "value" : null }
 or
@@ -55,7 +57,7 @@ or
 }
 ```
 
-### Example of querying data on LightDB Stream
+## Example of querying data on LightDB Stream
 
 Let's consider an application in which we want to plot temperature data that has
 been recorded by a device over time. In this case, the device has two sensors,
@@ -76,7 +78,7 @@ import { ProtocolPublishSample } from '/docs/_partials-common/protocol.mdx'
 Let's define our first query to get just the raw data on the last 8h and where
 the field `env` is not null.
 
-```
+```json
 {
   "fields" : [
     { "path": "time" },
@@ -95,7 +97,7 @@ Let's save that into a file called query.json and use that to query the LightDB
 Stream. You can use the REST API, which is more configurable, but goliothctl
 works great for simple cases like this.
 
-```
+```json
 ❯ cat query.json | goliothctl stream query --interval 8h --in | jq .
 [
   {
@@ -149,7 +151,7 @@ not being aggregated will be used as a grouping variable. In this case we can
 group by `time` and `sensorType` for example. Here is our modified `query.json`
 file:
 
-```
+```json
 {
   "fields" : [
     { "path": "time" },
@@ -166,7 +168,7 @@ file:
 Executing that new query will give us this result. Notice that the time was
 rounded on 15 minutes chunks.
 
-```
+```json
 $ cat query.json | goliothctl stream query --interval 8h --in | jq .
 [
   {
@@ -185,7 +187,7 @@ $ cat query.json | goliothctl stream query --interval 8h --in | jq .
 Maybe now we just want to calculate the average daily temperature from `inside`
 temperature sensors. We can modify our `query.json` file to something like this:
 
-```
+```json
 {
   "fields" : [
     { "path": "time" },
@@ -203,7 +205,7 @@ temperature sensors. We can modify our `query.json` file to something like this:
 
 Executing again our new query will give us this result:
 
-```
+```json
 [
   {
     "temperature": 31,
