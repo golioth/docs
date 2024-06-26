@@ -6,7 +6,7 @@
 */
 
 function boardToMdx(board) {
-    const {arch, boardId, name, level, img, ram, flash, quickstart, toolchain, supported, customDocMD} = board;
+    const {arch, boardId, path, name, level, img, ram, flash, quickstart, toolchain, supported, customDocMD} = board;
     const levelStrings = {
         'continuously-verified': 'Continuously verified',
         'verified': 'Verified',
@@ -20,24 +20,24 @@ function boardToMdx(board) {
 
     return `\
 ---
-id: ${arch}_${boardId}
+id: ${boardId}
 title: ${name}
-slug: /firmware/hardware/catalog/boards/${level}/${arch}_${boardId}
+slug: /firmware/hardware/catalog/boards/${level}/${boardId}
 description: IoT board ${name}, compatible with Golioth at ${level} level.
-image: /img/boards/${arch}/${img}
+image: /img/boards/${img}
 ${level === 'unverified' ? 'sidebar_class_name: hide-item' : ''}
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-${img !== null ? `![${name}!](/img/boards/${arch}/${img} "${name}")` : ''}
+${img !== null ? `![${name}!](/img/boards/${img} "${name}")` : ''}
 
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | \`${boardId}\` |
 | Golioth Level  | [${levelStrings[level]}](${levelLinks[level]}) |
 ${level === 'continuously-verified' ? `| Golioth Quickstart | [${boardId} quickstart](${quickstart}) |` : ''}\
-| Architecture   | ${arch.toUpperCase()} |
+${arch === 'unspecified' ? '' : '| Architecture   | ${arch.toUpperCase()} |'}\
 | RAM*           | ${ram === null ? 'N/A' : `${ram} kB`} |
 | Flash*         | ${flash === null ? 'N/A' : `${flash} kB`} |
 
@@ -59,7 +59,7 @@ ${toolchain.map((tc) => `* ${tc}`).join('\n') || 'List of supported toolchains i
 
 ## Official Zephyr docs
 
-${customDocMD === null ? `[${name} (${boardId})](https://docs.zephyrproject.org/3.6.0/boards/${arch}/${boardId}/doc/index.html)` : `${customDocMD}`}
+${customDocMD === null ? `[${name} (${boardId})](https://docs.zephyrproject.org/latest/boards/${path}/doc/index.html)` : `${customDocMD}`}
 `;
 }
 
