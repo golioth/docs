@@ -3,7 +3,7 @@
 ## What is the Settings Service?
 
 The Golioth platform provides a flexible way for users to configure settings on
-each device in your fleet. You can change settings for you entire fleet of
+each device in your fleet. You can change settings for your entire fleet of
 devices in a single operation, or make more targeted changes.
 
 Settings describe how the device will operate. This is fundamentally different
