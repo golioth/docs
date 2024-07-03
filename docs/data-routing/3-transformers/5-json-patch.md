@@ -59,7 +59,7 @@ Path: `/sensor0`
 ```json
 {
   "temp": 23.6847,
-  "long": 0.7407
+  "long": 0.7407,
   "hello": ["world"]
 }
 ```
