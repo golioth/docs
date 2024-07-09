@@ -7,7 +7,7 @@ title: aws-s3
 |__Latest Version__| `v1.0.0` |
 |__Input Content Type__| Any |
 
-The `aws-s3` destination sends data to an [Amazon Web Servies
+The `aws-s3` destination sends data to an [Amazon Web Services
 S3](https://aws.amazon.com/s3/) bucket.
 
 ### Parameters
