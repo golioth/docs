@@ -7,6 +7,11 @@ title: memfault
 |__Latest Version__| `v1.0.0` |
 |__Input Content Type__| `application/octet-stream` |
 
+:::usage
+Sending data to Memfault incurs usage costs after exceeding the free tier. See
+[Golioth pricing](https://golioth.io/pricing) for more information.
+:::
+
 The `memfault` destination uploads [chunk
 data](https://docs.memfault.com/docs/mcu/data-from-firmware-to-the-cloud/) to
 [Memfault](https://memfault.com/).

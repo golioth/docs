@@ -7,6 +7,11 @@ title: aws-s3
 |__Latest Version__| `v1.0.0` |
 |__Input Content Type__| Any |
 
+:::usage
+Sending data to S3 incurs usage costs after exceeding the free tier. See
+[Golioth pricing](https://golioth.io/pricing) for more information.
+:::
+
 The `aws-s3` destination sends data to an [Amazon Web Services
 S3](https://aws.amazon.com/s3/) bucket.
 

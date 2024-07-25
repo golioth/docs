@@ -7,6 +7,11 @@ title: influxdb
 |__Latest Version__| `v1.0.0` |
 |__Input Content Type__| `application/json` |
 
+:::usage
+Sending data to InfluxDB incurs usage costs after exceeding the free tier. See
+[Golioth pricing](https://golioth.io/pricing) for more information.
+:::
+
 The `influxdb` destination sends data to an
 [InfluxDB](https://www.influxdata.com/) bucket. Data must be supplied as JSON,
 which will be transformed to [line
