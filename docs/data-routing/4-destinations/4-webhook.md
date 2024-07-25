@@ -7,6 +7,11 @@ title: webhook
 |__Latest Version__| `v1.0.0` |
 |__Input Content Type__| Any |
 
+:::usage
+Sending data to a webhook incurs usage costs after exceeding the free tier. See
+[Golioth pricing](https://golioth.io/pricing) for more information.
+:::
+
 The `webhook` destination sends data via a `POST` request to the provided URL,
 with the supplied headers.
 
@@ -14,7 +19,7 @@ with the supplied headers.
 
 |Parameter|Type|Description|Required|
 |---|---|---|:---:|
-|`url`|`string`| The connection string for a MongoDB instance. |✅|
+|`url`|`string`| The URL for the external webhook. |✅|
 |`headers`| Map (`string`: `string`)| Headers to be included in requests. ||
 
 ### Example Secrets

@@ -7,6 +7,11 @@ title: azure-event-hubs
 |__Latest Version__| `v1.0.0` |
 |__Input Content Type__| Any |
 
+:::usage
+Sending data to Azure Event Hubs incurs usage costs after exceeding the free
+tier. See [Golioth pricing](https://golioth.io/pricing) for more information.
+:::
+
 The `azure-event-hubs` destination sends data to an [Azure Event
 Hubs](https://azure.microsoft.com/products/event-hubs) event hub or topic.
 

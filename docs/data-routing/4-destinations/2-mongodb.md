@@ -7,6 +7,11 @@ title: mongodb
 |__Latest Version__| `v1.0.0` |
 |__Input Content Type__| `application/json` |
 
+:::usage
+Sending data to MongoDB incurs usage costs after exceeding the free tier. See
+[Golioth pricing](https://golioth.io/pricing) for more information.
+:::
+
 The `mongodb` destination sends data to a [MongoDB Time
 Series](https://www.mongodb.com/products/capabilities/time-series) collection.
 Data must be supplied as JSON, which will be transformed to BSON after metadata

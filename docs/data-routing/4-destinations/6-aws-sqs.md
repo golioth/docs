@@ -7,6 +7,11 @@ title: aws-sqs
 |__Latest Version__| `v1.0.0` |
 |__Input Content Type__| Any |
 
+:::usage
+Sending data to AWS SQS incurs usage costs after exceeding the free tier. See
+[Golioth pricing](https://golioth.io/pricing) for more information.
+:::
+
 The `aws-sqs` destination sends data to an [Amazon Web Services Simple Queue
 Service](https://aws.amazon.com/sqs/) queue.
 

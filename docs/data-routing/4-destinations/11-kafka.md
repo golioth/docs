@@ -7,6 +7,11 @@ title: kafka
 |__Latest Version__| `v1.0.0` |
 |__Input Content Type__| Any |
 
+:::usage
+Sending data to Kafka incurs usage costs after exceeding the free tier. See
+[Golioth pricing](https://golioth.io/pricing) for more information.
+:::
+
 The `kafka` destination sends data to a [Kafka](https://kafka.apache.org/)
 cluster.
 
