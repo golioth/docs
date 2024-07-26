@@ -15,6 +15,13 @@ Sending data to a webhook incurs usage costs after exceeding the free tier. See
 The `webhook` destination sends data via a `POST` request to the provided URL,
 with the supplied headers.
 
+:::info Tip
+The `webhook` data destination is not to be confused with the [`webhook`
+transformer](/data-routing/transformers/webhook). The data destination delivers
+the event to an external location, while the transformer allows for modifying
+the content of a data message in a pipeline via an external API call.
+:::
+
 ### Parameters
 
 |Parameter|Type|Description|Required|
