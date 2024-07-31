@@ -51,14 +51,6 @@ us](mailto:hello@golioth.io).
 
 :::
 
-### Deprecated Platform Support
-
-Golioth previously provided a standalone SDK specifically for the Zephyr RTOS.
-Our best and latest support for Zephyr is now found in the Firmware SDK. All
-new projects should utilize that SDK. Existing projects should migrate to the
-Golioth Firmware SDK. A [Migration Guide](https://github.com/golioth/golioth-firmware-sdk/blob/main/docs/Migration_Guide_Zephyr.md)
-is available to assist you in the process.
-
 ## Navigation
 
 - [Getting Started](/getting-started) - Start here! If you get stuck, please
