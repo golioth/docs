@@ -427,6 +427,11 @@
           "source": "/data-routing/pipelines",
           "destination": "/data-routing",
           "type": 301
+        },
+        {
+          "source": "/firmware/zephyr-device-sdk{,/**}",
+          "destination": "/firmware/golioth-firmware-sdk",
+          "type": 301
         }
       ],
       "rewrites": [
