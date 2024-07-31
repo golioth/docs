@@ -19,14 +19,6 @@ systems:
 * [Infineon ModusToolbox&trade;](https://www.infineon.com/cms/en/design-support/tools/sdk/modustoolbox-software/)
 * Linux
 
-:::tip Zephyr Support Included!
-
-Golioth now includes our top-tier Zephyr RTOS support alongside all other
-platforms using a single [Golioth
-Firmware SDK](https://github.com/golioth/golioth-firmware-sdk).
-
-:::
-
 ## Porting the Golioth Firmware SDK for Your Needs
 
 The Golioth Firmware SDK is designed to be portable to operating systems that
