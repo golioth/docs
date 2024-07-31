@@ -6,6 +6,11 @@ The best way to get started with Pipelines is to take an example and modify it
 to fit your use case. This section contains a set of example pipelines along
 with explanations of their functionality.
 
+:::usage
+Many examples incur usage costs after exceeding the free tier. See [Golioth
+pricing](https://golioth.io/pricing) for more information.
+:::
+
 ## Share Your Pipelines
 
 You can click the share button next to a pipeline in the console to copy a
