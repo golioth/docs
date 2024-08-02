@@ -110,7 +110,7 @@ authentication and store credentials outside of the firmware binary itself.
 ### Build the firmware and flashing the device
 
 ```console
-west build -b nrf9160dk_nrf9160_ns examples/zephyr/hello
+west build -b nrf9160dk/nrf9160/ns examples/zephyr/hello
 west flash
 ```
 
