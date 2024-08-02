@@ -180,7 +180,7 @@ values={[
 <TabItem value="nrf52840">
 
 ```console
-west build -b nrf52840dk_nrf52840 examples/zephyr/hello
+west build -b nrf52840dk/nrf52840 examples/zephyr/hello
 west flash
 ```
 </TabItem>
@@ -196,7 +196,7 @@ west flash
 <TabItem value="esp32">
 
 ```console
-west build -b esp32_devkitc_wrover examples/zephyr/hello
+west build -b esp32_devkitc_wrover/esp32/procpu examples/zephyr/hello
 west flash
 ```
 </TabItem>
@@ -215,7 +215,7 @@ programmer](https://docs.rakwireless.com/Product-Categories/WisTrio/RAK5010/Quic
 :::
 
 ```console
-west build -b rak5010_nrf52840 examples/zephyr/hello
+west build -b rak5010 examples/zephyr/hello
 west flash -r jlink
 ```
 </TabItem>
