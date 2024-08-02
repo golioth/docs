@@ -28,6 +28,8 @@ for a range of development boards as part of our continuous integration (CI).
   Kit](https://www.nxp.com/design/design-center/development-boards/i-mx-evaluation-and-development-boards/i-mx-rt1024-evaluation-kit:MIMXRT1024-EVK)
 * [ESP32 DevKitC
   WROVER](https://www.espressif.com/en/products/devkits/esp32-devkitc)
+* [RAK5010 WisTrio NB-IoT Tracker Pro (Quectel
+  BG95-M3)](https://docs.rakwireless.com/Product-Categories/WisTrio/RAK5010)
 
 This page includes build commands for these boards. You may model configuration
 for your own target hardware on the configuration and overlay files found in the
@@ -91,6 +93,7 @@ values={[
 {label: 'Nordic nRF52840', value: 'nrf52840'},
 {label: 'NXP RT1024', value: 'rt1024'},
 {label: 'ESP32', value: 'esp32'},
+{label: 'RAK5010', value: 'rak5010'},
 ]}>
 
 <TabItem value="nrf52840">
@@ -122,6 +125,14 @@ CONFIG_GOLIOTH_SAMPLE_PSK="my-psk"
 # Your WiFi credentials
 CONFIG_GOLIOTH_SAMPLE_WIFI_SSID="my-wifi"
 CONFIG_GOLIOTH_SAMPLE_WIFI_PSK="my-psk"
+```
+</TabItem>
+
+<TabItem value="rak5010">
+
+```config title="examples/zephyr/hello/prj.conf"
+CONFIG_GOLIOTH_SAMPLE_PSK_ID="my-psk-id"
+CONFIG_GOLIOTH_SAMPLE_PSK="my-psk"
 ```
 </TabItem>
 </Tabs>
@@ -163,6 +174,7 @@ values={[
 {label: 'Nordic nRF52840', value: 'nrf52840'},
 {label: 'NXP RT1024', value: 'rt1024'},
 {label: 'ESP32', value: 'esp32'},
+{label: 'RAK5010', value: 'rak5010'},
 ]}>
 
 <TabItem value="nrf52840">
@@ -186,6 +198,25 @@ west flash
 ```console
 west build -b esp32_devkitc_wrover examples/zephyr/hello
 west flash
+```
+</TabItem>
+
+<TabItem value="rak5010">
+
+:::tip RAK5010 Requires an External Programmer
+
+You will need an external programmer to flash the RAK5010. There are many
+options, including J-Link, BlackMagic Probe, and using the offboard debug header
+on an nRF9160dk.
+
+For this example [we've connected a J-Link
+programmer](https://docs.rakwireless.com/Product-Categories/WisTrio/RAK5010/Quickstart/#through-j-link-rtt-viewer).
+
+:::
+
+```console
+west build -b rak5010_nrf52840 examples/zephyr/hello
+west flash -r jlink
 ```
 </TabItem>
 </Tabs>
