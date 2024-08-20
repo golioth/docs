@@ -1,5 +1,4 @@
 ---
-id: golioth-firmware-sdk
 title: Golioth Firmware SDK
 ---
 
