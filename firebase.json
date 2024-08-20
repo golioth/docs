@@ -432,6 +432,11 @@
           "source": "/firmware/zephyr-device-sdk{,/**}",
           "destination": "/firmware/golioth-firmware-sdk",
           "type": 301
+        },
+        {
+          "source": "/reference/device-sdks{,/**}",
+          "destination": "/reference/golioth-firmware-sdk",
+          "type": 301
         }
       ],
       "rewrites": [
