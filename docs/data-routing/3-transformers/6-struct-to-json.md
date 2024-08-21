@@ -55,7 +55,7 @@ the string member in the payload.
             type: u8
           - name: string2
             type: string
-            length: string2_len
+            lengthField: string2_len
 ```
 
 ### Example Input
