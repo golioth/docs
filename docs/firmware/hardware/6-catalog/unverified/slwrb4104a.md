@@ -1,0 +1,42 @@
+---
+id: slwrb4104a
+title: EFR32BG13 2.4 GHz 10 dBm Radio Board (SLWRB4104A)
+slug: /firmware/hardware/catalog/boards/unverified/slwrb4104a
+description: IoT board EFR32BG13 2.4 GHz 10 dBm Radio Board (SLWRB4104A), compatible with Golioth at unverified level.
+image: /img/boards/slwrb4104a.jpg
+sidebar_class_name: hide-item
+---
+
+[//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
+
+![EFR32BG13 2.4 GHz 10 dBm Radio Board (SLWRB4104A)!](/img/boards/slwrb4104a.jpg "EFR32BG13 2.4 GHz 10 dBm Radio Board (SLWRB4104A)")
+
+|                | Board properties     |
+| -------------  | -------------------- |
+| Board ID       | `slwrb4104a` |
+| Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
+| RAM*           | 64 kB |
+| Flash*         | 512 kB |
+
+\* values are as reported by Zephyr `.yaml` board files, which don't represent the overall available resources
+
+
+
+## Supported features
+
+* counter
+* gpio
+* nvs
+* spi
+* uart
+* watchdog
+
+## Supported toolchains
+
+* zephyr
+* gnuarmemb
+* xtools
+
+## Official Zephyr docs
+
+[EFR32BG13 2.4 GHz 10 dBm Radio Board (SLWRB4104A) (slwrb4104a)](https://docs.zephyrproject.org/latest/boards/silabs/radio_boards/slwrb4104a/doc/index.html)
