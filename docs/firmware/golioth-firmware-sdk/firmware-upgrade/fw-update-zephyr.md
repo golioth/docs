@@ -51,24 +51,12 @@ Console](https://console.golioth.io).
 ### 2. Initial build and flash
 
 ```console
-west build -b nrf9160dk/nrf9160/ns examples/zephyr/fw_update
+west build -b nrf9160dk/nrf9160/ns --sysbuild examples/zephyr/fw_update
 west flash
 ```
 
 By default this will build and run version `v1.2.3` firmware on the Nordic
 nRF9160 development kit.
-
-:::tip Building for other devices
-
-The Nordic version of Zephyr (NCS) uses a slightly different build command from
-upstream Zephyr. For non-Nordic boards the build command should also use the
-`--sysbuild` flag:
-
-```console
-# Example build command for NXP i.MX RT1024 Evaluation Kit
-west build -b mimxrt1024_evk --sysbuild examples/zephyr/fw_update
-west flash
-```
 
 :::
 
@@ -83,7 +71,7 @@ CONFIG_MCUBOOT_IMGTOOL_SIGN_VERSION="1.2.4"
 Then build the application a second time.
 
 ```console
-west build -b nrf9160dk/nrf9160/ns examples/zephyr/fw_update
+west build -b nrf9160dk/nrf9160/ns --sysbuild examples/zephyr/fw_update
 ```
 
 :::note
