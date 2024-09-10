@@ -13,7 +13,7 @@ values={[
 
 ```console
 cd ~/golioth-ncs-workspace/zephyr
-west build -p auto -b  nrf9160dk_nrf9160_ns samples/basic/minimal
+west build -p auto -b  nrf9160dk/nrf9160/ns samples/basic/minimal
 ```
 
 </TabItem>
@@ -21,7 +21,7 @@ west build -p auto -b  nrf9160dk_nrf9160_ns samples/basic/minimal
 
 ```console
 cd ~/golioth-ncs-workspace/zephyr
-west build -p auto -b  nrf9160dk_nrf9160_ns samples/basic/minimal
+west build -p auto -b  nrf9160dk/nrf9160/ns samples/basic/minimal
 ```
 
 </TabItem>
@@ -29,7 +29,7 @@ west build -p auto -b  nrf9160dk_nrf9160_ns samples/basic/minimal
 
 ```console
 cd %HOMEPATH%\golioth-ncs-workspace\zephyr
-west build -p auto -b  nrf9160dk_nrf9160_ns samples\basic\minimal
+west build -p auto -b  nrf9160dk/nrf9160/ns samples\basic\minimal
 ```
 
 </TabItem>
