@@ -83,7 +83,7 @@ CONFIG_MCUBOOT_IMGTOOL_SIGN_VERSION="1.2.4"
 Then build the application a second time.
 
 ```console
-west build -b nrf9160dk_nrf9160_ns examples/zephyr/fw_update
+west build -b nrf9160dk/nrf9160/ns examples/zephyr/fw_update
 ```
 
 :::note
