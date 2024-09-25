@@ -14,21 +14,18 @@ the process.
 
 ### Cloud Side
 
-The Golioth Cloud stores firmware as "artifacts" that can optionally include
-tags and blueprints to filter which devices are targeted. For example, you might
-tag a few devices as "dev" to test firmware rollouts, or categorize a hardware
-blueprint for all of the "nRF9160_asset_tracker" devices in your IoT fleet. A
-release is created using the artifact. Devices will automatically see new
-release version and begin the update process. Golioth includes a one-click
-rollback feature if you ever need to revert a rollout.
+The Golioth Cloud stores firmware as "artifacts". Artifacts are included in
+deployments, which can be rolled out to groups of devices. Devices targeted by a
+deployment will automatically see new artifact version and begin the update
+process. Read more about how deployments are handled in the Golioth Cloud in the [OTA Updates Documentation](../../../device-management/5-ota/README.md).
 
 ### Device Side
 
 When a device registers for firmware upgrades, it will receive a manifest from
-the Golioth cloud each time a release rollout change occurs. The SDK
-automatically parses the manifest, comparing the received firmware version
-number with the version the device is currently running. If the manifest version
-is newer, the SDK begins a block download of the artifact. The exact device
-firmware upgrade (DFU) mechanism used to verify and flash the firmware varies
-from platform to platform. Upon successful update, the device reports the new
-firmware version number to the cloud.
+the Golioth cloud each time a deployment occurs. The SDK automatically parses
+the manifest, comparing the received firmware version number with the version
+the device is currently running. If the manifest version is newer, the SDK
+begins a block download of the artifact. The exact device firmware upgrade (DFU)
+mechanism used to verify and flash the firmware varies from platform to
+platform. Upon successful update, the device reports the new firmware version
+number to the cloud.

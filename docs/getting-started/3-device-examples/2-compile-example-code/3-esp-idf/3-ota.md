@@ -10,10 +10,12 @@ ran on the previous page includes this feature. Let's try it out!
 
 ## Overview
 
-On this page we'll cover two steps to completing an OTA update:
+On this page we'll cover four steps to completing an OTA update:
 
 * Change the version number in the sourcecode and build the binary
-* Upload the binary to Golioth and roll it out to the device(s)
+* Upload the binary to Golioth as a new Package
+* Assign the device(s) to a Cohort
+* Deploy the package to the device(s)
 
 ## Update version number and build firmware
 
@@ -47,14 +49,28 @@ the new binary to the device over WiFi.
 After running the build command, your new binary will be located at
 `build/golioth_basics.bin`.
 
-## Upload the binary to Golioth and rollout a release
+## Upload the binary to Golioth and deploy it to your device
 
-### 1. Create an Artifact
+### 1. Create a Package
 
-On the Golioth Console, go to **Firmware Update&rarr;Artifacts** on the left
-sidebar and click the Create button.
+The Golioth Cloud represents upgradeable software components as "Packages". In
+the OTA example code, the package for the application firmware is called "main",
+so we'll need to create a corresponding package in the Golioth Console.
 
-![Create an artifact in the Golioth Console](assets/golioth-OTA-create-artifact.png)
+In the Golioth Console, go to **Firmware Updates&rarr;Packages** on the left
+sidebar and click the Create button. Set the name of the package to `main`, and
+optionally add a short description.
+
+![Create a package in the Golioth Console](assets/golioth-OTA-create-package.png)
+
+### 2. Upload the firmware binary
+
+Now that we have created our package, we can upload the firmware binary as the
+first version of `main`. Open the `main` package in the list of packages,
+and click `New Version`.
+
+![Upload an artifact in the Golioth
+Console](assets/golioth-OTA-upload-artifact.png)
 
 * Set the **Artifact Version to 1.2.6** (to match what was compiled into the
   firmware)
@@ -62,27 +78,35 @@ sidebar and click the Create button.
   `golioth_basics.bin` file.
 * Click the **Upload Artifact** button to finish creating an artifact.
 
-### 2. Create a Release
+### 3. Assign the device to a Cohort
 
-On the Golioth Console, go to **Firmware Update&rarr;Releases** on the left
-sidebar and click the Create button.
+To enroll your device into Golioth's OTA update system, you need to assign it to
+a Cohort. Cohorts are groups of devices that have the same firmware and receive
+the same OTA updates.
 
-![Create a release in the Golioth Console](assets/golioth-OTA-create-release.png)
+First, we need to create a new Cohort for this device type. In the Golioth
+Console, go to **Firmware Updates&rarr;Cohorts** in the left sidebar and click
+the Create button. Select a name for your Cohort and click `Create`.
 
-* Select our newly created artifact (`main-1.2.6`) from the **Artifacts** box.
-* Click the **Create Release** button to finish creating the release.
+Next, we need to assign our device to this new Cohort. In the Cohort page, click
+`Add Devices`, and find your device in the list. Click the Add button on the
+right hand side of the device to assign it to the Cohort.
 
-### 3. Rollout the Release
+![Assign device to a Cohort in the Golioth
+Console](assets/golioth-OTA-add-to-cohort.png)
 
-On the Golioth Console, go to **Firmware Update&rarr;Releases** on the left
-sidebar and you will see an entry for our newly created release which is based
-on the `main-1.2.6` artifact.
+### 4. Create a deployment
 
-![Create a release in the Golioth Console](assets/golioth-OTA-rollout.png)
+OTA updates are rolled out to a Cohort as Deployments. To start a new update for
+our device, go to the Cohort's page in the Golioth Console and click `Deploy`.
+Add the `main` package to the deployment, and make sure it's set to version
+1.2.6. You can optionally pick a name for your deployment.
 
-* Click the toggle button in the **Rollout** column.
-* In the confirmation window, click on **Toggle** to rollout this firmware
-  release.
+![Create a Deployment in the Golioth
+Console](assets/golioth-OTA-create-deployment.png)
+
+Click `Next` to review your deployment, then `Start Deployment` to start the
+update.
 
 ## Observe the OTA firmware update
 

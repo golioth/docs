@@ -7,7 +7,7 @@ Deploying OTA updates incurs usage costs after exceeding the free tier. See
 
 The Golioth Over-the-Air (OTA) firmware update service enables quick, secure
 deployment of firmware packages to IoT devices throughout the world. The Golioth
-API enables easy management of firmware releases, including multi-part binary
+API enables easy management of firmware deployments, including multi-part binary
 bundles, enabling updates for devices as diverse as smart speakers, digital
 signage, machine learning enabled sensor systems, multiple processor embedded
 devices, and more.
@@ -15,11 +15,12 @@ devices, and more.
 Our OTA feature is highly flexible, allowing to not just update your main
 firmware, but sub components like the Cellular Modem firmware, update an on
 device Machine Learning model or even sending custom binaries required for your
-application as part of a release.
+application as part of a deployment.
 
-Artifacts and Releases can be accessed from Golioth Web Console, the [Golioth
+Packages and Deployments can be accessed from Golioth Web Console, the [Golioth
 REST API](/reference/management-api/openapi), or by using the [`goliothctl
 dfu`](/reference/command-line-tools/goliothctl/goliothctl_dfu) subcommand.
+
 :::info Details for OTA manifest, path, and status
 
 For more information on how the Golioth server and IoT devices communicate with
@@ -32,39 +33,34 @@ reference:
 
 ## Concepts
 
+### Packages
+
+A package is an upgradeable software component on your embedded device. Packages
+can represent executable firmware or static assets like images, AI models or
+sound files. Each package has a version history and a set of metadata to let you
+categorize and track changes to each software component in your project.
+
 ### Artifacts
 
-An artifact is a binary image that can be pushed to your embedded device. This
-may take the form of the base level firmware (to be used with a bootloader), a
-binary blob for an external processor, a firmware image for the modem onboard
-(such as the nRF91), or a required content element for the running application,
-such as an image or sound file. Individual binaries (artifacts) are versioned
-and tracked before being added to a release.
+An artifact is the binary content of a single package version. Artifacts are
+uploaded to Golioth as files and distributed to your devices by being included
+in [Deployments](#deployments).
 
-### Releases
+### Deployments
 
-A release is a collection of artifacts to be delivered to the target embedded
-device. In the simplest example, a release will only contain a single artifact,
-the firmware image to reprogram the main processor on board. Once you mark a
-release as active, any eligible embedded devices will attempt to download and
-install that firmware update. Groups of devices may be targeted using Blueprints
-and Tags. Release rollout and rollback can be controlled from the [Golioth
-Console](https://console.golioth.io), the REST API, or via command line tools.
+Deployments are bundles of artifacts that are distributed to the devices in your
+project. A deployment can contain any number of artifacts, each targeting a
+specific package on your device. Each deployment should contain all the packages
+your devices need to operate correctly, even if you don't update all of them
+every time.
 
-### Blueprints
+### Cohorts
 
-A Blueprint is a way to indicate a unique hardware version for devices in your
-fleet. Blueprints help to segment which devices should be notified of a
-particular release. For instance, the release may support a different processor
-or different peripheral hardware for any given variation of fleet device.
-
-### Tags
-
-One or more tags may be optionally applied to each device in your fleet. Tags
-help to associate groups of devices when rolling out firmware updates.
-Designating a subgroup of test devices, associating all devices in one building
-or on each floor, and grouping devices by application are all good examples of
-how tags may be used.
+A cohort is a group of devices that all receive the same deployments. A device
+can only belong to one cohort, and each cohort will only have one active
+deployment at any time. Adding a device to a cohort will immediately emit an
+event to the device telling it to upgrade its packages to the versions in the
+active deployment.
 
 ## Use Cases
 
@@ -79,8 +75,9 @@ Here are some ideas on what can be created using our OTA Service.
   - A critical part of an edge computing scenario, is improving you Machine
     Learning model and updating devices with that latest optimized model.
   - Push timeseries data to LightDB Stream, improve your ML model and upload it
-    as an Artifact on our platform that can be part of a subsequent OTA Release.
+    as an Artifact on our platform that can be part of a subsequent OTA
+    Deployment.
 - Digital billboard
   - Any kind of file can be uploaded as an Artifact and added as part of a
-    subsequent OTA Release, so you can push digital assets like images and
+    subsequent OTA Deployment, so you can push digital assets like images and
     videos to your devices.

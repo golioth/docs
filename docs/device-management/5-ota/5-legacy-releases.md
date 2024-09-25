@@ -1,10 +1,16 @@
 ---
-id: release-firmware-update
-title: Releasing Firmware Updates
+id: legacy-releases
+title: Legacy Releases
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+
+:::warning Deprecated
+
+Releases have been deprecated in favor of [Cohorts and Deployments](./3-managing-cohorts.md). This page documents the workflow for the old Releases page for projects that haven't been migrated to Cohorts.
+
+:::
 
 To make a firmware update available to your devices, you must first create a
 Release. A release is a set of available artifact versions that may optionally
