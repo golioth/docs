@@ -14,10 +14,11 @@ the process.
 
 ### Cloud Side
 
-The Golioth Cloud stores firmware as "artifacts". Artifacts are included in
+The Golioth Cloud stores firmware as "packages". Packages are included in
 deployments, which can be rolled out to groups of devices. Devices targeted by a
-deployment will automatically see new artifact version and begin the update
-process. Read more about how deployments are handled in the Golioth Cloud in the [OTA Updates Documentation](../../../device-management/5-ota/README.md).
+deployment will automatically see new package version and begin the update
+process. Read more about how deployments are handled in the Golioth Cloud in the
+[OTA Updates Documentation](../../../device-management/5-ota/README.md).
 
 ### Device Side
 

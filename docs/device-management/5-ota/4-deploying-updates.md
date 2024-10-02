@@ -3,15 +3,15 @@ id: deploying-updates
 title: Deploying Updates
 ---
 
-You can push OTA updates to all devices in a cohort by creating Deployments.
+You can push OTA updates to all devices in a Cohort by creating Deployments.
 Each deployment contains a set of packages, which decide the composition of the
-firmware and assets on all devices in the cohort. Each cohort can only have one
+firmware and assets on all devices in the Cohort. Each Cohort can only have one
 active deployment at a time, and deployments are always pushed to all devices in
-the cohort with as soon as they connect to Golioth's servers.
+the Cohort with as soon as they connect to Golioth's servers.
 
 :::info Deployments are immutable
 
-Once a deployment has been pushed to your cohort, it cannot be reverted or
+Once a deployment has been pushed to your Cohort, it cannot be reverted or
 deleted. To roll back to a previous version of a package, you have to create a
 new deployment.
 
@@ -47,7 +47,7 @@ artifacts to the Golioth Cloud](./2-managing-packages.md).
 
 1. Navigate to [the Cohorts section](https://console.golioth.io/cohorts) of
    the Golioth Web Console
-2. Select the Cohort you want to deploy to.
+2. Select the Cohort you want to deploy to
 3. Click `Deploy` in the top right corner
 3. Select a name and the included packages for your deployment
 
@@ -58,4 +58,4 @@ artifacts to the Golioth Cloud](./2-managing-packages.md).
     ![Releases list](./assets/web-console-deployment-changes.png)
 
 5. Click `Start Deployment` to start distributing the update to the devices in
-   your cohort.
+   your Cohort.
