@@ -8,7 +8,7 @@ import TabItem from '@theme/TabItem';
 
 :::warning Deprecated
 
-Releases have been deprecated in favor of [Cohorts and Deployments](./3-managing-cohorts.md). This page documents the workflow for the old Releases page for projects that haven't been migrated to Cohorts.
+Releases have been deprecated in favor of [Cohorts and Deployments](../3-managing-cohorts.md). This page documents the workflow for the old Releases page for projects that haven't been migrated to Cohorts.
 
 :::
 
