@@ -1,6 +1,6 @@
 # Migrating From Releases
 
-The Cohorts workflow for rolling out OTA updates to devices are a direct
+The Cohorts workflow for rolling out OTA updates to devices is a direct
 replacement of the old Releases workflow. Releases are already disabled for all
 new projects, and will be disabled for all existing projects at a later stage.
 
@@ -10,7 +10,7 @@ we recommend transitioning to Cohorts as soon as possible.
 ## Differences between Releases and Cohorts
 
 Cohorts bring two fundamental upgrades to the way OTA Updates are distributed
-from your devices. The most important change is that you now have to explicitly
+to your devices. The most important change is that you now have to explicitly
 add a device to a Cohort, instead of relying on the blueprint and tags matching
 mechanism in Releases and Artifacts. The second fundamental change is the way
 each update is rolled out — with Releases, each Release could be enabled and
@@ -58,7 +58,7 @@ are a couple of smaller differences between Releases and Cohorts:
 
 - **Adding a device to a Cohort will push a manifest update to the device right
   away.** With Releases, devices would only receive an update notification when
-  you rolled out a Release, but could still pull for the active Release between
+  you rolled out a Release, but could still poll for the active Release between
   roll outs. With Cohorts, the active Deployment is always issued to every
   device in the Cohort as soon as possible.
 - **Artifact blueprints are no longer considered.** If a Deployment contains an
@@ -85,7 +85,7 @@ anything in your firmware.
 ## Moving devices to Cohorts
 
 As a device has to be part of a Cohort to receive Deployments, you can opt into
-the new workflow on a device-to-device basis.
+the new workflow on a per device basis.
 
 To make sure your migration from Releases to Cohorts doesn't trigger any
 accidental OTA updates, we recommend testing the new concept by moving a test
@@ -124,8 +124,8 @@ workflow for some time. To move a device back to using Releases, you can remove
 it from the Cohort. This causes the device to receive OTA updates using the old
 Releases workflow, as if it never belonged to a Cohort. Note that moving the
 device out of a Cohort does not trigger an OTA manifest update on the device,
-even if it starts being affected by a Release. However, the next time the device
-reads the OTA manifest, the Golioth Cloud will respond with whatever release
+even if there is an active Release that targets it. However, the next time the device
+fetches the OTA manifest, the Golioth Cloud will respond with whatever release
 manifest the device should receive through the Releases workflow.
 
 ## Disabling the Releases workflow for your project
