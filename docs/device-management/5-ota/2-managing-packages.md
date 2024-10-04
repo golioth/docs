@@ -1,6 +1,6 @@
 ---
 id: managing-packages
-title: Managing Packages
+title: Managing packages
 ---
 
 A package represents a single upgradeable component on your embedded device.
@@ -28,7 +28,7 @@ build the sample application for your target board.
 
 ## Creating a new package in the Golioth Web Console
 
-1. Navigate to [the Packages section](https://console.golioth.io/packages) of
+1. Navigate to [the packages section](https://console.golioth.io/packages) of
    the Golioth Web Console
 2. Click the `Create` button
 3. Fill in the relevant information:
@@ -38,11 +38,11 @@ build the sample application for your target board.
     - Optional: Set properties to help categorize your package (e.g. `type`:
       `firmware`)
 
-    ![Creating a Package](./assets/web-console-create-package.png)
+    ![Creating a package](./assets/web-console-create-package.png)
 
 ## Uploading a new package version in the Golioth Web Console
 
-1. Navigate to [the Packages section](https://console.golioth.io/packages) of
+1. Navigate to [the packages section](https://console.golioth.io/packages) of
    the Golioth Web Console
 2. Open your package in the list
 3. Click the `New Version` button

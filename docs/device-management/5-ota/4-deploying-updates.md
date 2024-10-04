@@ -3,21 +3,21 @@ id: deploying-updates
 title: Deploying Updates
 ---
 
-You can push OTA updates to all devices in a Cohort by creating Deployments.
+You can push OTA updates to all devices in a cohort by creating deployments.
 Each deployment contains a set of packages, which decide the composition of the
-firmware and assets on all devices in the Cohort. Each Cohort can only have one
+firmware and assets on all devices in the cohort. Each cohort can only have one
 active deployment at a time, and deployments are always pushed to all devices in
-the Cohort with as soon as they connect to Golioth's servers.
+the cohort with as soon as they connect to Golioth's servers.
 
 :::info Deployments are immutable
 
-Once a deployment has been pushed to your Cohort, it cannot be reverted or
+Once a deployment has been pushed to your cohort, it cannot be reverted or
 deleted. To roll back to a previous version of a package, you have to create a
 new deployment.
 
 :::
 
-The deployment history for your Cohort is available in Cohort's page the Golioth
+The deployment history for your cohort is available in cohort's page the Golioth
 Web Console. Here, you can see the changes in packages and their versions from
 deployment to deployment. New deployments are added to the top of the list, and
 all packages that have been used in any of the last 10 deployments are displayed
@@ -45,9 +45,9 @@ or not.
 Before you create a deployment, make sure you have [uploaded the required
 artifacts to the Golioth Cloud](./2-managing-packages.md).
 
-1. Navigate to [the Cohorts section](https://console.golioth.io/cohorts) of
+1. Navigate to [the cohorts section](https://console.golioth.io/cohorts) of
    the Golioth Web Console
-2. Select the Cohort you want to deploy to
+2. Select the cohort you want to deploy to
 3. Click `Deploy` in the top right corner
 3. Select a name and the included packages for your deployment
 
@@ -55,7 +55,7 @@ artifacts to the Golioth Cloud](./2-managing-packages.md).
 
 4. Click the `Next` button and review the changes in your deployment.
 
-    ![Releases list](./assets/web-console-deployment-changes.png)
+    ![releases list](./assets/web-console-deployment-changes.png)
 
 5. Click `Start Deployment` to start distributing the update to the devices in
-   your Cohort.
+   your cohort.

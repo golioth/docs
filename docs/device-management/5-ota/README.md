@@ -17,7 +17,7 @@ firmware, but sub components like the Cellular Modem firmware, update an on
 device Machine Learning model or even sending custom binaries required for your
 application as part of a deployment.
 
-Packages and Deployments can be accessed from Golioth Web Console, the [Golioth
+Packages and deployments can be accessed from Golioth Web Console, the [Golioth
 REST API](/reference/management-api/openapi), or by using the [`goliothctl
 dfu`](/reference/command-line-tools/goliothctl/goliothctl_dfu) subcommand.
 
@@ -76,8 +76,8 @@ Here are some ideas on what can be created using our OTA Service.
     Learning model and updating devices with that latest optimized model.
   - Push timeseries data to LightDB Stream, improve your ML model and upload it
     as an Artifact on our platform that can be part of a subsequent OTA
-    Deployment.
+    deployment.
 - Digital billboard
   - Any kind of file can be uploaded as an Artifact and added as part of a
-    subsequent OTA Deployment, so you can push digital assets like images and
+    subsequent OTA deployment, so you can push digital assets like images and
     videos to your devices.
