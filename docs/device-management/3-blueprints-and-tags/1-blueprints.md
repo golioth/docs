@@ -3,8 +3,8 @@
 Blueprints are a great way to segment your IoT fleet by hardware-type. You might
 create a blueprint for each revision of a particular board, or use one blueprint
 for each hardware variation that uses a different type of sensor. These
-blueprints can be used to target firmware binaries at the correct device types,
-and to adjust settings for groups of devices with a single action.
+blueprints can be used to adjust settings for groups of devices with a single
+action.
 
 ## Create a new blueprint
 
@@ -22,12 +22,6 @@ and to adjust settings for groups of devices with a single action.
 
 You may add a blueprint to a device when it is created, or use the edit button
 on the device summary to add or remove a blueprint from an existing device.
-
-## Use a blueprint to filter OTA firmware updates
-
-A blueprint may be used to filter over the air (OTA) firmware updates. Choose a
-blueprint when you upload an artifact. This will be honored when a release is
-created that uses the artifact.
 
 ## Use a blueprint to filter Device Settings
 

@@ -82,46 +82,70 @@ update.
 
 :::
 
-### 4. Upload new firmware to the Golioth Console
+### 4. Create a Package
 
-The new binary is located at `build/zephyr/app_update.bin` and can now be used
-to create an artifact on the Golioth Console.
+The Golioth Cloud represents upgradeable software components as "Packages". In
+the OTA sample code, the package for the application firmware is called "main",
+so we'll need to create a corresponding package in the Golioth Console.
 
-1. Log into the Golioth Console
-2. Navigate to `Firmware-Updates`&rarr;`Artifacts` menu and click the `Create` button
-3. Enter the version number you used in the `prj.conf` file (`1.2.4`) into the
-   `Artifact Version` box
-4. Click the upload icon and choose your `app_update.bin` file
-5. Click `Upload Artifact`
+In the Golioth Console, go to **Firmware Updates&rarr;Packages** on the left
+sidebar and click the Create button. Set the name of the package to `main`, and
+optionally add a short description.
 
-:::tip Different update files for other builds
+![Create a package in the Golioth Console](assets/golioth-OTA-create-package.png)
 
-Builds that use Zephyr (and not NCS) have a different update file. In those
-cases, upload the `build/fw_update/zephyr/zephyr.signed.bin` file to Golioth.
+### 5. Upload the firmware binary
 
-:::
+The binary we built is located at `build/zephyr/app_update.bin` and can now be
+used to create a new version of the `main` package on the Golioth Console.
 
-### 5. Create a release and rollout the firmware update
+In the Golioth Console, go to **Firmware Updates&rarr;Packages** in the left
+sidebar and open the `main` package in the list of packages, then click `New
+Version`.
 
-You must create a release based on the artifact you just uploaded, then rollout
-that release to tell your devices there is an update available.
+![Upload an artifact in the Golioth
+Console](assets/golioth-OTA-upload-artifact.png)
 
-1. Log into the Golioth Console
-2. Navigate to `Firmware-Updates`&rarr;`Releases` menu and click the `Create` button
-3. Choose your newly updated artifact from the `Artifacts` dropdown box, then
-   click `Create Release`
-4. You will see a list of releases, click the `Rollout` button next to your new
-   release.
+* Set the **Artifact Version to 1.2.6** (to match what was compiled into the
+  firmware)
+* Click the upload button in the middle of the window and choose your
+  `golioth_basics.bin` file.
+* Click the **Upload Artifact** button to finish creating an artifact.
 
-Each time the device establishes an active connection with the Golioth Cloud it
-will compare the firmware version currently running with what is available from
-the server. Newer firmware releases will be automatically downloaded, verified,
-and flashed to the device.
+### 6. Assign the device to a Cohort
 
-### 6. Verify the new version
+To enroll your device into Golioth's OTA update system, you need to assign it to
+a Cohort. Cohorts are groups of devices that have the same firmware and receive
+the same OTA updates.
+
+First, we need to create a new Cohort for this device type. In the Golioth
+Console, go to **Firmware Updates&rarr;Cohorts** in the left sidebar and click
+the Create button. Select a name for your Cohort and click `Create`.
+
+Next, we need to assign our device to this new Cohort. In the Cohort page, click
+`Add Devices`, and find your device in the list. Click the Add button on the
+right hand side of the device to assign it to the Cohort.
+
+![Assign device to a Cohort in the Golioth
+Console](assets/golioth-OTA-add-to-cohort.png)
+
+### 7. Create a deployment
+
+OTA updates are rolled out to a Cohort as Deployments. To start a new update for
+our device, go to the Cohort's page in the Golioth Console and click `Deploy`.
+Add the `main` package to the deployment, and make sure it's set to version
+1.2.6. You can optionally pick a name for your deployment.
+
+![Create a Deployment in the Golioth
+Console](assets/golioth-OTA-create-deployment.png)
+
+Click `Next` to review your deployment, then `Start Deployment` to start the
+update.
+
+### 8. Verify the new version
 
 By default, the device will use MCUboot to verify the signature of new firmware
-and ensure that it can be run before switching. Once the new release is running,
+and ensure that it can be run before switching. Once the new version is running,
 the device will report the version to Golioth which can be viewed in the
 Firmware tab of the Golioth Console.
 
@@ -131,9 +155,9 @@ Firmware tab of the Golioth Console.
 
 Over-the-Air updates are one of the most powerful tools in IoT. Running the
 Golioth FW Update sample application has demonstrated how the firmware updates
-are compiled and versioned, the process for creating the artifact and rollout on
-the Golioth Console, and the device reporting back a new version number after a
-successful update.
+are compiled and versioned, the process for creating the artifact and deployment
+on the Golioth Console, and the device reporting back a new version number after
+a successful update.
 
 :::note Do not use hardcoded credential in practice
 
