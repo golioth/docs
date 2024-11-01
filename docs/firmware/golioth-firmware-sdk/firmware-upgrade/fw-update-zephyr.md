@@ -6,10 +6,10 @@ sidebar_position: 2
 Over-the-Air (OTA) updates are a type of Device Firmware Upgrade (DFU). In this
 page we'll walk through the FW Update sample found in [the Zephyr
 port of the Golioth Firmware
-SDK](https://github.com/golioth/golioth-zephyr-sdk/tree/main/samples/fw_update),
+SDK](https://github.com/golioth/golioth-firmware-sdk/tree/main/examples/zephyr/fw_update),
 which shows how to use the Golioth OTA update service.
 
-We will target the Nordic nRF9160dk (Using the NCS version of Zephyr), however
+We will target the Nordic nRF9160 DK (using the NCS version of Zephyr), however
 these step are portable to all other supported boards.
 
 ## Overview
@@ -25,7 +25,7 @@ updated firmware version and report the results to the Golioth Console.
 2. Build and flash the initial FW Update sample application
 3. Upload the signed/versioned firmware as an artifact
 4. Create a release from the artifact and roll it out to the device
-5. Observe the device reporting the update version number
+5. Observe the device reporting the updated version number
 
 ## Running the OTA Sample
 
@@ -55,17 +55,17 @@ west build -b nrf9160dk/nrf9160/ns --sysbuild examples/zephyr/fw_update
 west flash
 ```
 
-By default this will build and run version `v1.2.3` firmware on the Nordic
+By default, this will build and run firmware version `1.2.3` on the Nordic
 nRF9160 development kit.
-
-:::
 
 ### 3. Rebuild firmware with new version number
 
-Now update the firmware version in the project `prj.conf` file:
+Now update the firmware version in the project `VERSION` file:
 
 ```cfg
-CONFIG_MCUBOOT_IMGTOOL_SIGN_VERSION="1.2.4"
+VERSION_MAJOR = 1
+VERSION_MINOR = 2
+PATCHLEVEL = 4
 ```
 
 Then build the application a second time.
@@ -96,8 +96,9 @@ optionally add a short description.
 
 ### 5. Upload the firmware binary
 
-The binary we built is located at `build/zephyr/app_update.bin` and can now be
-used to create a new version of the `main` package on the Golioth Console.
+The binary we built is located at `build/fw_update/zephyr/zephyr.signed.bin`
+and can now be used to create a new version of the `main` package on the
+Golioth Console.
 
 In the Golioth Console, go to **Firmware Updates&rarr;Packages** in the left
 sidebar and open the `main` package in the list of packages, then click `New
@@ -106,11 +107,12 @@ Version`.
 ![Upload an artifact in the Golioth
 Console](assets/golioth-OTA-upload-artifact.png)
 
-* Set the **Artifact Version to 1.2.6** (to match what was compiled into the
+* Set the **Artifact Version to 1.2.4** (to match what was compiled into the
   firmware)
 * Click the upload button in the middle of the window and choose your
-  `golioth_basics.bin` file.
-* Click the **Upload Artifact** button to finish creating an artifact.
+  `zephyr.signed.bin` file
+* Click the **Upload New Version** button to finish creating a new package
+  version
 
 ### 6. Assign the device to a Cohort
 
@@ -120,21 +122,27 @@ the same OTA updates.
 
 First, we need to create a new Cohort for this device type. In the Golioth
 Console, go to **Firmware Updates&rarr;Cohorts** in the left sidebar and click
-the Create button. Select a name for your Cohort and click `Create`.
+the `Create Cohort` button. Select a name for your Cohort and click `Create`.
 
 Next, we need to assign our device to this new Cohort. In the Cohort page, click
-`Add Devices`, and find your device in the list. Click the Add button on the
-right hand side of the device to assign it to the Cohort.
+`Add Devices`, and find your device in the list. Select the checkbox on the left
+hand side of the device to assign it to the Cohort, then click the `Next` button.
 
 ![Assign device to a Cohort in the Golioth
 Console](assets/golioth-OTA-add-to-cohort.png)
+
+In the following window, confirm the devices to be added to the Cohort by clicking
+the `Add` button.
+
+![Confirm adding a device to a Cohort in the Golioth
+Console](assets/golioth-OTA-confirm-add-to-cohort.png)
 
 ### 7. Create a deployment
 
 OTA updates are rolled out to a Cohort as Deployments. To start a new update for
 our device, go to the Cohort's page in the Golioth Console and click `Deploy`.
 Add the `main` package to the deployment, and make sure it's set to version
-1.2.6. You can optionally pick a name for your deployment.
+`1.2.4`. You can optionally pick a name for your deployment.
 
 ![Create a Deployment in the Golioth
 Console](assets/golioth-OTA-create-deployment.png)
@@ -149,7 +157,7 @@ and ensure that it can be run before switching. Once the new version is running,
 the device will report the version to Golioth which can be viewed in the
 Firmware tab of the Golioth Console.
 
-![Golioth Console showing firmware version](../../assets/golioth-console-firmware-version.png)
+![Golioth Console showing firmware version](assets/golioth-console-firmware-version.png)
 
 ## Summary
 
