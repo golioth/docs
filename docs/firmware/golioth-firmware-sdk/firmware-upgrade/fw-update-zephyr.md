@@ -3,6 +3,9 @@ title: Zephyr Firmware Update Example Walkthrough
 sidebar_position: 2
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 Over-the-Air (OTA) updates are a type of Device Firmware Upgrade (DFU). In this
 page we'll walk through the FW Update sample found in [the Zephyr
 port of the Golioth Firmware
@@ -60,13 +63,28 @@ nRF9160 development kit.
 
 ### 3. Rebuild firmware with new version number
 
-Now update the firmware version in the project `VERSION` file:
+<Tabs>
+  <TabItem value="v0.15.0+" label="Firmware SDK v0.15.0+" default>
+    Instructions for Firmware SDK version `0.15.0` and later:
 
-```cfg
-VERSION_MAJOR = 1
-VERSION_MINOR = 2
-PATCHLEVEL = 4
-```
+    Update the firmware version in the project `VERSION` file:
+
+    ```cfg
+    VERSION_MAJOR = 1
+    VERSION_MINOR = 2
+    PATCHLEVEL = 4
+    ```
+  </TabItem>
+  <TabItem value="< v0.15.0" label="Firmware SDK < v0.15.0">
+    Instructions for Firmware SDK versions earlier than `0.15.0`:
+
+    Update the firmware version in the project `prj.conf` file:
+
+    ```cfg
+    CONFIG_MCUBOOT_IMGTOOL_SIGN_VERSION="1.2.4"
+    ```
+  </TabItem>
+</Tabs>
 
 Then build the application a second time.
 
