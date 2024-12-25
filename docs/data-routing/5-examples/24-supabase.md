@@ -48,3 +48,48 @@ Reuse or create two [secrets](/data-routing/secrets) based on the
 should take the form of 'Bearer
 $Service_Role_Key'. For example, if the `Service Role Key` is `12345` than the `$SUPABASE_SERVICE_KEY`should be set to`Bearer
 12345`.
+
+Create a new Edge Function called `golioth-pipelines` with the following code:
+
+```ts
+import { createClient } from "jsr:@supabase/supabase-js@2";
+
+Deno.serve(async (req) => {
+  try {
+    const supabase = createClient(
+      Deno.env.get("SUPABASE_URL") ?? "",
+      Deno.env.get("SUPABASE_ANON_KEY") ?? "",
+      {
+        global: {
+          headers: { Authorization: req.headers.get("Authorization")! },
+        },
+      },
+    );
+
+    const body = await req.json();
+
+    const { error } = await supabase
+      .from("golioth_pipeline_advanced")
+      .insert({
+        "ce-subject": req.headers.get("ce-subject"),
+        "ce-time": req.headers.get("ce-time"),
+        "ce-source": req.headers.get("ce-source"),
+        "ce-type": req.headers.get("ce-type"),
+        temp: body.temp,
+        lat: body.lat,
+        long: body.long,
+      });
+
+    if (error) {
+      throw error;
+    }
+
+    return new Response(body, {
+      headers: { "Content-Type": "application/json" },
+      status: 200,
+    });
+  } catch (err) {
+    return new Response(String(err?.message ?? err), { status: 500 });
+  }
+});
+```
