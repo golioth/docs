@@ -19,8 +19,7 @@ Storage](https://azure.microsoft.com/en-us/products/storage/blobs) container.
 
 |Parameter|Type|Description|Required|
 |---|---|---|:---:|
-|`conn_str`|`string`| The connection string for an Azure Blob Storage storage
-account. |✅|
+|`conn_str`|`string`| The connection string for an Azure Blob Storage storage account. |✅|
 |`container`|`string`| The container name. |✅|
 
 ### Example Secrets
