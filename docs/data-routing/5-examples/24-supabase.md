@@ -11,6 +11,14 @@ real-time subscriptions, authentication, storage, and serverless functions, all
 managed through a single interface. Supabase provides multiple ways to consume
 data from Golioth.
 
+The following examples will need credentials from Supabase. Create two
+[secrets](/data-routing/secrets) based on the
+[Service Role Key](https://supabase.com/docs/guides/api/api-keys#the-servicerole-key).
+`$SUPABASE_KEY` should be the the Server Role Key while `$SUPABASE_SERVICE_KEY`
+should take the form of 'Bearer
+$Service_Role_Key'. For example, if the `Service Role Key` is `12345` than the `$SUPABASE_SERVICE_KEY`should be set to`Bearer
+12345`.
+
 The first example is the simplest and uses the
 [REST API](https://supabase.com/docs/guides/api). Assuming a database named
 `golioth_pipeline_basic` with the following columns:
@@ -21,13 +29,6 @@ The first example is the simplest and uses the
 Create the following Pipeline:
 
 <Pipeline link='https://console.golioth.io/pipeline?name=Supabase%20REST%20API%20Example&pipeline=c3RlcHM6CiAgLSBuYW1lOiBzdGVwMAogICAgZGVzdGluYXRpb246CiAgICAgIHR5cGU6IHdlYmhvb2sKICAgICAgdmVyc2lvbjogdjEKICAgICAgcGFyYW1ldGVyczoKICAgICAgICB1cmw6IGh0dHBzOi8vcmdnY3Fvc2x0cW9wY3d0d3doa2Muc3VwYWJhc2UuY28vZnVuY3Rpb25zL3YxL2dvbGlvdGgtcGlwZWxpbmUKICAgICAgICBoZWFkZXJzOgogICAgICAgICAgQXV0aG9yaXphdGlvbjogJFNVUEFCQVNFX0FVVEhfSEVBREVSCiAgICAgICAgICBhcGlrZXk6ICRTVVBBQkFTRV9BUElfS0VZCg=='/>
-
-Create two [secrets](/data-routing/secrets) based on the
-[Service Role Key](https://supabase.com/docs/guides/api/api-keys#the-servicerole-key).
-`$SUPABASE_KEY` should be the the Server Role Key while `$SUPABASE_SERVICE_KEY`
-should take the form of 'Bearer
-$Service_Role_Key'. For example, if the `Service Role Key` is `12345` than the `$SUPABASE_SERVICE_KEY`should be set to`Bearer
-12345`.
 
 The second example uses
 [Edge Functions](https://supabase.com/docs/guides/functions). While
@@ -43,13 +44,6 @@ columns:
 Create the following Pipeline:
 
 <Pipeline link='https://console.golioth.io/pipeline?name=Supabase%20Edge%20Function%20Example&pipeline=c3RlcHM6CiAgLSBuYW1lOiBzdGVwMAogICAgZGVzdGluYXRpb246CiAgICAgIHR5cGU6IHdlYmhvb2sKICAgICAgdmVyc2lvbjogdjEKICAgICAgcGFyYW1ldGVyczoKICAgICAgICB1cmw6IGh0dHBzOi8vcmdnY3Fvc2x0cW9wY3d0d3doa2Muc3VwYWJhc2UuY28vZnVuY3Rpb25zL3YxL2dvbGlvdGgtcGlwZWxpbmUKICAgICAgICBoZWFkZXJzOgogICAgICAgICAgQXV0aG9yaXphdGlvbjogJFNVUEFCQVNFX0FVVEhfSEVBREVSCiAgICAgICAgICBhcGlrZXk6ICRTVVBBQkFTRV9BUElfS0VZCg=='/>
-
-Reuse or create two [secrets](/data-routing/secrets) based on the
-[Service Role Key](https://supabase.com/docs/guides/api/api-keys#the-servicerole-key).
-`$SUPABASE_KEY` should be the the Server Role Key while `$SUPABASE_SERVICE_KEY`
-should take the form of 'Bearer
-$Service_Role_Key'. For example, if the `Service Role Key` is `12345` than the `$SUPABASE_SERVICE_KEY`should be set to`Bearer
-12345`.
 
 Create a new Edge Function called `golioth-pipelines` with the following code:
 
