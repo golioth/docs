@@ -11,8 +11,9 @@ real-time subscriptions, authentication, storage, and serverless functions, all
 managed through a single interface. Supabase provides multiple ways to consume
 data from Golioth.
 
-The first example is the simplest and uses the REST API. Assuming a database
-named `golioth_pipeline_basic` with the following columns:
+The first example is the simplest and uses the
+[REST API](https://supabase.com/docs/guides/api). Assuming a database named
+`golioth_pipeline_basic` with the following columns:
 
 | id | created_at | temp | lat | long |
 | -- | ---------- | ---- | --- | ---- |
@@ -28,7 +29,8 @@ should take the form of 'Bearer
 $Service_Role_Key'. For example, if the `Service Role Key` is `12345` than the `$SUPABASE_SERVICE_KEY`should be set to`Bearer
 12345`.
 
-The second example uses Edge Functions. While
+The second example uses
+[Edge Functions](https://supabase.com/docs/guides/functions). While
 [Transformers](/data-routing/transformers) can be used to modify data, Edge
 Functions can be utilized further in the context of Supabase.
 
