@@ -12,15 +12,15 @@ managed through a single interface. Supabase provides multiple ways to consume
 data from Golioth.
 
 The following examples will need credentials from Supabase. Create two
-[secrets](/data-routing/secrets) based on the
-[Service Role Key](https://supabase.com/docs/guides/api/api-keys#the-servicerole-key).
-`$SUPABASE_KEY` should be the the Server Role Key while `$SUPABASE_SERVICE_KEY`
-should take the form of 'Bearer
-$Service_Role_Key'. For example, if the `Service Role Key` is `12345` than the `$SUPABASE_SERVICE_KEY`should be set to`Bearer
-12345`.
+[secrets](/data-routing/secrets) based on the [Service Role
+Key](https://supabase.com/docs/guides/api/api-keys#the-servicerole-key).
+`$SUPABASE_API_KEY` should be the the Server Role Key while
+`$SUPABASE_AUTH_HEADER` should take the form of `Bearer $Service_Role_Key`. For
+example, if the `Service Role Key` is `12345` than the `$SUPABASE_AUTH_HEADER`
+should be set to`Bearer 12345`.
 
-The first example is the simplest and uses the
-[REST API](https://supabase.com/docs/guides/api). Assuming a database named
+The first example is the simplest and uses the [REST
+API](https://supabase.com/docs/guides/api). Assuming a table named
 `golioth_pipeline_basic` with the following columns:
 
 | id | created_at | temp | lat | long |
@@ -28,22 +28,21 @@ The first example is the simplest and uses the
 
 Create the following Pipeline:
 
-<Pipeline link='https://console.golioth.io/pipeline?name=Supabase%20REST%20API%20Example&pipeline=c3RlcHM6CiAgLSBuYW1lOiBzdGVwMAogICAgZGVzdGluYXRpb246CiAgICAgIHR5cGU6IHdlYmhvb2sKICAgICAgdmVyc2lvbjogdjEKICAgICAgcGFyYW1ldGVyczoKICAgICAgICB1cmw6IGh0dHBzOi8vcmdnY3Fvc2x0cW9wY3d0d3doa2Muc3VwYWJhc2UuY28vZnVuY3Rpb25zL3YxL2dvbGlvdGgtcGlwZWxpbmUKICAgICAgICBoZWFkZXJzOgogICAgICAgICAgQXV0aG9yaXphdGlvbjogJFNVUEFCQVNFX0FVVEhfSEVBREVSCiAgICAgICAgICBhcGlrZXk6ICRTVVBBQkFTRV9BUElfS0VZCg=='/>
+<Pipeline link='https://console.golioth.io/pipeline?name=Supabase%20REST%20API%20Example&pipeline=ZmlsdGVyOgogIHBhdGg6ICIqIgogIGNvbnRlbnRfdHlwZTogYXBwbGljYXRpb24vanNvbgpzdGVwczoKICAtIG5hbWU6IHN0ZXAwCiAgICBkZXN0aW5hdGlvbjoKICAgICAgdHlwZTogd2ViaG9vawogICAgICB2ZXJzaW9uOiB2MQogICAgICBwYXJhbWV0ZXJzOgogICAgICAgIHVybDogaHR0cHM6Ly9yZ2djcW9zbHRxb3Bjd3R3d2hrYy5zdXBhYmFzZS5jby9yZXN0L3YxL2dvbGlvdGhfcGlwZWxpbmVfYmFzaWMKICAgICAgICBoZWFkZXJzOgogICAgICAgICAgQXV0aG9yaXphdGlvbjogJFNVUEFCQVNFX0FVVEhfSEVBREVSCiAgICAgICAgICBhcGlrZXk6ICRTVVBBQkFTRV9BUElfS0VZ'/>
 
 The second example uses
 [Edge Functions](https://supabase.com/docs/guides/functions). While
 [Transformers](/data-routing/transformers) can be used to modify data, Edge
 Functions can be utilized further in the context of Supabase.
 
-Assuming a database named `golioth_pipeline_advanced` with the following
-columns:
+Assuming a table named `golioth_pipeline_advanced` with the following columns:
 
 | id | created_at | ce-time | ce-subject | ce-type | ce-source | temp | lat | long |
 | -- | ---------- | ------- | ---------- | ------- | --------- | ---- | --- | ---- |
 
 Create the following Pipeline:
 
-<Pipeline link='https://console.golioth.io/pipeline?name=Supabase%20Edge%20Function%20Example&pipeline=c3RlcHM6CiAgLSBuYW1lOiBzdGVwMAogICAgZGVzdGluYXRpb246CiAgICAgIHR5cGU6IHdlYmhvb2sKICAgICAgdmVyc2lvbjogdjEKICAgICAgcGFyYW1ldGVyczoKICAgICAgICB1cmw6IGh0dHBzOi8vcmdnY3Fvc2x0cW9wY3d0d3doa2Muc3VwYWJhc2UuY28vZnVuY3Rpb25zL3YxL2dvbGlvdGgtcGlwZWxpbmUKICAgICAgICBoZWFkZXJzOgogICAgICAgICAgQXV0aG9yaXphdGlvbjogJFNVUEFCQVNFX0FVVEhfSEVBREVSCiAgICAgICAgICBhcGlrZXk6ICRTVVBBQkFTRV9BUElfS0VZCg=='/>
+<Pipeline link='https://console.golioth.io/pipeline?name=Supabase%20Edge%20Function%20Example&pipeline=ZmlsdGVyOgogIHBhdGg6ICIqIgogIGNvbnRlbnRfdHlwZTogYXBwbGljYXRpb24vanNvbgpzdGVwczoKICAtIG5hbWU6IHN0ZXAwCiAgICBkZXN0aW5hdGlvbjoKICAgICAgdHlwZTogd2ViaG9vawogICAgICB2ZXJzaW9uOiB2MQogICAgICBwYXJhbWV0ZXJzOgogICAgICAgIHVybDogaHR0cHM6Ly9yZ2djcW9zbHRxb3Bjd3R3d2hrYy5zdXBhYmFzZS5jby9mdW5jdGlvbnMvdjEvZ29saW90aC1waXBlbGluZQogICAgICAgIGhlYWRlcnM6CiAgICAgICAgICBBdXRob3JpemF0aW9uOiAkU1VQQUJBU0VfQVVUSF9IRUFERVIKICAgICAgICAgIGFwaWtleTogJFNVUEFCQVNFX0FQSV9LRVkK'/>
 
 Create a new Edge Function called `golioth-pipelines` with the following code:
 
