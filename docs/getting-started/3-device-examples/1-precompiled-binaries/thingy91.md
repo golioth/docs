@@ -48,7 +48,7 @@ import InstallNrfConnect from './\_partials/install_nrf_connect.md'
 
 1. Go to [the latest
    release](https://github.com/golioth/thingy91-golioth/releases/latest) and
-   download `Thingy91_Golioth_Example_vX.X.X.hex`
+   download `thingy91-golioth_vX.X.X_thingy91_nrf9160_ns_mcuboot.hex`
 2. Flash the precompiled binary to the Thingy:91
     1. Remove the orange rubber case from your Thingy:91
     2. Plug a USB cable into your computer and into the Thingy:91
@@ -57,8 +57,9 @@ import InstallNrfConnect from './\_partials/install_nrf_connect.md'
        board and turn the power switch on
     4. In the nRF Connect Desktop Programmer, choose `Nordic Thingy:91` from the
        upper left `SELECT DEVICE` dialog.
-    5. Click Add file and choose the `Thingy91_Golioth_Example_vX.X.X.hex` file
-       you previously downloaded
+    5. Click Add file and choose the
+       `thingy91-golioth_vX.X.X_thingy91_nrf9160_ns_mcuboot.hex` file you
+       previously downloaded
     6. Click the `Write` button
 
 
