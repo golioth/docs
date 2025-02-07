@@ -26,7 +26,7 @@ authentication:
 const char* golioth_psk_id = "device@project";
 const char* golioth_psk = "supersecret";
 
-golioth_client_config_t client_config = {
+struct golioth_client_config client_config = {
     .credentials = {
         .auth_type = GOLIOTH_TLS_AUTH_TYPE_PSK,
         .psk = {
@@ -47,7 +47,7 @@ parameter.
 
 ```c
 int main(void) {
-    client = golioth_client_create(client_config);
+    client = golioth_client_create(&client_config);
 ```
 
 ## Registering a Callback Function
