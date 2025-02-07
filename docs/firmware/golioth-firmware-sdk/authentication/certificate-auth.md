@@ -129,7 +129,7 @@ int main(void) {
     size_t tls_client_crt_len = sizeof_your_crt_der_byte_array;
     size_t tls_client_key_len = sizeof_your_key_der_byte_array;
 
-    golioth_client_config_t client_config = {
+    struct golioth_client_config client_config = {
         .credentials = {
             .auth_type = GOLIOTH_TLS_AUTH_TYPE_PKI,
             .pki = {

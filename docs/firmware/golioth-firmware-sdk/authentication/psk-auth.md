@@ -15,7 +15,7 @@ uint8_t* client_psk = pointer_to_your_psk_array;
 size_t client_psk_id_len = strlen_of_your_psk_id_array;
 size_t client_psk_len = strlen_of_your_psk_array;
 
-golioth_client_config_t client_config = {
+struct golioth_client_config client_config = {
         .credentials = {
                 .auth_type = GOLIOTH_TLS_AUTH_TYPE_PSK,
                 .psk = {
