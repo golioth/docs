@@ -1,5 +1,4 @@
 ---
-id: resolving
 title: Resolving Location
 ---
 

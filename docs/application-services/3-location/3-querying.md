@@ -1,5 +1,4 @@
 ---
-id: querying
 title: Querying Location
 ---
 
@@ -16,8 +15,8 @@ historical device location and provides a map view of fleets in the
 
 ### Fleet Location Visualization
 
-Projects using the Golioth Location service can the location of devices that
-have recently obtained position information by navigating to the `Location`
+Projects using the Golioth Location service can observe the location of devices
+that have recently obtained position information by navigating to the `Location`
 section in the console.
 
 ### Device Location Queries
