@@ -27,7 +27,7 @@ capabilities, or opting to use it sparingly, may be optimal. In these cases,
 devices can leverage network-based positioning, which is still able to provide
 location data with accuracy on the order of tens to hundreds of meters.
 
-#### Indoor Devices, and Devices in Urban Locations
+#### Indoor Devices and Devices in Urban Locations
 
 Some environments make leveraging GNSS challenging or impossible. Devices that
 are typically indoors or in dense urban areas will frequently struggle to

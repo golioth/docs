@@ -1,5 +1,4 @@
 ---
-id: location
 title: Location
 ---
 
