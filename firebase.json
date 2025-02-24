@@ -424,6 +424,11 @@
           "type": 301
         },
         {
+          "source": "firmware/golioth-firmware-sdk/firmware-upgrade/firmware-upgrade",
+          "destination": "firmware/golioth-firmware-sdk/firmware-upgrade",
+          "type": 301
+        },
+        {
           "source": "/data-routing/pipelines",
           "destination": "/data-routing",
           "type": 301
