@@ -1,7 +1,6 @@
 ---
 title: Over-the-Air (OTA) Upgrade Overview
 sidebar_position: 1
-slug: firmware-upgrade
 ---
 
 This section will guide you through Over-The-Air (OTA) firmware updates for

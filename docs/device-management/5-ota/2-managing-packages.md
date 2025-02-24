@@ -23,8 +23,8 @@ events from our backend and automatically downloads and installs them with
 MCUboot.
 
 Follow [the Firmware OTA Upgrade
-guide](/firmware/golioth-firmware-sdk/firmware-upgrade/firmware-upgrade) to
-build the sample application for your target board.
+guide](/firmware/golioth-firmware-sdk/firmware-upgrade) to build the sample
+application for your target board.
 
 ## Creating a new package in the Golioth Web Console
 
