@@ -101,6 +101,5 @@ application](https://github.com/golioth/golioth-firmware-sdk/tree/main/examples/
 ## Resources
 
 Further documentation of the device SDK is available in the [Golioth Firmware
-SDK
-Reference](https://firmware-sdk-docs.golioth.io/group__golioth__lightdb.html)
+SDK Reference](https://firmware-sdk-docs.golioth.io/group__golioth__rpc.html)
 (Doxygen).

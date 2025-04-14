@@ -104,5 +104,5 @@ It can be easily located by searching for `golioth_lightdb_observe`.
 
 Further documentation of the device SDK is available in the [Golioth Firmware
 SDK
-Reference](https://firmware-sdk-docs.golioth.io/group__golioth__lightdb.html)
+Reference](https://firmware-sdk-docs.golioth.io/group__golioth__lightdb__state.html)
 (Doxygen).

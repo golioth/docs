@@ -96,5 +96,5 @@ for more information.
 
 Further documentation of the device SDK is available in the [Golioth Firmware
 SDK
-Reference](https://firmware-sdk-docs.golioth.io/group__golioth__lightdb.html)
+Reference](https://firmware-sdk-docs.golioth.io/group__golioth__settings.html)
 (Doxygen).
