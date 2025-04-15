@@ -39,7 +39,7 @@ After the above request and device data saves in LightDB, it will look like this
 }
 ```
 
-You can set any data on any path, which allows flexibility throughout the lifetime of the device and connection. Perhaps during initialization we send both temperatur and unit type, but afterwards we only send the temperature value to the specific path. A long as another unit is not written, the first value will persist.
+You can set any data on any path, which allows flexibility throughout the lifetime of the device and connection. Perhaps during initialization we send both temperature and unit type, but afterwards we only send the temperature value to the specific path. A long as another unit is not written, the first value will persist.
 
 <ProtocolPublishSample path="/.d/env/temp/value" method="PUT" body={35.0}/>
 
@@ -63,7 +63,7 @@ $ goliothctl lightdb set [device name] /config/temp -b "{\"min\": 20.0, \"max\":
 ```
 
 :::note
-`[device name]` should be replace by your device name and wrapped in quotes if spaces are used.
+`[device name]` should be replaced by your device name and wrapped in quotes if spaces are used.
 :::
 
 This way the device can also read the `/config` path and calculate alerts. If an alert condition is met, it can post data to `/alert`.
