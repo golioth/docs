@@ -91,6 +91,11 @@ function capitalize(s) {
 function createLevelRoot(level) {
     mkdir(`${docsRoot}/${level}`);
 
+    const levelOrder = {
+      'continuously-verified': 1,
+      'verified': 2,
+    };
+
     var levelCategory;
     switch(level) {
         case 'continuously-verified':
@@ -103,14 +108,21 @@ function createLevelRoot(level) {
             levelCategory = `${capitalize(level)} boards`
     }
 
+    let categoryData = `label: ${levelCategory}\n`
+                     + `collapsible: true\n`
+                     + `collapsed: false\n`;
+
+    if (level === 'unverified') {
+      categoryData += `className: "hide-menu"\n`;
+    }
+
+    if (level in levelOrder) {
+      categoryData += `position: ${levelOrder[level]}\n`;
+    }
+
     fs.writeFileSync(
         `${docsRoot}/${level}/_category_.yml`,
-        `\
-        label: ${levelCategory}
-        collapsible: true
-        collapsed: false
-        ${level === 'unverified' ? 'className: "hide-menu"' : ''}
-        `
+        categoryData
         );
 }
 
