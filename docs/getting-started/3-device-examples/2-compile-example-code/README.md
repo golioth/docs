@@ -24,6 +24,6 @@ to success by testing Golioth using one of these boards:
 * Espressif ESP32-devkitc/ESP32S3-devkitc/ESP32C3-devkitm
 * Nordic nRF9160DK
 * Nordic nRF52840 + ESP32 (AT Modem)
-* NXP mimxrt1024-evk
+* NXP FRDM-RW612
 
 :::

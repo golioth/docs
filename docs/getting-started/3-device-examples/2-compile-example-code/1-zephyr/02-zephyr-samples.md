@@ -88,7 +88,7 @@ groupId="os"
 defaultValue="nrf52840"
 values={[
 {label: 'Nordic nRF52840', value: 'nrf52840'},
-{label: 'NXP RT1024', value: 'rt1024'},
+{label: 'NXP FRDM-RW612', value: 'rw612'},
 {label: 'ESP32', value: 'esp32'},
 {label: 'RAK5010', value: 'rak5010'},
 ]}>
@@ -101,10 +101,10 @@ west flash
 ```
 </TabItem>
 
-<TabItem value="rt1024">
+<TabItem value="rw612">
 
 ```console
-west build -b mimxrt1024_evk examples/zephyr/hello
+west build -b frdm_rw612 examples/zephyr/hello
 west flash
 ```
 </TabItem>
