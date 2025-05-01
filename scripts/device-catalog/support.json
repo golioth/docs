@@ -3,6 +3,10 @@
         "level": "verified",
         "quickstart": "/getting-started/device-examples/compile-example-code/zephyr-ncs/"
     },
+    "frdm_rw612": {
+        "level": "continuously-verified",
+        "quickstart": "/getting-started/device-examples/compile-example-code/zephyr/"
+    },
     "mimxrt1024_evk": {
         "level": "continuously-verified",
         "quickstart": "/getting-started/device-examples/compile-example-code/zephyr/"
