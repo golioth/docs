@@ -24,6 +24,7 @@ sidebar_class_name: hide-item
 
 ## Supported features
 
+* flash
 * usb_device
 * watchdog
 
@@ -31,7 +32,6 @@ sidebar_class_name: hide-item
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

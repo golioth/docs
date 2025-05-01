@@ -29,7 +29,6 @@ List of supported features is not available.
 ## Supported toolchains
 
 * zephyr
-* xtools
 * llvm
 
 ## Official Zephyr docs

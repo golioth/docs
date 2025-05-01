@@ -3,13 +3,13 @@ id: seeeduino_xiao
 title: Seeeduino XIAO
 slug: /firmware/hardware/catalog/boards/unverified/seeeduino_xiao
 description: IoT board Seeeduino XIAO, compatible with Golioth at unverified level.
-image: /img/boards/seeeduino_xiao.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![Seeeduino XIAO!](/img/boards/seeeduino_xiao.jpg "Seeeduino XIAO")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -31,15 +31,18 @@ sidebar_class_name: hide-item
 * i2c
 * spi
 * uart
-* usb
 * usb_device
 * watchdog
+* xiao_adc
+* xiao_gpio
+* xiao_i2c
+* xiao_serial
+* xiao_spi
 
 ## Supported toolchains
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

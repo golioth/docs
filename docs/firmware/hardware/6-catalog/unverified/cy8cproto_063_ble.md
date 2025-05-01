@@ -1,15 +1,15 @@
 ---
 id: cy8cproto_063_ble
-title: CY8CPROTO-063-BLE PSoC™ 6 BLE Prototyping Kit
+title: CY8CPROTO-063-BLE PSOC™ 6 BLE Prototyping Kit
 slug: /firmware/hardware/catalog/boards/unverified/cy8cproto_063_ble
-description: IoT board CY8CPROTO-063-BLE PSoC™ 6 BLE Prototyping Kit, compatible with Golioth at unverified level.
-image: /img/boards/cy8cproto_063_ble.jpg
+description: IoT board CY8CPROTO-063-BLE PSOC™ 6 BLE Prototyping Kit, compatible with Golioth at unverified level.
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![CY8CPROTO-063-BLE PSoC™ 6 BLE Prototyping Kit!](/img/boards/cy8cproto_063_ble.jpg "CY8CPROTO-063-BLE PSoC™ 6 BLE Prototyping Kit")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -39,4 +39,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[CY8CPROTO-063-BLE PSoC™ 6 BLE Prototyping Kit (cy8cproto_063_ble)](https://docs.zephyrproject.org/latest/boards/infineon/cy8cproto_063_ble/doc/index.html)
+[CY8CPROTO-063-BLE PSOC™ 6 BLE Prototyping Kit (cy8cproto_063_ble)](https://docs.zephyrproject.org/latest/boards/infineon/cy8cproto_063_ble/doc/index.html)

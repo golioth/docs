@@ -15,7 +15,7 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `qemu_arc_qemu_arc_hs` |
 | Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
-| RAM*           | N/A |
+| RAM*           | 4096 kB |
 | Flash*         | N/A |
 
 \* values are as reported by Zephyr `.yaml` board files, which don't represent the overall available resources

@@ -3,13 +3,13 @@ id: stm32l562e_dk
 title: ST STM32L562E-DK Discovery
 slug: /firmware/hardware/catalog/boards/unverified/stm32l562e_dk
 description: IoT board ST STM32L562E-DK Discovery, compatible with Golioth at unverified level.
-image: /img/boards/stm32l562e_dk.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![ST STM32L562E-DK Discovery!](/img/boards/stm32l562e_dk.jpg "ST STM32L562E-DK Discovery")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -37,7 +37,6 @@ sidebar_class_name: hide-item
 * dma
 * usart
 * arduino_spi
-* usb
 * usb_device
 * nvs
 * usbd

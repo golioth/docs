@@ -29,13 +29,11 @@ sidebar_class_name: hide-item
 * i2c
 * spi
 * pwm
-* usb
 
 ## Supported toolchains
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

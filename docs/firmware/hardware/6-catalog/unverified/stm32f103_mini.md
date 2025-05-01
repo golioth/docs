@@ -37,8 +37,7 @@ sidebar_class_name: hide-item
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 
-[STM32F103RCT6 Mini Board (stm32f103_mini)](https://docs.zephyrproject.org/latest/boards/st/stm32f103_mini/doc/index.html)
+[STM32F103RCT6 Mini Board (stm32f103_mini)](https://docs.zephyrproject.org/latest/boards/others/stm32f103_mini/doc/index.html)

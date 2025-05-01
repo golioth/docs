@@ -30,6 +30,11 @@ sidebar_class_name: hide-item
 * uart
 * watchdog
 * can
+* xiao_adc
+* xiao_gpio
+* xiao_i2c
+* xiao_serial
+* xiao_spi
 
 ## Supported toolchains
 

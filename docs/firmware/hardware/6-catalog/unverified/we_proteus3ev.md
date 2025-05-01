@@ -3,13 +3,13 @@ id: we_proteus3ev
 title: we_proteus3ev_nrf52840
 slug: /firmware/hardware/catalog/boards/unverified/we_proteus3ev
 description: IoT board we_proteus3ev_nrf52840, compatible with Golioth at unverified level.
-image: /img/boards/we_proteus3ev.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![we_proteus3ev_nrf52840!](/img/boards/we_proteus3ev.jpg "we_proteus3ev_nrf52840")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -34,7 +34,6 @@ sidebar_class_name: hide-item
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

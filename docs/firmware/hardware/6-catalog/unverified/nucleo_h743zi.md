@@ -3,13 +3,13 @@ id: nucleo_h743zi
 title: ST Nucleo H743ZI
 slug: /firmware/hardware/catalog/boards/unverified/nucleo_h743zi
 description: IoT board ST Nucleo H743ZI, compatible with Golioth at unverified level.
-image: /img/boards/nucleo_h743zi.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![ST Nucleo H743ZI!](/img/boards/nucleo_h743zi.jpg "ST Nucleo H743ZI")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -47,7 +47,6 @@ sidebar_class_name: hide-item
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

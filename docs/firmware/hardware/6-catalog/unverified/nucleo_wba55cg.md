@@ -3,13 +3,13 @@ id: nucleo_wba55cg
 title: ST Nucleo WBA55CG
 slug: /firmware/hardware/catalog/boards/unverified/nucleo_wba55cg
 description: IoT board ST Nucleo WBA55CG, compatible with Golioth at unverified level.
-image: /img/boards/nucleo_wba55cg.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![ST Nucleo WBA55CG!](/img/boards/nucleo_wba55cg.jpg "ST Nucleo WBA55CG")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |

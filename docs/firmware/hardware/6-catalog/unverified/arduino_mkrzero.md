@@ -3,13 +3,13 @@ id: arduino_mkrzero
 title: Arduino MKRZERO
 slug: /firmware/hardware/catalog/boards/unverified/arduino_mkrzero
 description: IoT board Arduino MKRZERO, compatible with Golioth at unverified level.
-image: /img/boards/arduino_mkrzero.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![Arduino MKRZERO!](/img/boards/arduino_mkrzero.jpg "Arduino MKRZERO")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -40,7 +40,6 @@ sidebar_class_name: hide-item
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

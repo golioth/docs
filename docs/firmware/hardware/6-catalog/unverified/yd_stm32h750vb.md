@@ -3,13 +3,13 @@ id: yd_stm32h750vb
 title: YD-STM32H750VB
 slug: /firmware/hardware/catalog/boards/unverified/yd_stm32h750vb
 description: IoT board YD-STM32H750VB, compatible with Golioth at unverified level.
-image: /img/boards/yd_stm32h750vb.png
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![YD-STM32H750VB!](/img/boards/yd_stm32h750vb.png "YD-STM32H750VB")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -32,7 +32,6 @@ sidebar_class_name: hide-item
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

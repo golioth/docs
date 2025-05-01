@@ -3,20 +3,20 @@ id: lpcxpresso55s36
 title: NXP LPCXpresso55S36
 slug: /firmware/hardware/catalog/boards/unverified/lpcxpresso55s36
 description: IoT board NXP LPCXpresso55S36, compatible with Golioth at unverified level.
-image: /img/boards/lpcxpresso55s36.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![NXP LPCXpresso55S36!](/img/boards/lpcxpresso55s36.jpg "NXP LPCXpresso55S36")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `lpcxpresso55s36` |
 | Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
-| RAM*           | 96 kB |
-| Flash*         | 256 kB |
+| RAM*           | 112 kB |
+| Flash*         | 246 kB |
 
 \* values are as reported by Zephyr `.yaml` board files, which don't represent the overall available resources
 
@@ -24,10 +24,12 @@ sidebar_class_name: hide-item
 
 ## Supported features
 
+* arduino_gpio
 * can
+* dac
+* flash
 * gpio
 * pwm
-* dac
 * usb_device
 * usbd
 
@@ -35,7 +37,6 @@ sidebar_class_name: hide-item
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

@@ -38,7 +38,6 @@ sidebar_class_name: hide-item
 ## Supported toolchains
 
 * gnuarmemb
-* xtools
 * zephyr
 
 ## Official Zephyr docs

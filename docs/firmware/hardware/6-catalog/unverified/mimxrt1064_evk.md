@@ -3,13 +3,13 @@ id: mimxrt1064_evk
 title: NXP MIMXRT1064-EVK
 slug: /firmware/hardware/catalog/boards/unverified/mimxrt1064_evk
 description: IoT board NXP MIMXRT1064-EVK, compatible with Golioth at unverified level.
-image: /img/boards/mimxrt1064_evk.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![NXP MIMXRT1064-EVK!](/img/boards/mimxrt1064_evk.jpg "NXP MIMXRT1064-EVK")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -24,11 +24,14 @@ sidebar_class_name: hide-item
 
 ## Supported features
 
+* adc
 * arduino_gpio
 * arduino_serial
+* can
 * counter
 * display
 * dma
+* flash
 * gpio
 * hwinfo
 * i2c
@@ -38,15 +41,12 @@ sidebar_class_name: hide-item
 * spi
 * usb_device
 * video
-* can
 * watchdog
-* adc
 
 ## Supported toolchains
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

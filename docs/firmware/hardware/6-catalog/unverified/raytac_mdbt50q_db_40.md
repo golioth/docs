@@ -3,13 +3,13 @@ id: raytac_mdbt50q_db_40
 title: Raytac MDBT50Q_DB_40_NRF52840
 slug: /firmware/hardware/catalog/boards/unverified/raytac_mdbt50q_db_40
 description: IoT board Raytac MDBT50Q_DB_40_NRF52840, compatible with Golioth at unverified level.
-image: /img/boards/raytac_mdbt50q_db_40.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![Raytac MDBT50Q_DB_40_NRF52840!](/img/boards/raytac_mdbt50q_db_40.jpg "Raytac MDBT50Q_DB_40_NRF52840")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -41,7 +41,6 @@ sidebar_class_name: hide-item
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

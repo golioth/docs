@@ -31,6 +31,7 @@ sidebar_class_name: hide-item
 * uart
 * i2c
 * watchdog
+* usb_device
 
 ## Supported toolchains
 

@@ -3,13 +3,13 @@ id: mps2_an521
 title: mps2_an521
 slug: /firmware/hardware/catalog/boards/unverified/mps2_an521
 description: IoT board mps2_an521, compatible with Golioth at unverified level.
-image: /img/boards/mps2_an521.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![mps2_an521!](/img/boards/mps2_an521.jpg "mps2_an521")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |

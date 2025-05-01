@@ -3,13 +3,13 @@ id: nucleo_g431rb
 title: ST Nucleo G431RB
 slug: /firmware/hardware/catalog/boards/unverified/nucleo_g431rb
 description: IoT board ST Nucleo G431RB, compatible with Golioth at unverified level.
-image: /img/boards/nucleo_g431rb.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![ST Nucleo G431RB!](/img/boards/nucleo_g431rb.jpg "ST Nucleo G431RB")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -42,7 +42,6 @@ sidebar_class_name: hide-item
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

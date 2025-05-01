@@ -3,13 +3,13 @@ id: weact_stm32f405_core
 title: WeAct Studio STM32F405 Core Board
 slug: /firmware/hardware/catalog/boards/unverified/weact_stm32f405_core
 description: IoT board WeAct Studio STM32F405 Core Board, compatible with Golioth at unverified level.
-image: /img/boards/weact_stm32f405_core.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![WeAct Studio STM32F405 Core Board!](/img/boards/weact_stm32f405_core.jpg "WeAct Studio STM32F405 Core Board")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -28,7 +28,6 @@ sidebar_class_name: hide-item
 * spi
 * i2c
 * uart
-* usb
 * can
 * gpio
 * watchdog
@@ -38,7 +37,6 @@ sidebar_class_name: hide-item
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

@@ -3,13 +3,13 @@ id: arduino_giga_r1
 title: arduino_giga_r1
 slug: /firmware/hardware/catalog/boards/unverified/arduino_giga_r1
 description: IoT board arduino_giga_r1, compatible with Golioth at unverified level.
-image: /img/boards/arduino_giga_r1.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![arduino_giga_r1!](/img/boards/arduino_giga_r1.jpg "arduino_giga_r1")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |

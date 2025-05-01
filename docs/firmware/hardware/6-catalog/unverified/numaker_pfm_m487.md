@@ -3,13 +3,13 @@ id: numaker_pfm_m487
 title: NUVOTON-PFM-M487
 slug: /firmware/hardware/catalog/boards/unverified/numaker_pfm_m487
 description: IoT board NUVOTON-PFM-M487, compatible with Golioth at unverified level.
-image: /img/boards/numaker_pfm_m487.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![NUVOTON-PFM-M487!](/img/boards/numaker_pfm_m487.jpg "NUVOTON-PFM-M487")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -30,7 +30,6 @@ List of supported features is not available.
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

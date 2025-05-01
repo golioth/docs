@@ -3,13 +3,13 @@ id: pan1783_evb
 title: pan1783_evb
 slug: /firmware/hardware/catalog/boards/unverified/pan1783_evb
 description: IoT board pan1783_evb, compatible with Golioth at unverified level.
-image: /img/boards/pan1783_evb.webp
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![pan1783_evb!](/img/boards/pan1783_evb.webp "pan1783_evb")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |

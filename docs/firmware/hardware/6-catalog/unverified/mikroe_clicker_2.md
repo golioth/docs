@@ -3,13 +3,13 @@ id: mikroe_clicker_2
 title: MikroE Clicker 2 for STM32
 slug: /firmware/hardware/catalog/boards/unverified/mikroe_clicker_2
 description: IoT board MikroE Clicker 2 for STM32, compatible with Golioth at unverified level.
-image: /img/boards/mikroe_clicker_2.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![MikroE Clicker 2 for STM32!](/img/boards/mikroe_clicker_2.jpg "MikroE Clicker 2 for STM32")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -32,7 +32,6 @@ sidebar_class_name: hide-item
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

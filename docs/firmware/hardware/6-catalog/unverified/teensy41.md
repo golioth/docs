@@ -3,13 +3,13 @@ id: teensy41
 title: PJRC TEENSY41
 slug: /firmware/hardware/catalog/boards/unverified/teensy41
 description: IoT board PJRC TEENSY41, compatible with Golioth at unverified level.
-image: /img/boards/teensy41.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![PJRC TEENSY41!](/img/boards/teensy41.jpg "PJRC TEENSY41")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -28,12 +28,12 @@ sidebar_class_name: hide-item
 * gpio
 * sdhc
 * usb_device
+* netif:eth
 
 ## Supported toolchains
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

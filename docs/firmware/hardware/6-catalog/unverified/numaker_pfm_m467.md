@@ -3,13 +3,13 @@ id: numaker_pfm_m467
 title: NUVOTON NUMAKER-PFM-M467 Kit
 slug: /firmware/hardware/catalog/boards/unverified/numaker_pfm_m467
 description: IoT board NUVOTON NUMAKER-PFM-M467 Kit, compatible with Golioth at unverified level.
-image: /img/boards/numaker_pfm_m467.jpeg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![NUVOTON NUMAKER-PFM-M467 Kit!](/img/boards/numaker_pfm_m467.jpeg "NUVOTON NUMAKER-PFM-M467 Kit")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -31,7 +31,6 @@ sidebar_class_name: hide-item
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

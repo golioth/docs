@@ -26,6 +26,7 @@ sidebar_class_name: hide-item
 
 * adc
 * ble
+* flash
 * gpio
 * i2c
 * pwm
@@ -35,7 +36,6 @@ sidebar_class_name: hide-item
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

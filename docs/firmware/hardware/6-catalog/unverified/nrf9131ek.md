@@ -3,13 +3,13 @@ id: nrf9131ek
 title: nRF9131-EK-NRF9131
 slug: /firmware/hardware/catalog/boards/unverified/nrf9131ek
 description: IoT board nRF9131-EK-NRF9131, compatible with Golioth at unverified level.
-image: /img/boards/nrf9131ek.webp
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![nRF9131-EK-NRF9131!](/img/boards/nrf9131ek.webp "nRF9131-EK-NRF9131")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -34,7 +34,6 @@ sidebar_class_name: hide-item
 ## Supported toolchains
 
 * gnuarmemb
-* xtools
 * zephyr
 
 ## Official Zephyr docs

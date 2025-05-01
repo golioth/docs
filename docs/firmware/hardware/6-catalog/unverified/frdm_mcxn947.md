@@ -3,13 +3,13 @@ id: frdm_mcxn947
 title: frdm_mcxn947
 slug: /firmware/hardware/catalog/boards/unverified/frdm_mcxn947
 description: IoT board frdm_mcxn947, compatible with Golioth at unverified level.
-image: /img/boards/frdm_mcxn947.webp
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![frdm_mcxn947!](/img/boards/frdm_mcxn947.webp "frdm_mcxn947")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |

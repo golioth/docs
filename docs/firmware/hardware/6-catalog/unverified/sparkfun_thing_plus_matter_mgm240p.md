@@ -29,12 +29,12 @@ sidebar_class_name: hide-item
 * uart
 * spi
 * watchdog
+* clock_control
 
 ## Supported toolchains
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

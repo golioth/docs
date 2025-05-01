@@ -3,13 +3,13 @@ id: mimxrt685_evk
 title: mimxrt685_evk
 slug: /firmware/hardware/catalog/boards/unverified/mimxrt685_evk
 description: IoT board mimxrt685_evk, compatible with Golioth at unverified level.
-image: /img/boards/mimxrt685_evk.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![mimxrt685_evk!](/img/boards/mimxrt685_evk.jpg "mimxrt685_evk")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |

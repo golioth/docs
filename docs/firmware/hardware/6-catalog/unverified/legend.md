@@ -1,22 +1,22 @@
 ---
 id: legend
-title: legend
+title: Legend (25hdd)
 slug: /firmware/hardware/catalog/boards/unverified/legend
-description: IoT board legend, compatible with Golioth at unverified level.
+description: IoT board Legend (25hdd), compatible with Golioth at unverified level.
 image: /img/boards/legend.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![legend!](/img/boards/legend.jpg "legend")
+![Legend (25hdd)!](/img/boards/legend.jpg "Legend (25hdd)")
 
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `legend` |
 | Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
-| RAM*           | N/A |
-| Flash*         | N/A |
+| RAM*           | 16 kB |
+| Flash*         | 128 kB |
 
 \* values are as reported by Zephyr `.yaml` board files, which don't represent the overall available resources
 
@@ -24,12 +24,16 @@ sidebar_class_name: hide-item
 
 ## Supported features
 
-List of supported features is not available.
+* gpio
+* i2c
+* pwm
+* spi
 
 ## Supported toolchains
 
-List of supported toolchains is not available.
+* zephyr
+* gnuarmemb
 
 ## Official Zephyr docs
 
-[legend (legend)](https://docs.zephyrproject.org/latest/boards/seagate/legend/doc/index.html)
+[Legend (25hdd) (legend)](https://docs.zephyrproject.org/latest/boards/seagate/legend/doc/index.html)

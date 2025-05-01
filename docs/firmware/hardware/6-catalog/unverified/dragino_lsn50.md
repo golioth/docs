@@ -3,13 +3,13 @@ id: dragino_lsn50
 title: Dragino LSN50 LoRA Sensor Node
 slug: /firmware/hardware/catalog/boards/unverified/dragino_lsn50
 description: IoT board Dragino LSN50 LoRA Sensor Node, compatible with Golioth at unverified level.
-image: /img/boards/dragino_lsn50.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![Dragino LSN50 LoRA Sensor Node!](/img/boards/dragino_lsn50.jpg "Dragino LSN50 LoRA Sensor Node")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -30,7 +30,6 @@ List of supported features is not available.
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

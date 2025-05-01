@@ -3,13 +3,13 @@ id: iotdk
 title: IoT Development Kit
 slug: /firmware/hardware/catalog/boards/unverified/iotdk
 description: IoT board IoT Development Kit, compatible with Golioth at unverified level.
-image: /img/boards/iotdk.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![IoT Development Kit!](/img/boards/iotdk.jpg "IoT Development Kit")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -30,7 +30,6 @@ List of supported features is not available.
 
 * zephyr
 * cross-compile
-* xtools
 
 ## Official Zephyr docs
 

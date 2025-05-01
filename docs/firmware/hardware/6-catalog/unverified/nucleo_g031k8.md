@@ -3,13 +3,13 @@ id: nucleo_g031k8
 title: ST Nucleo G031K8
 slug: /firmware/hardware/catalog/boards/unverified/nucleo_g031k8
 description: IoT board ST Nucleo G031K8, compatible with Golioth at unverified level.
-image: /img/boards/nucleo_g031k8.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![ST Nucleo G031K8!](/img/boards/nucleo_g031k8.jpg "ST Nucleo G031K8")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -32,7 +32,6 @@ sidebar_class_name: hide-item
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

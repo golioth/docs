@@ -3,13 +3,13 @@ id: colibri_imx7d
 title: colibri_imx7d
 slug: /firmware/hardware/catalog/boards/unverified/colibri_imx7d
 description: IoT board colibri_imx7d, compatible with Golioth at unverified level.
-image: /img/boards/colibri_imx7d.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![colibri_imx7d!](/img/boards/colibri_imx7d.jpg "colibri_imx7d")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |

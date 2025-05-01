@@ -15,7 +15,7 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `nucleo_l4r5zi` |
 | Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
-| RAM*           | 640 kB |
+| RAM*           | 192 kB |
 | Flash*         | 2048 kB |
 
 \* values are as reported by Zephyr `.yaml` board files, which don't represent the overall available resources
@@ -41,7 +41,6 @@ sidebar_class_name: hide-item
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

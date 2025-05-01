@@ -3,13 +3,13 @@ id: gd32e507z_eval
 title: GigaDevice GD32E507Z-EVAL
 slug: /firmware/hardware/catalog/boards/unverified/gd32e507z_eval
 description: IoT board GigaDevice GD32E507Z-EVAL, compatible with Golioth at unverified level.
-image: /img/boards/gd32e507z_eval.webp
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![GigaDevice GD32E507Z-EVAL!](/img/boards/gd32e507z_eval.webp "GigaDevice GD32E507Z-EVAL")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -32,7 +32,6 @@ sidebar_class_name: hide-item
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

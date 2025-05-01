@@ -3,19 +3,19 @@ id: nucleo_l4a6zg
 title: ST Nucleo L4A6ZG
 slug: /firmware/hardware/catalog/boards/unverified/nucleo_l4a6zg
 description: IoT board ST Nucleo L4A6ZG, compatible with Golioth at unverified level.
-image: /img/boards/nucleo_l4a6zg.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![ST Nucleo L4A6ZG!](/img/boards/nucleo_l4a6zg.jpg "ST Nucleo L4A6ZG")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
 | Board ID       | `nucleo_l4a6zg` |
 | Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
-| RAM*           | 320 kB |
+| RAM*           | 256 kB |
 | Flash*         | 1024 kB |
 
 \* values are as reported by Zephyr `.yaml` board files, which don't represent the overall available resources

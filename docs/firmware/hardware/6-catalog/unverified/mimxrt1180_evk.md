@@ -3,13 +3,13 @@ id: mimxrt1180_evk
 title: mimxrt1180_evk
 slug: /firmware/hardware/catalog/boards/unverified/mimxrt1180_evk
 description: IoT board mimxrt1180_evk, compatible with Golioth at unverified level.
-image: /img/boards/mimxrt1180_evk.webp
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![mimxrt1180_evk!](/img/boards/mimxrt1180_evk.webp "mimxrt1180_evk")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |

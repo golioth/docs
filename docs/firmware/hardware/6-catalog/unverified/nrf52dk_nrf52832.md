@@ -3,13 +3,13 @@ id: nrf52dk_nrf52832
 title: nRF52-DK-NRF52832
 slug: /firmware/hardware/catalog/boards/unverified/nrf52dk_nrf52832
 description: IoT board nRF52-DK-NRF52832, compatible with Golioth at unverified level.
-image: /img/boards/nrf52dk_nrf52832.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![nRF52-DK-NRF52832!](/img/boards/nrf52dk_nrf52832.jpg "nRF52-DK-NRF52832")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -40,7 +40,6 @@ sidebar_class_name: hide-item
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

@@ -3,13 +3,13 @@ id: warp7
 title: warp7
 slug: /firmware/hardware/catalog/boards/unverified/warp7
 description: IoT board warp7, compatible with Golioth at unverified level.
-image: /img/boards/warp7.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![warp7!](/img/boards/warp7.jpg "warp7")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |

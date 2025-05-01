@@ -3,13 +3,13 @@ id: swan_r5
 title: Blues Wireless Swan
 slug: /firmware/hardware/catalog/boards/unverified/swan_r5
 description: IoT board Blues Wireless Swan, compatible with Golioth at unverified level.
-image: /img/boards/swan_r5.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![Blues Wireless Swan!](/img/boards/swan_r5.jpg "Blues Wireless Swan")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -37,7 +37,6 @@ sidebar_class_name: hide-item
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

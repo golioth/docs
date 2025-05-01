@@ -3,13 +3,13 @@ id: emsdp_emsdp_em5d
 title: EM Software Development Platform (EM5D)
 slug: /firmware/hardware/catalog/boards/unverified/emsdp_emsdp_em5d
 description: IoT board EM Software Development Platform (EM5D), compatible with Golioth at unverified level.
-image: /img/boards/emsdp_emsdp_em5d.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![EM Software Development Platform (EM5D)!](/img/boards/emsdp_emsdp_em5d.jpg "EM Software Development Platform (EM5D)")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -30,7 +30,6 @@ List of supported features is not available.
 
 * zephyr
 * cross-compile
-* xtools
 
 ## Official Zephyr docs
 

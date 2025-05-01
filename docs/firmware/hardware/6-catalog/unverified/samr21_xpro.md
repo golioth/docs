@@ -25,14 +25,17 @@ sidebar_class_name: hide-item
 ## Supported features
 
 * adc
+* dma
 * flash
 * gpio
 * i2c
 * netif
 * pwm
+* rtc
 * spi
 * uart
 * usb_device
+* usbd
 * xpro_gpio
 * xpro_i2c
 * xpro_serial
@@ -42,7 +45,6 @@ sidebar_class_name: hide-item
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

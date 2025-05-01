@@ -15,7 +15,7 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `xiao_rp2040` |
 | Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
-| RAM*           | 256 kB |
+| RAM*           | 264 kB |
 | Flash*         | 2048 kB |
 
 \* values are as reported by Zephyr `.yaml` board files, which don't represent the overall available resources
@@ -36,12 +36,15 @@ sidebar_class_name: hide-item
 * dma
 * counter
 * clock
+* xiao_gpio
+* xiao_i2c
+* xiao_serial
+* xiao_spi
 
 ## Supported toolchains
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

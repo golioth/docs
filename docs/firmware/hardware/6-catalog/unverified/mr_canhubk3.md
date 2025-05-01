@@ -3,13 +3,13 @@ id: mr_canhubk3
 title: NXP MR-CANHUBK3
 slug: /firmware/hardware/catalog/boards/unverified/mr_canhubk3
 description: IoT board NXP MR-CANHUBK3, compatible with Golioth at unverified level.
-image: /img/boards/mr_canhubk3.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![NXP MR-CANHUBK3!](/img/boards/mr_canhubk3.jpg "NXP MR-CANHUBK3")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -24,18 +24,19 @@ sidebar_class_name: hide-item
 
 ## Supported features
 
-* gpio
-* uart
-* can
-* i2c
 * adc
-* spi
-* watchdog
+* can
+* counter
+* display
+* dma
+* flash
+* gpio
+* i2c
 * netif:eth
 * pwm
-* dma
-* display
-* counter
+* spi
+* uart
+* watchdog
 
 ## Supported toolchains
 

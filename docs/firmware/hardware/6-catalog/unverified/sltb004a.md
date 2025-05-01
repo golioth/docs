@@ -1,15 +1,15 @@
 ---
 id: sltb004a
-title: Thunderboard Sense 2 (SLTB004A, BRD4166A)
+title: Thunderboard Sense 2 (SLTB004A, BRD4166A, EFR32MG12)
 slug: /firmware/hardware/catalog/boards/unverified/sltb004a
-description: IoT board Thunderboard Sense 2 (SLTB004A, BRD4166A), compatible with Golioth at unverified level.
-image: /img/boards/sltb004a.jpg
+description: IoT board Thunderboard Sense 2 (SLTB004A, BRD4166A, EFR32MG12), compatible with Golioth at unverified level.
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![Thunderboard Sense 2 (SLTB004A, BRD4166A)!](/img/boards/sltb004a.jpg "Thunderboard Sense 2 (SLTB004A, BRD4166A)")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -34,8 +34,7 @@ sidebar_class_name: hide-item
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 
-[Thunderboard Sense 2 (SLTB004A, BRD4166A) (sltb004a)](https://docs.zephyrproject.org/latest/boards/silabs/dev_kits/sltb004a/doc/index.html)
+[Thunderboard Sense 2 (SLTB004A, BRD4166A, EFR32MG12) (sltb004a)](https://docs.zephyrproject.org/latest/boards/silabs/dev_kits/sltb004a/doc/index.html)

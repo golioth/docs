@@ -3,13 +3,13 @@ id: sam4s_xplained
 title: SAM4S Xplained
 slug: /firmware/hardware/catalog/boards/unverified/sam4s_xplained
 description: IoT board SAM4S Xplained, compatible with Golioth at unverified level.
-image: /img/boards/sam4s_xplained.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![SAM4S Xplained!](/img/boards/sam4s_xplained.jpg "SAM4S Xplained")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -26,6 +26,7 @@ sidebar_class_name: hide-item
 
 * adc
 * counter
+* dac
 * gpio
 * hwinfo
 * memc
@@ -41,7 +42,6 @@ sidebar_class_name: hide-item
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

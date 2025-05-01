@@ -27,7 +27,6 @@ sidebar_class_name: hide-item
 * gpio
 * adc
 * i2c
-* kscan
 * pwm
 * watchdog
 

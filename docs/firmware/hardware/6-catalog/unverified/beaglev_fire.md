@@ -3,13 +3,13 @@ id: beaglev_fire
 title: beaglev_fire
 slug: /firmware/hardware/catalog/boards/unverified/beaglev_fire
 description: IoT board beaglev_fire, compatible with Golioth at unverified level.
-image: /img/boards/beaglev_fire.webp
+image: /img/boards/beaglev_fire.png
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![beaglev_fire!](/img/boards/beaglev_fire.webp "beaglev_fire")
+![beaglev_fire!](/img/boards/beaglev_fire.png "beaglev_fire")
 
 |                | Board properties     |
 | -------------  | -------------------- |

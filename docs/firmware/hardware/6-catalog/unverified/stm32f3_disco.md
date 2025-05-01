@@ -3,13 +3,13 @@ id: stm32f3_disco
 title: ST STM32F3 Discovery rev B
 slug: /firmware/hardware/catalog/boards/unverified/stm32f3_disco
 description: IoT board ST STM32F3 Discovery rev B, compatible with Golioth at unverified level.
-image: /img/boards/stm32f3_disco.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![ST STM32F3 Discovery rev B!](/img/boards/stm32f3_disco.jpg "ST STM32F3 Discovery rev B")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -43,7 +43,6 @@ sidebar_class_name: hide-item
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

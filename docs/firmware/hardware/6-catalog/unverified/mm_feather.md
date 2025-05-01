@@ -3,13 +3,13 @@ id: mm_feather
 title: MM MM-FEATHER
 slug: /firmware/hardware/catalog/boards/unverified/mm_feather
 description: IoT board MM MM-FEATHER, compatible with Golioth at unverified level.
-image: /img/boards/mm_feather.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![MM MM-FEATHER!](/img/boards/mm_feather.jpg "MM MM-FEATHER")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -37,7 +37,6 @@ sidebar_class_name: hide-item
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

@@ -3,13 +3,13 @@ id: pan1782_evb
 title: pan1782-evb
 slug: /firmware/hardware/catalog/boards/unverified/pan1782_evb
 description: IoT board pan1782-evb, compatible with Golioth at unverified level.
-image: /img/boards/pan1782_evb.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![pan1782-evb!](/img/boards/pan1782_evb.jpg "pan1782-evb")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -25,7 +25,6 @@ sidebar_class_name: hide-item
 ## Supported features
 
 * adc
-* arduino_gpio
 * arduino_i2c
 * arduino_spi
 * usb_device
@@ -41,7 +40,6 @@ sidebar_class_name: hide-item
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

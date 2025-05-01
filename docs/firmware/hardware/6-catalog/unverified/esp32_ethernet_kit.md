@@ -29,6 +29,7 @@ sidebar_class_name: hide-item
 * uart
 * nvs
 * pwm
+* i2s
 
 ## Supported toolchains
 

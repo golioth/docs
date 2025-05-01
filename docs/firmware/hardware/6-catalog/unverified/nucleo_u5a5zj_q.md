@@ -39,6 +39,7 @@ sidebar_class_name: hide-item
 * backup_sram
 * dma
 * rtc
+* usb_device
 
 ## Supported toolchains
 

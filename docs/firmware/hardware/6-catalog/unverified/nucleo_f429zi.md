@@ -38,7 +38,6 @@ sidebar_class_name: hide-item
 * adc
 * dac
 * dma
-* nvs
 * rtc
 * usbd
 
@@ -46,7 +45,6 @@ sidebar_class_name: hide-item
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

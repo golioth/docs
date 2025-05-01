@@ -3,13 +3,13 @@ id: numaker_m2l31ki
 title: NUVOTON NUMAKER-M2L31KI Kit
 slug: /firmware/hardware/catalog/boards/unverified/numaker_m2l31ki
 description: IoT board NUVOTON NUMAKER-M2L31KI Kit, compatible with Golioth at unverified level.
-image: /img/boards/numaker_m2l31ki.webp
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![NUVOTON NUMAKER-M2L31KI Kit!](/img/boards/numaker_m2l31ki.webp "NUVOTON NUMAKER-M2L31KI Kit")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -25,12 +25,12 @@ sidebar_class_name: hide-item
 ## Supported features
 
 * gpio
+* usbd
 
 ## Supported toolchains
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

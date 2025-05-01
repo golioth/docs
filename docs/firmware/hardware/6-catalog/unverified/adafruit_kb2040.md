@@ -3,13 +3,13 @@ id: adafruit_kb2040
 title: Adafruit KB2040
 slug: /firmware/hardware/catalog/boards/unverified/adafruit_kb2040
 description: IoT board Adafruit KB2040, compatible with Golioth at unverified level.
-image: /img/boards/adafruit_kb2040.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![Adafruit KB2040!](/img/boards/adafruit_kb2040.jpg "Adafruit KB2040")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -41,7 +41,6 @@ sidebar_class_name: hide-item
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

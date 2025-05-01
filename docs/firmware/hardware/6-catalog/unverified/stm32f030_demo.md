@@ -3,13 +3,13 @@ id: stm32f030_demo
 title: STM32F030 DEMO BOARD
 slug: /firmware/hardware/catalog/boards/unverified/stm32f030_demo
 description: IoT board STM32F030 DEMO BOARD, compatible with Golioth at unverified level.
-image: /img/boards/stm32f030_demo.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![STM32F030 DEMO BOARD!](/img/boards/stm32f030_demo.jpg "STM32F030 DEMO BOARD")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -32,7 +32,6 @@ sidebar_class_name: hide-item
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

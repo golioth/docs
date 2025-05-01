@@ -3,13 +3,13 @@ id: imx8mq_evk
 title: imx8mq_evk
 slug: /firmware/hardware/catalog/boards/unverified/imx8mq_evk
 description: IoT board imx8mq_evk, compatible with Golioth at unverified level.
-image: /img/boards/imx8mq_evk.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![imx8mq_evk!](/img/boards/imx8mq_evk.jpg "imx8mq_evk")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |

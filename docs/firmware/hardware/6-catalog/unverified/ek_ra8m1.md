@@ -26,6 +26,8 @@ sidebar_class_name: hide-item
 
 * gpio
 * uart
+* watchdog
+* usbd
 
 ## Supported toolchains
 

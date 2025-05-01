@@ -3,13 +3,13 @@ id: nucleo_h563zi
 title: ST Nucleo H563ZI
 slug: /firmware/hardware/catalog/boards/unverified/nucleo_h563zi
 description: IoT board ST Nucleo H563ZI, compatible with Golioth at unverified level.
-image: /img/boards/nucleo_h563zi.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![ST Nucleo H563ZI!](/img/boards/nucleo_h563zi.jpg "ST Nucleo H563ZI")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -40,9 +40,9 @@ sidebar_class_name: hide-item
 * counter
 * spi
 * usb_device
-* usb
 * rtc
 * i2c
+* i3c
 
 ## Supported toolchains
 

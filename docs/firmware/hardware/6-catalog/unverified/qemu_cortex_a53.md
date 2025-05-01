@@ -15,8 +15,8 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `qemu_cortex_a53` |
 | Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
-| RAM*           | 128 kB |
-| Flash*         | N/A |
+| RAM*           | 131072 kB |
+| Flash*         | 65536 kB |
 
 \* values are as reported by Zephyr `.yaml` board files, which don't represent the overall available resources
 

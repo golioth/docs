@@ -3,13 +3,13 @@ id: da14695_dk_usb
 title: DA14695_DK_USB
 slug: /firmware/hardware/catalog/boards/unverified/da14695_dk_usb
 description: IoT board DA14695_DK_USB, compatible with Golioth at unverified level.
-image: /img/boards/da14695_dk_usb.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![DA14695_DK_USB!](/img/boards/da14695_dk_usb.jpg "DA14695_DK_USB")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -24,19 +24,18 @@ sidebar_class_name: hide-item
 
 ## Supported features
 
-* arduino_gpio
 * gpio
 * hwinfo
 * watchdog
 * i2c
 * spi
 * usb_device
+* usbd
 
 ## Supported toolchains
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

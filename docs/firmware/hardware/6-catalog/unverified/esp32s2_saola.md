@@ -28,6 +28,7 @@ sidebar_class_name: hide-item
 * dac
 * gpio
 * i2c
+* i2s
 * watchdog
 * uart
 * nvs

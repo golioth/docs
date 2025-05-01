@@ -3,13 +3,13 @@ id: lpcxpresso55s16
 title: NXP LPCXpresso55S16
 slug: /firmware/hardware/catalog/boards/unverified/lpcxpresso55s16
 description: IoT board NXP LPCXpresso55S16, compatible with Golioth at unverified level.
-image: /img/boards/lpcxpresso55s16.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![NXP LPCXpresso55S16!](/img/boards/lpcxpresso55s16.jpg "NXP LPCXpresso55S16")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -29,6 +29,7 @@ sidebar_class_name: hide-item
 * arduino_spi
 * can
 * counter
+* flash
 * gpio
 * i2c
 * spi
@@ -39,7 +40,6 @@ sidebar_class_name: hide-item
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

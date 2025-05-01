@@ -1,8 +1,8 @@
 ---
 id: cy8ckit_062s4
-title: CY8CKIT-062S4 PSoC 62S4
+title: CY8CKIT-062S4 PSOC 62S4
 slug: /firmware/hardware/catalog/boards/unverified/cy8ckit_062s4
-description: IoT board CY8CKIT-062S4 PSoC 62S4, compatible with Golioth at unverified level.
+description: IoT board CY8CKIT-062S4 PSOC 62S4, compatible with Golioth at unverified level.
 image: /img/boards/null
 sidebar_class_name: hide-item
 ---
@@ -33,4 +33,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[CY8CKIT-062S4 PSoC 62S4 (cy8ckit_062s4)](https://docs.zephyrproject.org/latest/boards/infineon/cy8ckit_062s4/doc/index.html)
+[CY8CKIT-062S4 PSOC 62S4 (cy8ckit_062s4)](https://docs.zephyrproject.org/latest/boards/infineon/cy8ckit_062s4/doc/index.html)

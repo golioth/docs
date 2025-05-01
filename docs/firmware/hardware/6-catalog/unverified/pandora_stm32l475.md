@@ -3,13 +3,13 @@ id: pandora_stm32l475
 title: STM32L475 Pandora
 slug: /firmware/hardware/catalog/boards/unverified/pandora_stm32l475
 description: IoT board STM32L475 Pandora, compatible with Golioth at unverified level.
-image: /img/boards/pandora_stm32l475.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![STM32L475 Pandora!](/img/boards/pandora_stm32l475.jpg "STM32L475 Pandora")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -31,7 +31,6 @@ sidebar_class_name: hide-item
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

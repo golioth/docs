@@ -3,13 +3,13 @@ id: sam_e70_xplained_same70q21b
 title: SAM E70 Xplained (Revision B)
 slug: /firmware/hardware/catalog/boards/unverified/sam_e70_xplained_same70q21b
 description: IoT board SAM E70 Xplained (Revision B), compatible with Golioth at unverified level.
-image: /img/boards/sam_e70_xplained_same70q21b.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![SAM E70 Xplained (Revision B)!](/img/boards/sam_e70_xplained_same70q21b.jpg "SAM E70 Xplained (Revision B)")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -35,7 +35,6 @@ sidebar_class_name: hide-item
 * pwm
 * netif:eth
 * spi
-* usb
 * usb_device
 * watchdog
 
@@ -43,7 +42,6 @@ sidebar_class_name: hide-item
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

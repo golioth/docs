@@ -3,13 +3,13 @@ id: mini_stm32h743
 title: WeAct Studio MiniSTM32H743 Core Board
 slug: /firmware/hardware/catalog/boards/unverified/mini_stm32h743
 description: IoT board WeAct Studio MiniSTM32H743 Core Board, compatible with Golioth at unverified level.
-image: /img/boards/mini_stm32h743.webp
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![WeAct Studio MiniSTM32H743 Core Board!](/img/boards/mini_stm32h743.webp "WeAct Studio MiniSTM32H743 Core Board")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -29,14 +29,13 @@ sidebar_class_name: hide-item
 * spi
 * backup_sram
 * watchdog
-* usb
 * qspi
+* video
 
 ## Supported toolchains
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

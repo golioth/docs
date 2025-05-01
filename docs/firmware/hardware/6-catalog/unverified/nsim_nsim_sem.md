@@ -1,8 +1,8 @@
 ---
 id: nsim_nsim_sem
-title: SEM Nsim simulator
+title: SEM nSIM simulator
 slug: /firmware/hardware/catalog/boards/unverified/nsim_nsim_sem
-description: IoT board SEM Nsim simulator, compatible with Golioth at unverified level.
+description: IoT board SEM nSIM simulator, compatible with Golioth at unverified level.
 image: /img/boards/null
 sidebar_class_name: hide-item
 ---
@@ -34,4 +34,4 @@ List of supported features is not available.
 
 ## Official Zephyr docs
 
-[SEM Nsim simulator (nsim_nsim_sem)](https://docs.zephyrproject.org/latest/boards/snps/nsim/arc_classic/doc/index.html)
+[SEM nSIM simulator (nsim_nsim_sem)](https://docs.zephyrproject.org/latest/boards/snps/nsim/arc_classic/doc/index.html)

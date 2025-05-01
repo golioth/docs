@@ -3,13 +3,13 @@ id: lpcxpresso11u68
 title: NXP LPCxpresso 11U68
 slug: /firmware/hardware/catalog/boards/unverified/lpcxpresso11u68
 description: IoT board NXP LPCxpresso 11U68, compatible with Golioth at unverified level.
-image: /img/boards/lpcxpresso11u68.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![NXP LPCxpresso 11U68!](/img/boards/lpcxpresso11u68.jpg "NXP LPCxpresso 11U68")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |

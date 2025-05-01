@@ -3,13 +3,13 @@ id: adafruit_feather_m0_basic_proto
 title: Adafruit Feather M0 Basic Proto
 slug: /firmware/hardware/catalog/boards/unverified/adafruit_feather_m0_basic_proto
 description: IoT board Adafruit Feather M0 Basic Proto, compatible with Golioth at unverified level.
-image: /img/boards/adafruit_feather_m0_basic_proto.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![Adafruit Feather M0 Basic Proto!](/img/boards/adafruit_feather_m0_basic_proto.jpg "Adafruit Feather M0 Basic Proto")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -30,7 +30,6 @@ List of supported features is not available.
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

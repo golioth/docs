@@ -34,7 +34,6 @@ sidebar_class_name: hide-item
 ## Supported toolchains
 
 * zephyr
-* xtools
 * llvm
 
 ## Official Zephyr docs

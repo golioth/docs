@@ -3,13 +3,13 @@ id: sam_v71_xult_samv71q21b
 title: SAM V71 Xplained Ultra (Revision B)
 slug: /firmware/hardware/catalog/boards/unverified/sam_v71_xult_samv71q21b
 description: IoT board SAM V71 Xplained Ultra (Revision B), compatible with Golioth at unverified level.
-image: /img/boards/sam_v71_xult_samv71q21b.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![SAM V71 Xplained Ultra (Revision B)!](/img/boards/sam_v71_xult_samv71q21b.jpg "SAM V71 Xplained Ultra (Revision B)")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -37,8 +37,8 @@ sidebar_class_name: hide-item
 * i2s
 * pwm
 * netif:eth
+* rtc
 * spi
-* usb
 * usb_device
 * watchdog
 * xpro_gpio
@@ -50,7 +50,6 @@ sidebar_class_name: hide-item
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

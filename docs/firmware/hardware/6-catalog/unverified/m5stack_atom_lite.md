@@ -3,13 +3,13 @@ id: m5stack_atom_lite
 title: M5Stack ATOM Lite
 slug: /firmware/hardware/catalog/boards/unverified/m5stack_atom_lite
 description: IoT board M5Stack ATOM Lite, compatible with Golioth at unverified level.
-image: /img/boards/m5stack_atom_lite.webp
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![M5Stack ATOM Lite!](/img/boards/m5stack_atom_lite.webp "M5Stack ATOM Lite")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |

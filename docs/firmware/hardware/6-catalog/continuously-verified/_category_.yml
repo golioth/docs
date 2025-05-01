@@ -1,5 +1,4 @@
-        label: Continuously verified boards
-        collapsible: true
-        collapsed: false
-        
-        
+label: Continuously verified boards
+collapsible: true
+collapsed: false
+position: 1

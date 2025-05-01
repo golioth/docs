@@ -3,13 +3,13 @@ id: stm32f401_mini
 title: STM32 Mini F401
 slug: /firmware/hardware/catalog/boards/unverified/stm32f401_mini
 description: IoT board STM32 Mini F401, compatible with Golioth at unverified level.
-image: /img/boards/stm32f401_mini.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![STM32 Mini F401!](/img/boards/stm32f401_mini.jpg "STM32 Mini F401")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -26,7 +26,6 @@ sidebar_class_name: hide-item
 
 * counter
 * spi
-* usb
 * i2c
 * uart
 * pwm
@@ -36,7 +35,6 @@ sidebar_class_name: hide-item
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

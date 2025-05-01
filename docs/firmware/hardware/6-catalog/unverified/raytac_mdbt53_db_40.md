@@ -3,13 +3,13 @@ id: raytac_mdbt53_db_40
 title: raytac_mdbt53_db_40
 slug: /firmware/hardware/catalog/boards/unverified/raytac_mdbt53_db_40
 description: IoT board raytac_mdbt53_db_40, compatible with Golioth at unverified level.
-image: /img/boards/raytac_mdbt53_db_40.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![raytac_mdbt53_db_40!](/img/boards/raytac_mdbt53_db_40.jpg "raytac_mdbt53_db_40")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |

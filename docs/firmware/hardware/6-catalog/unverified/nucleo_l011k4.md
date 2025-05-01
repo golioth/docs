@@ -3,13 +3,13 @@ id: nucleo_l011k4
 title: ST Nucleo L011K4
 slug: /firmware/hardware/catalog/boards/unverified/nucleo_l011k4
 description: IoT board ST Nucleo L011K4, compatible with Golioth at unverified level.
-image: /img/boards/nucleo_l011k4.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![ST Nucleo L011K4!](/img/boards/nucleo_l011k4.jpg "ST Nucleo L011K4")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -33,7 +33,6 @@ sidebar_class_name: hide-item
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

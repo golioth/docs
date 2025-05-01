@@ -3,13 +3,13 @@ id: nrf52840_papyr
 title: Electronut Labs Papyr
 slug: /firmware/hardware/catalog/boards/unverified/nrf52840_papyr
 description: IoT board Electronut Labs Papyr, compatible with Golioth at unverified level.
-image: /img/boards/nrf52840_papyr.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![Electronut Labs Papyr!](/img/boards/nrf52840_papyr.jpg "Electronut Labs Papyr")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -34,7 +34,6 @@ sidebar_class_name: hide-item
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

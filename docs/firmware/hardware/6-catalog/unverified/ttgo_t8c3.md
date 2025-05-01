@@ -3,13 +3,13 @@ id: ttgo_t8c3
 title: TTGO T8C3
 slug: /firmware/hardware/catalog/boards/unverified/ttgo_t8c3
 description: IoT board TTGO T8C3, compatible with Golioth at unverified level.
-image: /img/boards/ttgo_t8c3.webp
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![TTGO T8C3!](/img/boards/ttgo_t8c3.webp "TTGO T8C3")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |

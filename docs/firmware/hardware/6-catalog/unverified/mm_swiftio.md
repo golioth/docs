@@ -3,13 +3,13 @@ id: mm_swiftio
 title: MM MM-SWIFTIO
 slug: /firmware/hardware/catalog/boards/unverified/mm_swiftio
 description: IoT board MM MM-SWIFTIO, compatible with Golioth at unverified level.
-image: /img/boards/mm_swiftio.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![MM MM-SWIFTIO!](/img/boards/mm_swiftio.jpg "MM MM-SWIFTIO")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -31,7 +31,6 @@ sidebar_class_name: hide-item
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

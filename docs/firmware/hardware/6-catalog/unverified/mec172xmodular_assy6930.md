@@ -3,13 +3,13 @@ id: mec172xmodular_assy6930
 title: MEC172X MODULAR ASSY 6930
 slug: /firmware/hardware/catalog/boards/unverified/mec172xmodular_assy6930
 description: IoT board MEC172X MODULAR ASSY 6930, compatible with Golioth at unverified level.
-image: /img/boards/mec172xmodular_assy6930.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![MEC172X MODULAR ASSY 6930!](/img/boards/mec172xmodular_assy6930.jpg "MEC172X MODULAR ASSY 6930")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
