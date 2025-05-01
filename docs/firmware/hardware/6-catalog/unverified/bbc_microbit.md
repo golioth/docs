@@ -3,13 +3,13 @@ id: bbc_microbit
 title: BBC Micro:Bit
 slug: /firmware/hardware/catalog/boards/unverified/bbc_microbit
 description: IoT board BBC Micro:Bit, compatible with Golioth at unverified level.
-image: /img/boards/bbc_microbit.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![BBC Micro:Bit!](/img/boards/bbc_microbit.jpg "BBC Micro:Bit")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -33,7 +33,6 @@ sidebar_class_name: hide-item
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

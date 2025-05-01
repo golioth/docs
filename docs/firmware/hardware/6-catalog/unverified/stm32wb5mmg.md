@@ -3,13 +3,13 @@ id: stm32wb5mmg
 title: ST STM32WB5MMG Ultra-low-power Module
 slug: /firmware/hardware/catalog/boards/unverified/stm32wb5mmg
 description: IoT board ST STM32WB5MMG Ultra-low-power Module, compatible with Golioth at unverified level.
-image: /img/boards/stm32wb5mmg.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![ST STM32WB5MMG Ultra-low-power Module!](/img/boards/stm32wb5mmg.jpg "ST STM32WB5MMG Ultra-low-power Module")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -33,7 +33,6 @@ sidebar_class_name: hide-item
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

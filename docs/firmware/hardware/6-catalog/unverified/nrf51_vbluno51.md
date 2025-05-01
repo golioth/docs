@@ -30,7 +30,6 @@ List of supported features is not available.
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

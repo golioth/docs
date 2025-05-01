@@ -3,13 +3,13 @@ id: emsdp_emsdp_em4
 title: EM Software Development Platform (EM4)
 slug: /firmware/hardware/catalog/boards/unverified/emsdp_emsdp_em4
 description: IoT board EM Software Development Platform (EM4), compatible with Golioth at unverified level.
-image: /img/boards/emsdp_emsdp_em4.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![EM Software Development Platform (EM4)!](/img/boards/emsdp_emsdp_em4.jpg "EM Software Development Platform (EM4)")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -30,7 +30,6 @@ List of supported features is not available.
 
 * zephyr
 * cross-compile
-* xtools
 
 ## Official Zephyr docs
 

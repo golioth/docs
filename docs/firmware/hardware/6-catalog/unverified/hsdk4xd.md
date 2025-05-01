@@ -30,7 +30,6 @@ sidebar_class_name: hide-item
 
 * zephyr
 * cross-compile
-* xtools
 * arcmwdt
 
 ## Official Zephyr docs

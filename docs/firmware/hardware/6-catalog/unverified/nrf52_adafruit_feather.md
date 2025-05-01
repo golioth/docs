@@ -3,13 +3,13 @@ id: nrf52_adafruit_feather
 title: nRF52 Adafruit Feather
 slug: /firmware/hardware/catalog/boards/unverified/nrf52_adafruit_feather
 description: IoT board nRF52 Adafruit Feather, compatible with Golioth at unverified level.
-image: /img/boards/nrf52_adafruit_feather.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![nRF52 Adafruit Feather!](/img/boards/nrf52_adafruit_feather.jpg "nRF52 Adafruit Feather")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -31,7 +31,6 @@ sidebar_class_name: hide-item
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

@@ -29,7 +29,6 @@ sidebar_class_name: hide-item
 * gpio
 * usb_device
 * i2c
-* kscan
 * pm
 * pwm
 * tach

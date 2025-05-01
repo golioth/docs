@@ -3,13 +3,13 @@ id: nucleo_c031c6
 title: ST Nucleo C031C6
 slug: /firmware/hardware/catalog/boards/unverified/nucleo_c031c6
 description: IoT board ST Nucleo C031C6, compatible with Golioth at unverified level.
-image: /img/boards/nucleo_c031c6.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![ST Nucleo C031C6!](/img/boards/nucleo_c031c6.jpg "ST Nucleo C031C6")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -37,7 +37,6 @@ sidebar_class_name: hide-item
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

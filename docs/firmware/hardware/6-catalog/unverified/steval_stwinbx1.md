@@ -3,13 +3,13 @@ id: steval_stwinbx1
 title: STEVAL STWINBX1 Development kit
 slug: /firmware/hardware/catalog/boards/unverified/steval_stwinbx1
 description: IoT board STEVAL STWINBX1 Development kit, compatible with Golioth at unverified level.
-image: /img/boards/steval_stwinbx1.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![STEVAL STWINBX1 Development kit!](/img/boards/steval_stwinbx1.jpg "STEVAL STWINBX1 Development kit")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |

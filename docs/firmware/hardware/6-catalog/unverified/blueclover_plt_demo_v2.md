@@ -3,13 +3,13 @@ id: blueclover_plt_demo_v2
 title: Blue Clover PLT Demo Board V2
 slug: /firmware/hardware/catalog/boards/unverified/blueclover_plt_demo_v2
 description: IoT board Blue Clover PLT Demo Board V2, compatible with Golioth at unverified level.
-image: /img/boards/blueclover_plt_demo_v2.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![Blue Clover PLT Demo Board V2!](/img/boards/blueclover_plt_demo_v2.jpg "Blue Clover PLT Demo Board V2")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -36,7 +36,6 @@ sidebar_class_name: hide-item
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

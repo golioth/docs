@@ -3,13 +3,13 @@ id: frdm_ke17z512
 title: NXP FRDM-KE17Z512
 slug: /firmware/hardware/catalog/boards/unverified/frdm_ke17z512
 description: IoT board NXP FRDM-KE17Z512, compatible with Golioth at unverified level.
-image: /img/boards/frdm_ke17z512.webp
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![NXP FRDM-KE17Z512!](/img/boards/frdm_ke17z512.webp "NXP FRDM-KE17Z512")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -27,6 +27,7 @@ sidebar_class_name: hide-item
 * counter
 * gpio
 * adc
+* flash
 * uart
 * pwm
 * i2c
@@ -38,7 +39,6 @@ sidebar_class_name: hide-item
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

@@ -3,13 +3,13 @@ id: cy8ckit_062_wifi_bt
 title: cy8ckit_062_wifi_bt
 slug: /firmware/hardware/catalog/boards/unverified/cy8ckit_062_wifi_bt
 description: IoT board cy8ckit_062_wifi_bt, compatible with Golioth at unverified level.
-image: /img/boards/cy8ckit_062_wifi_bt.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![cy8ckit_062_wifi_bt!](/img/boards/cy8ckit_062_wifi_bt.jpg "cy8ckit_062_wifi_bt")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |

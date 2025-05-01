@@ -3,13 +3,13 @@ id: particle_argon
 title: Particle Argon
 slug: /firmware/hardware/catalog/boards/unverified/particle_argon
 description: IoT board Particle Argon, compatible with Golioth at unverified level.
-image: /img/boards/particle_argon.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![Particle Argon!](/img/boards/particle_argon.jpg "Particle Argon")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -37,7 +37,6 @@ sidebar_class_name: hide-item
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

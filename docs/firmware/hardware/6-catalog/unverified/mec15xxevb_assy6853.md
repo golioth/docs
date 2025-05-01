@@ -31,7 +31,6 @@ sidebar_class_name: hide-item
 * i2c
 * pwm
 * watchdog
-* kscan
 
 ## Supported toolchains
 

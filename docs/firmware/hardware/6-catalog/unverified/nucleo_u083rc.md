@@ -24,13 +24,25 @@ sidebar_class_name: hide-item
 
 ## Supported features
 
+* adc
+* aes
+* arduino_gpio
+* dac
+* dma
 * gpio
+* i2c
+* lptim
+* pwm
+* rng
+* rtc
+* spi
+* usart
+* usb
 
 ## Supported toolchains
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

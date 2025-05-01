@@ -3,13 +3,13 @@ id: rddrone_fmuk66
 title: NXP RDDRONE-FMUK66
 slug: /firmware/hardware/catalog/boards/unverified/rddrone_fmuk66
 description: IoT board NXP RDDRONE-FMUK66, compatible with Golioth at unverified level.
-image: /img/boards/rddrone_fmuk66.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![NXP RDDRONE-FMUK66!](/img/boards/rddrone_fmuk66.jpg "NXP RDDRONE-FMUK66")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -26,6 +26,7 @@ sidebar_class_name: hide-item
 
 * can
 * counter
+* flash
 * gpio
 * i2c
 * nvs

@@ -3,13 +3,13 @@ id: black_f407zg_pro
 title: Black STM32 F407ZG Pro Development Board
 slug: /firmware/hardware/catalog/boards/unverified/black_f407zg_pro
 description: IoT board Black STM32 F407ZG Pro Development Board, compatible with Golioth at unverified level.
-image: /img/boards/black_f407zg_pro.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![Black STM32 F407ZG Pro Development Board!](/img/boards/black_f407zg_pro.jpg "Black STM32 F407ZG Pro Development Board")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -27,7 +27,6 @@ sidebar_class_name: hide-item
 * can
 * pwm
 * counter
-* usb
 * spi
 * gpio
 
@@ -35,7 +34,6 @@ sidebar_class_name: hide-item
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

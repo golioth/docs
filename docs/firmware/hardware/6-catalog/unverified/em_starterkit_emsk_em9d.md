@@ -3,13 +3,13 @@ id: em_starterkit_emsk_em9d
 title: EM Starterkit
 slug: /firmware/hardware/catalog/boards/unverified/em_starterkit_emsk_em9d
 description: IoT board EM Starterkit, compatible with Golioth at unverified level.
-image: /img/boards/em_starterkit_emsk_em9d.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![EM Starterkit!](/img/boards/em_starterkit_emsk_em9d.jpg "EM Starterkit")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -32,7 +32,6 @@ sidebar_class_name: hide-item
 
 * zephyr
 * cross-compile
-* xtools
 
 ## Official Zephyr docs
 

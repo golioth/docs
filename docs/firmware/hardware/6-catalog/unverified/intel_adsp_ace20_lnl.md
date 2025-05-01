@@ -1,8 +1,8 @@
 ---
 id: intel_adsp_ace20_lnl
-title: ACE 2.0 LNL Audio DSP
+title: intel_adsp_ace20_lnl
 slug: /firmware/hardware/catalog/boards/unverified/intel_adsp_ace20_lnl
-description: IoT board ACE 2.0 LNL Audio DSP, compatible with Golioth at unverified level.
+description: IoT board intel_adsp_ace20_lnl, compatible with Golioth at unverified level.
 image: /img/boards/null
 sidebar_class_name: hide-item
 ---
@@ -24,14 +24,12 @@ sidebar_class_name: hide-item
 
 ## Supported features
 
-* dma
+List of supported features is not available.
 
 ## Supported toolchains
 
-* xcc
-* xt-clang
-* zephyr
+List of supported toolchains is not available.
 
 ## Official Zephyr docs
 
-[ACE 2.0 LNL Audio DSP (intel_adsp_ace20_lnl)](https://docs.zephyrproject.org/latest/boards/intel/adsp/doc/index.html)
+[intel_adsp_ace20_lnl (intel_adsp_ace20_lnl)](https://docs.zephyrproject.org/latest/boards/intel/adsp/doc/index.html)

@@ -29,12 +29,13 @@ sidebar_class_name: hide-item
 * spi
 * uart
 * hwinfo
+* adc
+* pwm
 
 ## Supported toolchains
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

@@ -1,15 +1,15 @@
 ---
 id: rpi_pico
-title: RaspberryPi-Pico
+title: Raspberry Pi Pico
 slug: /firmware/hardware/catalog/boards/unverified/rpi_pico
-description: IoT board RaspberryPi-Pico, compatible with Golioth at unverified level.
+description: IoT board Raspberry Pi Pico, compatible with Golioth at unverified level.
 image: /img/boards/rpi_pico.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![RaspberryPi-Pico!](/img/boards/rpi_pico.jpg "RaspberryPi-Pico")
+![Raspberry Pi Pico!](/img/boards/rpi_pico.jpg "Raspberry Pi Pico")
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -36,13 +36,13 @@ sidebar_class_name: hide-item
 * dma
 * counter
 * clock
+* usbd
 
 ## Supported toolchains
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 
-[RaspberryPi-Pico (rpi_pico)](https://docs.zephyrproject.org/latest/boards/raspberrypi/rpi_pico/doc/index.html)
+[Raspberry Pi Pico (rpi_pico)](https://docs.zephyrproject.org/latest/boards/raspberrypi/rpi_pico/doc/index.html)

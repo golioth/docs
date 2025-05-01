@@ -3,13 +3,13 @@ id: xmc47_relax_kit
 title: XMC47-RELAX-KIT
 slug: /firmware/hardware/catalog/boards/unverified/xmc47_relax_kit
 description: IoT board XMC47-RELAX-KIT, compatible with Golioth at unverified level.
-image: /img/boards/xmc47_relax_kit.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![XMC47-RELAX-KIT!](/img/boards/xmc47_relax_kit.jpg "XMC47-RELAX-KIT")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |

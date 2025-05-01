@@ -32,12 +32,15 @@ sidebar_class_name: hide-item
 * watchdog
 * spi
 * adc
+* counter
+* rtc_counter
+* pwm
+* flash
 
 ## Supported toolchains
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

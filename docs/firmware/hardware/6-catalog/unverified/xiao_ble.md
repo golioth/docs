@@ -3,13 +3,13 @@ id: xiao_ble
 title: XIAO BLE
 slug: /firmware/hardware/catalog/boards/unverified/xiao_ble
 description: IoT board XIAO BLE, compatible with Golioth at unverified level.
-image: /img/boards/xiao_ble.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![XIAO BLE!](/img/boards/xiao_ble.jpg "XIAO BLE")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -35,12 +35,16 @@ sidebar_class_name: hide-item
 * usb_device
 * watchdog
 * netif:openthread
+* xiao_adc
+* xiao_gpio
+* xiao_i2c
+* xiao_serial
+* xiao_spi
 
 ## Supported toolchains
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

@@ -3,13 +3,13 @@ id: msp_exp432p401r_launchxl
 title: MSP-EXP432P401R-LAUNCHXL
 slug: /firmware/hardware/catalog/boards/unverified/msp_exp432p401r_launchxl
 description: IoT board MSP-EXP432P401R-LAUNCHXL, compatible with Golioth at unverified level.
-image: /img/boards/msp_exp432p401r_launchxl.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![MSP-EXP432P401R-LAUNCHXL!](/img/boards/msp_exp432p401r_launchxl.jpg "MSP-EXP432P401R-LAUNCHXL")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -30,7 +30,6 @@ List of supported features is not available.
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

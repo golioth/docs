@@ -3,13 +3,13 @@ id: stm32g081b_eval
 title: ST STM32G081B Evaluation
 slug: /firmware/hardware/catalog/boards/unverified/stm32g081b_eval
 description: IoT board ST STM32G081B Evaluation, compatible with Golioth at unverified level.
-image: /img/boards/stm32g081b_eval.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![ST STM32G081B Evaluation!](/img/boards/stm32g081b_eval.jpg "ST STM32G081B Evaluation")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -34,7 +34,6 @@ sidebar_class_name: hide-item
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

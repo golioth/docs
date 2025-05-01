@@ -3,13 +3,13 @@ id: quick_feather
 title: QuickLogic Quick Feather
 slug: /firmware/hardware/catalog/boards/unverified/quick_feather
 description: IoT board QuickLogic Quick Feather, compatible with Golioth at unverified level.
-image: /img/boards/quick_feather.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![QuickLogic Quick Feather!](/img/boards/quick_feather.jpg "QuickLogic Quick Feather")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -30,7 +30,6 @@ List of supported features is not available.
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

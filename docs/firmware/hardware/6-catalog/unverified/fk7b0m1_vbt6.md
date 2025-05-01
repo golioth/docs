@@ -1,15 +1,15 @@
 ---
 id: fk7b0m1_vbt6
-title: FANKE FK7B0M1-VBT6 board
+title: FANKE FK7B0M1-VBT6
 slug: /firmware/hardware/catalog/boards/unverified/fk7b0m1_vbt6
-description: IoT board FANKE FK7B0M1-VBT6 board, compatible with Golioth at unverified level.
+description: IoT board FANKE FK7B0M1-VBT6, compatible with Golioth at unverified level.
 image: /img/boards/fk7b0m1_vbt6.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![FANKE FK7B0M1-VBT6 board!](/img/boards/fk7b0m1_vbt6.webp "FANKE FK7B0M1-VBT6 board")
+![FANKE FK7B0M1-VBT6!](/img/boards/fk7b0m1_vbt6.webp "FANKE FK7B0M1-VBT6")
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -31,8 +31,7 @@ sidebar_class_name: hide-item
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 
-[FANKE FK7B0M1-VBT6 board (fk7b0m1_vbt6)](https://docs.zephyrproject.org/latest/boards/fanke/fk7b0m1_vbt6/doc/index.html)
+[FANKE FK7B0M1-VBT6 (fk7b0m1_vbt6)](https://docs.zephyrproject.org/latest/boards/fanke/fk7b0m1_vbt6/doc/index.html)

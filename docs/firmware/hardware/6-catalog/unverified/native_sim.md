@@ -26,6 +26,7 @@ sidebar_class_name: hide-item
 
 * can
 * counter
+* display
 * dma
 * eeprom
 * netif:eth

@@ -3,13 +3,13 @@ id: longan_nano
 title: Sipeed Longan Nano
 slug: /firmware/hardware/catalog/boards/unverified/longan_nano
 description: IoT board Sipeed Longan Nano, compatible with Golioth at unverified level.
-image: /img/boards/longan_nano.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![Sipeed Longan Nano!](/img/boards/longan_nano.jpg "Sipeed Longan Nano")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -31,7 +31,6 @@ sidebar_class_name: hide-item
 ## Supported toolchains
 
 * zephyr
-* xtools
 
 ## Official Zephyr docs
 

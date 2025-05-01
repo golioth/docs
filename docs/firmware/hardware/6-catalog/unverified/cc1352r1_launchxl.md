@@ -3,13 +3,13 @@ id: cc1352r1_launchxl
 title: TI SimpleLink CC1352R LaunchPad
 slug: /firmware/hardware/catalog/boards/unverified/cc1352r1_launchxl
 description: IoT board TI SimpleLink CC1352R LaunchPad, compatible with Golioth at unverified level.
-image: /img/boards/cc1352r1_launchxl.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![TI SimpleLink CC1352R LaunchPad!](/img/boards/cc1352r1_launchxl.jpg "TI SimpleLink CC1352R LaunchPad")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -35,7 +35,6 @@ sidebar_class_name: hide-item
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

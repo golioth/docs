@@ -3,13 +3,13 @@ id: stm32f469i_disco
 title: ST STM32F469I Discovery
 slug: /firmware/hardware/catalog/boards/unverified/stm32f469i_disco
 description: IoT board ST STM32F469I Discovery, compatible with Golioth at unverified level.
-image: /img/boards/stm32f469i_disco.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![ST STM32F469I Discovery!](/img/boards/stm32f469i_disco.jpg "ST STM32F469I Discovery")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -37,7 +37,6 @@ sidebar_class_name: hide-item
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

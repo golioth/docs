@@ -1,8 +1,8 @@
 ---
 id: neorv32
-title: NEORV32 Processor (SoC)
+title: neorv32
 slug: /firmware/hardware/catalog/boards/unverified/neorv32
-description: IoT board NEORV32 Processor (SoC), compatible with Golioth at unverified level.
+description: IoT board neorv32, compatible with Golioth at unverified level.
 image: /img/boards/null
 sidebar_class_name: hide-item
 ---
@@ -15,8 +15,8 @@ sidebar_class_name: hide-item
 | -------------  | -------------------- |
 | Board ID       | `neorv32` |
 | Golioth Level  | [Unverified](/firmware/hardware#unverified-boards) |
-| RAM*           | 32 kB |
-| Flash*         | 64 kB |
+| RAM*           | N/A |
+| Flash*         | N/A |
 
 \* values are as reported by Zephyr `.yaml` board files, which don't represent the overall available resources
 
@@ -24,13 +24,12 @@ sidebar_class_name: hide-item
 
 ## Supported features
 
-* gpio
+List of supported features is not available.
 
 ## Supported toolchains
 
-* cross-compile
-* zephyr
+List of supported toolchains is not available.
 
 ## Official Zephyr docs
 
-[NEORV32 Processor (SoC) (neorv32)](https://docs.zephyrproject.org/latest/boards/others/neorv32/doc/index.html)
+[neorv32 (neorv32)](https://docs.zephyrproject.org/latest/boards/others/neorv32/doc/index.html)

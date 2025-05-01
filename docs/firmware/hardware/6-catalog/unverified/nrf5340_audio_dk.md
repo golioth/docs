@@ -3,13 +3,13 @@ id: nrf5340_audio_dk
 title: nrf5340_audio_dk
 slug: /firmware/hardware/catalog/boards/unverified/nrf5340_audio_dk
 description: IoT board nrf5340_audio_dk, compatible with Golioth at unverified level.
-image: /img/boards/nrf5340_audio_dk.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![nrf5340_audio_dk!](/img/boards/nrf5340_audio_dk.jpg "nrf5340_audio_dk")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |

@@ -3,13 +3,13 @@ id: ttgo_lora32
 title: ttgo_lora32
 slug: /firmware/hardware/catalog/boards/unverified/ttgo_lora32
 description: IoT board ttgo_lora32, compatible with Golioth at unverified level.
-image: /img/boards/ttgo_lora32.webp
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![ttgo_lora32!](/img/boards/ttgo_lora32.webp "ttgo_lora32")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |

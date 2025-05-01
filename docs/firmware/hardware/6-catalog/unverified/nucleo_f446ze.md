@@ -34,14 +34,12 @@ sidebar_class_name: hide-item
 * i2c
 * can
 * backup_sram
-* usb
 * quadspi
 
 ## Supported toolchains
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

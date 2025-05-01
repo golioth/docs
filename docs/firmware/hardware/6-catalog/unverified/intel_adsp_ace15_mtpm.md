@@ -1,8 +1,8 @@
 ---
 id: intel_adsp_ace15_mtpm
-title: ACE 1.5 MTL M Audio DSP
+title: intel_adsp_ace15_mtpm
 slug: /firmware/hardware/catalog/boards/unverified/intel_adsp_ace15_mtpm
-description: IoT board ACE 1.5 MTL M Audio DSP, compatible with Golioth at unverified level.
+description: IoT board intel_adsp_ace15_mtpm, compatible with Golioth at unverified level.
 image: /img/boards/null
 sidebar_class_name: hide-item
 ---
@@ -24,14 +24,12 @@ sidebar_class_name: hide-item
 
 ## Supported features
 
-* dma
+List of supported features is not available.
 
 ## Supported toolchains
 
-* zephyr
-* xcc
-* xt-clang
+List of supported toolchains is not available.
 
 ## Official Zephyr docs
 
-[ACE 1.5 MTL M Audio DSP (intel_adsp_ace15_mtpm)](https://docs.zephyrproject.org/latest/boards/intel/adsp/doc/index.html)
+[intel_adsp_ace15_mtpm (intel_adsp_ace15_mtpm)](https://docs.zephyrproject.org/latest/boards/intel/adsp/doc/index.html)

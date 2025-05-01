@@ -3,13 +3,13 @@ id: stm32h750b_dk
 title: ST STM32H750B Discovery Kit
 slug: /firmware/hardware/catalog/boards/unverified/stm32h750b_dk
 description: IoT board ST STM32H750B Discovery Kit, compatible with Golioth at unverified level.
-image: /img/boards/stm32h750b_dk.png
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![ST STM32H750B Discovery Kit!](/img/boards/stm32h750b_dk.png "ST STM32H750B Discovery Kit")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -30,12 +30,13 @@ sidebar_class_name: hide-item
 * flash
 * rtc
 * memc
+* display
+* spi
 
 ## Supported toolchains
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

@@ -3,13 +3,13 @@ id: w5500_evb_pico
 title: Wiznet W5500 Evaluation Board
 slug: /firmware/hardware/catalog/boards/unverified/w5500_evb_pico
 description: IoT board Wiznet W5500 Evaluation Board, compatible with Golioth at unverified level.
-image: /img/boards/w5500_evb_pico.png
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![Wiznet W5500 Evaluation Board!](/img/boards/w5500_evb_pico.png "Wiznet W5500 Evaluation Board")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -41,7 +41,6 @@ sidebar_class_name: hide-item
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

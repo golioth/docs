@@ -3,13 +3,13 @@ id: nucleo_g474re
 title: ST Nucleo G474RE
 slug: /firmware/hardware/catalog/boards/unverified/nucleo_g474re
 description: IoT board ST Nucleo G474RE, compatible with Golioth at unverified level.
-image: /img/boards/nucleo_g474re.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![ST Nucleo G474RE!](/img/boards/nucleo_g474re.jpg "ST Nucleo G474RE")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -45,7 +45,6 @@ sidebar_class_name: hide-item
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

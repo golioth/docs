@@ -32,7 +32,6 @@ sidebar_class_name: hide-item
 * pwm
 * adc
 * usb_device
-* usb_cdc
 * watchdog
 * micromod_gpio
 * micromod_uart
@@ -43,7 +42,6 @@ sidebar_class_name: hide-item
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

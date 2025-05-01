@@ -3,13 +3,13 @@ id: nucleo_g071rb
 title: ST Nucleo G071RB
 slug: /firmware/hardware/catalog/boards/unverified/nucleo_g071rb
 description: IoT board ST Nucleo G071RB, compatible with Golioth at unverified level.
-image: /img/boards/nucleo_g071rb.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![ST Nucleo G071RB!](/img/boards/nucleo_g071rb.jpg "ST Nucleo G071RB")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -46,7 +46,6 @@ sidebar_class_name: hide-item
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

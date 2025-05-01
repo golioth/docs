@@ -3,13 +3,13 @@ id: qomu
 title: QuickLogic Qomu
 slug: /firmware/hardware/catalog/boards/unverified/qomu
 description: IoT board QuickLogic Qomu, compatible with Golioth at unverified level.
-image: /img/boards/qomu.png
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![QuickLogic Qomu!](/img/boards/qomu.png "QuickLogic Qomu")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -30,7 +30,6 @@ List of supported features is not available.
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

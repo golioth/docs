@@ -3,13 +3,13 @@ id: b_l072z_lrwan1
 title: B_L072Z_LRWAN1
 slug: /firmware/hardware/catalog/boards/unverified/b_l072z_lrwan1
 description: IoT board B_L072Z_LRWAN1, compatible with Golioth at unverified level.
-image: /img/boards/b_l072z_lrwan1.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![B_L072Z_LRWAN1!](/img/boards/b_l072z_lrwan1.jpg "B_L072Z_LRWAN1")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -38,7 +38,6 @@ sidebar_class_name: hide-item
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

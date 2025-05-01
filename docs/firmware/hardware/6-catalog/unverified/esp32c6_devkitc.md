@@ -1,8 +1,8 @@
 ---
 id: esp32c6_devkitc
-title: ESP32-C6
+title: esp32c6_devkitc
 slug: /firmware/hardware/catalog/boards/unverified/esp32c6_devkitc
-description: IoT board ESP32-C6, compatible with Golioth at unverified level.
+description: IoT board esp32c6_devkitc, compatible with Golioth at unverified level.
 image: /img/boards/null
 sidebar_class_name: hide-item
 ---
@@ -24,17 +24,12 @@ sidebar_class_name: hide-item
 
 ## Supported features
 
-* gpio
-* watchdog
-* uart
-* dma
-* spi
-* entropy
+List of supported features is not available.
 
 ## Supported toolchains
 
-* zephyr
+List of supported toolchains is not available.
 
 ## Official Zephyr docs
 
-[ESP32-C6 (esp32c6_devkitc)](https://docs.zephyrproject.org/latest/boards/espressif/esp32c6_devkitc/doc/index.html)
+[esp32c6_devkitc (esp32c6_devkitc)](https://docs.zephyrproject.org/latest/boards/espressif/esp32c6_devkitc/doc/index.html)

@@ -3,13 +3,13 @@ id: mimxrt1040_evk
 title: NXP MIMXRT1040-EVK
 slug: /firmware/hardware/catalog/boards/unverified/mimxrt1040_evk
 description: IoT board NXP MIMXRT1040-EVK, compatible with Golioth at unverified level.
-image: /img/boards/mimxrt1040_evk.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![NXP MIMXRT1040-EVK!](/img/boards/mimxrt1040_evk.jpg "NXP MIMXRT1040-EVK")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -24,18 +24,19 @@ sidebar_class_name: hide-item
 
 ## Supported features
 
-* arduino_gpio
-* gpio
-* pwm
 * adc
-* spi
+* arduino_gpio
+* counter
+* flash
+* gpio
 * i2c
+* pwm
+* spi
 
 ## Supported toolchains
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

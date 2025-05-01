@@ -3,13 +3,13 @@ id: lpcxpresso51u68
 title: NXP LPCXpresso51u68
 slug: /firmware/hardware/catalog/boards/unverified/lpcxpresso51u68
 description: IoT board NXP LPCXpresso51u68, compatible with Golioth at unverified level.
-image: /img/boards/lpcxpresso51u68.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![NXP LPCXpresso51u68!](/img/boards/lpcxpresso51u68.jpg "NXP LPCXpresso51u68")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -33,7 +33,6 @@ sidebar_class_name: hide-item
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

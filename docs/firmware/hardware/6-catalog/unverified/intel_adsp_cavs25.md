@@ -1,8 +1,8 @@
 ---
 id: intel_adsp_cavs25
-title: cAVS 2.5 Audio DSP (converged Audio Voice and Speech)
+title: intel_adsp_cavs25
 slug: /firmware/hardware/catalog/boards/unverified/intel_adsp_cavs25
-description: IoT board cAVS 2.5 Audio DSP (converged Audio Voice and Speech), compatible with Golioth at unverified level.
+description: IoT board intel_adsp_cavs25, compatible with Golioth at unverified level.
 image: /img/boards/null
 sidebar_class_name: hide-item
 ---
@@ -24,14 +24,12 @@ sidebar_class_name: hide-item
 
 ## Supported features
 
-* dma
-* dai
+List of supported features is not available.
 
 ## Supported toolchains
 
-* xcc
-* zephyr
+List of supported toolchains is not available.
 
 ## Official Zephyr docs
 
-[cAVS 2.5 Audio DSP (converged Audio Voice and Speech) (intel_adsp_cavs25)](https://docs.zephyrproject.org/latest/boards/intel/adsp/doc/index.html)
+[intel_adsp_cavs25 (intel_adsp_cavs25)](https://docs.zephyrproject.org/latest/boards/intel/adsp/doc/index.html)

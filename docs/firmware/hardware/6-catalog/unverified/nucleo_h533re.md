@@ -3,13 +3,13 @@ id: nucleo_h533re
 title: ST Nucleo H533RE
 slug: /firmware/hardware/catalog/boards/unverified/nucleo_h533re
 description: IoT board ST Nucleo H533RE, compatible with Golioth at unverified level.
-image: /img/boards/nucleo_h533re.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![ST Nucleo H533RE!](/img/boards/nucleo_h533re.jpg "ST Nucleo H533RE")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -24,13 +24,16 @@ sidebar_class_name: hide-item
 
 ## Supported features
 
+* arduino_gpio
+* arduino_serial
+* arduino_spi
 * gpio
+* spi
 * watchdog
 * pwm
 * rtc
 * adc
 * usb_device
-* usb
 * backup_sram
 
 ## Supported toolchains

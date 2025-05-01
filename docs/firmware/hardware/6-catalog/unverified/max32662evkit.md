@@ -3,13 +3,13 @@ id: max32662evkit
 title: max32662evkit
 slug: /firmware/hardware/catalog/boards/unverified/max32662evkit
 description: IoT board max32662evkit, compatible with Golioth at unverified level.
-image: /img/boards/max32662evkit.webp
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![max32662evkit!](/img/boards/max32662evkit.webp "max32662evkit")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -32,12 +32,15 @@ sidebar_class_name: hide-item
 * watchdog
 * spi
 * adc
+* counter
+* rtc_counter
+* pwm
+* flash
 
 ## Supported toolchains
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

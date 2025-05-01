@@ -3,13 +3,13 @@ id: frdm_mcxn236
 title: NXP FRDM MCXN236
 slug: /firmware/hardware/catalog/boards/unverified/frdm_mcxn236
 description: IoT board NXP FRDM MCXN236, compatible with Golioth at unverified level.
-image: /img/boards/frdm_mcxn236.webp
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![NXP FRDM MCXN236!](/img/boards/frdm_mcxn236.webp "NXP FRDM MCXN236")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -24,19 +24,24 @@ sidebar_class_name: hide-item
 
 ## Supported features
 
-* dma
-* gpio
-* spi
-* i2c
-* watchdog
-* pwm
+* adc
+* can
 * counter
+* dma
+* flash
+* gpio
+* i2c
+* i3c
+* pwm
+* regulator
+* spi
+* watchdog
+* usb_device
 
 ## Supported toolchains
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

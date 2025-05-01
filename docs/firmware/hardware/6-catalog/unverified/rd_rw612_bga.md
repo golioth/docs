@@ -24,24 +24,26 @@ sidebar_class_name: hide-item
 
 ## Supported features
 
+* adc
+* counter
+* dac
 * dma
 * dmic
-* gpio
-* spi
-* i2c
 * entropy
+* flash
+* gpio
+* hwinfo
+* i2c
+* i2s
+* pwm
+* spi
 * usb_device
 * watchdog
-* counter
-* hwinfo
-* adc
-* dac
 
 ## Supported toolchains
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

@@ -3,13 +3,13 @@ id: m5stack_core2
 title: M5Stack Core2 PROCPU
 slug: /firmware/hardware/catalog/boards/unverified/m5stack_core2
 description: IoT board M5Stack Core2 PROCPU, compatible with Golioth at unverified level.
-image: /img/boards/m5stack_core2.webp
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![M5Stack Core2 PROCPU!](/img/boards/m5stack_core2.webp "M5Stack Core2 PROCPU")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |

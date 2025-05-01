@@ -34,6 +34,11 @@ sidebar_class_name: hide-item
 * entropy
 * pwm
 * dma
+* xiao_adc
+* xiao_gpio
+* xiao_i2c
+* xiao_serial
+* xiao_spi
 
 ## Supported toolchains
 

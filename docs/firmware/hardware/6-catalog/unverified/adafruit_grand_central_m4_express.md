@@ -3,13 +3,13 @@ id: adafruit_grand_central_m4_express
 title: Adafruit Grand Central M4 Express
 slug: /firmware/hardware/catalog/boards/unverified/adafruit_grand_central_m4_express
 description: IoT board Adafruit Grand Central M4 Express, compatible with Golioth at unverified level.
-image: /img/boards/adafruit_grand_central_m4_express.webp
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![Adafruit Grand Central M4 Express!](/img/boards/adafruit_grand_central_m4_express.webp "Adafruit Grand Central M4 Express")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |

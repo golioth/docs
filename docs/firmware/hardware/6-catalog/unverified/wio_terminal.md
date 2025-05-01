@@ -3,13 +3,13 @@ id: wio_terminal
 title: Wio Terminal
 slug: /firmware/hardware/catalog/boards/unverified/wio_terminal
 description: IoT board Wio Terminal, compatible with Golioth at unverified level.
-image: /img/boards/wio_terminal.png
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![Wio Terminal!](/img/boards/wio_terminal.png "Wio Terminal")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -38,7 +38,6 @@ sidebar_class_name: hide-item
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

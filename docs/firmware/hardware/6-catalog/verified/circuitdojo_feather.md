@@ -32,7 +32,6 @@ image: /img/boards/circuitdojo_feather.jpg
 ## Supported toolchains
 
 * gnuarmemb
-* xtools
 * zephyr
 
 ## Official Zephyr docs

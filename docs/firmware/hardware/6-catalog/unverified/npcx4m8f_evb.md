@@ -3,13 +3,13 @@ id: npcx4m8f_evb
 title: Nuvoton NPCX4M8F EVB
 slug: /firmware/hardware/catalog/boards/unverified/npcx4m8f_evb
 description: IoT board Nuvoton NPCX4M8F EVB, compatible with Golioth at unverified level.
-image: /img/boards/npcx4m8f_evb.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![Nuvoton NPCX4M8F EVB!](/img/boards/npcx4m8f_evb.jpg "Nuvoton NPCX4M8F EVB")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |

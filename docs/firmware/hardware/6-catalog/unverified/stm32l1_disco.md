@@ -3,13 +3,13 @@ id: stm32l1_disco
 title: ST STM32L1 Discovery
 slug: /firmware/hardware/catalog/boards/unverified/stm32l1_disco
 description: IoT board ST STM32L1 Discovery, compatible with Golioth at unverified level.
-image: /img/boards/stm32l1_disco.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![ST STM32L1 Discovery!](/img/boards/stm32l1_disco.jpg "ST STM32L1 Discovery")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -34,7 +34,6 @@ sidebar_class_name: hide-item
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

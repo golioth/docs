@@ -3,13 +3,13 @@ id: vmu_rt1170
 title: NXP VMU RT1170
 slug: /firmware/hardware/catalog/boards/unverified/vmu_rt1170
 description: IoT board NXP VMU RT1170, compatible with Golioth at unverified level.
-image: /img/boards/vmu_rt1170.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![NXP VMU RT1170!](/img/boards/vmu_rt1170.jpg "NXP VMU RT1170")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -25,9 +25,10 @@ sidebar_class_name: hide-item
 ## Supported features
 
 * adc
-* counter
 * can
+* counter
 * dma
+* flash
 * gpio
 * hwinfo
 * i2c
@@ -41,7 +42,6 @@ sidebar_class_name: hide-item
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

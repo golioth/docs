@@ -3,13 +3,13 @@ id: adafruit_feather_m0_lora
 title: Adafruit Feather M0 LoRa
 slug: /firmware/hardware/catalog/boards/unverified/adafruit_feather_m0_lora
 description: IoT board Adafruit Feather M0 LoRa, compatible with Golioth at unverified level.
-image: /img/boards/adafruit_feather_m0_lora.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![Adafruit Feather M0 LoRa!](/img/boards/adafruit_feather_m0_lora.jpg "Adafruit Feather M0 LoRa")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -30,7 +30,6 @@ List of supported features is not available.
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

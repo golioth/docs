@@ -3,13 +3,13 @@ id: xmc45_relax_kit
 title: XMC45-RELAX-KIT
 slug: /firmware/hardware/catalog/boards/unverified/xmc45_relax_kit
 description: IoT board XMC45-RELAX-KIT, compatible with Golioth at unverified level.
-image: /img/boards/xmc45_relax_kit.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![XMC45-RELAX-KIT!](/img/boards/xmc45_relax_kit.jpg "XMC45-RELAX-KIT")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -37,7 +37,6 @@ sidebar_class_name: hide-item
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

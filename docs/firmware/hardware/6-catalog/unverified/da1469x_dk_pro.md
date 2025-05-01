@@ -3,13 +3,13 @@ id: da1469x_dk_pro
 title: DA1469X_DK_PRO
 slug: /firmware/hardware/catalog/boards/unverified/da1469x_dk_pro
 description: IoT board DA1469X_DK_PRO, compatible with Golioth at unverified level.
-image: /img/boards/da1469x_dk_pro.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![DA1469X_DK_PRO!](/img/boards/da1469x_dk_pro.jpg "DA1469X_DK_PRO")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -38,12 +38,12 @@ sidebar_class_name: hide-item
 * mipi_dbi
 * display
 * memc
+* usbd
 
 ## Supported toolchains
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

@@ -26,7 +26,6 @@ sidebar_class_name: hide-item
 
 * counter
 * spi
-* usb
 * i2c
 * uart
 * pwm
@@ -36,7 +35,6 @@ sidebar_class_name: hide-item
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

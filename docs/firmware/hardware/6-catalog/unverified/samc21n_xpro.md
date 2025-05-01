@@ -3,13 +3,13 @@ id: samc21n_xpro
 title: SAM C21N Xplained Pro
 slug: /firmware/hardware/catalog/boards/unverified/samc21n_xpro
 description: IoT board SAM C21N Xplained Pro, compatible with Golioth at unverified level.
-image: /img/boards/samc21n_xpro.jpg
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![SAM C21N Xplained Pro!](/img/boards/samc21n_xpro.jpg "SAM C21N Xplained Pro")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -30,6 +30,7 @@ sidebar_class_name: hide-item
 * gpio
 * i2c
 * pwm
+* rtc
 * spi
 * uart
 
@@ -37,7 +38,6 @@ sidebar_class_name: hide-item
 
 * zephyr
 * gnuarmemb
-* xtools
 
 ## Official Zephyr docs
 

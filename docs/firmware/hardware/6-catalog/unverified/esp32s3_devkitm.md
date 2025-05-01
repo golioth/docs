@@ -36,6 +36,7 @@ sidebar_class_name: hide-item
 * pwm
 * dma
 * input
+* video
 
 ## Supported toolchains
 

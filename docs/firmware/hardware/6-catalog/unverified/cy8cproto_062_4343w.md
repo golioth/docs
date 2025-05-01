@@ -1,15 +1,15 @@
 ---
 id: cy8cproto_062_4343w
-title: CY8CPROTO-062-4343W PSoC 6 Wi-Fi BT Prototyping Kit
+title: CY8CPROTO-062-4343W PSOC 6 Wi-Fi BT Prototyping Kit
 slug: /firmware/hardware/catalog/boards/unverified/cy8cproto_062_4343w
-description: IoT board CY8CPROTO-062-4343W PSoC 6 Wi-Fi BT Prototyping Kit, compatible with Golioth at unverified level.
-image: /img/boards/cy8cproto_062_4343w.jpg
+description: IoT board CY8CPROTO-062-4343W PSOC 6 Wi-Fi BT Prototyping Kit, compatible with Golioth at unverified level.
+image: /img/boards/null
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![CY8CPROTO-062-4343W PSoC 6 Wi-Fi BT Prototyping Kit!](/img/boards/cy8cproto_062_4343w.jpg "CY8CPROTO-062-4343W PSoC 6 Wi-Fi BT Prototyping Kit")
+
 
 |                | Board properties     |
 | -------------  | -------------------- |
@@ -35,6 +35,7 @@ sidebar_class_name: hide-item
 * i2c
 * thermistor
 * uart
+* dma
 * timer
 
 ## Supported toolchains
@@ -44,4 +45,4 @@ sidebar_class_name: hide-item
 
 ## Official Zephyr docs
 
-[CY8CPROTO-062-4343W PSoC 6 Wi-Fi BT Prototyping Kit (cy8cproto_062_4343w)](https://docs.zephyrproject.org/latest/boards/infineon/cy8cproto_062_4343w/doc/index.html)
+[CY8CPROTO-062-4343W PSOC 6 Wi-Fi BT Prototyping Kit (cy8cproto_062_4343w)](https://docs.zephyrproject.org/latest/boards/infineon/cy8cproto_062_4343w/doc/index.html)
