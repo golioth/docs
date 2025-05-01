@@ -51,25 +51,26 @@ function findBoardImage(boardPath, boardId) {
     }
 
     // Find image in Zephyr tree
-    if (!(fs.existsSync(path.join(fullPath, 'doc', docFile)))) {
-        if (fs.existsSync(path.join(fullPath, 'doc', `${boardId}.rst`))) {
-            docFile = `${boardId}.rst`;
-        } else {
+    //
+    // Uses the same pattern globbing as the Zephyr Docs:
+    // https://github.com/zephyrproject-rtos/zephyr/blob/999b19d6ceaee29902434bda9c160486a3eb75bc/doc/_scripts/gen_boards_catalog.py#L80-L100
+
+    let docImgPath = path.join(fullPath, 'doc');
+
+    const img_exts = ["jpg", "jpeg", "webp", "png"];
+
+    let patterns = [];
+    patterns.push(`**/${boardId}.{${img_exts.join()}}`)
+    patterns.push(`**/*${boardId}*.{${img_exts.join()}}`)
+    patterns.push(`**/*.{${img_exts.join()}}`)
+
+    for (p of patterns) {
+        img_files = fs.globSync(path.join(fullPath, p));
+        if (img_files.length > 0)
+        {
+            sourceImg = img_files[0];
+            suffix = path.extname(sourceImg);
             return { sourceImg, suffix };
-        }
-    }
-
-    boardDoc = fs.readFileSync(path.join(fullPath, 'doc', docFile), 'utf8');
-
-    for (const line of boardDoc.split('\n')) {
-        if (line.startsWith('.. figure:: ')) {
-            sourceImg = path.join(fullPath, 'doc', line.split('.. figure:: ')[1]);
-            suffix = path.extname(sourceImg);
-            break;
-        } else if (line.startsWith('.. image:: ')) {
-            sourceImg = path.join(fullPath, 'doc', line.split('.. image:: ')[1]);
-            suffix = path.extname(sourceImg);
-            break;
         }
     }
 
@@ -319,8 +320,8 @@ fs.writeFileSync(`${docsRoot}/_category_.yml`,
 
 console.log(`Built ${count.built} out of ${count.boards} available boards.`);
 
-console.log('Built: ');
+console.log(`\nBuilt [${boards.length}]: `);
 console.log(boards.map((b) => `${b.boardId}:${b.boardPath}`).join(' '));
 
-console.log('\nNo image: ');
+console.log(`\nNo image [${unbuilt.length}]: `);
 console.log(unbuilt.join(' '));
