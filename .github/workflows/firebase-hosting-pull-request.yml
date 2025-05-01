@@ -10,7 +10,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v3
         with:
-          node-version: 20.9.0
+          node-version: 22.15.0
       - run: npm install && npm run build:dev
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
