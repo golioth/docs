@@ -3,13 +3,13 @@ id: linum
 title: Linum
 slug: /firmware/hardware/catalog/boards/unverified/linum
 description: IoT board Linum, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/linum.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![Linum!](/img/boards/linum.jpg "Linum")
 
 |                | Board properties     |
 | -------------  | -------------------- |

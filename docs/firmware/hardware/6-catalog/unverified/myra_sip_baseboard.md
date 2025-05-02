@@ -3,13 +3,13 @@ id: myra_sip_baseboard
 title: Myra SiP Baseboard
 slug: /firmware/hardware/catalog/boards/unverified/myra_sip_baseboard
 description: IoT board Myra SiP Baseboard, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/myra_sip_baseboard.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![Myra SiP Baseboard!](/img/boards/myra_sip_baseboard.webp "Myra SiP Baseboard")
 
 |                | Board properties     |
 | -------------  | -------------------- |

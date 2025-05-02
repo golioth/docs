@@ -3,13 +3,13 @@ id: ek_ra4m1
 title: Renesas EK-RA4M1
 slug: /firmware/hardware/catalog/boards/unverified/ek_ra4m1
 description: IoT board Renesas EK-RA4M1, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/ek_ra4m1.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![Renesas EK-RA4M1!](/img/boards/ek_ra4m1.webp "Renesas EK-RA4M1")
 
 |                | Board properties     |
 | -------------  | -------------------- |

@@ -3,13 +3,13 @@ id: rcar_spider_s4
 title: rcar_spider_s4
 slug: /firmware/hardware/catalog/boards/unverified/rcar_spider_s4
 description: IoT board rcar_spider_s4, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/rcar_spider_s4.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![rcar_spider_s4!](/img/boards/rcar_spider_s4.jpg "rcar_spider_s4")
 
 |                | Board properties     |
 | -------------  | -------------------- |

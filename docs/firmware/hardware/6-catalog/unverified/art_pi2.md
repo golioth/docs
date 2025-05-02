@@ -3,13 +3,13 @@ id: art_pi2
 title: art pi2
 slug: /firmware/hardware/catalog/boards/unverified/art_pi2
 description: IoT board art pi2, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/art_pi2.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![art pi2!](/img/boards/art_pi2.webp "art pi2")
 
 |                | Board properties     |
 | -------------  | -------------------- |

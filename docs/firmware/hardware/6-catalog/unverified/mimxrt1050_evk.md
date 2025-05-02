@@ -3,13 +3,13 @@ id: mimxrt1050_evk
 title: mimxrt1050_evk
 slug: /firmware/hardware/catalog/boards/unverified/mimxrt1050_evk
 description: IoT board mimxrt1050_evk, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/mimxrt1050_evk.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![mimxrt1050_evk!](/img/boards/mimxrt1050_evk.jpg "mimxrt1050_evk")
 
 |                | Board properties     |
 | -------------  | -------------------- |

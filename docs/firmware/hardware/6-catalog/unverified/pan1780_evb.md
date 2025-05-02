@@ -3,13 +3,13 @@ id: pan1780_evb
 title: pan1780-evb
 slug: /firmware/hardware/catalog/boards/unverified/pan1780_evb
 description: IoT board pan1780-evb, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/pan1780_evb.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![pan1780-evb!](/img/boards/pan1780_evb.jpg "pan1780-evb")
 
 |                | Board properties     |
 | -------------  | -------------------- |

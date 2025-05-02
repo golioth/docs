@@ -3,13 +3,13 @@ id: octopus_io_board
 title: Norik Octopus IO-Board
 slug: /firmware/hardware/catalog/boards/unverified/octopus_io_board
 description: IoT board Norik Octopus IO-Board, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/octopus_io_board.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![Norik Octopus IO-Board!](/img/boards/octopus_io_board.webp "Norik Octopus IO-Board")
 
 |                | Board properties     |
 | -------------  | -------------------- |

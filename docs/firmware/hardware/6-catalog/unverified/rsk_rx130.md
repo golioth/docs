@@ -3,13 +3,13 @@ id: rsk_rx130
 title: Renesas Starter Kit+ RX130-512KB
 slug: /firmware/hardware/catalog/boards/unverified/rsk_rx130
 description: IoT board Renesas Starter Kit+ RX130-512KB, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/rsk_rx130.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![Renesas Starter Kit+ RX130-512KB!](/img/boards/rsk_rx130.webp "Renesas Starter Kit+ RX130-512KB")
 
 |                | Board properties     |
 | -------------  | -------------------- |

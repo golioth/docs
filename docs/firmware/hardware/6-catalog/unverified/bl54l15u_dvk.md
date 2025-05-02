@@ -3,13 +3,13 @@ id: bl54l15u_dvk
 title: bl54l15u_dvk
 slug: /firmware/hardware/catalog/boards/unverified/bl54l15u_dvk
 description: IoT board bl54l15u_dvk, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/bl54l15u_dvk.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![bl54l15u_dvk!](/img/boards/bl54l15u_dvk.webp "bl54l15u_dvk")
 
 |                | Board properties     |
 | -------------  | -------------------- |

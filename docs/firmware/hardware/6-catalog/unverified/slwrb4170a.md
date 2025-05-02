@@ -3,13 +3,13 @@ id: slwrb4170a
 title: EFR32MG12 2400/868-915 MHz 19 dBm Dual Band Radio Board (SLWRB4170A, BRD4170A)
 slug: /firmware/hardware/catalog/boards/unverified/slwrb4170a
 description: IoT board EFR32MG12 2400/868-915 MHz 19 dBm Dual Band Radio Board (SLWRB4170A, BRD4170A), compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/slwrb4170a.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![EFR32MG12 2400/868-915 MHz 19 dBm Dual Band Radio Board (SLWRB4170A, BRD4170A)!](/img/boards/slwrb4170a.jpg "EFR32MG12 2400/868-915 MHz 19 dBm Dual Band Radio Board (SLWRB4170A, BRD4170A)")
 
 |                | Board properties     |
 | -------------  | -------------------- |

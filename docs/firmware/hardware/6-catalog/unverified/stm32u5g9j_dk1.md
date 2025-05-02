@@ -3,13 +3,13 @@ id: stm32u5g9j_dk1
 title: ST STM32U5G9J-DK1 Discovery Kit
 slug: /firmware/hardware/catalog/boards/unverified/stm32u5g9j_dk1
 description: IoT board ST STM32U5G9J-DK1 Discovery Kit, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/stm32u5g9j_dk1.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![ST STM32U5G9J-DK1 Discovery Kit!](/img/boards/stm32u5g9j_dk1.webp "ST STM32U5G9J-DK1 Discovery Kit")
 
 |                | Board properties     |
 | -------------  | -------------------- |

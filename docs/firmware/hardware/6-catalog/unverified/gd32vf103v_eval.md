@@ -3,13 +3,13 @@ id: gd32vf103v_eval
 title: GigaDevice GD32VF103V-EVAL
 slug: /firmware/hardware/catalog/boards/unverified/gd32vf103v_eval
 description: IoT board GigaDevice GD32VF103V-EVAL, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/gd32vf103v_eval.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![GigaDevice GD32VF103V-EVAL!](/img/boards/gd32vf103v_eval.jpg "GigaDevice GD32VF103V-EVAL")
 
 |                | Board properties     |
 | -------------  | -------------------- |

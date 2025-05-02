@@ -3,13 +3,13 @@ id: stm32f3_seco_d23
 title: SECO SBC-3.5-PX30 (STM32F302)
 slug: /firmware/hardware/catalog/boards/unverified/stm32f3_seco_d23
 description: IoT board SECO SBC-3.5-PX30 (STM32F302), compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/stm32f3_seco_d23.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![SECO SBC-3.5-PX30 (STM32F302)!](/img/boards/stm32f3_seco_d23.jpg "SECO SBC-3.5-PX30 (STM32F302)")
 
 |                | Board properties     |
 | -------------  | -------------------- |

@@ -3,13 +3,13 @@ id: stm32f411e_disco
 title: ST STM32F411E Discovery
 slug: /firmware/hardware/catalog/boards/unverified/stm32f411e_disco
 description: IoT board ST STM32F411E Discovery, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/stm32f411e_disco.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![ST STM32F411E Discovery!](/img/boards/stm32f411e_disco.jpg "ST STM32F411E Discovery")
 
 |                | Board properties     |
 | -------------  | -------------------- |

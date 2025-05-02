@@ -3,13 +3,13 @@ id: adi_eval_adin1110ebz
 title: ADI EVAL-ADIN1110EBZ evaulation board
 slug: /firmware/hardware/catalog/boards/unverified/adi_eval_adin1110ebz
 description: IoT board ADI EVAL-ADIN1110EBZ evaulation board, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/adi_eval_adin1110ebz.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![ADI EVAL-ADIN1110EBZ evaulation board!](/img/boards/adi_eval_adin1110ebz.webp "ADI EVAL-ADIN1110EBZ evaulation board")
 
 |                | Board properties     |
 | -------------  | -------------------- |

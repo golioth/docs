@@ -3,13 +3,13 @@ id: degu_evk
 title: Degu Evaluation Kit
 slug: /firmware/hardware/catalog/boards/unverified/degu_evk
 description: IoT board Degu Evaluation Kit, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/degu_evk.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![Degu Evaluation Kit!](/img/boards/degu_evk.jpg "Degu Evaluation Kit")
 
 |                | Board properties     |
 | -------------  | -------------------- |

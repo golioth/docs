@@ -3,13 +3,13 @@ id: cy8ckit_062s4
 title: CY8CKIT-062S4 PSOC 62S4
 slug: /firmware/hardware/catalog/boards/unverified/cy8ckit_062s4
 description: IoT board CY8CKIT-062S4 PSOC 62S4, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/cy8ckit_062s4.png
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![CY8CKIT-062S4 PSOC 62S4!](/img/boards/cy8ckit_062s4.png "CY8CKIT-062S4 PSOC 62S4")
 
 |                | Board properties     |
 | -------------  | -------------------- |

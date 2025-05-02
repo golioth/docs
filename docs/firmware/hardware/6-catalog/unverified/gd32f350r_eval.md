@@ -3,13 +3,13 @@ id: gd32f350r_eval
 title: GigaDevice GD32F350R Evaluation Kit
 slug: /firmware/hardware/catalog/boards/unverified/gd32f350r_eval
 description: IoT board GigaDevice GD32F350R Evaluation Kit, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/gd32f350r_eval.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![GigaDevice GD32F350R Evaluation Kit!](/img/boards/gd32f350r_eval.webp "GigaDevice GD32F350R Evaluation Kit")
 
 |                | Board properties     |
 | -------------  | -------------------- |

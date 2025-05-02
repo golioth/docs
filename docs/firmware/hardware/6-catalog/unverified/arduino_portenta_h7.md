@@ -3,13 +3,13 @@ id: arduino_portenta_h7
 title: arduino_portenta_h7
 slug: /firmware/hardware/catalog/boards/unverified/arduino_portenta_h7
 description: IoT board arduino_portenta_h7, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/arduino_portenta_h7.jpeg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![arduino_portenta_h7!](/img/boards/arduino_portenta_h7.jpeg "arduino_portenta_h7")
 
 |                | Board properties     |
 | -------------  | -------------------- |

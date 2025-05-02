@@ -3,13 +3,13 @@ id: mimxrt1062_fmurt6
 title: NXP MIMXRT1062-FMURT6
 slug: /firmware/hardware/catalog/boards/unverified/mimxrt1062_fmurt6
 description: IoT board NXP MIMXRT1062-FMURT6, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/mimxrt1062_fmurt6.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![NXP MIMXRT1062-FMURT6!](/img/boards/mimxrt1062_fmurt6.webp "NXP MIMXRT1062-FMURT6")
 
 |                | Board properties     |
 | -------------  | -------------------- |

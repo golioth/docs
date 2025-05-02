@@ -3,13 +3,13 @@ id: adafruit_feather_nrf52840
 title: Adafruit Feather nRF52840 Express
 slug: /firmware/hardware/catalog/boards/unverified/adafruit_feather_nrf52840
 description: IoT board Adafruit Feather nRF52840 Express, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/adafruit_feather_nrf52840.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![Adafruit Feather nRF52840 Express!](/img/boards/adafruit_feather_nrf52840.jpg "Adafruit Feather nRF52840 Express")
 
 |                | Board properties     |
 | -------------  | -------------------- |

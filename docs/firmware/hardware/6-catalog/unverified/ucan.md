@@ -3,13 +3,13 @@ id: ucan
 title: FYSETC UCAN
 slug: /firmware/hardware/catalog/boards/unverified/ucan
 description: IoT board FYSETC UCAN, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/ucan.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![FYSETC UCAN!](/img/boards/ucan.webp "FYSETC UCAN")
 
 |                | Board properties     |
 | -------------  | -------------------- |

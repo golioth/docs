@@ -3,13 +3,13 @@ id: slstk3701a
 title: EFM32GG11 Giant Gecko Starter Kit (SLSTK3701A, BRD2204C)
 slug: /firmware/hardware/catalog/boards/unverified/slstk3701a
 description: IoT board EFM32GG11 Giant Gecko Starter Kit (SLSTK3701A, BRD2204C), compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/slstk3701a.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![EFM32GG11 Giant Gecko Starter Kit (SLSTK3701A, BRD2204C)!](/img/boards/slstk3701a.jpg "EFM32GG11 Giant Gecko Starter Kit (SLSTK3701A, BRD2204C)")
 
 |                | Board properties     |
 | -------------  | -------------------- |

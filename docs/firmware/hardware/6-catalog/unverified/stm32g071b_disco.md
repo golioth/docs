@@ -3,13 +3,13 @@ id: stm32g071b_disco
 title: ST STM32G071B Discovery
 slug: /firmware/hardware/catalog/boards/unverified/stm32g071b_disco
 description: IoT board ST STM32G071B Discovery, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/stm32g071b_disco.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![ST STM32G071B Discovery!](/img/boards/stm32g071b_disco.jpg "ST STM32G071B Discovery")
 
 |                | Board properties     |
 | -------------  | -------------------- |

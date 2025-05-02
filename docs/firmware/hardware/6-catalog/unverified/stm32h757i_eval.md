@@ -3,13 +3,13 @@ id: stm32h757i_eval
 title: stm32h757i_eval
 slug: /firmware/hardware/catalog/boards/unverified/stm32h757i_eval
 description: IoT board stm32h757i_eval, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/stm32h757i_eval.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![stm32h757i_eval!](/img/boards/stm32h757i_eval.webp "stm32h757i_eval")
 
 |                | Board properties     |
 | -------------  | -------------------- |

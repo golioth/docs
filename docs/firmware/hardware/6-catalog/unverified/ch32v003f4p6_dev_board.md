@@ -3,13 +3,13 @@ id: ch32v003f4p6_dev_board
 title: WCH CH32V003F4P6 Development Board
 slug: /firmware/hardware/catalog/boards/unverified/ch32v003f4p6_dev_board
 description: IoT board WCH CH32V003F4P6 Development Board, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/ch32v003f4p6_dev_board.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![WCH CH32V003F4P6 Development Board!](/img/boards/ch32v003f4p6_dev_board.webp "WCH CH32V003F4P6 Development Board")
 
 |                | Board properties     |
 | -------------  | -------------------- |

@@ -3,13 +3,13 @@ id: frdm_mcxc444
 title: NXP FRDM-MCXC444
 slug: /firmware/hardware/catalog/boards/unverified/frdm_mcxc444
 description: IoT board NXP FRDM-MCXC444, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/frdm_mcxc444.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![NXP FRDM-MCXC444!](/img/boards/frdm_mcxc444.webp "NXP FRDM-MCXC444")
 
 |                | Board properties     |
 | -------------  | -------------------- |

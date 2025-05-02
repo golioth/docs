@@ -3,13 +3,13 @@ id: nucleo_wb55rg
 title: ST Nucleo WB55RG
 slug: /firmware/hardware/catalog/boards/unverified/nucleo_wb55rg
 description: IoT board ST Nucleo WB55RG, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/nucleo_wb55rg.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![ST Nucleo WB55RG!](/img/boards/nucleo_wb55rg.jpg "ST Nucleo WB55RG")
 
 |                | Board properties     |
 | -------------  | -------------------- |

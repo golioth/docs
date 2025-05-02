@@ -3,13 +3,13 @@ id: slwrb4255a
 title: EFR32FG13 2400/915 MHz 19 dBm Dual Band Radio Board (SLWRB4255A, BRD4255A)
 slug: /firmware/hardware/catalog/boards/unverified/slwrb4255a
 description: IoT board EFR32FG13 2400/915 MHz 19 dBm Dual Band Radio Board (SLWRB4255A, BRD4255A), compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/slwrb4255a.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![EFR32FG13 2400/915 MHz 19 dBm Dual Band Radio Board (SLWRB4255A, BRD4255A)!](/img/boards/slwrb4255a.jpg "EFR32FG13 2400/915 MHz 19 dBm Dual Band Radio Board (SLWRB4255A, BRD4255A)")
 
 |                | Board properties     |
 | -------------  | -------------------- |

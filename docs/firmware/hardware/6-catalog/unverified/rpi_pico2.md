@@ -3,13 +3,13 @@ id: rpi_pico2
 title: rpi_pico2
 slug: /firmware/hardware/catalog/boards/unverified/rpi_pico2
 description: IoT board rpi_pico2, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/rpi_pico2.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![rpi_pico2!](/img/boards/rpi_pico2.webp "rpi_pico2")
 
 |                | Board properties     |
 | -------------  | -------------------- |

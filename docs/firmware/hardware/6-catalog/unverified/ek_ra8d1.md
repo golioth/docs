@@ -3,13 +3,13 @@ id: ek_ra8d1
 title: Renesas EK-RA8D1
 slug: /firmware/hardware/catalog/boards/unverified/ek_ra8d1
 description: IoT board Renesas EK-RA8D1, compatible with Golioth at unverified level.
-image: /img/boards/ek_ra8d1.png
+image: /img/boards/ek_ra8d1.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-![Renesas EK-RA8D1!](/img/boards/ek_ra8d1.png "Renesas EK-RA8D1")
+![Renesas EK-RA8D1!](/img/boards/ek_ra8d1.jpg "Renesas EK-RA8D1")
 
 |                | Board properties     |
 | -------------  | -------------------- |

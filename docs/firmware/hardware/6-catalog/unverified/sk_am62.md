@@ -3,13 +3,13 @@ id: sk_am62
 title: sk_am62
 slug: /firmware/hardware/catalog/boards/unverified/sk_am62
 description: IoT board sk_am62, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/sk_am62.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![sk_am62!](/img/boards/sk_am62.webp "sk_am62")
 
 |                | Board properties     |
 | -------------  | -------------------- |

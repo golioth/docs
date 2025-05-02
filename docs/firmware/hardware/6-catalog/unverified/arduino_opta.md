@@ -3,13 +3,13 @@ id: arduino_opta
 title: arduino_opta
 slug: /firmware/hardware/catalog/boards/unverified/arduino_opta
 description: IoT board arduino_opta, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/arduino_opta.jpeg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![arduino_opta!](/img/boards/arduino_opta.jpeg "arduino_opta")
 
 |                | Board properties     |
 | -------------  | -------------------- |

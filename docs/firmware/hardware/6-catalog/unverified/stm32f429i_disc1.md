@@ -3,13 +3,13 @@ id: stm32f429i_disc1
 title: ST STM32F429I Discovery
 slug: /firmware/hardware/catalog/boards/unverified/stm32f429i_disc1
 description: IoT board ST STM32F429I Discovery, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/stm32f429i_disc1.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![ST STM32F429I Discovery!](/img/boards/stm32f429i_disc1.jpg "ST STM32F429I Discovery")
 
 |                | Board properties     |
 | -------------  | -------------------- |

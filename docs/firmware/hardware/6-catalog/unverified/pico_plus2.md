@@ -3,13 +3,13 @@ id: pico_plus2
 title: pico_plus2
 slug: /firmware/hardware/catalog/boards/unverified/pico_plus2
 description: IoT board pico_plus2, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/pico_plus2.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![pico_plus2!](/img/boards/pico_plus2.webp "pico_plus2")
 
 |                | Board properties     |
 | -------------  | -------------------- |

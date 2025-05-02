@@ -3,13 +3,13 @@ id: robokit1
 title: TDK RoboKit1
 slug: /firmware/hardware/catalog/boards/unverified/robokit1
 description: IoT board TDK RoboKit1, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/robokit1.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![TDK RoboKit1!](/img/boards/robokit1.jpg "TDK RoboKit1")
 
 |                | Board properties     |
 | -------------  | -------------------- |

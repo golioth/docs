@@ -3,13 +3,13 @@ id: we_proteus2ev
 title: we_proteus2ev_nrf52832
 slug: /firmware/hardware/catalog/boards/unverified/we_proteus2ev
 description: IoT board we_proteus2ev_nrf52832, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/we_proteus2ev.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![we_proteus2ev_nrf52832!](/img/boards/we_proteus2ev.jpg "we_proteus2ev_nrf52832")
 
 |                | Board properties     |
 | -------------  | -------------------- |

@@ -3,13 +3,13 @@ id: nrf52dk_nrf52810
 title: nRF52-DK-NRF52810
 slug: /firmware/hardware/catalog/boards/unverified/nrf52dk_nrf52810
 description: IoT board nRF52-DK-NRF52810, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/nrf52dk_nrf52810.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![nRF52-DK-NRF52810!](/img/boards/nrf52dk_nrf52810.jpg "nRF52-DK-NRF52810")
 
 |                | Board properties     |
 | -------------  | -------------------- |

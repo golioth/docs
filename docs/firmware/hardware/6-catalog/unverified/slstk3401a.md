@@ -3,13 +3,13 @@ id: slstk3401a
 title: EFM32 Pearl Gecko Starter Kit (SLSTK3401A, BRD2500B)
 slug: /firmware/hardware/catalog/boards/unverified/slstk3401a
 description: IoT board EFM32 Pearl Gecko Starter Kit (SLSTK3401A, BRD2500B), compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/slstk3401a.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![EFM32 Pearl Gecko Starter Kit (SLSTK3401A, BRD2500B)!](/img/boards/slstk3401a.jpg "EFM32 Pearl Gecko Starter Kit (SLSTK3401A, BRD2500B)")
 
 |                | Board properties     |
 | -------------  | -------------------- |

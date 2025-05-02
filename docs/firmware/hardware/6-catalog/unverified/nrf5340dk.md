@@ -3,13 +3,13 @@ id: nrf5340dk
 title: nrf5340dk
 slug: /firmware/hardware/catalog/boards/unverified/nrf5340dk
 description: IoT board nrf5340dk, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/nrf5340dk.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![nrf5340dk!](/img/boards/nrf5340dk.jpg "nrf5340dk")
 
 |                | Board properties     |
 | -------------  | -------------------- |

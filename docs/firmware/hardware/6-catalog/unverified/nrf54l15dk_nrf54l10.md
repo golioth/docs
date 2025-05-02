@@ -3,13 +3,13 @@ id: nrf54l15dk_nrf54l10
 title: nrf54l15dk_nrf54l10
 slug: /firmware/hardware/catalog/boards/unverified/nrf54l15dk_nrf54l10
 description: IoT board nrf54l15dk_nrf54l10, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/nrf54l15dk_nrf54l10.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![nrf54l15dk_nrf54l10!](/img/boards/nrf54l15dk_nrf54l10.webp "nrf54l15dk_nrf54l10")
 
 |                | Board properties     |
 | -------------  | -------------------- |

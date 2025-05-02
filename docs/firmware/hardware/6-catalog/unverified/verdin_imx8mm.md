@@ -3,13 +3,13 @@ id: verdin_imx8mm
 title: verdin_imx8mm
 slug: /firmware/hardware/catalog/boards/unverified/verdin_imx8mm
 description: IoT board verdin_imx8mm, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/verdin_imx8mm.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![verdin_imx8mm!](/img/boards/verdin_imx8mm.webp "verdin_imx8mm")
 
 |                | Board properties     |
 | -------------  | -------------------- |

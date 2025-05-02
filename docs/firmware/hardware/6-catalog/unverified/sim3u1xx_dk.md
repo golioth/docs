@@ -3,13 +3,13 @@ id: sim3u1xx_dk
 title: Silicon Labs SiM3U development kit
 slug: /firmware/hardware/catalog/boards/unverified/sim3u1xx_dk
 description: IoT board Silicon Labs SiM3U development kit, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/sim3u1xx_dk.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![Silicon Labs SiM3U development kit!](/img/boards/sim3u1xx_dk.webp "Silicon Labs SiM3U development kit")
 
 |                | Board properties     |
 | -------------  | -------------------- |

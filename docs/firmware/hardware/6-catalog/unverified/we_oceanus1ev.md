@@ -3,13 +3,13 @@ id: we_oceanus1ev
 title: Oceanus-I EV (rev 1.1)
 slug: /firmware/hardware/catalog/boards/unverified/we_oceanus1ev
 description: IoT board Oceanus-I EV (rev 1.1), compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/we_oceanus1ev.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![Oceanus-I EV (rev 1.1)!](/img/boards/we_oceanus1ev.webp "Oceanus-I EV (rev 1.1)")
 
 |                | Board properties     |
 | -------------  | -------------------- |

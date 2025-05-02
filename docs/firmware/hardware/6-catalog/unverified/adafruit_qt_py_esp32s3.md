@@ -3,13 +3,13 @@ id: adafruit_qt_py_esp32s3
 title: Adafruit QT Py ESP32S3 PROCPU
 slug: /firmware/hardware/catalog/boards/unverified/adafruit_qt_py_esp32s3
 description: IoT board Adafruit QT Py ESP32S3 PROCPU, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/adafruit_qt_py_esp32s3.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![Adafruit QT Py ESP32S3 PROCPU!](/img/boards/adafruit_qt_py_esp32s3.webp "Adafruit QT Py ESP32S3 PROCPU")
 
 |                | Board properties     |
 | -------------  | -------------------- |

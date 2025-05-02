@@ -3,13 +3,13 @@ id: tdongle_s3
 title: TDONGLE S3 PROCPU
 slug: /firmware/hardware/catalog/boards/unverified/tdongle_s3
 description: IoT board TDONGLE S3 PROCPU, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/tdongle_s3.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![TDONGLE S3 PROCPU!](/img/boards/tdongle_s3.webp "TDONGLE S3 PROCPU")
 
 |                | Board properties     |
 | -------------  | -------------------- |

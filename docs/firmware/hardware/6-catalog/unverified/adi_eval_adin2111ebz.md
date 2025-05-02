@@ -3,13 +3,13 @@ id: adi_eval_adin2111ebz
 title: ADI EVAL-ADIN2111EBZ evaulation board
 slug: /firmware/hardware/catalog/boards/unverified/adi_eval_adin2111ebz
 description: IoT board ADI EVAL-ADIN2111EBZ evaulation board, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/adi_eval_adin2111ebz.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![ADI EVAL-ADIN2111EBZ evaulation board!](/img/boards/adi_eval_adin2111ebz.webp "ADI EVAL-ADIN2111EBZ evaulation board")
 
 |                | Board properties     |
 | -------------  | -------------------- |

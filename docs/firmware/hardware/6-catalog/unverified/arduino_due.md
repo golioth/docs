@@ -3,13 +3,13 @@ id: arduino_due
 title: Arduino Due
 slug: /firmware/hardware/catalog/boards/unverified/arduino_due
 description: IoT board Arduino Due, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/arduino_due.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![Arduino Due!](/img/boards/arduino_due.jpg "Arduino Due")
 
 |                | Board properties     |
 | -------------  | -------------------- |

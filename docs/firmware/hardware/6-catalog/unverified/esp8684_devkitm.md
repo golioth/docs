@@ -3,13 +3,13 @@ id: esp8684_devkitm
 title: ESP8684
 slug: /firmware/hardware/catalog/boards/unverified/esp8684_devkitm
 description: IoT board ESP8684, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/esp8684_devkitm.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![ESP8684!](/img/boards/esp8684_devkitm.webp "ESP8684")
 
 |                | Board properties     |
 | -------------  | -------------------- |

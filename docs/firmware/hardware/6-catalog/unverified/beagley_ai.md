@@ -3,13 +3,13 @@ id: beagley_ai
 title: beagley_ai
 slug: /firmware/hardware/catalog/boards/unverified/beagley_ai
 description: IoT board beagley_ai, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/beagley_ai.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![beagley_ai!](/img/boards/beagley_ai.webp "beagley_ai")
 
 |                | Board properties     |
 | -------------  | -------------------- |

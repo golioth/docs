@@ -3,13 +3,13 @@ id: linkw
 title: WCH LinkW
 slug: /firmware/hardware/catalog/boards/unverified/linkw
 description: IoT board WCH LinkW, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/linkw.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![WCH LinkW!](/img/boards/linkw.webp "WCH LinkW")
 
 |                | Board properties     |
 | -------------  | -------------------- |

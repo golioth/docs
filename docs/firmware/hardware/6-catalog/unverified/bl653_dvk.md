@@ -3,13 +3,13 @@ id: bl653_dvk
 title: BL653_DVK
 slug: /firmware/hardware/catalog/boards/unverified/bl653_dvk
 description: IoT board BL653_DVK, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/bl653_dvk.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![BL653_DVK!](/img/boards/bl653_dvk.jpg "BL653_DVK")
 
 |                | Board properties     |
 | -------------  | -------------------- |

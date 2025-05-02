@@ -3,13 +3,13 @@ id: adafruit_feather_stm32f405
 title: Adafruit Feather STM32F405 Express
 slug: /firmware/hardware/catalog/boards/unverified/adafruit_feather_stm32f405
 description: IoT board Adafruit Feather STM32F405 Express, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/adafruit_feather_stm32f405.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![Adafruit Feather STM32F405 Express!](/img/boards/adafruit_feather_stm32f405.jpg "Adafruit Feather STM32F405 Express")
 
 |                | Board properties     |
 | -------------  | -------------------- |

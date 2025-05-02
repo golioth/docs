@@ -3,13 +3,13 @@ id: frdm_kw41z
 title: NXP FRDM-KW41Z
 slug: /firmware/hardware/catalog/boards/unverified/frdm_kw41z
 description: IoT board NXP FRDM-KW41Z, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/frdm_kw41z.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![NXP FRDM-KW41Z!](/img/boards/frdm_kw41z.jpg "NXP FRDM-KW41Z")
 
 |                | Board properties     |
 | -------------  | -------------------- |

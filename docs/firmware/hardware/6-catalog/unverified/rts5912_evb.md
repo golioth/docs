@@ -3,13 +3,13 @@ id: rts5912_evb
 title: RTS5912-EVB
 slug: /firmware/hardware/catalog/boards/unverified/rts5912_evb
 description: IoT board RTS5912-EVB, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/rts5912_evb.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![RTS5912-EVB!](/img/boards/rts5912_evb.webp "RTS5912-EVB")
 
 |                | Board properties     |
 | -------------  | -------------------- |

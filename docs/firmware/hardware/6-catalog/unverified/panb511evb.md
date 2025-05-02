@@ -3,13 +3,13 @@ id: panb511evb
 title: panb511evb
 slug: /firmware/hardware/catalog/boards/unverified/panb511evb
 description: IoT board panb511evb, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/panb511evb.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![panb511evb!](/img/boards/panb511evb.webp "panb511evb")
 
 |                | Board properties     |
 | -------------  | -------------------- |

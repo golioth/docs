@@ -3,13 +3,13 @@ id: esp32s2_franzininho
 title: ESP32-S2 Franzininho
 slug: /firmware/hardware/catalog/boards/unverified/esp32s2_franzininho
 description: IoT board ESP32-S2 Franzininho, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/esp32s2_franzininho.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![ESP32-S2 Franzininho!](/img/boards/esp32s2_franzininho.jpg "ESP32-S2 Franzininho")
 
 |                | Board properties     |
 | -------------  | -------------------- |

@@ -3,13 +3,13 @@ id: pocketbeagle_2
 title: pocketbeagle_2
 slug: /firmware/hardware/catalog/boards/unverified/pocketbeagle_2
 description: IoT board pocketbeagle_2, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/pocketbeagle_2.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![pocketbeagle_2!](/img/boards/pocketbeagle_2.webp "pocketbeagle_2")
 
 |                | Board properties     |
 | -------------  | -------------------- |

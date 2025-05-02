@@ -3,13 +3,13 @@ id: we_ophelia1ev
 title: we_ophelia1ev_nrf52805
 slug: /firmware/hardware/catalog/boards/unverified/we_ophelia1ev
 description: IoT board we_ophelia1ev_nrf52805, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/we_ophelia1ev.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![we_ophelia1ev_nrf52805!](/img/boards/we_ophelia1ev.jpg "we_ophelia1ev_nrf52805")
 
 |                | Board properties     |
 | -------------  | -------------------- |

@@ -3,13 +3,13 @@ id: hifive_unmatched
 title: hifive_unmatched
 slug: /firmware/hardware/catalog/boards/unverified/hifive_unmatched
 description: IoT board hifive_unmatched, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/hifive_unmatched.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![hifive_unmatched!](/img/boards/hifive_unmatched.jpg "hifive_unmatched")
 
 |                | Board properties     |
 | -------------  | -------------------- |

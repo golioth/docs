@@ -3,13 +3,13 @@ id: esp32s3_devkitm
 title: ESP32-S3 DevKitM PROCPU
 slug: /firmware/hardware/catalog/boards/unverified/esp32s3_devkitm
 description: IoT board ESP32-S3 DevKitM PROCPU, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/esp32s3_devkitm.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![ESP32-S3 DevKitM PROCPU!](/img/boards/esp32s3_devkitm.webp "ESP32-S3 DevKitM PROCPU")
 
 |                | Board properties     |
 | -------------  | -------------------- |

@@ -3,13 +3,13 @@ id: we_orthosie1ev
 title: we_orthosie1ev
 slug: /firmware/hardware/catalog/boards/unverified/we_orthosie1ev
 description: IoT board we_orthosie1ev, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/we_orthosie1ev.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![we_orthosie1ev!](/img/boards/we_orthosie1ev.webp "we_orthosie1ev")
 
 |                | Board properties     |
 | -------------  | -------------------- |

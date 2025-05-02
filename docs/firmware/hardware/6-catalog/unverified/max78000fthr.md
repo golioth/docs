@@ -3,13 +3,13 @@ id: max78000fthr
 title: max78000fthr
 slug: /firmware/hardware/catalog/boards/unverified/max78000fthr
 description: IoT board max78000fthr, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/max78000fthr.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![max78000fthr!](/img/boards/max78000fthr.webp "max78000fthr")
 
 |                | Board properties     |
 | -------------  | -------------------- |

@@ -3,13 +3,13 @@ id: ch32v003evt
 title: WCH CH32V003 Evaluation Board
 slug: /firmware/hardware/catalog/boards/unverified/ch32v003evt
 description: IoT board WCH CH32V003 Evaluation Board, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/ch32v003evt.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![WCH CH32V003 Evaluation Board!](/img/boards/ch32v003evt.webp "WCH CH32V003 Evaluation Board")
 
 |                | Board properties     |
 | -------------  | -------------------- |

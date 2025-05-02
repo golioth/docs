@@ -3,13 +3,13 @@ id: numaker_m55m1
 title: NUVOTON NUMAKER-M55M1 Kit
 slug: /firmware/hardware/catalog/boards/unverified/numaker_m55m1
 description: IoT board NUVOTON NUMAKER-M55M1 Kit, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/numaker_m55m1.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![NUVOTON NUMAKER-M55M1 Kit!](/img/boards/numaker_m55m1.webp "NUVOTON NUMAKER-M55M1 Kit")
 
 |                | Board properties     |
 | -------------  | -------------------- |

@@ -3,13 +3,13 @@ id: pan1782_evb
 title: pan1782-evb
 slug: /firmware/hardware/catalog/boards/unverified/pan1782_evb
 description: IoT board pan1782-evb, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/pan1782_evb.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![pan1782-evb!](/img/boards/pan1782_evb.jpg "pan1782-evb")
 
 |                | Board properties     |
 | -------------  | -------------------- |

@@ -3,13 +3,13 @@ id: cy8ckit_062_ble
 title: cy8ckit_062_ble
 slug: /firmware/hardware/catalog/boards/unverified/cy8ckit_062_ble
 description: IoT board cy8ckit_062_ble, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/cy8ckit_062_ble.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![cy8ckit_062_ble!](/img/boards/cy8ckit_062_ble.jpg "cy8ckit_062_ble")
 
 |                | Board properties     |
 | -------------  | -------------------- |

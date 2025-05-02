@@ -3,13 +3,13 @@ id: frdm_mcxw72
 title: frdm_mcxw72
 slug: /firmware/hardware/catalog/boards/unverified/frdm_mcxw72
 description: IoT board frdm_mcxw72, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/frdm_mcxw72.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![frdm_mcxw72!](/img/boards/frdm_mcxw72.webp "frdm_mcxw72")
 
 |                | Board properties     |
 | -------------  | -------------------- |

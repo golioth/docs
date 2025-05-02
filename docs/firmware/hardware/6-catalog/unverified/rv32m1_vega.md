@@ -3,13 +3,13 @@ id: rv32m1_vega
 title: rv32m1_vega
 slug: /firmware/hardware/catalog/boards/unverified/rv32m1_vega
 description: IoT board rv32m1_vega, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/rv32m1_vega.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![rv32m1_vega!](/img/boards/rv32m1_vega.jpg "rv32m1_vega")
 
 |                | Board properties     |
 | -------------  | -------------------- |

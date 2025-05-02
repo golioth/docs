@@ -3,13 +3,13 @@ id: frdm_mcxw71
 title: NXP FRDM_MCXW71
 slug: /firmware/hardware/catalog/boards/unverified/frdm_mcxw71
 description: IoT board NXP FRDM_MCXW71, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/frdm_mcxw71.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![NXP FRDM_MCXW71!](/img/boards/frdm_mcxw71.webp "NXP FRDM_MCXW71")
 
 |                | Board properties     |
 | -------------  | -------------------- |

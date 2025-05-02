@@ -3,13 +3,13 @@ id: yd_esp32
 title: YD-ESP32 PROCPU
 slug: /firmware/hardware/catalog/boards/unverified/yd_esp32
 description: IoT board YD-ESP32 PROCPU, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/yd_esp32.png
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![YD-ESP32 PROCPU!](/img/boards/yd_esp32.png "YD-ESP32 PROCPU")
 
 |                | Board properties     |
 | -------------  | -------------------- |

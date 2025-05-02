@@ -3,13 +3,13 @@ id: mps2_an386
 title: ARM V2M MPS2-an386
 slug: /firmware/hardware/catalog/boards/unverified/mps2_an386
 description: IoT board ARM V2M MPS2-an386, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/mps2_an386.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![ARM V2M MPS2-an386!](/img/boards/mps2_an386.jpg "ARM V2M MPS2-an386")
 
 |                | Board properties     |
 | -------------  | -------------------- |

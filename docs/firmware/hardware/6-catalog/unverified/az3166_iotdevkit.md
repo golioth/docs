@@ -3,13 +3,13 @@ id: az3166_iotdevkit
 title: MXChip AZ3166 IoT Devkit
 slug: /firmware/hardware/catalog/boards/unverified/az3166_iotdevkit
 description: IoT board MXChip AZ3166 IoT Devkit, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/az3166_iotdevkit.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![MXChip AZ3166 IoT Devkit!](/img/boards/az3166_iotdevkit.webp "MXChip AZ3166 IoT Devkit")
 
 |                | Board properties     |
 | -------------  | -------------------- |

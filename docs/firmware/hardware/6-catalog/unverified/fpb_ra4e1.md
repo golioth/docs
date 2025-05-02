@@ -3,13 +3,13 @@ id: fpb_ra4e1
 title: Renesas FPB-RA4E1
 slug: /firmware/hardware/catalog/boards/unverified/fpb_ra4e1
 description: IoT board Renesas FPB-RA4E1, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/fpb_ra4e1.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![Renesas FPB-RA4E1!](/img/boards/fpb_ra4e1.webp "Renesas FPB-RA4E1")
 
 |                | Board properties     |
 | -------------  | -------------------- |

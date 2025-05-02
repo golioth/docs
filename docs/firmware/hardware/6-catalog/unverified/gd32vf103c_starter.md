@@ -3,13 +3,13 @@ id: gd32vf103c_starter
 title: GigaDevice GD32VF103C-STARTER
 slug: /firmware/hardware/catalog/boards/unverified/gd32vf103c_starter
 description: IoT board GigaDevice GD32VF103C-STARTER, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/gd32vf103c_starter.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![GigaDevice GD32VF103C-STARTER!](/img/boards/gd32vf103c_starter.jpg "GigaDevice GD32VF103C-STARTER")
 
 |                | Board properties     |
 | -------------  | -------------------- |

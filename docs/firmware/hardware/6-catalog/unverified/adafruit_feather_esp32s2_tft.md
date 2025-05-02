@@ -3,13 +3,13 @@ id: adafruit_feather_esp32s2_tft
 title: Adafruit ESP32-S2 TFT Feather
 slug: /firmware/hardware/catalog/boards/unverified/adafruit_feather_esp32s2_tft
 description: IoT board Adafruit ESP32-S2 TFT Feather, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/adafruit_feather_esp32s2_tft.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![Adafruit ESP32-S2 TFT Feather!](/img/boards/adafruit_feather_esp32s2_tft.webp "Adafruit ESP32-S2 TFT Feather")
 
 |                | Board properties     |
 | -------------  | -------------------- |

@@ -3,13 +3,13 @@ id: beaglebone_ai64
 title: beaglebone_ai64
 slug: /firmware/hardware/catalog/boards/unverified/beaglebone_ai64
 description: IoT board beaglebone_ai64, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/beaglebone_ai64.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![beaglebone_ai64!](/img/boards/beaglebone_ai64.webp "beaglebone_ai64")
 
 |                | Board properties     |
 | -------------  | -------------------- |

@@ -3,13 +3,13 @@ id: frdm_mcxc242
 title: NXP FRDM-MCXC242
 slug: /firmware/hardware/catalog/boards/unverified/frdm_mcxc242
 description: IoT board NXP FRDM-MCXC242, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/frdm_mcxc242.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![NXP FRDM-MCXC242!](/img/boards/frdm_mcxc242.webp "NXP FRDM-MCXC242")
 
 |                | Board properties     |
 | -------------  | -------------------- |

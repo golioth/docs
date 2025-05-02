@@ -3,13 +3,13 @@ id: voice_ra4e1
 title: Renesas VOICE-RA4E1
 slug: /firmware/hardware/catalog/boards/unverified/voice_ra4e1
 description: IoT board Renesas VOICE-RA4E1, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/voice_ra4e1.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![Renesas VOICE-RA4E1!](/img/boards/voice_ra4e1.webp "Renesas VOICE-RA4E1")
 
 |                | Board properties     |
 | -------------  | -------------------- |

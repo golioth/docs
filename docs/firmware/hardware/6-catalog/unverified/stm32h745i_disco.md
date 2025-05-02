@@ -3,13 +3,13 @@ id: stm32h745i_disco
 title: stm32h745i_disco
 slug: /firmware/hardware/catalog/boards/unverified/stm32h745i_disco
 description: IoT board stm32h745i_disco, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/stm32h745i_disco.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![stm32h745i_disco!](/img/boards/stm32h745i_disco.jpg "stm32h745i_disco")
 
 |                | Board properties     |
 | -------------  | -------------------- |

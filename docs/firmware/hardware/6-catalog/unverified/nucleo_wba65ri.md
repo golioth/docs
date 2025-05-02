@@ -3,13 +3,13 @@ id: nucleo_wba65ri
 title: ST Nucleo WBA65RI
 slug: /firmware/hardware/catalog/boards/unverified/nucleo_wba65ri
 description: IoT board ST Nucleo WBA65RI, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/nucleo_wba65ri.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![ST Nucleo WBA65RI!](/img/boards/nucleo_wba65ri.webp "ST Nucleo WBA65RI")
 
 |                | Board properties     |
 | -------------  | -------------------- |

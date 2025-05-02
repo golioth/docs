@@ -3,13 +3,13 @@ id: olimex_stm32_h103
 title: OLIMEX-STM32-H103
 slug: /firmware/hardware/catalog/boards/unverified/olimex_stm32_h103
 description: IoT board OLIMEX-STM32-H103, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/olimex_stm32_h103.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![OLIMEX-STM32-H103!](/img/boards/olimex_stm32_h103.jpg "OLIMEX-STM32-H103")
 
 |                | Board properties     |
 | -------------  | -------------------- |

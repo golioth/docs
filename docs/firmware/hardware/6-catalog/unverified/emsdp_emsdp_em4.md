@@ -3,13 +3,13 @@ id: emsdp_emsdp_em4
 title: EM Software Development Platform (EM4)
 slug: /firmware/hardware/catalog/boards/unverified/emsdp_emsdp_em4
 description: IoT board EM Software Development Platform (EM4), compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/emsdp_emsdp_em4.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![EM Software Development Platform (EM4)!](/img/boards/emsdp_emsdp_em4.jpg "EM Software Development Platform (EM4)")
 
 |                | Board properties     |
 | -------------  | -------------------- |
