@@ -3,13 +3,13 @@ id: teensy40
 title: PJRC TEENSY40
 slug: /firmware/hardware/catalog/boards/unverified/teensy40
 description: IoT board PJRC TEENSY40, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/teensy40.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![PJRC TEENSY40!](/img/boards/teensy40.jpg "PJRC TEENSY40")
 
 |                | Board properties     |
 | -------------  | -------------------- |

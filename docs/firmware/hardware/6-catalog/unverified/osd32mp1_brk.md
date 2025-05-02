@@ -3,13 +3,13 @@ id: osd32mp1_brk
 title: OSD32MP1-BRK
 slug: /firmware/hardware/catalog/boards/unverified/osd32mp1_brk
 description: IoT board OSD32MP1-BRK, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/osd32mp1_brk.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![OSD32MP1-BRK!](/img/boards/osd32mp1_brk.webp "OSD32MP1-BRK")
 
 |                | Board properties     |
 | -------------  | -------------------- |

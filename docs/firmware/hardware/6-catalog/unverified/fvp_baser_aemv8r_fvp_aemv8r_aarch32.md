@@ -3,13 +3,13 @@ id: fvp_baser_aemv8r_fvp_aemv8r_aarch32
 title: FVP Emulation FVP_BaseR_AEMv8R AArch32
 slug: /firmware/hardware/catalog/boards/unverified/fvp_baser_aemv8r_fvp_aemv8r_aarch32
 description: IoT board FVP Emulation FVP_BaseR_AEMv8R AArch32, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/fvp_baser_aemv8r_fvp_aemv8r_aarch32.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![FVP Emulation FVP_BaseR_AEMv8R AArch32!](/img/boards/fvp_baser_aemv8r_fvp_aemv8r_aarch32.jpg "FVP Emulation FVP_BaseR_AEMv8R AArch32")
 
 |                | Board properties     |
 | -------------  | -------------------- |

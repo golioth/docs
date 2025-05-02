@@ -3,13 +3,13 @@ id: em_starterkit_emsk_em7d
 title: EM Starterkit EM7D
 slug: /firmware/hardware/catalog/boards/unverified/em_starterkit_emsk_em7d
 description: IoT board EM Starterkit EM7D, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/em_starterkit_emsk_em7d.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![EM Starterkit EM7D!](/img/boards/em_starterkit_emsk_em7d.jpg "EM Starterkit EM7D")
 
 |                | Board properties     |
 | -------------  | -------------------- |

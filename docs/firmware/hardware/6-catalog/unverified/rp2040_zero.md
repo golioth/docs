@@ -3,13 +3,13 @@ id: rp2040_zero
 title: Waveshare RP2040-Zero
 slug: /firmware/hardware/catalog/boards/unverified/rp2040_zero
 description: IoT board Waveshare RP2040-Zero, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/rp2040_zero.png
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![Waveshare RP2040-Zero!](/img/boards/rp2040_zero.png "Waveshare RP2040-Zero")
 
 |                | Board properties     |
 | -------------  | -------------------- |

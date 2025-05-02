@@ -3,13 +3,13 @@ id: stm32wb5mm_dk
 title: ST STM32WB5MM-DK Discovery Development Board
 slug: /firmware/hardware/catalog/boards/unverified/stm32wb5mm_dk
 description: IoT board ST STM32WB5MM-DK Discovery Development Board, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/stm32wb5mm_dk.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![ST STM32WB5MM-DK Discovery Development Board!](/img/boards/stm32wb5mm_dk.jpg "ST STM32WB5MM-DK Discovery Development Board")
 
 |                | Board properties     |
 | -------------  | -------------------- |

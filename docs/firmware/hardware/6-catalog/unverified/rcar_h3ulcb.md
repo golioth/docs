@@ -3,13 +3,13 @@ id: rcar_h3ulcb
 title: rcar_h3ulcb
 slug: /firmware/hardware/catalog/boards/unverified/rcar_h3ulcb
 description: IoT board rcar_h3ulcb, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/rcar_h3ulcb.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![rcar_h3ulcb!](/img/boards/rcar_h3ulcb.jpg "rcar_h3ulcb")
 
 |                | Board properties     |
 | -------------  | -------------------- |

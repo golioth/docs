@@ -3,13 +3,13 @@ id: b_g474e_dpow1
 title: ST B-G474E-DPOW1 Discovery
 slug: /firmware/hardware/catalog/boards/unverified/b_g474e_dpow1
 description: IoT board ST B-G474E-DPOW1 Discovery, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/b_g474e_dpow1.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![ST B-G474E-DPOW1 Discovery!](/img/boards/b_g474e_dpow1.jpg "ST B-G474E-DPOW1 Discovery")
 
 |                | Board properties     |
 | -------------  | -------------------- |

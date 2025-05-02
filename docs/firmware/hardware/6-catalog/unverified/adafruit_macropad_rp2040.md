@@ -3,13 +3,13 @@ id: adafruit_macropad_rp2040
 title: Adafruit MacroPad RP2040
 slug: /firmware/hardware/catalog/boards/unverified/adafruit_macropad_rp2040
 description: IoT board Adafruit MacroPad RP2040, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/adafruit_macropad_rp2040.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![Adafruit MacroPad RP2040!](/img/boards/adafruit_macropad_rp2040.webp "Adafruit MacroPad RP2040")
 
 |                | Board properties     |
 | -------------  | -------------------- |

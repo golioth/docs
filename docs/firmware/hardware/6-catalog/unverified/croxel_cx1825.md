@@ -3,13 +3,13 @@ id: croxel_cx1825
 title: Croxel-CX1825-NRF52840
 slug: /firmware/hardware/catalog/boards/unverified/croxel_cx1825
 description: IoT board Croxel-CX1825-NRF52840, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/croxel_cx1825.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![Croxel-CX1825-NRF52840!](/img/boards/croxel_cx1825.jpg "Croxel-CX1825-NRF52840")
 
 |                | Board properties     |
 | -------------  | -------------------- |

@@ -3,13 +3,13 @@ id: ttgo_toiplus
 title: TTGO T-OI-PLUS
 slug: /firmware/hardware/catalog/boards/unverified/ttgo_toiplus
 description: IoT board TTGO T-OI-PLUS, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/ttgo_toiplus.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![TTGO T-OI-PLUS!](/img/boards/ttgo_toiplus.webp "TTGO T-OI-PLUS")
 
 |                | Board properties     |
 | -------------  | -------------------- |

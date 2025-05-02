@@ -3,13 +3,13 @@ id: cy8cproto_062_4343w
 title: CY8CPROTO-062-4343W PSOC 6 Wi-Fi BT Prototyping Kit
 slug: /firmware/hardware/catalog/boards/unverified/cy8cproto_062_4343w
 description: IoT board CY8CPROTO-062-4343W PSOC 6 Wi-Fi BT Prototyping Kit, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/cy8cproto_062_4343w.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![CY8CPROTO-062-4343W PSOC 6 Wi-Fi BT Prototyping Kit!](/img/boards/cy8cproto_062_4343w.jpg "CY8CPROTO-062-4343W PSOC 6 Wi-Fi BT Prototyping Kit")
 
 |                | Board properties     |
 | -------------  | -------------------- |

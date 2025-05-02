@@ -3,13 +3,13 @@ id: emsdp_emsdp_em9d
 title: EM Software Development Platform (EM9D)
 slug: /firmware/hardware/catalog/boards/unverified/emsdp_emsdp_em9d
 description: IoT board EM Software Development Platform (EM9D), compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/emsdp_emsdp_em9d.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![EM Software Development Platform (EM9D)!](/img/boards/emsdp_emsdp_em9d.jpg "EM Software Development Platform (EM9D)")
 
 |                | Board properties     |
 | -------------  | -------------------- |

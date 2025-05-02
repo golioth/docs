@@ -3,13 +3,13 @@ id: nucleo_h753zi
 title: ST Nucleo H753ZI
 slug: /firmware/hardware/catalog/boards/unverified/nucleo_h753zi
 description: IoT board ST Nucleo H753ZI, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/nucleo_h753zi.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![ST Nucleo H753ZI!](/img/boards/nucleo_h753zi.jpg "ST Nucleo H753ZI")
 
 |                | Board properties     |
 | -------------  | -------------------- |

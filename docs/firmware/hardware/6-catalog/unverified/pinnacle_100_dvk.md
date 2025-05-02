@@ -3,13 +3,13 @@ id: pinnacle_100_dvk
 title: pinnacle-100-dvk
 slug: /firmware/hardware/catalog/boards/unverified/pinnacle_100_dvk
 description: IoT board pinnacle-100-dvk, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/pinnacle_100_dvk.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![pinnacle-100-dvk!](/img/boards/pinnacle_100_dvk.jpg "pinnacle-100-dvk")
 
 |                | Board properties     |
 | -------------  | -------------------- |

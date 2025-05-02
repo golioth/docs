@@ -3,13 +3,13 @@ id: pico_spe
 title: KWS Pico SinglePairEthernet
 slug: /firmware/hardware/catalog/boards/unverified/pico_spe
 description: IoT board KWS Pico SinglePairEthernet, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/pico_spe.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![KWS Pico SinglePairEthernet!](/img/boards/pico_spe.webp "KWS Pico SinglePairEthernet")
 
 |                | Board properties     |
 | -------------  | -------------------- |

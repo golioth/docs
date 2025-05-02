@@ -3,13 +3,13 @@ id: b_u585i_iot02a
 title: ST B_U585I_IOT02A Discovery kit
 slug: /firmware/hardware/catalog/boards/unverified/b_u585i_iot02a
 description: IoT board ST B_U585I_IOT02A Discovery kit, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/b_u585i_iot02a.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![ST B_U585I_IOT02A Discovery kit!](/img/boards/b_u585i_iot02a.jpg "ST B_U585I_IOT02A Discovery kit")
 
 |                | Board properties     |
 | -------------  | -------------------- |

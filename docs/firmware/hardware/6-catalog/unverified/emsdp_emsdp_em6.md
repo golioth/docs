@@ -3,13 +3,13 @@ id: emsdp_emsdp_em6
 title: EM Software Development Platform (EM6)
 slug: /firmware/hardware/catalog/boards/unverified/emsdp_emsdp_em6
 description: IoT board EM Software Development Platform (EM6), compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/emsdp_emsdp_em6.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![EM Software Development Platform (EM6)!](/img/boards/emsdp_emsdp_em6.jpg "EM Software Development Platform (EM6)")
 
 |                | Board properties     |
 | -------------  | -------------------- |

@@ -3,13 +3,13 @@ id: raytac_mdbt50q_db_33
 title: Raytac MDBT50Q-DB-33 nRF52833
 slug: /firmware/hardware/catalog/boards/unverified/raytac_mdbt50q_db_33
 description: IoT board Raytac MDBT50Q-DB-33 nRF52833, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/raytac_mdbt50q_db_33.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![Raytac MDBT50Q-DB-33 nRF52833!](/img/boards/raytac_mdbt50q_db_33.jpg "Raytac MDBT50Q-DB-33 nRF52833")
 
 |                | Board properties     |
 | -------------  | -------------------- |

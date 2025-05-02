@@ -3,13 +3,13 @@ id: sam4e_xpro
 title: SAM4E Xplained Pro
 slug: /firmware/hardware/catalog/boards/unverified/sam4e_xpro
 description: IoT board SAM4E Xplained Pro, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/sam4e_xpro.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![SAM4E Xplained Pro!](/img/boards/sam4e_xpro.jpg "SAM4E Xplained Pro")
 
 |                | Board properties     |
 | -------------  | -------------------- |

@@ -3,13 +3,13 @@ id: sltb009a
 title: Thunderboard EFM32GG12 (SLTB009A, BRD2207A)
 slug: /firmware/hardware/catalog/boards/unverified/sltb009a
 description: IoT board Thunderboard EFM32GG12 (SLTB009A, BRD2207A), compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/sltb009a.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![Thunderboard EFM32GG12 (SLTB009A, BRD2207A)!](/img/boards/sltb009a.jpg "Thunderboard EFM32GG12 (SLTB009A, BRD2207A)")
 
 |                | Board properties     |
 | -------------  | -------------------- |

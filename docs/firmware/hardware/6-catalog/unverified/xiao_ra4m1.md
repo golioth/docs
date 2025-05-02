@@ -3,13 +3,13 @@ id: xiao_ra4m1
 title: Seeeduino XIAO RA4M1
 slug: /firmware/hardware/catalog/boards/unverified/xiao_ra4m1
 description: IoT board Seeeduino XIAO RA4M1, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/xiao_ra4m1.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![Seeeduino XIAO RA4M1!](/img/boards/xiao_ra4m1.webp "Seeeduino XIAO RA4M1")
 
 |                | Board properties     |
 | -------------  | -------------------- |

@@ -3,13 +3,13 @@ id: raytac_an54l15q_db
 title: raytac_an54l15q_db
 slug: /firmware/hardware/catalog/boards/unverified/raytac_an54l15q_db
 description: IoT board raytac_an54l15q_db, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/raytac_an54l15q_db.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![raytac_an54l15q_db!](/img/boards/raytac_an54l15q_db.webp "raytac_an54l15q_db")
 
 |                | Board properties     |
 | -------------  | -------------------- |

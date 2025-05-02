@@ -3,13 +3,13 @@ id: apollo4p_evb
 title: Apollo4P EVB
 slug: /firmware/hardware/catalog/boards/unverified/apollo4p_evb
 description: IoT board Apollo4P EVB, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/apollo4p_evb.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![Apollo4P EVB!](/img/boards/apollo4p_evb.jpg "Apollo4P EVB")
 
 |                | Board properties     |
 | -------------  | -------------------- |

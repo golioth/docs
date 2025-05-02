@@ -3,13 +3,13 @@ id: ad_swiot1l_sl
 title: ad_swiot1l_sl
 slug: /firmware/hardware/catalog/boards/unverified/ad_swiot1l_sl
 description: IoT board ad_swiot1l_sl, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/ad_swiot1l_sl.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![ad_swiot1l_sl!](/img/boards/ad_swiot1l_sl.webp "ad_swiot1l_sl")
 
 |                | Board properties     |
 | -------------  | -------------------- |

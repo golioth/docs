@@ -3,13 +3,13 @@ id: stm32f429ii_aca
 title: IAR STM32F429II ACA
 slug: /firmware/hardware/catalog/boards/unverified/stm32f429ii_aca
 description: IoT board IAR STM32F429II ACA, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/stm32f429ii_aca.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![IAR STM32F429II ACA!](/img/boards/stm32f429ii_aca.webp "IAR STM32F429II ACA")
 
 |                | Board properties     |
 | -------------  | -------------------- |

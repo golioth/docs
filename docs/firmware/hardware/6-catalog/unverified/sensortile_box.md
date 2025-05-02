@@ -3,13 +3,13 @@ id: sensortile_box
 title: ST SensorTile.box
 slug: /firmware/hardware/catalog/boards/unverified/sensortile_box
 description: IoT board ST SensorTile.box, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/sensortile_box.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![ST SensorTile.box!](/img/boards/sensortile_box.jpg "ST SensorTile.box")
 
 |                | Board properties     |
 | -------------  | -------------------- |

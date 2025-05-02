@@ -3,13 +3,13 @@ id: nucleo_h723zg
 title: ST Nucleo H723ZG
 slug: /firmware/hardware/catalog/boards/unverified/nucleo_h723zg
 description: IoT board ST Nucleo H723ZG, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/nucleo_h723zg.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![ST Nucleo H723ZG!](/img/boards/nucleo_h723zg.jpg "ST Nucleo H723ZG")
 
 |                | Board properties     |
 | -------------  | -------------------- |

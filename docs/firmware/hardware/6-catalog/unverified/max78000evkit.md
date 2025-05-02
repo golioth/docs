@@ -3,13 +3,13 @@ id: max78000evkit
 title: max78000evkit
 slug: /firmware/hardware/catalog/boards/unverified/max78000evkit
 description: IoT board max78000evkit, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/max78000evkit.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![max78000evkit!](/img/boards/max78000evkit.webp "max78000evkit")
 
 |                | Board properties     |
 | -------------  | -------------------- |

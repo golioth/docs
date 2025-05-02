@@ -3,13 +3,13 @@ id: nucleo_u031r8
 title: ST Nucleo U031R8
 slug: /firmware/hardware/catalog/boards/unverified/nucleo_u031r8
 description: IoT board ST Nucleo U031R8, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/nucleo_u031r8.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![ST Nucleo U031R8!](/img/boards/nucleo_u031r8.jpg "ST Nucleo U031R8")
 
 |                | Board properties     |
 | -------------  | -------------------- |

@@ -3,13 +3,13 @@ id: stm32f413h_disco
 title: ST STM32F413H Discovery
 slug: /firmware/hardware/catalog/boards/unverified/stm32f413h_disco
 description: IoT board ST STM32F413H Discovery, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/stm32f413h_disco.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![ST STM32F413H Discovery!](/img/boards/stm32f413h_disco.webp "ST STM32F413H Discovery")
 
 |                | Board properties     |
 | -------------  | -------------------- |

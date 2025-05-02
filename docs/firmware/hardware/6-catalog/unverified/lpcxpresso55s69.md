@@ -3,13 +3,13 @@ id: lpcxpresso55s69
 title: lpcxpresso55s69
 slug: /firmware/hardware/catalog/boards/unverified/lpcxpresso55s69
 description: IoT board lpcxpresso55s69, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/lpcxpresso55s69.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![lpcxpresso55s69!](/img/boards/lpcxpresso55s69.jpg "lpcxpresso55s69")
 
 |                | Board properties     |
 | -------------  | -------------------- |

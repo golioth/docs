@@ -3,13 +3,13 @@ id: mr_canhubk3
 title: NXP MR-CANHUBK3
 slug: /firmware/hardware/catalog/boards/unverified/mr_canhubk3
 description: IoT board NXP MR-CANHUBK3, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/mr_canhubk3.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![NXP MR-CANHUBK3!](/img/boards/mr_canhubk3.jpg "NXP MR-CANHUBK3")
 
 |                | Board properties     |
 | -------------  | -------------------- |

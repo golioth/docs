@@ -3,13 +3,13 @@ id: frdm_rw612
 title: NXP FRDM_RW612
 slug: /firmware/hardware/catalog/boards/continuously-verified/frdm_rw612
 description: IoT board NXP FRDM_RW612, compatible with Golioth at continuously-verified level.
-image: /img/boards/null
+image: /img/boards/frdm_rw612.webp
 
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![NXP FRDM_RW612!](/img/boards/frdm_rw612.webp "NXP FRDM_RW612")
 
 |                | Board properties     |
 | -------------  | -------------------- |

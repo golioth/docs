@@ -3,13 +3,13 @@ id: arduino_nano_33_iot
 title: Arduino Nano 33 IOT
 slug: /firmware/hardware/catalog/boards/unverified/arduino_nano_33_iot
 description: IoT board Arduino Nano 33 IOT, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/arduino_nano_33_iot.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![Arduino Nano 33 IOT!](/img/boards/arduino_nano_33_iot.jpg "Arduino Nano 33 IOT")
 
 |                | Board properties     |
 | -------------  | -------------------- |

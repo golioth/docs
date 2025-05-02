@@ -3,13 +3,13 @@ id: mikroe_stm32_m4_clicker
 title: Mikroe STM32 M4 Clicker
 slug: /firmware/hardware/catalog/boards/unverified/mikroe_stm32_m4_clicker
 description: IoT board Mikroe STM32 M4 Clicker, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/mikroe_stm32_m4_clicker.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![Mikroe STM32 M4 Clicker!](/img/boards/mikroe_stm32_m4_clicker.webp "Mikroe STM32 M4 Clicker")
 
 |                | Board properties     |
 | -------------  | -------------------- |

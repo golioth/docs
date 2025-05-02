@@ -3,13 +3,13 @@ id: nucleo_h7s3l8
 title: ST Nucleo H7S3L8 nucleo
 slug: /firmware/hardware/catalog/boards/unverified/nucleo_h7s3l8
 description: IoT board ST Nucleo H7S3L8 nucleo, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/nucleo_h7s3l8.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![ST Nucleo H7S3L8 nucleo!](/img/boards/nucleo_h7s3l8.webp "ST Nucleo H7S3L8 nucleo")
 
 |                | Board properties     |
 | -------------  | -------------------- |

@@ -3,13 +3,13 @@ id: nrf7002dk
 title: nrf7002dk
 slug: /firmware/hardware/catalog/boards/unverified/nrf7002dk
 description: IoT board nrf7002dk, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/nrf7002dk.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![nrf7002dk!](/img/boards/nrf7002dk.jpg "nrf7002dk")
 
 |                | Board properties     |
 | -------------  | -------------------- |

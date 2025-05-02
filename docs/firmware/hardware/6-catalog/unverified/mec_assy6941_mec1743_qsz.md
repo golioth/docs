@@ -3,13 +3,13 @@ id: mec_assy6941_mec1743_qsz
 title: MEC174X EVB ASSY 6941 with MEC1743-QSZ
 slug: /firmware/hardware/catalog/boards/unverified/mec_assy6941_mec1743_qsz
 description: IoT board MEC174X EVB ASSY 6941 with MEC1743-QSZ, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/mec_assy6941_mec1743_qsz.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![MEC174X EVB ASSY 6941 with MEC1743-QSZ!](/img/boards/mec_assy6941_mec1743_qsz.webp "MEC174X EVB ASSY 6941 with MEC1743-QSZ")
 
 |                | Board properties     |
 | -------------  | -------------------- |

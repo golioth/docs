@@ -3,13 +3,13 @@ id: mcxw72_evk
 title: mcxw72_evk
 slug: /firmware/hardware/catalog/boards/unverified/mcxw72_evk
 description: IoT board mcxw72_evk, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/mcxw72_evk.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![mcxw72_evk!](/img/boards/mcxw72_evk.webp "mcxw72_evk")
 
 |                | Board properties     |
 | -------------  | -------------------- |

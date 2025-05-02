@@ -3,13 +3,13 @@ id: segger_trb_stm32f407
 title: Cortex-M Trace Reference Board V1.2
 slug: /firmware/hardware/catalog/boards/unverified/segger_trb_stm32f407
 description: IoT board Cortex-M Trace Reference Board V1.2, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/segger_trb_stm32f407.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![Cortex-M Trace Reference Board V1.2!](/img/boards/segger_trb_stm32f407.jpg "Cortex-M Trace Reference Board V1.2")
 
 |                | Board properties     |
 | -------------  | -------------------- |

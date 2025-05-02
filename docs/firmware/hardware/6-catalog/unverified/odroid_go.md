@@ -3,13 +3,13 @@ id: odroid_go
 title: ODROID-GO PROCPU
 slug: /firmware/hardware/catalog/boards/unverified/odroid_go
 description: IoT board ODROID-GO PROCPU, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/odroid_go.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![ODROID-GO PROCPU!](/img/boards/odroid_go.jpg "ODROID-GO PROCPU")
 
 |                | Board properties     |
 | -------------  | -------------------- |

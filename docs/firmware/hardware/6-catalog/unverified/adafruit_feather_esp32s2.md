@@ -3,13 +3,13 @@ id: adafruit_feather_esp32s2
 title: Adafruit Feather ESP32-S2 Rev C
 slug: /firmware/hardware/catalog/boards/unverified/adafruit_feather_esp32s2
 description: IoT board Adafruit Feather ESP32-S2 Rev C, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/adafruit_feather_esp32s2.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![Adafruit Feather ESP32-S2 Rev C!](/img/boards/adafruit_feather_esp32s2.webp "Adafruit Feather ESP32-S2 Rev C")
 
 |                | Board properties     |
 | -------------  | -------------------- |

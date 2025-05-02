@@ -3,13 +3,13 @@ id: ip_k66f
 title: SEGGER IP-K66F
 slug: /firmware/hardware/catalog/boards/unverified/ip_k66f
 description: IoT board SEGGER IP-K66F, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/ip_k66f.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![SEGGER IP-K66F!](/img/boards/ip_k66f.jpg "SEGGER IP-K66F")
 
 |                | Board properties     |
 | -------------  | -------------------- |

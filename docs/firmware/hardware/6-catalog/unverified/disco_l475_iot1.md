@@ -3,13 +3,13 @@ id: disco_l475_iot1
 title: ST Disco L475 IOT01 (B-L475E-IOT01A)
 slug: /firmware/hardware/catalog/boards/unverified/disco_l475_iot1
 description: IoT board ST Disco L475 IOT01 (B-L475E-IOT01A), compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/disco_l475_iot1.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![ST Disco L475 IOT01 (B-L475E-IOT01A)!](/img/boards/disco_l475_iot1.jpg "ST Disco L475 IOT01 (B-L475E-IOT01A)")
 
 |                | Board properties     |
 | -------------  | -------------------- |

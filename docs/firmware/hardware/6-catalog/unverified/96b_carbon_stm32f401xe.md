@@ -3,13 +3,13 @@ id: 96b_carbon_stm32f401xe
 title: 96Boards Carbon
 slug: /firmware/hardware/catalog/boards/unverified/96b_carbon_stm32f401xe
 description: IoT board 96Boards Carbon, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/96b_carbon_stm32f401xe.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![96Boards Carbon!](/img/boards/96b_carbon_stm32f401xe.jpg "96Boards Carbon")
 
 |                | Board properties     |
 | -------------  | -------------------- |

@@ -3,13 +3,13 @@ id: stm32mp135f_dk
 title: stm32mp135f_dk
 slug: /firmware/hardware/catalog/boards/unverified/stm32mp135f_dk
 description: IoT board stm32mp135f_dk, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/stm32mp135f_dk.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![stm32mp135f_dk!](/img/boards/stm32mp135f_dk.webp "stm32mp135f_dk")
 
 |                | Board properties     |
 | -------------  | -------------------- |

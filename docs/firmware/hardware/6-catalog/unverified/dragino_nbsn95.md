@@ -3,13 +3,13 @@ id: dragino_nbsn95
 title: Dragino NBSN95 NB-IoT Sensor Node
 slug: /firmware/hardware/catalog/boards/unverified/dragino_nbsn95
 description: IoT board Dragino NBSN95 NB-IoT Sensor Node, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/dragino_nbsn95.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![Dragino NBSN95 NB-IoT Sensor Node!](/img/boards/dragino_nbsn95.jpg "Dragino NBSN95 NB-IoT Sensor Node")
 
 |                | Board properties     |
 | -------------  | -------------------- |

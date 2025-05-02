@@ -3,13 +3,13 @@ id: ganymed_sk_sy120_gen1
 title: Ganymed family starter kit board with SY120_GEN1 chip equipped
 slug: /firmware/hardware/catalog/boards/unverified/ganymed_sk_sy120_gen1
 description: IoT board Ganymed family starter kit board with SY120_GEN1 chip equipped, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/ganymed_sk_sy120_gen1.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![Ganymed family starter kit board with SY120_GEN1 chip equipped!](/img/boards/ganymed_sk_sy120_gen1.webp "Ganymed family starter kit board with SY120_GEN1 chip equipped")
 
 |                | Board properties     |
 | -------------  | -------------------- |

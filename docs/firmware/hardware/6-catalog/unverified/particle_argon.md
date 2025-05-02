@@ -3,13 +3,13 @@ id: particle_argon
 title: Particle Argon
 slug: /firmware/hardware/catalog/boards/unverified/particle_argon
 description: IoT board Particle Argon, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/particle_argon.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![Particle Argon!](/img/boards/particle_argon.jpg "Particle Argon")
 
 |                | Board properties     |
 | -------------  | -------------------- |

@@ -3,13 +3,13 @@ id: nucleo_f746zg
 title: ST Nucleo F746ZG
 slug: /firmware/hardware/catalog/boards/unverified/nucleo_f746zg
 description: IoT board ST Nucleo F746ZG, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/nucleo_f746zg.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![ST Nucleo F746ZG!](/img/boards/nucleo_f746zg.jpg "ST Nucleo F746ZG")
 
 |                | Board properties     |
 | -------------  | -------------------- |

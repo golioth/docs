@@ -3,13 +3,13 @@ id: nucleo_h7a3zi_q
 title: ST Nucleo H7A3ZI-Q
 slug: /firmware/hardware/catalog/boards/unverified/nucleo_h7a3zi_q
 description: IoT board ST Nucleo H7A3ZI-Q, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/nucleo_h7a3zi_q.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![ST Nucleo H7A3ZI-Q!](/img/boards/nucleo_h7a3zi_q.jpg "ST Nucleo H7A3ZI-Q")
 
 |                | Board properties     |
 | -------------  | -------------------- |

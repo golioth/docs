@@ -3,13 +3,13 @@ id: ttgo_t7v1_5
 title: ttgo_t7v1_5
 slug: /firmware/hardware/catalog/boards/unverified/ttgo_t7v1_5
 description: IoT board ttgo_t7v1_5, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/ttgo_t7v1_5.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![ttgo_t7v1_5!](/img/boards/ttgo_t7v1_5.webp "ttgo_t7v1_5")
 
 |                | Board properties     |
 | -------------  | -------------------- |

@@ -3,13 +3,13 @@ id: adafruit_qt_py_rp2040
 title: Adafruit QT Py RP2040
 slug: /firmware/hardware/catalog/boards/unverified/adafruit_qt_py_rp2040
 description: IoT board Adafruit QT Py RP2040, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/adafruit_qt_py_rp2040.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![Adafruit QT Py RP2040!](/img/boards/adafruit_qt_py_rp2040.jpg "Adafruit QT Py RP2040")
 
 |                | Board properties     |
 | -------------  | -------------------- |

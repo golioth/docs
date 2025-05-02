@@ -3,13 +3,13 @@ id: pico2_spe
 title: pico2_spe
 slug: /firmware/hardware/catalog/boards/unverified/pico2_spe
 description: IoT board pico2_spe, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/pico2_spe.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![pico2_spe!](/img/boards/pico2_spe.webp "pico2_spe")
 
 |                | Board properties     |
 | -------------  | -------------------- |

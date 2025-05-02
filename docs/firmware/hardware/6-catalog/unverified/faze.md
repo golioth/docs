@@ -3,13 +3,13 @@ id: faze
 title: Seagate FireCuda Gaming SSD (FaZe)
 slug: /firmware/hardware/catalog/boards/unverified/faze
 description: IoT board Seagate FireCuda Gaming SSD (FaZe), compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/faze.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![Seagate FireCuda Gaming SSD (FaZe)!](/img/boards/faze.jpg "Seagate FireCuda Gaming SSD (FaZe)")
 
 |                | Board properties     |
 | -------------  | -------------------- |

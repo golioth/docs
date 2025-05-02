@@ -3,13 +3,13 @@ id: sgrm
 title: GARDENA Smart Garden Radio Module
 slug: /firmware/hardware/catalog/boards/unverified/sgrm
 description: IoT board GARDENA Smart Garden Radio Module, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/sgrm.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![GARDENA Smart Garden Radio Module!](/img/boards/sgrm.webp "GARDENA Smart Garden Radio Module")
 
 |                | Board properties     |
 | -------------  | -------------------- |

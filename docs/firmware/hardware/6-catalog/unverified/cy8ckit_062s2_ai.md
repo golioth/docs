@@ -3,13 +3,13 @@ id: cy8ckit_062s2_ai
 title: CY8CKIT-062S2-AI PSOC 6 AI Evaluation Kit
 slug: /firmware/hardware/catalog/boards/unverified/cy8ckit_062s2_ai
 description: IoT board CY8CKIT-062S2-AI PSOC 6 AI Evaluation Kit, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/cy8ckit_062s2_ai.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![CY8CKIT-062S2-AI PSOC 6 AI Evaluation Kit!](/img/boards/cy8ckit_062s2_ai.webp "CY8CKIT-062S2-AI PSOC 6 AI Evaluation Kit")
 
 |                | Board properties     |
 | -------------  | -------------------- |

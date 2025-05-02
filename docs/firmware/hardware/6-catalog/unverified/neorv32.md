@@ -3,13 +3,13 @@ id: neorv32
 title: neorv32
 slug: /firmware/hardware/catalog/boards/unverified/neorv32
 description: IoT board neorv32, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/neorv32.png
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![neorv32!](/img/boards/neorv32.png "neorv32")
 
 |                | Board properties     |
 | -------------  | -------------------- |

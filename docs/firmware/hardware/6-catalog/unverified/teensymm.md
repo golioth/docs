@@ -3,13 +3,13 @@ id: teensymm
 title: PJRC TEENSY_MICROMOD
 slug: /firmware/hardware/catalog/boards/unverified/teensymm
 description: IoT board PJRC TEENSY_MICROMOD, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/teensymm.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![PJRC TEENSY_MICROMOD!](/img/boards/teensymm.webp "PJRC TEENSY_MICROMOD")
 
 |                | Board properties     |
 | -------------  | -------------------- |

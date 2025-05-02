@@ -3,13 +3,13 @@ id: twatch_s3
 title: T-Watch S3 PROCPU
 slug: /firmware/hardware/catalog/boards/unverified/twatch_s3
 description: IoT board T-Watch S3 PROCPU, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/twatch_s3.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![T-Watch S3 PROCPU!](/img/boards/twatch_s3.webp "T-Watch S3 PROCPU")
 
 |                | Board properties     |
 | -------------  | -------------------- |

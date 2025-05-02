@@ -3,13 +3,13 @@ id: kincony_kc868_a32
 title: KINCONY-KC868-A32 PROCPU
 slug: /firmware/hardware/catalog/boards/unverified/kincony_kc868_a32
 description: IoT board KINCONY-KC868-A32 PROCPU, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/kincony_kc868_a32.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![KINCONY-KC868-A32 PROCPU!](/img/boards/kincony_kc868_a32.jpg "KINCONY-KC868-A32 PROCPU")
 
 |                | Board properties     |
 | -------------  | -------------------- |

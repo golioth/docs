@@ -3,13 +3,13 @@ id: nucleo_wb07cc
 title: ST Nucleo WB07CC
 slug: /firmware/hardware/catalog/boards/unverified/nucleo_wb07cc
 description: IoT board ST Nucleo WB07CC, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/nucleo_wb07cc.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![ST Nucleo WB07CC!](/img/boards/nucleo_wb07cc.webp "ST Nucleo WB07CC")
 
 |                | Board properties     |
 | -------------  | -------------------- |

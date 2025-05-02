@@ -3,13 +3,13 @@ id: udoo_neo_full
 title: udoo_neo_full
 slug: /firmware/hardware/catalog/boards/unverified/udoo_neo_full
 description: IoT board udoo_neo_full, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/udoo_neo_full.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![udoo_neo_full!](/img/boards/udoo_neo_full.jpg "udoo_neo_full")
 
 |                | Board properties     |
 | -------------  | -------------------- |

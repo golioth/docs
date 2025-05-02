@@ -3,13 +3,13 @@ id: contextualelectronics_abc
 title: contextualelectronics_abc
 slug: /firmware/hardware/catalog/boards/unverified/contextualelectronics_abc
 description: IoT board contextualelectronics_abc, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/contextualelectronics_abc.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![contextualelectronics_abc!](/img/boards/contextualelectronics_abc.jpg "contextualelectronics_abc")
 
 |                | Board properties     |
 | -------------  | -------------------- |

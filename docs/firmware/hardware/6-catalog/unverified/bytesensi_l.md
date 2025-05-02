@@ -3,13 +3,13 @@ id: bytesensi_l
 title: bytesatwork byteSENSI-L
 slug: /firmware/hardware/catalog/boards/unverified/bytesensi_l
 description: IoT board bytesatwork byteSENSI-L, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/bytesensi_l.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![bytesatwork byteSENSI-L!](/img/boards/bytesensi_l.jpg "bytesatwork byteSENSI-L")
 
 |                | Board properties     |
 | -------------  | -------------------- |

@@ -3,13 +3,13 @@ id: bl604e_iot_dvk
 title: BL604E IOT DVK development board
 slug: /firmware/hardware/catalog/boards/unverified/bl604e_iot_dvk
 description: IoT board BL604E IOT DVK development board, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/bl604e_iot_dvk.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![BL604E IOT DVK development board!](/img/boards/bl604e_iot_dvk.webp "BL604E IOT DVK development board")
 
 |                | Board properties     |
 | -------------  | -------------------- |

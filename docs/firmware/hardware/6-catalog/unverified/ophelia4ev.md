@@ -3,13 +3,13 @@ id: ophelia4ev
 title: ophelia4ev
 slug: /firmware/hardware/catalog/boards/unverified/ophelia4ev
 description: IoT board ophelia4ev, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/ophelia4ev.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![ophelia4ev!](/img/boards/ophelia4ev.webp "ophelia4ev")
 
 |                | Board properties     |
 | -------------  | -------------------- |

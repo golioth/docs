@@ -3,13 +3,13 @@ id: gr716a_mini
 title: GR716-MINI Development Board
 slug: /firmware/hardware/catalog/boards/unverified/gr716a_mini
 description: IoT board GR716-MINI Development Board, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/gr716a_mini.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![GR716-MINI Development Board!](/img/boards/gr716a_mini.jpg "GR716-MINI Development Board")
 
 |                | Board properties     |
 | -------------  | -------------------- |

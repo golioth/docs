@@ -3,13 +3,13 @@ id: nucleo_wb05kz
 title: ST Nucleo WB05KZ
 slug: /firmware/hardware/catalog/boards/unverified/nucleo_wb05kz
 description: IoT board ST Nucleo WB05KZ, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/nucleo_wb05kz.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![ST Nucleo WB05KZ!](/img/boards/nucleo_wb05kz.webp "ST Nucleo WB05KZ")
 
 |                | Board properties     |
 | -------------  | -------------------- |

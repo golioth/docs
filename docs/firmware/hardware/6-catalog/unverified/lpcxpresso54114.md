@@ -3,13 +3,13 @@ id: lpcxpresso54114
 title: lpcxpresso54114
 slug: /firmware/hardware/catalog/boards/unverified/lpcxpresso54114
 description: IoT board lpcxpresso54114, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/lpcxpresso54114.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![lpcxpresso54114!](/img/boards/lpcxpresso54114.jpg "lpcxpresso54114")
 
 |                | Board properties     |
 | -------------  | -------------------- |

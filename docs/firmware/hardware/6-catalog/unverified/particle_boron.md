@@ -3,13 +3,13 @@ id: particle_boron
 title: Particle Boron
 slug: /firmware/hardware/catalog/boards/unverified/particle_boron
 description: IoT board Particle Boron, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/particle_boron.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![Particle Boron!](/img/boards/particle_boron.jpg "Particle Boron")
 
 |                | Board properties     |
 | -------------  | -------------------- |

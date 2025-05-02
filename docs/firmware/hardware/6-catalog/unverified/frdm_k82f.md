@@ -3,13 +3,13 @@ id: frdm_k82f
 title: NXP FRDM-K82F
 slug: /firmware/hardware/catalog/boards/unverified/frdm_k82f
 description: IoT board NXP FRDM-K82F, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/frdm_k82f.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![NXP FRDM-K82F!](/img/boards/frdm_k82f.jpg "NXP FRDM-K82F")
 
 |                | Board properties     |
 | -------------  | -------------------- |

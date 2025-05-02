@@ -3,13 +3,13 @@ id: apollo4p_blue_kxr_evb
 title: Apollo4 Blue Plus KXR EVB
 slug: /firmware/hardware/catalog/boards/unverified/apollo4p_blue_kxr_evb
 description: IoT board Apollo4 Blue Plus KXR EVB, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/apollo4p_blue_kxr_evb.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![Apollo4 Blue Plus KXR EVB!](/img/boards/apollo4p_blue_kxr_evb.jpg "Apollo4 Blue Plus KXR EVB")
 
 |                | Board properties     |
 | -------------  | -------------------- |

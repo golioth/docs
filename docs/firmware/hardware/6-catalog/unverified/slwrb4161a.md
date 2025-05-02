@@ -3,13 +3,13 @@ id: slwrb4161a
 title: EFR32MG12 2.4 GHz 19 dBm Radio Board (SLWRB4161A, BRD4161A)
 slug: /firmware/hardware/catalog/boards/unverified/slwrb4161a
 description: IoT board EFR32MG12 2.4 GHz 19 dBm Radio Board (SLWRB4161A, BRD4161A), compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/slwrb4161a.jpeg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![EFR32MG12 2.4 GHz 19 dBm Radio Board (SLWRB4161A, BRD4161A)!](/img/boards/slwrb4161a.jpeg "EFR32MG12 2.4 GHz 19 dBm Radio Board (SLWRB4161A, BRD4161A)")
 
 |                | Board properties     |
 | -------------  | -------------------- |

@@ -3,13 +3,13 @@ id: mcx_n9xx_evk
 title: mcx_n9xx_evk
 slug: /firmware/hardware/catalog/boards/unverified/mcx_n9xx_evk
 description: IoT board mcx_n9xx_evk, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/mcx_n9xx_evk.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![mcx_n9xx_evk!](/img/boards/mcx_n9xx_evk.webp "mcx_n9xx_evk")
 
 |                | Board properties     |
 | -------------  | -------------------- |

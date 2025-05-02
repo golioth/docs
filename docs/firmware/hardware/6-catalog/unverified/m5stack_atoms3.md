@@ -3,13 +3,13 @@ id: m5stack_atoms3
 title: M5Stack AtomS3 PROCPU
 slug: /firmware/hardware/catalog/boards/unverified/m5stack_atoms3
 description: IoT board M5Stack AtomS3 PROCPU, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/m5stack_atoms3.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![M5Stack AtomS3 PROCPU!](/img/boards/m5stack_atoms3.webp "M5Stack AtomS3 PROCPU")
 
 |                | Board properties     |
 | -------------  | -------------------- |

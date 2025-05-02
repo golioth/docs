@@ -3,13 +3,13 @@ id: slstk3400a
 title: EFM32 Happy Gecko Starter Kit (SLSTK3400A, BRD2012B)
 slug: /firmware/hardware/catalog/boards/unverified/slstk3400a
 description: IoT board EFM32 Happy Gecko Starter Kit (SLSTK3400A, BRD2012B), compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/slstk3400a.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![EFM32 Happy Gecko Starter Kit (SLSTK3400A, BRD2012B)!](/img/boards/slstk3400a.jpg "EFM32 Happy Gecko Starter Kit (SLSTK3400A, BRD2012B)")
 
 |                | Board properties     |
 | -------------  | -------------------- |

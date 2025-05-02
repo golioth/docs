@@ -3,13 +3,13 @@ id: promicro_nrf52840
 title: Pro Micro nRF52840
 slug: /firmware/hardware/catalog/boards/unverified/promicro_nrf52840
 description: IoT board Pro Micro nRF52840, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/promicro_nrf52840.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![Pro Micro nRF52840!](/img/boards/promicro_nrf52840.webp "Pro Micro nRF52840")
 
 |                | Board properties     |
 | -------------  | -------------------- |

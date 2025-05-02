@@ -3,13 +3,13 @@ id: gd32f403z_eval
 title: GigaDevice GD32F403Z Evaluation Kit
 slug: /firmware/hardware/catalog/boards/unverified/gd32f403z_eval
 description: IoT board GigaDevice GD32F403Z Evaluation Kit, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/gd32f403z_eval.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![GigaDevice GD32F403Z Evaluation Kit!](/img/boards/gd32f403z_eval.jpg "GigaDevice GD32F403Z Evaluation Kit")
 
 |                | Board properties     |
 | -------------  | -------------------- |

@@ -3,13 +3,13 @@ id: nrf52840dongle
 title: nRF52840-Dongle-NRF52840
 slug: /firmware/hardware/catalog/boards/unverified/nrf52840dongle
 description: IoT board nRF52840-Dongle-NRF52840, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/nrf52840dongle.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![nRF52840-Dongle-NRF52840!](/img/boards/nrf52840dongle.jpg "nRF52840-Dongle-NRF52840")
 
 |                | Board properties     |
 | -------------  | -------------------- |

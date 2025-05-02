@@ -3,13 +3,13 @@ id: max32650evkit
 title: max32650evkit
 slug: /firmware/hardware/catalog/boards/unverified/max32650evkit
 description: IoT board max32650evkit, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/max32650evkit.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![max32650evkit!](/img/boards/max32650evkit.webp "max32650evkit")
 
 |                | Board properties     |
 | -------------  | -------------------- |

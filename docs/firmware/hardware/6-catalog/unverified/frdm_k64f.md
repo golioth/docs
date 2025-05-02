@@ -3,13 +3,13 @@ id: frdm_k64f
 title: NXP FRDM-K64F
 slug: /firmware/hardware/catalog/boards/unverified/frdm_k64f
 description: IoT board NXP FRDM-K64F, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/frdm_k64f.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![NXP FRDM-K64F!](/img/boards/frdm_k64f.jpg "NXP FRDM-K64F")
 
 |                | Board properties     |
 | -------------  | -------------------- |

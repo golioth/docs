@@ -3,13 +3,13 @@ id: olimex_lora_stm32wl_devkit
 title: Olimex LoRa STM32WL DevKit
 slug: /firmware/hardware/catalog/boards/unverified/olimex_lora_stm32wl_devkit
 description: IoT board Olimex LoRa STM32WL DevKit, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/olimex_lora_stm32wl_devkit.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![Olimex LoRa STM32WL DevKit!](/img/boards/olimex_lora_stm32wl_devkit.jpg "Olimex LoRa STM32WL DevKit")
 
 |                | Board properties     |
 | -------------  | -------------------- |

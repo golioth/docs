@@ -3,13 +3,13 @@ id: stm32l496g_disco
 title: ST STM32L496G Discovery
 slug: /firmware/hardware/catalog/boards/unverified/stm32l496g_disco
 description: IoT board ST STM32L496G Discovery, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/stm32l496g_disco.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![ST STM32L496G Discovery!](/img/boards/stm32l496g_disco.jpg "ST STM32L496G Discovery")
 
 |                | Board properties     |
 | -------------  | -------------------- |

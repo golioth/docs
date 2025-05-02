@@ -3,13 +3,13 @@ id: w5500_evb_pico2
 title: w5500_evb_pico2
 slug: /firmware/hardware/catalog/boards/unverified/w5500_evb_pico2
 description: IoT board w5500_evb_pico2, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/w5500_evb_pico2.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![w5500_evb_pico2!](/img/boards/w5500_evb_pico2.webp "w5500_evb_pico2")
 
 |                | Board properties     |
 | -------------  | -------------------- |

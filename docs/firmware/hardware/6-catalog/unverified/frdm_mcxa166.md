@@ -3,13 +3,13 @@ id: frdm_mcxa166
 title: NXP FRDM MCXA166
 slug: /firmware/hardware/catalog/boards/unverified/frdm_mcxa166
 description: IoT board NXP FRDM MCXA166, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/frdm_mcxa166.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![NXP FRDM MCXA166!](/img/boards/frdm_mcxa166.webp "NXP FRDM MCXA166")
 
 |                | Board properties     |
 | -------------  | -------------------- |

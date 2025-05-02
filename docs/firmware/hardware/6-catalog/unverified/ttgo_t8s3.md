@@ -3,13 +3,13 @@ id: ttgo_t8s3
 title: TTGO T8S3 PROCPU
 slug: /firmware/hardware/catalog/boards/unverified/ttgo_t8s3
 description: IoT board TTGO T8S3 PROCPU, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/ttgo_t8s3.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![TTGO T8S3 PROCPU!](/img/boards/ttgo_t8s3.webp "TTGO T8S3 PROCPU")
 
 |                | Board properties     |
 | -------------  | -------------------- |

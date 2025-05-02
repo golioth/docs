@@ -3,13 +3,13 @@ id: b_l4s5i_iot01a
 title: ST B_L4S5I_IOT01A Discovery kit
 slug: /firmware/hardware/catalog/boards/unverified/b_l4s5i_iot01a
 description: IoT board ST B_L4S5I_IOT01A Discovery kit, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/b_l4s5i_iot01a.jpg
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![ST B_L4S5I_IOT01A Discovery kit!](/img/boards/b_l4s5i_iot01a.jpg "ST B_L4S5I_IOT01A Discovery kit")
 
 |                | Board properties     |
 | -------------  | -------------------- |

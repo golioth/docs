@@ -3,13 +3,13 @@ id: max32650fthr
 title: max32650fthr
 slug: /firmware/hardware/catalog/boards/unverified/max32650fthr
 description: IoT board max32650fthr, compatible with Golioth at unverified level.
-image: /img/boards/null
+image: /img/boards/max32650fthr.webp
 sidebar_class_name: hide-item
 ---
 
 [//]: # (This is an auto-generated file, do not edit! Changes to it will be lost upon re-generation)
 
-
+![max32650fthr!](/img/boards/max32650fthr.webp "max32650fthr")
 
 |                | Board properties     |
 | -------------  | -------------------- |
