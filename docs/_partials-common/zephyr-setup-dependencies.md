@@ -61,7 +61,7 @@ import SetupWestWindows from './zephyr-setup-west-windows.md'
 1. Start by installing dependencies with `brew`:
 
     ```
-    brew install cmake ninja gperf python3 ccache qemu dtc
+    brew install cmake ninja gperf python3 ccache dtc
     ```
 
 ### Install West

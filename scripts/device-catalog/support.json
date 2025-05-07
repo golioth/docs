@@ -25,10 +25,6 @@
         "level": "continuously-verified",
         "quickstart": "/getting-started/device-examples/compile-example-code/zephyr/"
     },
-    "qemu_cortex_m3": {
-        "level": "continuously-verified",
-        "quickstart": "/firmware/hardware/virtual-devices/zephyr-quickstart"
-    },
     "esp32_devkitc_wrover": {
         "level": "continuously-verified",
         "quickstart": "/getting-started/device-examples/compile-example-code/"
