@@ -81,90 +81,6 @@ cd modules\lib\golioth-firmware-sdk
 </TabItem>
 </Tabs>
 
-### Use hardcoded credentials
-
-Edit the `examples/zephyr/hello/prj.conf` file. Add the following lines,
-replacing the placeholder text with your credentials:
-
-<Tabs
-groupId="os"
-defaultValue="nrf52840"
-values={[
-{label: 'Nordic nRF52840', value: 'nrf52840'},
-{label: 'NXP RT1024', value: 'rt1024'},
-{label: 'ESP32', value: 'esp32'},
-{label: 'RAK5010', value: 'rak5010'},
-]}>
-
-<TabItem value="nrf52840">
-
-```config title="examples/zephyr/hello/prj.conf"
-CONFIG_GOLIOTH_SAMPLE_PSK_ID="my-psk-id"
-CONFIG_GOLIOTH_SAMPLE_PSK="my-psk"
-
-# Your WiFi credentials
-CONFIG_GOLIOTH_SAMPLE_WIFI_SSID="my-wifi"
-CONFIG_GOLIOTH_SAMPLE_WIFI_PSK="my-psk"
-```
-</TabItem>
-
-<TabItem value="rt1024">
-
-```config title="examples/zephyr/hello/prj.conf"
-CONFIG_GOLIOTH_SAMPLE_PSK_ID="my-psk-id"
-CONFIG_GOLIOTH_SAMPLE_PSK="my-psk"
-```
-</TabItem>
-
-<TabItem value="esp32">
-
-```config title="examples/zephyr/hello/prj.conf"
-CONFIG_GOLIOTH_SAMPLE_PSK_ID="my-psk-id"
-CONFIG_GOLIOTH_SAMPLE_PSK="my-psk"
-
-# Your WiFi credentials
-CONFIG_GOLIOTH_SAMPLE_WIFI_SSID="my-wifi"
-CONFIG_GOLIOTH_SAMPLE_WIFI_PSK="my-psk"
-```
-</TabItem>
-
-<TabItem value="rak5010">
-
-```config title="examples/zephyr/hello/prj.conf"
-CONFIG_GOLIOTH_SAMPLE_PSK_ID="my-psk-id"
-CONFIG_GOLIOTH_SAMPLE_PSK="my-psk"
-```
-</TabItem>
-</Tabs>
-
-<details>
-  <summary>How to find credentials</summary>
-
-You must set Golioth credentials (and if necessary, WiFi credentials) for the
-example to authenticate with Golioth. For these granular examples we will use
-hardcoded credentials.
-
-![Golioth Console device
-credentials](../../../assets/gettingstarted-console-deviceview-credentialspanel.png)
-
-* Golioth credentials are available in the `Credentials` tab for your device
-    * Open the Golioth Console
-    * Select `Devices` on  the left sidebar and choose your device from the
-      resulting list
-    * Click on the `Credentials` tab and copy your `PSK-ID` and `PSK`
-* If your device connects via WiFi, you will need the `SSID` and `PSK` of your
-  wireless access point.
-</details>
-
-
-:::info Not recommended for production
-
-We use hardcoded credentials for this example because they are the easiest to
-set up quickly. However, in production you should plan to use certificate
-authentication and store credentials outside of the firmware binary itself.
-
-:::
-
 ### Build the firmware and flashing the device
 
 <Tabs
@@ -220,6 +136,34 @@ west flash -r jlink
 ```
 </TabItem>
 </Tabs>
+
+### Setting Credentials
+
+You must set Golioth credentials (and if necessary, WiFi credentials) for the
+example to authenticate with Golioth. The SDK samples store credentials in the
+Zephyr Settings subsystem, and these can be set through the shell:
+
+```console
+uart:~$ settings set golioth/psk-id <YOUR-PSK-ID>
+uart:~$ settings set golioth/psk <YOUR-PSK>
+uart:~$ settings set wifi/ssid <YOUR-WIFI-SSID>
+uart:~$ settings set wifi/psk <YOUR-WIFI-PASSWORD>
+```
+
+<details>
+  <summary>How to find credentials</summary>
+
+![Golioth Console device
+credentials](../../../assets/gettingstarted-console-deviceview-credentialspanel.png)
+
+* Golioth credentials are available in the `Credentials` tab for your device
+    * Open the Golioth Console
+    * Select `Devices` on  the left sidebar and choose your device from the
+      resulting list
+    * Click on the `Credentials` tab and copy your `PSK-ID` and `PSK`
+* If your device connects via WiFi, you will need the `SSID` and `PSK` of your
+  wireless access point.
+</details>
 
 ### Example Output
 

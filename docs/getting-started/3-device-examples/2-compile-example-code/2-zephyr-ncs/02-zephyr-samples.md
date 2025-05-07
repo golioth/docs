@@ -72,21 +72,26 @@ cd modules\lib\golioth-firmware-sdk
 </TabItem>
 </Tabs>
 
-### Use hardcoded credentials
+### Build the firmware and flashing the device
 
-Edit the `examples/zephyr/hello/prj.conf` file. Add the following lines,
-replacing the placeholder text with your credentials:
+```console
+west build -b nrf9160dk/nrf9160/ns examples/zephyr/hello
+west flash
+```
 
-```config title="examples/zephyr/hello/prj.conf"
-CONFIG_GOLIOTH_SAMPLE_PSK_ID="my-psk-id"
-CONFIG_GOLIOTH_SAMPLE_PSK="my-psk"
+### Setting Credentials
+
+You must set Golioth credentials for the example to authenticate with Golioth. The
+SDK samples store credentials in the Zephyr Settings subsystem, and these can be set
+through the shell:
+
+```console
+uart:~$ settings set golioth/psk-id <YOUR-PSK-ID>
+uart:~$ settings set golioth/psk <YOUR-PSK>
 ```
 
 <details>
   <summary>How to find credentials</summary>
-
-You must set Golioth credentials for the example to authenticate with Golioth.
-For these granular examples we will use hardcoded credentials.
 
 ![Golioth Console device
 credentials](../../../assets/gettingstarted-console-deviceview-credentialspanel.png)
@@ -97,22 +102,6 @@ credentials](../../../assets/gettingstarted-console-deviceview-credentialspanel.
       resulting list
     * Click on the `Credentials` tab and copy your `PSK-ID` and `PSK`
 </details>
-
-
-:::info Not recommended for production
-
-We use hardcoded credentials for this example because they are the easiest to
-set up quickly. However, in production you should plan to use certificate
-authentication and store credentials outside of the firmware binary itself.
-
-:::
-
-### Build the firmware and flashing the device
-
-```console
-west build -b nrf9160dk/nrf9160/ns examples/zephyr/hello
-west flash
-```
 
 ### Example Output
 
