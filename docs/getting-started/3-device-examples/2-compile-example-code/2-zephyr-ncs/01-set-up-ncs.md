@@ -1,5 +1,6 @@
 ---
 title: Set up Nordic nRF Connect SDK (NCS)
+toc_max_heading_level: 2
 ---
 
 import Tabs from '@theme/Tabs';
@@ -15,19 +16,19 @@ Zephyr project.
 This section will guide you through installing NCS and the Zephyr tree
 (including the Golioth SDK) in a directory called `golioth-ncs-workspace`.
 
-### Install Dependencies and West
+## Install Dependencies and West
 
 import SetupWest from '/docs/_partials-common/zephyr-setup-dependencies.md'
 
 <SetupWest workspace_directory="golioth-ncs-workspace"/>
 
-### Installing the Golioth Firmware SDK for NCS
+## Install the Golioth Firmware SDK for NCS
 
 import InstallNRFSDK from '/docs/_partials-common/ncs-install-golioth-firmware-sdk.md'
 
 <InstallNRFSDK/>
 
-### Installing the Zephyr SDK Toolchain
+## Install the Zephyr SDK Toolchain
 
 Nordic chips are ARM-based device, so we will use the ARM toolchains (gcc, gdb,
 etc) included in the Zephyr SDK
@@ -36,7 +37,7 @@ import InstallZephyrSDKtoolchain from '/docs/_partials-common/install-zephyr-sdk
 
 <InstallZephyrSDKtoolchain/>
 
-### Installing the Segger J-Link and nRF Command Line Tools
+## Install the Segger J-Link and nRF Command Line Tools
 
 Zephyr uses `nrfjprog` to flash Nordic targets using a hardware programmer like
 the Segger J-Link, or the debugger that is built into the development kit (DK)

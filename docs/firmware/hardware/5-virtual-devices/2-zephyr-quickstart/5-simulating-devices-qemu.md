@@ -1,27 +1,28 @@
 ---
 id: simulating-devices-qemu
 title: Simulating devices with QEMU
+toc_max_heading_level: 2
 ---
 
-### Install West
+## Install Dependencies and West
 
 import SetupZephyr from '/docs/_partials-common/zephyr-setup-dependencies.md'
 
 <SetupZephyr workspace_directory="golioth-zephyr-workspace"/>
 
-### Install Golioth Firmware SDK
+## Install Golioth Firmware SDK
 
 import InstallZephyrSDK from '/docs/_partials-common/zephyr-install-golioth-firmware-sdk.md'
 
 <InstallZephyrSDK/>
 
-### Toolchain check
+## Toolchain check
 
 import CheckToolchain from './\_partials/check-toolchain.md'
 
 <CheckToolchain/>
 
-### Add credentials to sample
+## Add credentials to sample
 
 Navigate to the Golioth directory within Zephyr
 
@@ -44,7 +45,7 @@ CONFIG_GOLIOTH_SAMPLE_HARDCODED_PSK="DEVICE_PSK"
 ```
 Save and exit (`ctrl+x` in nano)
 
-### Build for a QEMU Device
+## Build for a QEMU Device
 
 At this point, you can build a Golioth Zephyr project:
 
