@@ -7,7 +7,7 @@ title: Simulating devices with QEMU
 
 import SetupZephyr from '/docs/_partials-common/zephyr-setup-dependencies.md'
 
-<SetupZephyr/>
+<SetupZephyr workspace_directory="golioth-zephyr-workspace"/>
 
 ### Install Golioth Firmware SDK
 
