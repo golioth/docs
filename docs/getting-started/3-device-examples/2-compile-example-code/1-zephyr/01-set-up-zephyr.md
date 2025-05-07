@@ -1,5 +1,6 @@
 ---
 title: Set up Zephyr RTOS
+toc_max_heading_level: 2
 ---
 
 import Tabs from '@theme/Tabs';
