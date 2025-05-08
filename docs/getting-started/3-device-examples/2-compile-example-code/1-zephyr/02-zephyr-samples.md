@@ -205,7 +205,8 @@ usage information.
 * **firmware_update:** Use Golioth over-the-air (OTA) firmware update
 * **hello:** Connect and send hello logging messages
 * **lightdb:** Set, get, and observe stateful data between device and cloud
-* **lightdb_stream:** Send time-series data from device to cloud
+* **location:** Use network information to determine device location
 * **logging:** Demonstrate logging messages of each different log level
 * **rpc:** Issue a remote procedure call (rpc) and received data back from device
 * **settings:** Demonstrate fleet-wide device settings service
+* **stream:** Send time-series data from device to cloud
