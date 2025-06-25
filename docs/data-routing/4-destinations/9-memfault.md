@@ -16,15 +16,18 @@ The `memfault` destination uploads [chunk
 data](https://docs.memfault.com/docs/mcu/data-from-firmware-to-the-cloud/) to
 [Memfault](https://memfault.com/).
 
-:::info
-The Golioth device ID will be used as its serial number on Memfault.
-:::
-
 ### Parameters
 
 |Parameter|Type|Description|Required|
 |---|---|---|:---:|
 |`project_key`|`string`| The Memfault [project key](https://docs.memfault.com/docs/platform/data-routes/) for chunk uploads. |✅|
+|`alternate_id`|`string`| Use an alternate device identifier source for Memfault serial number. Valid options include `primary_hardware_id` or `certificate_id`. | |
+
+:::info
+The Golioth device ID will be used as its serial number on Memfault unless the
+`alternate_id` parameter is specified. If a device does not have the specified
+`alternate_id` type, data will **not** be delivered.
+:::
 
 ### Example Secrets
 
