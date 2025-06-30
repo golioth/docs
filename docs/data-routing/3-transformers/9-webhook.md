@@ -15,7 +15,11 @@ information.
 :::
 
 The `webhook` transformer invokes an external API endpoint and, on success,
-replaces the data message content and content type with that of the response.
+replaces the data message content and content type with that of the response. If
+both the input and output are `application/json` data, the `embed` parameter can
+be used to preserve the original data, returning a merged JSON object where the
+input data is embedded under the top-level `input` key, and the output data is
+returned under the top-level `output` key.
 
 :::info Tip
 The `webhook` transformer is not to be confused with the [`webhook` data
@@ -30,6 +34,7 @@ while the data destination delivers the event to an external location.
 |---|---|---|:---:|
 |`url`|`string`| The URL for the external webhook. |✅|
 |`headers`| Map (`string`: `string`)| Headers to be included in requests. ||
+|`embed`| `boolean` | Preserve input data in resulting JSON object. ||
 
 ### Example Secrets
 
@@ -75,5 +80,42 @@ Fahrenheit.
 ```json
 {
   "temp": 89.6
+}
+```
+
+### Example Usage with `embed: true`
+
+```yaml
+    transformer:
+      type: webhook
+      version: v1
+      parameters:
+        url: https://my-webhook.example.com
+        headers:
+         x-api-key: $API_KEY
+        embed: true
+```
+
+### Example Input with `embed: true`
+
+```json
+{
+  "temp": 32
+}
+```
+
+### Example Output with `embed: true`
+
+In this example, the webhook converts Celsius temperature readings to
+Fahrenheit, but preserves both values in the output.
+
+```json
+{
+  "input": {
+    "temp": 32
+  },
+  "output": {
+    "temp": 89.6
+  }
 }
 ```
