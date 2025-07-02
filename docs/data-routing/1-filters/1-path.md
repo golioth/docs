@@ -7,7 +7,7 @@ The path for a data message is the portion of the path targeted by the device
 with the `/.s` prefix removed.
 :::
 
-The `path` filter is used to specify the which data messages, indicated by their
+The `path` filter is used to specify which data messages, indicated by their
 path, should be routed to a given pipeline. `path` filters may match exactly, or
 by using a wildcard (`*`), which indicates that the path must be prefixed by the
 characters preceding the wildcard.

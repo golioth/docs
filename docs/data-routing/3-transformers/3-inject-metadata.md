@@ -10,7 +10,7 @@ title: inject-metadata
 
 The `inject-metadata` transformer injects metadata, namely the device ID, the
 project ID, and the timestamp, into the data message payload, and nests the
-originaly payload under a top-level `data` key. This information is available in
+original payload under a top-level `data` key. This information is available in
 the message metadata when it is delivered to external destinations, so it is
 typically wasteful to also include it in the payload. However, there are some
 cases in which it may be desirable to access metadata in the payload.
