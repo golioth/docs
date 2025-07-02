@@ -32,8 +32,8 @@ valid JSON.
 
 ## Validating Pipeline Configuration
 
-The Golioth Simulator, which is visible as a widget in the bottom right corner
-of the console when working with Pipelines, can be used to validate that a given
+The Golioth Simulator, which is available by clicking the "Simulator" link in
+the top right corner of the console, can be used to validate that a given
 pipeline is configured correctly. The Simulator will send the provided JSON data
 to the root path for streaming data (`/.s`).
 
