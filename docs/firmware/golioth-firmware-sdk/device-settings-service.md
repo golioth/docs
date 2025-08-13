@@ -86,11 +86,9 @@ for more information.
 
 ## Golioth Device Settings examples
 
- * The Golioth Devices Settings service is demonstrated [in the Golioth Basics
-   example
-   application](https://github.com/golioth/golioth-firmware-sdk/blob/develop/examples/common/golioth_basics.c).
- * [Zephyr-specific settings
-   example](https://github.com/golioth/golioth-firmware-sdk/tree/main/examples/zephyr/settings)
+See the [Golioth Firmware
+SDK](https://github.com/golioth/golioth-firmware-sdk/tree/main/examples) for
+examples of using settings across platforms.
 
 ## Resources
 
