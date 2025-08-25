@@ -56,10 +56,9 @@ us](mailto:hello@golioth.io).
 - [Getting Started](/getting-started) - Start here! If you get stuck, please
   post your questions on [the Golioth Forum](https://forum.golioth.io/) or [let
   us know directly](mailto:devrel@golioth.io).
-- [Firmware](/firmware) - These are the "device side" features of our offerings,
-  including device Software Development Kits (SDKs). This section shows how to
-  set up a build environment, run sample firmware, and use Golioth services on
-  your microcontroller-based IoT fleet.
+- [Connectivity](/connectivity) - Everything needed to connect to the Golioth
+  platform and start using device management, data routing, and application
+  services is documented in this section.
 - [Device Management](/device-management) - These are "server side" features of
   the Golioth platform that deal with controlling your devices in the field.
   Here you will find details about rolling out over-the-air (OTA) firmware

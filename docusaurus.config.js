@@ -28,9 +28,9 @@ module.exports = {
           position: "left",
         },
         {
-          to: "firmware",
-          activeBasePath: "firmware",
-          label: "Firmware",
+          to: "connectivity",
+          activeBasePath: "connectivity",
+          label: "Connectivity",
           position: "left",
         },
         {
