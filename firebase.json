@@ -204,7 +204,32 @@
           "source": "/data-routing/pipelines",
           "destination": "/data-routing",
           "type": 301
-        }
+        },
+        {
+          "source": "/firmware/hardware/:hw*",
+          "destination": "/reference/hardware/:hw",
+          "type": 301
+        },
+        {
+          "source": "/firmware{,/**}",
+          "destination": "/reference/firmware",
+          "type": 301
+        },
+        {
+          "source": "/device-management/authentication/certificate-auth{,/**}",
+          "destination": "/connectivity/credentials/pki",
+          "type": 301
+        },
+        {
+          "source": "/device-management/authentication/psk-auth{,/**}",
+          "destination": "/connectivity/credentials/psk",
+          "type": 301
+        },
+        {
+          "source": "/device-management/authentication{,/**}",
+          "destination": "/connectivity/credentials",
+          "type": 301
+	}
       ],
       "rewrites": [
         {
@@ -442,7 +467,32 @@
           "source": "/reference/device-sdks{,/**}",
           "destination": "/reference/golioth-firmware-sdk",
           "type": 301
-        }
+        },
+        {
+          "source": "/firmware/hardware/:hw*",
+          "destination": "/reference/hardware/:hw",
+          "type": 301
+        },
+        {
+          "source": "/firmware{,/**}",
+          "destination": "/reference/firmware",
+          "type": 301
+        },
+        {
+          "source": "/device-management/authentication/certificate-auth{,/**}",
+          "destination": "/connectivity/credentials/pki",
+          "type": 301
+        },
+        {
+          "source": "/device-management/authentication/psk-auth{,/**}",
+          "destination": "/connectivity/credentials/psk",
+          "type": 301
+        },
+        {
+          "source": "/device-management/authentication{,/**}",
+          "destination": "/connectivity/credentials",
+          "type": 301
+	}
       ],
       "rewrites": [
         {
