@@ -16,16 +16,6 @@ deploy the AI model package to both types of devices individually.
 To upgrade a package on one of your devices, you'll first need to upload the new
 version to Golioth as an artifact.
 
-We provide a [firmware update sample
-application](https://github.com/golioth/golioth-firmware-sdk/tree/main/examples/zephyr/fw_update)
-that can be used to test our OTA service. The sample listens for new deployment
-events from our backend and automatically downloads and installs them with
-MCUboot.
-
-Follow [the Firmware OTA Upgrade
-guide](/firmware/golioth-firmware-sdk/firmware-upgrade) to build the sample
-application for your target board.
-
 ## Creating a new package in the Golioth Web Console
 
 1. Navigate to [the packages section](https://console.golioth.io/packages) of

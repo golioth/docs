@@ -9,10 +9,6 @@ and for
 that can be used to test our RPC service. The sample multiplies two numbers
 given as input, and returns the result.
 
-Follow [the Firmware RPC
-guide](/firmware/golioth-firmware-sdk/remote-procedure-call) for more details on
-device APIs.
-
 ## Initiate a Remote Procedure Call
 
 1. Navigate to the [`Devices` list of the Golioth web
