@@ -13,9 +13,7 @@
     "fb-deploy-prod": "npm run build:prod && firebase deploy --only hosting:docs-prod",
     "serve": "docusaurus serve",
     "update-external-docs": "./scripts/update_external_docs.sh",
-    "clear": "docusaurus clear",
-    "gen-protobuf": "pbjs -t json ../api/services/messages.proto > ./docs/device-management/2-output-streams/messages.json",
-    "build-device-catalog": "./scripts/get_zephyr_boards.sh && node ./scripts/device-catalog/index.js"
+    "clear": "docusaurus clear"
   },
   "dependencies": {
     "@docusaurus/core": "^3.7.0",

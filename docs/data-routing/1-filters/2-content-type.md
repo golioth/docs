@@ -4,8 +4,7 @@ title: content_type
 
 :::info
 Common content types include `application/cbor`, `application/json`, and
-`application/octet-stream`, all of which are supported by the [Golioth Firmware
-SDK](/firmware). For a full list of content types, see [IANA media
+`application/octet-stream`. For a full list of content types, see [IANA media
 types](https://www.iana.org/assignments/media-types/media-types.xhtml).
 :::
 
