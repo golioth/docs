@@ -2,6 +2,11 @@
 title: Bluetooth
 ---
 
+:::note Beta
+Bluetooth connectivity is currently in `beta` support and may undergo changes
+prior to general availability.
+:::
+
 Bluetooth is a wireless personal area network (PAN) protocol used for
 short-range low power communication. Unlike other protocols, devices cannot
 directly connect to the Golioth platform over Bluetooth, but must instead

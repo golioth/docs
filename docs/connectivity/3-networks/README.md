@@ -2,6 +2,11 @@
 title: Networks
 ---
 
+:::note Beta
+Golioth Connectivity networks are currently in `beta` support and may undergo
+changes prior to general availability.
+:::
+
 Networks are comprised of groups of devices and communication links between
 them. All devices that connect to the Golioth platform leverage some number of
 networks for connectivity, though the nodes in the network may be managed by the
