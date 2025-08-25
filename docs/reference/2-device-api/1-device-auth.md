@@ -36,17 +36,11 @@ See the getting started guide:
   devices](/getting-started/console/manage-devices).
 * Command Line Tools: [authorize PSK devices](/reference/command-line-tools/tutorial/authorize-devices).
 
-To use a PSK on your device, see the [Firmware SDK
-documentation](/firmware/golioth-firmware-sdk/authentication/psk-auth).
-
 ## Client Certificate Authentication
 
 Certificate authentication is more complex to setup and use than PSK authentication, but it provides a superior level of security. It also enables you to perform zero-touch provisioning of devices.
 
 The trusted root or intermediate certificates are first configured on your Golioth project. When a device connects to Golioth using a certificate signed by one of your trusted certificates, the device will be *automatically provisioned* in that project.
-
-To use certificates on your device, see the [Firmware SDK
-documentation](/firmware/golioth-firmware-sdk/authentication/certificate-auth).
 
 ### Server authentication
 

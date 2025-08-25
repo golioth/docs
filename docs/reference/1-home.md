@@ -12,5 +12,5 @@ and advanced platform features.
 - Command Line Tools
   - [goliothctl](/reference/command-line-tools/goliothctl/goliothctl/)
   - [coap](/reference/command-line-tools/coap/coap/)
-- Device SDK: [Golioth Firmware SDK Reference](/reference/golioth-firmware-sdk)
+- [Firmware SDKs](/reference/firmware)
 - [Billing](/reference/billing)
