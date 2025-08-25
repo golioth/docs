@@ -3,8 +3,8 @@
 Device status is described by three attributes, all of which are visible when
 viewing a device summary in the Golioth console.
 
-- **Session Established**: the time at which a device last [established a secure
-  session](/device-management/authentication) with the Golioth platform.
+- **Session Established**: the time at which a device last established a secure
+  session with the Golioth platform.
 - **Last Report**: the time at which a device last successfully delivered any
   data to the Golioth platform.
 - **Setting Sync**: the time at which a device last reported the status of its
