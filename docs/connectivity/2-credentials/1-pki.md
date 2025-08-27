@@ -89,9 +89,12 @@ a secure communication channel with Golioth.
 
 :::note Device Certificate Requirements
 Device certificates used with the Golioth platform must set the subject
-organization (`O`) to the slug for the appropriate project, and the common name
-(`CN`) to a unique identifier for that device within the project. The unique
-value used in the common name is referred to as the device's _certificate ID_.
+organization (`O`) to the slug for the appropriate project, which can be found
+under [`Project Settings`](https://console.golioth.io/project-settings). The
+common name (`CN`) must be set to a unique identifier for the device within the
+project. The unique value used in the common name is referred to as the device's
+_certificate ID_. See the [Certificate IDs](#certificate-ids) section below for
+more information.
 :::
 
 For demonstration purposes, the previously created local CA can be used to
@@ -134,6 +137,41 @@ match the supplied CSR, and an expiration of `7` days. Similarly to the root CA
 certificate, device certificates should be created with an expiration that is
 appropriate for the lifecycle of the device.
 
+### Certificate IDs
+
+When issuing a device certificate, the certificate ID used in the common name
+(`CN`) is a unique identifier within the Golioth project specified in the
+organization (`O`) that is used to distinguish the physical device when using
+the certificate. The sole purpose of this identifier is to associate the
+physical device with a device on the Golioth platform. While a device's
+certificate ID may match other device attributes, such as the device name, it
+does not specifically connotate any other meaning. Using a dedicated identifier
+for this purpose enables [zero-touch provisioning](#zero-touch-provisioning) and
+other flexible provisioning workflows.
+
+When a physical device presents a valid certificate to Golioth and proves
+possession of the associated private key, the physical device is associated with
+a device on Golioth according to the following logic.
+
+1. If a Golioth device already exists with the given certificate ID, the
+   physical device is associated with it.
+2. If a Golioth device exists with a name that matches the certificate ID, and
+   it has no certificate ID set, then the certificate ID is set and the physical
+   device is associated with it.
+3. If no devices exist with either a matching certificate ID, or a matching name
+   and no certificate ID, then a new device is created on Golioth with the
+   certificate ID set, and the physical device is associated with it.
+
+After a certificate ID is set on a Golioth device it is immutable. However, the
+name of the device remains mutable. In the third case above, this can lead to a
+scenario where a Golioth device exists with a name and certificate ID, and the
+name matches the certificate ID presented by the physical device, but the
+certificate IDs do not match. If this occurs, a new Golioth device is created
+with certificate ID set to match the physical device's certificate ID, and with
+name set to the same value of the certificate ID with a random suffix appended.
+Otherwise, the name of the newly created Golioth device will be set to the same
+value of the certificate ID.
+
 ## Verification of Golioth Server Certificate
 
 Similarly to how Golioth must be able to establish a chain of trust rooted in
@@ -157,7 +195,4 @@ without a user needing to interact with the console or [management
 API](/reference/management-api). This workflow is referred to as _zero-touch
 provisioning_ and can alleviate operational overhead, particularly when
 deploying large fleets of devices. However, customers are still welcome to
-manually provision devices prior to their first connection. If a device already
-exists on the Golioth platform with a name that matches the certificate ID of a
-device connecting for the first time, the device will be automatically
-associated.
+manually provision devices prior to their first connection.
