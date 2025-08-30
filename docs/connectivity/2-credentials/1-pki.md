@@ -137,6 +137,20 @@ match the supplied CSR, and an expiration of `7` days. Similarly to the root CA
 certificate, device certificates should be created with an expiration that is
 appropriate for the lifecycle of the device.
 
+:::tip
+Keys and certificates may be encoded in different formats for distribution. The
+`openssl` commands above produce text-based PEM (`.pem`) encoded files. Devices
+will frequently use the more compact binary DER (`.der`) encoding. The following
+commands can be used to convert PEM encoded keys and certificates to DER.
+```
+openssl ec -in device.key.pem -outform DER -out device.key.der
+```
+```
+openssl x509 -in device.crt.pem -outform DER -out device.crt.der
+```
+:::
+
+
 ### Certificate IDs
 
 When issuing a device certificate, the certificate ID used in the common name
