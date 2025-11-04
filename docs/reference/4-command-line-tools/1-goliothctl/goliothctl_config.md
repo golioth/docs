@@ -21,7 +21,7 @@ goliothctl config [flags]
 > goliothctl config set apiUrl http://localhost:9090
 
 # Get the current access token used to authenticate with Golioth
-> golioth config get accessToken
+> goliothctl config get accessToken
 ```
 
 ### Options

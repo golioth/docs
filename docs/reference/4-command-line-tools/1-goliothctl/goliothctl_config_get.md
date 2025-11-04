@@ -18,7 +18,7 @@ goliothctl config get <key> [flags]
 
 ```
 # Get the current access token used to authenticate with Golioth
-> golioth config get accessToken
+> goliothctl config get accessToken
 ```
 
 ### Options
