@@ -65,6 +65,10 @@ available for the following hardware.
 - [Nordic nRF9160
   DK](https://www.nordicsemi.com/Products/Development-hardware/nRF9160-DK)
   - Cellular and Bluetooth LE in a development kit form factor.
+- [Ezurio Sentrius
+  MG100](https://www.ezurio.com/iot-devices/bluetooth-iot-devices/sentrius-mg100-gateway-lte-mnb-iot-and-bluetooth-5)
+  - Off-the-shelf cellular and Bluetooth LE platform, deployment-ready and
+    customizable for a wide range of applications.
 
 Follow the instructions in the
 [README.md](https://github.com/golioth/bluetooth-gateway/blob/main/README.md) to
