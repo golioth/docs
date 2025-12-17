@@ -229,6 +229,11 @@
           "source": "/device-management/authentication{,/**}",
           "destination": "/connectivity/credentials",
           "type": 301
+	},
+        {
+          "source": "/reference/device-api/api-docs/logging",
+          "destination": "/data-routing/destinations/logs",
+          "type": 301
 	}
       ],
       "rewrites": [
@@ -491,6 +496,11 @@
         {
           "source": "/device-management/authentication{,/**}",
           "destination": "/connectivity/credentials",
+          "type": 301
+	},
+        {
+          "source": "/reference/device-api/api-docs/logging",
+          "destination": "/data-routing/destinations/logs",
           "type": 301
 	}
       ],
