@@ -36,7 +36,7 @@ sample of boards that each platform supports.
 
 | Platform            | Quickstart | Note |
 | ------------------- | ---------- | ---- |
-| Zephyr RTOS         | [Golioth Zephyr Build Environment](/getting-started/device-examples/compile-example-code/zephyr) | Full support for the Zephyr real-time operating system (RTOS) which delivers extensive cross-vendor support. We test against boards from Nordic, NXP, and Espressif |
+| Zephyr RTOS         | [Golioth Zephyr Build Environment](/getting-started/device-examples/compile-example-code/zephyr) | Full support for the Zephyr real-time operating system (RTOS) which delivers extensive cross-vendor support. We test against boards from Nordic, NXP, Espressif, and ST |
 | nRF Connect SDK     | [Golioth NCS Build Environment](/getting-started/device-examples/compile-example-code/zephyr-ncs) | Nordic's fork of Zephyr that includes proprietary features and functionality built on top of the upstream Zephyr project |
 | ESP-IDF             | [Golioth ESP-IDF Build Environment](/getting-started/device-examples/compile-example-code/esp-idf) | Espressif's IoT Development Framework for use with their ESP32 line of microcontrollers |
 | ModusToolbox&trade; | [Readme](https://github.com/golioth/golioth-firmware-sdk/tree/main/examples/modus_toolbox) / [Webinar](https://blog.golioth.io/a-recap-of-how-to-collect-data-from-iot-sensors-using-golioth-and-the-infineon-modustoolbox/) | Infineon's IDE that also provides a FreeRTOS based development framework for use with their microcontrollers, including the PSoC series |
