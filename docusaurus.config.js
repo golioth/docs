@@ -10,6 +10,14 @@ module.exports = {
   organizationName: "golioth", // Usually your GitHub org/user name.
   projectName: "docs", // Usually your repo name.
   themeConfig: {
+    announcementBar: {
+      id: 'canonical-announcement', // Any string id that represents this message
+      content:
+        'Golioth is now a part of Canonical: <a href="https://blog.golioth.io/golioth-is-now-a-part-of-canonical" target="_blank" rel="noopener noreferrer">Read our announcement to learn more.</a>',
+      backgroundColor: '#ff5760', // light background
+      textColor: '#ffffff', // dark text
+      isCloseable: true,
+    },
     colorMode: {
       defaultMode: "dark",
       respectPrefersColorScheme: false,
