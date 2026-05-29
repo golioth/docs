@@ -28,7 +28,6 @@
   display: block;
 }
 
-
 @media (max-width: 576px) {
   .codeBlockTitleBlock {
     flex-direction: column;
@@ -40,6 +39,7 @@
     margin-left: unset;
   }
 }
+
 .codeBlock {
   --ifm-pre-background: var(--prism-background-color);
   margin: 0;
