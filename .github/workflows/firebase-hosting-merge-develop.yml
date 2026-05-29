@@ -15,7 +15,7 @@ jobs:
         with:
           node-version: 22.15.0
       - name: Build Docusaurus
-        run: npm install && npm run build:dev
+        run: npm ci && npm run build:dev
       - name: Add robots.txt for Dev site only
         run: echo -e ${{ format('User-agent{0} *\\nDisallow{1} /', ':', ':') }} > build/robots.txt
       - uses: FirebaseExtended/action-hosting-deploy@v0
