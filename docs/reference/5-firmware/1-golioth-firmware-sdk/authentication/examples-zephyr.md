@@ -44,7 +44,7 @@ these stored credentials.
 The following steps are covered in the code example:
 
 1. Generate a set of root and device certificates [using the Golioth Docs as a
-   guide](/reference/firmware/golioth-firmware-sdk/authentication/certificate-auth#generate-certificates).
+   guide](/connectivity/credentials/pki/offline-pki#generating-device-certificates).
 2. Compile and flash the firmware example onto the device.
 3. Use `mcumgr` to copy the device certificates onto the device filesystem.
 4. Upload the root certificate to Golioth.
@@ -61,5 +61,4 @@ Golioth to have advanced knowledge about your newly manufactured devices (beyond
 having a copy of the public root certificate).
 
 :::
-
 
