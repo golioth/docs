@@ -2,7 +2,6 @@ module.exports = {
   title: "Golioth",
   tagline: "The Device You're Developing Is Cloud Ready",
   url: "https://docs.golioth.io",
-  themes: ["@docusaurus/theme-live-codeblock"],
   baseUrl: "/",
   onBrokenLinks: "throw",
   markdown: {
