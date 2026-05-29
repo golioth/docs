@@ -5,7 +5,11 @@ module.exports = {
   themes: ["@docusaurus/theme-live-codeblock"],
   baseUrl: "/",
   onBrokenLinks: "throw",
-  onBrokenMarkdownLinks: "throw",
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: "throw",
+    },
+  },
   favicon: "img/favicon.ico",
   organizationName: "golioth", // Usually your GitHub org/user name.
   projectName: "docs", // Usually your repo name.
