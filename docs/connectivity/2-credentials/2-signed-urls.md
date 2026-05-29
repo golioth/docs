@@ -36,8 +36,8 @@ capable system to allow it to download the resource on its behalf.
 In order to use signed URLs, they must first be enabled in [project
 settings](https://console.golioth.io/project-settings). The project must also
 have any Certificate Authority (CA) certificates used in device authentication
-uploaded as described in the [PKI
-documentation](/connectivity/credentials/pki#integrating-with-golioth).
+uploaded as described in the [Offline PKI
+documentation](/connectivity/credentials/pki/offline-pki#integrating-with-golioth).
 
 :::tip
 Signed URLs can only be used with `GET` requests.

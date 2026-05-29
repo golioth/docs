@@ -78,7 +78,7 @@ organization (`O`) to the slug for the appropriate project, which can be found
 under [`Project Settings`](https://console.golioth.io/project-settings). The
 common name (`CN`) must be set to a unique identifier for the device within the
 project. The unique value used in the common name is referred to as the device's
-_certificate ID_. See the [Certificate IDs](#certificate-ids) section below for
+_certificate ID_. See the [Certificate IDs](./README.md#certificate-ids) section for
 more information.
 :::
 
