@@ -10,7 +10,9 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import BrowserOnly from "@docusaurus/BrowserOnly";
 
 export const APIDocs = () => {
-  const swaggerUrl = process.env.SWAGGER_URL;
+  const { siteConfig } = useDocusaurusContext();
+  const swaggerUrl =
+    siteConfig.customFields.swaggerUrl || "https://api.golioth.io/swagger.json";
   return (
     <div
       style={{

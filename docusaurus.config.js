@@ -12,6 +12,10 @@ module.exports = {
   favicon: "img/favicon.ico",
   organizationName: "golioth", // Usually your GitHub org/user name.
   projectName: "docs", // Usually your repo name.
+  customFields: {
+    swaggerUrl: process.env.SWAGGER_URL || "https://api.golioth.io/swagger.json",
+    openApiUrl: process.env.OPENAPI_URL || "https://api.golioth.io/openapi.json",
+  },
   themeConfig: {
     announcementBar: {
       id: 'canonical-announcement', // Any string id that represents this message
