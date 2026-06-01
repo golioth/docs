@@ -4,12 +4,16 @@ title: Management API
 
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 export const SwaggerUrl = () => {
-  const swaggerUrl = process.env.SWAGGER_URL;
+  const { siteConfig } = useDocusaurusContext();
+  const swaggerUrl =
+    siteConfig.customFields.swaggerUrl || "https://api.golioth.io/swagger.json";
   return <a href={swaggerUrl}>Swagger / OpenAPI v2</a>;
 };
 
 export const OpenAPIUrl = () => {
-  const openAPIUrl = process.env.OPENAPI_URL;
+  const { siteConfig } = useDocusaurusContext();
+  const openAPIUrl =
+    siteConfig.customFields.openApiUrl || "https://api.golioth.io/openapi.json";
   return <a href={openAPIUrl}>OpenAPI v3</a>;
 };
 
