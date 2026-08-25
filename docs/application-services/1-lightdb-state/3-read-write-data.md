@@ -20,6 +20,10 @@ We can start by saving temperature data on LightDB. On requests to write data, t
 - `integer`
 - `string`
 
+:::note
+Arrays are not supported. The API accepts them on write, but they are stored as objects with the element positions as keys, so `["a", "b"]` is saved as `{"0": "a", "1": "b"}`.
+:::
+
 import { ProtocolPublishSample, ProtocolReadSample, ProtocolDeleteSample } from '/docs/_partials-common/protocol.mdx'
 
 Here is a snippet of example code to save a temperature value of 30 Cº at path `/env/temp`
