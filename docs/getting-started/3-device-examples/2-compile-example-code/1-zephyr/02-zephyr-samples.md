@@ -125,8 +125,16 @@ Zephyr Settings subsystem, and these can be set through the shell:
 ```console
 uart:~$ settings set golioth/psk-id <YOUR-PSK-ID>
 uart:~$ settings set golioth/psk <YOUR-PSK>
-uart:~$ settings set wifi/ssid <YOUR-WIFI-SSID>
-uart:~$ settings set wifi/psk <YOUR-WIFI-PASSWORD>
+uart:~$ kernel reboot cold
+```
+
+Boards that connect over WiFi store the network with Zephyr's [WiFi
+credentials](https://docs.zephyrproject.org/4.3.0/connectivity/networking/api/wifi_credentials.html)
+library. For a WPA2-PSK network:
+
+```console
+uart:~$ wifi cred add -k 1 -s <YOUR-WIFI-SSID> -p <YOUR-WIFI-PASSWORD>
+uart:~$ wifi cred auto_connect
 ```
 
 <details>
