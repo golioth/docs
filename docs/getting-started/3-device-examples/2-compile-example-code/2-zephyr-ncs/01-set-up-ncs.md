@@ -37,32 +37,38 @@ import InstallZephyrSDKtoolchain from '/docs/_partials-common/install-zephyr-sdk
 
 <InstallZephyrSDKtoolchain/>
 
-## Install the Segger J-Link and nRF Command Line Tools
+## Install the SEGGER J-Link software and nRF Util
 
-Zephyr uses `nrfjprog` to flash Nordic targets using a hardware programmer like
-the Segger J-Link, or the debugger that is built into the development kit (DK)
-boards. This tool is part of the nRF Command Line Tools which we will install
-along with the Segger tool.
+`west flash` programs Nordic targets with nRF Util (`nrfutil device`), using the
+SEGGER J-Link debugger that is built into the development kit (DK) boards.
 
-1. Go to Segger and download the latest [J-Link Software and Documentation
-   Pack](https://www.segger.com/downloads/jlink)
+1. Go to SEGGER and download the [J-Link Software and Documentation
+   Pack](https://www.segger.com/downloads/jlink). NCS v3.2.3 requires J-Link
+   v9.18.
 
-2. Run the J-Link installer
-
-    ```bash
-    sudo dpkg -i JLink_Linux_V760f_x86_64.deb
-    ```
-
-3. Go to the [nRF Command Line
-   Tools](https://www.nordicsemi.com/Products/Development-tools/nrf-command-line-tools/download)
-   page. Scroll down, select your operating system, and download the installer
-   package.
-
-4. Run the nRF Command Line Tools installer
+2. Install J-Link: on macOS and Windows, run the downloaded installer; on
+   Debian and Ubuntu, install the downloaded package:
 
     ```bash
-    sudo dpkg -i nrf-command-line-tools_10.15.2_amd64.deb
+    sudo dpkg -i JLink_Linux_<version>_x86_64.deb
     ```
+
+3. Download
+   [nRF Util](https://www.nordicsemi.com/Products/Development-tools/nRF-Util/Download),
+   make it executable and move it to a directory that is in your `PATH`:
+
+    ```bash
+    chmod +x nrfutil
+    ```
+
+4. Install the nRF Util device command
+
+    ```bash
+    nrfutil install device
+    ```
+
+5. On Linux, install Nordic's [udev rules](https://github.com/NordicSemiconductor/nrf-udev)
+   which are required to access the USB ports of Nordic devices.
 
 ## Build Sample Firmware
 
