@@ -18,8 +18,9 @@ device, the following example demonstrates one way in which a server CA
 certificate (`ca_cert`), device certificate (`public_cert`), and private key
 (`private_key`) can be passed to the Golioth client.
 
-All data is expected to be provided as DER encoded. To convert PEM files to DER,
-the following `openssl` commands can be used.
+On Zephyr, provide the certificate and key DER encoded. The ESP-IDF and Linux
+certificate examples pass PEM files instead. To convert PEM files to DER, the
+following `openssl` commands can be used.
 
 ```
 openssl x509 -in device.crt.pem -outform DER -out device.crt.der
@@ -30,14 +31,18 @@ openssl ec -in device.key.pem -outform DER -out device.key.der
 ```
 
 ```c
-/* Get the Golioth CA Certificate from the Golioth SDK */
+/* Golioth server CA certificates, embedded by the Zephyr port of the SDK */
 static const uint8_t tls_ca_crt[] = {
 #include "golioth-systemclient-ca_crt.inc"
 };
 
+static const uint8_t tls_secondary_ca_crt[] = {
+#include "golioth-systemclient-secondary_ca_crt.inc"
+};
+
 int main(void) {
-    uint8_t* device_crt = pointer_to_your_crt_der_byte_array;
-    uint8_t* device_key = pointer_to_your_key_der_byte_array;
+    const uint8_t *device_crt = pointer_to_your_crt_der_byte_array;
+    const uint8_t *device_key = pointer_to_your_key_der_byte_array;
     size_t device_crt_len = sizeof_your_crt_der_byte_array;
     size_t device_key_len = sizeof_your_key_der_byte_array;
 
@@ -45,15 +50,17 @@ int main(void) {
         .credentials = {
             .auth_type = GOLIOTH_TLS_AUTH_TYPE_PKI,
             .pki = {
-                .ca_cert = server_ca_crt,
-                .ca_cert_len = sizeof(server_ca_crt),
+                .ca_cert = tls_ca_crt,
+                .ca_cert_len = sizeof(tls_ca_crt),
                 .public_cert = device_crt,
                 .public_cert_len = device_crt_len,
                 .private_key = device_key,
                 .private_key_len = device_key_len,
+                .secondary_ca_cert = tls_secondary_ca_crt,
+                .secondary_ca_cert_len = sizeof(tls_secondary_ca_crt),
             }}};
 
-    golioth_client_t client = golioth_client_create(&client_config);
+    struct golioth_client *client = golioth_client_create(&client_config);
 
     /* Continue program flow */
 }

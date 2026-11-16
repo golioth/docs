@@ -20,11 +20,14 @@ changes on the cloud.
 ## Includes
 
 ```c
-#include "golioth.h"
+#include <golioth/client.h>
+#include <golioth/lightdb_state.h>
+#include <golioth/payload_utils.h>
 ```
 
-Including the `golioth.h` header file makes the Golioth API functions available
-to your program.
+These headers make the Golioth client and LightDB State API functions, and the
+payload helper functions from `golioth/payload_utils.h`, available to your
+program.
 
 ## Asynchronous Observe
 
@@ -37,6 +40,7 @@ changes, a callback function runs to supply a payload with the updated data.
 ```c
 int err = golioth_lightdb_observe_async(client,
                                         "counter",
+                                        GOLIOTH_CONTENT_TYPE_JSON,
                                         counter_observe_handler,
                                         NULL);
 ```
@@ -46,9 +50,9 @@ device whenever data from a given path changes. A user-defined callback function
 is supplied so that you may process the received data. An optional callback
 argument can be specified, this data will be available in the callback function.
 
-In the above example, we observe the `"counter"` path from Golioth, specifying
-`counter_observe_handler` as the callback function and no callback argument
-(`NULL`).
+In the above example, we observe the `"counter"` path from Golioth as JSON,
+specifying `counter_observe_handler` as the callback function and no callback
+argument (`NULL`).
 
 ### Callback function
 
@@ -57,14 +61,15 @@ registers them. In this case a `golioth_get_cb_fn` type callback function must
 be defined:
 
 ```c
-static void counter_observe_handler(golioth_client_t client,
-                                    const golioth_response_t* response,
-                                    const char* path,
-                                    const uint8_t* payload,
+static void counter_observe_handler(struct golioth_client *client,
+                                    enum golioth_status status,
+                                    const struct golioth_coap_rsp_code *coap_rsp_code,
+                                    const char *path,
+                                    const uint8_t *payload,
                                     size_t payload_size,
-                                    void* arg) {
-    if (response->status != GOLIOTH_OK) {
-        // Failed to receive the payload.
+                                    void *arg) {
+    if ((status != GOLIOTH_OK) || golioth_payload_is_null(payload, payload_size)) {
+        // Failed to receive the payload, or there is no data at this path.
         return;
     }
 
@@ -75,15 +80,15 @@ static void counter_observe_handler(golioth_client_t client,
 }
 ```
 
-The response is passed to the callback function as a `golioth_response_t` struct
-that includes `status`. It is recommended that callbacks test for the
-`GOLIOTH_OK` status which indicates a successful operation.
+The result is passed to the callback in `status`. It is recommended that
+callbacks test for the `GOLIOTH_OK` status which indicates a successful
+operation.
 
-By default the data received from Golioth is in JSON format, stored in memory at
-the `payload` pointer location, with `payload_size` indicating the length of
-data. Helper functions like `golioth_payload_as_int()` are used to convert the
-payload to the desired type, or a JSON parser of your choosing may be used to
-unpack the payload.
+Data observed with `GOLIOTH_CONTENT_TYPE_JSON` is received in JSON format,
+stored in memory at the `payload` pointer location, with `payload_size`
+indicating the length of data. Helper functions like `golioth_payload_as_int()`
+are used to convert the payload to the desired type, or a JSON parser of your
+choosing may be used to unpack the payload.
 
 The same callback may be used by multiple async functions. Add logic to react
 based on which `path` was being written to, and any callback arguments found in
@@ -91,8 +96,8 @@ the `arg` variable.
 
 ## Observing Complex JSON Objects
 
-The async example receives JSON formatted payloads by default and may be used to
-observe complex objects from Golioth.
+The example above requests JSON payloads and may be used to observe complex
+objects from Golioth.
 
 ## Example in the Golioth Basics Application
 

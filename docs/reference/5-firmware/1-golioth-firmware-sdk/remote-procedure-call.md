@@ -12,31 +12,34 @@ compile time.
 ## Includes
 
 ```c
-#include "golioth.h"
+#include <golioth/client.h>
+#include <golioth/rpc.h>
 ```
 
-Including the `golioth.h` header file makes the Golioth API functions available
-to your program.
+These headers make the Golioth client and RPC API functions available to your
+program.
 
 ### Registering a callback
 
 ```c
-int err = golioth_rpc_register(client, "multiply", on_multiply, NULL);
+struct golioth_rpc *rpc = golioth_rpc_init(client);
+
+int err = golioth_rpc_register(rpc, "multiply", on_multiply, NULL);
 ```
 
 Use the `golioth_rpc_register()` function to register a callback that will
 execute asynchronously when an RPC request is received from the Golioth Cloud.
-Required parameters are the Golioth Client object, the method name (as a
-string), the name of the callback function, and an optional user-defined
-parameter.
+Required parameters are the RPC handle returned by `golioth_rpc_init()`, the
+method name (as a string), the name of the callback function, and an optional
+user-defined parameter.
 
 ### Callback function
 
 ```c
-static golioth_rpc_status_t on_multiply(
-    zcbor_state_t* request_params_array,
-    zcbor_state_t* response_detail_map,
-    void* callback_arg) {
+static enum golioth_rpc_status on_multiply(
+    zcbor_state_t *request_params_array,
+    zcbor_state_t *response_detail_map,
+    void *callback_arg) {
     double a, b;
     double value;
     bool ok;
@@ -45,7 +48,7 @@ static golioth_rpc_status_t on_multiply(
         && zcbor_float_decode(request_params_array, &b);
     if (!ok) {
         LOG_ERR("Failed to decode array items");
-        return RPC_INVALID_ARGUMENT;
+        return GOLIOTH_RPC_INVALID_ARGUMENT;
     }
 
     value = a * b;
@@ -56,7 +59,7 @@ static golioth_rpc_status_t on_multiply(
       && zcbor_float64_put(response_detail_map, value);
     if (!ok) {
         LOG_ERR("Failed to encode value");
-        return RPC_RESOURCE_EXHAUSTED;
+        return GOLIOTH_RPC_RESOURCE_EXHAUSTED;
     }
 
     return GOLIOTH_RPC_OK;
@@ -92,7 +95,7 @@ Once the firmware is running, an RPC request can be sent from the device-level
 The status of the RPC request is shown in the same tab. The response can be
 viewed by clicking the three-dot button in the "Recent calls" list.
 
-## Example in the Golioth Basics Application
+## Example application
 
 The `multiply` remote procedure call is demonstrated [in the Golioth RPC
 example

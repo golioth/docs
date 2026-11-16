@@ -13,11 +13,12 @@ CBOR objects.
 ## Includes
 
 ```c
-#include "golioth.h"
+#include <golioth/client.h>
+#include <golioth/lightdb_state.h>
 ```
 
-Including the `golioth.h` header file makes the Golioth API functions available
-to your program.
+These headers make the Golioth client and LightDB State API functions
+available to your program.
 
 ## Synchronous Set
 
@@ -66,11 +67,12 @@ registers them. In this case a `golioth_set_cb_fn` type callback
 function must be defined:
 
 ```c
-static void counter_set_handler(golioth_client_t client,
-                                const golioth_response_t* response,
-                                const char* path,
-                                void* arg) {
-    if (response->status != GOLIOTH_OK) {
+static void counter_set_handler(struct golioth_client *client,
+                                enum golioth_status status,
+                                const struct golioth_coap_rsp_code *coap_rsp_code,
+                                const char *path,
+                                void *arg) {
+    if (status != GOLIOTH_OK) {
         // The set operation failed.
         return;
     }
@@ -80,9 +82,12 @@ static void counter_set_handler(golioth_client_t client,
 }
 ```
 
-The response is passed to the callback function as a `golioth_response_t` struct
-that includes `status`. It is recommended that callbacks test for the
-`GOLIOTH_OK` status which indicates a successful operation.
+The result is passed to the callback in `status`. It is recommended that
+callbacks test for the `GOLIOTH_OK` status which indicates a successful
+operation. When `status` is `GOLIOTH_ERR_COAP_RESPONSE`, `coap_rsp_code` holds
+the non-success CoAP response code sent by the server; for other errors (for
+example `GOLIOTH_ERR_TIMEOUT`) no response was received and `coap_rsp_code` is
+`NULL`.
 
 The same callback may be used by multiple async functions. Add logic to react
 based on which `path` was being written to, and any callback arguments found in
@@ -97,12 +102,12 @@ CBOR objects.
 
 ```c
 /* Create a valid JSON string */
-char json_buf[] = "{\"name\":\"seconds\",\"data\":{\"val\":42,\"inc\":1}}"
+char json_buf[] = "{\"name\":\"seconds\",\"data\":{\"val\":42,\"inc\":1}}";
 
 int err = golioth_lightdb_set_async(client,
                                     "counter",
                                     GOLIOTH_CONTENT_TYPE_JSON,
-                                    json_buf,
+                                    (const uint8_t *)json_buf,
                                     strlen(json_buf),
                                     counter_set_handler,
                                     NULL);
