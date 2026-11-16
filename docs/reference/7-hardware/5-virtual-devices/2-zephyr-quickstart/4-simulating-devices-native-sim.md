@@ -23,18 +23,32 @@ import CheckToolchain from './\_partials/check-toolchain.md'
 <CheckToolchain/>
 
 ## Build for Native Simulator
-2-zephyr-quickstart/4-simulating-devices-native-sim.md
 
-At this point, you can build a Golioth Zephyr project:
-
-```
-west build -b native_sim/native/64 samples/hello -p
-```
-
-and run it:
+At this point, you can build a Golioth Zephyr sample:
 
 ```
-./build/zephyr/zephyr.exe
+cd ~/golioth-zephyr-workspace/modules/lib/golioth-firmware-sdk
+west build -p -b native_sim/native/64 examples/zephyr/hello
+```
+
+Native Simulator samples load Golioth credentials from host environment
+variables. Set `GOLIOTH_SAMPLE_PSK_ID` and `GOLIOTH_SAMPLE_PSK` when running
+the program:
+
+<details>
+  <summary>How to find credentials</summary>
+
+![Golioth Console device credentials](../../../../getting-started/assets/gettingstarted-console-deviceview-credentialspanel.png)
+
+* Golioth credentials are available in the `Credentials` tab for your device
+    * Open the Golioth Console
+    * Select `Devices` on  the left sidebar and choose your device from the
+      resulting list
+    * Click on the `Credentials` tab and copy your `PSK-ID` and `PSK`
+</details>
+
+```
+GOLIOTH_SAMPLE_PSK_ID="<YOUR-PSK-ID>" GOLIOTH_SAMPLE_PSK="<YOUR-PSK>" ./build/zephyr/zephyr.exe
 ```
 
 The program will create a pseudo-terminal and print its name (e.g.):
@@ -50,35 +64,11 @@ interactive shell:
 screen /dev/pts/1
 ```
 
-## Setting Credentials
-
-You must set Golioth credentials for the example to authenticate with Golioth. The
-SDK samples store credentials in the Zephyr Settings subsystem, and these can be set
-through the shell:
-
-```console
-uart:~$ settings set golioth/psk-id <YOUR-PSK-ID>
-uart:~$ settings set golioth/psk <YOUR-PSK>
-```
-
-<details>
-  <summary>How to find credentials</summary>
-
-![Golioth Console device credentials](../../../../getting-started/assets/gettingstarted-console-deviceview-credentialspanel.png)
-
-* Golioth credentials are available in the `Credentials` tab for your device
-    * Open the Golioth Console
-    * Select `Devices` on  the left sidebar and choose your device from the
-      resulting list
-    * Click on the `Credentials` tab and copy your `PSK-ID` and `PSK`
-</details>
-
-For more on networking, see [the native_sim page on the Zephyr Docs](https://docs.zephyrproject.org/latest/connectivity/networking/native_sim_setup.html)
-
+For more on networking, see [the native_sim page on the Zephyr Docs](https://docs.zephyrproject.org/4.3.0/connectivity/networking/native_sim_setup.html#using-offloaded-sockets)
 
 ## Example Output
 
-After setting credentials, you can view program output either in the
+After starting the program, you can view program output either in the
 pseudo-terminal or on stdout. It should look similar to the following:
 
 ```console
@@ -86,11 +76,6 @@ WARNING: Using a test - not safe - entropy source
 uart connected to pseudotty: /dev/pts/1
 *** Booting Zephyr OS build 7823374e8721 ***
 *** Golioth Firmware SDK v0.17.0-65-g3634d7e1d392 ***
-[00:00:00.000,000] <inf> golioth_settings_autoload: Initializing settings subsystem
-[00:00:00.000,000] <inf> fs_nvs: 4 Sectors of 4096 bytes
-[00:00:00.000,000] <inf> fs_nvs: alloc wra: 0, fb0
-[00:00:00.000,000] <inf> fs_nvs: data wra: 0, 6d
-[00:00:00.000,000] <inf> golioth_settings_autoload: Loading settings
 [00:00:00.000,000] <inf> net_config: Initializing network
 [00:00:00.000,000] <inf> net_config: IPv4 address: 192.0.2.1
 [00:00:00.000,000] <dbg> hello_zephyr: main: start hello sample
