@@ -99,11 +99,12 @@ the `arg` variable.
 The example above requests JSON payloads and may be used to observe complex
 objects from Golioth.
 
-## Example in the Golioth Basics Application
+## Example application
 
-The LightDB observe API call is demonstrated [in the Golioth Basics example
-application](https://github.com/golioth/golioth-firmware-sdk/blob/develop/examples/common/golioth_basics.c).
-It can be easily located by searching for `golioth_lightdb_observe`.
+LightDB Observe API calls are demonstrated in the [LightDB OBSERVE sample for
+Zephyr](https://github.com/golioth/golioth-firmware-sdk/tree/main/examples/zephyr/lightdb/observe)
+and the [LightDB OBSERVE sample for
+ESP-IDF](https://github.com/golioth/golioth-firmware-sdk/tree/main/examples/esp_idf/lightdb/observe).
 
 ## Resources
 

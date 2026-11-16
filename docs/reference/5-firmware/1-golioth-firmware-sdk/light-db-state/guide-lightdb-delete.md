@@ -78,12 +78,12 @@ The same callback may be used by multiple requests. Add logic to react
 based on which `path` was being deleted, and any callback arguments found in
 the `arg` variable.
 
-## Example in the Golioth Basics Application
+## Example application
 
-A LightDB delete API call is demonstrated [in the Golioth Basics
-example
-application](https://github.com/golioth/golioth-firmware-sdk/blob/develop/examples/common/golioth_basics.c).
-It can be easily located by searching for `golioth_lightdb_delete`.
+LightDB Delete API calls are demonstrated in the [LightDB DELETE sample for
+Zephyr](https://github.com/golioth/golioth-firmware-sdk/tree/main/examples/zephyr/lightdb/delete)
+and the [LightDB DELETE sample for
+ESP-IDF](https://github.com/golioth/golioth-firmware-sdk/tree/main/examples/esp_idf/lightdb/delete).
 
 ## Resources
 
