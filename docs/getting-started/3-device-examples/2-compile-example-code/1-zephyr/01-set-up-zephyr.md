@@ -62,7 +62,7 @@ and tools based on your specific hardware.
 
 :::tip Device-Specific information in Zephyr's Board Index
 
-Review your vendor's board support in the [Zephyr Board Index](https://docs.zephyrproject.org/latest/boards/index.html) to find more information on specific set up steps for your prefered hardware.
+Review your vendor's board support in the [Zephyr Board Index](https://docs.zephyrproject.org/4.3.0/boards/index.html) to find more information on specific set up steps for your prefered hardware.
 
 :::
 
