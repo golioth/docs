@@ -5,33 +5,6 @@ sidebar_position: 4
 
 # Examples: Zephyr
 
-## Hardcoding Certificates for samples
-
-All of our Firmware SDK samples for Zephyr can be compiled with hardcoded
-certificate credentials. As an example, build [the Golioth `hello` sample
-code](https://github.com/golioth/golioth-firmware-sdk/tree/main/examples/zephyr/hello).
-
-:::note For prototyping only
-
-Using a hardcoded certificate is an easy way to start using and test
-certificate based authentication. It should not be used in production.
-
-:::
-
-1. Set the project to use Certificate Authentication
-
-    As outlined in the [Certificate based auth
-    section](https://github.com/golioth/golioth-firmware-sdk/tree/main/examples/zephyr/hello#certificate-based-auth)
-    of that sample's README, a few Kconfig symbols need to be set in the
-    `prj.conf` file:
-
-    ```
-    CONFIG_GOLIOTH_AUTH_METHOD_CERT=y
-    CONFIG_GOLIOTH_SAMPLE_HARDCODED_CRT_PATH="keys/device.crt.der"
-    CONFIG_GOLIOTH_SAMPLE_HARDCODED_KEY_PATH="keys/device.key.der"
-    ```
-2. Build and flash the firmware following the instructions in the [README](https://github.com/golioth/golioth-zephyr-sdk/tree/main/samples/hello).
-
 ## Provisioning Certificates sample
 
 [The `certificate_provisioning`
@@ -41,12 +14,19 @@ store device certificates on non-volatile flash memory. This way, each device
 has its own unique certificates, and future firmware updates will not overwrite
 these stored credentials.
 
+The [`certificate_rotation`
+sample](https://github.com/golioth/golioth-firmware-sdk/tree/main/examples/zephyr/certificate_rotation)
+starts from certificates provisioned the same way and then uses Golioth PKI to
+request a new certificate from Golioth.
+
 The following steps are covered in the code example:
 
 1. Generate a set of root and device certificates [using the Golioth Docs as a
    guide](/connectivity/credentials/pki/offline-pki#generating-device-certificates).
 2. Compile and flash the firmware example onto the device.
-3. Use `mcumgr` to copy the device certificates onto the device filesystem.
+3. Use `mcumgr` to copy the device certificate and key (DER) to
+   `/lfs1/credentials/crt.der` and `/lfs1/credentials/key.der` on the device
+   filesystem.
 4. Upload the root certificate to Golioth.
 
 The project-id for your Golioth project is supplied as part of the device
