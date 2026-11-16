@@ -44,8 +44,21 @@ and tools based on your specific hardware.
     $ west blobs fetch hal_espressif
     ```
 
+- The NXP FRDM-RW612 WiFi build requires the NXP binary blobs:
+
+    ```shell
+    $ west blobs fetch hal_nxp
+    ```
+
 - NXP evaluation kits usually offer on-board J-Link debugger support. To utilize
   this you will need to install Segger's [J-Link Software and Documentation Pack](https://www.segger.com/downloads/jlink).
+
+  On the FRDM-RW612, `west flash` uses J-Link by default, which needs the
+  on-board debug probe to run J-Link firmware (see [Configuring a Debug
+  Probe](https://docs.zephyrproject.org/4.3.0/boards/nxp/frdm_rw612/doc/index.html#configuring-a-debug-probe)).
+  If the probe runs NXP's CMSIS-DAP firmware instead, install
+  [LinkServer](https://docs.zephyrproject.org/4.3.0/develop/flash_debug/host-tools.html#linkserver-debug-host-tools)
+  and flash with `west flash -r linkserver`.
 
 :::tip Device-Specific information in Zephyr's Board Index
 

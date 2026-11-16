@@ -20,18 +20,19 @@ These examples can be built for any hardware supported by Zephyr. However, each
 will need some device-specific configuration. Golioth maintains configurations
 for a range of development boards as part of our continuous integration (CI).
 
-* [Nordic nRF52840
-  DK](https://www.nordicsemi.com/Products/Development-hardware/nRF52840-DK)
-  using an ESP32 as an AT modem
-  ([details](https://github.com/golioth/golioth-firmware-sdk/tree/main/examples/zephyr/hello#nrf52840-dk--esp32-wroom-32))
-* [NXP i.MX 1024 Evaluation
-  Kit](https://www.nxp.com/design/design-center/development-boards/i-mx-evaluation-and-development-boards/i-mx-rt1024-evaluation-kit:MIMXRT1024-EVK)
-* [ESP32 DevKitC
-  WROVER](https://www.espressif.com/en/products/devkits/esp32-devkitc)
+* [Espressif
+  ESP32-S3-DevKitC-1](https://www.espressif.com/en/products/devkits/esp32-s3-devkitc-1)
+  (WiFi)
+* [NXP
+  FRDM-RW612](https://www.nxp.com/design/design-center/development-boards-and-designs/FRDM-RW612)
+  (Ethernet or WiFi)
+
+The Nordic nRF9160 DK is covered on the [NCS
+page](/getting-started/device-examples/compile-example-code/zephyr-ncs).
 
 This page includes build commands for these boards. You may model configuration
 for your own target hardware on the configuration and overlay files found in the
-`boards` directory of each example application.
+`boards` and `socs` directories of each example application.
 
 ## Build the `hello` code example
 
@@ -82,18 +83,18 @@ cd modules\lib\golioth-firmware-sdk
 ### Build the firmware and flashing the device
 
 <Tabs
-groupId="os"
-defaultValue="nrf52840"
+groupId="zephyr-board"
+defaultValue="esp32s3"
 values={[
-{label: 'Nordic nRF52840', value: 'nrf52840'},
-{label: 'NXP FRDM-RW612', value: 'rw612'},
-{label: 'ESP32', value: 'esp32'},
+{label: 'ESP32-S3-DevKitC', value: 'esp32s3'},
+{label: 'NXP FRDM-RW612 (Ethernet)', value: 'rw612'},
+{label: 'NXP FRDM-RW612 (WiFi)', value: 'rw612-wifi'},
 ]}>
 
-<TabItem value="nrf52840">
+<TabItem value="esp32s3">
 
 ```console
-west build -b nrf52840dk/nrf52840 examples/zephyr/hello
+west build -b esp32s3_devkitc/esp32s3/procpu examples/zephyr/hello
 west flash
 ```
 </TabItem>
@@ -106,10 +107,10 @@ west flash
 ```
 </TabItem>
 
-<TabItem value="esp32">
+<TabItem value="rw612-wifi">
 
 ```console
-west build -b esp32_devkitc_wrover/esp32/procpu examples/zephyr/hello
+west build -b frdm_rw612 examples/zephyr/hello -- -DEXTRA_CONF_FILE=boards/frdm_rw612_wifi.conf
 west flash
 ```
 </TabItem>
