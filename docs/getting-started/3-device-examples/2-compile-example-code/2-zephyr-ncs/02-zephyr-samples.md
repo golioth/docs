@@ -88,6 +88,7 @@ through the shell:
 ```console
 uart:~$ settings set golioth/psk-id <YOUR-PSK-ID>
 uart:~$ settings set golioth/psk <YOUR-PSK>
+uart:~$ kernel reboot cold
 ```
 
 <details>
