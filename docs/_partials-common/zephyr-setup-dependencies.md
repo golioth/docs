@@ -25,31 +25,21 @@ import SetupWestWindows from './zephyr-setup-west-windows.md'
     sudo apt install --no-install-recommends git cmake ninja-build gperf \
     ccache dfu-util device-tree-compiler wget python3-dev python3-pip \
     python3-setuptools python3-tk python3-venv python3-wheel xz-utils file \
-    make gcc gcc-multilib g++-multilib libsdl2-dev
+    make gcc gcc-multilib g++-multilib libsdl2-dev libmagic1
     ```
 
-2. West requires CMake version 3.20.0 or higher. Check the version that your
-   package manager installed:
+2. Zephyr supports Ubuntu 22.04 LTS and later and needs at least
+   CMake 3.20.5, Python 3.10 and devicetree compiler 1.4.6. Check the
+   installed versions:
 
     ```
-    $ cmake --version
-    cmake version 3.16.3
-    ```
-
-    If you have an older version, Ubuntu 20.04 systems can add the Kitware
-    repository which maintains the newest release:
-
-    ```
-    wget -O - https://apt.kitware.com/keys/kitware-archive-latest.asc 2>/dev/null | sudo apt-key add -
-    sudo apt-add-repository 'deb https://apt.kitware.com/ubuntu/ focal main'
-    sudo apt update
-    sudo apt install cmake
     cmake --version
+    python3 --version
+    dtc --version
     ```
 
-    If the Kitware repository doesn't work for you (ie: your system is not
-    running Ubuntu 20.04), you can [build the stable version of CMake from
-    source](https://cmake.org/install/).
+    If any of them is older, see [Zephyr's dependency
+    instructions](https://docs.zephyrproject.org/4.3.0/develop/getting_started/index.html#install-dependencies).
 
 ### Install West
 
@@ -61,7 +51,7 @@ import SetupWestWindows from './zephyr-setup-west-windows.md'
 1. Start by installing dependencies with `brew`:
 
     ```
-    brew install cmake ninja gperf python3 ccache dtc
+    brew install cmake ninja gperf python3 python-tk ccache dtc libmagic wget
     ```
 
 ### Install West
