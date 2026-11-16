@@ -21,11 +21,14 @@ process. Read more about how deployments are handled in the Golioth Cloud in the
 
 ### Device Side
 
-When a device registers for firmware upgrades, it will receive a manifest from
-the Golioth cloud each time a deployment occurs. The SDK automatically parses
-the manifest, comparing the received firmware version number with the version
-the device is currently running. If the manifest version is newer, the SDK
-begins a block download of the artifact. The exact device firmware upgrade (DFU)
-mechanism used to verify and flash the firmware varies from platform to
-platform. Upon successful update, the device reports the new firmware version
-number to the cloud.
+When a device subscribes to the OTA manifest
+([`golioth_ota_manifest_subscribe()`](https://firmware-sdk-docs.golioth.io/group__golioth__ota.html)),
+Golioth sends it a new manifest each time a deployment changes. The device also
+fetches the manifest periodically, once a day by default
+(`CONFIG_GOLIOTH_OTA_MANIFEST_SUBSCRIPTION_POLL_INTERVAL_S`). The
+firmware update sample code parses the manifest and compares the received
+firmware version number with the version the device is currently running. If
+they differ, the sample begins a block download of the artifact. The exact
+device firmware upgrade (DFU) mechanism used to verify and flash the firmware
+varies from platform to platform. Upon successful update, the device reports
+the new firmware version number to the cloud.
