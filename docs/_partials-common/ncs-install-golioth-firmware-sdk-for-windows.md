@@ -6,11 +6,11 @@ import FirmwareSdkVer from '!!raw-loader!/docs/_versions/golioth-firmware-sdk.md
 1. With `west` installed, grab the Golioth NCS SDK:
 
     <CodeBlock language="console">
-        {` cd %HOMEPATH%` + "\n" }
-        {` west init -m https://github.com/golioth/golioth-firmware-sdk.git --mr ${FirmwareSdkVer.replace(/(\n)/gm, "")} --mf west-ncs.yml %HOMEPATH%/golioth-ncs-workspace` + "\n" }
-        {` cd golioth-ncs-workspace/modules/lib/golioth-firmware-sdk` + "\n" }
+        { `cd %HOMEPATH%` + "\n" }
+        { `west init -m https://github.com/golioth/golioth-firmware-sdk.git --mr ${FirmwareSdkVer.replace(/(\n)/gm, "")} --mf west-ncs.yml %HOMEPATH%/golioth-ncs-workspace` + "\n" }
+        { `cd golioth-ncs-workspace/modules/lib/golioth-firmware-sdk` + "\n" }
         { `git submodule update --init --recursive` + "\n" }
-        {` west update` }
+        { `west update` }
     </CodeBlock>
 
 2. Tell `west` to automatically configure CMake:

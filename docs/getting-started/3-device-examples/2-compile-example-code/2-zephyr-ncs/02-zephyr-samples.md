@@ -64,7 +64,7 @@ cd modules/lib/golioth-firmware-sdk
 <TabItem value="windows">
 
 ```console
-cd c:\golioth-ncs-workspace
+cd %HOMEPATH%\golioth-ncs-workspace
 .venv\Scripts\activate.bat
 cd modules\lib\golioth-firmware-sdk
 ```

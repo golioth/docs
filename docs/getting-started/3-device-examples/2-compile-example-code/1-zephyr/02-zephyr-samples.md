@@ -72,7 +72,7 @@ cd modules/lib/golioth-firmware-sdk
 <TabItem value="windows">
 
 ```console
-cd c:\golioth-zephyr-workspace
+cd %HOMEPATH%\golioth-zephyr-workspace
 .venv\Scripts\activate.bat
 cd modules\lib\golioth-firmware-sdk
 ```
