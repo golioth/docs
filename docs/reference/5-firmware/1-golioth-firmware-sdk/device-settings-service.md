@@ -16,11 +16,12 @@ messages by turning them on/off and setting the device's logging level.
 ## Includes
 
 ```c
-#include "golioth.h"
+#include <golioth/client.h>
+#include <golioth/settings.h>
 ```
 
-Including the `golioth.h` header file makes the Golioth API functions available
-to your program.
+These headers make the Golioth client and Device Settings API functions
+available to your program.
 
 ### Registering a callback
 
@@ -29,8 +30,11 @@ to your program.
 #define LOOP_DELAY_S_MIN 1
 #define LOOP_DELAY_S_MAX 300
 
+// Create the Device Settings service handle
+struct golioth_settings *settings = golioth_settings_init(client);
+
 // Register Device Settings service callback
-golioth_settings_register_int_with_range(client,
+golioth_settings_register_int_with_range(settings,
                                          "LOOP_DELAY_S",
                                          LOOP_DELAY_S_MIN,
                                          LOOP_DELAY_S_MAX,
@@ -43,18 +47,19 @@ callback that will execute asynchronously when receiving device settings service
 updates from the Golioth Cloud. Here we see a callback that expects an integer
 and will test the received valued for a specific valid range.
 
-There are also API calls that register to receive a boolean value, a string, or
-an integer without applying a range check:
+There are also API calls that register to receive a boolean, a float, a string,
+or an integer without applying a range check:
 
 ```c
-golioth_settings_register_bool(client,
+golioth_settings_register_bool(settings,
                                "ENABLE_EXT_SENSOR",
                                on_ext_sensor_setting,
                                NULL);
 ```
 
-Required parameters are the Golioth Client object, the settings key, and the
-name of the callback function. An optional callback argument may be specified,
+Required parameters are the settings handle returned by
+`golioth_settings_init()`, the settings key, and the name of the callback
+function. An optional callback argument may be specified,
 this data will be available in the callback function.
 
 The Golioth servers will send an update when the callback is first registered
@@ -68,7 +73,7 @@ the settings.
 // Global veriable to store received settings
 int32_t _loop_delay_s = 10;
 
-static golioth_settings_status_t on_loop_delay_setting(int32_t new_value, void* arg) {
+static enum golioth_settings_status on_loop_delay_setting(int32_t new_value, void *arg) {
     LOG_INF("Setting loop delay to %" PRId32 " s", new_value);
     _loop_delay_s = new_value;
     return GOLIOTH_SETTINGS_SUCCESS;
@@ -80,7 +85,7 @@ servers indicating that the setting was received and processed, or indicating a
 reason why it was not. Once data is validated, the setting may be acted upon and
 a `GOLIOTH_SETTINGS_SUCCESS` response returned. There are a number of different
 settings-specific statuses that can be returned. Please see the
-`golioth_settings_status_t` enumeration [in the Golioth Firmware SDK
+`golioth_settings_status` enumeration [in the Golioth Firmware SDK
 reference](https://firmware-sdk-docs.golioth.io/group__golioth__settings.html)
 for more information.
 

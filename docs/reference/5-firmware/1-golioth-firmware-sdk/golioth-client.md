@@ -10,11 +10,10 @@ registering callbacks as needed.
 ## Includes
 
 ```c
-#include "golioth.h"
+#include <golioth/client.h>
 ```
 
-Including the `golioth.h` header file makes the Golioth API functions available
-to your program.
+This header makes the Golioth client API available to your program.
 
 ## Set up the Golioth Client
 
@@ -69,7 +68,9 @@ Golioth logging system to print a log message following a connection event:
 LOG_TAG_DEFINE(golioth_basics);
 
 /* Callback registered using previous code example */
-static void on_client_event(golioth_client_t client, golioth_client_event_t event, void* arg) {
+static void on_client_event(struct golioth_client *client,
+                            enum golioth_client_event event,
+                            void *arg) {
     bool is_connected = (event == GOLIOTH_CLIENT_EVENT_CONNECTED);
     GLTH_LOGI(TAG, "Golioth client %s", is_connected ? "connected" : "disconnected");
 }
@@ -85,10 +86,12 @@ the event callback when a connection to Golioth is successfully established.
 
 ## Summary
 
-* The best demonstration of working with the Golioth Client is found in the
-  `examples/<your_OS>/golioth_basics` example application. Navigate to [the
-  examples
+* The best demonstration of working with the Golioth Client is the `hello`
+  sample for your platform (`examples/zephyr/hello`, `examples/esp_idf/hello`)
+  or the `golioth_basics` example for Linux and ModusToolbox
+  (`examples/linux/golioth_basics`, `examples/modus_toolbox/golioth_basics`).
+  Navigate to [the examples
   folder](https://github.com/golioth/golioth-firmware-sdk/tree/main/examples) to
-  locate it.
+  locate them.
 * Further documentation for this SDK is available in the [Golioth Firmware SDK
   Reference](https://firmware-sdk-docs.golioth.io) (Doxygen).

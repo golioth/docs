@@ -10,8 +10,8 @@ tool). PSK credentials are passed as members of the Golioth Client
 configuration.
 
 ```c
-uint8_t* client_psk_id = pointer_to_your_psk_id_array;
-uint8_t* client_psk = pointer_to_your_psk_array;
+const char *client_psk_id = pointer_to_your_psk_id_array;
+const char *client_psk = pointer_to_your_psk_array;
 size_t client_psk_id_len = strlen_of_your_psk_id_array;
 size_t client_psk_len = strlen_of_your_psk_array;
 
@@ -25,7 +25,7 @@ struct golioth_client_config client_config = {
                         .psk_len = client_psk_len,
                 }}};
 
-golioth_client_t client = golioth_client_create(&client_config);
+struct golioth_client *client = golioth_client_create(&client_config);
 ```
 
 Golioth does not specify the means of provisioning PSK device credentials onto a

@@ -9,11 +9,12 @@ operation, the path and all of its child nodes will cease to exist.
 ## Includes
 
 ```c
-#include "golioth.h"
+#include <golioth/client.h>
+#include <golioth/lightdb_state.h>
 ```
 
-Including the `golioth.h` header file makes the Golioth API functions available
-to your program.
+These headers make the Golioth client and LightDB State API functions
+available to your program.
 
 ## Synchronous Delete
 
@@ -61,11 +62,12 @@ registers them. In this case a `golioth_set_cb_fn` type callback
 function must be defined:
 
 ```c
-static void counter_delete_handler(golioth_client_t client,
-                                   const golioth_response_t* response,
-                                   const char* path,
-                                   void* arg) {
-    if (response->status != GOLIOTH_OK) {
+static void counter_delete_handler(struct golioth_client *client,
+                                   enum golioth_status status,
+                                   const struct golioth_coap_rsp_code *coap_rsp_code,
+                                   const char *path,
+                                   void *arg) {
+    if (status != GOLIOTH_OK) {
         // The delete operation failed.
         return;
     }
@@ -75,9 +77,12 @@ static void counter_delete_handler(golioth_client_t client,
 }
 ```
 
-The response is passed to the callback function as a `golioth_response_t` struct
-that includes `status`. It is recommended that callbacks test for the
-`GOLIOTH_OK` status which indicates a successful operation.
+The result is passed to the callback in `status`. It is recommended that
+callbacks test for the `GOLIOTH_OK` status which indicates a successful
+operation. When `status` is `GOLIOTH_ERR_COAP_RESPONSE`, `coap_rsp_code` holds
+the non-success CoAP response code sent by the server; for other errors (for
+example `GOLIOTH_ERR_TIMEOUT`) no response was received and `coap_rsp_code` is
+`NULL`.
 
 The same callback may be used by multiple async functions. Add logic to react
 based on which `path` was being deleted, and any callback arguments found in

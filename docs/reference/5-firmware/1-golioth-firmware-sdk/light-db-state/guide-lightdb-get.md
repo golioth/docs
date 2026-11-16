@@ -5,8 +5,8 @@ sidebar_position: 2
 
 Use a LightDB get function to get a data value from a specific path on the
 cloud. This data is stateful, the most recently set value will be retrieved. If
-the path does not already exist, the `GOLIOTH_ERR_NULL` error code will be
-returned.
+the path holds no data, the callback receives a `null` payload; check for it
+with `golioth_payload_is_null()`.
 
 A number of functions exist to handle different data types, as well as JSON
 objects.
@@ -14,11 +14,14 @@ objects.
 ## Includes
 
 ```c
-#include "golioth.h"
+#include <golioth/client.h>
+#include <golioth/lightdb_state.h>
+#include <golioth/payload_utils.h>
 ```
 
-Including the `golioth.h` header file makes the Golioth API functions available
-to your program.
+These headers make the Golioth client and LightDB State API functions, and the
+payload helper functions from `golioth/payload_utils.h`, available to your
+program.
 
 ## Synchronous Get
 
@@ -48,6 +51,7 @@ a callback function runs to supply a payload of the requested data.
 ```c
 int err = golioth_lightdb_get_async(client,
                                     "counter",
+                                    GOLIOTH_CONTENT_TYPE_JSON,
                                     counter_get_handler,
                                     NULL);
 ```
@@ -58,9 +62,9 @@ user-defined callback function is supplied so that you may process the received
 data once the get operation is completed. An optional callback argument can be
 specified, this data will be available in the callback function.
 
-In the above example, we request the `"counter"` path from Golioth, specifying
-`counter_get_handler` as the callback function and no callback argument
-(`NULL`).
+In the above example, we request the `"counter"` path from Golioth as JSON,
+specifying `counter_get_handler` as the callback function and no callback
+argument (`NULL`).
 
 ### Callback function
 
@@ -69,14 +73,15 @@ registers them. In this case a `golioth_get_cb_fn` type callback function must
 be defined:
 
 ```c
-static void counter_get_handler(golioth_client_t client,
-                                const golioth_response_t* response,
-                                const char* path,
-                                const uint8_t* payload,
+static void counter_get_handler(struct golioth_client *client,
+                                enum golioth_status status,
+                                const struct golioth_coap_rsp_code *coap_rsp_code,
+                                const char *path,
+                                const uint8_t *payload,
                                 size_t payload_size,
-                                void* arg) {
-    if (response->status != GOLIOTH_OK) {
-        // The get operation failed.
+                                void *arg) {
+    if ((status != GOLIOTH_OK) || golioth_payload_is_null(payload, payload_size)) {
+        // The get operation failed, or there is no data at this path.
         return;
     }
 
@@ -87,15 +92,15 @@ static void counter_get_handler(golioth_client_t client,
 }
 ```
 
-The response is passed to the callback function as a `golioth_response_t` struct
-that includes `status`. It is recommended that callbacks test for the
-`GOLIOTH_OK` status which indicates a successful operation.
+The result is passed to the callback in `status`. It is recommended that
+callbacks test for the `GOLIOTH_OK` status which indicates a successful
+operation.
 
-By default the data received from Golioth is in JSON format, stored in memory at
-the `payload` pointer location, with `payload_size` indicating the length of
-data. Helper functions like `golioth_payload_as_int()` are used to convert the
-payload to the desired type, or a JSON parser of your choosing may be used to
-unpack the payload.
+Data requested with `GOLIOTH_CONTENT_TYPE_JSON` is received in JSON format,
+stored in memory at the `payload` pointer location, with `payload_size`
+indicating the length of data. Helper functions like `golioth_payload_as_int()`
+are used to convert the payload to the desired type, or a JSON parser of your
+choosing may be used to unpack the payload.
 
 The same callback may be used by multiple async functions. Add logic to react
 based on which `path` was being written to, and any callback arguments found in

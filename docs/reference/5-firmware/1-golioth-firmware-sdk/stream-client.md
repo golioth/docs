@@ -34,10 +34,11 @@ paths using your choice of these content types: `JSON`, `CBOR`, and
 ## Includes
 
 ```c
-#include "golioth.h"
+#include <golioth/client.h>
+#include <golioth/stream.h>
 ```
 
-Including the `golioth.h` header file makes the Golioth API functions available
+These headers make the Golioth client and Stream API functions available
 to your program.
 
 ## Preparing the Data
@@ -215,7 +216,7 @@ enum obj_type {
 err = golioth_stream_set_async(client,
                                "sensor",
                                GOLIOTH_CONTENT_TYPE_JSON,
-                               json_buf,
+                               (const uint8_t *)json_buf,
                                strlen(json_buf),
                                obj_async_handler,
                                (void *)JSON_ASYNC);
@@ -238,7 +239,7 @@ data will be available in the callback function.
 In the above examples, we tell Golioth to set the `"sensor"` path using the enum
 for our desired content type, along with the pointer to the
 `json_buf`/`cbor_buf` array. The length of that array is supplied, along with
-with `async_set_handler` as the callback function. An enum value is used as the
+with `obj_async_handler` as the callback function. An enum value is used as the
 callback argument.
 
 ### Callback Function
@@ -248,11 +249,12 @@ registers them. In this case a `golioth_set_cb_fn` type callback
 function must be defined:
 
 ```c
-static void obj_async_handler(golioth_client_t client,
-                              const golioth_response_t* response,
-                              const char* path,
-                              void* arg) {
-    if (response->status != GOLIOTH_OK) {
+static void obj_async_handler(struct golioth_client *client,
+                              enum golioth_status status,
+                              const struct golioth_coap_rsp_code *coap_rsp_code,
+                              const char *path,
+                              void *arg) {
+    if (status != GOLIOTH_OK) {
         // The set operation failed.
         return;
     }
@@ -272,9 +274,12 @@ static void obj_async_handler(golioth_client_t client,
 }
 ```
 
-The response is passed to the callback function as a `golioth_response_t` struct
-that includes `status`. It is recommended that callbacks test for the
-`GOLIOTH_OK` status which indicates a successful operation.
+The result is passed to the callback in `status`. It is recommended that
+callbacks test for the `GOLIOTH_OK` status which indicates a successful
+operation. When `status` is `GOLIOTH_ERR_COAP_RESPONSE`, `coap_rsp_code` holds
+the non-success CoAP response code sent by the server; for other errors (for
+example `GOLIOTH_ERR_TIMEOUT`) no response was received and `coap_rsp_code` is
+`NULL`.
 
 The same callback may be used by multiple async functions. In this example, the
 `arg` value is used to determine which function led to this callback so that a
