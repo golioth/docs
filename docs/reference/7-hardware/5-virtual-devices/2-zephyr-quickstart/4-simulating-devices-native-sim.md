@@ -4,6 +4,13 @@ title: Simulating devices with Native Simulator
 toc_max_heading_level: 2
 ---
 
+:::caution
+
+Native Simulator runs on Linux only. On Windows, follow this guide inside a
+Linux VM or WSL 2. Use the Linux tab in the setup steps below.
+
+:::
+
 ## Install Dependencies and West
 
 import SetupZephyr from '/docs/_partials-common/zephyr-setup-dependencies.md'
