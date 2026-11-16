@@ -20,45 +20,35 @@ CBOR objects.
 These headers make the Golioth client and LightDB State API functions
 available to your program.
 
-## Synchronous Set
+## Setting a value
 
 ```c
-int err = golioth_lightdb_set_int_sync(client, "counter", counter, 1);
+int err = golioth_lightdb_set_int(client,
+                                  "counter",
+                                  counter,
+                                  counter_set_handler,
+                                  NULL);
 ```
 
-The simplest way to send LightDB State data to Golioth is using a synchronous
-set function. This blocking function will send data to the given path and wait
-for a response (or error) from the server. If a response is not received within
-the given timeout, a `GOLIOTH_ERR_TIMEOUT` error code will be returned.
-
-In the above example, we tell Golioth to set the `"counter"` path to the
-value of a variable called `counter`, with a `1` second timeout.
-
-## Asynchronous Set
-
-The asynchronous functions are a non-blocking approach to sending LightDB State
-data to Golioth. When the task completes, an optional callback function may be
-run to process the result of the async operation.
-
-### Calling the async set function
-
-```c
-int err = golioth_lightdb_set_int_async(client,
-                                        "counter",
-                                        counter,
-                                        counter_set_handler,
-                                        NULL);
-```
-
-The async set functions send data to a given path, but the request is enqueued
-by the Golioth Client so that program execution is not blocked. If a callback
-function is supplied, it will be called by the Golioth Client when the set
-operation is completed. An optional callback argument can be specified, this
-data will be available in the callback function.
+The set functions do not block. The request is enqueued by the Golioth Client
+and the function returns immediately; its return value only reports whether the
+request was queued. The result of the set operation is passed to the callback
+function, if one is supplied (pass `NULL` to ignore the result). An optional
+callback argument can be specified, this data will be available in the callback
+function.
 
 In the above example, we tell Golioth to set the `"counter"` path to the value
 of a variable called `counter`, with `counter_set_handler` as the callback
 function and no callback argument (`NULL`).
+
+:::note Waiting for the result
+
+The synchronous `_sync` functions were removed in Golioth Firmware SDK
+v0.23.0. An application that needs to block until the request completes can
+wait (for example on a semaphore) for the callback to run, but not from inside
+a Golioth callback, because callbacks run on the Golioth client thread.
+
+:::
 
 ### Callback function
 
@@ -89,13 +79,13 @@ the non-success CoAP response code sent by the server; for other errors (for
 example `GOLIOTH_ERR_TIMEOUT`) no response was received and `coap_rsp_code` is
 `NULL`.
 
-The same callback may be used by multiple async functions. Add logic to react
+The same callback may be used by multiple requests. Add logic to react
 based on which `path` was being written to, and any callback arguments found in
 the `arg` variable.
 
 ## Setting Complex Objects
 
-Both examples above send `int` type data to Golioth, and similar functions exist
+The example above sends `int` type data to Golioth, and similar functions exist
 for `bool`, `float`, and `string`. However, it is often more convenient to set
 several paths in one operation. To do so, the API supports using both JSON and
 CBOR objects.
@@ -104,20 +94,19 @@ CBOR objects.
 /* Create a valid JSON string */
 char json_buf[] = "{\"name\":\"seconds\",\"data\":{\"val\":42,\"inc\":1}}";
 
-int err = golioth_lightdb_set_async(client,
-                                    "counter",
-                                    GOLIOTH_CONTENT_TYPE_JSON,
-                                    (const uint8_t *)json_buf,
-                                    strlen(json_buf),
-                                    counter_set_handler,
-                                    NULL);
+int err = golioth_lightdb_set(client,
+                              "counter",
+                              GOLIOTH_CONTENT_TYPE_JSON,
+                              (const uint8_t *)json_buf,
+                              strlen(json_buf),
+                              counter_set_handler,
+                              NULL);
 ```
 
 In the example above, a JSON object is first prepared as a character array. The
 API call instructs Golioth to set the `"counter"` path using content type
 `GOLIOTH_CONTENT_TYPE_JSON`. We pass the function the `json_buf` pointer to the
-data which is `strlen(json_buf)` long (the null terminator is not counted). This
-is an async function (although a sync version is also available) so the
+data which is `strlen(json_buf)` long (the null terminator is not counted). The
 `counter_set_handler` function is registered as a callback with no callback
 argument (`NULL`) specified.
 
@@ -137,8 +126,7 @@ Here is what the resulting data on the cloud will look like:
 
 ## Example in the Golioth Basics Application
 
-Both synchronous and asynchronous LightDB Set API calls are demonstrated [in the
-Golioth Basics example
+LightDB Set API calls are demonstrated [in the Golioth Basics example
 application](https://github.com/golioth/golioth-firmware-sdk/blob/develop/examples/common/golioth_basics.c).
 They can be easily located by searching for `golioth_lightdb_set`.
 

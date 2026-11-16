@@ -16,44 +16,34 @@ operation, the path and all of its child nodes will cease to exist.
 These headers make the Golioth client and LightDB State API functions
 available to your program.
 
-## Synchronous Delete
+## Deleting a path
 
 ```c
-int err = golioth_lightdb_delete_sync(client, "counter", 1);
+int err = golioth_lightdb_delete(client,
+                                 "counter",
+                                 counter_delete_handler,
+                                 NULL);
 ```
 
-The simplest way to delete LightDB State data from Golioth is using a synchronous
-delete function. This blocking function will delete the given path and wait
-for a response (or error) from the server. If a response is not received within
-the given timeout, a `GOLIOTH_ERR_TIMEOUT` error code will be returned.
-
-In the above example, we tell Golioth to delete the `"counter"` path, with a `1`
-second timeout.
-
-## Asynchronous Delete
-
-The asynchronous function is a non-blocking approach to deleting a LightDB State
-path from Golioth. When the task completes, an optional callback function may be
-run to process the result of the async operation.
-
-### Calling the async delete function
-
-```c
-int err = golioth_lightdb_delete_async(client,
-                                       "counter",
-                                       counter_delete_handler,
-                                       NULL);
-```
-
-The async delete function deletes a given path, but the request is enqueued by
-the Golioth Client so that program execution is not blocked. If a callback
-function is supplied, it will be called by the Golioth Client when the delete
-operation is completed. An optional callback argument can be specified, this
-data will be available in the callback function.
+The delete function does not block. The request is enqueued by the Golioth
+Client and the function returns immediately; its return value only reports
+whether the request was queued. If a callback function is supplied, it will be
+called by the Golioth Client when the delete operation is completed. An
+optional callback argument can be specified, this data will be available in the
+callback function. The server reports success even if the path does not exist.
 
 In the above example, we tell Golioth to delete the `"counter"` path, with
 `counter_delete_handler` as the callback function and no callback argument
 (`NULL`).
+
+:::note Waiting for the result
+
+The synchronous `_sync` functions were removed in Golioth Firmware SDK
+v0.23.0. An application that needs to block until the request completes can
+wait (for example on a semaphore) for the callback to run, but not from inside
+a Golioth callback, because callbacks run on the Golioth client thread.
+
+:::
 
 ### Callback function
 
@@ -84,13 +74,13 @@ the non-success CoAP response code sent by the server; for other errors (for
 example `GOLIOTH_ERR_TIMEOUT`) no response was received and `coap_rsp_code` is
 `NULL`.
 
-The same callback may be used by multiple async functions. Add logic to react
+The same callback may be used by multiple requests. Add logic to react
 based on which `path` was being deleted, and any callback arguments found in
 the `arg` variable.
 
 ## Example in the Golioth Basics Application
 
-An asynchronous LightDB delete API call is demonstrated [in the Golioth Basics
+A LightDB delete API call is demonstrated [in the Golioth Basics
 example
 application](https://github.com/golioth/golioth-firmware-sdk/blob/develop/examples/common/golioth_basics.c).
 It can be easily located by searching for `golioth_lightdb_delete`.
