@@ -42,10 +42,6 @@ sudo apt-get install git wget flex bison gperf python3 python3-venv \
 brew install cmake ninja dfu-util python3
 ```
 
-```console
-sudo easy_install pip
-```
-
 #### 2. Clone the ESP-IDF repository and set up the tools
 
 <CodeBlock language="console">
@@ -63,8 +59,8 @@ sudo easy_install pip
 
 :::note
 Espressif provides [comprehensive instructions for installing ESP-IDF for
-Windows](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/index.html#setting-up-development-environment).
-It recommends [using the ESP-IDF Tools Installer](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/windows-setup.html#get-started-windows-tools-installer) which installs and configures all required ESP-IDF tools for Windows systems.
+Windows](https://docs.espressif.com/projects/esp-idf/en/v5.4.1/esp32s3/get-started/index.html#installation).
+It recommends [using the ESP-IDF Tools Installer](https://docs.espressif.com/projects/esp-idf/en/v5.4.1/esp32s3/get-started/windows-setup.html#get-started-windows-tools-installer) which installs and configures all required ESP-IDF tools for Windows systems.
 :::
 
 </TabItem>
