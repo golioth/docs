@@ -47,6 +47,11 @@ device in the table and clicking `Remove Device` in the top right corner.
 
 When you remove a device from a cohort, it stops receiving updates about its deployments. Contrary to when you added a device to a cohort, removing it will **not** prompt an immediate manifest change event on the device.
 
+Devices running Golioth Firmware SDK v0.21.0 or later also fetch the manifest
+periodically (once a day by default, configured with
+`CONFIG_GOLIOTH_OTA_MANIFEST_SUBSCRIPTION_POLL_INTERVAL_S`) and pick up the
+change then.
+
 :::warning Fallback to legacy releases
 
 If you have previously used the old releases concept to distribute OTA updates,
