@@ -11,10 +11,11 @@ demonstrate core features like LightDB State/Stream, Logging, and OTA Updates.
 
 Golioth Firmware SDK example code is located in the
 `golioth-firmware-sdk/examples/esp_idf`. Navigate to the `golioth_basics` example and run
-the following code to build the example app:
+the following code to build the example app for the ESP32-S3 (use the target
+that matches your chip if it is a different one, e.g. `esp32c3`):
 
 ```console
-idf.py set-target esp32
+idf.py set-target esp32s3
 idf.py build
 ```
 

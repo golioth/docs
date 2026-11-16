@@ -18,7 +18,7 @@ values={[
 cd ~/esp
 cp -r $IDF_PATH/examples/get-started/hello_world .
 cd hello_world
-idf.py set-target esp32
+idf.py set-target esp32s3
 idf.py build
 ```
 
@@ -29,7 +29,7 @@ idf.py build
 cd ~/esp
 cp -r $IDF_PATH/examples/get-started/hello_world .
 cd hello_world
-idf.py set-target esp32
+idf.py set-target esp32s3
 idf.py build
 ```
 
@@ -40,7 +40,7 @@ idf.py build
 cd %HOMEPATH%\esp
 xcopy /e /i %IDF_PATH%\examples\get-started\hello_world hello_world
 cd hello_world
-idf.py set-target esp32
+idf.py set-target esp32s3
 idf.py build
 ```
 
