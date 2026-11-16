@@ -31,7 +31,7 @@ continue with this section.
 
 To program binaries to the Thingy91 we recommend starting with the [Nordic nRF
 Connect for
-Desktop](https://infocenter.nordicsemi.com/index.jsp?topic=/struct_nrftools/struct/nrftools_nrfconnect.html)
+Desktop](https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-desktop)
 tools as they have great cross-platform support and work well.
 
 import InstallNrfConnect from './\_partials/install_nrf_connect.md'
