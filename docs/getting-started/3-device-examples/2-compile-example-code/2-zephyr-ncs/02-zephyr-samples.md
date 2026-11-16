@@ -147,9 +147,11 @@ Be sure to reference the README file for each for detailed configuration and
 usage information.
 
 * **certificate_provisioning:** Use certificate authentication
-* **firmware_update:** Use Golioth over-the-air (OTA) firmware update
+* **certificate_rotation:** Rotate device certificates using Golioth PKI
+* **fw_update:** Use Golioth over-the-air (OTA) firmware update
 * **hello:** Connect and send hello logging messages
-* **lightdb:** Set, get, and observe stateful data between device and cloud
+* **hello_nrf91_offloaded:** Connect using the nRF91 modem's offloaded DTLS sockets
+* **lightdb:** Set, get, observe, and delete stateful data between device and cloud
 * **location:** Use network information to determine device location
 * **logging:** Demonstrate logging messages of each different log level
 * **rpc:** Issue a remote procedure call (rpc) and received data back from device
