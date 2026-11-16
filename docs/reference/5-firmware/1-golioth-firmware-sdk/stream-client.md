@@ -94,7 +94,7 @@ While CBOR is not human readable, there are online tools like
 <summary>Click to reveal a zcbor encoding example</summary>
 
 Here is an example of using zcbor in canonical mode (`ZCBOR_CANONICAL` or in
-Zephyr: `CONFIG_ZCBOR_CANONICAL`)to encode a CBOR payload.
+Zephyr: `CONFIG_ZCBOR_CANONICAL`) to encode a CBOR payload.
 
 ```c
 #include <zcbor_encode.h>

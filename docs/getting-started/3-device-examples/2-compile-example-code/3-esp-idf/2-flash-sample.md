@@ -56,8 +56,8 @@ Press TAB when typing command name to auto-complete.
 Press Enter or Ctrl+C will terminate the console environment.
 ```
 
-Use the `settings set <key> <value>` syntax to set the for required items. Your
-Golioth PSK-ID and PSK can be found on the device page of [the Golioth
+Use the `settings set <key> <value>` syntax to set the four required items.
+Your Golioth PSK-ID and PSK can be found on the device page of [the Golioth
 Console](https://console.golioth.io). Use the `reset` command once you've set
 these credentials to restart the device.
 

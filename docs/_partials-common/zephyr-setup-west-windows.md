@@ -67,7 +67,7 @@ values={[
     { `mkdir ${props.workspace_directory}` }
     </CodeBlock>
 
-2. Use `pip3` to install `west`:
+2. Use `pip` to install `west`:
 
     ```shell
     pip install -U west
