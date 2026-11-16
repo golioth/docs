@@ -66,7 +66,7 @@ currently downloading an update of the `main` package; going from the current
 
 ```json
 {
-  "state": 3,
+  "state": 1,
   "reason": 0,
   "package": "main",
   "version": "1.2.3",
@@ -89,7 +89,7 @@ currently downloading an update of the `main` package; going from the current
 | 0    | Idle        |
 | 1    | Downloading |
 | 2    | Downloaded  |
-| 3    | Updated     |
+| 3    | Updating    |
 
 - The list of `state` codes, can be viewed in the
   [golioth_ota_state](https://firmware-sdk-docs.golioth.io/group__golioth__ota.html)
