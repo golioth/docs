@@ -24,7 +24,7 @@ cellular development board as part of our continuous integration (CI).
 
 This page includes build commands for this board. You may model configuration
 for your own target hardware on the configuration and overlay files found in the
-`boards` directory of each example application.
+`boards` and `socs` directories of each example application.
 
 ## Build the `hello` code example
 

@@ -21,9 +21,8 @@ Golioth maintains a special level of support for a number of different
 development boards using Hardware-in-the-Loop testing. You will find a fast path
 to success by testing Golioth using one of these boards:
 
-* Espressif ESP32-devkitc/ESP32S3-devkitc/ESP32C3-devkitm
-* Nordic nRF9160DK
-* Nordic nRF52840 + ESP32 (AT Modem)
-* NXP FRDM-RW612
+* Espressif ESP32-S3-DevKitC-1 (Zephyr and ESP-IDF)
+* Nordic nRF9160 DK (nRF Connect SDK)
+* NXP FRDM-RW612 (Zephyr, Ethernet and WiFi)
 
 :::
