@@ -82,8 +82,8 @@ Hover over the red-I icon to reveal the sync status message.
 ![Settings sync status](./assets/sync-status.png)
 
 For more information on types of sync status, see the `golioth_settings_status`
-enumeration on [the Golioth Zephyr SDK
-reference](https://zephyr-sdk-docs.golioth.io/group__golioth__settings.html).
+enumeration in [the Golioth Firmware SDK
+reference](https://firmware-sdk-docs.golioth.io/group__golioth__settings.html).
 
 ### Inheritance information on mouseover
 
