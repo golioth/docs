@@ -7,7 +7,7 @@ tooling incompatibilities.
 
 <Tabs
 groupId="west-installation"
-defaultValue="global"
+defaultValue="virtualenv"
 values={[
 {label: 'Install within a virtualenv', value: 'virtualenv'},
 {label: 'Install globally', value: 'global'},
@@ -59,6 +59,11 @@ values={[
     ```
 </TabItem>
 <TabItem value="global">
+
+:::note
+Recent distributions, such as Ubuntu 23.04 and later, and Homebrew's Python
+refuse system-wide `pip` installs (PEP 668). Use the virtualenv tab there.
+:::
 
 1. Create your workspace directory:
 
