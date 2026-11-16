@@ -6,11 +6,11 @@ sidebar_position: 3
 Use a LightDB observe function to receive an update whenever a specific path
 value changes on the cloud.
 
-The observe request works in a similar way to an async get request and much of
-the setup is the same. Data is received asynchronously and sent to a handler
-function. However, an async get request runs only once and is relatively
-short-lived (the transaction ends when a payload is passed to the
-callback)&mdash;this is not the case for observations.
+The observe request works in a similar way to a get request and much of the
+setup is the same. Data is received asynchronously and sent to a handler
+function. However, a get request runs only once and is relatively short-lived
+(the transaction ends when a payload is passed to the callback)&mdash;this is
+not the case for observations.
 
 Once the observe request is made, the callback will receive an initial payload
 from the server. After this, the callback remains in place and may be called
@@ -29,23 +29,23 @@ These headers make the Golioth client and LightDB State API functions, and the
 payload helper functions from `golioth/payload_utils.h`, available to your
 program.
 
-## Asynchronous Observe
+## Observing a path
 
-The asynchronous function `golioth_lightdb_observe_async()` is a non-blocking
-approach to receiving data updates from Golioth. When data on your observed path
-changes, a callback function runs to supply a payload with the updated data.
+The function `golioth_lightdb_observe()` is a non-blocking approach to receiving
+data updates from Golioth. When data on your observed path changes, a callback
+function runs to supply a payload with the updated data.
 
-### Calling the async observe function
+### Calling the observe function
 
 ```c
-int err = golioth_lightdb_observe_async(client,
-                                        "counter",
-                                        GOLIOTH_CONTENT_TYPE_JSON,
-                                        counter_observe_handler,
-                                        NULL);
+int err = golioth_lightdb_observe(client,
+                                  "counter",
+                                  GOLIOTH_CONTENT_TYPE_JSON,
+                                  counter_observe_handler,
+                                  NULL);
 ```
 
-The async observe function requests that Golioth send a new payload to the
+The observe function requests that Golioth send a new payload to the
 device whenever data from a given path changes. A user-defined callback function
 is supplied so that you may process the received data. An optional callback
 argument can be specified, this data will be available in the callback function.
@@ -90,8 +90,8 @@ indicating the length of data. Helper functions like `golioth_payload_as_int()`
 are used to convert the payload to the desired type, or a JSON parser of your
 choosing may be used to unpack the payload.
 
-The same callback may be used by multiple async functions. Add logic to react
-based on which `path` was being written to, and any callback arguments found in
+The same callback may be used by multiple requests. Add logic to react
+based on which `path` was observed, and any callback arguments found in
 the `arg` variable.
 
 ## Observing Complex JSON Objects

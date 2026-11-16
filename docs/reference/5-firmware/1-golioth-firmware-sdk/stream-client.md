@@ -27,9 +27,8 @@ information.
 
 :::
 
-Synchronous and asynchronous functions exist to set multiple data types and
-paths using your choice of these content types: `JSON`, `CBOR`, and
-`OCTET_STREAM` for arbitrary binary data.
+`golioth_stream_set()` sends data to any path using your choice of these content
+types: `JSON`, `CBOR`, and `OCTET_STREAM` for arbitrary binary data.
 
 ## Includes
 
@@ -138,31 +137,35 @@ devices in a fleet over large time periods becomes substantial.
 
 :::
 
-## Synchronous
+## Sending stream data
 
 ```c
 /* Send JSON object */
-err = golioth_stream_set_sync(client,
-                              "sensor",
-                              GOLIOTH_CONTENT_TYPE_JSON,
-                              json_buf,
-                              strlen(json_buf),
-                              1);
+err = golioth_stream_set(client,
+                         "sensor",
+                         GOLIOTH_CONTENT_TYPE_JSON,
+                         (const uint8_t *)json_buf,
+                         strlen(json_buf),
+                         NULL,
+                         NULL);
 
 /* Send CBOR object */
-err = golioth_stream_set_sync(client,
-                              "sensor",
-                              GOLIOTH_CONTENT_TYPE_CBOR,
-                              cbor_buf,
-                              sizeof(cbor_buf),
-                              1);
+err = golioth_stream_set(client,
+                         "sensor",
+                         GOLIOTH_CONTENT_TYPE_CBOR,
+                         cbor_buf,
+                         sizeof(cbor_buf),
+                         NULL,
+                         NULL);
 ```
 
-
-The simplest way to send Stream data to Golioth is using a synchronous function
-call. This blocking function will send data to the given path and wait for a
-response (or error) from the server. If a response is not received within the
-given timeout, a `GOLIOTH_ERR_TIMEOUT` error code will be returned.
+`golioth_stream_set()` does not block: the request is enqueued by the Golioth
+Client and the function returns immediately. Its return value only reports
+whether the request was queued; pass a callback (see below) to learn the
+result. The synchronous `golioth_stream_set_sync()` was removed in Golioth
+Firmware SDK v0.23.0. For payloads too large to send in one request, use
+`golioth_stream_set_blockwise_sync()`, which reads the data block by block from
+a callback and blocks until the upload completes.
 
 :::info Path Values and Pipelines
 
@@ -174,9 +177,9 @@ Golioth Docs.
 
 In the above examples, we tell Golioth to set the `"sensor"` path using the enum
 for our desired content type, along with the `json_buf`/`cbor_buf` pointer and
-the length of that array. The final argument is a timeout value (in seconds).
-When Golioth receives this data, the server will automatically add a timestamp
-based on when it was received.
+the length of that array. No callback is registered (`NULL`). When Golioth
+receives this data, the server will automatically add a timestamp based on when
+it was received.
 
 :::tip Multiple Data Points and Nested Data
 
@@ -199,13 +202,12 @@ Golioth servers will have a record of the data that looks like this:
 
 :::
 
-## Asynchronous
+## Using a callback
 
-The asynchronous functions are a non-blocking approach to sending Stream data to
-Golioth. When the task completes, an optional callback function may be run to
-process the result of the async operation.
+When the request completes, an optional callback function may be run to process
+the result.
 
-### Calling the Async Stream Set Function
+### Calling the Stream Set Function with a Callback
 
 ```c
 enum obj_type {
@@ -213,24 +215,24 @@ enum obj_type {
     CBOR_ASYNC
 };
 
-err = golioth_stream_set_async(client,
-                               "sensor",
-                               GOLIOTH_CONTENT_TYPE_JSON,
-                               (const uint8_t *)json_buf,
-                               strlen(json_buf),
-                               obj_async_handler,
-                               (void *)JSON_ASYNC);
+err = golioth_stream_set(client,
+                         "sensor",
+                         GOLIOTH_CONTENT_TYPE_JSON,
+                         (const uint8_t *)json_buf,
+                         strlen(json_buf),
+                         obj_async_handler,
+                         (void *)JSON_ASYNC);
 
-err = golioth_stream_set_async(client,
-                               "sensor",
-                               GOLIOTH_CONTENT_TYPE_CBOR,
-                               cbor_buf,
-                               sizeof(cbor_buf),
-                               obj_async_handler,
-                               (void *)CBOR_ASYNC);
+err = golioth_stream_set(client,
+                         "sensor",
+                         GOLIOTH_CONTENT_TYPE_CBOR,
+                         cbor_buf,
+                         sizeof(cbor_buf),
+                         obj_async_handler,
+                         (void *)CBOR_ASYNC);
 ```
 
-The async set functions send data to a given path, but the request is enqueued
+`golioth_stream_set()` sends data to a given path, but the request is enqueued
 by the Golioth Client so that program execution is not blocked. If a callback
 function is supplied, it will be called by the Golioth Client when the set
 operation is completed. An optional callback argument can be specified, this
@@ -281,7 +283,7 @@ the non-success CoAP response code sent by the server; for other errors (for
 example `GOLIOTH_ERR_TIMEOUT`) no response was received and `coap_rsp_code` is
 `NULL`.
 
-The same callback may be used by multiple async functions. In this example, the
+The same callback may be used by multiple requests. In this example, the
 `arg` value is used to determine which function led to this callback so that a
 different message may be printed.
 
