@@ -71,9 +71,6 @@ Review your vendor's board support in the [Zephyr Board Index](https://docs.zeph
 
 ## Build Sample Firmware
 
-Your system is all set up and ready to start building & flashing with Zephyr.
-Verify by building a minimal sample:
-
 ### Build Firmware
 
 Your system is all set up and ready to start building & flashing with Zephyr.
