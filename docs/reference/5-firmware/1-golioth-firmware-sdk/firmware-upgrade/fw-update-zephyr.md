@@ -3,9 +3,6 @@ title: Zephyr Firmware Update Example Walkthrough
 sidebar_position: 2
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
 Over-the-Air (OTA) updates are a type of Device Firmware Upgrade (DFU). In this
 page we'll walk through the FW Update sample found in [the Zephyr
 port of the Golioth Firmware
@@ -24,34 +21,18 @@ updated firmware version and report the results to the Golioth Console.
 
 ### OTA Update Sample Workflow
 
-1. Add hardcoded credentials
-2. Build and flash the initial FW Update sample application
-3. Upload the signed/versioned firmware as an artifact
-4. Create a release from the artifact and roll it out to the device
+1. Build and flash the initial FW Update sample application
+2. Set the device credentials
+3. Upload the signed firmware as a new version of a Package
+4. Assign the device to a Cohort and create a Deployment
 5. Observe the device reporting the updated version number
 
 ## Running the OTA Sample
 
-### 1. Add hardcoded credentials
+### 1. Initial build and flash
 
 Navigate to the Golioth module in your zephyr install. This will be the
-`/modules/lib/golioth-firmware-sdk` directory.
-
-Add the Golioth device PSK-ID and PSK to the project `prj.conf` file:
-
-```cfg
-CONFIG_GOLIOTH_SAMPLE_PSK_ID="my-psk-id"
-CONFIG_GOLIOTH_SAMPLE_PSK="my-psk"
-```
-
-:::tip Where do I find my device credentials?
-
-Credentials can be copied from the Device details page in the [Golioth
-Console](https://console.golioth.io).
-
-:::
-
-### 2. Initial build and flash
+`modules/lib/golioth-firmware-sdk` directory of the west workspace.
 
 ```console
 west build -b nrf9160dk/nrf9160/ns --sysbuild examples/zephyr/fw_update
@@ -61,30 +42,42 @@ west flash
 By default, this will build and run firmware version `1.2.3` on the Nordic
 nRF9160 development kit.
 
+:::note Devices flashed with an earlier fw_update sample
+
+Since Golioth Firmware SDK v0.23.0 the fw_update sample on the nRF9160 DK keeps
+the MCUboot secondary slot in external flash. A device running a build of the
+sample from an earlier SDK version must be reflashed with `west flash`, which
+also programs MCUboot, instead of being updated over the air.
+
+:::
+
+### 2. Set device credentials
+
+Open a serial terminal to the device and set the Golioth PSK-ID and PSK through
+the shell. The credentials are stored using the Zephyr Settings subsystem:
+
+```console
+uart:~$ settings set golioth/psk-id <my-psk-id@my-project>
+uart:~$ settings set golioth/psk <my-psk>
+uart:~$ kernel reboot cold
+```
+
+:::tip Where do I find my device credentials?
+
+Credentials can be copied from the Device details page in the [Golioth
+Console](https://console.golioth.io).
+
+:::
+
 ### 3. Rebuild firmware with new version number
 
-<Tabs>
-  <TabItem value="v0.15.0+" label="Firmware SDK v0.15.0+" default>
-    Instructions for Firmware SDK version `0.15.0` and later:
+Update the firmware version in the project `VERSION` file:
 
-    Update the firmware version in the project `VERSION` file:
-
-    ```cfg
-    VERSION_MAJOR = 1
-    VERSION_MINOR = 2
-    PATCHLEVEL = 4
-    ```
-  </TabItem>
-  <TabItem value="< v0.15.0" label="Firmware SDK < v0.15.0">
-    Instructions for Firmware SDK versions earlier than `0.15.0`:
-
-    Update the firmware version in the project `prj.conf` file:
-
-    ```cfg
-    CONFIG_MCUBOOT_IMGTOOL_SIGN_VERSION="1.2.4"
-    ```
-  </TabItem>
-</Tabs>
+```cfg
+VERSION_MAJOR = 1
+VERSION_MINOR = 2
+PATCHLEVEL = 4
+```
 
 Then build the application a second time.
 
@@ -185,13 +178,12 @@ are compiled and versioned, the process for creating the artifact and deployment
 on the Golioth Console, and the device reporting back a new version number after
 a successful update.
 
-:::note Do not use hardcoded credential in practice
+:::note Store credentials outside the application image
 
-The Golioth FW Update sample uses hardcoded PSK credentials to simplify the
-example code. An alternate option must be used when more than one device is
-receiving an update (e.g. device certificate authentication stored in persistent
-memory). This will ensure that credentials specific to each device are not
-overwritten by hardcoded values present in the update.
+The FW Update sample stores the PSK credentials in the Zephyr Settings
+subsystem, so a firmware update does not overwrite them. In production, store
+per-device credentials (for example a device certificate) in persistent storage
+that updates do not touch.
 
 :::
 
