@@ -115,11 +115,12 @@ The callback receives the whole JSON object in `payload`, `payload_size` bytes
 long; pass it to a JSON parser of your choosing. Use
 `GOLIOTH_CONTENT_TYPE_CBOR` to receive the same data as CBOR.
 
-## Example in the Golioth Basics Application
+## Example application
 
-LightDB Get API calls are demonstrated [in the Golioth Basics example
-application](https://github.com/golioth/golioth-firmware-sdk/blob/develop/examples/common/golioth_basics.c).
-They can be easily located by searching for `golioth_lightdb_get`.
+LightDB Get API calls are demonstrated in the [LightDB GET sample for
+Zephyr](https://github.com/golioth/golioth-firmware-sdk/tree/main/examples/zephyr/lightdb/get)
+and the [LightDB GET sample for
+ESP-IDF](https://github.com/golioth/golioth-firmware-sdk/tree/main/examples/esp_idf/lightdb/get).
 
 ## Resources
 

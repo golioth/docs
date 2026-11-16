@@ -38,4 +38,4 @@ into four categories:
 
 These categories are described in-depth in the pages to follow. Please review
 the Golioth Firmware SDK Doxygen site for [a comprehensive LightDB API
-reference](https://firmware-sdk-docs.golioth.io/group__golioth__lightdb.html).
+reference](https://firmware-sdk-docs.golioth.io/group__golioth__lightdb__state.html).

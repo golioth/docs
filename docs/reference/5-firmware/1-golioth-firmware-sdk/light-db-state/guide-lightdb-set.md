@@ -124,11 +124,12 @@ Here is what the resulting data on the cloud will look like:
 }
 ```
 
-## Example in the Golioth Basics Application
+## Example application
 
-LightDB Set API calls are demonstrated [in the Golioth Basics example
-application](https://github.com/golioth/golioth-firmware-sdk/blob/develop/examples/common/golioth_basics.c).
-They can be easily located by searching for `golioth_lightdb_set`.
+LightDB Set API calls are demonstrated in the [LightDB SET sample for
+Zephyr](https://github.com/golioth/golioth-firmware-sdk/tree/main/examples/zephyr/lightdb/set)
+and the [LightDB SET sample for
+ESP-IDF](https://github.com/golioth/golioth-firmware-sdk/tree/main/examples/esp_idf/lightdb/set).
 
 ## Resources
 
