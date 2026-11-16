@@ -206,6 +206,16 @@
           "type": 301
         },
         {
+          "source": "/firmware/golioth-firmware-sdk/authentication/certificate-auth",
+          "destination": "/reference/firmware/golioth-firmware-sdk/authentication/certificate-auth",
+          "type": 301
+        },
+        {
+          "source": "/firmware/golioth-firmware-sdk",
+          "destination": "/reference/firmware/golioth-firmware-sdk",
+          "type": 301
+        },
+        {
           "source": "/firmware/hardware/:hw*",
           "destination": "/reference/hardware/:hw",
           "type": 301
@@ -234,7 +244,32 @@
           "source": "/reference/device-api/api-docs/logging",
           "destination": "/data-routing/destinations/logs",
           "type": 301
-	}
+        },
+        {
+          "source": "/reference/device-api/api-docs/location",
+          "destination": "/data-routing/transformers/location",
+          "type": 301
+        },
+        {
+          "source": "/reference/protocols/coap/lightdb",
+          "destination": "/reference/device-api/api-docs/lightdb",
+          "type": 301
+        },
+        {
+          "source": "/reference/protocols/coap/logging",
+          "destination": "/device-management/logging/sending-logs",
+          "type": 301
+        },
+        {
+          "source": "/reference/protocols/coap/ota",
+          "destination": "/reference/device-api/api-docs/ota",
+          "type": 301
+        },
+        {
+          "source": "/reference/protocols/coap/stream",
+          "destination": "/reference/device-api/api-docs/streaming-data",
+          "type": 301
+        }
       ],
       "rewrites": [
         {
@@ -474,6 +509,16 @@
           "type": 301
         },
         {
+          "source": "/firmware/golioth-firmware-sdk/authentication/certificate-auth",
+          "destination": "/reference/firmware/golioth-firmware-sdk/authentication/certificate-auth",
+          "type": 301
+        },
+        {
+          "source": "/firmware/golioth-firmware-sdk",
+          "destination": "/reference/firmware/golioth-firmware-sdk",
+          "type": 301
+        },
+        {
           "source": "/firmware/hardware/:hw*",
           "destination": "/reference/hardware/:hw",
           "type": 301
@@ -502,7 +547,32 @@
           "source": "/reference/device-api/api-docs/logging",
           "destination": "/data-routing/destinations/logs",
           "type": 301
-	}
+        },
+        {
+          "source": "/reference/device-api/api-docs/location",
+          "destination": "/data-routing/transformers/location",
+          "type": 301
+        },
+        {
+          "source": "/reference/protocols/coap/lightdb",
+          "destination": "/reference/device-api/api-docs/lightdb",
+          "type": 301
+        },
+        {
+          "source": "/reference/protocols/coap/logging",
+          "destination": "/device-management/logging/sending-logs",
+          "type": 301
+        },
+        {
+          "source": "/reference/protocols/coap/ota",
+          "destination": "/reference/device-api/api-docs/ota",
+          "type": 301
+        },
+        {
+          "source": "/reference/protocols/coap/stream",
+          "destination": "/reference/device-api/api-docs/streaming-data",
+          "type": 301
+        }
       ],
       "rewrites": [
         {
