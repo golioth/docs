@@ -3,7 +3,7 @@ import TabItem from '@theme/TabItem';
 import CodeBlock from '@theme/CodeBlock';
 import ZephyrSdkNgVer from '!!raw-loader!/docs/_versions/zephyr-project-sdk-ng.md';
 
-Download the [latest SDK installer](https://github.com/zephyrproject-rtos/sdk-ng/releases):
+Download Zephyr SDK <code>{ZephyrSdkNgVer.replace(/(\n)/gm, "")}</code> from the [SDK releases](https://github.com/zephyrproject-rtos/sdk-ng/releases):
 
 <Tabs
 groupId="os"
@@ -45,6 +45,9 @@ sudo udevadm control --reload`
 
 </TabItem>
 <TabItem value="macos">
+
+On Apple Silicon Macs, replace `macos-x86_64` with `macos-aarch64` in the
+commands below.
 
 <CodeBlock language="console">
 {
