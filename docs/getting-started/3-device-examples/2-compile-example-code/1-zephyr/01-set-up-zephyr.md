@@ -44,6 +44,9 @@ and tools based on your specific hardware.
     $ west blobs fetch hal_espressif
     ```
 
+  Flashing Espressif boards needs `esptool`, which is installed by the
+  `west packages pip --install` step above.
+
 - The NXP FRDM-RW612 WiFi build requires the NXP binary blobs:
 
     ```shell
