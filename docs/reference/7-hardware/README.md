@@ -2,9 +2,8 @@
 title: Hardware
 ---
 
-The Hardware section includes a catalog of supported boards for the Golioth
-platform. Additionally, there are quickstart guides and recommended boards for
-common MCUs, such as the ESP32 and nRF91.
+The Hardware section describes Golioth's board support tiers and includes
+quickstart guides for virtual devices.
 
 ## Board Support Tiers
 
@@ -16,16 +15,17 @@ and Unverified.
 A continuously verified board:
 
 * is highly recommended for new users that want to try out Golioth.
-* is tested on every release of the [Golioth Zephyr SDK](https://github.com/golioth/golioth-zephyr-sdk).
+* is tested on every commit of the [Golioth Firmware SDK](https://github.com/golioth/golioth-firmware-sdk#verified-devices).
 * is regularly tested and used by the Golioth development team.
 * has first class support and maintenance from Golioth. If you encounter a problem
     with one of these boards, you can reach out to us on [the Golioth Forum](https://forum.golioth.io) or
-    [file a bug report](https://github.com/golioth/golioth-zephyr-sdk/issues),
+    [file a bug report](https://github.com/golioth/golioth-firmware-sdk/issues),
     and we will address it quickly.
 
 The set of boards in this category covers commonly used
-connectivity options including WiFi, cellular, and Thread.
-Additionally, these boards cover common MCUs, such as the ESP32 and nRF91.
+connectivity options including WiFi, Ethernet, and cellular.
+Additionally, these boards cover common MCUs, such as the ESP32-S3, NXP RW612,
+and nRF91.
 
 ### Verified Boards
 
@@ -33,7 +33,7 @@ A verified board:
 
 * is tested and confirmed to work with Golioth.
 * is tested less frequently than continuously verified boards. This means it
-    was tested on an older version of the Golioth Zephyr SDK, but may not
+    was tested on an older version of the Golioth Firmware SDK, but may not
     have been tested on the most recent commits.
 * is supported and maintained by the Golioth development team. You can reach
     out to us on [the Golioth Forum](https://forum.golioth.io) for help and troubleshooting.
