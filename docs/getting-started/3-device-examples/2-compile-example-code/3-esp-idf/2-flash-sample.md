@@ -3,18 +3,18 @@ id: flash-sample
 title: Flashing with samples
 ---
 
-Now we're getting to the good stuff - working with hardware! The sample project
-provided will demonstrate a device securely communicating with Golioth and will
-demonstrate core features like LightDB State/Stream, Logging, and OTA Updates.
+Now we're getting to the good stuff - working with hardware! The `hello` sample
+connects securely to Golioth and sends a log message every 5 seconds.
 
-### Build the `golioth_basics` code example
+### Build the `hello` code example
 
 Golioth Firmware SDK example code is located in the
-`golioth-firmware-sdk/examples/esp_idf`. Navigate to the `golioth_basics` example and run
+`golioth-firmware-sdk/examples/esp_idf`. Navigate to the `hello` example and run
 the following code to build the example app for the ESP32-S3 (use the target
 that matches your chip if it is a different one, e.g. `esp32c3`):
 
 ```console
+cd ~/golioth-firmware-sdk/examples/esp_idf/hello
 idf.py set-target esp32s3
 idf.py build
 ```
@@ -42,17 +42,15 @@ Connect to the device over a serial console. This can be done using a tool like
 idf.py monitor
 ```
 
-Press enter to see the command prompt and type `reset` to restart the device.
-You will see boot information followed by a warning that credentials cannot be
-located:
+Press enter to see the command prompt. Until the WiFi credentials are set, the
+sample logs a warning that tells you to use the shell `settings` commands. The
+shell greeting looks like this:
 
 ```console
 Type 'help' to get the list of commands.
 Use UP/DOWN arrows to navigate through command history.
 Press TAB when typing command name to auto-complete.
 Press Enter or Ctrl+C will terminate the console environment.
-esp32> W (2721) golioth_example: WiFi and golioth credentials are not set
-W (2721) golioth_example: Use the shell settings commands to set them, then restart
 ```
 
 Use the `settings set <key> <value>` syntax to set the for required items. Your
@@ -72,30 +70,28 @@ Setting golioth/psk saved
 esp32> reset
 ```
 
-The result should be a successful connection to Golioth.
+The result should be a successful connection to Golioth. The device joins the
+WiFi network and the CoAP session to Golioth is established. The SSID and
+PSK-ID in this output are example values; yours will differ:
 
 ```console
-I (3762) esp_netif_handlers: sta ip: 192.168.1.195, mask: 255.255.255.0, gw: 192.168.1.1
-I (3762) example_wifi: WiFi Connected. Got IP:192.168.1.195
-I (3772) example_wifi: Connected to AP SSID: MyWiFiAP
-I (3792) golioth_coap_client: Start CoAP session
-I (3802) libcoap: Setting PSK key
+I (3200) esp_netif_handlers: sta ip: 192.168.200.7, mask: 255.255.255.0, gw: 192.168.200.1
+I (3200) example_wifi: WiFi Connected. Got IP:192.168.200.7
+I (3210) example_wifi: Connected to AP SSID: golioth
+I (3210) golioth_mbox: Mbox created, bufsize: 2520, num_items: 20, item_size: 120
+I (3250) golioth_coap_client_libcoap: Start CoAP session with host: coaps://coap.golioth.io
+I (3250) golioth_coap_client_libcoap: Session PSK-ID: devboard-one-id@ttgo-demo
+I (3270) libcoap: Setting PSK key
 
-I (3802) golioth_coap_client: Entering CoAP I/O loop
-I (4042) golioth_example: Golioth client connected
-I (4102) golioth_fw_update: Current firmware version: 1.2.3
-I (4222) golioth_fw_update: Waiting to receive OTA manifest
-I (4342) golioth_fw_update: Received OTA manifest
-I (4342) golioth_fw_update: Manifest does not contain different firmware version. Nothing to do.
-I (4352) golioth_fw_update: Waiting to receive OTA manifest
-I (4402) golioth_example: Synchronously got my_int = 42
-I (4412) golioth_example: Entering endless loop
-I (4462) golioth_example: Callback got my_int = 42
-
+I (3270) golioth_coap_client_libcoap: Entering CoAP I/O loop
+I (3720) golioth_coap_client_libcoap: Golioth CoAP client connected
 ```
+
+The `hello` sample then logs `Golioth client connected` and, every 5 seconds,
+`Sending hello! <n>` with an increasing counter.
 
 You can exit from the ESP-IDF Monitor tool using `CTRL-]`. (A help menu can be
 displayed by typing `CTRL-T` followed by `CTRL-H`.)
 
 Congratulations! On the next page, we'll look at how Over-the-Air (OTA) firmware
-updates work with this sample.
+updates work using the `fw_update` sample.
