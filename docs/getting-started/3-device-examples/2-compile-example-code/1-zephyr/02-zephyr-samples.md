@@ -8,7 +8,7 @@ import TabItem from '@theme/TabItem';
 The Golioth Firmware SDK includes [a number of Zephyr example
 applications](https://github.com/golioth/golioth-firmware-sdk/tree/main/examples/zephyr)
 to demonstrate each of our services. In this section we'll build the `hello`
-sample which connects to Golioth and sends "Hello Golioth! n" messages to our
+sample which connects to Golioth and sends "Sending hello! n" messages to our
 remote logging service.
 
 This same configure&rarr;build&rarr;flash process may be applied to all of the
@@ -179,6 +179,14 @@ page for your device in the Golioth web console. You will also see the hello
 messages listed in the Log tab:
 
 ![Golioth web console log messages](../assets/golioth-console-hello-log-messages.png)
+
+:::note
+
+Logs reach the Log tab through a [CBOR logs
+Pipeline](/data-routing/examples/golioth-logs-cbor). New projects include it
+by default; older projects need to add it.
+
+:::
 
 ## Additional Golioth Example Code
 

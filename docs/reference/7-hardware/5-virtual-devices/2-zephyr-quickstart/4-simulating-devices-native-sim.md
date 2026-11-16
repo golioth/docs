@@ -110,6 +110,14 @@ messages listed in the Log tab:
 
 ![Golioth web console log messages](../../../../getting-started/3-device-examples/2-compile-example-code/assets/golioth-console-hello-log-messages.png)
 
+:::note
+
+Logs reach the Log tab through a [CBOR logs
+Pipeline](/data-routing/examples/golioth-logs-cbor). New projects include it
+by default; older projects need to add it.
+
+:::
+
 ## Additional Golioth Example Code
 
 Congratulations on running the Hello app! The same process may be used to run
