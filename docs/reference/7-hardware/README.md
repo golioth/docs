@@ -49,7 +49,7 @@ An unverified board:
 It's very possible that the board may work well with Golioth, but it has not
 yet been tested by the Golioth team.
 
-Check if the board is in [Zephyr's list of supported boards](https://docs.zephyrproject.org/latest/boards/index.html).
+Check if the board is in [Zephyr's list of supported boards](https://docs.zephyrproject.org/4.3.0/boards/index.html).
 If it's in the list, there's a good chance it will work with Golioth with
 low development effort.
 
