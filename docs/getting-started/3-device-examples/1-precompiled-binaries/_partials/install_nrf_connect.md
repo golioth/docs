@@ -2,8 +2,7 @@
    Desktop](https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-desktop)
    software.
 
-   1. **Mac and Linux Users:** According to [the Nordic install
-      instructions](https://infocenter.nordicsemi.com/index.jsp?topic=/struct_nrftools/struct/nrftools_nrfconnect.html)
+   1. **Mac and Linux Users:** According to the Nordic install instructions
       you also need to [install the SEGGER J-Link
       tools](https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack)
 
