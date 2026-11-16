@@ -32,6 +32,8 @@ import FirmwareSdkVer from '!!raw-loader!/docs/_versions/golioth-firmware-sdk.md
 
     ```
     pip install -r %HOMEPATH%/golioth-ncs-workspace/zephyr/scripts/requirements.txt
+    pip install -r %HOMEPATH%/golioth-ncs-workspace/nrf/scripts/requirements.txt
+    pip install -r %HOMEPATH%/golioth-ncs-workspace/bootloader/mcuboot/scripts/requirements.txt
     ```
 
     </TabItem>
@@ -39,6 +41,8 @@ import FirmwareSdkVer from '!!raw-loader!/docs/_versions/golioth-firmware-sdk.md
 
     ```
     pip3 install -r %HOMEPATH%/golioth-ncs-workspace/zephyr/scripts/requirements.txt
+    pip3 install -r %HOMEPATH%/golioth-ncs-workspace/nrf/scripts/requirements.txt
+    pip3 install -r %HOMEPATH%/golioth-ncs-workspace/bootloader/mcuboot/scripts/requirements.txt
     ```
 
     </TabItem>
