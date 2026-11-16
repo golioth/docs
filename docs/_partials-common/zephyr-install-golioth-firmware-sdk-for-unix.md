@@ -3,7 +3,7 @@ import TabItem from '@theme/TabItem';
 import CodeBlock from '@theme/CodeBlock';
 import FirmwareSdkVer from '!!raw-loader!/docs/_versions/golioth-firmware-sdk.md';
 
-1. With `west` installed, grab the Zephyr SDK:
+1. With `west` installed, download Zephyr and the Golioth Firmware SDK:
 
     <CodeBlock language="console">
         { `cd ~` + "\n" }
