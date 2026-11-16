@@ -37,6 +37,7 @@ idf.py build
 <TabItem value="windows">
 
 ```shell
+mkdir %HOMEPATH%\esp
 cd %HOMEPATH%\esp
 xcopy /e /i %IDF_PATH%\examples\get-started\hello_world hello_world
 cd hello_world

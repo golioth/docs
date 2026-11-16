@@ -30,9 +30,9 @@ source ~/esp/esp-idf/export.sh
 
 <TabItem value="windows">
 
-```console
-%HOMEPATH%\esp\esp-idf\export.bat
-```
+Open the **ESP-IDF Command Prompt** from the Start menu. The ESP-IDF Tools
+Installer creates this shortcut, which runs `export.bat` from the ESP-IDF
+directory chosen in the installer.
 
 </TabItem>
 </Tabs>

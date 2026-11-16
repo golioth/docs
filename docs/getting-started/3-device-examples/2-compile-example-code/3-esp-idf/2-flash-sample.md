@@ -19,6 +19,9 @@ idf.py set-target esp32s3
 idf.py build
 ```
 
+On Windows, the first command is
+`cd %HOMEPATH%\golioth-firmware-sdk\examples\esp_idf\hello`.
+
 ### Flashing the device
 
 Flashing is a simple `idf.py` command away.

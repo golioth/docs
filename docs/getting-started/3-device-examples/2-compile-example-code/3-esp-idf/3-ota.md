@@ -28,6 +28,9 @@ idf.py set-target esp32s3
 idf.py build flash monitor
 ```
 
+On Windows, the first command is
+`cd %HOMEPATH%\golioth-firmware-sdk\examples\esp_idf\fw_update`.
+
 Set the WiFi and Golioth credentials with the `settings set` commands from the
 previous page, then type `reset`. The device reports firmware version `1.2.3`
 to Golioth.
