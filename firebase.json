@@ -12,7 +12,7 @@
         },
         {
           "source": "/firmware/golioth-firmware-sdk/light-db-stream{,/**}",
-          "destination": "/firmware/golioth-firmware-sdk/stream-client",
+          "destination": "/reference/firmware/golioth-firmware-sdk/stream-client",
           "type": 301
         },
         {
@@ -47,17 +47,17 @@
         },
         {
           "source": "/hardware/virtual-device/:virt*",
-          "destination": "/firmware/hardware/virtual-devices/:virt",
+          "destination": "/reference/hardware/virtual-devices/:virt",
           "type": 301
         },
         {
           "source": "/hardware/virtual-devices{,/**}",
-          "destination": "/firmware/hardware/virtual-devices/",
+          "destination": "/reference/hardware/virtual-devices/",
           "type": 301
         },
         {
           "source": "/hardware{,/**}",
-          "destination": "/firmware/hardware",
+          "destination": "/reference/hardware",
           "type": 301
         },
         {
@@ -152,7 +152,7 @@
         },
         {
           "source": "/concepts/device-sdks{,/**}",
-          "destination": "/firmware",
+          "destination": "/reference/firmware",
           "type": 301
         },
         {
@@ -305,17 +305,17 @@
         },
         {
           "source": "/hardware/virtual-device/:virt*",
-          "destination": "/firmware/hardware/virtual-devices/:virt",
+          "destination": "/reference/hardware/virtual-devices/:virt",
           "type": 301
         },
         {
           "source": "/hardware/virtual-devices{,/**}",
-          "destination": "/firmware/hardware/virtual-devices/",
+          "destination": "/reference/hardware/virtual-devices/",
           "type": 301
         },
         {
           "source": "/hardware{,/**}",
-          "destination": "/firmware/hardware",
+          "destination": "/reference/hardware",
           "type": 301
         },
         {
@@ -415,7 +415,7 @@
         },
         {
           "source": "/concepts/device-sdks{,/**}",
-          "destination": "/firmware",
+          "destination": "/reference/firmware",
           "type": 301
         },
         {
@@ -455,7 +455,7 @@
         },
         {
           "source": "/firmware/golioth-firmware-sdk/firmware-upgrade/dfu-sample-zephyr{,/**}",
-          "destination": "/firmware/golioth-firmware-sdk/firmware-upgrade/fw-update-zephyr",
+          "destination": "/reference/firmware/golioth-firmware-sdk/firmware-upgrade/fw-update-zephyr",
           "type": 301
         },
         {
@@ -469,12 +469,7 @@
           "type": 301
         },
         {
-          "source": "/firmware/zephyr-device-sdk{,/**}",
-          "destination": "/firmware/golioth-firmware-sdk",
-          "type": 301
-        },
-        {
-          "source": "/reference/device-sdks{,/**}",
+          "source": "/{firmware/zephyr-device-sdk,reference/device-sdks}{,/**}",
           "destination": "/reference/firmware/golioth-firmware-sdk",
           "type": 301
         },
