@@ -11,8 +11,9 @@ Pipedream can be utilized to automate device data collection, process sensor dat
 and trigger actions across various cloud services. This example demonstrates
 accepting a JSON data payload, then delivering it to Pipedream via the
 [Webhook](/data-routing/destinations/webhook) data destination. It relies on
-Pipedream's native [HTTP / Webhook app](https://pipedream.com/apps/http). This
-example should work with both the hosted service as well as the [self-hosted version](https://github.com/PipedreamHQ/pipedream).
+Pipedream's native [HTTP / Webhook
+trigger](https://pipedream.com/docs/workflows/building-workflows/triggers#http).
+This example should work with both the hosted service as well as the [self-hosted version](https://github.com/PipedreamHQ/pipedream).
 
 :::info Reminder
 Make sure to replace the `url` with the correct Pipeline trigger URL for your
