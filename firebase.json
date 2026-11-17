@@ -136,7 +136,7 @@
           "type": 301
         },
         {
-          "source": "/golioth-console{,/**}",
+          "source": "/{concepts/console,golioth-console}{,/**}",
           "destination": "/getting-started/golioth-console",
           "type": 301
         },
@@ -168,11 +168,6 @@
         {
           "source": "/partials-common{,/**}",
           "destination": "/",
-          "type": 301
-        },
-        {
-          "source": "/concepts/console{,/**}",
-          "destination": "/getting-started/device-examples/compile-example-code/",
           "type": 301
         },
         {
@@ -399,7 +394,7 @@
           "type": 301
         },
         {
-          "source": "/golioth-console{,/**}",
+          "source": "/{concepts/console,golioth-console}{,/**}",
           "destination": "/getting-started/golioth-console",
           "type": 301
         },
@@ -431,11 +426,6 @@
         {
           "source": "/partials-common{,/**}",
           "destination": "/",
-          "type": 301
-        },
-        {
-          "source": "/concepts/console{,/**}",
-          "destination": "/getting-started/device-examples/compile-example-code/",
           "type": 301
         },
         {
