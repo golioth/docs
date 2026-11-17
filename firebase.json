@@ -16,16 +16,6 @@
           "type": 301
         },
         {
-          "source": "/hardware/catalog/search{,/**}",
-          "destination": "/firmware/hardware/catalog/search",
-          "type": 301
-        },
-        {
-          "source": "/hardware/catalog/:board*",
-          "destination": "/firmware/hardware/catalog/:board",
-          "type": 301
-        },
-        {
           "source": "/hardware/esp32/espidf-quickstart/:espidf*",
           "destination": "/getting-started/device-examples/compile-example-code/esp-idf/:espidf",
           "type": 301
@@ -81,7 +71,7 @@
           "type": 301
         },
         {
-          "source": "/services/lightdb{,/**}",
+          "source": "/{concepts,services}/lightdb{,/**}",
           "destination": "/application-services/lightdb-state/",
           "type": 301
         },
@@ -168,11 +158,6 @@
         {
           "source": "/concepts/cli{,/**}",
           "destination": "/reference/command-line-tools/tutorial/",
-          "type": 301
-        },
-        {
-          "source": "/concepts/lightdb{,/**}",
-          "destination": "/data-routing/application-services/",
           "type": 301
         },
         {
@@ -289,16 +274,6 @@
           "type": 301
         },
         {
-          "source": "/hardware/catalog/search{,/**}",
-          "destination": "/firmware/hardware/catalog/search",
-          "type": 301
-        },
-        {
-          "source": "/hardware/catalog/:board*",
-          "destination": "/firmware/hardware/catalog/:board",
-          "type": 301
-        },
-        {
           "source": "/hardware/esp32/espidf-quickstart/:espidf*",
           "destination": "/getting-started/device-examples/compile-example-code/esp-idf/:espidf",
           "type": 301
@@ -359,7 +334,7 @@
           "type": 301
         },
         {
-          "source": "/services/lightdb{,/**}",
+          "source": "/{concepts,services}/lightdb{,/**}",
           "destination": "/application-services/lightdb-state/",
           "type": 301
         },
@@ -449,11 +424,6 @@
           "type": 301
         },
         {
-          "source": "/concepts/lightdb{,/**}",
-          "destination": "/data-routing/application-services/",
-          "type": 301
-        },
-        {
           "source": "/concepts{,/**}",
           "destination": "/",
           "type": 301
@@ -489,8 +459,8 @@
           "type": 301
         },
         {
-          "source": "firmware/golioth-firmware-sdk/firmware-upgrade/firmware-upgrade",
-          "destination": "firmware/golioth-firmware-sdk/firmware-upgrade",
+          "source": "/firmware/golioth-firmware-sdk/firmware-upgrade/firmware-upgrade",
+          "destination": "/reference/firmware/golioth-firmware-sdk/firmware-upgrade",
           "type": 301
         },
         {
@@ -505,7 +475,7 @@
         },
         {
           "source": "/reference/device-sdks{,/**}",
-          "destination": "/reference/golioth-firmware-sdk",
+          "destination": "/reference/firmware/golioth-firmware-sdk",
           "type": 301
         },
         {
