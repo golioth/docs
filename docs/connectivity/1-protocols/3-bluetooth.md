@@ -81,8 +81,8 @@ to communicate with the Golioth platform via one or more gateways. Devices
 leveraging `pouch` must use certificates to authenticate with the platform.
 After generating a private key and issuing a certificate for the device, follow
 the instructions in the [`pouch` BLE GATT
-example](https://github.com/golioth/pouch/tree/main/examples/ble_gatt) to get
-started.
+example](https://github.com/golioth/pouch/tree/main/examples/zephyr/ble_gatt)
+to get started.
 
 The example application will periodically request that the gateway proxy data on
 its behalf. Upon the first successful delivery of data to the Golioth platform,
